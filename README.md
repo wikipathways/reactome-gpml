@@ -2,6 +2,8 @@
 
 Repository for GPML versions of Reactome pathways.
 
+Created with [reactome2gpml-mysql-docker](https://github.com/wikipathways/reactome2gpml-mysql-docker) and [reactome2gpml-converter](https://github.com/wikipathways/reactome2gpml-converter).
+
 ## Literature
 
 * [Reactome from a WikiPathways Perspective](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004941) (2016)
