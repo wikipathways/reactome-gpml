@@ -1,0 +1,416 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubmed/1672265>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "1672265" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-76002> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24337851> ;
+        owl:sameAs          <https://doi.org/10.1016%2F0092-8674%2891%2990261-V> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/1672265> .
+
+<https://identifiers.org/reactome/R-HSA-76002>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Platelet activation, signaling and aggregation" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-76002> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-76002" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-109582_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/17059469> , <https://identifiers.org/pubmed/2018971> , <https://identifiers.org/pubmed/1672265> , <https://identifiers.org/pubmed/12411949> , <https://identifiers.org/pubmed/12681240> , <https://identifiers.org/pubmed/8704248> , <https://identifiers.org/pubmed/11511514> , <https://identifiers.org/pubmed/16543958> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-109582_rV88/DataNode/edb6b> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-76002> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-109582&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://doi.org/10.1096%2FFJ.00-0810FJE>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1096/FJ.00-0810FJE" .
+
+<https://doi.org/10.1038%2FNM1102-1227>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NM1102-1227" .
+
+<https://doi.org/10.1007%2FPL00007320>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1007/PL00007320" .
+
+<https://doi.org/10.1089%2FARS.2005.7.1249>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1089/ARS.2005.7.1249" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-109582&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/wikipathways/R-HSA-109582_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-109582> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Hemostasis"@en ;
+        dcterms:description  "Hemostasis is a physiological response that culminates in the arrest of bleeding from an injured vessel. Under normal conditions the vascular endothelium supports vasodilation, inhibits platelet adhesion and activation, suppresses coagulation, enhances fibrin cleavage and is anti-inflammatory in character. Under acute vascular trauma, vasoconstrictor mechanisms predominate and the endothelium becomes prothrombotic, procoagulatory and proinflammatory in nature. This is achieved by a reduction of endothelial dilating agents: adenosine, NO and prostacyclin; and by the direct action of ADP, serotonin and thromboxane on vascular smooth muscle cells to elicit their contraction (Becker et al. 2000). \n\nThe chief trigger for the change in endothelial function that leads to the formation of a haemostatic thrombus is the loss of the endothelial cell barrier between blood and extracellular matrix components (Ruggeri 2002). Circulating platelets identify and discriminate areas of endothelial lesions; here, they adhere to the exposed sub endothelium. Their interaction with the various thrombogenic substrates and locally generated or released agonists results in platelet activation. This process is described as possessing two stages, firstly, adhesion -  the initial tethering to a surface, and secondly aggregation - the platelet-platelet cohesion (Savage & Cattaneo et al. 2001).\n\nThree mechansism contribute to the loss of blood following vessel injury. The vessel constricts, reducing the loss of blood. Platelets adhere to the site of injury, become activated and aggregate with fibrinogen into a soft plug that limits blood loss, a process termed primary hemostasis. Proteins and small molecules are released from granules by activated platelets,  stimulating the plug formation process. Fibrinogen from plasma forms bridges between activated platelets. These events initiate the clotting cascade (secondary hemostasis). Negatively-charged phospholipids exposed at the site of injury and on activated platelets interact with tissue factor, leading to a cascade of reactions that culminates with the formation of an insoluble fibrin clot.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=109582 Reactome]." ;
+        dcterms:identifier   "R-HSA-109582" ;
+        cito:cites           <https://identifiers.org/pubmed/12356768> , <https://identifiers.org/pubmed/14615387> , <https://identifiers.org/pubmed/17059469> , <https://identifiers.org/pubmed/16115029> , <https://identifiers.org/pubmed/1672265> , <https://identifiers.org/pubmed/17934486> , <https://identifiers.org/pubmed/12524220> , <https://identifiers.org/pubmed/2018971> , <https://identifiers.org/pubmed/9330876> , <https://identifiers.org/pubmed/17525755> , <https://identifiers.org/pubmed/11511514> , <https://identifiers.org/pubmed/1931959> , <https://identifiers.org/pubmed/16543958> , <https://identifiers.org/pubmed/12681240> , <https://identifiers.org/pubmed/8578462> , <https://identifiers.org/pubmed/17635743> , <https://identifiers.org/pubmed/10853003> , <https://identifiers.org/pubmed/10798271> , <https://identifiers.org/pubmed/16856888> , <https://identifiers.org/pubmed/11460480> , <https://identifiers.org/pubmed/12411949> , <https://identifiers.org/pubmed/8704248> , <https://identifiers.org/pubmed/9295288> , <https://identifiers.org/pubmed/11282294> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-109582_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-109582&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-109582&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-109582_rV88> .
+
+<https://identifiers.org/pubmed/17525755>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17525755" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-202733> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36831671> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNRI2096> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17525755> .
+
+<https://doi.org/10.1111%2FJ.1749-6632.2001.TB03511.X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1111/J.1749-6632.2001.TB03511.X" .
+
+<https://identifiers.org/pubmed/12356768>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12356768" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-75892> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28204718> ;
+        owl:sameAs          <https://doi.org/10.1074%2FJBC.M204029200> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12356768> .
+
+<https://identifiers.org/reactome/R-HSA-418346>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Platelet homeostasis" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-418346> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-418346" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-109582_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/10798271> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-109582_rV88/DataNode/dd204> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-418346> .
+
+<https://doi.org/10.1074%2FJBC.272.38.23528>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1074/JBC.272.38.23528" .
+
+<https://doi.org/10.1016%2FS1050-1738%2800%2900062-1>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/S1050-1738(00)00062-1" .
+
+<https://identifiers.org/reactome/R-HSA-140877>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Formation of Fibrin Clot (Clotting Cascade)" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-140877> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-140877" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-109582_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/1931959> , <https://identifiers.org/pubmed/12524220> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-109582_rV88/DataNode/fea0d> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-140877> .
+
+<https://identifiers.org/pubmed/11511514>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "11511514" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-76002> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q43711871> ;
+        owl:sameAs          <https://doi.org/10.1096%2FFJ.00-0810FJE> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/11511514> .
+
+<https://identifiers.org/pubmed/2018971>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "2018971" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-76002> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37699902> ;
+        owl:sameAs          <https://doi.org/10.1016%2F0092-8674%2891%2990451-4> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/2018971> .
+
+<https://identifiers.org/pubmed/12411949>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12411949" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-76002> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34986345> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNM1102-1227> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12411949> .
+
+<https://identifiers.org/pubmed/8578462>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "8578462" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-202733> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/8578462> .
+
+<https://identifiers.org/pubmed/12681240>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12681240" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-76002> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35101713> ;
+        owl:sameAs          <https://doi.org/10.1016%2FS1471-4892%2803%2900007-9> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12681240> .
+
+<https://identifiers.org/pubmed/16115029>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16115029" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-202733> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28648014> ;
+        owl:sameAs          <https://doi.org/10.1089%2FARS.2005.7.1249> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16115029> .
+
+<https://identifiers.org/pubmed/16543958>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16543958" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-76002> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16543958> .
+
+<https://identifiers.org/pubmed/10798271>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10798271" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-418346> , <https://identifiers.org/reactome/R-HSA-202733> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28609074> ;
+        owl:sameAs          <https://doi.org/10.1007%2FPL00007320> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10798271> .
+
+<https://identifiers.org/pubmed/17059469>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17059469" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-76002> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36632296> ;
+        owl:sameAs          <https://doi.org/10.1111%2FJ.1538-7836.2006.02192.X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17059469> .
+
+<https://doi.org/10.1038%2FNRI2096>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NRI2096" .
+
+<https://identifiers.org/pubmed/14615387>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "14615387" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-202733> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q45345579> ;
+        owl:sameAs          <https://doi.org/10.1161%2F01.ATV.0000106320.40933.E5> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/14615387> .
+
+<https://identifiers.org/reactome/R-HSA-983231>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Factors involved in megakaryocyte development and platelet production" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-983231> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-983231" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-109582_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/17635743> , <https://identifiers.org/pubmed/17934486> , <https://identifiers.org/pubmed/16856888> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-109582_rV88/DataNode/cf272> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-983231> .
+
+<https://identifiers.org/reactome/R-HSA-202733>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Cell surface interactions at the vascular wall" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-202733> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-202733" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-109582_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/11282294> , <https://identifiers.org/pubmed/10798271> , <https://identifiers.org/pubmed/17525755> , <https://identifiers.org/pubmed/8578462> , <https://identifiers.org/pubmed/16115029> , <https://identifiers.org/pubmed/14615387> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-109582_rV88/DataNode/c49e3> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-202733> .
+
+<https://doi.org/10.1016%2F0092-8674%2891%2990451-4>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/0092-8674(91)90451-4" .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.1016%2F0092-8674%2891%2990261-V>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/0092-8674(91)90261-V" .
+
+<https://doi.org/10.1111%2FJ.1365-2141.2006.06215.X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1111/J.1365-2141.2006.06215.X" .
+
+<https://doi.org/10.1038%2FSJ.ONC.1210762>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/SJ.ONC.1210762" .
+
+<https://doi.org/10.1016%2FS1471-4892%2803%2900007-9>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/S1471-4892(03)00007-9" .
+
+<https://identifiers.org/reactome/R-HSA-75205>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Dissolution of Fibrin Clot" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-75205> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-75205" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-109582_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/9330876> , <https://identifiers.org/pubmed/11460480> , <https://identifiers.org/pubmed/10853003> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-109582_rV88/DataNode/d34d0> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-75205> .
+
+<https://doi.org/10.1161%2F01.ATV.0000046238.23903.FC>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1161/01.ATV.0000046238.23903.FC" .
+
+<https://identifiers.org/wikipathways/R-HSA-109582>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-109582_rV88> .
+
+<https://identifiers.org/pubmed/11282294>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "11282294" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-202733> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28609085> ;
+        owl:sameAs          <https://doi.org/10.1016%2FS1050-1738%2800%2900062-1> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/11282294> .
+
+<https://doi.org/10.1056%2FNEJM200006153422406>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1056/NEJM200006153422406" .
+
+<https://doi.org/10.1074%2FJBC.M204029200>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1074/JBC.M204029200" .
+
+<https://doi.org/10.1111%2FJ.1538-7836.2007.02472.X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1111/J.1538-7836.2007.02472.X" .
+
+<https://identifiers.org/pubmed/12524220>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12524220" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-140877> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28610129> ;
+        owl:sameAs          <https://doi.org/10.1161%2F01.ATV.0000046238.23903.FC> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12524220> .
+
+<https://identifiers.org/pubmed/8704248>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "8704248" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-76002> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/8704248> .
+
+<https://identifiers.org/reactome/R-HSA-75892>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Platelet Adhesion to exposed collagen" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-75892> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-75892" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-109582_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/12356768> , <https://identifiers.org/pubmed/9295288> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-109582_rV88/DataNode/b10ea> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-75892> .
+
+<https://identifiers.org/pubmed/9295288>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9295288" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-75892> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28248776> ;
+        owl:sameAs          <https://doi.org/10.1074%2FJBC.272.38.23528> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9295288> .
+
+<https://identifiers.org/pubmed/11460480>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "11460480" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-75205> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28645802> ;
+        owl:sameAs          <https://doi.org/10.1111%2FJ.1749-6632.2001.TB03511.X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/11460480> .
+
+<https://identifiers.org/pubmed/16856888>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16856888" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-983231> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q33372021> ;
+        owl:sameAs          <https://doi.org/10.1111%2FJ.1365-2141.2006.06215.X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16856888> .
+
+<https://doi.org/10.1111%2FJ.1538-7836.2006.02192.X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1111/J.1538-7836.2006.02192.X" .
+
+<https://doi.org/10.1021%2FBI00107A001>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1021/BI00107A001" .
+
+<https://doi.org/10.1016%2FS0955-0674%2897%2980126-3>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/S0955-0674(97)80126-3" .
+
+<https://identifiers.org/pubmed/10853003>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10853003" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-75205> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q33942520> ;
+        owl:sameAs          <https://doi.org/10.1056%2FNEJM200006153422406> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10853003> .
+
+<https://identifiers.org/pubmed/1931959>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "1931959" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-140877> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28610148> ;
+        owl:sameAs          <https://doi.org/10.1021%2FBI00107A001> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/1931959> .
+
+<https://doi.org/10.1161%2F01.ATV.0000106320.40933.E5>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1161/01.ATV.0000106320.40933.E5" .
+
+<https://identifiers.org/pubmed/17934486>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17934486" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-983231> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q30444726> ;
+        owl:sameAs          <https://doi.org/10.1038%2FSJ.ONC.1210762> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17934486> .
+
+<https://identifiers.org/pubmed/9330876>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9330876" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-75205> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28610258> ;
+        owl:sameAs          <https://doi.org/10.1016%2FS0955-0674%2897%2980126-3> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9330876> .
+
+<https://identifiers.org/pubmed/17635743>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17635743" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-983231> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36884453> ;
+        owl:sameAs          <https://doi.org/10.1111%2FJ.1538-7836.2007.02472.X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17635743> .

@@ -1,0 +1,162 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.1126%2FSCIENCE.1071550>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCIENCE.1071550" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-500792&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-500792&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/reactome/R-HSA-373080>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Class B/2 (Secretin family receptors)" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-373080> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-373080" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-500792_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/11790261> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-500792_rV88/DataNode/a51d2> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-373080> .
+
+<https://identifiers.org/pubmed/12040175>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12040175" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-388396> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27919625> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCIENCE.1071550> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12040175> .
+
+<https://identifiers.org/reactome/R-HSA-373076>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Class A/1 (Rhodopsin-like receptors)" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-373076> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-373076" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-500792_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/16902930> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-500792_rV88/DataNode/b588b> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-373076> .
+
+<https://identifiers.org/pubmed/11790261>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "11790261" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-373080> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24542556> ;
+        owl:sameAs          <https://doi.org/10.1186%2FGB-2001-2-12-REVIEWS3013> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/11790261> .
+
+<https://identifiers.org/pubmed/17266540>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17266540" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-420499> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34608007> ;
+        owl:sameAs          <https://doi.org/10.2174%2F138945007779315614> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17266540> .
+
+<https://doi.org/10.2174%2F138945007779315614>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.2174/138945007779315614" .
+
+<https://identifiers.org/wikipathways/R-HSA-500792_rV88>
+        rdf:type             skos:Collection , wp:Pathway ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-500792> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "GPCR ligand binding"@en ;
+        dcterms:description  "There are more than 800 G-protein coupled receptor (GPCRs) in the human genome, making it the largest receptor superfamily. GPCRs are also the largest class of drug targets, involved in virtually all physiological processes (Frederiksson 2003). GPCRs are receptors for a diverse range of ligands from large proteins to photons (Kristiansen et al. 2004) and have an equal diversity of ligand-binding mechanisms (Gether et al. 2002). Classical GPCR signaling involves signal transduction via heterotrimeric G-proteins, though G-protein independent mechanisms have been reported. \n\nRhodopsin-like receptors (class A/1) are by far the largest group of GPCRs and the best studied, though a large proportion of the functional and structural studies have focused on a very few members; many remain functionally uncharacterized. This large family can be subdivided into at least 19 subfamilies (Subfamily A1-19) based on phylogenetic analysis (Joost & Methner 2002). Family A includes receptors for a wide variety of ligands including hormones, light and neurotransmitters, encompassing a wide range of functions including many autocrine, paracrine and endocrine processes.\n\nThe secretin-like family B/2 GPCRs includes receptors for many hormone-like peptides, such as secretin, calcitonin, parathyroid hormone/parathyroid hormone-related peptides and vasoactive intestinal peptide, which activate adenylyl cyclase and the phosphatidyl-inositol-calcium pathway (Harmar 2001).\n\nThe class C/3 GPCRs include the metabotropic glutamate receptors and taste receptors (Brauner-Osborne et al. 2007).  All have a large extracellular N-terminus that structurally resembles a clamshell and has an important role in ligand binding.\n\n\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=500792 Reactome]." ;
+        dcterms:identifier   "R-HSA-500792" ;
+        dcterms:references   <https://identifiers.org/pubmed/15251227> ;
+        cito:cites           <https://identifiers.org/pubmed/17266540> , <https://identifiers.org/pubmed/12782243> , <https://identifiers.org/pubmed/11790261> , <https://identifiers.org/pubmed/12040175> , <https://identifiers.org/pubmed/16902930> , <https://identifiers.org/pubmed/15251227> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-500792_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-500792&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-500792&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-500792_rV88> .
+
+<https://doi.org/10.1016%2FS0163-7258%2803%2900038-X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/S0163-7258(03)00038-X" .
+
+<https://identifiers.org/reactome/R-HSA-388396>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "GPCR downstream signalling" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-388396> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-388396" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-500792_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/12040175> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-500792_rV88/DataNode/ee8b6> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-388396> .
+
+<https://identifiers.org/pubmed/12782243>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12782243" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-420499> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35143358> ;
+        owl:sameAs          <https://doi.org/10.1016%2FS0163-7258%2803%2900038-X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12782243> .
+
+<https://identifiers.org/pubmed/15251227>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15251227" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-500792_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15251227> .
+
+<https://identifiers.org/pubmed/16902930>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16902930" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-373076> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q33253601> ;
+        owl:sameAs          <https://doi.org/10.1002%2FCMDC.200600134> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16902930> .
+
+<https://doi.org/10.1186%2FGB-2001-2-12-REVIEWS3013>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1186/GB-2001-2-12-REVIEWS3013" .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.1002%2FCMDC.200600134>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/CMDC.200600134" .
+
+<https://identifiers.org/reactome/R-HSA-420499>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Class C/3 (Metabotropic glutamate/pheromone receptors)" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-420499> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-420499" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-500792_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/17266540> , <https://identifiers.org/pubmed/12782243> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-500792_rV88/DataNode/ceec9> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-420499> .
+
+<https://identifiers.org/wikipathways/R-HSA-500792>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-500792_rV88> .

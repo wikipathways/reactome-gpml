@@ -1,0 +1,90 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9664407&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/pubmed/22726697>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22726697" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664417> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27025603> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.PT.2012.05.002> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22726697> .
+
+<https://identifiers.org/wikipathways/R-HSA-9664407>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-9664407_rV88> .
+
+<https://doi.org/10.1189%2FJLB.0212086>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1189/JLB.0212086" .
+
+<https://identifiers.org/wikipathways/R-HSA-9664407_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-9664407> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Parasite infection"@en ;
+        dcterms:description  "Leishmania parasites are dimorphic protozoa, being extracellular and flagellated (promastigotes) in the vector insect, and intracellular and aflagellated (amastigotes) in the host. While the vector fly feeds on the blood of the host, it transmits the promastigotes which are subsequently phagocytosed. The transition to the non motile form occurs within the phagosomal pathway; this process requires the delay of the maturation of the phagosome in such a way that the pH conditions are not harmful to the promastigote. Once it is in the amastigote form, maturation of the parasitophorous vacuole continues (MartÃ­nez LÃ³pez et al. 2018).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9664407 Reactome]." ;
+        dcterms:identifier   "R-HSA-9664407" ;
+        dcterms:references   <https://identifiers.org/pubmed/29867798> ;
+        cito:cites           <https://identifiers.org/pubmed/22726697> , <https://identifiers.org/pubmed/29867798> , <https://identifiers.org/pubmed/23543768> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-9664407_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9664407&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9664407&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-9664407_rV88> .
+
+<https://identifiers.org/pubmed/23543768>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23543768" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664417> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36850461> ;
+        owl:sameAs          <https://doi.org/10.1189%2FJLB.0212086> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23543768> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9664407&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://doi.org/10.1016%2FJ.PT.2012.05.002>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.PT.2012.05.002" .
+
+<https://identifiers.org/reactome/R-HSA-9664417>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Leishmania phagocytosis" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9664417> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9664417" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9664407_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/23543768> , <https://identifiers.org/pubmed/22726697> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9664407_rV88/DataNode/ff04b> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9664417> .
+
+<https://identifiers.org/pubmed/29867798>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29867798" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9664407_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29867798> .

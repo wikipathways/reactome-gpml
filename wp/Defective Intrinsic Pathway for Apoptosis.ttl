@@ -1,0 +1,238 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.1006%2FJMBI.1999.2563>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1006/JMBI.1999.2563" .
+
+<https://identifiers.org/pubmed/10064694>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10064694" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723907> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38327509> ;
+        owl:sameAs          <https://doi.org/10.1006%2FJMBI.1999.2563> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10064694> .
+
+<https://identifiers.org/wikipathways/R-HSA-9734009>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-9734009_rV88> .
+
+<https://identifiers.org/pubmed/22265392>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22265392" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723907> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34248711> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.TIG.2011.12.002> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22265392> .
+
+<https://identifiers.org/pubmed/11425640>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "11425640" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9734009_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/11425640> .
+
+<https://identifiers.org/reactome/R-HSA-8863678>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Neurodegenerative Diseases" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-8863678> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-8863678" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9734009_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/26848654> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9734009_rV88/DataNode/a58f3> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-8863678> .
+
+<https://identifiers.org/reactome/R-HSA-9723907>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Loss of Function of TP53 in Cancer" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9723907> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9723907" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9734009_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/26572807> , <https://identifiers.org/pubmed/33194757> , <https://identifiers.org/pubmed/10653977> , <https://identifiers.org/pubmed/1614522> , <https://identifiers.org/pubmed/22265392> , <https://identifiers.org/pubmed/32873579> , <https://identifiers.org/pubmed/10064694> , <https://identifiers.org/pubmed/7813439> , <https://identifiers.org/pubmed/11420672> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9734009_rV88/DataNode/e2d5f> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9723907> .
+
+<https://doi.org/10.1002%2FJ.1460-2075.1994.TB06947.X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/J.1460-2075.1994.TB06947.X" .
+
+<https://identifiers.org/wikipathways/R-HSA-9734009_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-9734009> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Defective Intrinsic Pathway for Apoptosis"@en ;
+        dcterms:description  "Defects in the regulation of the intrinsic pathway for apoptosis are involved in diseases associated with increased cell loss, such as neurodegenerative diseases, as well as in diseases associated with impaired elimination of harmful cells, such as cancer and autoimmunity. For review, please refer to Reed 2001, Lavrik et al. 2009, and Tuzlak et al. 2016.<br><br>So far, Reactome has annotated apoptosis defects associated with the loss of function of the CDKN2A gene product p14ARF in cancer, loss of function of TP53 in cancer, and CDK5 dysregulation in neurodegenerative diseases. \n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9734009 Reactome]." ;
+        dcterms:identifier   "R-HSA-9734009" ;
+        dcterms:references   <https://identifiers.org/pubmed/27798841> , <https://identifiers.org/pubmed/11425640> , <https://identifiers.org/pubmed/19756299> ;
+        cito:cites           <https://identifiers.org/pubmed/7813439> , <https://identifiers.org/pubmed/18538737> , <https://identifiers.org/pubmed/19756299> , <https://identifiers.org/pubmed/11425640> , <https://identifiers.org/pubmed/33194757> , <https://identifiers.org/pubmed/32873579> , <https://identifiers.org/pubmed/22265392> , <https://identifiers.org/pubmed/27798841> , <https://identifiers.org/pubmed/1614522> , <https://identifiers.org/pubmed/10653977> , <https://identifiers.org/pubmed/10064694> , <https://identifiers.org/pubmed/26572807> , <https://identifiers.org/pubmed/26848654> , <https://identifiers.org/pubmed/11420672> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-9734009_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9734009&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9734009&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-9734009_rV88> .
+
+<https://doi.org/10.1038%2F358015A0>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/358015A0" .
+
+<https://doi.org/10.1016%2FJ.CCR.2008.04.002>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.CCR.2008.04.002" .
+
+<https://identifiers.org/pubmed/27798841>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27798841" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9734009_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27798841> .
+
+<https://identifiers.org/pubmed/26572807>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26572807" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723907> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38634498> ;
+        owl:sameAs          <https://doi.org/10.1002%2FBIP.22772> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26572807> .
+
+<https://identifiers.org/pubmed/26848654>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26848654" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-8863678> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26768648> ;
+        owl:sameAs          <https://doi.org/10.3390%2FIJMS17020189> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26848654> .
+
+<https://identifiers.org/pubmed/33194757>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "33194757" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723907> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q102068484> ;
+        owl:sameAs          <https://doi.org/10.3389%2FFONC.2020.593383> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/33194757> .
+
+<https://identifiers.org/reactome/R-HSA-9645722>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Defective Intrinsic Pathway for Apoptosis Due to p14ARF Loss of Function" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9645722> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9645722" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9734009_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/18538737> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9734009_rV88/DataNode/dbb73> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9645722> .
+
+<https://doi.org/10.1016%2FJ.TIG.2011.12.002>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.TIG.2011.12.002" .
+
+<https://doi.org/10.3390%2FIJMS17020189>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.3390/IJMS17020189" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9734009&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/1614522>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "1614522" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723907> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q29615610> ;
+        owl:sameAs          <https://doi.org/10.1038%2F358015A0> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/1614522> .
+
+<https://identifiers.org/pubmed/19756299>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19756299" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9734009_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19756299> .
+
+<https://identifiers.org/pubmed/10653977>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10653977" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723907> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q73399745> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10653977> .
+
+<https://identifiers.org/pubmed/18538737>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18538737" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9645722> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35857575> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.CCR.2008.04.002> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18538737> .
+
+<https://identifiers.org/pubmed/32873579>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "32873579" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723907> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q98890182> ;
+        owl:sameAs          <https://doi.org/10.1101%2FGAD.340976.120> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/32873579> .
+
+<https://doi.org/10.1002%2FBIP.22772>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/BIP.22772" .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.1101%2FGAD.340976.120>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1101/GAD.340976.120" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9734009&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://doi.org/10.3389%2FFONC.2020.593383>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.3389/FONC.2020.593383" .
+
+<https://doi.org/10.1038%2FSJ.ONC.1204373>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/SJ.ONC.1204373" .
+
+<https://identifiers.org/pubmed/7813439>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "7813439" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723907> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28639938> ;
+        owl:sameAs          <https://doi.org/10.1002%2FJ.1460-2075.1994.TB06947.X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/7813439> .
+
+<https://identifiers.org/pubmed/11420672>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "11420672" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723907> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34290217> ;
+        owl:sameAs          <https://doi.org/10.1038%2FSJ.ONC.1204373> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/11420672> .

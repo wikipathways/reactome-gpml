@@ -1,0 +1,94 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/pubmed/16354571>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16354571" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-162906_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16354571> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-162906&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/wikipathways/R-HSA-162906>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-162906_rV88> .
+
+<https://identifiers.org/reactome/R-HSA-162587>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "HIV Life Cycle" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-162587> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-162587" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-162906_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/9188609> , <https://identifiers.org/pubmed/9759480> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-162906_rV88/DataNode/f5446> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-162587> .
+
+<https://identifiers.org/wikipathways/R-HSA-162906_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-162906> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "HIV Infection"@en ;
+        dcterms:description  "The global pandemic of Human Immunodeficiency Virus (HIV) infection has resulted in tens of millions of people   infected by the virus  and millions more affected. UNAIDS estimates around 40 million HIV/AIDS patients worldwide with 75% of them   living in sub-Saharan Africa.  The primary method of HIV infection is by sexual exposure while nonsexual HIV transmission also can occur through transfusion with contaminated blood products, injection drug use, occupational exposure,accidental needlesticks or mother-to-child transmission.  HIV damages the immune system, leaving the infected person vulnerable to a variety of  \"opportunistic\" infections arising from   host immune impairment (Hare, 2004).<br>HIV-1 and the less common HIV-2 belong to the family of retroviruses. HIV-1 contains a single-stranded RNA genome that is 9 kilobases in length and contains 9 genes that encode 15 different proteins. These proteins are classified as: structural proteins (Gag, Pol, and Env), regulatory proteins (Tat and Rev), and accessory proteins (Vpu, Vpr, Vif, and Nef) (Frankel and Young,1998).<br><b>HIV infection </b>cycle can be divided into two phases:<br>1. An <b>Early phase</b> consisting of early events occuring after HIV infection of  a susceptible target cell  and a <br>2. <b>Late phase</b> comprising the later events in the HIV-infected cell resulting in the assembly of new infectious virions. The section titled <b>HIV lifecycle</b> consists of annotations of events in these two phases.<br>The virus has developed various molecular strategies to suppress the antiviral immune responses (innate, cellular and humoral) of the host.   HIV-1 viral auxiliary proteins (Tat, Rev, Nef, Vif, Vpr and Vpu) play important roles in these host-pathogen interactions (Li et al.,2005). The section titled <b>Host interactions of HIV factors</b> highlights these complex post-infection processes.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=162906 Reactome]." ;
+        dcterms:identifier   "R-HSA-162906" ;
+        dcterms:references   <https://identifiers.org/pubmed/16354571> , <https://identifiers.org/pubmed/9759480> ;
+        cito:cites           <https://identifiers.org/pubmed/9759480> , <https://identifiers.org/pubmed/16354571> , <https://identifiers.org/pubmed/9188609> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-162906_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-162906&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-162906&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-162906_rV88> .
+
+<https://doi.org/10.1146%2FANNUREV.BIOCHEM.67.1.1>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1146/ANNUREV.BIOCHEM.67.1.1" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-162906&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/9188609>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9188609" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-162587> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9188609> .
+
+<https://identifiers.org/pubmed/9759480>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9759480" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-162587> , <https://identifiers.org/wikipathways/R-HSA-162906_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28284280> ;
+        owl:sameAs          <https://doi.org/10.1146%2FANNUREV.BIOCHEM.67.1.1> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9759480> .
+
+<https://identifiers.org/reactome/R-HSA-162909>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Host Interactions of HIV factors" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-162909> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-162909" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-162906_rV88> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-162906_rV88/DataNode/c63aa> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-162909> .

@@ -1,0 +1,452 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.1016%2FJ.CCELL.2018.09.010>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.CCELL.2018.09.010" .
+
+<https://doi.org/10.1371%2FJOURNAL.PONE.0123623>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1371/JOURNAL.PONE.0123623" .
+
+<https://doi.org/10.1158%2F1078-0432.CCR-13-1038>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/1078-0432.CCR-13-1038" .
+
+<https://identifiers.org/reactome/R-HSA-9665348>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Signaling by ERBB2 ECD mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9665348> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9665348" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/22908275> , <https://identifiers.org/pubmed/23220880> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1227990_rV88/DataNode/bff85> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9665348> .
+
+<https://identifiers.org/wikipathways/R-HSA-1227990>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> .
+
+<https://identifiers.org/pubmed/18978815>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18978815" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9634285> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q54791338> ;
+        owl:sameAs          <https://doi.org/10.1038%2FONC.2008.394> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18978815> .
+
+<https://doi.org/10.1073%2FPNAS.1203201109>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1073/PNAS.1203201109" .
+
+<https://identifiers.org/wikipathways/R-HSA-1227990_rV88>
+        rdf:type             skos:Collection , wp:Pathway ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-1227990> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Signaling by ERBB2 in Cancer"@en ;
+        dcterms:description  "Gene amplification of the ERBB2 (HER2) oncogene is observed across various different cancer types. In addition to HER2 gene amplification, sequencing of tumour samples have revealed HER2 mutations, which fall within three major regions:  the extracellular domain (ECD), transmembrane domain/ juxtamembrane domain (TMD/JMD) and kinase domain (KD). Based on the functional studies of their catalytic activity, signaling and drug sensitivity, as well as their time of occurence with respect to treatment, these mutation can be classified as primary mutations, that can be activating or silent, and may confer drug resistance, and secondary mutations, associated with development of drug resistance upon initial response to targeted therapy.<br><br>Overexpression of ERBB2 (HER2) protein, usually as a consequence of ERBB2 gene amplification, leads to formation of constitutively active, growth factor independent, ERBB2 homodimers, which are sensitive to the therapeutic antibody trastuzumab (herceptin) (Pickl and Ries 2009).<br>Co-overexpression of ERBB2 and its dimerization partner ERBB3 leads to formation of both ERBB2 homodimers and ERRB2:ERBB3 heterodimers and is associated with chemotherapy resistance and reduced relapse-free and overall survival (Spears et al. 2012).<br><br>Mutations in the kinase domain (KD) of ERBB2 result in constitutive activation of ERBB2 signaling, facilitate heterodimerization of ERBB2 with other EGFR family members and increase the signaling intensity (Kancha et al. 2011). Functionally studied ERBB2 KD mutants include ERBB2 L755S, ERBB2 L755P, ERBB2 I767M, ERBB2 D769H, ERBB2 V777L, ERBB2 G778_P780dup, ERBB2 T798I, ERBB2 T798M, ERBB2 V842I, ERBB2 T862A, ERBB2 L869R, ERBB2 H878Y and ERBB2 R896C (Kancha et al. 2011, Bose et al. 2013, Collier et al. 2013, Hu, Wan et al. 2015; Hu, Hu et al. 2015, Hanker et al. 2017, Croessmann et al. 2019).<br><br>Sensitivity to tyrosine kinase inhibitors (TKIs) and the therapeutic antibody trastuzumab (herceptin) differs between different ERBB2 KD mutants (Bose et al. 2013, Rexer et al. 2013, Nagano et al. 2018).<br><br>ERBB2 extracellular domain (ECD) mutants harbor missense mutations that lead to substitutions of amino acid residues in the heterodimerization arm contact surface, involved in formation of ERBB2 heterodimers (Greulich et al. 2012).<br><br>Recurrent missense mutations in regions encoding the transmembrane domain (TMD) and the juxtamembrane domain (JMD) are frequently reported in cancer. TMD and JMD mutations can activate ERBB2 signaling by improving the active dimer interface or by stabilizing the active conformation (Ou et al. 2017, Pahuja et al. 2018).<br><br>ERBB2 TMD/JMD mutants differ in their sensitivity to the therapeutic antibody pertuzumab, which blocks ligand-driven heterodimerization of ERBB2 (Pahuja et al. 2018).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1227990 Reactome]." ;
+        dcterms:identifier   "R-HSA-1227990" ;
+        dcterms:references   <https://identifiers.org/pubmed/25853726> , <https://identifiers.org/pubmed/23948973> , <https://identifiers.org/pubmed/30449325> , <https://identifiers.org/pubmed/28274957> , <https://identifiers.org/pubmed/21638049> , <https://identifiers.org/pubmed/23843458> , <https://identifiers.org/pubmed/22908275> , <https://identifiers.org/pubmed/29967253> , <https://identifiers.org/pubmed/30314968> , <https://identifiers.org/pubmed/27903463> , <https://identifiers.org/pubmed/31292270> , <https://identifiers.org/pubmed/22046346> , <https://identifiers.org/pubmed/26375550> , <https://identifiers.org/pubmed/18978815> , <https://identifiers.org/pubmed/23220880> ;
+        cito:cites           <https://identifiers.org/pubmed/21720365> , <https://identifiers.org/pubmed/25148578> , <https://identifiers.org/pubmed/28274957> , <https://identifiers.org/pubmed/22046346> , <https://identifiers.org/pubmed/28481359> , <https://identifiers.org/pubmed/18413839> , <https://identifiers.org/pubmed/22908275> , <https://identifiers.org/pubmed/27284958> , <https://identifiers.org/pubmed/29088767> , <https://identifiers.org/pubmed/23948973> , <https://identifiers.org/pubmed/25994018> , <https://identifiers.org/pubmed/23220880> , <https://identifiers.org/pubmed/30449325> , <https://identifiers.org/pubmed/30314968> , <https://identifiers.org/pubmed/24971884> , <https://identifiers.org/pubmed/25809292> , <https://identifiers.org/pubmed/26375550> , <https://identifiers.org/pubmed/27899578> , <https://identifiers.org/pubmed/30301790> , <https://identifiers.org/pubmed/21638049> , <https://identifiers.org/pubmed/29967253> , <https://identifiers.org/pubmed/27903463> , <https://identifiers.org/pubmed/25853726> , <https://identifiers.org/pubmed/31292270> , <https://identifiers.org/pubmed/26287187> , <https://identifiers.org/pubmed/18978815> , <https://identifiers.org/pubmed/16397024> , <https://identifiers.org/pubmed/23843458> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-1227990_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-1227990&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-1227990&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-1227990_rV88> .
+
+<https://identifiers.org/pubmed/26287187>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26287187" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36088709> ;
+        owl:sameAs          <https://doi.org/10.3390%2FIJMS160819447> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26287187> .
+
+<https://identifiers.org/pubmed/30449325>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30449325" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9665737> , <https://identifiers.org/reactome/R-HSA-9665686> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q93198405> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.CCELL.2018.09.010> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30449325> .
+
+<https://identifiers.org/pubmed/25853726>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25853726" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35325158> ;
+        owl:sameAs          <https://doi.org/10.1371%2FJOURNAL.PONE.0123623> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25853726> .
+
+<https://identifiers.org/pubmed/28274957>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28274957" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9665230> , <https://identifiers.org/reactome/R-HSA-9664565> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q46005851> ;
+        owl:sameAs          <https://doi.org/10.1158%2F2159-8290.CD-16-1431> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28274957> .
+
+<https://doi.org/10.1038%2FONC.2008.394>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/ONC.2008.394" .
+
+<https://doi.org/10.1158%2F1078-0432.CCR-05-0976>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/1078-0432.CCR-05-0976" .
+
+<https://identifiers.org/pubmed/23948973>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23948973" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9665230> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37259707> ;
+        owl:sameAs          <https://doi.org/10.1158%2F1078-0432.CCR-13-1038> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23948973> .
+
+<https://identifiers.org/pubmed/16397024>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16397024" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q53606400> ;
+        owl:sameAs          <https://doi.org/10.1158%2F1078-0432.CCR-05-0976> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16397024> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-1227990&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/25809292>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25809292" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35698114> ;
+        owl:sameAs          <https://doi.org/10.1007%2FS00428-015-1729-4> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25809292> .
+
+<https://identifiers.org/pubmed/30301790>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30301790" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q57292512> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCISIGNAL.AAT9773> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30301790> .
+
+<https://identifiers.org/pubmed/28481359>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28481359" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38798543> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNM.4333> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28481359> .
+
+<https://doi.org/10.1158%2F1078-0432.CCR-07-4367>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/1078-0432.CCR-07-4367" .
+
+<https://doi.org/10.1038%2FNATURE10166>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NATURE10166" .
+
+<https://doi.org/10.1371%2FJOURNAL.PONE.0026760>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1371/JOURNAL.PONE.0026760" .
+
+<https://identifiers.org/pubmed/25994018>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25994018" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35633666> ;
+        owl:sameAs          <https://doi.org/10.1186%2FS13059-015-0657-6> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25994018> .
+
+<https://identifiers.org/pubmed/21720365>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21720365" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27860518> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNATURE10166> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21720365> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.18632%2FONCOTARGET.18200>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.18632/ONCOTARGET.18200" .
+
+<https://identifiers.org/pubmed/27284958>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27284958" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q48205560> ;
+        owl:sameAs          <https://doi.org/10.1002%2FCNCR.30102> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27284958> .
+
+<https://identifiers.org/reactome/R-HSA-9665686>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Signaling by ERBB2 TMD/JMD mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9665686> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9665686" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/24971884> , <https://identifiers.org/pubmed/23220880> , <https://identifiers.org/pubmed/30449325> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1227990_rV88/DataNode/e9700> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9665686> .
+
+<https://doi.org/10.1126%2FSCISIGNAL.AAT9773>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCISIGNAL.AAT9773" .
+
+<https://identifiers.org/reactome/R-HSA-9665737>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Drug resistance in ERBB2 TMD/JMD mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9665737> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9665737" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/30449325> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1227990_rV88/DataNode/fd02b> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9665737> .
+
+<https://identifiers.org/pubmed/25148578>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25148578" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34898560> ;
+        owl:sameAs          <https://doi.org/10.1038%2FJID.2014.366> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25148578> .
+
+<https://identifiers.org/pubmed/22046346>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22046346" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34064653> ;
+        owl:sameAs          <https://doi.org/10.1371%2FJOURNAL.PONE.0026760> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22046346> .
+
+<https://identifiers.org/pubmed/29088767>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29088767" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q45901125> ;
+        owl:sameAs          <https://doi.org/10.18632%2FONCOTARGET.18200> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29088767> .
+
+<https://doi.org/10.1007%2FS00428-015-1729-4>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1007/S00428-015-1729-4" .
+
+<https://doi.org/10.1074%2FJBC.M113.474882>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1074/JBC.M113.474882" .
+
+<https://identifiers.org/pubmed/23220880>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23220880" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9665230> , <https://identifiers.org/reactome/R-HSA-9665686> , <https://identifiers.org/reactome/R-HSA-9664565> , <https://identifiers.org/reactome/R-HSA-9665348> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27851987> ;
+        owl:sameAs          <https://doi.org/10.1158%2F2159-8290.CD-12-0349> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23220880> .
+
+<https://doi.org/10.1158%2F1078-0432.CCR-18-1544>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/1078-0432.CCR-18-1544" .
+
+<https://doi.org/10.1002%2FCNCR.30102>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/CNCR.30102" .
+
+<https://identifiers.org/pubmed/31292270>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31292270" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31292270> .
+
+<https://doi.org/10.1038%2FJID.2014.366>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/JID.2014.366" .
+
+<https://identifiers.org/pubmed/26375550>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26375550" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36544650> ;
+        owl:sameAs          <https://doi.org/10.18632%2FONCOTARGET.5221> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26375550> .
+
+<https://identifiers.org/pubmed/27899578>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27899578" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27899578> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-1227990&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/pubmed/27903463>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27903463" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27903463> .
+
+<https://identifiers.org/pubmed/22908275>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22908275" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9665348> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36221780> ;
+        owl:sameAs          <https://doi.org/10.1073%2FPNAS.1203201109> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22908275> .
+
+<https://doi.org/10.18632%2FONCOTARGET.5221>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.18632/ONCOTARGET.5221" .
+
+<https://identifiers.org/reactome/R-HSA-9664565>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Signaling by ERBB2 KD Mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9664565> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9664565" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/21720365> , <https://identifiers.org/pubmed/27899578> , <https://identifiers.org/pubmed/18413839> , <https://identifiers.org/pubmed/25809292> , <https://identifiers.org/pubmed/30314968> , <https://identifiers.org/pubmed/22046346> , <https://identifiers.org/pubmed/25994018> , <https://identifiers.org/pubmed/23843458> , <https://identifiers.org/pubmed/30301790> , <https://identifiers.org/pubmed/27284958> , <https://identifiers.org/pubmed/25148578> , <https://identifiers.org/pubmed/16397024> , <https://identifiers.org/pubmed/26287187> , <https://identifiers.org/pubmed/26375550> , <https://identifiers.org/pubmed/23220880> , <https://identifiers.org/pubmed/28274957> , <https://identifiers.org/pubmed/29088767> , <https://identifiers.org/pubmed/28481359> , <https://identifiers.org/pubmed/25853726> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1227990_rV88/DataNode/d26b8> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9664565> .
+
+<https://identifiers.org/pubmed/29967253>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29967253" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9665230> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q57462230> ;
+        owl:sameAs          <https://doi.org/10.1158%2F1078-0432.CCR-18-0991> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29967253> .
+
+<https://doi.org/10.1158%2F2159-8290.CD-12-0349>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/2159-8290.CD-12-0349" .
+
+<https://doi.org/10.1186%2FS13059-015-0657-6>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1186/S13059-015-0657-6" .
+
+<https://identifiers.org/pubmed/24971884>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24971884" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9665686> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34028470> ;
+        owl:sameAs          <https://doi.org/10.4161%2FCBT.29687> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24971884> .
+
+<https://doi.org/10.1158%2F2159-8290.CD-16-1431>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/2159-8290.CD-16-1431" .
+
+<https://identifiers.org/pubmed/23843458>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23843458" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37132095> ;
+        owl:sameAs          <https://doi.org/10.1074%2FJBC.M113.474882> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23843458> .
+
+<https://identifiers.org/pubmed/18413839>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18413839" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q33328407> ;
+        owl:sameAs          <https://doi.org/10.1158%2F1078-0432.CCR-07-4367> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18413839> .
+
+<https://doi.org/10.4161%2FCBT.29687>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.4161/CBT.29687" .
+
+<https://doi.org/10.1038%2FNM.4333>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NM.4333" .
+
+<https://doi.org/10.1158%2F1078-0432.CCR-18-0991>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/1078-0432.CCR-18-0991" .
+
+<https://identifiers.org/reactome/R-HSA-9634285>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Constitutive Signaling by Overexpressed ERBB2" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9634285> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9634285" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/18978815> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1227990_rV88/DataNode/f4b54> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9634285> .
+
+<https://doi.org/10.3390%2FIJMS160819447>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.3390/IJMS160819447" .
+
+<https://identifiers.org/reactome/R-HSA-9665230>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Drug resistance in ERBB2 KD mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9665230> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9665230" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/23220880> , <https://identifiers.org/pubmed/29967253> , <https://identifiers.org/pubmed/23948973> , <https://identifiers.org/pubmed/28274957> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1227990_rV88/DataNode/ac50b> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9665230> .
+
+<https://identifiers.org/pubmed/30314968>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30314968" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664565> , <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q57470658> ;
+        owl:sameAs          <https://doi.org/10.1158%2F1078-0432.CCR-18-1544> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30314968> .
+
+<https://identifiers.org/pubmed/21638049>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21638049" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1227990_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21638049> .

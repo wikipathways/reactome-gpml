@@ -1,0 +1,811 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.1126%2FSCIENCE.1170116>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCIENCE.1170116" .
+
+<https://identifiers.org/pubmed/23153826>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23153826" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5250913> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34645436> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.BBAGRM.2012.10.014> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23153826> .
+
+<https://doi.org/10.1038%2FNATURE09934>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NATURE09934" .
+
+<https://doi.org/10.1146%2FANNUREV-GENET-110711-155451>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1146/ANNUREV-GENET-110711-155451" .
+
+<https://identifiers.org/pubmed/22158900>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22158900" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22158900> .
+
+<https://identifiers.org/pubmed/19657014>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19657014" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37573260> ;
+        owl:sameAs          <https://doi.org/10.1242%2FJCS.015123> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19657014> .
+
+<https://identifiers.org/wikipathways/R-HSA-212165_rV88>
+        rdf:type             skos:Collection , wp:Pathway ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-212165> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Epigenetic regulation of gene expression"@en ;
+        dcterms:description  "Epigenetic processes regulate gene expression by modulating the frequency, rate, or extent of gene expression in a mitotically or meiotically heritable way that does not entail a change in the DNA sequence. Originally the definition applied only to heritability across generations but later also encompassed the heritable changes that occur during cellular differentiation within one organism.<br> Molecular analysis shows epigenetic changes comprise covalent modifications, such as methylation and acetylation, to DNA and histones. RNA interference has been implicated in the initiation of some epigenetic changes, for example transcriptional silencing of transposons. Proteins which bind to the modified DNA and histones are then responsible for repressing transcription and for maintaining the epigenetic modifications during cell division.<br>During differentiation, patterns of gene expression are established by polycomb complexes PRC1 and PRC2. PRC2 methylates histones and DNA to produce the initial marks of repression: trimethylated lysine-27 on histone H3 (H3K27me3) and 5-methylcytosine in DNA. PRC2, through its component EZH2 or, in some complexes, EZH1 trimethylates lysine-27 of histone H3. The H3K27me3 produced by PRC2 is bound by the Polycomb subunit of PRC1. PRC1 ubiquitinates histone H2A and maintains repression.<br>PRC2 and other epigenetic systems modulate gene expression through DNA methyation, the transfer of a methyl group from S-adenosylmethionine to the 5 position of cytosine in DNA by a family of DNA methyltransferases (DNMTs): DNMT1, DNMT3A, and DNMT3B.<br>In the reverse process TET1,2,3 and TDG demethylate DNA through the oxidation of the methyl group of 5-methylcytosine by TET enzymes and the excision of the oxidized product (5-formylcytosine or 5-carboxylcytosine) by TDG.<br>Ribosomal RNA (rRNA) genes are activated and deactivated according to the metabolic requirements of the cell. Positive epigenetic regulation of rRNA expression occurs through chromatin modifications produced by activators such as ERCC6 (CSB), the B-WICH complex, and histone acetylases such as KAT2B (PCAF). Negative epigenetic regulation of rRNA expression occurs through chromatin modifications produced by repressors such as the eNoSC complex, SIRT1, and the NoRC complex.<br><br>WDR5 is a component of six histone methyltransferases and three histone acetyltransferases involved in epigenetic regulation of gene expression (reviewed in Guarnaccia and Tansey 2018). \n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=212165 Reactome]." ;
+        dcterms:identifier   "R-HSA-212165" ;
+        dcterms:references   <https://identifiers.org/pubmed/12610534> , <https://identifiers.org/pubmed/29385767> ;
+        cito:cites           <https://identifiers.org/pubmed/22974304> , <https://identifiers.org/pubmed/17500065> , <https://identifiers.org/pubmed/23938249> , <https://identifiers.org/pubmed/24059801> , <https://identifiers.org/pubmed/20639862> , <https://identifiers.org/pubmed/23473600> , <https://identifiers.org/pubmed/21248841> , <https://identifiers.org/pubmed/23727577> , <https://identifiers.org/pubmed/32546566> , <https://identifiers.org/pubmed/35328068> , <https://identifiers.org/pubmed/22956496> , <https://identifiers.org/pubmed/24050399> , <https://identifiers.org/pubmed/23770080> , <https://identifiers.org/pubmed/29385767> , <https://identifiers.org/pubmed/21460836> , <https://identifiers.org/pubmed/22156206> , <https://identifiers.org/pubmed/22781841> , <https://identifiers.org/pubmed/19556245> , <https://identifiers.org/pubmed/19703992> , <https://identifiers.org/pubmed/24153300> , <https://identifiers.org/pubmed/16574391> , <https://identifiers.org/pubmed/23153826> , <https://identifiers.org/pubmed/18840606> , <https://identifiers.org/pubmed/18974828> , <https://identifiers.org/pubmed/23587238> , <https://identifiers.org/pubmed/23687512> , <https://identifiers.org/pubmed/21451524> , <https://identifiers.org/pubmed/35115608> , <https://identifiers.org/pubmed/24560929> , <https://identifiers.org/pubmed/23150253> , <https://identifiers.org/pubmed/21496894> , <https://identifiers.org/pubmed/21941108> , <https://identifiers.org/pubmed/23508102> , <https://identifiers.org/pubmed/19657014> , <https://identifiers.org/pubmed/24589714> , <https://identifiers.org/pubmed/31924266> , <https://identifiers.org/pubmed/24214338> , <https://identifiers.org/pubmed/21321204> , <https://identifiers.org/pubmed/24096405> , <https://identifiers.org/pubmed/24045206> , <https://identifiers.org/pubmed/34440566> , <https://identifiers.org/pubmed/21243710> , <https://identifiers.org/pubmed/27036965> , <https://identifiers.org/pubmed/19923920> , <https://identifiers.org/pubmed/16403636> , <https://identifiers.org/pubmed/32346159> , <https://identifiers.org/pubmed/31768667> , <https://identifiers.org/pubmed/31197650> , <https://identifiers.org/pubmed/23166392> , <https://identifiers.org/pubmed/25998713> , <https://identifiers.org/pubmed/22158900> , <https://identifiers.org/pubmed/7079182> , <https://identifiers.org/pubmed/19738629> , <https://identifiers.org/pubmed/23063748> , <https://identifiers.org/pubmed/12610534> , <https://identifiers.org/pubmed/18616426> , <https://identifiers.org/pubmed/21295276> , <https://identifiers.org/pubmed/28160335> , <https://identifiers.org/pubmed/33150406> , <https://identifiers.org/pubmed/21817016> , <https://identifiers.org/pubmed/23470558> , <https://identifiers.org/pubmed/19372391> , <https://identifiers.org/pubmed/21778364> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-212165_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-212165&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-212165&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-212165_rV88> .
+
+<https://doi.org/10.1016%2FJ.BBAGRM.2014.02.007>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.BBAGRM.2014.02.007" .
+
+<https://identifiers.org/pubmed/29385767>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29385767" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> , <https://identifiers.org/wikipathways/R-HSA-212165_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29385767> .
+
+<https://identifiers.org/pubmed/23473600>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23473600" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-212300> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q29301233> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.MOLCEL.2013.02.013> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23473600> .
+
+<https://identifiers.org/pubmed/22781841>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22781841" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38025275> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNPP.2012.112> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22781841> .
+
+<https://identifiers.org/pubmed/21295276>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21295276" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28504716> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.STEM.2011.01.008> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21295276> .
+
+<https://doi.org/10.1038%2FNRM2763>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NRM2763" .
+
+<https://doi.org/10.2217%2FEPI.13.43>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.2217/EPI.13.43" .
+
+<https://identifiers.org/pubmed/32546566>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "32546566" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/32546566> .
+
+<https://identifiers.org/pubmed/23687512>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23687512" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38107940> ;
+        owl:sameAs          <https://doi.org/10.1007%2FS11515-012-9246-1> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23687512> .
+
+<https://doi.org/10.1371%2FJOURNAL.PGEN.1000242>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1371/JOURNAL.PGEN.1000242" .
+
+<https://identifiers.org/pubmed/24096405>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24096405" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-212300> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38149730> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNSMB.2669> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24096405> .
+
+<https://identifiers.org/pubmed/21451524>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21451524" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36517044> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNATURE09934> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21451524> .
+
+<https://identifiers.org/pubmed/21460836>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21460836" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q29617398> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNATURE10008> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21460836> .
+
+<https://doi.org/10.1016%2FJ.MOLCEL.2013.02.013>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.MOLCEL.2013.02.013" .
+
+<https://doi.org/10.4161%2FNUCL.2.4.16266>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.4161/NUCL.2.4.16266" .
+
+<https://doi.org/10.4161%2FEPI.28324>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.4161/EPI.28324" .
+
+<https://doi.org/10.1073%2FPNAS.1014033108>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1073/PNAS.1014033108" .
+
+<https://identifiers.org/pubmed/18840606>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18840606" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18840606> .
+
+<https://doi.org/10.1016%2FJ.STEM.2013.05.006>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.STEM.2013.05.006" .
+
+<https://doi.org/10.1038%2FNPP.2012.112>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NPP.2012.112" .
+
+<https://doi.org/10.1016%2FJ.BBAGRM.2012.10.004>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.BBAGRM.2012.10.004" .
+
+<https://identifiers.org/pubmed/23166392>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23166392" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23166392> .
+
+<https://identifiers.org/pubmed/24045206>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24045206" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38138707> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.MRGENTOX.2013.09.001> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24045206> .
+
+<https://identifiers.org/pubmed/31924266>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31924266" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31924266> .
+
+<https://identifiers.org/pubmed/34440566>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "34440566" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/34440566> .
+
+<https://doi.org/10.1016%2FJ.MRGENTOX.2013.09.001>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.MRGENTOX.2013.09.001" .
+
+<https://identifiers.org/pubmed/35115608>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "35115608" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/35115608> .
+
+<https://doi.org/10.1016%2FB978-0-12-416027-9.00002-4>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/B978-0-12-416027-9.00002-4" .
+
+<https://identifiers.org/pubmed/24560929>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24560929" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35046027> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.BBAGRM.2014.02.007> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24560929> .
+
+<https://doi.org/10.1146%2FANNUREV.CELLBIO.24.110707.175259>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1146/ANNUREV.CELLBIO.24.110707.175259" .
+
+<https://identifiers.org/pubmed/27036965>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27036965" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28068541> ;
+        owl:sameAs          <https://doi.org/10.1101%2FGAD.276568.115> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27036965> .
+
+<https://doi.org/10.1101%2FGAD.179184.111>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1101/GAD.179184.111" .
+
+<https://identifiers.org/pubmed/23587238>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23587238" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38099074> ;
+        owl:sameAs          <https://doi.org/10.1016%2FB978-0-12-416027-9.00002-4> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23587238> .
+
+<https://doi.org/10.1126%2FSCIENCE.1210597>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCIENCE.1210597" .
+
+<https://doi.org/10.1007%2F978-1-4419-9967-2_3>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1007/978-1-4419-9967-2_3" .
+
+<https://identifiers.org/pubmed/17500065>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17500065" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24305512> ;
+        owl:sameAs          <https://doi.org/10.1074%2FJBC.M701574200> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17500065> .
+
+<https://doi.org/10.1016%2FJ.STEM.2011.01.008>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.STEM.2011.01.008" .
+
+<https://identifiers.org/pubmed/19556245>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19556245" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19556245> .
+
+<https://doi.org/10.1093%2FNAR%2F10.8.2709>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1093/NAR/10.8.2709" .
+
+<https://identifiers.org/pubmed/21496894>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21496894" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24299862> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.CELL.2011.03.022> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21496894> .
+
+<https://doi.org/10.1016%2FJ.NEURON.2013.08.032>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.NEURON.2013.08.032" .
+
+<https://identifiers.org/pubmed/23770080>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23770080" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35760703> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.STEM.2013.05.006> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23770080> .
+
+<https://identifiers.org/reactome/R-HSA-9772755>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Formation of WDR5-containing histone-modifying complexes" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9772755> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9772755" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-212165_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/19923920> , <https://identifiers.org/pubmed/22158900> , <https://identifiers.org/pubmed/23470558> , <https://identifiers.org/pubmed/25998713> , <https://identifiers.org/pubmed/35115608> , <https://identifiers.org/pubmed/35328068> , <https://identifiers.org/pubmed/17500065> , <https://identifiers.org/pubmed/31768667> , <https://identifiers.org/pubmed/23508102> , <https://identifiers.org/pubmed/28160335> , <https://identifiers.org/pubmed/19556245> , <https://identifiers.org/pubmed/31924266> , <https://identifiers.org/pubmed/19703992> , <https://identifiers.org/pubmed/32346159> , <https://identifiers.org/pubmed/18840606> , <https://identifiers.org/pubmed/29385767> , <https://identifiers.org/pubmed/34440566> , <https://identifiers.org/pubmed/33150406> , <https://identifiers.org/pubmed/31197650> , <https://identifiers.org/pubmed/32546566> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-212165_rV88/DataNode/fffdf> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9772755> .
+
+<https://identifiers.org/pubmed/31768667>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31768667" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31768667> .
+
+<https://doi.org/10.1002%2FCBIC.201000195>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/CBIC.201000195" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-212165&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://doi.org/10.1016%2FJ.TIBS.2005.12.008>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.TIBS.2005.12.008" .
+
+<https://identifiers.org/pubmed/19738629>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19738629" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-212300> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q29614511> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNRM2763> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19738629> .
+
+<https://doi.org/10.1007%2F978-94-007-4525-4_10>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1007/978-94-007-4525-4_10" .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/pubmed/22156206>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22156206" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26823896> ;
+        owl:sameAs          <https://doi.org/10.1101%2FGAD.179184.111> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22156206> .
+
+<https://identifiers.org/pubmed/23150253>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23150253" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5250941> , <https://identifiers.org/reactome/R-HSA-5250913> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26852331> ;
+        owl:sameAs          <https://doi.org/10.1007%2F978-94-007-4525-4_10> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23150253> .
+
+<https://doi.org/10.1016%2FJ.CELL.2011.03.022>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.CELL.2011.03.022" .
+
+<https://identifiers.org/pubmed/23508102>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23508102" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23508102> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-212165&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://doi.org/10.1038%2FNATURE12750>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NATURE12750" .
+
+<https://identifiers.org/pubmed/24153300>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24153300" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q33715010> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNATURE12750> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24153300> .
+
+<https://identifiers.org/pubmed/24214338>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24214338" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38161457> ;
+        owl:sameAs          <https://doi.org/10.1002%2FMRD.22280> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24214338> .
+
+<https://identifiers.org/pubmed/24059801>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24059801" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38141138> ;
+        owl:sameAs          <https://doi.org/10.2217%2FEPI.13.43> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24059801> .
+
+<https://identifiers.org/pubmed/19923920>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19923920" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28611554> ;
+        owl:sameAs          <https://doi.org/10.4161%2FEPI.4.8.10132> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19923920> .
+
+<https://identifiers.org/pubmed/22974304>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22974304" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38043063> ;
+        owl:sameAs          <https://doi.org/10.1146%2FANNUREV-GENET-110711-155451> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22974304> .
+
+<https://identifiers.org/reactome/R-HSA-212300>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "PRC2 methylates histones and DNA" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-212300> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-212300" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-212165_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/21248841> , <https://identifiers.org/pubmed/24096405> , <https://identifiers.org/pubmed/23473600> , <https://identifiers.org/pubmed/19738629> , <https://identifiers.org/pubmed/21941108> , <https://identifiers.org/pubmed/18974828> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-212165_rV88/DataNode/a1342> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-212300> .
+
+<https://identifiers.org/pubmed/20639862>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20639862" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28504641> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNATURE09303> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20639862> .
+
+<https://doi.org/10.1002%2FMRD.22280>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/MRD.22280" .
+
+<https://identifiers.org/pubmed/18974828>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18974828" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-212300> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q21092474> ;
+        owl:sameAs          <https://doi.org/10.1371%2FJOURNAL.PGEN.1000242> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18974828> .
+
+<https://identifiers.org/pubmed/33150406>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "33150406" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/33150406> .
+
+<https://doi.org/10.1016%2FJ.BBRC.2013.05.077>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.BBRC.2013.05.077" .
+
+<https://identifiers.org/pubmed/35328068>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "35328068" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/35328068> .
+
+<https://identifiers.org/pubmed/23063748>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23063748" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5250941> , <https://identifiers.org/reactome/R-HSA-5250913> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34305951> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.BBAGRM.2012.10.004> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23063748> .
+
+<https://identifiers.org/pubmed/16403636>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16403636" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28290773> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.TIBS.2005.12.008> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16403636> .
+
+<https://doi.org/10.4161%2FEPI.4.8.10132>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.4161/EPI.4.8.10132" .
+
+<https://identifiers.org/pubmed/19703992>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19703992" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19703992> .
+
+<https://doi.org/10.1101%2FGAD.276568.115>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1101/GAD.276568.115" .
+
+<https://doi.org/10.1038%2FNSMB.2669>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NSMB.2669" .
+
+<https://identifiers.org/pubmed/23938249>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23938249" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38128454> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.BBAGRM.2013.08.001> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23938249> .
+
+<https://identifiers.org/reactome/R-HSA-5221030>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "TET1,2,3 and TDG demethylate DNA" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-5221030> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5221030" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-212165_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/23770080> , <https://identifiers.org/pubmed/24050399> , <https://identifiers.org/pubmed/21451524> , <https://identifiers.org/pubmed/22974304> , <https://identifiers.org/pubmed/21295276> , <https://identifiers.org/pubmed/24153300> , <https://identifiers.org/pubmed/22956496> , <https://identifiers.org/pubmed/22156206> , <https://identifiers.org/pubmed/21817016> , <https://identifiers.org/pubmed/20639862> , <https://identifiers.org/pubmed/19372391> , <https://identifiers.org/pubmed/21460836> , <https://identifiers.org/pubmed/21778364> , <https://identifiers.org/pubmed/21321204> , <https://identifiers.org/pubmed/23727577> , <https://identifiers.org/pubmed/27036965> , <https://identifiers.org/pubmed/21496894> , <https://identifiers.org/pubmed/24045206> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-212165_rV88/DataNode/eacf9> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-5221030> .
+
+<https://doi.org/10.1007%2FS11515-012-9246-1>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1007/S11515-012-9246-1" .
+
+<https://identifiers.org/pubmed/23727577>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23727577" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38111178> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.BBRC.2013.05.077> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23727577> .
+
+<https://identifiers.org/pubmed/21243710>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21243710" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37829700> ;
+        owl:sameAs          <https://doi.org/10.1002%2FCBIC.201000195> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21243710> .
+
+<https://identifiers.org/pubmed/7079182>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "7079182" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24632620> ;
+        owl:sameAs          <https://doi.org/10.1093%2FNAR%2F10.8.2709> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/7079182> .
+
+<https://doi.org/10.1016%2FJ.BBAGRM.2012.10.014>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.BBAGRM.2012.10.014" .
+
+<https://identifiers.org/pubmed/23470558>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23470558" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23470558> .
+
+<https://doi.org/10.1074%2FJBC.M701574200>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1074/JBC.M701574200" .
+
+<https://doi.org/10.1038%2FNATURE09303>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NATURE09303" .
+
+<https://identifiers.org/pubmed/18616426>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18616426" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5250941> , <https://identifiers.org/reactome/R-HSA-5250913> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37212209> ;
+        owl:sameAs          <https://doi.org/10.1146%2FANNUREV.CELLBIO.24.110707.175259> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18616426> .
+
+<https://identifiers.org/pubmed/28160335>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28160335" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28160335> .
+
+<https://doi.org/10.1016%2FJ.CEB.2006.03.001>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.CEB.2006.03.001" .
+
+<https://doi.org/10.1038%2FNATURE10008>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NATURE10008" .
+
+<https://doi.org/10.1038%2FNATURE09784>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NATURE09784" .
+
+<https://identifiers.org/pubmed/16574391>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16574391" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5250913> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36436099> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.CEB.2006.03.001> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16574391> .
+
+<https://identifiers.org/pubmed/24589714>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24589714" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5334118> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27021411> ;
+        owl:sameAs          <https://doi.org/10.4161%2FEPI.28324> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24589714> .
+
+<https://identifiers.org/pubmed/25998713>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25998713" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25998713> .
+
+<https://doi.org/10.1016%2FJ.BBAGRM.2013.08.001>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.BBAGRM.2013.08.001" .
+
+<https://identifiers.org/reactome/R-HSA-5250941>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Negative epigenetic regulation of rRNA expression" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-5250941> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5250941" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-212165_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/23150253> , <https://identifiers.org/pubmed/18616426> , <https://identifiers.org/pubmed/23063748> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-212165_rV88/DataNode/a2e2f> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-5250941> .
+
+<https://identifiers.org/reactome/R-HSA-5250913>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Positive epigenetic regulation of rRNA expression" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-5250913> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5250913" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-212165_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/18616426> , <https://identifiers.org/pubmed/16574391> , <https://identifiers.org/pubmed/23063748> , <https://identifiers.org/pubmed/23150253> , <https://identifiers.org/pubmed/23153826> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-212165_rV88/DataNode/d80f7> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-5250913> .
+
+<https://identifiers.org/pubmed/21248841>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21248841" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-212300> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q29547358> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNATURE09784> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21248841> .
+
+<https://identifiers.org/pubmed/21778364>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21778364" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24614582> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCIENCE.1210597> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21778364> .
+
+<https://identifiers.org/wikipathways/R-HSA-212165>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-212165_rV88> .
+
+<https://identifiers.org/reactome/R-HSA-5334118>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "DNA methylation" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-5334118> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5334118" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-212165_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/21243710> , <https://identifiers.org/pubmed/24214338> , <https://identifiers.org/pubmed/24560929> , <https://identifiers.org/pubmed/22781841> , <https://identifiers.org/pubmed/24589714> , <https://identifiers.org/pubmed/23166392> , <https://identifiers.org/pubmed/7079182> , <https://identifiers.org/pubmed/24059801> , <https://identifiers.org/pubmed/19657014> , <https://identifiers.org/pubmed/16403636> , <https://identifiers.org/pubmed/23687512> , <https://identifiers.org/pubmed/23938249> , <https://identifiers.org/pubmed/23587238> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-212165_rV88/DataNode/ec52a> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-5334118> .
+
+<https://identifiers.org/pubmed/21941108>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21941108" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-212300> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q45345572> ;
+        owl:sameAs          <https://doi.org/10.4161%2FNUCL.2.4.16266> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21941108> .
+
+<https://doi.org/10.1242%2FJCS.015123>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1242/JCS.015123" .
+
+<https://identifiers.org/pubmed/19372391>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19372391" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24316558> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCIENCE.1170116> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19372391> .
+
+<https://identifiers.org/pubmed/21321204>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21321204" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28585429> ;
+        owl:sameAs          <https://doi.org/10.1073%2FPNAS.1014033108> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21321204> .
+
+<https://identifiers.org/pubmed/31197650>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31197650" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31197650> .
+
+<https://doi.org/10.1126%2FSCIENCE.1210944>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCIENCE.1210944" .
+
+<https://identifiers.org/pubmed/22956496>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22956496" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38041520> ;
+        owl:sameAs          <https://doi.org/10.1007%2F978-1-4419-9967-2_3> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22956496> .
+
+<https://identifiers.org/pubmed/24050399>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24050399" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q42157544> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.NEURON.2013.08.032> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24050399> .
+
+<https://identifiers.org/pubmed/21817016>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21817016" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5221030> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24632387> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCIENCE.1210944> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21817016> .
+
+<https://identifiers.org/pubmed/12610534>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12610534" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-212165_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12610534> .
+
+<https://identifiers.org/pubmed/32346159>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "32346159" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9772755> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/32346159> .

@@ -1,0 +1,129 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.3945%2FAN.111.001800>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.3945/AN.111.001800" .
+
+<https://doi.org/10.1146%2FANNUREV.BI.53.070184.000245>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1146/ANNUREV.BI.53.070184.000245" .
+
+<https://identifiers.org/pubmed/6383192>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "6383192" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-8978934> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q45345686> ;
+        owl:sameAs          <https://doi.org/10.1146%2FANNUREV.BI.53.070184.000245> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/6383192> .
+
+<https://identifiers.org/pubmed/22516726>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22516726" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-6806667> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36828726> ;
+        owl:sameAs          <https://doi.org/10.3945%2FAN.111.001800> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22516726> .
+
+<https://identifiers.org/reactome/R-HSA-6806667>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Metabolism of fat-soluble vitamins" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-6806667> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-6806667" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-196854_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/22516726> , <https://identifiers.org/pubmed/15951480> , <https://identifiers.org/pubmed/16011460> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-196854_rV88/DataNode/e3125> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-6806667> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-196854&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/wikipathways/R-HSA-196854>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-196854_rV88> .
+
+<https://identifiers.org/reactome/R-HSA-196849>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Metabolism of water-soluble vitamins and cofactors" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-196849> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-196849" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-196854_rV88> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-196854_rV88/DataNode/e4e1b> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-196849> .
+
+<https://identifiers.org/wikipathways/R-HSA-196854_rV88>
+        rdf:type             skos:Collection , wp:Pathway ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-196854> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Metabolism of vitamins and cofactors"@en ;
+        dcterms:description  "Vitamins are a diverse group of organic compounds, classified according to their solubility, either fat-soluble or water-soluble, that are either not synthesized or synthesized only in limited amounts by human cells. They are required in small amounts in the diet and have distinct biochemical roles, often as coenzymes (cofactors). The physiological processes dependent on vitamin-requiring reactions include many aspects of intermediary metabolism, vision, bone formation, and blood coagulation, and vitamin deficiencies are associated with a correspondingly diverse and severe group of diseases. Metabolic pathways for water-soluble B group and C vitamins, and for fat-soluble vitamins A, D and K are annotated in Reactome, covering processes that convert dietary forms of these molecules into active forms, and that regenerate active forms of vitamin cofactors consumed in other metabolic processes.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=196854 Reactome]." ;
+        dcterms:identifier   "R-HSA-196854" ;
+        cito:cites           <https://identifiers.org/pubmed/22516726> , <https://identifiers.org/pubmed/15951480> , <https://identifiers.org/pubmed/16011460> , <https://identifiers.org/pubmed/6383192> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-196854_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-196854&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-196854&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-196854_rV88> .
+
+<https://doi.org/10.1146%2FANNUREV.NUTR.25.050304.092614>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1146/ANNUREV.NUTR.25.050304.092614" .
+
+<https://identifiers.org/pubmed/15951480>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15951480" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-6806667> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27919675> ;
+        owl:sameAs          <https://doi.org/10.1152%2FAJPRENAL.00336.2004> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15951480> .
+
+<https://identifiers.org/reactome/R-HSA-8978934>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Metabolism of cofactors" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-8978934> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-8978934" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-196854_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/6383192> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-196854_rV88/DataNode/e1d03> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-8978934> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-196854&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/16011460>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16011460" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-6806667> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27919677> ;
+        owl:sameAs          <https://doi.org/10.1146%2FANNUREV.NUTR.25.050304.092614> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16011460> .
+
+<https://doi.org/10.1152%2FAJPRENAL.00336.2004>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1152/AJPRENAL.00336.2004" .

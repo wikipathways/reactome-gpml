@@ -1,0 +1,290 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.1038%2FNG909>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NG909" .
+
+<https://identifiers.org/reactome/R-HSA-163321>
+        rdf:type            wp:Complex , wp:DataNode ;
+        rdfs:label          "mTERF:mitochondrial transcription termination sequence" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-163321> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-163321" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/ab8c4> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-163321> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50258741> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/f0a78> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-163321> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/ComplexBinding/dba02>
+        rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Group/dba02> ;
+        wp:participants   <https://identifiers.org/uniprot/Q00059> , <https://identifiers.org/uniprot/O00411> , <https://identifiers.org/uniprot/Q9H5Q4> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Complex/dba02> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/ComplexBinding/ab9e9>
+        rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Group/ab9e9> ;
+        wp:participants   <https://identifiers.org/uniprot/Q9H5Q4> , <https://identifiers.org/uniprot/O00411> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Complex/ab9e9> .
+
+<https://identifiers.org/uniprot/Q00059>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "TFAM" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q00059> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q00059" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Complex/dba02> , <https://identifiers.org/wikipathways/R-HSA-75944_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/fa12e> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000108064> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/7019> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/TFAM> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/H7BYN3> , <https://identifiers.org/uniprot/Q00059> , <https://identifiers.org/uniprot/E5KSU5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/eada5> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/f893a> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/e45cb> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q00059> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/ab8c4>
+        rdf:type            wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-163320" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-163320> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/b5db8> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/ab8c4> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/e933e> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/a1551> ;
+        wp:participants     <https://identifiers.org/reactome/R-HSA-163321> , <https://identifiers.org/uniprot/Q99551> ;
+        wp:source           <https://identifiers.org/uniprot/Q99551> ;
+        wp:target           <https://identifiers.org/reactome/R-HSA-163321> .
+
+<https://identifiers.org/wikipathways/R-HSA-75944_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-75944> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Transcription from mitochondrial promoters"@en ;
+        dcterms:description  "Thirteen of the ~80 different proteins present in the respiratory chain of human mitochondria are encoded by the mitochondrial genome (mtDNA). The circular mtDNA, which is present in 1000 to 10000 copies in the human cell, also encodes for 2 ribosomal RNAs, and 22 transfer RNAs. The double-stranded mitochondrial genome lacks introns and the longer non-coding region contains the control elements for transcription and replication of mtDNA  (Shadel and Clayton,  1997).   The two mtDNA strands are referred to as the heavy  (H-strand) and the light  (L-strand) due to their differing  G+T content.  In human cells, each strand contains one single promoter for transcriptional initiation, the light-strand promoter (LSP) or the heavy-strand promoter (HSP). Transcription from the mitochondrial promoters produce polycistronic precursor RNA encompassing all the genetic information encoded in each of the specific strands. The primary transcripts are processed to produce the individual tRNA and mRNA molecules (Clayton, 1991; Ojala et al., 1981). There is likely a second initiation site for heavy strand transcription, which produces RNAs spanning the rDNA region. The resulting transcript  including  the genes for the two mitochondrial rRNAs and ends at the boundary between the 16 S rRNA and the tRNALeu(UUR) genes (Montoya et al., 1982; Montoya et al.,1983; Christianson and Clayton 1986). The existence of such a separate transcription unit may explain why the steady-state levels of rRNAs are much higher than the steady state levels of mRNAs.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=75944 Reactome]." ;
+        dcterms:identifier   "R-HSA-75944" ;
+        dcterms:references   <https://identifiers.org/pubmed/3018722> , <https://identifiers.org/pubmed/9242913> , <https://identifiers.org/pubmed/1809353> , <https://identifiers.org/pubmed/6883508> , <https://identifiers.org/pubmed/6185947> , <https://identifiers.org/pubmed/7219536> ;
+        cito:cites           <https://identifiers.org/pubmed/3594571> , <https://identifiers.org/pubmed/7219536> , <https://identifiers.org/pubmed/1809353> , <https://identifiers.org/pubmed/6185947> , <https://identifiers.org/pubmed/6883508> , <https://identifiers.org/pubmed/9242913> , <https://identifiers.org/pubmed/3018722> , <https://identifiers.org/pubmed/12068295> , <https://identifiers.org/pubmed/15526033> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-75944&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-75944&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-75944_rV88> .
+
+<https://identifiers.org/pubmed/6883508>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "6883508" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/6883508> .
+
+<https://identifiers.org/reactome/R-HSA-163307>
+        rdf:type            wp:Complex , wp:DataNode ;
+        rdfs:label          "POLRMT:TFB2M:TFAM:mitochondrial promoter complex" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-163307> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-163307" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/e7929> , <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-163307> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50258740> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/b4d6d> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-163307> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/e7929>
+        rdf:type            wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-163296" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/12068295> , <https://identifiers.org/pubmed/15526033> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-163296> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/aacff> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/e7929> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/b5bd4> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/faeaa> ;
+        wp:participants     <https://identifiers.org/reactome/R-HSA-163306> , <https://identifiers.org/reactome/R-HSA-163298> , <https://identifiers.org/reactome/R-HSA-163307> ;
+        wp:source           <https://identifiers.org/reactome/R-HSA-163298> , <https://identifiers.org/reactome/R-HSA-163306> ;
+        wp:target           <https://identifiers.org/reactome/R-HSA-163307> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-75944&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/reactome/R-HSA-163298>
+        rdf:type            wp:Complex , wp:DataNode ;
+        rdfs:label          "TFAM:mitochondrial promoter complex" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-163298> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-163298" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/e7929> , <https://identifiers.org/wikipathways/R-HSA-75944_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/fa12e> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-163298> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50258738> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/ddfed> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-163298> .
+
+<https://identifiers.org/pubmed/9242913>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9242913" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9242913> .
+
+<https://identifiers.org/pubmed/12068295>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12068295" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/e7929> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24299860> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNG909> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12068295> .
+
+<https://identifiers.org/reactome/R-HSA-163306>
+        rdf:type            wp:Complex , wp:DataNode ;
+        rdfs:label          "POLRMT:TFB2M complex" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-163306> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-163306" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/e7929> , <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-163306> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50258739> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/df328> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-163306> .
+
+<https://identifiers.org/pubmed/3594571>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "3594571" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/fa12e> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28611665> ;
+        owl:sameAs          <https://doi.org/10.1016%2F0092-8674%2887%2990220-0> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/3594571> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Complex/dba02>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Group/dba02> ;
+        wp:participants   <https://identifiers.org/uniprot/Q00059> , <https://identifiers.org/uniprot/O00411> , <https://identifiers.org/uniprot/Q9H5Q4> .
+
+<https://identifiers.org/pubmed/7219536>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "7219536" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/7219536> .
+
+<https://identifiers.org/uniprot/Q9H5Q4>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "TFB2M" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9H5Q4> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9H5Q4" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Complex/ab9e9> , <https://identifiers.org/wikipathways/R-HSA-75944_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Complex/dba02> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000162851> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/64216> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/TFB2M> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9H5Q4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/b2c4b> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/d7b65> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9H5Q4> .
+
+<https://identifiers.org/wikipathways/R-HSA-75944>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-75944_rV88> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Complex/ab9e9>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Group/ab9e9> ;
+        wp:participants   <https://identifiers.org/uniprot/Q9H5Q4> , <https://identifiers.org/uniprot/O00411> .
+
+<https://identifiers.org/pubmed/3018722>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "3018722" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/3018722> .
+
+<https://identifiers.org/pubmed/15526033>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15526033" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/e7929> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24559899> ;
+        owl:sameAs          <https://doi.org/10.1038%2FSJ.EMBOJ.7600465> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15526033> .
+
+<https://doi.org/10.1038%2FSJ.EMBOJ.7600465>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/SJ.EMBOJ.7600465" .
+
+<https://identifiers.org/pubmed/6185947>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "6185947" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/6185947> .
+
+<https://identifiers.org/uniprot/O00411>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "POLRMT" ;
+        dc:identifier       <https://identifiers.org/uniprot/O00411> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "O00411" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Complex/dba02> , <https://identifiers.org/wikipathways/R-HSA-75944_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Complex/ab9e9> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000099821> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/5442> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/POLRMT> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/R4GN79> , <https://identifiers.org/uniprot/K7EMH3> , <https://identifiers.org/uniprot/K7ESD1> , <https://identifiers.org/uniprot/O00411> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/ecb29> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/b02fa> ;
+        foaf:page           <http://www.uniprot.org/uniprot/O00411> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/fa12e>
+        rdf:type            wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-163310" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/3594571> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-163310> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/b1e41> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/fa12e> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/b3b87> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/Interaction/ec806> ;
+        wp:participants     <https://identifiers.org/reactome/R-HSA-163298> , <https://identifiers.org/uniprot/Q00059> ;
+        wp:source           <https://identifiers.org/uniprot/Q00059> ;
+        wp:target           <https://identifiers.org/reactome/R-HSA-163298> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.1016%2F0092-8674%2887%2990220-0>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/0092-8674(87)90220-0" .
+
+<https://identifiers.org/pubmed/1809353>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "1809353" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/1809353> .
+
+<https://identifiers.org/uniprot/Q99551>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "MTERF" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q99551> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q99551" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/WP/Interaction/ab8c4> , <https://identifiers.org/wikipathways/R-HSA-75944_rV88> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000127989> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/7978> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/MTERF1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/B4DPR9> , <https://identifiers.org/uniprot/C9JNM8> , <https://identifiers.org/uniprot/C9JE25> , <https://identifiers.org/uniprot/Q99551> , <https://identifiers.org/uniprot/C9JU79> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/df0fc> , <http://rdf.wikipathways.org/Pathway/R-HSA-75944_rV88/DataNode/c7b72> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q99551> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-75944&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .

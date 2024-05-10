@@ -1,0 +1,175 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubmed/28399394>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28399394" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9663891_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28399394> .
+
+<https://doi.org/10.1034%2FJ.1600-0854.2002.30602.X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1034/J.1600-0854.2002.30602.X" .
+
+<https://identifiers.org/pubmed/28642194>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28642194" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9613354> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38667805> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.BBALIP.2017.06.008> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28642194> .
+
+<https://identifiers.org/wikipathways/R-HSA-9663891>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-9663891_rV88> .
+
+<https://identifiers.org/pubmed/27068951>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27068951" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9664873> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26749227> ;
+        owl:sameAs          <https://doi.org/10.1042%2FBST20150268> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27068951> .
+
+<https://identifiers.org/wikipathways/R-HSA-9663891_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-9663891> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Selective autophagy"@en ;
+        dcterms:description  "Autophagy can be a selective process where specific cargo (organelles/proteins) are targetted to degradation in the lysosome. In general, selective autophagy is initiated when a cellular signal tags the cargo organelle for degradation. Subsequently, cargo recognition proteins detect and recruit the organelle to interact directly or indirectly with Atg proteins forming the phagophore. The next steps involve formation of the autophagosome and fusion with the lysosome for degradation. Depending upon the organelle, different molecules are used to for the autophagy mechanism (Andling AL et al. 2017). Consequently, the different mechanisms are known by the organelle degraded such as mitophagy for mitochondia, lipophagy for lipid droplets, pexophagy for peroxisomes and aggrephagy for aggregated proteins.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9663891 Reactome]." ;
+        dcterms:identifier   "R-HSA-9663891" ;
+        dcterms:references   <https://identifiers.org/pubmed/28399394> ;
+        cito:cites           <https://identifiers.org/pubmed/27068951> , <https://identifiers.org/pubmed/12010457> , <https://identifiers.org/pubmed/19339967> , <https://identifiers.org/pubmed/28642194> , <https://identifiers.org/pubmed/26778751> , <https://identifiers.org/pubmed/21179058> , <https://identifiers.org/pubmed/28399394> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-9663891_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9663891&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9663891&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-9663891_rV88> .
+
+<https://identifiers.org/reactome/R-HSA-9664873>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Pexophagy" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9664873> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9664873" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9663891_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/27068951> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9663891_rV88/DataNode/f5733> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9664873> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9663891&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/21179058>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21179058" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5205647> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27310261> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNRM3028> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21179058> .
+
+<https://identifiers.org/reactome/R-HSA-5205647>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Mitophagy" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-5205647> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5205647" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9663891_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/21179058> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9663891_rV88/DataNode/e1a6f> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-5205647> .
+
+<https://identifiers.org/pubmed/26778751>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26778751" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9613354> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26771552> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.BBALIP.2016.01.006> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26778751> .
+
+<https://doi.org/10.1016%2FJ.BBALIP.2017.06.008>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.BBALIP.2017.06.008" .
+
+<https://identifiers.org/pubmed/12010457>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12010457" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9646399> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34637179> ;
+        owl:sameAs          <https://doi.org/10.1034%2FJ.1600-0854.2002.30602.X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12010457> .
+
+<https://doi.org/10.1016%2FJ.BBALIP.2016.01.006>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.BBALIP.2016.01.006" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9663891&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://doi.org/10.1038%2FNATURE07976>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NATURE07976" .
+
+<https://identifiers.org/reactome/R-HSA-9646399>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Aggrephagy" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9646399> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9646399" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9663891_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/12010457> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9663891_rV88/DataNode/cdebc> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9646399> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/pubmed/19339967>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19339967" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9613354> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q29547421> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNATURE07976> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19339967> .
+
+<https://doi.org/10.1038%2FNRM3028>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NRM3028" .
+
+<https://doi.org/10.1042%2FBST20150268>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1042/BST20150268" .
+
+<https://identifiers.org/reactome/R-HSA-9613354>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Lipophagy" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9613354> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9613354" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9663891_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/28642194> , <https://identifiers.org/pubmed/19339967> , <https://identifiers.org/pubmed/26778751> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9663891_rV88/DataNode/d5f56> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9613354> .

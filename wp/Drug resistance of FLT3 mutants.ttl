@@ -1,0 +1,415 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.1182%2FBLOOD-2002-04-1045>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1182/BLOOD-2002-04-1045" .
+
+<https://identifiers.org/pubmed/25847190>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25847190" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702605> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35909096> ;
+        owl:sameAs          <https://doi.org/10.1158%2F2159-8290.CD-15-0060> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25847190> .
+
+<https://identifiers.org/reactome/R-HSA-9703009>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "tamatinib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9703009> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9703009" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/28077790> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/d1300> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9703009> .
+
+<https://identifiers.org/wikipathways/R-HSA-9702506_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-9702506> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Drug resistance of FLT3 mutants"@en ;
+        dcterms:description  "FLT3 is mutated in ~30% of acute myeloid leukemias (AML), with internal tandem duplications (ITDs) representing the majority of these mutations and activating point mutants occurring at lower frequency. FLT3 mutations also occur at lower rates in other cancers (reviewed in Kazi and Roonstrand, 2018; Daver et al, 2019; Larroas-Garcia and Baer, 2017). Mutation of FLT3 has been identified as a driver in progression of AML and in consequence is a promising therapeutic target. A number of first and second generation inhibitors have been demonstrated to have activity against FLT3, but accumulation of secondary mutations leads to the development of resistance. These secondary mutations further shift the equilibrium of the receptor toward the activated state, making even the second-generation type II TKIs less effective. In consequence, considerable effort is devoted to discovery of type II and, in particular, type I TKIs that are active against highly activated FLT3 alleles (reviewed in Daver et al, 2019; Staudt et al, 2018; Lim et al, 2017; Klug et al, 2018).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9702506 Reactome]." ;
+        dcterms:identifier   "R-HSA-9702506" ;
+        dcterms:references   <https://identifiers.org/pubmed/30332834> , <https://identifiers.org/pubmed/31066629> , <https://identifiers.org/pubmed/28851395> , <https://identifiers.org/pubmed/30651634> , <https://identifiers.org/pubmed/29964125> , <https://identifiers.org/pubmed/28576946> ;
+        cito:cites           <https://identifiers.org/pubmed/27450971> , <https://identifiers.org/pubmed/30332834> , <https://identifiers.org/pubmed/31066629> , <https://identifiers.org/pubmed/21471285> , <https://identifiers.org/pubmed/26999641> , <https://identifiers.org/pubmed/24749672> , <https://identifiers.org/pubmed/12406902> , <https://identifiers.org/pubmed/25847190> , <https://identifiers.org/pubmed/28576946> , <https://identifiers.org/pubmed/29069942> , <https://identifiers.org/pubmed/28851395> , <https://identifiers.org/pubmed/28077790> , <https://identifiers.org/pubmed/26108694> , <https://identifiers.org/pubmed/29964125> , <https://identifiers.org/pubmed/30651634> , <https://identifiers.org/pubmed/15256420> , <https://identifiers.org/pubmed/12351406> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9702506&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9702506&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-9702506_rV88> .
+
+<https://identifiers.org/reactome/R-HSA-9702636>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "tandutinib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702636> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702636" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/15256420> , <https://identifiers.org/pubmed/30332834> , <https://identifiers.org/pubmed/30651634> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/cf5a9> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702636> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9702506&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/pubmed/29964125>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29964125" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29964125> .
+
+<https://doi.org/10.1080%2F17474086.2017.1397510>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1080/17474086.2017.1397510" .
+
+<https://identifiers.org/reactome/R-HSA-9702577>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "semaxanib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702577> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702577" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/12351406> , <https://identifiers.org/pubmed/12406902> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/b6d0c> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702577> .
+
+<https://identifiers.org/pubmed/26999641>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26999641" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702624> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38381981> ;
+        owl:sameAs          <https://doi.org/10.1038%2FONC.2016.41> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26999641> .
+
+<https://identifiers.org/pubmed/28077790>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28077790" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702624> , <https://identifiers.org/reactome/R-HSA-9702998> , <https://identifiers.org/reactome/R-HSA-9703009> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38721796> ;
+        owl:sameAs          <https://doi.org/10.18632%2FONCOTARGET.14539> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28077790> .
+
+<https://identifiers.org/pubmed/30332834>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30332834" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702581> , <https://identifiers.org/reactome/R-HSA-9702636> , <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> , <https://identifiers.org/reactome/R-HSA-9702596> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q58555667> ;
+        owl:sameAs          <https://doi.org/10.3390%2FIJMS19103198> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30332834> .
+
+<https://identifiers.org/reactome/R-HSA-9702569>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "KW2449-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702569> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702569" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/28576946> , <https://identifiers.org/pubmed/31066629> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/bb8ca> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702569> .
+
+<https://identifiers.org/pubmed/21471285>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21471285" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702998> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35038725> ;
+        owl:sameAs          <https://doi.org/10.1158%2F1535-7163.MCT-10-0904> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21471285> .
+
+<https://identifiers.org/pubmed/15256420>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15256420" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702636> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q40534979> ;
+        owl:sameAs          <https://doi.org/10.1182%2FBLOOD-2003-12-4446> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15256420> .
+
+<https://identifiers.org/pubmed/29069942>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29069942" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702600> , <https://identifiers.org/reactome/R-HSA-9702590> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q47877035> ;
+        owl:sameAs          <https://doi.org/10.1080%2F17474086.2017.1397510> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29069942> .
+
+<https://doi.org/10.1182%2FBLOOD-2003-12-4446>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1182/BLOOD-2003-12-4446" .
+
+<https://doi.org/10.1152%2FPHYSREV.00029.2018>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1152/PHYSREV.00029.2018" .
+
+<https://identifiers.org/reactome/R-HSA-9702614>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "ponatinib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702614> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702614" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/31066629> , <https://identifiers.org/pubmed/24749672> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/dfad1> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702614> .
+
+<https://identifiers.org/reactome/R-HSA-9702596>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "lestaurtinib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702596> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702596" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/30332834> , <https://identifiers.org/pubmed/30651634> , <https://identifiers.org/pubmed/28576946> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/ebc8b> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702596> .
+
+<https://doi.org/10.1158%2F1535-7163.MCT-16-0876>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/1535-7163.MCT-16-0876" .
+
+<https://doi.org/10.1158%2F1535-7163.MCT-10-0904>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/1535-7163.MCT-10-0904" .
+
+<https://identifiers.org/pubmed/27450971>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27450971" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702590> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38807976> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.CLML.2016.06.002> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27450971> .
+
+<https://doi.org/10.1038%2FLEU.2015.165>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/LEU.2015.165" .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/reactome/R-HSA-9702590>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "gilteritinib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702590> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702590" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/27450971> , <https://identifiers.org/pubmed/28851395> , <https://identifiers.org/pubmed/29069942> , <https://identifiers.org/pubmed/30651634> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/c596a> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702590> .
+
+<https://identifiers.org/reactome/R-HSA-9702600>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "midostaurin-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702600> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702600" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/31066629> , <https://identifiers.org/pubmed/29069942> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/f0f15> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702600> .
+
+<https://identifiers.org/pubmed/28851395>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28851395" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702590> , <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q41558732> ;
+        owl:sameAs          <https://doi.org/10.1186%2FS12967-017-1281-X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28851395> .
+
+<https://identifiers.org/reactome/R-HSA-9702620>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "quizartinib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702620> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702620" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/31066629> , <https://identifiers.org/pubmed/30651634> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/c6f76> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702620> .
+
+<https://identifiers.org/pubmed/24749672>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24749672" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702614> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q33943277> ;
+        owl:sameAs          <https://doi.org/10.1517%2F13543784.2014.911839> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24749672> .
+
+<https://doi.org/10.18632%2FONCOTARGET.14539>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.18632/ONCOTARGET.14539" .
+
+<https://identifiers.org/reactome/R-HSA-9702605>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "pexidartinib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702605> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702605" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/26108694> , <https://identifiers.org/pubmed/25847190> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/b58b4> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702605> .
+
+<https://identifiers.org/pubmed/12351406>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12351406" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702577> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q44155418> ;
+        owl:sameAs          <https://doi.org/10.1182%2FBLOOD-2002-02-0531> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12351406> .
+
+<https://identifiers.org/pubmed/31066629>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31066629" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702569> , <https://identifiers.org/reactome/R-HSA-9702632> , <https://identifiers.org/reactome/R-HSA-9702614> , <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> , <https://identifiers.org/reactome/R-HSA-9702600> , <https://identifiers.org/reactome/R-HSA-9702624> , <https://identifiers.org/reactome/R-HSA-9702620> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q91846590> ;
+        owl:sameAs          <https://doi.org/10.1152%2FPHYSREV.00029.2018> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31066629> .
+
+<https://identifiers.org/pubmed/30651634>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30651634" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> , <https://identifiers.org/reactome/R-HSA-9702596> , <https://identifiers.org/reactome/R-HSA-9702636> , <https://identifiers.org/reactome/R-HSA-9702620> , <https://identifiers.org/reactome/R-HSA-9702590> , <https://identifiers.org/reactome/R-HSA-9702581> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q61815346> ;
+        owl:sameAs          <https://doi.org/10.1038%2FS41375-018-0357-9> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30651634> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9702506&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/28576946>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28576946" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702569> , <https://identifiers.org/reactome/R-HSA-9702581> , <https://identifiers.org/reactome/R-HSA-9702596> , <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38675400> ;
+        owl:sameAs          <https://doi.org/10.1158%2F1535-7163.MCT-16-0876> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28576946> .
+
+<https://doi.org/10.1038%2FS41375-018-0357-9>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/S41375-018-0357-9" .
+
+<https://doi.org/10.1186%2FS12967-017-1281-X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1186/S12967-017-1281-X" .
+
+<https://identifiers.org/reactome/R-HSA-9702581>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "crenolanib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702581> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702581" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/30651634> , <https://identifiers.org/pubmed/28576946> , <https://identifiers.org/pubmed/30332834> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/c825b> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702581> .
+
+<https://doi.org/10.3390%2FIJMS19103198>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.3390/IJMS19103198" .
+
+<https://doi.org/10.1517%2F13543784.2014.911839>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1517/13543784.2014.911839" .
+
+<https://doi.org/10.1016%2FJ.CLML.2016.06.002>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.CLML.2016.06.002" .
+
+<https://identifiers.org/reactome/R-HSA-9702632>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "sunitinib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702632> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702632" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/31066629> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/f9a8e> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702632> .
+
+<https://identifiers.org/pubmed/26108694>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26108694" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702605> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36362951> ;
+        owl:sameAs          <https://doi.org/10.1038%2FLEU.2015.165> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26108694> .
+
+<https://identifiers.org/reactome/R-HSA-9702624>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "sorafenib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702624> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702624" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/28077790> , <https://identifiers.org/pubmed/26999641> , <https://identifiers.org/pubmed/31066629> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/bb011> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702624> .
+
+<https://doi.org/10.1158%2F2159-8290.CD-15-0060>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/2159-8290.CD-15-0060" .
+
+<https://identifiers.org/reactome/R-HSA-9702998>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "linifanib-resistant FLT3 mutants" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9702998> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9702998" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/21471285> , <https://identifiers.org/pubmed/28077790> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9702506_rV88/DataNode/e47e0> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9702998> .
+
+<https://identifiers.org/pubmed/12406902>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12406902" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9702577> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q44198526> ;
+        owl:sameAs          <https://doi.org/10.1182%2FBLOOD-2002-04-1045> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12406902> .
+
+<https://doi.org/10.1182%2FBLOOD-2002-02-0531>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1182/BLOOD-2002-02-0531" .
+
+<https://doi.org/10.1038%2FONC.2016.41>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/ONC.2016.41" .
+
+<https://identifiers.org/wikipathways/R-HSA-9702506>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-9702506_rV88> .

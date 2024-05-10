@@ -1,0 +1,138 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.1210%2FER.2005-0017>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1210/ER.2005-0017" .
+
+<https://identifiers.org/reactome/R-HSA-73886>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Chromosome Maintenance" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-73886> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-73886" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1640170_rV88> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1640170_rV88/DataNode/dcb8c> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-73886> .
+
+<https://identifiers.org/reactome/R-HSA-1500620>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Meiosis" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-1500620> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-1500620" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1640170_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/20364103> , <https://identifiers.org/pubmed/16543383> , <https://identifiers.org/pubmed/18948708> , <https://identifiers.org/pubmed/20051984> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1640170_rV88/DataNode/ec678> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-1500620> .
+
+<https://identifiers.org/reactome/R-HSA-69278>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Cell Cycle, Mitotic" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-69278> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-69278" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1640170_rV88> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1640170_rV88/DataNode/b67b5> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-69278> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-1640170&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/16543383>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16543383" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-1500620> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36423604> ;
+        owl:sameAs          <https://doi.org/10.1210%2FER.2005-0017> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16543383> .
+
+<https://doi.org/10.1038%2FNRG2723>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NRG2723" .
+
+<https://identifiers.org/reactome/R-HSA-69620>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Cell Cycle Checkpoints" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-69620> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-69620" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1640170_rV88> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1640170_rV88/DataNode/c9fdd> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-69620> .
+
+<https://identifiers.org/wikipathways/R-HSA-1640170_rV88>
+        rdf:type             skos:Collection , wp:Pathway ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-1640170> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Cell Cycle"@en ;
+        dcterms:description  "The replication of the genome and the subsequent segregation of chromosomes into daughter cells are controlled by a series of events collectively known as the <b>cell cycle</b>. DNA replication is carried out during a discrete temporal period known as the S (synthesis)-phase, and chromosome segregation occurs during a massive reorganization to cellular architecture at mitosis. Two gap-phases separate these major cell cycle events: G1 between mitosis and S-phase, and G2 between S-phase and mitosis. In the development of the human body, cells can exit the cell cycle for a period and enter a quiescent state known as G0, or terminally differentiate into cells that will not divide again, but undergo morphological development to carry out the wide variety of specialized functions of individual tissues.<p>A family of protein serine/threonine kinases known as the cyclin-dependent kinases (CDKs) controls progression through the cell cycle. As the name suggests, the activity of the catalytic subunit is dependent on binding to a cyclin partner. The human genome encodes several cyclins and several CDKs, with their names largely derived from the order in which they were identified. The oscillation of cyclin abundance is one important mechanism by which these enzymes phosphorylate key substrates to promote events at the relevant time and place. Additional post-translational modifications and interactions with regulatory proteins ensure that CDK activity is precisely regulated, frequently confined to a narrow window of activity.<p>In addition, genome integrity in the cell cycle is maintained by the action of a number of signal transduction pathways, known as <b>cell cycle checkpoints</b>, which monitor the accuracy and completeness of DNA replication during S phase and the orderly chromosomal condensation, pairing and partition into daughter cells during mitosis.<p>Replication of telomeric DNA at the ends of human chromosomes and packaging of their centromeres into chromatin are two aspects of <b>chromosome maintenance</b> that are integral parts of the cell cycle.<p><b>Meiosis</b> is the specialized form of cell division that generates haploid gametes from diploid germ cells, associated with recombination (exchange of genetic material between chromosomal homologs).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1640170 Reactome]." ;
+        dcterms:identifier   "R-HSA-1640170" ;
+        cito:cites           <https://identifiers.org/pubmed/20364103> , <https://identifiers.org/pubmed/20051984> , <https://identifiers.org/pubmed/16543383> , <https://identifiers.org/pubmed/18948708> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-1640170_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-1640170&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-1640170&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-1640170_rV88> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-1640170&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://doi.org/10.1159%2F000166620>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1159/000166620" .
+
+<https://identifiers.org/pubmed/20051984>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20051984" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-1500620> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37669186> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNRG2723> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20051984> .
+
+<https://doi.org/10.4161%2FEPI.5.4.11518>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.4161/EPI.5.4.11518" .
+
+<https://identifiers.org/pubmed/20364103>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20364103" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-1500620> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28278643> ;
+        owl:sameAs          <https://doi.org/10.4161%2FEPI.5.4.11518> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20364103> .
+
+<https://identifiers.org/wikipathways/R-HSA-1640170>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-1640170_rV88> .
+
+<https://identifiers.org/pubmed/18948708>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18948708" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-1500620> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37307381> ;
+        owl:sameAs          <https://doi.org/10.1159%2F000166620> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18948708> .

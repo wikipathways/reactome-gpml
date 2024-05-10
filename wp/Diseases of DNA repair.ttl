@@ -1,0 +1,238 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubmed/27932076>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27932076" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9605308> , <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q39033546> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.FREERADBIOMED.2016.12.002> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27932076> .
+
+<https://identifiers.org/pubmed/28572265>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28572265" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28572265> .
+
+<https://identifiers.org/wikipathways/R-HSA-9675135>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> .
+
+<https://doi.org/10.1146%2FANNUREV.GENOM.7.080505.115648>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1146/ANNUREV.GENOM.7.080505.115648" .
+
+<https://identifiers.org/pubmed/29117491>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29117491" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9675136> , <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50105227> ;
+        owl:sameAs          <https://doi.org/10.1056%2FNEJMRA1703366> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29117491> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9675135&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://doi.org/10.1093%2FCARCIN%2FBGU225>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1093/CARCIN/BGU225" .
+
+<https://identifiers.org/wikipathways/R-HSA-9675135_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-9675135> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Diseases of DNA repair"@en ;
+        dcterms:description  "Germline and somatic defects in genes that encode proteins that participate in DNA repair give rise to genetic instability that can lead to malignant transformation or trigger cellular senescence or apoptosis. Germline defects in DNA repair genes are an underlying cause of familial cancer syndromes and premature ageing syndromes. Somatic defects in DNA repair genes are frequently found in tumors. For review, please refer to Tiwari and Wilson 2019.<br><br>We have so far annotated diseases of mismatch repair, diseases of base excision repair and diseases of DNA double-strand break repair.<br><br>Defects in mammalian DNA mismatch repair (MMR) genes (MLH1, PMS2, MSH2, and MSH6) result in microsatellite instability (MSI) and reduced fidelity during replication and repair steps. Defective variants of MMR genes are associated with sporadic cancers with hypermutation phenotypes as well as hereditary cancer syndromes such as Lynch syndrome (hereditary non-polyposis colorectal cancer) and constitutional mismatch repair deficiency syndrome (CMMRD). MSI is an important predictor of sensitivity to cancer immunotherapy as the high mutational burden renders MSI tumors immunogenic and sensitive to programmed cell death-1 (PD-1) immune checkpoint inhibitors (Mandal et al. 2019). For review, please refer to Pena-Diaz and Rasmussen 2016, Sijmons and Hofstra 2016, Tabori et al. 2017, Baretti and Le 2018.<br><br>Germline mutations, single nucleotide polymorphisms (SNPs) and somatic mutations in several genes involved in base excision repair (BER), a DNA repair pathway where a damaged DNA base is excised and replaced with a correct base, are involved in the development of cancer and several oxidative stress-related diseases. For review, please refer to Fu et al. 2012, Fletcher and Houlston 2010, Brenerman et al. 2014, Patrono et al. 2014, and D'Errico et al. 2017.<br><br>Germline mutations in genes involved in repair of DNA double-strand breaks (DSBs) are the underlying cause of several cancer predisposition syndromes, some of which also encompass developmental disorders associated with immune dysfunction, radiosensitivity and neurodegeneration. Somatic mutations in genes involved in DSB repair also occur in sporadic cancers. For review, please refer to McKinnon and Caldecott 2007, Keijzers et al. 2017, and Jachimowicz et al. 2019.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9675135 Reactome]." ;
+        dcterms:identifier   "R-HSA-9675135" ;
+        dcterms:references   <https://identifiers.org/pubmed/28572265> , <https://identifiers.org/pubmed/31374202> , <https://identifiers.org/pubmed/29117491> , <https://identifiers.org/pubmed/27932076> , <https://identifiers.org/pubmed/31116084> , <https://identifiers.org/pubmed/31048490> , <https://identifiers.org/pubmed/25493225> , <https://identifiers.org/pubmed/22237395> , <https://identifiers.org/pubmed/29669262> , <https://identifiers.org/pubmed/20414203> , <https://identifiers.org/pubmed/26746812> , <https://identifiers.org/pubmed/25355293> , <https://identifiers.org/pubmed/17887919> , <https://identifiers.org/pubmed/26708048> ;
+        cito:cites           <https://identifiers.org/pubmed/26746812> , <https://identifiers.org/pubmed/27932076> , <https://identifiers.org/pubmed/29117491> , <https://identifiers.org/pubmed/16464822> , <https://identifiers.org/pubmed/22237395> , <https://identifiers.org/pubmed/25493225> , <https://identifiers.org/pubmed/29669262> , <https://identifiers.org/pubmed/17887919> , <https://identifiers.org/pubmed/28572265> , <https://identifiers.org/pubmed/31116084> , <https://identifiers.org/pubmed/31048490> , <https://identifiers.org/pubmed/25355293> , <https://identifiers.org/pubmed/31374202> , <https://identifiers.org/pubmed/26708048> , <https://identifiers.org/pubmed/20414203> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-9675135_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9675135&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9675135&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-9675135_rV88> .
+
+<https://doi.org/10.1038%2FNRC3185>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NRC3185" .
+
+<https://doi.org/10.1093%2FNAR%2FGKJ489>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1093/NAR/GKJ489" .
+
+<https://identifiers.org/pubmed/26746812>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26746812" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26746812> .
+
+<https://identifiers.org/pubmed/25493225>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25493225" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9605308> , <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34657706> ;
+        owl:sameAs          <https://doi.org/10.5306%2FWJCO.V5.I5.874> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25493225> .
+
+<https://identifiers.org/pubmed/25355293>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25355293" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9605308> , <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34586254> ;
+        owl:sameAs          <https://doi.org/10.1093%2FCARCIN%2FBGU225> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25355293> .
+
+<https://identifiers.org/reactome/R-HSA-5423599>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Diseases of Mismatch Repair (MMR)" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-5423599> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5423599" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/16464822> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9675135_rV88/DataNode/f963f> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-5423599> .
+
+<https://identifiers.org/reactome/R-HSA-9675136>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Diseases of DNA Double-Strand Break Repair" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9675136> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9675136" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/17887919> , <https://identifiers.org/pubmed/31116084> , <https://identifiers.org/pubmed/29117491> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9675135_rV88/DataNode/c5ca5> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9675136> .
+
+<https://identifiers.org/pubmed/17887919>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17887919" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9675136> , <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36948676> ;
+        owl:sameAs          <https://doi.org/10.1146%2FANNUREV.GENOM.7.080505.115648> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17887919> .
+
+<https://identifiers.org/pubmed/29669262>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29669262" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29669262> .
+
+<https://identifiers.org/pubmed/16464822>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16464822" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5423599> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q25257401> ;
+        owl:sameAs          <https://doi.org/10.1093%2FNAR%2FGKJ489> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16464822> .
+
+<https://identifiers.org/pubmed/20414203>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20414203" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9605308> , <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37736259> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNRC2840> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20414203> .
+
+<https://doi.org/10.1056%2FNEJMRA1703366>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1056/NEJMRA1703366" .
+
+<https://identifiers.org/pubmed/31048490>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31048490" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31048490> .
+
+<https://identifiers.org/pubmed/31116084>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31116084" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9675136> , <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q64386879> ;
+        owl:sameAs          <https://doi.org/10.1080%2F15384101.2019.1618542> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31116084> .
+
+<https://identifiers.org/pubmed/31374202>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31374202" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31374202> .
+
+<https://identifiers.org/reactome/R-HSA-9605308>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Diseases of Base Excision Repair" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9605308> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9605308" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/20414203> , <https://identifiers.org/pubmed/25355293> , <https://identifiers.org/pubmed/22237395> , <https://identifiers.org/pubmed/27932076> , <https://identifiers.org/pubmed/25493225> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9675135_rV88/DataNode/c0db5> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9605308> .
+
+<https://identifiers.org/pubmed/26708048>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26708048" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26708048> .
+
+<https://doi.org/10.1038%2FNRC2840>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NRC2840" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9675135&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://doi.org/10.1080%2F15384101.2019.1618542>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1080/15384101.2019.1618542" .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.1016%2FJ.FREERADBIOMED.2016.12.002>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.FREERADBIOMED.2016.12.002" .
+
+<https://doi.org/10.5306%2FWJCO.V5.I5.874>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.5306/WJCO.V5.I5.874" .
+
+<https://identifiers.org/pubmed/22237395>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22237395" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9605308> , <https://identifiers.org/wikipathways/R-HSA-9675135_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36651488> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNRC3185> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22237395> .

@@ -1,0 +1,703 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubmed/16824008>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16824008" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16824008> .
+
+<https://identifiers.org/chebi/CHEBI:57783>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "NADPH" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/ACFIXJIJDZMPPO-NNYOXOHSSA-N> ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:57783> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:57783" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/a777e> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57783> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/10239199> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/ACFIXJIJDZMPPO-NNYOXOHSSA-J> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID15983949> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27124944> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ab4b7> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57783> .
+
+<https://identifiers.org/reactome/R-HSA-2564793>
+        rdf:type            wp:Complex , wp:DataNode ;
+        rdfs:label          "Apoprotein Lacking 4Fe-4S Cluster" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-2564793> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564793" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564793> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/c5470> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-2564793> .
+
+<https://identifiers.org/wikipathways/R-HSA-2564830_rV88>
+        rdf:type             skos:Collection , wp:Pathway ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-2564830> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Cytosolic iron-sulfur cluster assembly"@en ;
+        dcterms:description  "Iron-sulfur clusters containing 4 atoms of iron and 4 atoms of sulfur (4Fe-4S clusters) are assembled in the cytosol on a heterotetrameric scaffold composed of NUBP2 and NUBP1 subunits (reviewed in Lill et al. 2012, Rouault et al. 2012, Sharma et al. 2010, Lill and Muhlenhoff 2006). The sources of iron and sulfur are uncertain but the process requires a sulfur-containing compound exported from mitochondria via ABCB7 (ABC7). Newly synthesized 4Fe-4S are transferred to apoproteins such as XPD and POLD1 via the CIA targeting complex, composed of NARFL, CIAO1, FAM96B,  and MMS19.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=2564830 Reactome]." ;
+        dcterms:identifier   "R-HSA-2564830" ;
+        dcterms:references   <https://identifiers.org/pubmed/22609301> , <https://identifiers.org/pubmed/22382365> , <https://identifiers.org/pubmed/20522543> , <https://identifiers.org/pubmed/16824008> ;
+        cito:cites           <https://identifiers.org/pubmed/22609301> , <https://identifiers.org/pubmed/20522543> , <https://identifiers.org/pubmed/22678361> , <https://identifiers.org/pubmed/22678362> , <https://identifiers.org/pubmed/22382365> , <https://identifiers.org/pubmed/18573874> , <https://identifiers.org/pubmed/23150669> , <https://identifiers.org/pubmed/20802492> , <https://identifiers.org/pubmed/16824008> , <https://identifiers.org/pubmed/18625724> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-2564830&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-2564830&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-2564830_rV88> .
+
+<https://identifiers.org/pubmed/20802492>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20802492" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/a777e> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27936123> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNCHEMBIO.432> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20802492> .
+
+<https://identifiers.org/uniprot/Q9UHB4>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "NDOR1" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9UHB4> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9UHB4" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/cdebf> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/c65a9> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000188566> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/27158> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/NDOR1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9UHB4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/bf4dd> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ecf8f> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9UHB4> .
+
+<https://doi.org/10.1126%2FSCIENCE.1219723>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCIENCE.1219723" .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/cdebf>
+        rdf:type          wp:DataNode , wp:Complex ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/cdebf> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:33737> , <https://identifiers.org/chebi/CHEBI:49883> , <https://identifiers.org/chebi/CHEBI:57692> , <https://identifiers.org/chebi/CHEBI:58210> , <https://identifiers.org/uniprot/Q9UHB4> , <https://identifiers.org/uniprot/Q6FI81> .
+
+<https://doi.org/10.1128%2FMCB.00545-08>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1128/MCB.00545-08" .
+
+<https://identifiers.org/uniprot/Q9H6Q4>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "NARFL" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9H6Q4> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9H6Q4" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/ab02f> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000103245> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/64428> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CIAO3> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/H3BSH2> , <https://identifiers.org/uniprot/H3BQ03> , <https://identifiers.org/uniprot/H3BPX8> , <https://identifiers.org/uniprot/I3L2A3> , <https://identifiers.org/uniprot/H3BSJ7> , <https://identifiers.org/uniprot/Q9H6Q4> , <https://identifiers.org/uniprot/B4DEE7> , <https://identifiers.org/uniprot/H3BUF3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/d6a3a> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9H6Q4> .
+
+<https://doi.org/10.1126%2FSCIENCE.1219664>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCIENCE.1219664" .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b8a28>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/b8a28> ;
+        wp:participants   <https://identifiers.org/reactome/R-HSA-2564814> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> ;
+        wp:source         <https://identifiers.org/reactome/R-HSA-2564814> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> .
+
+<https://identifiers.org/reactome/R-HSA-2564798>
+        rdf:type            wp:DataNode , wp:Complex ;
+        rdfs:label          "NUBP2:4Fe-4S:NUBP1" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-2564798> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564798" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564798> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50267271> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ea69c> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-2564798> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/e71d9>
+        rdf:type          wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/e71d9> ;
+        wp:participants   <https://identifiers.org/reactome/R-HSA-1369041> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> ;
+        wp:source         <https://identifiers.org/reactome/R-HSA-1369041> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> .
+
+<https://identifiers.org/uniprot/Q9Y3D0>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "FAM96B" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9Y3D0> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9Y3D0" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/ab02f> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000166595> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/51647> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CIAO2B> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/J3KS95> , <https://identifiers.org/uniprot/Q9Y3D0> , <https://identifiers.org/uniprot/H3BNV7> , <https://identifiers.org/uniprot/J3QLT9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ec60b> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9Y3D0> .
+
+<https://identifiers.org/uniprot/Q96T76>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "MMS19" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q96T76> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q96T76" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/ab02f> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000155229> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/64210> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/MMS19> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/B0QZ77> , <https://identifiers.org/uniprot/Q96T76> , <https://identifiers.org/uniprot/H0Y746> , <https://identifiers.org/uniprot/Q5T454> , <https://identifiers.org/uniprot/H7C1W5> , <https://identifiers.org/uniprot/F8WCH8> , <https://identifiers.org/uniprot/H0Y7V3> , <https://identifiers.org/uniprot/H7C0A9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/de904> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q96T76> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/ComplexBinding/cdebf>
+        rdf:type          wp:Binding , wp:Interaction , wp:ComplexBinding ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/cdebf> ;
+        wp:participants   <https://identifiers.org/uniprot/Q6FI81> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/cdebf> , <https://identifiers.org/chebi/CHEBI:49883> , <https://identifiers.org/uniprot/Q9UHB4> , <https://identifiers.org/chebi/CHEBI:33737> , <https://identifiers.org/chebi/CHEBI:57692> , <https://identifiers.org/chebi/CHEBI:58210> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/df771>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/df771> ;
+        wp:participants   <https://identifiers.org/reactome/R-HSA-2564805> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> ;
+        wp:source         <https://identifiers.org/reactome/R-HSA-2564805> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> .
+
+<https://identifiers.org/uniprot/Q9Y5Y2>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "NUBP2" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9Y5Y2> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9Y5Y2" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/e5d0c> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000095906> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/10101> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/NUBP2> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9Y5Y2> , <https://identifiers.org/uniprot/B7Z6P0> , <https://identifiers.org/uniprot/H3BNF0> , <https://identifiers.org/uniprot/H3BRE1> , <https://identifiers.org/uniprot/H3BNS4> , <https://identifiers.org/uniprot/H3BRK5> , <https://identifiers.org/uniprot/H3BMW1> , <https://identifiers.org/uniprot/H3BQE5> , <https://identifiers.org/uniprot/H3BQR2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/cb8dc> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/fd2e1> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9Y5Y2> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-2564830&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/uniprot/O76071>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "CIAO1" ;
+        dc:identifier       <https://identifiers.org/uniprot/O76071> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "O76071" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/ab02f> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000144021> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/9391> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CIAO1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/O76071> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/fbc34> ;
+        foaf:page           <http://www.uniprot.org/uniprot/O76071> .
+
+<https://doi.org/10.1038%2FNCHEMBIO.432>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NCHEMBIO.432" .
+
+<https://identifiers.org/pubmed/22609301>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22609301" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22609301> .
+
+<https://identifiers.org/chebi/CHEBI:26833>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "S" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:26833> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:26833" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:26833> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00087> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q106570791> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/cabb3> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26833> .
+
+<https://identifiers.org/reactome/R-HSA-2564791>
+        rdf:type            wp:DataNode , wp:Complex ;
+        rdfs:label          "Holoprotein Containing 4Fe-4S Cluster" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-2564791> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564791" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564791> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/dbb09> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-2564791> .
+
+<https://identifiers.org/reactome/R-HSA-2564814>
+        rdf:type            wp:Complex , wp:DataNode ;
+        rdfs:label          "NARFL:CIAO1:FAM96B:MMS19" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-2564814> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564814" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b8a28> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564814> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50267286> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/d11ab> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-2564814> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/pubmed/22382365>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22382365" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22382365> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/a777e>
+        rdf:type            wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564824" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/18625724> , <https://identifiers.org/pubmed/20802492> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564824> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/b4bd5> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/c7655> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/c564b> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/e98fc> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/e2bd3> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/a777e> ;
+        wp:participants     <https://identifiers.org/reactome/R-HSA-2564805> , <https://identifiers.org/chebi/CHEBI:57783> , <https://identifiers.org/reactome/R-HSA-2564804> , <https://identifiers.org/chebi/CHEBI:58349> , <https://identifiers.org/chebi/CHEBI:15378> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:57783> , <https://identifiers.org/reactome/R-HSA-2564804> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:58349> , <https://identifiers.org/chebi/CHEBI:15378> , <https://identifiers.org/reactome/R-HSA-2564805> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/c65a9>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/c65a9> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:49883> , <https://identifiers.org/chebi/CHEBI:57692> , <https://identifiers.org/uniprot/Q6FI81> , <https://identifiers.org/chebi/CHEBI:33738> , <https://identifiers.org/uniprot/Q9UHB4> , <https://identifiers.org/chebi/CHEBI:58210> .
+
+<https://identifiers.org/uniprot/Q6FI81>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "CIAPIN1" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q6FI81> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q6FI81" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/cdebf> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/c65a9> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000005194> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/57019> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CIAPIN1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/H3BPG7> , <https://identifiers.org/uniprot/Q6FI81> , <https://identifiers.org/uniprot/H3BQ23> , <https://identifiers.org/uniprot/H3BTT4> , <https://identifiers.org/uniprot/H3BT65> , <https://identifiers.org/uniprot/H3BTZ8> , <https://identifiers.org/uniprot/H3BV90> , <https://identifiers.org/uniprot/H3BUG4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/add05> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/b037d> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q6FI81> .
+
+<https://identifiers.org/uniprot/P18074>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ERCC2" ;
+        dc:identifier       <https://identifiers.org/uniprot/P18074> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P18074" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000104884> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/2068> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ERCC2> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/B4E0F6> , <https://identifiers.org/uniprot/E7EVE9> , <https://identifiers.org/uniprot/A8MX75> , <https://identifiers.org/uniprot/K7ENL1> , <https://identifiers.org/uniprot/A0A804HL97> , <https://identifiers.org/uniprot/P18074> , <https://identifiers.org/uniprot/K7EKF3> , <https://identifiers.org/uniprot/K7EIT8> , <https://identifiers.org/uniprot/A0A804HK75> , <https://identifiers.org/uniprot/A0A804HK53> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ea20d> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ecf09> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P18074> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703>
+        rdf:type            wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564828" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/22678362> , <https://identifiers.org/pubmed/22678361> , <https://identifiers.org/pubmed/23150669> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564828> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/eb42e> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/e91e1> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/c6110> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/b7703> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/b33bb> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/a1fef> ;
+        wp:participants     <https://identifiers.org/reactome/R-HSA-2564791> , <https://identifiers.org/reactome/R-HSA-2564798> , <https://identifiers.org/reactome/R-HSA-2564799> , <https://identifiers.org/uniprot/Q9Y5Y2> , <https://identifiers.org/reactome/R-HSA-2564793> ;
+        wp:source           <https://identifiers.org/reactome/R-HSA-2564793> , <https://identifiers.org/reactome/R-HSA-2564798> ;
+        wp:target           <https://identifiers.org/reactome/R-HSA-2564799> , <https://identifiers.org/uniprot/Q9Y5Y2> , <https://identifiers.org/reactome/R-HSA-2564791> .
+
+<https://identifiers.org/uniprot/P28340>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "POLD1" ;
+        dc:identifier       <https://identifiers.org/uniprot/P28340> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P28340" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000062822> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/5424> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/POLD1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A024R4F4> , <https://identifiers.org/uniprot/P28340> , <https://identifiers.org/uniprot/M0R2J2> , <https://identifiers.org/uniprot/M0R2B7> , <https://identifiers.org/uniprot/M0QXE6> , <https://identifiers.org/uniprot/A0A087WYJ2> , <https://identifiers.org/uniprot/M0QZR8> , <https://identifiers.org/uniprot/A0A2R8Y705> , <https://identifiers.org/uniprot/M0QXQ2> , <https://identifiers.org/uniprot/A0A2R8Y7K6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/d8975> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/b5873> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P28340> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d>
+        rdf:type            wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564826" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/18573874> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564826> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/d3b7d> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/bf06f> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/d3ad9> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/d1434> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/d1d78> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Interaction/e559f> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:18248> , <https://identifiers.org/reactome/R-HSA-2564799> , <https://identifiers.org/reactome/R-HSA-2564798> , <https://identifiers.org/uniprot/Q9Y5Y2> , <https://identifiers.org/chebi/CHEBI:26833> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:18248> , <https://identifiers.org/chebi/CHEBI:26833> , <https://identifiers.org/uniprot/Q9Y5Y2> , <https://identifiers.org/reactome/R-HSA-2564799> ;
+        wp:target           <https://identifiers.org/reactome/R-HSA-2564798> .
+
+<https://identifiers.org/uniprot/P53384>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "NUBP1" ;
+        dc:identifier       <https://identifiers.org/uniprot/P53384> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P53384" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/e5d0c> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/f71b0> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000103274> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/4682> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/NUBP1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/I3L531> , <https://identifiers.org/uniprot/P53384> , <https://identifiers.org/uniprot/I3L518> , <https://identifiers.org/uniprot/I3L3A0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/eb7ea> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/f72b3> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P53384> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/ComplexBinding/c65a9>
+        rdf:type          wp:Interaction , wp:ComplexBinding , wp:Binding ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/c65a9> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:33738> , <https://identifiers.org/chebi/CHEBI:57692> , <https://identifiers.org/uniprot/Q9UHB4> , <https://identifiers.org/chebi/CHEBI:49883> , <https://identifiers.org/uniprot/Q6FI81> , <https://identifiers.org/chebi/CHEBI:58210> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/c65a9> .
+
+<https://identifiers.org/uniprot/O75027>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ABCB7(23-752)" ;
+        dc:identifier       <https://identifiers.org/uniprot/O75027> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "O75027" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000131269> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/22> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ABCB7> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/O75027> , <https://identifiers.org/uniprot/A0A2R8Y3N2> , <https://identifiers.org/uniprot/B4DGL8> , <https://identifiers.org/uniprot/A0A5F9ZA98> , <https://identifiers.org/uniprot/E9PNQ5> , <https://identifiers.org/uniprot/A0A590UJS8> , <https://identifiers.org/uniprot/A0A087WW65> , <https://identifiers.org/uniprot/A0A2R8YF35> , <https://identifiers.org/uniprot/A0A0S2Z2Z3> , <https://identifiers.org/uniprot/E9PJR8> , <https://identifiers.org/uniprot/A0A2R8Y473> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/c92bb> ;
+        foaf:page           <http://www.uniprot.org/uniprot/O75027> .
+
+<https://identifiers.org/pubmed/22678362>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22678362" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24337550> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCIENCE.1219723> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22678362> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/e5d0c>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/e5d0c> ;
+        wp:participants   <https://identifiers.org/uniprot/Q9Y5Y2> , <https://identifiers.org/chebi/CHEBI:49883> , <https://identifiers.org/uniprot/P53384> .
+
+<https://doi.org/10.1128%2FMCB.00642-08>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1128/MCB.00642-08" .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/f71b0>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/f71b0> ;
+        wp:participants   <https://identifiers.org/uniprot/P53384> , <https://identifiers.org/chebi/CHEBI:49883> .
+
+<https://identifiers.org/chebi/CHEBI:49883>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "4Fe-4S cluster" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/VGDWTWWMYPIWQM-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:49883> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:49883" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/e5d0c> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/c65a9> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/cdebf> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/f71b0> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/ab02f> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:49883> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/30785507> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/VGDWTWWMYPIWQM-UHFFFAOYSA-N> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27104734> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ed6fa> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/adb27> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/c045c> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/a6c4a> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/da830> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ede55> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:49883> .
+
+<https://identifiers.org/chebi/CHEBI:33738>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "(2Fe-2S)(1+)" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/MAGIRAZQQVQNKP-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:33738> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:33738" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/c65a9> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:33738> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/21865187> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/MAGIRAZQQVQNKP-UHFFFAOYSA-N> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27115704> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/bbe19> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:33738> .
+
+<https://doi.org/10.1074%2FJBC.M112.431270>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1074/JBC.M112.431270" .
+
+<https://identifiers.org/wikipathways/R-HSA-2564830>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> .
+
+<https://identifiers.org/uniprot/Q9NZ71>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "RTEL1" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9NZ71> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9NZ71" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000258366> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/51750> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/RTEL1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/X6R5I7> , <https://identifiers.org/uniprot/A0A2R8YD56> , <https://identifiers.org/uniprot/A0A2R8Y7H5> , <https://identifiers.org/uniprot/X6RBZ7> , <https://identifiers.org/uniprot/Q9NZ71> , <https://identifiers.org/uniprot/A0A0C4DGC7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/c7051> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ec37e> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9NZ71> .
+
+<https://identifiers.org/reactome/R-HSA-2564805>
+        rdf:type            wp:DataNode , wp:Complex ;
+        rdfs:label          "NDOR1:CIAPIN1 reduced" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-2564805> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564805" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/df771> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/a777e> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564805> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50267264> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/a8b64> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-2564805> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/ComplexBinding/e5d0c>
+        rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/e5d0c> ;
+        wp:participants   <https://identifiers.org/uniprot/Q9Y5Y2> , <https://identifiers.org/chebi/CHEBI:49883> , <https://identifiers.org/uniprot/P53384> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/e5d0c> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/ComplexBinding/f71b0>
+        rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/f71b0> ;
+        wp:participants   <https://identifiers.org/uniprot/P53384> , <https://identifiers.org/chebi/CHEBI:49883> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/f71b0> .
+
+<https://identifiers.org/chebi/CHEBI:57692>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "FAD" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/IMGVNJNCCGXBHD-UYBVJOGSSA-N> ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:57692> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:57692" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/c65a9> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/cdebf> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57692> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/IMGVNJNCCGXBHD-UYBVJOGSSA-K> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27124863> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/a764e> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/e7f6a> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57692> .
+
+<https://identifiers.org/chebi/CHEBI:58210>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "FMN" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/FVTCRASFADXXNN-SCRDCRAPSA-N> , <https://identifiers.org/inchikey/ANKZYBDXHMZBDK-SCRDCRAPSA-N> ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:58210> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:58210" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/c65a9> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/cdebf> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:58210> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/FVTCRASFADXXNN-SCRDCRAPSA-K> , <https://identifiers.org/inchikey/ANKZYBDXHMZBDK-SCRDCRAPSA-K> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID44229199> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27125576> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/cf326> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/b9c8c> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:58210> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/ab02f>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/ab02f> ;
+        wp:participants   <https://identifiers.org/uniprot/O76071> , <https://identifiers.org/uniprot/Q96T76> , <https://identifiers.org/uniprot/Q9Y3D0> , <https://identifiers.org/chebi/CHEBI:49883> , <https://identifiers.org/uniprot/Q9H6Q4> .
+
+<https://identifiers.org/pubmed/22678361>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22678361" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24337531> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCIENCE.1219664> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22678361> .
+
+<https://identifiers.org/chebi/CHEBI:58349>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "NADP+" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/XJLXINKUBYWONI-NNYOXOHSSA-N> ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:58349> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:58349" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/a777e> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:58349> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/10239198> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/XJLXINKUBYWONI-NNYOXOHSSA-K> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID15938972> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27125717> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/d3e22> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:58349> .
+
+<https://identifiers.org/pubmed/23150669>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23150669" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q41767538> ;
+        owl:sameAs          <https://doi.org/10.1074%2FJBC.M112.431270> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23150669> .
+
+<https://identifiers.org/pubmed/18573874>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18573874" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24324635> ;
+        owl:sameAs          <https://doi.org/10.1128%2FMCB.00545-08> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18573874> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-2564830&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/reactome/R-HSA-1369041>
+        rdf:type            wp:DataNode , wp:Complex ;
+        rdfs:label          "ABC7 dimer" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-1369041> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-1369041" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/e71d9> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-1369041> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50267272> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/bc970> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-1369041> .
+
+<https://identifiers.org/chebi/CHEBI:33737>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "(2Fe-2S)(2+)" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/XSOVBBGAMBLACL-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:33737> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:33737" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/cdebf> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:33737> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/21865186> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/XSOVBBGAMBLACL-UHFFFAOYSA-N> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27115703> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/c4c40> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:33737> .
+
+<https://identifiers.org/chebi/CHEBI:15378>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "H+" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:15378> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:15378" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/a777e> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15378> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/1010> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0059597> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00080> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1038> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q506710> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ebdc8> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15378> .
+
+<http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/ComplexBinding/ab02f>
+        rdf:type          wp:Binding , wp:ComplexBinding , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Group/ab02f> ;
+        wp:participants   <https://identifiers.org/uniprot/Q9H6Q4> , <https://identifiers.org/chebi/CHEBI:49883> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/Complex/ab02f> , <https://identifiers.org/uniprot/O76071> , <https://identifiers.org/uniprot/Q9Y3D0> , <https://identifiers.org/uniprot/Q96T76> .
+
+<https://identifiers.org/pubmed/20522543>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20522543" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20522543> .
+
+<https://identifiers.org/reactome/R-HSA-2564804>
+        rdf:type            wp:DataNode , wp:Complex ;
+        rdfs:label          "NDOR1:CIAPIN1 oxidized" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-2564804> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564804" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/a777e> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564804> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50267258> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/e4ee5> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-2564804> .
+
+<https://identifiers.org/chebi/CHEBI:18248>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Fe" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/XEEYBQQBJWHFJM-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:18248> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:18248" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> , <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:18248> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/22368> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0015531> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/XEEYBQQBJWHFJM-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00023> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23925> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q677> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/aaa35> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:18248> .
+
+<https://identifiers.org/uniprot/Q9BX63>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "BRIP1" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9BX63> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9BX63" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000136492> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/83990> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/BRIP1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A804HLF1> , <https://identifiers.org/uniprot/J3QQP5> , <https://identifiers.org/uniprot/A0A804HIR6> , <https://identifiers.org/uniprot/A0A804HKK6> , <https://identifiers.org/uniprot/Q9BX63> , <https://identifiers.org/uniprot/A0A804HJY1> , <https://identifiers.org/uniprot/J3KS24> , <https://identifiers.org/uniprot/A0A804HHV8> , <https://identifiers.org/uniprot/J3QKX0> , <https://identifiers.org/uniprot/A0A804HIH9> , <https://identifiers.org/uniprot/A0A804HKS0> , <https://identifiers.org/uniprot/A0A804HL36> , <https://identifiers.org/uniprot/A0A804HK62> , <https://identifiers.org/uniprot/A0A804HJV4> , <https://identifiers.org/uniprot/A0A804HJU1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/ca92b> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/c143c> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9BX63> .
+
+<https://identifiers.org/pubmed/18625724>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18625724" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/a777e> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27938813> ;
+        owl:sameAs          <https://doi.org/10.1128%2FMCB.00642-08> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18625724> .
+
+<https://identifiers.org/reactome/R-HSA-2564799>
+        rdf:type            wp:Complex , wp:DataNode ;
+        rdfs:label          "NUBP1:4Fe-4S" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-2564799> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2564799" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2564830_rV88> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/d3b7d> , <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/WP/Interaction/b7703> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-2564799> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q50267269> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2564830_rV88/DataNode/a5bf0> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-2564799> .

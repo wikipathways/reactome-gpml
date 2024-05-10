@@ -1,0 +1,402 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.1073%2FPNAS.0500517102>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1073/PNAS.0500517102" .
+
+<https://identifiers.org/pubmed/22547309>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22547309" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22547309> .
+
+<https://doi.org/10.1093%2FHMG%2F5.12.1859>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1093/HMG/5.12.1859" .
+
+<https://identifiers.org/reactome/R-HSA-3359485>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Defective CD320 causes MMATC" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359485> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359485" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/20524213> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/d9600> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359485> .
+
+<https://identifiers.org/pubmed/8968736>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "8968736" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359469> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28299635> ;
+        owl:sameAs          <https://doi.org/10.1093%2FHMG%2F5.12.1859> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/8968736> .
+
+<https://identifiers.org/reactome/R-HSA-3359457>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Defective CBLIF causes IFD" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359457> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359457" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/15738392> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/c1b4e> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359457> .
+
+<https://identifiers.org/pubmed/20524213>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20524213" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359485> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28854608> ;
+        owl:sameAs          <https://doi.org/10.1002%2FHUMU.21297> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20524213> .
+
+<https://doi.org/10.1038%2FNG1683>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NG1683" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-3296469&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/wikipathways/R-HSA-3296469_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-3296469> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Defects in cobalamin (B12) metabolism"@en ;
+        dcterms:description  "Cobalamin (Cbl, vitamin B12) is a nutrient essential for normal functioning of the brain and nervous system and for the formation of blood. Cbl-dependent methionine synthase (MTR) is required for conversion of 5-methyltetrahydrofolate (metTHF) to tetrahydrofolate (THF), in addition to its role in conversion of homocysteine to methionine. In Cbl deficiency, and in inborn errors of Cbl metabolism that affect function of methionine synthase, inability to regenerate THF from metTHF results in decreased function of folate-dependent reactions that are involved in 2 steps of purine biosynthesis and thymidylate synthesis. Cbl deficiency results in hyperhomocysteinemia (due to defects in the conversion of homocysteine to methionine which requires Cbl as a cofactor) and increased levels of methylmalonic acid (MMA). Methionine is used in myelin production, protein, neurotransmitter, fatty acid and phospholipid production and DNA methylation. Symptoms of Cbl deficiency are bone marrow promegaloblastosis (megaloblastic anemia) due to the inhibition of DNA synthesis (specifically purines and thymidine) and neurological symptoms. The defective genes involved in Cbl deficiencies are described below (Froese & Gravel 2010, Nielsen et al. 2012, Whitehead 2006, Watkins & Rosenblatt 2011, Fowler 1998).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=3296469 Reactome]." ;
+        dcterms:identifier   "R-HSA-3296469" ;
+        dcterms:references   <https://identifiers.org/pubmed/22547309> , <https://identifiers.org/pubmed/21312325> , <https://identifiers.org/pubmed/9587028> , <https://identifiers.org/pubmed/21114891> , <https://identifiers.org/pubmed/16846473> ;
+        cito:cites           <https://identifiers.org/pubmed/9587028> , <https://identifiers.org/pubmed/13852753> , <https://identifiers.org/pubmed/21312325> , <https://identifiers.org/pubmed/21114891> , <https://identifiers.org/pubmed/12471062> , <https://identifiers.org/pubmed/15738392> , <https://identifiers.org/pubmed/16311595> , <https://identifiers.org/pubmed/13828999> , <https://identifiers.org/pubmed/15523652> , <https://identifiers.org/pubmed/22922874> , <https://identifiers.org/pubmed/12068375> , <https://identifiers.org/pubmed/16846473> , <https://identifiers.org/pubmed/8968737> , <https://identifiers.org/pubmed/20524213> , <https://identifiers.org/pubmed/10484769> , <https://identifiers.org/pubmed/18385497> , <https://identifiers.org/pubmed/8968736> , <https://identifiers.org/pubmed/22547309> , <https://identifiers.org/pubmed/19373259> , <https://identifiers.org/pubmed/12438653> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-3296469&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-3296469&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-3296469_rV88> .
+
+<https://identifiers.org/reactome/R-HSA-3359471>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Defective MMAB causes MMA, cblB type" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359471> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359471" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/12471062> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/efb31> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359471> .
+
+<https://doi.org/10.1093%2FHMG%2F11.26.3361>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1093/HMG/11.26.3361" .
+
+<https://doi.org/10.1086%2F341354>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1086/341354" .
+
+<https://identifiers.org/pubmed/18385497>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18385497" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359473> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34767168> ;
+        owl:sameAs          <https://doi.org/10.1056%2FNEJMOA072200> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18385497> .
+
+<https://identifiers.org/reactome/R-HSA-3359469>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Defective MTR causes HMAG" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359469> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359469" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/8968736> , <https://identifiers.org/pubmed/12068375> , <https://identifiers.org/pubmed/8968737> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/d2c4e> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359469> .
+
+<https://identifiers.org/pubmed/22922874>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22922874" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5683329> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24297470> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNG.2386> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22922874> .
+
+<https://identifiers.org/pubmed/16311595>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16311595" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359474> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34470696> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNG1683> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16311595> .
+
+<https://identifiers.org/pubmed/19373259>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19373259" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359454> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q45345337> ;
+        owl:sameAs          <https://doi.org/10.1038%2FJHG.2009.34> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19373259> .
+
+<https://identifiers.org/reactome/R-HSA-3359463>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Defective CUBN causes MGA1" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359463> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359463" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/13828999> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/e8ba4> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359463> .
+
+<https://identifiers.org/pubmed/12438653>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12438653" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359475> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24539565> ;
+        owl:sameAs          <https://doi.org/10.1073%2FPNAS.242614799> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12438653> .
+
+<https://doi.org/10.1056%2FNEJMOA072200>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1056/NEJMOA072200" .
+
+<https://doi.org/10.1093%2FHMG%2F8.11.2009>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1093/HMG/8.11.2009" .
+
+<https://identifiers.org/pubmed/10484769>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10484769" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359467> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28144276> ;
+        owl:sameAs          <https://doi.org/10.1093%2FHMG%2F8.11.2009> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10484769> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/reactome/R-HSA-3359462>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Defective AMN causes MGA1" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359462> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359462" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/13852753> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/d3bba> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359462> .
+
+<https://identifiers.org/reactome/R-HSA-3359475>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Defective MMAA causes MMA, cblA type" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359475> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359475" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/12438653> , <https://identifiers.org/pubmed/15523652> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/c57b5> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359475> .
+
+<https://identifiers.org/pubmed/16846473>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16846473" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16846473> .
+
+<https://identifiers.org/pubmed/13852753>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "13852753" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359462> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/13852753> .
+
+<https://identifiers.org/reactome/R-HSA-5683329>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Defective ABCD4 causes MAHCJ" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-5683329> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5683329" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/22922874> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/bec21> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-5683329> .
+
+<https://identifiers.org/reactome/R-HSA-3359454>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Defective TCN2 causes TCN2 deficiency" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359454> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359454" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/19373259> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/c81fa> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359454> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-3296469&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/reactome/R-HSA-3359467>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Defective MTRR causes HMAE" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359467> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359467" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/10484769> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/dbfbe> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359467> .
+
+<https://identifiers.org/reactome/R-HSA-3359474>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Defective MMACHC causes MAHCC" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359474> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359474" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/16311595> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/f1308> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359474> .
+
+<https://identifiers.org/pubmed/9587028>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9587028" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9587028> .
+
+<https://doi.org/10.1002%2FHUMU.20104>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/HUMU.20104" .
+
+<https://doi.org/10.1111%2FJ.0954-6820.1960.TB03549.X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1111/J.0954-6820.1960.TB03549.X" .
+
+<https://doi.org/10.1038%2FJHG.2009.34>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/JHG.2009.34" .
+
+<https://doi.org/10.1038%2FNG.2386>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NG.2386" .
+
+<https://identifiers.org/reactome/R-HSA-3359473>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Defective MMADHC causes MMAHCD" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3359473> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3359473" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/18385497> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3296469_rV88/DataNode/fe4fb> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3359473> .
+
+<https://identifiers.org/pubmed/21114891>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21114891" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21114891> .
+
+<https://doi.org/10.1073%2FPNAS.242614799>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1073/PNAS.242614799" .
+
+<https://identifiers.org/pubmed/12068375>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12068375" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359469> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24632653> ;
+        owl:sameAs          <https://doi.org/10.1086%2F341354> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12068375> .
+
+<https://identifiers.org/pubmed/12471062>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "12471062" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359471> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34163250> ;
+        owl:sameAs          <https://doi.org/10.1093%2FHMG%2F11.26.3361> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/12471062> .
+
+<https://identifiers.org/pubmed/8968737>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "8968737" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359469> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24336993> ;
+        owl:sameAs          <https://doi.org/10.1093%2FHMG%2F5.12.1867> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/8968737> .
+
+<https://identifiers.org/pubmed/21312325>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21312325" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21312325> .
+
+<https://identifiers.org/wikipathways/R-HSA-3296469>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-3296469_rV88> .
+
+<https://doi.org/10.1093%2FHMG%2F5.12.1867>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1093/HMG/5.12.1867" .
+
+<https://identifiers.org/pubmed/13828999>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "13828999" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359463> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q45345336> ;
+        owl:sameAs          <https://doi.org/10.1111%2FJ.0954-6820.1960.TB03549.X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/13828999> .
+
+<https://identifiers.org/pubmed/15738392>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15738392" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359457> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24297087> ;
+        owl:sameAs          <https://doi.org/10.1073%2FPNAS.0500517102> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15738392> .
+
+<https://identifiers.org/pubmed/15523652>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15523652" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3359475> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34364768> ;
+        owl:sameAs          <https://doi.org/10.1002%2FHUMU.20104> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15523652> .
+
+<https://doi.org/10.1002%2FHUMU.21297>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/HUMU.21297" .

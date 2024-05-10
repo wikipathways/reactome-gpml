@@ -1,0 +1,97 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/wikipathways/R-HSA-5663205>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-5663205_rV88> .
+
+<https://identifiers.org/pubmed/33785903>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "33785903" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9824446> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/33785903> .
+
+<https://identifiers.org/wikipathways/R-HSA-5663205_rV88>
+        rdf:type             skos:Collection , wp:Pathway ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-5663205> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Infectious disease"@en ;
+        dcterms:description  "Infectious diseases are ones due to the presence of pathogenic microbial agents in human host cells. Processes annotated in this category include bacterial, viral and parasitic infection pathways.<br><br>Bacterial infection pathways currently include some metabolic processes mediated by intracellular Mycobacterium tuberculosis, the actions of clostridial, anthrax, and diphtheria toxins, and the entry of Listeria monocytogenes into human cells.<br><br>Viral infection pathways currently include the life cycles of SARS-CoV viruses, influenza virus, HIV (human immunodeficiency virus), and human cytomegalovirus (HCMV).<br><br>Parasitic infection pathways currently include Leishmania infection-related pathways.<br><br>Fungal infection pathways and prion diseases have not been annotated.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5663205 Reactome]." ;
+        dcterms:identifier   "R-HSA-5663205" ;
+        cito:cites           <https://identifiers.org/pubmed/33785903> , <https://identifiers.org/pubmed/33024309> , <https://identifiers.org/pubmed/34522049> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-5663205_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-5663205&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-5663205&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-5663205_rV88> .
+
+<https://identifiers.org/reactome/R-HSA-9824439>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Bacterial Infection Pathways" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9824439> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9824439" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-5663205_rV88> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-5663205_rV88/DataNode/d665a> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9824439> .
+
+<https://identifiers.org/pubmed/34522049>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "34522049" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9824446> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/34522049> .
+
+<https://identifiers.org/reactome/R-HSA-9824443>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Parasitic Infection Pathways" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9824443> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9824443" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-5663205_rV88> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-5663205_rV88/DataNode/fba7a> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9824443> .
+
+<https://identifiers.org/reactome/R-HSA-9824446>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Viral Infection Pathways" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9824446> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9824446" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-5663205_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/33024309> , <https://identifiers.org/pubmed/34522049> , <https://identifiers.org/pubmed/33785903> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-5663205_rV88/DataNode/f517a> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9824446> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-5663205&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/33024309>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "33024309" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9824446> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/33024309> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-5663205&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .

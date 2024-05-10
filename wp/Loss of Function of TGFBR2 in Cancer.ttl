@@ -1,0 +1,155 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.1126%2FSCIENCE.7761852>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCIENCE.7761852" .
+
+<https://identifiers.org/pubmed/17339425>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17339425" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3642278_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17339425> .
+
+<https://identifiers.org/reactome/R-HSA-3642279>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "TGFBR2 MSI Frameshift Mutants in Cancer" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3642279> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3642279" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3642278_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/7665626> , <https://identifiers.org/pubmed/7761852> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3642278_rV88/DataNode/e3ced> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3642279> .
+
+<https://identifiers.org/pubmed/17047044>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17047044" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3642278_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17047044> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-3642278&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/7665626>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "7665626" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3642279> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q41294837> ;
+        owl:sameAs          <https://doi.org/10.1074%2FJBC.270.37.22044> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/7665626> .
+
+<https://identifiers.org/pubmed/10789724>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10789724" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3645790> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q42120115> ;
+        owl:sameAs          <https://doi.org/10.1054%2FBJOC.1999.1178> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10789724> .
+
+<https://identifiers.org/wikipathways/R-HSA-3642278_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-3642278> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Loss of Function of TGFBR2 in Cancer"@en ;
+        dcterms:description  "Loss-of-function of transforming growth factor-beta receptor II (TGFBR2) is most prevalent in colorectal cancer. Over 60% of colorectal cancers with microsatellite instability (MSI) harbor inactivating mutations in both alleles of TGFBR2, mostly 1 or 2 bp deletions in the 10 bp adenine repeat that codes for three lysine residues in the extracellular domain of TGFBR2. These small deletions result in a frameshift and a premature stop codon (Markowitz et al. 1995). TGFBR2 kinase domain (KD) mutations are found in ~20% of microsatellite stable (MSS) colorectal cancers and these are mostly missense mutations that results in substitution of conserved amino acids in the kinase domain (Grady et al. 1999), likely impairing the catalytic activity of TGFBR2 KD mutants. The silencing of TGFBR2 gene via promoter methylation has been reported in B-cell lymphoma (Chen et al. 2007). Knockout of murine Tgfbr2 in colonic epithelium promotes azoxymethane-induced colon cancer formation (Biswas et al. 2004) and increases the number of adenomas and adenocarcinomas in Apc+/- mice (Munoz et al. 2006).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=3642278 Reactome]." ;
+        dcterms:identifier   "R-HSA-3642278" ;
+        dcterms:references   <https://identifiers.org/pubmed/9927040> , <https://identifiers.org/pubmed/15256431> , <https://identifiers.org/pubmed/17047044> , <https://identifiers.org/pubmed/7761852> , <https://identifiers.org/pubmed/17339425> ;
+        cito:cites           <https://identifiers.org/pubmed/15256431> , <https://identifiers.org/pubmed/10789724> , <https://identifiers.org/pubmed/7585632> , <https://identifiers.org/pubmed/9121777> , <https://identifiers.org/pubmed/17047044> , <https://identifiers.org/pubmed/17339425> , <https://identifiers.org/pubmed/7665626> , <https://identifiers.org/pubmed/9927040> , <https://identifiers.org/pubmed/7761852> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-3642278_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-3642278&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-3642278&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-3642278_rV88> .
+
+<https://doi.org/10.1074%2FJBC.270.37.22044>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1074/JBC.270.37.22044" .
+
+<https://identifiers.org/pubmed/9927040>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9927040" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3645790> , <https://identifiers.org/wikipathways/R-HSA-3642278_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9927040> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-3642278&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/wikipathways/R-HSA-3642278>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-3642278_rV88> .
+
+<https://identifiers.org/pubmed/9121777>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9121777" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3645790> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q45345246> ;
+        owl:sameAs          <https://doi.org/10.1038%2FSJ.ONC.1200938> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9121777> .
+
+<https://identifiers.org/pubmed/7585632>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "7585632" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3645790> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/7585632> .
+
+<https://identifiers.org/pubmed/15256431>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15256431" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3642278_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15256431> .
+
+<https://identifiers.org/reactome/R-HSA-3645790>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "TGFBR2 Kinase Domain Mutants in Cancer" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-3645790> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-3645790" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-3642278_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/9927040> , <https://identifiers.org/pubmed/10789724> , <https://identifiers.org/pubmed/9121777> , <https://identifiers.org/pubmed/7585632> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-3642278_rV88/DataNode/b9331> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-3645790> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.1054%2FBJOC.1999.1178>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1054/BJOC.1999.1178" .
+
+<https://doi.org/10.1038%2FSJ.ONC.1200938>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/SJ.ONC.1200938" .
+
+<https://identifiers.org/pubmed/7761852>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "7761852" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-3642279> , <https://identifiers.org/wikipathways/R-HSA-3642278_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24319995> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCIENCE.7761852> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/7761852> .

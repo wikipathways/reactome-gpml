@@ -1,0 +1,295 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://doi.org/10.4161%2FCC.9.3.10599>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.4161/CC.9.3.10599" .
+
+<https://identifiers.org/pubmed/18317450>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18317450" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-2219530> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q40006122> ;
+        owl:sameAs          <https://doi.org/10.1038%2FONC.2008.40> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18317450> .
+
+<https://identifiers.org/pubmed/20713702>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20713702" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-2219530> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34100548> ;
+        owl:sameAs          <https://doi.org/10.1073%2FPNAS.1009652107> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20713702> .
+
+<https://identifiers.org/wikipathways/R-HSA-2219528>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> .
+
+<https://doi.org/10.1038%2FONC.2008.40>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/ONC.2008.40" .
+
+<https://identifiers.org/reactome/R-HSA-5674400>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Constitutive Signaling by AKT1 E17K in Cancer" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-5674400> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5674400" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/17611497> , <https://identifiers.org/pubmed/18954143> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2219528_rV88/DataNode/fac05> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-5674400> .
+
+<https://doi.org/10.1016%2FJ.CCR.2009.10.016>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.CCR.2009.10.016" .
+
+<https://doi.org/10.1016%2FS0092-8674%2800%2981663-3>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/S0092-8674(00)81663-3" .
+
+<https://identifiers.org/wikipathways/R-HSA-2219528_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-2219528> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "PI3K/AKT Signaling in Cancer"@en ;
+        dcterms:description  "Class IA PI3K is a heterodimer of a p85 regulatory subunit (encoded by PIK3R1, PIK3R2 or PIK3R3) and a p110 catalytic subunit (encoded by PIK3CA, PIK3CB or PIK3CD). In the absence of activating signals, the regulatory subunit stabilizes the catalytic subunit while inhibiting its activity. The complex becomes activated when extracellular signals stimulate the phosphorylation of the cytoplasmic domains of transmembrane receptors or receptor-associated proteins. The p85 regulatory subunit binds phosphorylated motifs of activator proteins, which induces a conformational change that relieves p85-mediated inhibition of the p110 catalytic subunit and enables PI3K to phosphorylate PIP2 to form PIP3. The phosphoinositide kinase activity of PI3K is opposed by the phosphoinositide phosphatase activity of PTEN. <br><br>PIP3 acts as a messenger that recruits PDPK1 (PDK1) and AKT (AKT1, AKT2 or AKT3) to the plasma membrane. PDPK1 also possesses a low affinity for PIP2, so small amounts of PDPK1 are always present at the membrane. Binding of AKT to PIP3 induces a conformational change that enables TORC2 complex to phosphorylate AKT at a conserved serine residue (S473 in AKT1). Phosphorylation at the serine residue enables AKT to bind to PDPK1 and exposes a conserved threonine residue (T308) that is phosphorylated by PDPK1. AKT phosphorylated at both serine and threonine residues dissociates from the plasma membrane and acts as a serine/threonine kinase that phosphorylates a number of cytosolic and nuclear targets involved in regulation of cell metabolism, survival and gene expression.  For a recent review, please refer to Manning and Cantley, 2007.  <br>  Signaling by PI3K/AKT is frequently constitutively activated in cancer. This activation can be via gain-of-function mutations in PI3KCA (encoding catalytic subunit p110alpha), PIK3R1 (encoding regulatory subunit p85alpha) and AKT1. The PI3K/AKT pathway can also be constitutively activated by loss-of-function mutations in tumor suppressor genes such as PTEN. <br> Gain-of-function mutations activate PI3K signaling by diverse mechanisms. Mutations affecting the helical domain of PIK3CA and mutations affecting nSH2 and iSH2 domains of PIK3R1 impair inhibitory interactions between these two subunits while preserving their association. Mutations in the catalytic domain of PIK3CA enable the kinase to achieve an active conformation. PI3K complexes with gain-of-function mutations therefore produce PIP3 and activate downstream AKT in the absence of growth factors (Huang et al. 2007, Zhao et al. 2005, Miled et al. 2007, Horn et al. 2008, Sun et al. 2010, Jaiswal et al. 2009, Zhao and Vogt 2010, Urick et al. 2011).  While AKT1 gene copy number, expression level and phosphorylation are often increased in cancer, only one low frequency point mutation has been repeatedly reported in cancer and functionally studied. This mutation represents a substitution of a glutamic acid residue with lysine at position 17 of AKT1, and acts by enabling AKT1 to bind PIP2. PIP2-bound AKT1 is phosphorylated by TORC2 complex and by PDPK1 that is always present at the plasma membrane, due to low affinity for PIP2. Therefore, E17K substitution abrogates the need for PI3K in AKT1 activation (Carpten et al. 2007, Landgraf et al. 2008).  <br> Loss-of-function mutations affecting the phosphatase domain of PTEN are frequently found in sporadic cancers (Kong et al. 1997, Lee et al. 1999, Han et al. 2000), as well as in PTEN hamartoma tumor syndromes (PHTS) (Marsh et al. 1998). PTEN can also be inactivated by gene deletion or epigenetic silencing, or indirectly by overexpression of microRNAs that target PTEN mRNA (Huse et al. 2009). Cells with deficient PTEN function have increased levels of PIP3, and therefore increased AKT activity. For a recent review, please refer to Hollander et al. 2011.<br> Because of their clear involvement in human cancers, PI3K and AKT are targets of considerable interest in the development of small molecule inhibitors. Although none of the currently available inhibitors display preference for mutant variants of PIK3CA or AKT, several inhibitors targeting the wild-type kinases are undergoing clinical trials. These include dual PI3K/mTOR inhibitors, class I PI3K inhibitors, pan-PI3K inhibitors, and pan-AKT inhibitors. While none have yet been approved for clinical use, these agents show promise for future therapeutics. In addition, isoform-specific PI3K and AKT inhibitors are currently being developed, and may provide more specific treatments along with reduced side-effects. For a recent review, please refer to Liu et al. 2009.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=2219528 Reactome]." ;
+        dcterms:identifier   "R-HSA-2219528" ;
+        dcterms:references   <https://identifiers.org/pubmed/16339315> , <https://identifiers.org/pubmed/19487573> , <https://identifiers.org/pubmed/18079394> , <https://identifiers.org/pubmed/9326929> , <https://identifiers.org/pubmed/21430697> , <https://identifiers.org/pubmed/20009532> , <https://identifiers.org/pubmed/17604717> , <https://identifiers.org/pubmed/10866302> , <https://identifiers.org/pubmed/17611497> , <https://identifiers.org/pubmed/18317450> , <https://identifiers.org/pubmed/9467011> , <https://identifiers.org/pubmed/21478295> , <https://identifiers.org/pubmed/17626883> , <https://identifiers.org/pubmed/20713702> , <https://identifiers.org/pubmed/19962665> , <https://identifiers.org/pubmed/18954143> , <https://identifiers.org/pubmed/19644473> , <https://identifiers.org/pubmed/10555148> ;
+        cito:cites           <https://identifiers.org/pubmed/10866302> , <https://identifiers.org/pubmed/17611497> , <https://identifiers.org/pubmed/21478295> , <https://identifiers.org/pubmed/20009532> , <https://identifiers.org/pubmed/10555148> , <https://identifiers.org/pubmed/18079394> , <https://identifiers.org/pubmed/9326929> , <https://identifiers.org/pubmed/19487573> , <https://identifiers.org/pubmed/19644473> , <https://identifiers.org/pubmed/17626883> , <https://identifiers.org/pubmed/18954143> , <https://identifiers.org/pubmed/16339315> , <https://identifiers.org/pubmed/20713702> , <https://identifiers.org/pubmed/19962665> , <https://identifiers.org/pubmed/17604717> , <https://identifiers.org/pubmed/18317450> , <https://identifiers.org/pubmed/21430697> , <https://identifiers.org/pubmed/9467011> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-2219528_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-2219528&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-2219528&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-2219528_rV88> .
+
+<https://identifiers.org/pubmed/19487573>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19487573" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5674404> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24657924> ;
+        owl:sameAs          <https://doi.org/10.1101%2FGAD.1777409> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19487573> .
+
+<https://identifiers.org/pubmed/18079394>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18079394" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-2219530> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27649316> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCIENCE.1150799> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18079394> .
+
+<https://identifiers.org/pubmed/9326929>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9326929" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5674404> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28250937> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNG1097-143> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9326929> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-2219528&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/16339315>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16339315" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-2219530> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34234737> ;
+        owl:sameAs          <https://doi.org/10.1073%2FPNAS.0508988102> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16339315> .
+
+<https://identifiers.org/pubmed/21478295>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21478295" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-2219530> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q35050913> ;
+        owl:sameAs          <https://doi.org/10.1158%2F0008-5472.CAN-11-0549> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21478295> .
+
+<https://doi.org/10.1158%2F0008-5472.CAN-11-0549>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1158/0008-5472.CAN-11-0549" .
+
+<https://identifiers.org/pubmed/9467011>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "9467011" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5674404> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q45345194> ;
+        owl:sameAs          <https://doi.org/10.1093%2FHMG%2F7.3.507> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9467011> .
+
+<https://doi.org/10.1073%2FPNAS.0508988102>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1073/PNAS.0508988102" .
+
+<https://doi.org/10.1038%2FNG1097-143>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NG1097-143" .
+
+<https://doi.org/10.1126%2FSCIENCE.1135394>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCIENCE.1135394" .
+
+<https://identifiers.org/pubmed/21430697>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21430697" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5674404> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37856722> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNRC3037> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21430697> .
+
+<https://identifiers.org/reactome/R-HSA-5674404>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "PTEN Loss of Function in Cancer" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-5674404> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5674404" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/9326929> , <https://identifiers.org/pubmed/10555148> , <https://identifiers.org/pubmed/21430697> , <https://identifiers.org/pubmed/19487573> , <https://identifiers.org/pubmed/9467011> , <https://identifiers.org/pubmed/10866302> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2219528_rV88/DataNode/becfc> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-5674404> .
+
+<https://doi.org/10.1038%2FNATURE05933>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NATURE05933" .
+
+<https://doi.org/10.1093%2FHMG%2F7.3.507>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1093/HMG/7.3.507" .
+
+<https://identifiers.org/pubmed/17611497>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17611497" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5674400> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27646556> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNATURE05933> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17611497> .
+
+<https://doi.org/10.1101%2FGAD.1777409>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1101/GAD.1777409" .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/pubmed/20009532>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20009532" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-2219530> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q33716552> ;
+        owl:sameAs          <https://doi.org/10.4161%2FCC.9.3.10599> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20009532> .
+
+<https://identifiers.org/pubmed/10555148>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10555148" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5674404> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27620298> ;
+        owl:sameAs          <https://doi.org/10.1016%2FS0092-8674%2800%2981663-3> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10555148> .
+
+<https://doi.org/10.1073%2FPNAS.1009652107>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1073/PNAS.1009652107" .
+
+<https://identifiers.org/pubmed/19644473>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19644473" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19644473> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-2219528&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/pubmed/10866302>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10866302" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5674404> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10866302> .
+
+<https://doi.org/10.1126%2FSCIENCE.1150799>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1126/SCIENCE.1150799" .
+
+<https://doi.org/10.1021%2FBI801683K>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1021/BI801683K" .
+
+<https://identifiers.org/pubmed/17604717>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17604717" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17604717> .
+
+<https://identifiers.org/reactome/R-HSA-2219530>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Constitutive Signaling by Aberrant PI3K in Cancer" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-2219530> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-2219530" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/17626883> , <https://identifiers.org/pubmed/21478295> , <https://identifiers.org/pubmed/20009532> , <https://identifiers.org/pubmed/20713702> , <https://identifiers.org/pubmed/16339315> , <https://identifiers.org/pubmed/19962665> , <https://identifiers.org/pubmed/18317450> , <https://identifiers.org/pubmed/18079394> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-2219528_rV88/DataNode/f63c2> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-2219530> .
+
+<https://doi.org/10.1038%2FNRC3037>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NRC3037" .
+
+<https://identifiers.org/pubmed/19962665>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19962665" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-2219530> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q39766760> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.CCR.2009.10.016> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19962665> .
+
+<https://identifiers.org/pubmed/18954143>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18954143" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-5674400> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34057438> ;
+        owl:sameAs          <https://doi.org/10.1021%2FBI801683K> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18954143> .
+
+<https://identifiers.org/pubmed/17626883>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "17626883" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-2219530> , <https://identifiers.org/wikipathways/R-HSA-2219528_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27646654> ;
+        owl:sameAs          <https://doi.org/10.1126%2FSCIENCE.1135394> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/17626883> .

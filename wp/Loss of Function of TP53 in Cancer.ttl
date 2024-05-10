@@ -1,0 +1,165 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubmed/11420672>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "11420672" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723905> , <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34290217> ;
+        owl:sameAs          <https://doi.org/10.1038%2FSJ.ONC.1204373> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/11420672> .
+
+<https://doi.org/10.1006%2FJMBI.1999.2563>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1006/JMBI.1999.2563" .
+
+<https://identifiers.org/pubmed/22265392>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22265392" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22265392> .
+
+<https://identifiers.org/pubmed/10064694>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10064694" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723905> , <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38327509> ;
+        owl:sameAs          <https://doi.org/10.1006%2FJMBI.1999.2563> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10064694> .
+
+<https://identifiers.org/wikipathways/R-HSA-9723907_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-9723907> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Loss of Function of TP53 in Cancer"@en ;
+        dcterms:description  "TP53 is the most frequently mutated tumor suppressor gene, with mutations present in more than 50% of human tumors and germline mutation in TP53 being underlying cause of the cancer-predisposing Li-Fraumeni syndrome (reviewed in Monti et al. 2020). The TP53 gene maps to chromosomal band 17p13 and encodes a transcription factor that contains four functional domains. A transactivation domain (TAD) involves amino acid residues 1-61 and is involved in interaction with components of the transcription machinery. A DNA binding domain (DBD) involves amino acid residues 94-290 and interacts with specific DNA target sequences called p53 response elements. A C-terminal domain (CTD) involves residues 357-393 and regulates DNA binding (reviewed in Monti et al. 2020). A tetramerization domain (TD) involves amino acids 325-355 and is needed for the formation of TP53 homotetramers. TP53 is considered the â€œguardian of the genomeâ€\uFFFD (Lane 1992) as it is activated by DNA damage to initiate, depending on the amount of damage, cell cycle arrest, senescence or apoptosis (reviewed in Reinhardt and Schumacher 2012). In addition, TP53 regulates the expression of DNA repair genes, and is involved in the regulation of metabolism and autophagy (reviewed in Monti et al. 2020).<br>Most cancer-derived TP53 mutations are missense mutations that affect the central DNA binding domain of TP53 (amino acid residues 94-312). Eight hotspot amino acid substitutions in this region (R175H, G245S, R248Q, R248W, R249S, R273H, R273S and R282W) are found in close to 30% of TP53-mutated cancers. Based on their functional impact, TP53 mutations can be classified as 1) loss-of-function (LOF), 2) partial LOF (which may involve temperature sensitivity); 3) wild type-like (WT-L) or super-transactivating (ST) mutants; 4) mutants with altered specificity (AS), which are active or partially active on some but inactive on other TP53 target genes; 5) dominant-negative (DN) mutants, able to tetramerize with and inhibit the activity of the wild type TP53 protein. Some of the TP53 mutants, especially in the category of ST and AS mutants, are gain-of-function (GOF) mutants, able to interact with novel target genes and/or novel components of the transcriptional machinery (reviewed in Monti et al. 2020, and Gencel-Augusto and Lozano 2020).<br>Due to the complex function of WT-L, ST, AS and DN mutants of TP53, we have so far focused on annotating LOF mutants of TP53 which are unable to oligomerize due to mutations in the TD. Although accounting for a small percent of TP53 mutants, TD mutant are therefore considered to be completely defective in transcriptional activity, with no possibility of AS, DN and GOF effects (ChÃ¨ne and Bechter 1999, reviewed in ChÃ¨ne 2001, and Kamada et al. 2016). However, when overexpressed, some missense TD mutants of TP53 can form homotetramers and heterotetramers with the wild type TP53 which are partially functional and some extent of AS, DN and GOF effects may not be excluded for those mutants (Atz et al. 2000, reviewed in ChÃ¨ne 2001). In addition, the synthetic mutant p153(1-320) which consists of the first 320 amino acids and lacks the TD and CTD, while unable to tetramerize, can form stacked oligomers at the recombinant target gene promoter and induce transcription at a low level. Stacked oligomers are formed through interactions that involve amino acid residues outside the TD, which are facilitated by the presence of a target DNA sequence (Stenger et al. 1994).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9723907 Reactome]." ;
+        dcterms:identifier   "R-HSA-9723907" ;
+        dcterms:references   <https://identifiers.org/pubmed/32873579> , <https://identifiers.org/pubmed/26572807> , <https://identifiers.org/pubmed/22265392> , <https://identifiers.org/pubmed/1614522> , <https://identifiers.org/pubmed/10064694> , <https://identifiers.org/pubmed/11420672> , <https://identifiers.org/pubmed/7813439> , <https://identifiers.org/pubmed/10653977> , <https://identifiers.org/pubmed/33194757> ;
+        cito:cites           <https://identifiers.org/pubmed/19913028> , <https://identifiers.org/pubmed/10064694> , <https://identifiers.org/pubmed/11420672> , <https://identifiers.org/pubmed/1614522> , <https://identifiers.org/pubmed/26572807> , <https://identifiers.org/pubmed/33194757> , <https://identifiers.org/pubmed/10653977> , <https://identifiers.org/pubmed/7813439> , <https://identifiers.org/pubmed/8035799> , <https://identifiers.org/pubmed/22265392> , <https://identifiers.org/pubmed/32873579> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-9723907_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9723907&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9723907&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-9723907_rV88> .
+
+<https://doi.org/10.1128%2FMCB.14.8.5182>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1128/MCB.14.8.5182" .
+
+<https://doi.org/10.1002%2FJ.1460-2075.1994.TB06947.X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/J.1460-2075.1994.TB06947.X" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9723907&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/26572807>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26572807" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26572807> .
+
+<https://identifiers.org/pubmed/33194757>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "33194757" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/33194757> .
+
+<https://identifiers.org/reactome/R-HSA-9723905>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Loss of function of TP53 in cancer due to loss of tetramerization ability" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9723905> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9723905" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/8035799> , <https://identifiers.org/pubmed/7813439> , <https://identifiers.org/pubmed/19913028> , <https://identifiers.org/pubmed/10653977> , <https://identifiers.org/pubmed/11420672> , <https://identifiers.org/pubmed/10064694> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9723907_rV88/DataNode/e2222> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9723905> .
+
+<https://identifiers.org/wikipathways/R-HSA-9723907>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> .
+
+<https://doi.org/10.1016%2FJ.JMB.2009.11.013>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.JMB.2009.11.013" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9723907&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/pubmed/1614522>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "1614522" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/1614522> .
+
+<https://identifiers.org/pubmed/10653977>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10653977" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723905> , <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q73399745> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10653977> .
+
+<https://identifiers.org/pubmed/32873579>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "32873579" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/32873579> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/pubmed/19913028>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19913028" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723905> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q43242542> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.JMB.2009.11.013> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19913028> .
+
+<https://identifiers.org/pubmed/8035799>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "8035799" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723905> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36662699> ;
+        owl:sameAs          <https://doi.org/10.1128%2FMCB.14.8.5182> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/8035799> .
+
+<https://doi.org/10.1038%2FSJ.ONC.1204373>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/SJ.ONC.1204373" .
+
+<https://identifiers.org/pubmed/7813439>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "7813439" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9723905> , <https://identifiers.org/wikipathways/R-HSA-9723907_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28639938> ;
+        owl:sameAs          <https://doi.org/10.1002%2FJ.1460-2075.1994.TB06947.X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/7813439> .

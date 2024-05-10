@@ -1,0 +1,84 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/pubmed/28096392>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28096392" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9664433_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28096392> .
+
+<https://identifiers.org/pubmed/29247046>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29247046" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662851> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q48107825> ;
+        owl:sameAs          <https://doi.org/10.1084%2FJEM.20171389> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29247046> .
+
+<https://doi.org/10.1084%2FJEM.20171389>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1084/JEM.20171389" .
+
+<https://identifiers.org/reactome/R-HSA-9662851>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Anti-inflammatory response favouring Leishmania parasite infection" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9662851> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9662851" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9664433_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/29247046> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9664433_rV88/DataNode/d7d5f> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9662851> .
+
+<https://identifiers.org/wikipathways/R-HSA-9664433>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-9664433_rV88> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9664433&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/wikipathways/R-HSA-9664433_rV88>
+        rdf:type             skos:Collection , wp:Pathway ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-9664433> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Leishmania parasite growth and survival"@en ;
+        dcterms:description  "Leishmania parasites infecting macrophages are considered a good model to study successful evolutionary mechanisms of evasion of the macrophage mediated immune response (Olivier et al. 2005). To evade killing by the host, Leishmania parasites manipulate the host's cellular signaling mechanisms, to prevent the production of microbicidal molecules and stimulating the activation of protective signaling pathways or to interfere with effective antigen presentation (Liu et al. 2012a). In most natural infections or after the resolution of the disease, a few Leishmania parasites remain in the host, perhaps as a product of a balance between forces favouring parasite persistence and those favouring destruction (Mandell et al.  2017).<br><br>\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9664433 Reactome]." ;
+        dcterms:identifier   "R-HSA-9664433" ;
+        dcterms:references   <https://identifiers.org/pubmed/28096392> , <https://identifiers.org/pubmed/22919674> ;
+        cito:cites           <https://identifiers.org/pubmed/29247046> , <https://identifiers.org/pubmed/22919674> , <https://identifiers.org/pubmed/28096392> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-9664433_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9664433&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9664433&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-9664433_rV88> .
+
+<https://identifiers.org/pubmed/22919674>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22919674" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9664433_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22919674> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9664433&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .

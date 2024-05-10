@@ -1,0 +1,163 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/pubmed/25137548>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25137548" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9726840> , <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24302232> ;
+        owl:sameAs          <https://doi.org/10.1002%2FHUMU.22634> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25137548> .
+
+<https://identifiers.org/reactome/R-HSA-9726840>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "SHOC2 M1731 mutant abolishes MRAS complex function" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9726840> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9726840" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/25137548> , <https://identifiers.org/pubmed/16630891> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9660537_rV88/DataNode/eca9f> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9726840> .
+
+<https://identifiers.org/wikipathways/R-HSA-9660537_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-9660537> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Signaling by MRAS-complex mutants"@en ;
+        dcterms:description  "A complex of MRAS, SHOC2 and the phosphatase PP1 contributes to the activation of RAF proteins by removing an inhibitory phosphorylation that mediates binding to 14-3-3 (also known as YWHAB) proteins (Rodriguez-Viciano et al, 2006; Young et al, 2013;reviewed in Simanshu et al, 2017; Lavoie and Therrien, 2015). Activating and inactivating mutations in each of the components of this dephosphorylating complex have been identified in RASopathies as well as at low frequency in some cancers (Cordeddu et al, 2009; Hannig et al, 2014; Gripp et al, 2016; Higgin et al, 2017; Motta et al, 2016; Motta et al, 2019a,b).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9660537 Reactome]." ;
+        dcterms:identifier   "R-HSA-9660537" ;
+        dcterms:references   <https://identifiers.org/pubmed/27264673> , <https://identifiers.org/pubmed/28666118> , <https://identifiers.org/pubmed/24211266> , <https://identifiers.org/pubmed/25137548> , <https://identifiers.org/pubmed/28289718> , <https://identifiers.org/pubmed/19684605> , <https://identifiers.org/pubmed/31108500> , <https://identifiers.org/pubmed/27466182> , <https://identifiers.org/pubmed/16630891> , <https://identifiers.org/pubmed/31059601> , <https://identifiers.org/pubmed/25907612> ;
+        cito:cites           <https://identifiers.org/pubmed/19684605> , <https://identifiers.org/pubmed/28289718> , <https://identifiers.org/pubmed/31108500> , <https://identifiers.org/pubmed/25137548> , <https://identifiers.org/pubmed/31059601> , <https://identifiers.org/pubmed/25907612> , <https://identifiers.org/pubmed/24211266> , <https://identifiers.org/pubmed/27466182> , <https://identifiers.org/pubmed/28666118> , <https://identifiers.org/pubmed/16630891> , <https://identifiers.org/pubmed/27264673> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-9660537_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9660537&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9660537&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-9660537_rV88> .
+
+<https://identifiers.org/wikipathways/R-HSA-9660537>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> .
+
+<https://identifiers.org/pubmed/31108500>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31108500" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31108500> .
+
+<https://identifiers.org/pubmed/24211266>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24211266" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24211266> .
+
+<https://doi.org/10.1002%2FHUMU.22634>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/HUMU.22634" .
+
+<https://identifiers.org/pubmed/19684605>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "19684605" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/19684605> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9660537&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/pubmed/28666118>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28666118" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9726842> , <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q39407402> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.CELL.2017.06.009> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28666118> .
+
+<https://identifiers.org/pubmed/31059601>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31059601" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31059601> .
+
+<https://identifiers.org/pubmed/27466182>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27466182" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27466182> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9660537&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/pubmed/25907612>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25907612" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25907612> .
+
+<https://doi.org/10.1016%2FJ.CELL.2017.06.009>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.CELL.2017.06.009" .
+
+<https://identifiers.org/pubmed/28289718>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28289718" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28289718> .
+
+<https://identifiers.org/reactome/R-HSA-9726842>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Gain-of-function MRAS complexes activate RAF signaling" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9726842> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9726842" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/28666118> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9660537_rV88/DataNode/ac620> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9726842> .
+
+<https://identifiers.org/pubmed/16630891>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16630891" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9726840> , <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24319503> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.MOLCEL.2006.03.027> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16630891> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/pubmed/27264673>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27264673" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9660537_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27264673> .
+
+<https://doi.org/10.1016%2FJ.MOLCEL.2006.03.027>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.MOLCEL.2006.03.027" .

@@ -1,0 +1,474 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/wikipathways/R-HSA-9659379_rV88>
+        rdf:type             wp:Pathway , skos:Collection ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-9659379> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Sensory processing of sound"@en ;
+        dcterms:description  "In mammals, sounds are processed in the cochlea, a spiral-shaped organ in the inner ear (reviewed in Basch et al. 2016, Fettiplace 2017, Koppl and Manley 2019). Low frequency sounds are sensed at the distal end (apex) of the cochlea; high frequency sounds are sensed at the proximal end (base) of the cochlea (reviewed in Dallos 1992, Manley 2018). Sound vibrations are transmitted from the eardrum through the three bones of the inner ear (malleus, incus, stapes) and the oval window of the cochlea to the fluids within the cochlea. Within the organ of Corti in the cochlea there are 3 rows of outer hair cells (OHCs) on the external side of the tunnel of Corti and 1 row of inner hair cells (IHCs) on the internal side (Spoendlin 1967). Each IHC synapses with approximately 20 afferent myelinated type I spiral ganglion neurons and functions as a sensory receptor to convert the energy of sound waves to secretion of glutamate neurotransmitter. Multiple OHCs synapse with each unmyelinated type II afferent neuron and OHCs are also synapsed with efferent medial olivocochlear fibers (Spoendlin 1967). The primary function of OHCs, however, is amplification of organ of Corti motions in response to sound (Ryan and Dallos 1975). Amplification is produced by changes in receptor-potential driven cell length caused by changes in the conformation of the unusual membrane protein prestin (SLC26A5, Zheng et al. 2000).<br>IHCs and OHCs sense the sonic vibrations by deflection of stereocilia on their apical surfaces (reviewed in Fettiplace et al. 2017, McPherson 2018). The stereocilia are arranged in rows of increasing height, with a stereocilium of one row connected to a stereocilium of another row by a tip link composed of a CDH23 dimer on the taller stereocilium joined at its N-termini to the N-termini of a PCDH15 dimer on the shorter stereocilium. CDH23 is connected to the cytoskeleton of the taller stereocilium via MYO7A (MyoVIIa), USH1C (Harmonin), and USH1G (Sans) (reviewed in Peng et al. 2011, Cosgrove and Zallocchi 2014, Barr-Gillespie 2015, Fettiplace 2017, McGrath et al. 2017, Cunningham and MÃ¼ller 2019, Ã“ MaoilÃ©idigh and Ricci 2019, Velez-Ortega and Frolenkov 2019) while PCDH15 on the shorter stereocilium interacts with LHFPL5, an auxiliary subunit of the mechanoelectrical transduction channel (MET channel, also known as the mechanotransduction channel), which contains at least TMC1 or TMC2, TMIE, and the auxiliary subunits LHFPL5 and CIB2 (reviewed in Fettiplace 2016, Qiu and MÃ¼ller 2018, Corey et al. 2019). Deflection of stereocilia in the direction that increases tension on the tip link causes depolarization of the cell by increasing the open probability of the MET channel, which then transports calcium and potassium into the hair cell according to the gradient of those ions between the scala media (containing endolymph at 154 mM K+ and <1 mM Ca2+) at the apex of the cell and the scala tympani (containing perilymph at 7 mM K+) at the base (reviewed in Fettiplace and Kim 2014). Similarly, compression of the tip link by deflection of the stereocilia in the opposite direction decreases the open probability of the MET channel and causes hyperpolarization of the cell.<br>Depolarization of IHCs causes opening of voltage-gated calcium channels arrayed in stripes on the basolateral membrane close to ribbon synapses formed between the IHC and the afferent fiber of a myelinated type I spiral ganglion neuron. This results in a localized increase in cytosolic calcium ions which interact with Otoferlin (OTOF) on glutamate-containing synaptic vesicles at the ribbon structure to activate exocytosis of glutamate into the synapse formed with the afferent neuron (reviewed in Wichmann 2015, Pangrsic and Vogl 2018). Ribbon synapses are distinguished by electron-dense ribbon structures projecting from the presynaptic membrane into the cytosol and comprising at least BASSOON, RIBEYE (an isoform of CTBP2), and PICCOLINO (an isoform of PICCOLO). The ribbon structures appear to transiently bind synaptic vesicles and facilitate resupply of synaptic vesicles at active zones to refill the pool of readily releasable vesicles (reviewed in Moser et al. 2006, Moser et al. 2020).<br>In contrast with IHCs, OHCs mainly function in sound amplification by decreasing up to about 4% in length in response to depolarization caused by opening of the MET channel and increasing in length in response to hyperpolarization caused by channel closing, resulting in alternating compression and decompression between the reticular lamina and the basilar membrane. The changes in the length of the OHC are caused by very rapid (microseconds), voltage-sensitive changes in the conformation of the membrane protein prestin (SLC26A5). Stereociliary ATP2B2 (PMCA2) extrudes calcium ions and basally located KCNQ4 extrudes potassium ions to repolarize the OHC.<br>OHCs are synapsed with efferent cholinergic medial olivocochlear fibers (reviewed in Fritzsch and Elliott 2017, Fuchs and Lauer 2019). Acetylcholine released at the synapse binds an unusual, nicotine-antagonized, nicotinic receptor comprising CHRNA9 and CHRNA10. Upon binding acetylcholine, CHRNA9:CHRNA10 transports calcium ions into the OHC. The calcium activates SK2 potassium channels (KCNN2) and BK potassium channels (KCNMA1:KCNMB1) which extrude potassium ions, hyperpolarize the OHC, and inhibit activation of the OHC.<br> Loud sounds can cause a temporary threshold shift (temporary loss of hearing) caused by damage to stereocilia and synapses or permanent threshold shift (permanent loss of hearing) caused by damage or death of hair cells and neurons (reviewed in Kurabi et al. 2017).\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9659379 Reactome]." ;
+        dcterms:identifier   "R-HSA-9659379" ;
+        dcterms:references   <https://identifiers.org/pubmed/29917041> , <https://identifiers.org/pubmed/1110747> , <https://identifiers.org/pubmed/30116889> , <https://identifiers.org/pubmed/24239741> , <https://identifiers.org/pubmed/27410728> , <https://identifiers.org/pubmed/1464757> , <https://identifiers.org/pubmed/10821263> , <https://identifiers.org/pubmed/30291150> , <https://identifiers.org/pubmed/30638948> , <https://identifiers.org/pubmed/27916698> , <https://identifiers.org/pubmed/30181353> , <https://identifiers.org/pubmed/30082452> , <https://identifiers.org/pubmed/26229154> , <https://identifiers.org/pubmed/16944206> , <https://identifiers.org/pubmed/24987009> , <https://identifiers.org/pubmed/30661717> , <https://identifiers.org/pubmed/26188105> , <https://identifiers.org/pubmed/29755320> , <https://identifiers.org/pubmed/30251250> , <https://identifiers.org/pubmed/28915323> , <https://identifiers.org/pubmed/31373863> , <https://identifiers.org/pubmed/27565685> , <https://identifiers.org/pubmed/30082454> , <https://identifiers.org/pubmed/28484373> , <https://identifiers.org/pubmed/26052920> , <https://identifiers.org/pubmed/22045002> ;
+        cito:cites           <https://identifiers.org/pubmed/26052920> , <https://identifiers.org/pubmed/29755320> , <https://identifiers.org/pubmed/25006839> , <https://identifiers.org/pubmed/30082452> , <https://identifiers.org/pubmed/22890707> , <https://identifiers.org/pubmed/30291150> , <https://identifiers.org/pubmed/30181355> , <https://identifiers.org/pubmed/29917041> , <https://identifiers.org/pubmed/10821263> , <https://identifiers.org/pubmed/26188105> , <https://identifiers.org/pubmed/30661717> , <https://identifiers.org/pubmed/30638948> , <https://identifiers.org/pubmed/30116889> , <https://identifiers.org/pubmed/25874597> , <https://identifiers.org/pubmed/27635230> , <https://identifiers.org/pubmed/28484373> , <https://identifiers.org/pubmed/30082454> , <https://identifiers.org/pubmed/25096182> , <https://identifiers.org/pubmed/30747242> , <https://identifiers.org/pubmed/18809494> , <https://identifiers.org/pubmed/27565685> , <https://identifiers.org/pubmed/20802334> , <https://identifiers.org/pubmed/31373863> , <https://identifiers.org/pubmed/27410728> , <https://identifiers.org/pubmed/26229154> , <https://identifiers.org/pubmed/30251250> , <https://identifiers.org/pubmed/1110747> , <https://identifiers.org/pubmed/16944206> , <https://identifiers.org/pubmed/24987009> , <https://identifiers.org/pubmed/22715884> , <https://identifiers.org/pubmed/21536120> , <https://identifiers.org/pubmed/24925343> , <https://identifiers.org/pubmed/30181353> , <https://identifiers.org/pubmed/16873410> , <https://identifiers.org/pubmed/27916698> , <https://identifiers.org/pubmed/24239741> , <https://identifiers.org/pubmed/28915323> , <https://identifiers.org/pubmed/22045002> , <https://identifiers.org/pubmed/1464757> , <https://identifiers.org/pubmed/20525072> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-9659379_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9659379&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9659379&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-9659379_rV88> .
+
+<https://doi.org/10.1111%2FJ.1460-9568.2010.07182.X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1111/J.1460-9568.2010.07182.X" .
+
+<https://identifiers.org/pubmed/22045002>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22045002" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22045002> .
+
+<https://doi.org/10.1146%2FANNUREV-NEURO-061010-113705>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1146/ANNUREV-NEURO-061010-113705" .
+
+<https://identifiers.org/pubmed/30661717>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30661717" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30661717> .
+
+<https://identifiers.org/pubmed/10821263>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10821263" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10821263> .
+
+<https://identifiers.org/pubmed/1110747>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "1110747" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/1110747> .
+
+<https://identifiers.org/pubmed/27565685>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27565685" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27565685> .
+
+<https://identifiers.org/pubmed/30181355>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30181355" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q91288690> ;
+        owl:sameAs          <https://doi.org/10.1101%2FCSHPERSPECT.A033522> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30181355> .
+
+<https://doi.org/10.1016%2FJ.HEARES.2011.04.006>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.HEARES.2011.04.006" .
+
+<https://doi.org/10.1016%2FJ.BPJ.2016.05.032>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.BPJ.2016.05.032" .
+
+<https://identifiers.org/pubmed/30747242>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30747242" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q91476352> ;
+        owl:sameAs          <https://doi.org/10.1007%2FS00106-019-0615-9> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30747242> .
+
+<https://doi.org/10.1002%2F1873-3468.13258>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/1873-3468.13258" .
+
+<https://identifiers.org/pubmed/27916698>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27916698" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27916698> .
+
+<https://identifiers.org/pubmed/24987009>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24987009" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> , <https://identifiers.org/reactome/R-HSA-9662360> , <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q30408022> ;
+        owl:sameAs          <https://doi.org/10.1152%2FPHYSREV.00038.2013> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24987009> .
+
+<https://doi.org/10.1088%2F0034-4885%2F77%2F7%2F076601>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1088/0034-4885/77/7/076601" .
+
+<https://identifiers.org/pubmed/30082454>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30082454" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30082454> .
+
+<https://doi.org/10.1113%2FJPHYSIOL.2012.241448>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1113/JPHYSIOL.2012.241448" .
+
+<https://identifiers.org/pubmed/22890707>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22890707" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q46474342> ;
+        owl:sameAs          <https://doi.org/10.1113%2FJPHYSIOL.2012.241448> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22890707> .
+
+<https://identifiers.org/pubmed/30251250>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30251250" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662360> , <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q91713581> ;
+        owl:sameAs          <https://doi.org/10.1002%2F1873-3468.13258> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30251250> .
+
+<https://identifiers.org/pubmed/25006839>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25006839" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38227609> ;
+        owl:sameAs          <https://doi.org/10.1088%2F0034-4885%2F77%2F7%2F076601> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25006839> .
+
+<https://doi.org/10.3389%2FFNCEL.2017.00114>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.3389/FNCEL.2017.00114" .
+
+<https://identifiers.org/pubmed/31373863>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31373863" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662360> , <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q92366542> ;
+        owl:sameAs          <https://doi.org/10.1152%2FPHYSREV.00026.2018> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31373863> .
+
+<https://doi.org/10.1152%2FPHYSREV.00038.2013>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1152/PHYSREV.00038.2013" .
+
+<https://doi.org/10.1038%2FNRN3786>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NRN3786" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-9659379&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/pubmed/27635230>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27635230" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662360> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28068730> ;
+        owl:sameAs          <https://doi.org/10.12688%2FF1000RESEARCH.8924.1> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27635230> .
+
+<https://identifiers.org/pubmed/30291150>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30291150" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30291150> .
+
+<https://identifiers.org/pubmed/16944206>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16944206" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16944206> .
+
+<https://identifiers.org/pubmed/28484373>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28484373" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> , <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q29994514> ;
+        owl:sameAs          <https://doi.org/10.3389%2FFNCEL.2017.00114> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28484373> .
+
+<https://identifiers.org/pubmed/20802334>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20802334" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662360> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37783878> ;
+        owl:sameAs          <https://doi.org/10.1097%2FMOO.0B013E32833E0586> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20802334> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://identifiers.org/pubmed/21536120>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21536120" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662360> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37871145> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.HEARES.2011.04.006> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21536120> .
+
+<https://identifiers.org/pubmed/27410728>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27410728" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> , <https://identifiers.org/reactome/R-HSA-9662360> , <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26740537> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.BPJ.2016.05.032> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27410728> .
+
+<https://doi.org/10.1101%2FCSHPERSPECT.A033522>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1101/CSHPERSPECT.A033522" .
+
+<https://identifiers.org/pubmed/1464757>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "1464757" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/1464757> .
+
+<https://identifiers.org/pubmed/25096182>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25096182" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34432474> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNRN3786> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25096182> .
+
+<https://identifiers.org/pubmed/29917041>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29917041" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29917041> .
+
+<https://identifiers.org/pubmed/22715884>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "22715884" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662360> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34282892> ;
+        owl:sameAs          <https://doi.org/10.1146%2FANNUREV-NEURO-061010-113705> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/22715884> .
+
+<https://identifiers.org/pubmed/30181353>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30181353" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30181353> .
+
+<https://identifiers.org/pubmed/30116889>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30116889" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30116889> .
+
+<https://identifiers.org/pubmed/20525072>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20525072" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24629397> ;
+        owl:sameAs          <https://doi.org/10.1111%2FJ.1460-9568.2010.07182.X> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20525072> .
+
+<https://identifiers.org/pubmed/30082452>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30082452" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30082452> .
+
+<https://identifiers.org/pubmed/29755320>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "29755320" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29755320> .
+
+<https://doi.org/10.1097%2FMOO.0B013E32833E0586>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1097/MOO.0B013E32833E0586" .
+
+<https://doi.org/10.1113%2FJPHYSIOL.2006.114652>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1113/JPHYSIOL.2006.114652" .
+
+<https://identifiers.org/pubmed/24925343>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24925343" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662360> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38219912> ;
+        owl:sameAs          <https://doi.org/10.1007%2FS12272-014-0411-8> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24925343> .
+
+<https://doi.org/10.1002%2FCPHY.C160049>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/CPHY.C160049" .
+
+<https://doi.org/10.1007%2FS00106-019-0615-9>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1007/S00106-019-0615-9" .
+
+<https://identifiers.org/pubmed/30638948>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30638948" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30638948> .
+
+<https://identifiers.org/pubmed/18809494>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18809494" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q30487712> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.CONB.2008.08.016> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18809494> .
+
+<https://identifiers.org/reactome/R-HSA-9662361>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Sensory processing of sound by outer hair cells of the cochlea" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9662361> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9662361" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/30181355> , <https://identifiers.org/pubmed/24987009> , <https://identifiers.org/pubmed/20525072> , <https://identifiers.org/pubmed/28484373> , <https://identifiers.org/pubmed/18809494> , <https://identifiers.org/pubmed/25006839> , <https://identifiers.org/pubmed/22890707> , <https://identifiers.org/pubmed/27410728> , <https://identifiers.org/pubmed/28915323> , <https://identifiers.org/pubmed/30747242> , <https://identifiers.org/pubmed/16873410> , <https://identifiers.org/pubmed/25096182> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9659379_rV88/DataNode/c6744> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9662361> .
+
+<https://identifiers.org/wikipathways/R-HSA-9659379>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> .
+
+<https://doi.org/10.12688%2FF1000RESEARCH.8924.1>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.12688/F1000RESEARCH.8924.1" .
+
+<https://identifiers.org/pubmed/24239741>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24239741" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24239741> .
+
+<https://doi.org/10.1016%2FJ.CONB.2008.08.016>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.CONB.2008.08.016" .
+
+<https://identifiers.org/pubmed/28915323>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "28915323" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> , <https://identifiers.org/reactome/R-HSA-9662360> , <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q42618413> ;
+        owl:sameAs          <https://doi.org/10.1002%2FCPHY.C160049> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/28915323> .
+
+<https://identifiers.org/pubmed/26188105>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26188105" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662360> , <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q38549822> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.HEARES.2015.07.008> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26188105> .
+
+<https://identifiers.org/pubmed/16873410>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16873410" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662361> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24680188> ;
+        owl:sameAs          <https://doi.org/10.1113%2FJPHYSIOL.2006.114652> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16873410> .
+
+<https://identifiers.org/pubmed/26229154>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26229154" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26229154> .
+
+<https://doi.org/10.1007%2FS12272-014-0411-8>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1007/S12272-014-0411-8" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-9659379&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://identifiers.org/reactome/R-HSA-9662360>
+        rdf:type            wp:DataNode , wp:Pathway ;
+        rdfs:label          "Sensory processing of sound by inner hair cells of the cochlea" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-9662360> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-9662360" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/24925343> , <https://identifiers.org/pubmed/21536120> , <https://identifiers.org/pubmed/27410728> , <https://identifiers.org/pubmed/27635230> , <https://identifiers.org/pubmed/25874597> , <https://identifiers.org/pubmed/20802334> , <https://identifiers.org/pubmed/22715884> , <https://identifiers.org/pubmed/28915323> , <https://identifiers.org/pubmed/31373863> , <https://identifiers.org/pubmed/24987009> , <https://identifiers.org/pubmed/26188105> , <https://identifiers.org/pubmed/30251250> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-9659379_rV88/DataNode/c7d47> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-9662360> .
+
+<https://doi.org/10.1016%2FJ.HEARES.2015.07.008>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.HEARES.2015.07.008" .
+
+<https://identifiers.org/pubmed/25874597>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "25874597" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-9662360> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q30407369> ;
+        owl:sameAs          <https://doi.org/10.1007%2FS00441-014-2102-7> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/25874597> .
+
+<https://doi.org/10.1152%2FPHYSREV.00026.2018>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1152/PHYSREV.00026.2018" .
+
+<https://identifiers.org/pubmed/26052920>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "26052920" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-9659379_rV88> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/26052920> .
+
+<https://doi.org/10.1007%2FS00441-014-2102-7>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1007/S00441-014-2102-7" .

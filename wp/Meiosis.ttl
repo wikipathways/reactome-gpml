@@ -1,0 +1,120 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+obo:NCBITaxon_9606  obo:NCIT_C179773  "9606" .
+
+<https://doi.org/10.1210%2FER.2005-0017>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1210/ER.2005-0017" .
+
+<https://identifiers.org/pubmed/18948708>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18948708" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-1221632> , <https://identifiers.org/wikipathways/R-HSA-1500620_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37307381> ;
+        owl:sameAs          <https://doi.org/10.1159%2F000166620> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18948708> .
+
+<https://identifiers.org/pubmed/16543383>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16543383" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-912446> , <https://identifiers.org/wikipathways/R-HSA-1500620_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q36423604> ;
+        owl:sameAs          <https://doi.org/10.1210%2FER.2005-0017> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16543383> .
+
+<https://identifiers.org/wikipathways/R-HSA-1500620_rV88>
+        rdf:type             skos:Collection , wp:Pathway ;
+        dc:identifier        <https://identifiers.org/wikipathways/R-HSA-1500620> ;
+        dc:source            "WikiPathways" ;
+        dc:title             "Meiosis"@en ;
+        dcterms:description  "During meiosis the replicated chromosomes of a single diploid cell are segregated into 4 haploid daughter cells by two successive divisions, meiosis I and meiosis II. In meiosis I, the distinguishing event of meiosis, pairs (bivalents) of homologous chromosomes in the form of sister chromatids are paired by <b>synapsis</b> along their regions of homologous DNA (Yang and Wang 2009), and then segregated, resulting in haploid daughters containing sister chromatids paired at their centromeres (Cohen et al. 2006, Handel and Schimenti 2010). The sister chromatids are then separated and segregated during meiosis II.<p><b>Recombination</b> between chromosomal homologues but not between sister chromatids occurs during prophase of meiosis I (Inagaki et al. 2010). Though hundreds of recombination events are initiated, most are resolved without crossovers and only tens proceed to become crossovers. In mammals recombination events are required between homologues for normal pairing, synapsis, and segregation.\n View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1500620 Reactome]." ;
+        dcterms:identifier   "R-HSA-1500620" ;
+        dcterms:references   <https://identifiers.org/pubmed/16543383> , <https://identifiers.org/pubmed/20364103> , <https://identifiers.org/pubmed/20051984> , <https://identifiers.org/pubmed/18948708> ;
+        cito:cites           <https://identifiers.org/pubmed/20364103> , <https://identifiers.org/pubmed/18948708> , <https://identifiers.org/pubmed/20051984> , <https://identifiers.org/pubmed/16543383> ;
+        wp:isAbout           <http://rdf.wikipathways.org/Pathway/R-HSA-1500620_rV88> ;
+        wp:organism          obo:NCBITaxon_9606 ;
+        wp:organismName      "Homo sapiens" ;
+        foaf:img             <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-1500620&oldid=V88> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-1500620&oldid=V88> ;
+        foaf:page            <http://www.wikipathways.org/instance/R-HSA-1500620_rV88> .
+
+<https://doi.org/10.1038%2FNRG2723>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/NRG2723" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:R-HSA-1500620&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
+<https://doi.org/10.1159%2F000166620>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1159/000166620" .
+
+<https://identifiers.org/reactome/R-HSA-912446>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Meiotic recombination" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-912446> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-912446" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1500620_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/16543383> , <https://identifiers.org/pubmed/20364103> , <https://identifiers.org/pubmed/20051984> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1500620_rV88/DataNode/b00e3> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-912446> .
+
+<https://identifiers.org/reactome/R-HSA-1221632>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Meiotic synapsis" ;
+        dc:identifier       <https://identifiers.org/reactome/R-HSA-1221632> ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-1221632" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/R-HSA-1500620_rV88> ;
+        dcterms:references  <https://identifiers.org/pubmed/18948708> , <https://identifiers.org/pubmed/20364103> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/R-HSA-1500620_rV88/DataNode/f2f0e> ;
+        foaf:page           <https://reactome.org/content/detail/R-HSA-1221632> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:R-HSA-1500620&oldid=V88>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
+<https://identifiers.org/pubmed/20051984>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20051984" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-912446> , <https://identifiers.org/wikipathways/R-HSA-1500620_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37669186> ;
+        owl:sameAs          <https://doi.org/10.1038%2FNRG2723> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20051984> .
+
+<https://doi.org/10.4161%2FEPI.5.4.11518>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.4161/EPI.5.4.11518" .
+
+<https://identifiers.org/pubmed/20364103>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20364103" ;
+        dcterms:isPartOf    <https://identifiers.org/reactome/R-HSA-1221632> , <https://identifiers.org/reactome/R-HSA-912446> , <https://identifiers.org/wikipathways/R-HSA-1500620_rV88> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28278643> ;
+        owl:sameAs          <https://doi.org/10.4161%2FEPI.5.4.11518> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20364103> .
+
+<https://identifiers.org/wikipathways/R-HSA-1500620>
+        pav:hasVersion  <https://identifiers.org/wikipathways/R-HSA-1500620_rV88> .
