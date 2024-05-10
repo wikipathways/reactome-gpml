@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="RHO GTPases Activate Rhotekin and Rhophilins" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Rhotekin (RTKN) is a protein with an N-terminally located RHO GTPase binding domain, that shares a limited sequence homology with PKNs and rhophilins. RTKN binds to GTP-bound RHOA, RHOB and RHOC and can inhibit their GTPase activity (Reid et al. 1996, Fu et al. 2000), which can be corroborated by protein kinase D-mediated phosphorylation of RTKN (Pusapati et al. 2012). RTKN is implicated in the establishment of cell polarity (Sudo et al. 2006), septin organization (Ito et al. 2005, Sudo et al. 2007) and stimulation of SRF-mediated transcription (Reynaud et al. 2000). RTKN can have an anti-apoptotic effect that depends on the activation of NFKB (NF-kappaB) (Liu et al. 2004). RTKN2 (rhotekin-2) is another rhotekin exclusively expressed in lymphocytes (Collier et al. 2004). The function and the mechanism of action of RTKN2 are unknown.&lt;p&gt;Rhophillins include two family members - rhophilin-1 (RHNP1) and rhophilin-2 (RHPN2) with ~75% sequence identity. A RHO GTPase binding domain is located at the N-terminus of rhophilins, followed by a BRO1 domain (characteristic of proteins involved in protein kinase C signaling) and a C-terminal PDZ domain. RHOA:GTP binds both RHPN1 and RHPN2 and these interactions may be involved in organization of the actin cytoskeleton and/or cell motility (Watanabe et al. 1996, Fujita et al. 2000, Peck et al. 2002). RHOB:GTP recruits RHPN2 to endosomes which may be involved in the function of thyroid cells (Mircescu et al. 2002).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5666185 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 5666185</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Orlic-Milacic, Marija</Comment>
+  <BiopaxRef>fe0</BiopaxRef>
+  <BiopaxRef>c01</BiopaxRef>
+  <BiopaxRef>fa2</BiopaxRef>
+  <BiopaxRef>c59</BiopaxRef>
+  <BiopaxRef>b75</BiopaxRef>
+  <BiopaxRef>cf1</BiopaxRef>
+  <BiopaxRef>cca</BiopaxRef>
+  <BiopaxRef>a92</BiopaxRef>
+  <BiopaxRef>b5a</BiopaxRef>
+  <BiopaxRef>ac6</BiopaxRef>
+  <BiopaxRef>ec5</BiopaxRef>
+  <BiopaxRef>aa2</BiopaxRef>
+  <BiopaxRef>ac7</BiopaxRef>
+  <Attribute Key="reactome_id" Value="5666185" />
+  <Graphics BoardWidth="896.0" BoardHeight="1277.0" />
+  <DataNode TextLabel="RTKN" GraphId="aa539" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="178.5" CenterY="223.0" Width="59.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BST9" />
+  </DataNode>
+  <DataNode TextLabel="RHOA/B/C:GTP" GraphId="a7940" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="183.0" CenterY="84.0" Width="100.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-419161" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="c533e" Type="Protein" GroupRef="d1cde">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="505.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="RHOB " GraphId="aecd1" Type="Protein" GroupRef="d1cde">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="525.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62745" />
+  </DataNode>
+  <DataNode TextLabel="RHOC " GraphId="bb271" Type="Protein" GroupRef="d1cde">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="545.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08134" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="bb5d9" Type="Metabolite" GroupRef="d1cde">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="565.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RHOA,B,C:GTP:RTKN" GraphId="a85b1" Type="Complex">
+    <BiopaxRef>fe0</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="328.0" CenterY="89.0" Width="98.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5666177" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="d86d2" Type="Protein" GroupRef="c18f8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5666177" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="625.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="RHOB " GraphId="fcbed" Type="Protein" GroupRef="c18f8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5666177" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="645.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62745" />
+  </DataNode>
+  <DataNode TextLabel="RHOC " GraphId="f5be4" Type="Protein" GroupRef="c18f8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5666177" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="665.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08134" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="eea34" Type="Metabolite" GroupRef="c18f8">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666177" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="685.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RTKN " GraphId="da228" Type="Protein" GroupRef="c18f8">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666177" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="705.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BST9" />
+  </DataNode>
+  <DataNode TextLabel="LIN7B" GraphId="a144c" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="521.5" CenterY="84.0" Width="43.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HAP6" />
+  </DataNode>
+  <DataNode TextLabel="RHOA:GTP:RTKN:LIN7B" GraphId="b5551" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="612.0" CenterY="96.5" Width="74.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5666198" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="cfd89" Type="Protein" GroupRef="a8d06">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5666198" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="765.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="c09ff" Type="Metabolite" GroupRef="a8d06">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666198" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="785.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RTKN " GraphId="b2912" Type="Protein" GroupRef="a8d06">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666198" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="805.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BST9" />
+  </DataNode>
+  <DataNode TextLabel="LIN7B " GraphId="a07ad" Type="Protein" GroupRef="a8d06">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5666198" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="825.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HAP6" />
+  </DataNode>
+  <DataNode TextLabel="RHOA:GTP:RTKN" GraphId="c8395" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="432.5" CenterY="90.0" Width="81.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5666199" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="cfd31" Type="Protein" GroupRef="d8bfa">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5666199" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="885.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="d8c47" Type="Metabolite" GroupRef="d8bfa">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666199" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="905.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RTKN " GraphId="d19d5" Type="Protein" GroupRef="d8bfa">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666199" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="925.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BST9" />
+  </DataNode>
+  <DataNode TextLabel="TAX1BP3" GraphId="c8b16" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="414.5" CenterY="242.5" Width="69.0" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14907" />
+  </DataNode>
+  <DataNode TextLabel="RHOA:GTP:RTKN:TAX1BP3" GraphId="e78a1" Type="Complex">
+    <BiopaxRef>c59</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="613.5" CenterY="166.0" Width="83.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5666210" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="c53c0" Type="Protein" GroupRef="c9d52">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5666210" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="985.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="a1c60" Type="Metabolite" GroupRef="c9d52">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666210" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1005.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RTKN " GraphId="ffcb3" Type="Protein" GroupRef="c9d52">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666210" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1025.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BST9" />
+  </DataNode>
+  <DataNode TextLabel="TAX1BP3 " GraphId="d360b" Type="Protein" GroupRef="c9d52">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666210" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1045.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14907" />
+  </DataNode>
+  <DataNode TextLabel="RHOA:GTP" GraphId="ad0c2" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="112.5" CenterY="290.0" Width="71.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5665993" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="eb140" Type="Protein" GroupRef="c7522">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5665993" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="545.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="e2ec0" Type="Metabolite" GroupRef="c7522">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5665993" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="565.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RHPN1,RHPN2" GraphId="c870c" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="227.5" CenterY="293.0" Width="55.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5667005" />
+  </DataNode>
+  <DataNode TextLabel="RHPN1 " GraphId="eb718" Type="Protein" GroupRef="c81d7">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667005" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="625.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TCX5" />
+  </DataNode>
+  <DataNode TextLabel="RHPN2 " GraphId="c3ec6" Type="Protein" GroupRef="c81d7">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667005" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="645.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IUC4" />
+  </DataNode>
+  <DataNode TextLabel="RHOA:GTP:RHPN1,RHPN2" GraphId="aae84" Type="Complex">
+    <BiopaxRef>cca</BiopaxRef>
+    <BiopaxRef>b75</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="124.5" CenterY="363.5" Width="85.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5667010" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="bad5d" Type="Protein" GroupRef="d2b94">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5667010" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="705.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="aeebe" Type="Metabolite" GroupRef="d2b94">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667010" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="725.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RHPN1 " GraphId="e915d" Type="Protein" GroupRef="d2b94">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667010" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="745.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TCX5" />
+  </DataNode>
+  <DataNode TextLabel="RHPN2 " GraphId="e43d1" Type="Protein" GroupRef="d2b94">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667010" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="765.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IUC4" />
+  </DataNode>
+  <DataNode TextLabel="RHOB:GTP" GraphId="a849d" Type="Complex">
+    <Attribute Key="cellular_location" Value="endosome membrane" />
+    <Graphics CenterX="439.0" CenterY="313.0" Width="70.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5666081" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="dfe44" Type="Metabolite" GroupRef="a16fd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5666081" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="825.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RHOB " GraphId="e088c" Type="Protein" GroupRef="a16fd">
+    <Attribute Key="cellular_location" Value="endosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5666081" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="845.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62745" />
+  </DataNode>
+  <DataNode TextLabel="RHPN2" GraphId="f8fe6" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="310.0" CenterY="293.0" Width="50.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IUC4" />
+  </DataNode>
+  <DataNode TextLabel="RHOB:GTP:RHPN2" GraphId="cb5f2" Type="Complex">
+    <Attribute Key="cellular_location" Value="endosome membrane" />
+    <Graphics CenterX="440.5" CenterY="369.5" Width="77.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5667030" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="b9ac3" Type="Metabolite" GroupRef="bcf9f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667030" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="905.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RHOB " GraphId="e0877" Type="Protein" GroupRef="bcf9f">
+    <Attribute Key="cellular_location" Value="endosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5667030" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="925.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62745" />
+  </DataNode>
+  <DataNode TextLabel="RHPN2 " GraphId="d7cdf" Type="Protein" GroupRef="bcf9f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667030" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="945.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IUC4" />
+  </DataNode>
+  <DataNode TextLabel="RHOA:GTP:RHPN1" GraphId="cce09" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="157.5" CenterY="420.5" Width="79.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5667060" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="b0f25" Type="Protein" GroupRef="f6791">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5667060" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1005.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="e3fb7" Type="Metabolite" GroupRef="f6791">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667060" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1025.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RHPN1 " GraphId="eb31a" Type="Protein" GroupRef="f6791">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667060" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1045.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TCX5" />
+  </DataNode>
+  <DataNode TextLabel="ROPN1" GraphId="cd385" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="256.0" CenterY="358.0" Width="50.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5667061" />
+  </DataNode>
+  <DataNode TextLabel="ROPN1 " GraphId="cc1dc" Type="Protein" GroupRef="c1a32">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667061" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1105.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HAT0" />
+  </DataNode>
+  <DataNode TextLabel="RHOA:GTP:RHPN1:ROPN1" GraphId="b54ae" Type="Complex">
+    <BiopaxRef>cf1</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="323.5" CenterY="426.0" Width="77.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5667059" />
+  </DataNode>
+  <DataNode TextLabel="ROPN1 " GraphId="bb334" Type="Protein" GroupRef="bf03a">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667059" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1165.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HAT0" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="caadd" Type="Protein" GroupRef="bf03a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5667059" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1185.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="ae4f5" Type="Metabolite" GroupRef="bf03a">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667059" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1205.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RHPN1 " GraphId="ecdee" Type="Protein" GroupRef="bf03a">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5667059" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1225.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TCX5" />
+  </DataNode>
+  <Interaction GraphId="ecec8">
+    <Comment Source="Reactome">Rhotekin (RTKN) has the evolutionarily conserved RHO GTPase binding domain at its N-terminus and strongly binds to RHOA and RHOC. RTKN also associates with RHOB with a lower affinity and does not bind RAC1 or CDC42 (Reid et al. 1996). Binding of RTKN may inhibit the GTPase activity of RHO GTPases (Fu et al. 2000). </Comment>
+    <BiopaxRef>fe0</BiopaxRef>
+    <BiopaxRef>c01</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="233.0" Y="124.0" />
+      <Point X="279.0" Y="112.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="de680" />
+      <Anchor Position="0.99" Shape="None" GraphId="c90e0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666178" />
+  </Interaction>
+  <Interaction GraphId="f652c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="207.0" Y="223.0" GraphRef="aa539" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="233.0" Y="124.0" GraphRef="de680" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666178" />
+  </Interaction>
+  <Interaction GraphId="b3146">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="233.0" Y="84.0" GraphRef="a7940" RelX="1.0" RelY="0.0" />
+      <Point X="233.0" Y="124.0" GraphRef="de680" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666178" />
+  </Interaction>
+  <Interaction GraphId="acae0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="279.0" Y="112.0" GraphRef="c90e0" RelX="0.4600000000000364" RelY="-0.12000000000000455" />
+      <Point X="279.0" Y="89.0" GraphRef="a85b1" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666178" />
+  </Interaction>
+  <Interaction GraphId="e82c7">
+    <Comment Source="Reactome">RTKN (rhotekin) associated with activated RHOA (RHOA:GTP) binds LIN7B, a cell polarity-related protein. Both LIN7B and RTKN are highly expressed in neurons (Sudo et al. 2006).</Comment>
+    <BiopaxRef>fa2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="489.0" Y="126.0" />
+      <Point X="572.0" Y="105.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e10b1" />
+      <Anchor Position="0.99" Shape="None" GraphId="d6f7d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666197" />
+  </Interaction>
+  <Interaction GraphId="e3f13">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="472.0" Y="90.0" GraphRef="c8395" RelX="0.9753086419753086" RelY="0.0" />
+      <Point X="489.0" Y="126.0" GraphRef="e10b1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666197" />
+  </Interaction>
+  <Interaction GraphId="f2eac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="500.0" Y="84.0" GraphRef="a144c" RelX="-1.0" RelY="0.0" />
+      <Point X="489.0" Y="126.0" GraphRef="e10b1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666197" />
+  </Interaction>
+  <Interaction GraphId="d8896">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="572.0" Y="105.0" GraphRef="d6f7d" RelX="0.8300000000000409" RelY="-0.21000000000000796" />
+      <Point X="575.0" Y="96.0" GraphRef="b5551" RelX="-1.0" RelY="-0.0196078431372549" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666197" />
+  </Interaction>
+  <Interaction GraphId="c11fd">
+    <Comment Source="Reactome">The PDZ domain of TAX1BP3 (TIP-1) binds the C-terminus of RTKN (rhotekin) associated with activated RHOA (RHOA:GTP). Binding of TAX1BP3 to the RHOA:GTP:RTKN complex stimulates SRF-mediated transcription through an unknown mechanism (Reynaud et al. 2000).</Comment>
+    <BiopaxRef>c59</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="441.0" Y="134.0" />
+      <Point X="569.0" Y="158.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ec74b" />
+      <Anchor Position="0.99" Shape="None" GraphId="b2ab2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666216" />
+  </Interaction>
+  <Interaction GraphId="c7f24">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="432.0" Y="108.0" GraphRef="c8395" RelX="-0.012345679012345678" RelY="1.0" />
+      <Point X="441.0" Y="134.0" GraphRef="ec74b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666216" />
+  </Interaction>
+  <Interaction GraphId="d225c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="414.0" Y="232.0" GraphRef="c8b16" RelX="-0.014492753623188406" RelY="-1.0" />
+      <Point X="441.0" Y="134.0" GraphRef="ec74b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666216" />
+  </Interaction>
+  <Interaction GraphId="af3a4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="569.0" Y="158.0" GraphRef="b2ab2" RelX="1.2799999999999727" RelY="0.2400000000000091" />
+      <Point X="572.0" Y="166.0" GraphRef="e78a1" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5666216" />
+  </Interaction>
+  <Interaction GraphId="e1481">
+    <Comment Source="Reactome">Activated RHOA (RHOA:GTP) binds rhophilin-1 (RHPN1) or rophilin-2 (RHPN2). RHPN1 and RHPN2 share 75% sequence identity, with the RHO-binding domain at the N-terminus, followed by the BRO1 domain in their central region (characteristic of proteins involved in protein kinase C signaling), and the PDZ domain in the C-terminal region. PDZ domains of RHPN1 and RHPN2 exhibit little homology (Watanabe et al. 1996, Peck et al. 2002). RHPN2 may be involved in the regulation of the actin cytoskeleton organization downstream of RHOA (Peck et al. 2002).</Comment>
+    <BiopaxRef>b75</BiopaxRef>
+    <BiopaxRef>cca</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="169.0" Y="316.0" />
+      <Point X="148.0" Y="335.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c36cd" />
+      <Anchor Position="0.99" Shape="None" GraphId="b6dfc" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667008" />
+  </Interaction>
+  <Interaction GraphId="cee4d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="147.0" Y="290.0" GraphRef="ad0c2" RelX="0.971830985915493" RelY="0.0" />
+      <Point X="169.0" Y="316.0" GraphRef="c36cd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667008" />
+  </Interaction>
+  <Interaction GraphId="ca55a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="200.0" Y="293.0" GraphRef="c870c" RelX="-1.0" RelY="0.0" />
+      <Point X="169.0" Y="316.0" GraphRef="c36cd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667008" />
+  </Interaction>
+  <Interaction GraphId="d7977">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="148.0" Y="335.0" GraphRef="b6dfc" RelX="-0.21000000000000796" RelY="0.18999999999999773" />
+      <Point X="124.0" Y="338.0" GraphRef="aae84" RelX="-0.011764705882352941" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667008" />
+  </Interaction>
+  <Interaction GraphId="ca1ce">
+    <Comment Source="Reactome">RHPN2 (rhophilin-2) binds to activated RHOB (RHOB:GTP) and relocalizes to endosomal membrane. The expression of the mouse Rhpn2 in thyrocytes increases upon TSH stimulation (Mircescu et al. 2002). This implied an important function of Rhpn2 in the thyroid, but Rhpn2 deficient mice exhibit normal thyroid structure and function, as well as an overall normal development (Behrends et al. 2005).</Comment>
+    <BiopaxRef>a92</BiopaxRef>
+    <BiopaxRef>ed0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="369.0" Y="333.0" />
+      <Point X="404.0" Y="349.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a3918" />
+      <Anchor Position="0.99" Shape="None" GraphId="db763" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667037" />
+  </Interaction>
+  <Interaction GraphId="b848e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="404.0" Y="313.0" GraphRef="a849d" RelX="-1.0" RelY="0.0" />
+      <Point X="369.0" Y="333.0" GraphRef="a3918" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667037" />
+  </Interaction>
+  <Interaction GraphId="c8276">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="335.0" Y="293.0" GraphRef="f8fe6" RelX="1.0" RelY="0.0" />
+      <Point X="369.0" Y="333.0" GraphRef="a3918" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667037" />
+  </Interaction>
+  <Interaction GraphId="cebc8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="404.0" Y="349.0" GraphRef="db763" RelX="0.35000000000002274" RelY="0.160000000000025" />
+      <Point X="402.0" Y="369.0" GraphRef="cb5f2" RelX="-1.0" RelY="-0.02857142857142857" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667037" />
+  </Interaction>
+  <Interaction GraphId="d7fc5">
+    <Comment Source="Reactome">Ropporin (ROPN1), a protein specific to spermatozoid tails, binds rhophilin-1 (RHPN1) associated with activated RHOA (RHOA:GTP) (Fujita et al. 2000).</Comment>
+    <BiopaxRef>cf1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="245.0" Y="394.0" />
+      <Point X="282.0" Y="411.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fb2c0" />
+      <Anchor Position="0.99" Shape="None" GraphId="d69de" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667052" />
+  </Interaction>
+  <Interaction GraphId="db905">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="196.0" Y="420.0" GraphRef="cce09" RelX="0.9746835443037974" RelY="-0.02702702702702703" />
+      <Point X="245.0" Y="394.0" GraphRef="fb2c0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667052" />
+  </Interaction>
+  <Interaction GraphId="b74d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="256.0" Y="369.0" GraphRef="cd385" RelX="0.0" RelY="1.0" />
+      <Point X="245.0" Y="394.0" GraphRef="fb2c0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667052" />
+  </Interaction>
+  <Interaction GraphId="b3951">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="282.0" Y="411.0" GraphRef="d69de" RelX="0.37000000000000455" RelY="0.17000000000001592" />
+      <Point X="285.0" Y="426.0" GraphRef="b54ae" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5667052" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="d8e9a" GroupRef="f6052">
+    <Graphics CenterX="756.0" CenterY="408.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="endosome" GraphId="c5b19" GroupRef="e5dad">
+    <Graphics CenterX="522.0" CenterY="368.5" Width="86.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="a1584" GroupRef="f6052">
+    <Graphics CenterX="474.0" CenterY="276.0" Width="768.0" Height="402.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="a2503" GroupRef="e5dad">
+    <Graphics CenterX="513.5" CenterY="340.5" Width="131.0" Height="127.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="d1cde" GraphId="aa36a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+  </Group>
+  <Group GroupId="c18f8" GraphId="c58a0" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5666177" />
+  </Group>
+  <Group GroupId="a8d06" GraphId="d8baa" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5666198" />
+  </Group>
+  <Group GroupId="d8bfa" GraphId="c7013" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5666199" />
+  </Group>
+  <Group GroupId="c9d52" GraphId="d7e7d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5666210" />
+  </Group>
+  <Group GroupId="c7522" GraphId="f862f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5665993" />
+  </Group>
+  <Group GroupId="c81d7" GraphId="ff081">
+    <Attribute Key="complex_id" Value="R-HSA-5667005" />
+  </Group>
+  <Group GroupId="d2b94" GraphId="b95d5" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5667010" />
+  </Group>
+  <Group GroupId="a16fd" GraphId="e400d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5666081" />
+  </Group>
+  <Group GroupId="bcf9f" GraphId="e58bf" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5667030" />
+  </Group>
+  <Group GroupId="f6791" GraphId="f924b" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5667060" />
+  </Group>
+  <Group GroupId="c1a32" GraphId="d059b" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5667061" />
+  </Group>
+  <Group GroupId="bf03a" GraphId="b2fb3" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5667059" />
+  </Group>
+  <Group GroupId="f6052" GraphId="b3093" Style="Group" />
+  <Group GroupId="e5dad" GraphId="c4328" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8662891</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhotekin, a new putative target for Rho bearing homology to a serine/threonine kinase, PKN, and rhophilin in the rho-binding domain.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reid T, Furuyashiki T, Ishizaki T, Watanabe G, Watanabe N, Fujisawa K, Morii N, Madaule P, Narumiya S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c01">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10873388</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning, expression characterization, and mapping of a novel putative inhibitor of rho GTPase activity, RTKN, to D2S145-D2S286.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fu Q, Yu L, Liu Q, Zhang J, Zhang H, Zhao S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16979770</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a cell polarity-related protein, Lin-7B, as a binding partner for a Rho effector, Rhotekin, and their possible interaction in neurons.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudo K, Ito H, Iwamoto I, Morishita R, Asano T, Nagata K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c59">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10940294</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PDZ protein TIP-1 interacts with the Rho effector rhotekin and is involved in Rho signaling to the serum response element.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reynaud C, Fabre S, Jalinot P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b75">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8571126</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein kinase N (PKN) and PKN-related protein rhophilin as targets of small GTPase Rho.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watanabe G, Saito Y, Madaule P, Ishizaki T, Fujisawa K, Morii N, Mukai H, Ono Y, Kakizuka A, Narumiya S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10591629</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ropporin, a sperm-specific binding protein of rhophilin, that is localized in the fibrous sheath of sperm flagella.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujita A, Nakamura K, Kato T, Watanabe N, Ishizaki T, Kimura K, Mizoguchi A, Narumiya S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cca">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12221077</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The RhoA-binding protein, rhophilin-2, regulates actin cytoskeleton organization.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peck JW, Oberst M, Bouker KB, Bowden E, Burbelo PD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a92">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12473120</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification and characterization of a novel activated RhoB binding protein containing a PDZ domain whose expression is specifically modulated in thyroid cells by cAMP.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mircescu H, Steuve S, Savonet V, Degraef C, Mellor H, Dumont JE, Maenhaut C, Pirson I.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15504364</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification and characterization of a lymphocytic Rho-GTPase effector: rhotekin-2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collier FM, Gregorio-King CC, Gough TJ, Talbot CD, Walder K, Kirkland MA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15480428</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rho/Rhotekin-mediated NF-kappaB activation confers resistance to apoptosis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu CA, Wang MJ, Chi CW, Wu CW, Chen JY.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16007136</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Possible role of Rho/Rhotekin signaling in mammalian septin organization.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ito H, Iwamoto I, Morishita R, Nozawa Y, Narumiya S, Asano T, Nagata K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17546647</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEPT9 sequence alternations causing hereditary neuralgic amyotrophy are associated with altered interactions with SEPT4/SEPT11 and resistance to Rho/Rhotekin-signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudo K, Ito H, Iwamoto I, Morishita R, Asano T, Nagata K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22228765</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein kinase D regulates RhoA activity via rhotekin phosphorylation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pusapati GV, Eiseler T, Rykx A, Vandoninck S, Derua R, Waelkens E, Van Lint J, von Wichert G, Seufferlein T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15767687</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Normal thyroid structure and function in rhophilin 2-deficient mice.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behrends J, Clément S, Pajak B, Pohl V, Maenhaut C, Dumont JE, Schurmans S.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

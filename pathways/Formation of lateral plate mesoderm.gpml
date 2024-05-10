@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Formation of lateral plate mesoderm" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Subsets of mesoderm that have different developmental fates are produced along the primitive streak from posterior to anterior (reviewed in Arnold and Robertson 2009, Ferretti and Hadjantonakis 2019, Prummel et al. 2020, Zhai et al. 2021). In mice these subsets are (from posterior to anterior): extraembryonic mesoderm; lateral mesoderm that will form heart, limbs, and blood; presomitic mesoderm that will form somites; axial mesoderm that will form the notochord; and, finally, definitive endoderm. In humans and other primates, extraembryonic mesoderm appears to form from the hypoblast prior to gastrulation so lateral plate mesoderm is the first type of mesoderm to form at the primitive streak.&lt;br&gt;In the lateral plate mesoderm, a self-reinforcing transcription loop is initiated by Hedgehog signaling from the adjacent primitive endoderm (inferred from mouse homologs in Astorga and Carlsson 2007, Becker et al. 1997). Hedgehog proteins SHH and IHH activate expression of FOXF1, a marker of the lateral plate mesoderm following its induction (inferred from mouse homologs in Rojas et al. 2005, Astorga and Carlsson 2007). BMP4 may also activate FOXH1 in the primitive streak and lateral plate mesoderm (inferred from Xenopus homologs in Tseng et al. 2004).  FOXF1 activates expression of BMP4 and BMP4 together with FOXF1 activate GATA4 (inferred from mouse homologs in Rojas et al. 2005).. BMP4 maintains the expression of FOXF1. GATA4 maintains its own expression and the expression of BMP4. FOXF1 and GATA4 then activate expression of downstream genes that further differentiate the lateral plate mesoderm. In zebrafish, the combined activity of Eomesodermin, FoxH1, and Mixl1, together with Smad proteins induces lateral plate mesoderm and this mechanism may be shared across chordates (Prummel et al. 2019).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9758920 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 9758920</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: May, Bruce</Comment>
+  <BiopaxRef>d43</BiopaxRef>
+  <BiopaxRef>ec2</BiopaxRef>
+  <BiopaxRef>e56</BiopaxRef>
+  <BiopaxRef>c24</BiopaxRef>
+  <BiopaxRef>b88</BiopaxRef>
+  <BiopaxRef>d70</BiopaxRef>
+  <BiopaxRef>cdc</BiopaxRef>
+  <Attribute Key="reactome_id" Value="9758920" />
+  <Graphics BoardWidth="1000.0" BoardHeight="685.0" />
+  <DataNode TextLabel="FOXF1 gene" GraphId="dd6cc" Type="GeneProduct">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="268.0" CenterY="132.5" Width="104.0" Height="65.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000103241" />
+  </DataNode>
+  <DataNode TextLabel="FOXF1" GraphId="f9746" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="588.0" CenterY="167.0" Width="104.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12946" />
+  </DataNode>
+  <DataNode TextLabel="SHH(34-?)" GraphId="bd810" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="414.5" CenterY="67.5" Width="93.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="IHH" GraphId="c5a45" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="526.0" CenterY="71.0" Width="92.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="BMP4 gene" GraphId="af281" Type="GeneProduct">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="199.5" CenterY="286.5" Width="103.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000125378" />
+  </DataNode>
+  <DataNode TextLabel="BMP4" GraphId="fc530" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="606.0" CenterY="383.0" Width="66.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P12644" />
+  </DataNode>
+  <DataNode TextLabel="GATA4:BMP4 gene" GraphId="ba4ba" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="444.0" CenterY="394.5" Width="138.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9759924" />
+  </DataNode>
+  <DataNode TextLabel="BMP4 gene " GraphId="bb8a2" Type="Protein" GroupRef="b5e29">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9759924" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="573.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000125378" />
+  </DataNode>
+  <DataNode TextLabel="GATA4 " GraphId="abe71" Type="Protein" GroupRef="b5e29">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9759924" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="593.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P43694" />
+  </DataNode>
+  <DataNode TextLabel="GATA4 gene" GraphId="fc875" Type="GeneProduct">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="707.5" CenterY="301.5" Width="87.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000136574" />
+  </DataNode>
+  <DataNode TextLabel="FOXF1:GATA4 gene" GraphId="b03ff" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="857.5" CenterY="380.0" Width="137.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9759857" />
+  </DataNode>
+  <DataNode TextLabel="FOXF1 " GraphId="eccde" Type="Protein" GroupRef="d950e">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9759857" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="613.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12946" />
+  </DataNode>
+  <DataNode TextLabel="GATA4 gene " GraphId="b122c" Type="Protein" GroupRef="d950e">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9759857" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="633.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000136574" />
+  </DataNode>
+  <DataNode TextLabel="GATA4" GraphId="d5ce2" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="767.0" CenterY="494.0" Width="78.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P43694" />
+  </DataNode>
+  <DataNode TextLabel="BMP4 dimer" GraphId="b6c88" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="869.5" CenterY="440.0" Width="107.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8858586" />
+  </DataNode>
+  <DataNode TextLabel="BMP4 " GraphId="bde15" Type="Protein" GroupRef="c6aae">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-8858586" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="613.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P12644" />
+  </DataNode>
+  <Interaction GraphId="cfaec">
+    <Comment Source="Reactome">The FOXF1 gene is transcribed to yield mRNA and the mRNA is translated to yield FOXF1 protein. FOXF1 is a forkhead family transcription factor expressed in extraembryonic mesoderm and lateral plate mesoderm (inferred from the mouse homolog). Hedgehog proteins SHH and IHH produced in the primitive endoderm (hypoblast) activate expression of FOXF1 in the lateral plate mesoderm (inferred from mouse homologs). Hedgehog activation of FOXF1 in the lateral plate mesoderm requires Smoothened (SMO) and may occur via GLI factors that bind to the enhancer of FOXF1 (inferred from mouse homologs). BMP4 activates expression of FoxF1 in animal caps of Xenopus (Tseng et al. 2004) but this has not been shown in lateral plate mesoderm of mouse or human. In zebrafish, foxf1 is not expressed in the lateral plate mesoderm and was possibly substituted for by foxh1.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="329.0" Y="102.0" />
+      <Point X="533.0" Y="157.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b7773" />
+      <Anchor Position="0.99" Shape="None" GraphId="b7e52" />
+      <Anchor Position="0.5" Shape="None" GraphId="d3e1f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759882" />
+  </Interaction>
+  <Interaction GraphId="b4c2a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="320.0" Y="132.0" GraphRef="dd6cc" RelX="1.0" RelY="-0.015384615384615385" />
+      <Point X="329.0" Y="102.0" GraphRef="b7773" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759882" />
+  </Interaction>
+  <Interaction GraphId="ee17b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="533.0" Y="157.0" GraphRef="b7e52" RelX="2.0399999999999636" RelY="0.5500000000000114" />
+      <Point X="536.0" Y="167.0" GraphRef="f9746" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759882" />
+  </Interaction>
+  <Interaction GraphId="cc17d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="368.0" Y="67.0" GraphRef="bd810" RelX="-1.0" RelY="-0.02857142857142857" />
+      <Point X="490.0" Y="149.0" GraphRef="d3e1f" RelX="59.0" RelY="19.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759882" />
+  </Interaction>
+  <Interaction GraphId="e949b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="368.0" Y="67.0" GraphRef="c5a45" RelX="-3.4347826086956523" RelY="-0.2222222222222222" />
+      <Point X="490.0" Y="149.0" GraphRef="d3e1f" RelX="59.0" RelY="19.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759882" />
+  </Interaction>
+  <Interaction GraphId="f8703">
+    <Comment Source="Reactome">The BMP4 gene is transcribed to yield mRNA and the mRNA is translated to yield BMP4 protein. In lateral plate mesoderm, expression of BMP4 is activated by FOXF1 (inferred from mouse homologs) and then maintained by GATA4, which binds the BMP4 promoter and is also a target of FOXF1 (inferred from mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="260.0" Y="263.0" />
+      <Point X="603.0" Y="363.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b41b1" />
+      <Anchor Position="0.99" Shape="None" GraphId="dbb86" />
+      <Anchor Position="0.5" Shape="None" GraphId="c5e20" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759892" />
+  </Interaction>
+  <Interaction GraphId="b75f1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="250.0" Y="286.0" GraphRef="af281" RelX="0.9805825242718447" RelY="-0.0196078431372549" />
+      <Point X="260.0" Y="263.0" GraphRef="b41b1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759892" />
+  </Interaction>
+  <Interaction GraphId="c4dc6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="603.0" Y="363.0" GraphRef="dbb86" RelX="3.42999999999995" RelY="1.0" />
+      <Point X="606.0" Y="366.0" GraphRef="fc530" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759892" />
+  </Interaction>
+  <Interaction GraphId="a38e4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="375.0" Y="394.0" GraphRef="ba4ba" RelX="-1.0" RelY="-0.02857142857142857" />
+      <Point X="586.0" Y="257.0" GraphRef="c5e20" RelX="154.5" RelY="-56.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759892" />
+  </Interaction>
+  <Interaction GraphId="c9f4c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="375.0" Y="394.0" GraphRef="f9746" RelX="-4.096153846153846" RelY="12.61111111111111" />
+      <Point X="586.0" Y="257.0" GraphRef="c5e20" RelX="154.5" RelY="-56.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759892" />
+  </Interaction>
+  <Interaction GraphId="b5501">
+    <Comment Source="Reactome">FOXF1 binds distal enhancers of the GATA4 gene (inferred from the mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="802.0" Y="275.0" />
+      <Point X="849.0" Y="362.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cfff4" />
+      <Anchor Position="0.99" Shape="None" GraphId="e3cdc" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759860" />
+  </Interaction>
+  <Interaction GraphId="a2951">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="640.0" Y="167.0" GraphRef="f9746" RelX="1.0" RelY="0.0" />
+      <Point X="802.0" Y="275.0" GraphRef="cfff4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759860" />
+  </Interaction>
+  <Interaction GraphId="d77d4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="750.0" Y="301.0" GraphRef="fc875" RelX="0.9770114942528736" RelY="-0.0196078431372549" />
+      <Point X="802.0" Y="275.0" GraphRef="cfff4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759860" />
+  </Interaction>
+  <Interaction GraphId="e0d3c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="849.0" Y="362.0" GraphRef="e3cdc" RelX="0.4700000000000273" RelY="0.8700000000000045" />
+      <Point X="857.0" Y="365.0" GraphRef="b03ff" RelX="-0.0072992700729927005" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759860" />
+  </Interaction>
+  <Interaction GraphId="d6e51">
+    <Comment Source="Reactome">The GATA4 gene is transcribed to yield mRNA and the mRNA is transcribed to yield GATA4 protein. FOXF1 binds enhancers of the GATA4 gene and activates transcription of GATA4 (inferred from mouse homologs). BMP4 is also required to activate GATA4 in the embryo (inferred from mouse homologs). BMP4 activates FOXF1 and may act on GATA4 via FOXF1.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="760.0" Y="278.0" />
+      <Point X="767.0" Y="476.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="eb8c4" />
+      <Anchor Position="0.99" Shape="None" GraphId="e218c" />
+      <Anchor Position="0.5" Shape="None" GraphId="d9fbe" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759859" />
+  </Interaction>
+  <Interaction GraphId="cedd9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="750.0" Y="301.0" GraphRef="fc875" RelX="0.9770114942528736" RelY="-0.0196078431372549" />
+      <Point X="760.0" Y="278.0" GraphRef="eb8c4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759859" />
+  </Interaction>
+  <Interaction GraphId="d52aa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="767.0" Y="476.0" GraphRef="e218c" RelX="0.07000000000005002" RelY="1.9800000000000182" />
+      <Point X="767.0" Y="479.0" GraphRef="d5ce2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759859" />
+  </Interaction>
+  <Interaction GraphId="a51c6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="789.0" Y="380.0" GraphRef="b03ff" RelX="-1.0" RelY="0.0" />
+      <Point X="771.0" Y="414.0" GraphRef="d9fbe" RelX="7.5" RelY="37.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759859" />
+  </Interaction>
+  <Interaction GraphId="ec078">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="789.0" Y="380.0" GraphRef="b6c88" RelX="-1.5046728971962617" RelY="-4.0" />
+      <Point X="771.0" Y="414.0" GraphRef="d9fbe" RelX="7.5" RelY="37.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759859" />
+  </Interaction>
+  <Interaction GraphId="fa519">
+    <Comment Source="Reactome">GATA4 binds the promoter of the BMP4 gene and maintains transcription of BMP4 after FOXF1 has initiated transcription of BMP4 (inferred from mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="278.0" Y="402.0" />
+      <Point X="372.0" Y="398.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bc0f8" />
+      <Anchor Position="0.99" Shape="None" GraphId="cdc56" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759920" />
+  </Interaction>
+  <Interaction GraphId="e3c60">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="728.0" Y="494.0" GraphRef="d5ce2" RelX="-1.0" RelY="0.0" />
+      <Point X="278.0" Y="402.0" GraphRef="bc0f8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759920" />
+  </Interaction>
+  <Interaction GraphId="c737b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="250.0" Y="286.0" GraphRef="af281" RelX="0.9805825242718447" RelY="-0.0196078431372549" />
+      <Point X="278.0" Y="402.0" GraphRef="bc0f8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759920" />
+  </Interaction>
+  <Interaction GraphId="ec451">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="372.0" Y="398.0" GraphRef="cdc56" RelX="0.9399999999999977" RelY="-0.040000000000020464" />
+      <Point X="375.0" Y="394.0" GraphRef="ba4ba" RelX="-1.0" RelY="-0.02857142857142857" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9759920" />
+  </Interaction>
+  <Label TextLabel="nucleoplasm" GraphId="b8174" GroupRef="e561e">
+    <Graphics CenterX="100.5" CenterY="516.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="e770f" GroupRef="e561e">
+    <Graphics CenterX="484.5" CenterY="279.5" Width="955.0" Height="531.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="b5e29" GraphId="be33a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9759924" />
+  </Group>
+  <Group GroupId="d950e" GraphId="e4d58" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9759857" />
+  </Group>
+  <Group GroupId="c6aae" GraphId="c49b3" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8858586" />
+  </Group>
+  <Group GroupId="e561e" GraphId="b956a" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d43">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19129791</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Making a commitment: cell lineage allocation and axis patterning in the early mouse embryo.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arnold SJ, Robertson EJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31476530</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesoderm specification and diversification: from single cells to emergent tissues.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferretti E, Hadjantonakis AK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e56">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34417090</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human embryonic development: from peri-implantation to gastrulation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhai J, Xiao Z, Wang Y, Wang H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c24">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17881493</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgehog induction of murine vasculogenesis is mediated by Foxf1 and Bmp4.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astorga J, Carlsson P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b88">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9242425</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role for Indian hedgehog in extraembryonic endoderm differentiation in F9 cells and the early mouse embryo.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Becker S, Wang ZJ, Massey H, Arauz A, Labosky P, Hammerschmidt M, St-Jacques B, Bumcrot D, McMahon A, Grabel L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d70">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15987774</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gata4 expression in lateral mesoderm is downstream of BMP4 and is activated directly by Forkhead and GATA transcription factors through a distal enhancer element.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rojas A, De Val S, Heidt AB, Xu SM, Bristow J, Black BL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cdc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32561665</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lateral plate mesoderm.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prummel KD, Nieuwenhuize S, Mosimann C.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

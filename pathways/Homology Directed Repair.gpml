@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Homology Directed Repair" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Homology directed repair (HDR) of DNA double strand breaks (DSBs) requires resection of DNA DSB ends. Resection creates 3'-ssDNA overhangs which then anneal with a homologous DNA sequence. This homologous sequence can then be used as a template for DNA repair synthesis that bridges the DSB. HDR preferably occurs through the error-free homologous recombination repair (HRR), but can also occur through the error-prone single strand annealing (SSA), or the least accurate microhomology-mediated end joining (MMEJ).&lt;p&gt;HRR and SSA share the initial steps that involve ATM signaling, formation of the so-called ionizing radiation-induced foci (IRIF), extensive resection of DNA DSB ends and activation of ATR signaling. In homologous recombination, 3'-ssDNA overhangs anneal with complementary sister chromatid strands. In SSA, 3'-ssDNA overhangs anneal with each other through homologous direct repeats contained in each overhang, resulting in deletions of one of the repeats and the DNA sequence in between the repeats during DNA repair synthesis.&lt;p&gt;Contrary to HRR and SSA, which both involve annealing of long stretches of highly homologous DNA sequences, MMEJ entails annealing of short regions of two 3'-ssDNA overhangs (up to 20 nucleotides) and is therefore more promiscuous and more likely to join unrelated DNA molecules. The error rate of MMEJ is additionally increased by the low fidelity of the DNA polymerase theta (POLQ), which performs DNA repair synthesis in MMEJ.&lt;p&gt;For reviews of this topic, please refer to Khanna 2001, Thompson and Schild 2001, Thompson and Schild 2002, Thompson and Limoli 2003, Ciccia and Elledge 2010.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5693538 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 5693538</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Thompson, L</Comment>
+  <BiopaxRef>e48</BiopaxRef>
+  <BiopaxRef>d42</BiopaxRef>
+  <BiopaxRef>cf2</BiopaxRef>
+  <BiopaxRef>fa6</BiopaxRef>
+  <Attribute Key="reactome_id" Value="5693538" />
+  <Graphics BoardWidth="493.0" BoardHeight="289.0" />
+  <DataNode TextLabel="HDR through MMEJ&#xA;(alt-NHEJ)" GraphId="a4486" Type="Pathway">
+    <Comment Source="Reactome">Homology directed repair (HDR) through microhomology-mediated end joining (MMEJ) is an error prone process also known as alternative nonhomologous end joining (alt-NHEJ), although it does not involve proteins that participate in the classical NHEJ. Contrary to the classical NHEJ and other HDR pathways, homologous recombination repair (HRR) and single strand annealing (SSA), MMEJ does not require ATM activation. In fact, ATM activation inhibits MMEJ. Therefore, MMEJ may be triggered when the amount of DNA double strand breaks (DSBs) overwhelms DNA repair machinery of higher fidelity or when cells are deficient in components of high fidelity DNA repair.&lt;p&gt;MMEJ is initiated by a limited resection of DNA DSB ends by the MRN complex (MRE11A:RAD50:NBN) and RBBP8 (CtIP), in the absence of CDK2-mediated RBBP8 phosphorylation and related BRCA1:BARD1 recruitment (Yun and Hiom 2009). Single strand DNA (ssDNA) at resected DNA DSB ends recruits PARP1 or PARP2 homo- or heterodimers, together with DNA polymerase theta (POLQ) and FEN1 5'-flap endonuclease. In a poorly studied sequence of events, POLQ promotes the annealing of two 3'-ssDNA overhangs through microhomologous regions that are optimally 10-19 nucleotides long. Using analogy with POLB-mediated long patch base excision repair (BER), it is plausible that PARP1 (or PARP2) dimers coordinate the extension of annealed 3'-ssDNA overhangs via POLQ-mediated strand displacement synthesis with FEN1-mediated cleavage of the resulting 5'-flaps (Liang et al. 2005, Mansour et al. 2011, Sharma et al. 2015, Kent et al. 2015, Ciccaldi et al. 2015, Mateos-Gomez et al. 2015). The MRN complex subsequently recruits DNA ligase 3 (LIG3) bound to XRCC1 (LIG3:XRCC1) to ligate the remaining single strand nicks (SSBs) at MMEJ sites (Della-Maria et al. 2011).&lt;p&gt;Similar to single strand annealing (SSA), MMEJ leads to deletion of one of the microhomology regions used for annealing and the DNA sequence in between two annealed microhomology regions. MMEJ, just like classical NHEJ, can result in genomic translocations (Ghezraoui et al. 2014). In addition, since POLQ is an error-prone DNA polymerase, MMEJ introduces frequent base substitutions (Ceccaldi et al. 2015).</Comment>
+    <BiopaxRef>a85</BiopaxRef>
+    <BiopaxRef>bbe</BiopaxRef>
+    <BiopaxRef>e12</BiopaxRef>
+    <BiopaxRef>af9</BiopaxRef>
+    <BiopaxRef>df6</BiopaxRef>
+    <BiopaxRef>cd1</BiopaxRef>
+    <BiopaxRef>f2f</BiopaxRef>
+    <BiopaxRef>ff2</BiopaxRef>
+    <BiopaxRef>e5a</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="296.5" CenterY="227.5" Width="333.0" Height="63.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5685939" />
+  </DataNode>
+  <DataNode TextLabel="HDR through&#xA;Homologous&#xA;Recombination (HRR)&#xA;or Single Strand&#xA;Annealing (SSA)" GraphId="f4757" Type="Pathway">
+    <Comment Source="Reactome">Homology directed repair (HDR) of replication-independent DNA double-strand breaks (DSBs) via homologous recombination repair (HRR) or single strand annealing (SSA) requires the activation of ATM followed by ATM-mediated phosphorylation of DNA repair proteins. ATM coordinates the recruitment of DNA repair and signaling proteins to DSBs and formation of the so-called ionizing radiation induced foci (IRIF). While IRIFs include chromatin regions kilobases away from the actual DSB, this Reactome pathway represents simplified foci and shows events that happen at the very ends of the broken DNA.&lt;p&gt;For both HRR and SSA to occur, the ends of the DNA DSB must be processed (resected) to generate lengthy 3' ssDNA tails, and the resulting ssDNA coated with RPA complexes, triggering ATR activation and signaling.&lt;p&gt;After the resection step, BRCA2 and RAD51 trigger HRR, a very accurate process in which the 3'-ssDNA overhang invades a sister chromatid, base pairs with the complementary strand of the sister chromatid DNA duplex, creating a D-loop, and uses the complementary sister chromatid strand as a template for DNA repair synthesis that bridges the DSB.&lt;p&gt;The SSA is triggered when 3'-ssDNA overhangs created in the resection step contain highly homologous direct repeats. In a process involving RAD52, the direct repeats in each 3'-ssDNA overhang become annealed, the unannealed 3'-flaps excised, and structures then processed by DNA repair synthesis. SSA results in the loss of one of the annealed repeats and the DNA sequence between the two repeats. Therefore, SSA is error-prone and is probably used as a backup for HRR, with RAD52 loss-of-function mutations being synthetically lethal with mutations in HRR genes, such as BRCA2 (reviewed by Ciccia and Elledge 2010).</Comment>
+    <BiopaxRef>fa6</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="294.5" CenterY="114.0" Width="333.0" Height="70.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5693567" />
+  </DataNode>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11242102</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA double-strand breaks: signaling, repair and the cancer connection.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khanna KK, Jackson SP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d42">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11376695</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homologous recombinational repair of DNA ensures mammalian chromosome stability.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thompson LH, Schild D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12427531</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recombinational DNA repair and human disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thompson LH, Schild D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20965415</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The DNA damage response: making it safe to play with knives.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciccia A, Elledge SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a85">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19357644</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CtIP-BRCA1 modulates the choice of DNA double-strand-break repair pathway throughout the cell cycle.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yun MH, Hiom K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16012167</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modulation of DNA end joining by nuclear proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liang L, Deng L, Chen Y, Li GC, Shao C, Tischfield JA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e12">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20483915</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The alternative end-joining pathway for repair of DNA double-strand breaks requires PARP1 but is not dependent upon microhomologies.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mansour WY, Rhein T, Dahm-Daphi J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25642960</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian polymerase θ promotes alternative NHEJ and suppresses recombination.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mateos-Gomez PA, Gong F, Nair N, Miller KM, Lazzerini-Denchi E, Sfeir A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25642963</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homologous-recombination-deficient tumours are dependent on Polθ-mediated repair.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceccaldi R, Liu JC, Amunugama R, Hajdu I, Primack B, Petalcorin MI, O'Connor KW, Konstantinopoulos PA, Elledge SJ, Boulton SJ, Yusufzai T, D'Andrea AD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25789972</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homology and enzymatic requirements of microhomology-dependent alternative end joining.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharma S, Javadekar SM, Pandey M, Srivastava M, Kumari R, Raghavan SC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25643323</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of microhomology-mediated end-joining promoted by human DNA polymerase θ.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kent T, Chandramouly G, McDevitt SM, Ozdemir AY, Pomerantz RT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21816818</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Mre11/human Rad50/Nbs1 and DNA ligase IIIalpha/XRCC1 protein complexes act together in an alternative nonhomologous end joining pathway.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Della-Maria J, Zhou Y, Tsai MS, Kuhnlein J, Carney JP, Paull TT, Tomkinson AE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25201414</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosomal translocations in human cells are generated by canonical nonhomologous end-joining.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghezraoui H, Piganeau M, Renouf B, Renaud JB, Sallmyr A, Ruis B, Oh S, Tomkinson AE, Hendrickson EA, Giovannangeli C, Jasin M, Brunet E.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

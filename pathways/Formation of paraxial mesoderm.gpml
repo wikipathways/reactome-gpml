@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Formation of paraxial mesoderm" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Skeletal tissues originate from paraxial mesoderm, lateral plate mesoderm, and neural crest. Paraxial mesoderm is produced by invagination of cells through the primitive streak and is the precursor of somites, which are spheres of mesenchyme bounded by epithelium that bud at fixed intervals from the anterior paraxial mesoderm in a process termed somitogenesis (reviewed in Tam and Trainor 1994, Pourquie 2003). Somites give rise to the axial skeleton and skeletal muscles.&lt;br&gt;Paraxial mesoderm becomes specified at a lower level of BMP signaling (Xi et al. 2017) that results from the interaction of BMP4, produced by the lateral plate mesoderm, with NOGGIN (NOG), a negative regulator of BMP signaling produced by the notochord (reviewed in Tani et al. 2020). WNT signaling by WNT3A that activates betaâ€‘catenin (CTNNB1), FGF signaling that acts though FGFR1, and TBXT activate expression of TBX6 and Mesogenin 1 (MSGN1). MSGN1 binds and activates SNAI1 to promote epithelial-mesenchymal transitions (EMT). TBX6 activates MSGN1, and MSGN1 activates TBX6, to establish a positive feedback loop that ensures commitment to the paraxial mesoderm lineage. TBX6 and MSGN1 act with WNT signaling to activate expression of MSGN1, and the NOTCH ligand Deltaâ€‘like 1 (DLL1), which enhances NOTCH signaling. MSGN1 binds and activates expression of DLL1, DLL3, NOTCH1, and NOTCH2, and binds to Clock enhancers that regulate periodic expression of LFNG during somitogenesis in the anterior paraxial mesoderm. The counterbalancing DLL3 protein inhibits NOTCH signaling by binding NOTCH1 in endosomes and targeting NOTCH1 for lysosomal degradation.&lt;br&gt;TBX6 alone is capable of reprogramming pluripotent stem cells to paraxial mesoderm (Sadahiro et al. 2018) and acts in a regulatory loop with MESP2 to create the boundaries of nascent somites (Oginuma et al. 2011): TBX6 activates expression of MESP2 which then represses TBX6 by targeting TBX6 for degradation, leaving MESP2 alone at the segmental boundary.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9793380 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 9793380</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: May, Bruce</Comment>
+  <BiopaxRef>c17</BiopaxRef>
+  <BiopaxRef>f4f</BiopaxRef>
+  <BiopaxRef>e4f</BiopaxRef>
+  <BiopaxRef>ae7</BiopaxRef>
+  <Attribute Key="reactome_id" Value="9793380" />
+  <Graphics BoardWidth="1182.0" BoardHeight="1498.0" />
+  <DataNode TextLabel="BMP4" GraphId="b3e5a" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="189.5" CenterY="37.0" Width="55.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P12644" />
+  </DataNode>
+  <DataNode TextLabel="NOG" GraphId="e84b2" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="122.5" CenterY="64.0" Width="57.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13253" />
+  </DataNode>
+  <DataNode TextLabel="BMP4:NOG" GraphId="c27d2" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="469.5" CenterY="68.5" Width="91.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9794043" />
+  </DataNode>
+  <DataNode TextLabel="BMP4 " GraphId="fe2cc" Type="Protein" GroupRef="d23fb">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-9794043" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="906.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P12644" />
+  </DataNode>
+  <DataNode TextLabel="NOG " GraphId="b13a7" Type="Protein" GroupRef="d23fb">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-9794043" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="926.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13253" />
+  </DataNode>
+  <DataNode TextLabel="TBX6 gene" GraphId="cd6ee" Type="GeneProduct">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="161.5" CenterY="319.5" Width="89.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000149922" />
+  </DataNode>
+  <DataNode TextLabel="NOTCH1 coactivator&#xA;complex:TBX6 gene" GraphId="d0d35" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="436.5" CenterY="261.5" Width="189.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9793425" />
+  </DataNode>
+  <DataNode TextLabel="TBX6 gene " GraphId="b4200" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="986.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000149922" />
+  </DataNode>
+  <DataNode TextLabel="NICD1 " GraphId="e87c2" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1006.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P46531" />
+  </DataNode>
+  <DataNode TextLabel="SNW1 " GraphId="cb814" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1026.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13573" />
+  </DataNode>
+  <DataNode TextLabel="RBPJ " GraphId="bc7c0" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1046.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q06330" />
+  </DataNode>
+  <DataNode TextLabel="MAML1 " GraphId="f5d27" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1066.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92585" />
+  </DataNode>
+  <DataNode TextLabel="MAML2 " GraphId="b781a" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1086.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IZL2" />
+  </DataNode>
+  <DataNode TextLabel="MAML3 " GraphId="e53c7" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1106.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96JK9" />
+  </DataNode>
+  <DataNode TextLabel="MAMLD1 " GraphId="dea41" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="16" />
+    <Graphics CenterX="100.0" CenterY="1126.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13495" />
+  </DataNode>
+  <DataNode TextLabel="KAT2B " GraphId="f6590" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="16" />
+    <Graphics CenterX="100.0" CenterY="1146.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92831" />
+  </DataNode>
+  <DataNode TextLabel="KAT2A " GraphId="a28b8" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="21" />
+    <Graphics CenterX="100.0" CenterY="1166.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92830" />
+  </DataNode>
+  <DataNode TextLabel="EP300 " GraphId="ad159" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="21" />
+    <Graphics CenterX="100.0" CenterY="1186.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q09472" />
+  </DataNode>
+  <DataNode TextLabel="CREBBP " GraphId="ad09a" Type="Protein" GroupRef="dc4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+    <Attribute Key="copies_num" Value="21" />
+    <Graphics CenterX="100.0" CenterY="1206.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92793" />
+  </DataNode>
+  <DataNode TextLabel="TBX6" GraphId="f2246" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="598.0" CenterY="344.0" Width="58.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95947" />
+  </DataNode>
+  <DataNode TextLabel="TBXT" GraphId="fe3a5" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="655.5" CenterY="247.5" Width="51.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15178" />
+  </DataNode>
+  <DataNode TextLabel="WNT3A" GraphId="f2bb3" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="623.5" CenterY="52.5" Width="57.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P56704" />
+  </DataNode>
+  <DataNode TextLabel="FGFR1" GraphId="aee7c" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="661.0" CenterY="96.5" Width="56.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11362" />
+  </DataNode>
+  <DataNode TextLabel="MSGN1 gene" GraphId="a1274" Type="GeneProduct">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="250.0" CenterY="457.5" Width="88.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000151379" />
+  </DataNode>
+  <DataNode TextLabel="CTNNB1:LEF1:TBX6:MSGN1 gene" GraphId="d7653" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="587.0" CenterY="495.0" Width="128.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9793386" />
+  </DataNode>
+  <DataNode TextLabel="MSGN1 gene " GraphId="a2327" Type="Protein" GroupRef="ec7e8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793386" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1266.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000151379" />
+  </DataNode>
+  <DataNode TextLabel="TBX6 " GraphId="e4266" Type="Protein" GroupRef="ec7e8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793386" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1286.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95947" />
+  </DataNode>
+  <DataNode TextLabel="CTNNB1 " GraphId="c056b" Type="Protein" GroupRef="ec7e8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793386" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1306.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35222" />
+  </DataNode>
+  <DataNode TextLabel="LEF1 " GraphId="cdb95" Type="Protein" GroupRef="ec7e8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793386" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1326.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UJU2" />
+  </DataNode>
+  <DataNode TextLabel="MSGN1" GraphId="d4102" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="583.5" CenterY="588.0" Width="59.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A6NI15" />
+  </DataNode>
+  <DataNode TextLabel="DLL1 gene" GraphId="a86ca" Type="GeneProduct">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="747.0" CenterY="480.5" Width="76.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000198719" />
+  </DataNode>
+  <DataNode TextLabel="LEF1:CTNNB1:TBX6:DLL1 gene" GraphId="f8e2c" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="986.5" CenterY="464.0" Width="121.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9793846" />
+  </DataNode>
+  <DataNode TextLabel="DLL1 gene " GraphId="d2ba8" Type="Protein" GroupRef="be207">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793846" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1386.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000198719" />
+  </DataNode>
+  <DataNode TextLabel="TBX6 " GraphId="ab466" Type="Protein" GroupRef="be207">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793846" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1406.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95947" />
+  </DataNode>
+  <DataNode TextLabel="CTNNB1 " GraphId="b3b36" Type="Protein" GroupRef="be207">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793846" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1426.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35222" />
+  </DataNode>
+  <DataNode TextLabel="LEF1 " GraphId="ffb45" Type="Protein" GroupRef="be207">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9793846" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1446.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UJU2" />
+  </DataNode>
+  <DataNode TextLabel="DLL1" GraphId="a38b0" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1128.5" CenterY="642.0" Width="47.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00548" />
+  </DataNode>
+  <DataNode TextLabel="DLL3 gene" GraphId="a06b2" Type="GeneProduct">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="292.0" CenterY="610.5" Width="84.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000090932" />
+  </DataNode>
+  <DataNode TextLabel="DLL3" GraphId="a8c9a" Type="Protein">
+    <Attribute Key="cellular_location" Value="endosome membrane" />
+    <Graphics CenterX="464.5" CenterY="689.0" Width="55.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NYJ7" />
+  </DataNode>
+  <DataNode TextLabel="NOTCH1" GraphId="c43e1" Type="Protein">
+    <Attribute Key="cellular_location" Value="endosome membrane" />
+    <Graphics CenterX="461.0" CenterY="784.5" Width="66.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P46531" />
+  </DataNode>
+  <DataNode TextLabel="DLL3:NOTCH1" GraphId="c1df1" Type="Complex">
+    <Attribute Key="cellular_location" Value="endosome membrane" />
+    <Graphics CenterX="660.0" CenterY="799.0" Width="106.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9793905" />
+  </DataNode>
+  <DataNode TextLabel="DLL3 " GraphId="dc82b" Type="Protein" GroupRef="c7a15">
+    <Attribute Key="cellular_location" Value="endosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9793905" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="946.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NYJ7" />
+  </DataNode>
+  <DataNode TextLabel="NOTCH1 " GraphId="bde35" Type="Protein" GroupRef="c7a15">
+    <Attribute Key="cellular_location" Value="endosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9793905" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="966.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P46531" />
+  </DataNode>
+  <DataNode TextLabel="NOTCH1 Coactivator&#xA;Complex" GraphId="b85f9" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="201.0" CenterY="251.0" Width="190.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1604462" />
+  </DataNode>
+  <DataNode TextLabel="NICD1 " GraphId="ffda5" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1026.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P46531" />
+  </DataNode>
+  <DataNode TextLabel="SNW1 " GraphId="e555f" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1046.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13573" />
+  </DataNode>
+  <DataNode TextLabel="RBPJ " GraphId="b7ec7" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1066.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q06330" />
+  </DataNode>
+  <DataNode TextLabel="MAML1 " GraphId="e6e0a" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1086.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92585" />
+  </DataNode>
+  <DataNode TextLabel="MAML2 " GraphId="f03a6" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1106.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IZL2" />
+  </DataNode>
+  <DataNode TextLabel="MAML3 " GraphId="c36f4" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1126.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96JK9" />
+  </DataNode>
+  <DataNode TextLabel="MAMLD1 " GraphId="aebc0" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="17" />
+    <Graphics CenterX="240.0" CenterY="1146.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13495" />
+  </DataNode>
+  <DataNode TextLabel="KAT2B " GraphId="f29e2" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="17" />
+    <Graphics CenterX="240.0" CenterY="1166.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92831" />
+  </DataNode>
+  <DataNode TextLabel="KAT2A " GraphId="ed830" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="23" />
+    <Graphics CenterX="240.0" CenterY="1186.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92830" />
+  </DataNode>
+  <DataNode TextLabel="EP300 " GraphId="c8f6e" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="23" />
+    <Graphics CenterX="240.0" CenterY="1206.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q09472" />
+  </DataNode>
+  <DataNode TextLabel="CREBBP " GraphId="a1cda" Type="Protein" GroupRef="bdf6b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+    <Attribute Key="copies_num" Value="23" />
+    <Graphics CenterX="240.0" CenterY="1226.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92793" />
+  </DataNode>
+  <DataNode TextLabel="LEF1:CTNNB1" GraphId="f8df1" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="652.5" CenterY="429.0" Width="107.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9735197" />
+  </DataNode>
+  <DataNode TextLabel="CTNNB1 " GraphId="ff454" Type="Protein" GroupRef="d0218">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9735197" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1286.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35222" />
+  </DataNode>
+  <DataNode TextLabel="LEF1 " GraphId="b13c7" Type="Protein" GroupRef="d0218">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9735197" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1306.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UJU2" />
+  </DataNode>
+  <DataNode TextLabel="MSGN1:TBX6 gene" GraphId="c6083" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="382.5" CenterY="349.0" Width="143.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9820539" />
+  </DataNode>
+  <DataNode TextLabel="MSGN1 " GraphId="ab882" Type="Protein" GroupRef="da159">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9820539" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1366.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A6NI15" />
+  </DataNode>
+  <DataNode TextLabel="TBX6 gene " GraphId="b5ffd" Type="Protein" GroupRef="da159">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9820539" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1386.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000149922" />
+  </DataNode>
+  <DataNode TextLabel="Somitogenesis" GraphId="a8eea" Type="Pathway">
+    <Comment Source="Reactome">Somites are bounded segments of mesenchyme that are periodically cleaved, or segmented, from the developing anterior paraxial mesoderm (Diaz-Cuadros et al. 2020). Somite formation is conceptualized using a clock and wavefront model (reviewed in Saga 2012). The clock is present in cells of the presomitic mesoderm and cycles between a permissive state in which segmentation can occur and a refractory state in which it cannot. The wavefront moves along the presomitic mesoderm and causes segmentation where and when it encounters cells in the permissive state, thus the size of the somites is determined by the periodicity of the clock and the migration speed of the wavefront.&lt;br&gt;The segmentation process is driven by  WNY signaling, FGF signaling, and especially the Notch signaling (reviewed in Dunwoodie et al. 2009, Ferjentsik et al. 2009), Hubaud and Pourquie 2014). The intersection of posterior-anterior gradients of WNT and FGF signaling and an anterior-posterior gradient of retinoic acid signaling regulates the position of somite boundaries as perturbation of any of the gradients affects somite boundaries (reviewed in Gibb et al. 2010, Hubard and Pourquie et al. 2014). Thus WNT, FGF, and retinoic acid appear to form the wavefront, also called the determination front. Segmentation periodicity is controlled by HES7-mediated negative feedback loops in the Notch pathway, which constitute a molecular oscillator or segmentation clock (Bessho et al. 2003). Activation of LFNG expression by Notch and inhibition of Notch signaling by LFNG, possibly via regulation of the DLL3 ligand (Bochter et al. 2022), constitute another negative feedback loop that acts as a molecular oscillator (Dale et al. 2003, Falk et al. 2022). Clock oscillations are initiated in nascent presomitic mesoderm in the primitive streak of the gastrulating embryo (Falk et al. 2022) and posterior-to-anterior waves sweep to anterior paraxial mesoderm to regulate MESP2/RIPPLY2 expression to initiate segmentation. MESP2 activates expression of EPHA4 (Nakajima et al. 2006), an Eph receptor that participates in segment boundary formation. MESP2 also activates expression of RIPPLY2 (Morimoto et al. 2007), an inhibitor of TBX6 (Zhao et al. 2018). TBX6 is an activator of MESP2, therefore MESP2 indirectly inhibits its own expression via RIPPLY2.&lt;br&gt;Mutations in components of the segmentation clock, for example DLL3, MESP2, LFNG, and HES7, cause congenital vertebral defects in humans (Dunwoodie et al. 2009, NÃ³brega et al. 2021).</Comment>
+    <BiopaxRef>ec8</BiopaxRef>
+    <BiopaxRef>eac</BiopaxRef>
+    <BiopaxRef>a72</BiopaxRef>
+    <BiopaxRef>ef2</BiopaxRef>
+    <BiopaxRef>bf9</BiopaxRef>
+    <BiopaxRef>f08</BiopaxRef>
+    <BiopaxRef>a1b</BiopaxRef>
+    <BiopaxRef>acf</BiopaxRef>
+    <BiopaxRef>cdd</BiopaxRef>
+    <BiopaxRef>ab2</BiopaxRef>
+    <BiopaxRef>c76</BiopaxRef>
+    <BiopaxRef>b48</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="743.0" CenterY="612.5" Width="148.0" Height="45.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9824272" />
+  </DataNode>
+  <Interaction GraphId="c36dc">
+    <Comment Source="Reactome">NOGGIN (NOG) binds BMP4 in the extracellular region (inferred from Xenopus homologs in Zimmerman et al. 1996) and suppresses BMP4 signaling (inferred from mouse homologs). The decreased BMP signaling results in specification of paraxial mesoderm rather than lateral plate mesoderm.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="316.0" Y="67.0" />
+      <Point X="421.0" Y="67.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a7958" />
+      <Anchor Position="0.99" Shape="None" GraphId="a5c2f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9794058" />
+  </Interaction>
+  <Interaction GraphId="f2afa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="216.0" Y="37.0" GraphRef="b3e5a" RelX="0.9636363636363636" RelY="0.0" />
+      <Point X="316.0" Y="67.0" GraphRef="a7958" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9794058" />
+  </Interaction>
+  <Interaction GraphId="d99c2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="150.0" Y="64.0" GraphRef="e84b2" RelX="0.9649122807017544" RelY="0.0" />
+      <Point X="316.0" Y="67.0" GraphRef="a7958" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9794058" />
+  </Interaction>
+  <Interaction GraphId="d8c6f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="421.0" Y="67.0" GraphRef="a5c2f" RelX="1.0500000000000114" RelY="0.0" />
+      <Point X="424.0" Y="68.0" GraphRef="c27d2" RelX="-1.0" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9794058" />
+  </Interaction>
+  <Interaction GraphId="e24c3">
+    <Comment Source="Reactome">NOTCH signaling activates TBX6 expression in paraxial mesoderm via RBPJ, which binds a site in the promoter of the TBX6 gene (inferred from mouse and Drosophila homologs). RBPJ is inferred to bind other members of the NOTCH1 coactivator complex in order to activate transcription of TBX6.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="262.0" Y="290.0" />
+      <Point X="339.0" Y="278.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d7a44" />
+      <Anchor Position="0.99" Shape="None" GraphId="e4ea3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793400" />
+  </Interaction>
+  <Interaction GraphId="cf64a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="205.0" Y="319.0" GraphRef="cd6ee" RelX="0.9775280898876404" RelY="-0.0196078431372549" />
+      <Point X="262.0" Y="290.0" GraphRef="d7a44" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793400" />
+  </Interaction>
+  <Interaction GraphId="a4b43">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="296.0" Y="251.0" GraphRef="b85f9" RelX="1.0" RelY="0.0" />
+      <Point X="262.0" Y="290.0" GraphRef="d7a44" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793400" />
+  </Interaction>
+  <Interaction GraphId="ae85e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="339.0" Y="278.0" GraphRef="e4ea3" RelX="0.7699999999999818" RelY="-0.12000000000000455" />
+      <Point X="342.0" Y="261.0" GraphRef="d0d35" RelX="-1.0" RelY="-0.02564102564102564" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793400" />
+  </Interaction>
+  <Interaction GraphId="c28e3">
+    <Comment Source="Reactome">TBX6 is expressed in the primitive streak and then continues in the paraxial mesoderm (Xi et al. 2017 and inferred from the mouse homolog). NOTCH signaling acting through RBPJ directly activates expression of TBX6 in paraxial mesoderm (inferred from mouse homologs). WNT signaling and FGF signaling also directly or indirectly activate expression of TBX6 in paraxial mesoderm (inferred from mouse homologs). TBXT is not required for initial activation of TBX6 expression, but is required for maintenance of TBX6 expression (inferred from mouse homologs). Mesogenin1 (MSGN1), which is itself activated by TBX6, activates TBX6 in a reinforcing loop (inferred from mouse homologs).</Comment>
+    <BiopaxRef>ae7</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="215.0" Y="296.0" />
+      <Point X="566.0" Y="337.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bc0fa" />
+      <Anchor Position="0.99" Shape="None" GraphId="dbc56" />
+      <Anchor Position="0.5" Shape="None" GraphId="a1f44" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793383" />
+  </Interaction>
+  <Interaction GraphId="d7587">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="205.0" Y="319.0" GraphRef="cd6ee" RelX="0.9775280898876404" RelY="-0.0196078431372549" />
+      <Point X="215.0" Y="296.0" GraphRef="bc0fa" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793383" />
+  </Interaction>
+  <Interaction GraphId="fa75b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="566.0" Y="337.0" GraphRef="dbc56" RelX="3.509999999999991" RelY="0.40999999999996817" />
+      <Point X="569.0" Y="344.0" GraphRef="f2246" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793383" />
+  </Interaction>
+  <Interaction GraphId="b1925">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="342.0" Y="261.0" GraphRef="d0d35" RelX="-1.0" RelY="-0.02564102564102564" />
+      <Point X="521.0" Y="327.0" GraphRef="a1f44" RelX="130.5" RelY="10.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793383" />
+  </Interaction>
+  <Interaction GraphId="c068d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="342.0" Y="261.0" GraphRef="fe3a5" RelX="-12.294117647058824" RelY="1.173913043478261" />
+      <Point X="521.0" Y="327.0" GraphRef="a1f44" RelX="130.5" RelY="10.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793383" />
+  </Interaction>
+  <Interaction GraphId="b6bcb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="342.0" Y="261.0" GraphRef="f2bb3" RelX="-9.87719298245614" RelY="15.444444444444445" />
+      <Point X="521.0" Y="327.0" GraphRef="a1f44" RelX="130.5" RelY="10.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793383" />
+  </Interaction>
+  <Interaction GraphId="db37d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="342.0" Y="261.0" GraphRef="aee7c" RelX="-11.392857142857142" RelY="12.185185185185185" />
+      <Point X="521.0" Y="327.0" GraphRef="a1f44" RelX="130.5" RelY="10.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793383" />
+  </Interaction>
+  <Interaction GraphId="c36e1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="342.0" Y="261.0" GraphRef="c6083" RelX="-0.5664335664335665" RelY="-5.5" />
+      <Point X="521.0" Y="327.0" GraphRef="a1f44" RelX="130.5" RelY="10.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793383" />
+  </Interaction>
+  <Interaction GraphId="f8f28">
+    <Comment Source="Reactome">LEF1 and CTNNB1 activated by WNT signaling and TBX6 activated by NOTCH, WNT, and FGF signaling bind sites in the promoter of the MSGN1 gene that are conserved between mouse and human (inferred from mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="433.0" Y="439.0" />
+      <Point X="533.0" Y="472.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a0e71" />
+      <Anchor Position="0.99" Shape="None" GraphId="ffc05" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793382" />
+  </Interaction>
+  <Interaction GraphId="d46e2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="569.0" Y="344.0" GraphRef="f2246" RelX="-1.0" RelY="0.0" />
+      <Point X="433.0" Y="439.0" GraphRef="a0e71" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793382" />
+  </Interaction>
+  <Interaction GraphId="aca9f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="294.0" Y="457.0" GraphRef="a1274" RelX="1.0" RelY="-0.0196078431372549" />
+      <Point X="433.0" Y="439.0" GraphRef="a0e71" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793382" />
+  </Interaction>
+  <Interaction GraphId="e9f50">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="599.0" Y="429.0" GraphRef="f8df1" RelX="-1.0" RelY="0.0" />
+      <Point X="433.0" Y="439.0" GraphRef="a0e71" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793382" />
+  </Interaction>
+  <Interaction GraphId="f1b07">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="533.0" Y="472.0" GraphRef="ffc05" RelX="1.0" RelY="0.3299999999999841" />
+      <Point X="523.0" Y="495.0" GraphRef="d7653" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793382" />
+  </Interaction>
+  <Interaction GraphId="e9fd6">
+    <Comment Source="Reactome">TBX6 and LEF1:CTNNB1 (LEF1:beta-catenin) bound to the MSGN1 promoter act synergistically to promote transcription of MSGN1 (inferred from mouse homologs). MSGN1 is expressed in unsegmented paraxial mesoderm but expression ceases in nascent somites (Xi et al. 2017 and inferred from mouse homologs).</Comment>
+    <BiopaxRef>ae7</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="303.0" Y="434.0" />
+      <Point X="569.0" Y="572.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f6bdb" />
+      <Anchor Position="0.99" Shape="None" GraphId="ff3da" />
+      <Anchor Position="0.5" Shape="None" GraphId="dc083" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793375" />
+  </Interaction>
+  <Interaction GraphId="a0bb4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="294.0" Y="457.0" GraphRef="a1274" RelX="1.0" RelY="-0.0196078431372549" />
+      <Point X="303.0" Y="434.0" GraphRef="f6bdb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793375" />
+  </Interaction>
+  <Interaction GraphId="f3c6e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="569.0" Y="572.0" GraphRef="ff3da" RelX="2.659999999999968" RelY="1.3799999999999955" />
+      <Point X="583.0" Y="575.0" GraphRef="d4102" RelX="-0.01694915254237288" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793375" />
+  </Interaction>
+  <Interaction GraphId="aa4d3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="523.0" Y="495.0" GraphRef="d7653" RelX="-1.0" RelY="0.0" />
+      <Point X="533.0" Y="541.0" GraphRef="dc083" RelX="97.0" RelY="38.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793375" />
+  </Interaction>
+  <Interaction GraphId="d12df">
+    <Comment Source="Reactome">LEF1 and CTNNB1 (beta-catenin) activated by WNT signaling bind the 5' region of the DLL1 gene (inferred from mouse homologs). TBX6 activated by NOTCH, WNT, and FGF signaling also binds a paraxial mesoderm enhancer in the DLL1 gene (inferred from mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="851.0" Y="440.0" />
+      <Point X="923.0" Y="453.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="afd79" />
+      <Anchor Position="0.99" Shape="None" GraphId="ce0e2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793887" />
+  </Interaction>
+  <Interaction GraphId="beaf0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="627.0" Y="344.0" GraphRef="f2246" RelX="1.0" RelY="0.0" />
+      <Point X="851.0" Y="440.0" GraphRef="afd79" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793887" />
+  </Interaction>
+  <Interaction GraphId="a651b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="705.0" Y="429.0" GraphRef="f8df1" RelX="0.9813084112149533" RelY="0.0" />
+      <Point X="851.0" Y="440.0" GraphRef="afd79" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793887" />
+  </Interaction>
+  <Interaction GraphId="cb806">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="785.0" Y="480.0" GraphRef="a86ca" RelX="1.0" RelY="-0.0196078431372549" />
+      <Point X="851.0" Y="440.0" GraphRef="afd79" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793887" />
+  </Interaction>
+  <Interaction GraphId="d0c3b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="923.0" Y="453.0" GraphRef="ce0e2" RelX="0.7200000000000273" RelY="0.12999999999999545" />
+      <Point X="926.0" Y="464.0" GraphRef="f8e2c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793887" />
+  </Interaction>
+  <Interaction GraphId="b71ec">
+    <Comment Source="Reactome">Delta-like 1 (DLL1), an activating ligand of NOTCH, is expressed in paraxial (presomitic) mesoderm and then becomes confined to caudal halves of somites during somitogenesis (inferred from the mouse homolog). Expression of DLL1 is activated by WNT signaling in paraxial mesoderm via LEF1, which binds multiple sites in the DLL1 promoter and recruits beta-catenin (CTNNB1) (inferred from mouse homologs). TBX6 also directly activates DLL1 expression in paraxial mesoderm (inferred from mouse homologs). Expression of DLL1 on the cell surface of paraxial mesoderm cells is oscillatory (inferred from the mouse homolog). Presenilin 1 (PSEN1) is required for expression of DLL1 and NOTCH1 in the paraxial mesoderm (inferred from mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="794.0" Y="457.0" />
+      <Point X="1102.0" Y="629.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b67d3" />
+      <Anchor Position="0.99" Shape="None" GraphId="a459f" />
+      <Anchor Position="0.5" Shape="None" GraphId="f515d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793921" />
+  </Interaction>
+  <Interaction GraphId="f89f4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="785.0" Y="480.0" GraphRef="a86ca" RelX="1.0" RelY="-0.0196078431372549" />
+      <Point X="794.0" Y="457.0" GraphRef="b67d3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793921" />
+  </Interaction>
+  <Interaction GraphId="c701c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1102.0" Y="629.0" GraphRef="a459f" RelX="3.0799999999999272" RelY="1.7200000000000273" />
+      <Point X="1105.0" Y="642.0" GraphRef="a38b0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793921" />
+  </Interaction>
+  <Interaction GraphId="b75f4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="926.0" Y="464.0" GraphRef="f8e2c" RelX="-1.0" RelY="0.0" />
+      <Point X="987.0" Y="565.0" GraphRef="f515d" RelX="39.0" RelY="22.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793921" />
+  </Interaction>
+  <Interaction GraphId="ad2ce">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="926.0" Y="464.0" GraphRef="fe3a5" RelX="10.607843137254902" RelY="18.82608695652174" />
+      <Point X="987.0" Y="565.0" GraphRef="f515d" RelX="39.0" RelY="22.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793921" />
+  </Interaction>
+  <Interaction GraphId="d6d09">
+    <Comment Source="Reactome">Delta-like 3 (DLL3) is a divergent Delta-like gene that encodes an inhibitory ligand of NOTCH. DLL3  is expressed in the primitive streak and the entire mesoderm, then becomes restricted to the paraxial mesoderm at the late primitive streak stage.(inferred from the mouse homolog). A mutation in DLL3 can disrupt somitogenesis and cause severe rib and vertebral deformities (inferred from the mouse pudgy mutant).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="343.0" Y="587.0" />
+      <Point X="445.0" Y="670.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b66e2" />
+      <Anchor Position="0.99" Shape="None" GraphId="a421a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793901" />
+  </Interaction>
+  <Interaction GraphId="c33b5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="334.0" Y="610.0" GraphRef="a06b2" RelX="1.0" RelY="-0.0196078431372549" />
+      <Point X="343.0" Y="587.0" GraphRef="b66e2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793901" />
+  </Interaction>
+  <Interaction GraphId="a637f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="445.0" Y="670.0" GraphRef="a421a" RelX="1.0199999999999818" RelY="0.8299999999999272" />
+      <Point X="464.0" Y="673.0" GraphRef="a8c9a" RelX="-0.01818181818181818" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793901" />
+  </Interaction>
+  <Interaction GraphId="d97ae">
+    <Comment Source="Reactome">DLL3 interacts with NOTCH1 when the two proteins are expressed in the same cell (inferred from mouse homologs). The interaction occurs in endosomes and targets NOTCH1 for degradation in lysosomes before NOTCH1 can be presented at the cell surface, resulting in an inhibition of signaling by NOTCH1 (inferred from mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="551.0" Y="742.0" />
+      <Point X="631.0" Y="781.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a4d13" />
+      <Anchor Position="0.99" Shape="None" GraphId="a9bfd" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793852" />
+  </Interaction>
+  <Interaction GraphId="a215d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="494.0" Y="784.0" GraphRef="c43e1" RelX="1.0" RelY="-0.030303030303030304" />
+      <Point X="551.0" Y="742.0" GraphRef="a4d13" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793852" />
+  </Interaction>
+  <Interaction GraphId="e9f11">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="491.0" Y="689.0" GraphRef="a8c9a" RelX="0.9636363636363636" RelY="0.0" />
+      <Point X="551.0" Y="742.0" GraphRef="a4d13" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793852" />
+  </Interaction>
+  <Interaction GraphId="b9bcc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="631.0" Y="781.0" GraphRef="a9bfd" RelX="0.7999999999999545" RelY="0.38999999999998636" />
+      <Point X="660.0" Y="784.0" GraphRef="c1df1" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9793852" />
+  </Interaction>
+  <Interaction GraphId="bf3d3">
+    <Comment Source="Reactome">The bHLH transcription factor Mesogenin1 (MSGN1) activates directly the TBX6 gene to promote paraxial mesoderm (inferred from mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="234.0" Y="345.0" />
+      <Point X="308.0" Y="345.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="aa93f" />
+      <Anchor Position="0.99" Shape="None" GraphId="aeda0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9820538" />
+  </Interaction>
+  <Interaction GraphId="af5df">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="554.0" Y="588.0" GraphRef="d4102" RelX="-1.0" RelY="0.0" />
+      <Point X="234.0" Y="345.0" GraphRef="aa93f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9820538" />
+  </Interaction>
+  <Interaction GraphId="a5e48">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="205.0" Y="319.0" GraphRef="cd6ee" RelX="0.9775280898876404" RelY="-0.0196078431372549" />
+      <Point X="234.0" Y="345.0" GraphRef="aa93f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9820538" />
+  </Interaction>
+  <Interaction GraphId="c8a8b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="308.0" Y="345.0" GraphRef="aeda0" RelX="0.7400000000000091" RelY="0.0" />
+      <Point X="311.0" Y="349.0" GraphRef="c6083" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9820538" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="f3701" GroupRef="e0dcf">
+    <Graphics CenterX="71.0" CenterY="834.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="df1f6" GroupRef="afc96">
+    <Graphics CenterX="150.5" CenterY="620.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="endosome" GraphId="bc313" GroupRef="a34ce">
+    <Graphics CenterX="791.0" CenterY="724.5" Width="86.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="afe98" GroupRef="e0dcf">
+    <Graphics CenterX="577.5" CenterY="485.0" Width="1107.0" Height="786.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="d8f81" GroupRef="afc96">
+    <Graphics CenterX="587.5" CenterY="409.5" Width="999.0" Height="501.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="ab705" GroupRef="a34ce">
+    <Graphics CenterX="639.0" CenterY="743.0" Width="410.0" Height="142.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="d23fb" GraphId="fc9e6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9794043" />
+  </Group>
+  <Group GroupId="dc4a2" GraphId="c4096" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9793425" />
+  </Group>
+  <Group GroupId="ec7e8" GraphId="b2657" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9793386" />
+  </Group>
+  <Group GroupId="be207" GraphId="ef32d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9793846" />
+  </Group>
+  <Group GroupId="c7a15" GraphId="df9a8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9793905" />
+  </Group>
+  <Group GroupId="bdf6b" GraphId="b37d6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1604462" />
+  </Group>
+  <Group GroupId="d0218" GraphId="a525f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9735197" />
+  </Group>
+  <Group GroupId="da159" GraphId="f6b44" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9820539" />
+  </Group>
+  <Group GroupId="e0dcf" GraphId="d5793" Style="Group" />
+  <Group GroupId="afc96" GraphId="fb10d" Style="Group" />
+  <Group GroupId="a34ce" GraphId="a9fe2" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c17">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32788657</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Understanding paraxial mesoderm development and sclerotome specification for skeletal repair.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tani S, Chung UI, Ohba S, Hojo H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8074321</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specification and segmentation of the paraxial mesoderm.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tam PP, Trainor PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14756335</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrate somitogenesis: a novel paradigm for animal segmentation?</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pourquié O.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28178531</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In Vivo Human Somitogenesis Guides Somite Development from hPSCs.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xi H, Fujiwara W, Gonzalez K, Jan M, Liebscher S, Van Handel B, Schenke-Layland K, Pyle AD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19779553</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notch is a critical component of the mouse somitogenesis oscillator and is essential for the formation of the somites.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferjentsik Z, Hayashi S, Dale JK, Bessho Y, Herreman A, De Strooper B, del Monte G, de la Pompa JL, Maroto M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eac">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19608404</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of Notch in patterning the human vertebral column.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dunwoodie SL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a72">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35686648</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging the onset of oscillatory signaling dynamics during mouse embryo gastrulation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falk HJ, Tomita T, Mönke G, McDole K, Aulehla A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22742849</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanism of somite formation in mice.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saga Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33572886</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altered Cogs of the Clock: Insights into the Embryonic Etiology of Spondylocostal Dysostosis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nóbrega A, Maia-Fernandes AC, Andrade RP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f08">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12783854</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periodic repression by the bHLH factor Hes7 is an essential mechanism for the somite segmentation clock.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bessho Y, Hirata H, Masamizu Y, Kageyama R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12529645</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periodic notch inhibition by lunatic fringe underlies the chick segmentation clock.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dale JK, Maroto M, Dequeant ML, Malapert P, McGrew M, Pourquie O.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="acf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16728472</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of Epha4 enhancer required for segmental expression and the regulation by Mesp2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakajima Y, Morimoto M, Takahashi Y, Koseki H, Saga Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cdd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29761784</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripply2 recruits proteasome complex for Tbx6 degradation to define segment border during murine somitogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhao W, Oginuma M, Ajima R, Kiso M, Okubo A, Saga Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31915384</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In vitro characterization of the human segmentation clock.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diaz-Cuadros M, Wagner DE, Budjan C, Hubaud A, Tarazona OA, Donelly S, Michaut A, Al Tanoury Z, Yoshioka-Kobayashi K, Niino Y, Kageyama R, Miyawaki A, Touboul J, Pourquié O.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c76">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25335437</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signalling dynamics in vertebrate segmentation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hubaud A, Pourquié O.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20724159</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The segmentation clock mechanism moves up a notch.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibb S, Maroto M, Dale JK.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

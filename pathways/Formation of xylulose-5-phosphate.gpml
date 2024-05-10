@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Formation of xylulose-5-phosphate" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The conversion of D-glucuronate to D-xylulose-5-phosphate, an intermediate in the pentose phosphate pathway, proceeds via L-gulonate, 3-dehydro-L-gulonate, L-xylulose, xylitol, and D-xylulose (Wamelink et al. 2008). D-glucuronate can be generated via the degradation of glucuronidated proteins. This pathway would have the effect of returning it to the pentose phosphate pathway or glycolysis.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5661270 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 5661270</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: D'Eustachio, Peter</Comment>
+  <BiopaxRef>e81</BiopaxRef>
+  <Attribute Key="reactome_id" Value="5661270" />
+  <Graphics BoardWidth="1839.0" BoardHeight="509.0" />
+  <DataNode TextLabel="XY5P" GraphId="ad91a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1717.5" CenterY="196.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57737" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="a5d71" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1519.5" CenterY="146.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="D-xylulose" GraphId="f4dcb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1445.0" CenterY="196.0" Width="90.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17140" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="e3c52" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1664.5" CenterY="146.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="XYLB" GraphId="aea93" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1590.5" CenterY="267.0" Width="41.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75191" />
+  </DataNode>
+  <DataNode TextLabel="xylitol" GraphId="cb300" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1186.5" CenterY="196.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17151" />
+  </DataNode>
+  <DataNode TextLabel="SORD tetramer" GraphId="a418c" Type="Complex">
+    <BiopaxRef>a8d</BiopaxRef>
+    <BiopaxRef>cea</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1309.0" CenterY="267.5" Width="70.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5652211" />
+  </DataNode>
+  <DataNode TextLabel="SORD " GraphId="a9d1e" Type="Protein" GroupRef="b70ec">
+    <BiopaxRef>e48</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5652211" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="437.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q00796" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="ac820" Type="Metabolite" GroupRef="b70ec">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5652211" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="100.0" CenterY="457.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="cbd38" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1238.5" CenterY="146.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57540" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="a87fa" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1372.5" CenterY="119.0" Width="33.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="df19a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1421.5" CenterY="146.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57945" />
+  </DataNode>
+  <DataNode TextLabel="L-xylulose" GraphId="a9e6a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="921.0" CenterY="196.0" Width="90.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17399" />
+  </DataNode>
+  <DataNode TextLabel="DCXR tetramer" GraphId="e90f5" Type="Complex">
+    <BiopaxRef>e28</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1067.0" CenterY="267.5" Width="72.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5660027" />
+  </DataNode>
+  <DataNode TextLabel="DCXR " GraphId="e0558" Type="Protein" GroupRef="c5c2d">
+    <BiopaxRef>c58</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5660027" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="437.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z4W1" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="d07c8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1159.5" CenterY="146.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="a4b51" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="961.5" CenterY="146.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="f482c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1008.5" CenterY="119.0" Width="33.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="3-dehydro-L-gulonate" GraphId="d310d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="698.5" CenterY="196.0" Width="111.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57655" />
+  </DataNode>
+  <DataNode TextLabel="KGPDC" GraphId="cae8e">
+    <BiopaxRef>b63</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="796.5" CenterY="267.0" Width="49.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5661266" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="df137" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="866.5" CenterY="146.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="L-gulonate" GraphId="a1035" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="432.0" CenterY="196.0" Width="90.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:13115" />
+  </DataNode>
+  <DataNode TextLabel="CRYL1 dimer" GraphId="ee9a2" Type="Complex">
+    <BiopaxRef>c56</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="561.5" CenterY="267.5" Width="59.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5661289" />
+  </DataNode>
+  <DataNode TextLabel="CRYL1 " GraphId="d5299" Type="Protein" GroupRef="bf0f7">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5661289" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="437.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y2S2" />
+  </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="d508f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="490.5" CenterY="146.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57540" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="ea2bf" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="619.5" CenterY="119.0" Width="33.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="ff8d2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="667.5" CenterY="146.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57945" />
+  </DataNode>
+  <DataNode TextLabel="D-glucuronate" GraphId="a651a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="156.5" CenterY="196.0" Width="111.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15748" />
+  </DataNode>
+  <DataNode TextLabel="AKR1A1" GraphId="b8774" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="301.0" CenterY="267.0" Width="58.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P14550" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="d384c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="399.5" CenterY="146.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="f290c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="191.5" CenterY="146.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="f916c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="246.5" CenterY="119.0" Width="33.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <Interaction GraphId="bff30">
+    <Comment Source="Reactome">Cytosolic xylulose kinase (XYLB) catalyzes the phosphorylation of D-xylulose to form D-xylulose-5-phosphate (XY5P) (Bunker et al. 2013).</Comment>
+    <BiopaxRef>fb9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1542.0" Y="195.0" />
+      <Point X="1624.0" Y="196.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b68dd" />
+      <Anchor Position="0.99" Shape="None" GraphId="c5af5" />
+      <Anchor Position="0.5" Shape="None" GraphId="d8ee1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662466" />
+  </Interaction>
+  <Interaction GraphId="d15d4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1519.0" Y="161.0" GraphRef="a5d71" RelX="-0.024390243902439025" RelY="1.0" />
+      <Point X="1542.0" Y="195.0" GraphRef="b68dd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662466" />
+  </Interaction>
+  <Interaction GraphId="f7582">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1490.0" Y="196.0" GraphRef="f4dcb" RelX="1.0" RelY="0.0" />
+      <Point X="1542.0" Y="195.0" GraphRef="b68dd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662466" />
+  </Interaction>
+  <Interaction GraphId="d8508">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1624.0" Y="196.0" GraphRef="c5af5" RelX="0.8199999999999363" RelY="0.009999999999990905" />
+      <Point X="1664.0" Y="161.0" GraphRef="e3c52" RelX="-0.024390243902439025" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662466" />
+  </Interaction>
+  <Interaction GraphId="f7b95">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1624.0" Y="196.0" GraphRef="c5af5" RelX="0.8199999999999363" RelY="0.009999999999990905" />
+      <Point X="1693.0" Y="196.0" GraphRef="ad91a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662466" />
+  </Interaction>
+  <Interaction GraphId="a9dba">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1570.0" Y="267.0" GraphRef="aea93" RelX="-1.0" RelY="0.0" />
+      <Point X="1588.0" Y="196.0" GraphRef="d8ee1" RelX="5.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662466" />
+  </Interaction>
+  <Interaction GraphId="e925f">
+    <Comment Source="Reactome">Tetrameric sorbitol dehydrogenase (SORD tetramer) catalyzes the NAD-dependent oxidation of xylitol to form D-xylulose (Alvarez et al. 1993; Karlsson et al. 1989; Maret &amp; Auld 1988; Pauly et al. 2003).</Comment>
+    <BiopaxRef>e17</BiopaxRef>
+    <BiopaxRef>e48</BiopaxRef>
+    <BiopaxRef>a8d</BiopaxRef>
+    <BiopaxRef>cea</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1259.0" Y="195.0" />
+      <Point X="1361.0" Y="197.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d931c" />
+      <Anchor Position="0.99" Shape="None" GraphId="d7f13" />
+      <Anchor Position="0.5" Shape="None" GraphId="ce1d1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662471" />
+  </Interaction>
+  <Interaction GraphId="da383">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1214.0" Y="196.0" GraphRef="cb300" RelX="0.9649122807017544" RelY="0.0" />
+      <Point X="1259.0" Y="195.0" GraphRef="d931c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662471" />
+  </Interaction>
+  <Interaction GraphId="e5fbd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1238.0" Y="161.0" GraphRef="cbd38" RelX="-0.02040816326530612" RelY="1.0" />
+      <Point X="1259.0" Y="195.0" GraphRef="d931c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662471" />
+  </Interaction>
+  <Interaction GraphId="a54a0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1361.0" Y="197.0" GraphRef="d7f13" RelX="1.0199999999999818" RelY="0.020000000000010232" />
+      <Point X="1400.0" Y="196.0" GraphRef="f4dcb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662471" />
+  </Interaction>
+  <Interaction GraphId="cfc55">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1361.0" Y="197.0" GraphRef="d7f13" RelX="1.0199999999999818" RelY="0.020000000000010232" />
+      <Point X="1372.0" Y="134.0" GraphRef="a87fa" RelX="-0.030303030303030304" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662471" />
+  </Interaction>
+  <Interaction GraphId="cc347">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1361.0" Y="197.0" GraphRef="d7f13" RelX="1.0199999999999818" RelY="0.020000000000010232" />
+      <Point X="1397.0" Y="146.0" GraphRef="df19a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662471" />
+  </Interaction>
+  <Interaction GraphId="e53a1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1309.0" Y="248.0" GraphRef="a418c" RelX="0.0" RelY="-1.0" />
+      <Point X="1305.0" Y="196.0" GraphRef="ce1d1" RelX="-5.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662471" />
+  </Interaction>
+  <Interaction GraphId="eed6a">
+    <Comment Source="Reactome">L-xylulose reductase (DCXR, also known as dicarbonyl/L-xylulose reductase) catalyzes the reversible NADPH dependent reduction of cytosolic L-xylulose to xylitol (Nakagawa et al. 2002). The enzyme is a tetramer (El Kabbani et al.2004) and may be associated with the plasma membrane (Boue et al. 1996). Mutations that inactivate DCXR are associated with essential pentosuria (Pierce et al. 2011; Wang &amp; van Eys 1970).</Comment>
+    <BiopaxRef>c58</BiopaxRef>
+    <BiopaxRef>e28</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <BiopaxRef>c0d</BiopaxRef>
+    <BiopaxRef>db4</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1017.0" Y="195.0" />
+      <Point X="1114.0" Y="196.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a44ce" />
+      <Anchor Position="0.99" Shape="None" GraphId="f0f3a" />
+      <Anchor Position="0.5" Shape="None" GraphId="a81b0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661240" />
+  </Interaction>
+  <Interaction GraphId="dcc86">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="966.0" Y="196.0" GraphRef="a9e6a" RelX="1.0" RelY="0.0" />
+      <Point X="1017.0" Y="195.0" GraphRef="a44ce" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661240" />
+  </Interaction>
+  <Interaction GraphId="c09ab">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="989.0" Y="146.0" GraphRef="a4b51" RelX="0.9649122807017544" RelY="0.0" />
+      <Point X="1017.0" Y="195.0" GraphRef="a44ce" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661240" />
+  </Interaction>
+  <Interaction GraphId="a580e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1008.0" Y="134.0" GraphRef="f482c" RelX="-0.030303030303030304" RelY="1.0" />
+      <Point X="1017.0" Y="195.0" GraphRef="a44ce" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661240" />
+  </Interaction>
+  <Interaction GraphId="aef7a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1114.0" Y="196.0" GraphRef="f0f3a" RelX="0.9700000000000273" RelY="0.009999999999990905" />
+      <Point X="1158.0" Y="196.0" GraphRef="cb300" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661240" />
+  </Interaction>
+  <Interaction GraphId="b8c98">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1114.0" Y="196.0" GraphRef="f0f3a" RelX="0.9700000000000273" RelY="0.009999999999990905" />
+      <Point X="1131.0" Y="146.0" GraphRef="d07c8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661240" />
+  </Interaction>
+  <Interaction GraphId="c09ce">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1067.0" Y="248.0" GraphRef="e90f5" RelX="0.0" RelY="-1.0" />
+      <Point X="1064.0" Y="196.0" GraphRef="a81b0" RelX="-1.5" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661240" />
+  </Interaction>
+  <Interaction GraphId="a62ab">
+    <Comment Source="Reactome">Cytosolic dehydro-L-gulonate decarboxylase (KGPDC) catalyzes the conversion of  3-dehydro-L-gulonate to L-xylulose and CO2. Studies in vivo provide indirect but strong evidence that this reaction occurs in humans and guinea pigs and dehydro-L-gulonate decarboxylase enzyme has been partially purified from guinea pigs (Winkelman &amp; Ashwell 1961). Its amino acid sequence is unknown, however.</Comment>
+    <BiopaxRef>b63</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="757.0" Y="196.0" />
+      <Point X="833.0" Y="196.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e7b21" />
+      <Anchor Position="0.99" Shape="None" GraphId="cb72b" />
+      <Anchor Position="0.5" Shape="None" GraphId="ba436" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662473" />
+  </Interaction>
+  <Interaction GraphId="e853e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="753.0" Y="196.0" GraphRef="d310d" RelX="0.9819819819819819" RelY="0.0" />
+      <Point X="757.0" Y="196.0" GraphRef="e7b21" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662473" />
+  </Interaction>
+  <Interaction GraphId="f780a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="833.0" Y="196.0" GraphRef="cb72b" RelX="0.7599999999999909" RelY="0.0" />
+      <Point X="876.0" Y="196.0" GraphRef="a9e6a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662473" />
+  </Interaction>
+  <Interaction GraphId="a627e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="833.0" Y="196.0" GraphRef="cb72b" RelX="0.7599999999999909" RelY="0.0" />
+      <Point X="866.0" Y="161.0" GraphRef="df137" RelX="-0.024390243902439025" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662473" />
+  </Interaction>
+  <Interaction GraphId="f8254">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="796.0" Y="256.0" GraphRef="cae8e" RelX="-0.02040816326530612" RelY="-1.0" />
+      <Point X="794.0" Y="196.0" GraphRef="ba436" RelX="-1.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5662473" />
+  </Interaction>
+  <Interaction GraphId="c8bd2">
+    <Comment Source="Reactome">Cytosolic CRYL1 (lambda-crystallin homolog, also known as L-gulonate 3-dehydrogenase) dimer catalyzes the NAD-dependent dehydrogenation of L-gulonate to form 3-dehydro-L-gulonate. The CRYL1 protein also functions as a lens crystallin, hence its name (Ishikura et al. 2005).</Comment>
+    <BiopaxRef>c56</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="516.0" Y="196.0" />
+      <Point X="603.0" Y="196.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a31cd" />
+      <Anchor Position="0.99" Shape="None" GraphId="ef4ca" />
+      <Anchor Position="0.5" Shape="None" GraphId="f4636" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661290" />
+  </Interaction>
+  <Interaction GraphId="e6484">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="477.0" Y="196.0" GraphRef="a1035" RelX="1.0" RelY="0.0" />
+      <Point X="516.0" Y="196.0" GraphRef="a31cd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661290" />
+  </Interaction>
+  <Interaction GraphId="e1d87">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="490.0" Y="161.0" GraphRef="d508f" RelX="-0.02040816326530612" RelY="1.0" />
+      <Point X="516.0" Y="196.0" GraphRef="a31cd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661290" />
+  </Interaction>
+  <Interaction GraphId="e0a26">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="603.0" Y="196.0" GraphRef="ef4ca" RelX="0.8700000000000045" RelY="0.0" />
+      <Point X="643.0" Y="196.0" GraphRef="d310d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661290" />
+  </Interaction>
+  <Interaction GraphId="fd6e0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="603.0" Y="196.0" GraphRef="ef4ca" RelX="0.8700000000000045" RelY="0.0" />
+      <Point X="619.0" Y="134.0" GraphRef="ea2bf" RelX="-0.030303030303030304" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661290" />
+  </Interaction>
+  <Interaction GraphId="c3529">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="603.0" Y="196.0" GraphRef="ef4ca" RelX="0.8700000000000045" RelY="0.0" />
+      <Point X="643.0" Y="146.0" GraphRef="ff8d2" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661290" />
+  </Interaction>
+  <Interaction GraphId="f0204">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="561.0" Y="250.0" GraphRef="ee9a2" RelX="-0.01694915254237288" RelY="-1.0" />
+      <Point X="559.0" Y="196.0" GraphRef="f4636" RelX="-0.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661290" />
+  </Interaction>
+  <Interaction GraphId="cb990">
+    <Comment Source="Reactome">Cytosolic AKR1A1 (Aldo-keto reductase family 1 member A1) catalyzes the  reduction by NADPH of D-glucuronate to L-gulonate (Barski et al. 1995).</Comment>
+    <BiopaxRef>dc5</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="251.0" Y="196.0" />
+      <Point X="346.0" Y="196.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b88d7" />
+      <Anchor Position="0.99" Shape="None" GraphId="b255a" />
+      <Anchor Position="0.5" Shape="None" GraphId="e0670" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661256" />
+  </Interaction>
+  <Interaction GraphId="e45c4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="211.0" Y="196.0" GraphRef="a651a" RelX="0.9819819819819819" RelY="0.0" />
+      <Point X="251.0" Y="196.0" GraphRef="b88d7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661256" />
+  </Interaction>
+  <Interaction GraphId="d0fcc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="219.0" Y="146.0" GraphRef="f290c" RelX="0.9649122807017544" RelY="0.0" />
+      <Point X="251.0" Y="196.0" GraphRef="b88d7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661256" />
+  </Interaction>
+  <Interaction GraphId="a3908">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="246.0" Y="134.0" GraphRef="f916c" RelX="-0.030303030303030304" RelY="1.0" />
+      <Point X="251.0" Y="196.0" GraphRef="b88d7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661256" />
+  </Interaction>
+  <Interaction GraphId="fcaca">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="346.0" Y="196.0" GraphRef="b255a" RelX="0.9499999999999886" RelY="0.0" />
+      <Point X="387.0" Y="196.0" GraphRef="a1035" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661256" />
+  </Interaction>
+  <Interaction GraphId="eb7db">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="346.0" Y="196.0" GraphRef="b255a" RelX="0.9499999999999886" RelY="0.0" />
+      <Point X="371.0" Y="146.0" GraphRef="d384c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661256" />
+  </Interaction>
+  <Interaction GraphId="a3692">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="272.0" Y="267.0" GraphRef="b8774" RelX="-1.0" RelY="0.0" />
+      <Point X="299.0" Y="196.0" GraphRef="e0670" RelX="0.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5661256" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="f33ae" GroupRef="f8a50">
+    <Graphics CenterX="1751.0" CenterY="340.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="c17a4" GroupRef="f8a50">
+    <Graphics CenterX="931.5" CenterY="203.5" Width="1739.0" Height="331.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="b70ec" GraphId="eb9b5" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5652211" />
+  </Group>
+  <Group GroupId="c5c2d" GraphId="aa096" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5660027" />
+  </Group>
+  <Group GroupId="bf0f7" GraphId="b2436" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5661289" />
+  </Group>
+  <Group GroupId="f8a50" GraphId="d54e4" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e81">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18987987</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The biochemistry, metabolism and inherited defects of the pentose phosphate pathway: a review.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wamelink MM, Struys EA, Jakobs C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2691249</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Variability within mammalian sorbitol dehydrogenases. The primary structure of the human liver enzyme.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karlsson C, Maret W, Auld DS, Höög JO, Jörnvall H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3365415</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purification and characterization of human liver sorbitol dehydrogenase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maret W, Auld DS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cea">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12962626</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-ray crystallographic and kinetic studies of human sorbitol dehydrogenase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pauly TA, Ekstrom JL, Beebe DA, Chrunyk B, Cunningham D, Griffor M, Kamath A, Lee SE, Madura R, Mcguire D, Subashi T, Wasilko D, Watts P, Mylari BL, Oates PJ, Adams PD, Rath VL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c58">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8722620</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surface localization of P34H an epididymal protein, during maturation, capacitation, and acrosome reaction of human spermatozoa.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boué F, Blais J, Sullivan R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e21">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11882650</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular characterization of mammalian dicarbonyl/L-xylulose reductase and its localization in kidney.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakagawa J, Ishikura S, Asami J, Isaji T, Usami N, Hara A, Sakurai T, Tsuritani K, Oda K, Takahashi M, Yoshimoto M, Otsuka N, Kitamura K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e28">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15103634</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structure of human L-xylulose reductase holoenzyme: probing the role of Asn107 with site-directed mutagenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El-Kabbani O, Ishikura S, Darmanin C, Carbone V, Chung RP, Usami N, Hara A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b63">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14007506</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzymic formation of L-xylulose from beeta-keto-L-gulonic acid.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WINKELMAN J, ASHWELL G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c56">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15809331</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural and functional characterization of rabbit and human L-gulonate 3-dehydrogenase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ishikura S, Usami N, Araki M, Hara A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23179721</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure and function of human xylulokinase, an enzyme with important roles in carbohydrate metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bunker RD, Bulloch EM, Dickson JM, Loomes KM, Baker EN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e17">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8487505</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Membrane-bound sorbitol dehydrogenase in human red blood cells. Studies in normal subjects and in enzyme-deficient subjects with congenital cataracts.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alvarez A, Martínez A, Ibarra B, Medina C, Bracamontes M, Perea J, Vaca G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22042873</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garrod's fourth inborn error of metabolism solved by the identification of mutations causing pentosuria.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pierce SB, Spurrell CH, Mandell JB, Lee MK, Zeligson S, Bereman MS, Stray SM, Fokstuen S, MacCoss MJ, Levy-Lahad E, King MC, Motulsky AG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4392213</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The enzymatic defect in essential pentosuria.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang YM, Van Eys J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7669785</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of human aldehyde reductase: characterization of the active site pocket.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barski OA, Gabbay KH, Grimshaw CE, Bohren KM.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

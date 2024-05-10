@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Regulation of cholesterol biosynthesis by SREBP (SREBF)" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Sterol regulatory element binding proteins (SREBPs, SREBFs) respond to low cholesterol concentrations by transiting to the nucleus and activating genes involved in cholesterol and lipid biosynthesis (reviewed in Brown and Goldstein 2009, Osborne and Espenshade 2009, Weber et al. 2004).&lt;br&gt; Newly synthesized SREBPs are transmembrane proteins that bind SCAP in the endoplasmic reticulum (ER) membrane. SCAP binds cholesterol which causes a conformational change that allows SCAP to interact with INSIG, retaining the SCAP:SREBP complex in the ER. INSIG binds oxysterols, which cause INSIG to bind SCAP and retain SCAP:SREBP in the endoplasmic reticulum.&lt;br&gt;In low cholesterol (below about 5 mol%) SCAP no longer interacts with cholesterol or INSIG and binds Sec24 of the CopII coat complex instead. Thus SCAP:SREBP transits with the CopII complex from the ER to the Golgi. In the Golgi SREBP is cleaved by S1P and then by S2P, releasing the N-terminal fragment of SREBP into the cytosol. The N-terminal fragment is imported to the nucleus by importin-beta and then acts with other factors, such as SP1 and NF-Y, to activate transcription of target genes. Targets of SREBP include the genes encoding all enzymes of cholesterol biosynthesis and several genes involved in lipogenesis. SREBP2 most strongly activates cholesterol biosynthesis while SREBP1C most strongly activates lipogenesis.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1655829 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 1655829</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: May, Bruce</Comment>
+  <BiopaxRef>c7a</BiopaxRef>
+  <BiopaxRef>d77</BiopaxRef>
+  <BiopaxRef>a84</BiopaxRef>
+  <Attribute Key="reactome_id" Value="1655829" />
+  <Graphics BoardWidth="1309.0" BoardHeight="1633.0" />
+  <DataNode TextLabel="SREBP1A,1C,2:SCAP:Cop II Coat" GraphId="cb538" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="619.5" CenterY="100.0" Width="211.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1655765" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="de0cf" Type="Metabolite" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="841.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="SAR1B " GraphId="f56ee" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="100.0" CenterY="861.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y6B6" />
+  </DataNode>
+  <DataNode TextLabel="SEC24A " GraphId="b463b" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="100.0" CenterY="881.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95486" />
+  </DataNode>
+  <DataNode TextLabel="SEC24B " GraphId="cf4ce" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="13" />
+    <Graphics CenterX="100.0" CenterY="901.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95487" />
+  </DataNode>
+  <DataNode TextLabel="SEC24C " GraphId="ed784" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="16" />
+    <Graphics CenterX="100.0" CenterY="921.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P53992" />
+  </DataNode>
+  <DataNode TextLabel="SEC24D " GraphId="de097" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="19" />
+    <Graphics CenterX="100.0" CenterY="941.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O94855" />
+  </DataNode>
+  <DataNode TextLabel="SEC23A " GraphId="afa5c" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="22" />
+    <Graphics CenterX="100.0" CenterY="961.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15436" />
+  </DataNode>
+  <DataNode TextLabel="SCAP " GraphId="e5c8e" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="25" />
+    <Graphics CenterX="100.0" CenterY="981.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12770" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1 " GraphId="edd45" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="28" />
+    <Graphics CenterX="100.0" CenterY="1001.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="b1d11" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="31" />
+    <Graphics CenterX="100.0" CenterY="1021.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-1141) " GraphId="d1cb5" Type="Protein" GroupRef="a2f68">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+    <Attribute Key="copies_num" Value="34" />
+    <Graphics CenterX="100.0" CenterY="1041.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="SREBP1A,1C,2:SCAP" GraphId="ca91e" Type="Complex">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="973.0" CenterY="67.0" Width="154.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1655742" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1 " GraphId="cfecb" Type="Protein" GroupRef="de603">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655742" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="bc650" Type="Protein" GroupRef="de603">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655742" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="100.0" CenterY="1121.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-1141) " GraphId="ac079" Type="Protein" GroupRef="de603">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655742" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="100.0" CenterY="1141.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="SCAP " GraphId="da890" Type="Protein" GroupRef="de603">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655742" />
+    <Attribute Key="copies_num" Value="13" />
+    <Graphics CenterX="100.0" CenterY="1161.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12770" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1A,1C,2 cleaved&#xA;by S1P" GraphId="da871" Type="Complex">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="974.0" CenterY="267.5" Width="202.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1655726" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1(1-530) " GraphId="f8051" Type="Protein" GroupRef="c5ea3">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655726" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1221.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="abdcc" Type="Protein" GroupRef="c5ea3">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655726" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1241.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-522) " GraphId="b9e96" Type="Protein" GroupRef="c5ea3">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655726" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1261.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="SCAP tetramer" GraphId="e977c" Type="Complex">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1100.0" CenterY="206.5" Width="120.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1655737" />
+  </DataNode>
+  <DataNode TextLabel="SCAP " GraphId="a1ea1" Type="Protein" GroupRef="f75f8">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655737" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1321.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12770" />
+  </DataNode>
+  <DataNode TextLabel="MBTPS1" GraphId="ff3ac" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1075.0" CenterY="130.0" Width="68.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14703" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1A,1C,2 cleaved&#xA;by S2P" GraphId="ea4ca" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1009.5" CenterY="429.5" Width="211.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1655732" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1(1-490) " GraphId="f5ca4" Type="Protein" GroupRef="cdd52">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1655732" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1381.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="ed29d" Type="Protein" GroupRef="cdd52">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1655732" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1401.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-484) " GraphId="c4c81" Type="Protein" GroupRef="cdd52">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-1655732" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1421.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="MBTPS2" GraphId="cd3f9" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1088.0" CenterY="330.5" Width="52.0" Height="19.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43462" />
+  </DataNode>
+  <DataNode TextLabel="SREBP1A,1C,2:Importin beta-1" GraphId="ee1aa" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1057.0" CenterY="637.5" Width="216.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2065556" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1(1-490) " GraphId="e1436" Type="Protein" GroupRef="f90b9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2065556" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="841.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="f3cf2" Type="Protein" GroupRef="f90b9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2065556" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="861.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-484) " GraphId="e899f" Type="Protein" GroupRef="f90b9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2065556" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="881.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="KPNB1 " GraphId="d2f8d" Type="Protein" GroupRef="f90b9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2065556" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="901.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14974" />
+  </DataNode>
+  <DataNode TextLabel="SREBP1A,1C,2:Importin beta-1" GraphId="b13ef" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="472.0" CenterY="470.0" Width="212.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2065543" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1(1-490) " GraphId="d0729" Type="Protein" GroupRef="c9dd0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-2065543" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="961.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="a243c" Type="Protein" GroupRef="c9dd0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-2065543" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="981.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-484) " GraphId="ad3ca" Type="Protein" GroupRef="c9dd0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-2065543" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1001.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="KPNB1 " GraphId="dda55" Type="Protein" GroupRef="c9dd0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-2065543" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1021.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14974" />
+  </DataNode>
+  <DataNode TextLabel="SREBP1A,1C,2 dimer" GraphId="c38f2" Type="Complex">
+    <BiopaxRef>beb</BiopaxRef>
+    <BiopaxRef>f9f</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1142.5" CenterY="536.0" Width="157.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2065548" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1(1-490) " GraphId="d6754" Type="Protein" GroupRef="f5893">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2065548" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1081.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="d88c2" Type="Protein" GroupRef="f5893">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2065548" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-484) " GraphId="dca94" Type="Protein" GroupRef="f5893">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2065548" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1121.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="RAN:GTP" GraphId="b52d8" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="659.0" CenterY="507.0" Width="82.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-180738" />
+  </DataNode>
+  <DataNode TextLabel="RAN " GraphId="cd458" Type="Protein" GroupRef="f3d2c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-180738" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1181.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62826" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="d7ca6" Type="Metabolite" GroupRef="f3d2c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-180738" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1201.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="Importin-beta:Ran&#xA;GTP complex" GraphId="d2061" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="603.0" CenterY="619.5" Width="218.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-180719" />
+  </DataNode>
+  <DataNode TextLabel="KPNB1 " GraphId="be932" Type="Protein" GroupRef="f4c35">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-180719" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1261.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14974" />
+  </DataNode>
+  <DataNode TextLabel="RAN " GraphId="f8cb1" Type="Protein" GroupRef="f4c35">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-180719" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1281.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62826" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="a1713" Type="Metabolite" GroupRef="f4c35">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-180719" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1301.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="SREBP1A,1C,2 dimer" GraphId="ba600" Type="Complex">
+    <BiopaxRef>ea1</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="364.5" CenterY="572.5" Width="159.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1655744" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1(1-490) " GraphId="b7b83" Type="Protein" GroupRef="c4748">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1655744" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1361.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="c1ece" Type="Protein" GroupRef="c4748">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1655744" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1381.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-484) " GraphId="b9c4b" Type="Protein" GroupRef="c4748">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1655744" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1401.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="SAR1B:GTP:SEC23:SEC24" GraphId="d8e8d" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="380.0" CenterY="91.5" Width="194.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-203997" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="eb0b6" Type="Metabolite" GroupRef="e24cf">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-203997" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="SAR1B " GraphId="fcc06" Type="Protein" GroupRef="e24cf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-203997" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1481.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y6B6" />
+  </DataNode>
+  <DataNode TextLabel="SEC24A " GraphId="b0372" Type="Protein" GroupRef="e24cf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-203997" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1501.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95486" />
+  </DataNode>
+  <DataNode TextLabel="SEC24B " GraphId="c6e92" Type="Protein" GroupRef="e24cf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-203997" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1521.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95487" />
+  </DataNode>
+  <DataNode TextLabel="SEC24C " GraphId="b5e4e" Type="Protein" GroupRef="e24cf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-203997" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1541.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P53992" />
+  </DataNode>
+  <DataNode TextLabel="SEC24D " GraphId="ffbb2" Type="Protein" GroupRef="e24cf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-203997" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1561.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O94855" />
+  </DataNode>
+  <DataNode TextLabel="SEC23A " GraphId="a8a4f" Type="Protein" GroupRef="e24cf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-203997" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1581.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15436" />
+  </DataNode>
+  <DataNode TextLabel="INSIG" GraphId="e7554" Type="Complex">
+    <BiopaxRef>fb2</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="437.0" CenterY="205.5" Width="60.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1655749" />
+  </DataNode>
+  <DataNode TextLabel="INSIG1 " GraphId="b855e" Type="Protein" GroupRef="b0b80">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655749" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="841.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15503" />
+  </DataNode>
+  <DataNode TextLabel="INSIG2 " GraphId="c6004" Type="Protein" GroupRef="b0b80">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655749" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="861.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y5U4" />
+  </DataNode>
+  <DataNode TextLabel="SREBP1A,1C,2:SCAP:cholesterol:INSIG" GraphId="ad6c7" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="440.0" CenterY="326.5" Width="256.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1655766" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1 " GraphId="ff723" Type="Protein" GroupRef="bded8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655766" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="921.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="e7162" Type="Protein" GroupRef="bded8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655766" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="941.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-1141) " GraphId="e6ad1" Type="Protein" GroupRef="bded8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655766" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="380.0" CenterY="961.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="CHOL " GraphId="c990a" Type="Metabolite" GroupRef="bded8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655766" />
+    <Attribute Key="copies_num" Value="13" />
+    <Graphics CenterX="380.0" CenterY="981.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16113" />
+  </DataNode>
+  <DataNode TextLabel="SCAP " GraphId="b793c" Type="Protein" GroupRef="bded8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655766" />
+    <Attribute Key="copies_num" Value="16" />
+    <Graphics CenterX="380.0" CenterY="1001.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12770" />
+  </DataNode>
+  <DataNode TextLabel="INSIG1 " GraphId="bb63e" Type="Protein" GroupRef="bded8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655766" />
+    <Attribute Key="copies_num" Value="19" />
+    <Graphics CenterX="380.0" CenterY="1021.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15503" />
+  </DataNode>
+  <DataNode TextLabel="INSIG2 " GraphId="b1946" Type="Protein" GroupRef="bded8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-1655766" />
+    <Attribute Key="copies_num" Value="22" />
+    <Graphics CenterX="380.0" CenterY="1041.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y5U4" />
+  </DataNode>
+  <DataNode TextLabel="INSIG:oxysterol" GraphId="e53dc" Type="Complex">
+    <BiopaxRef>e56</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="97.5" CenterY="126.5" Width="115.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2317517" />
+  </DataNode>
+  <DataNode TextLabel="INSIG1 " GraphId="fcf5c" Type="Protein" GroupRef="fc7e3">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317517" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15503" />
+  </DataNode>
+  <DataNode TextLabel="INSIG2 " GraphId="f3b36" Type="Protein" GroupRef="fc7e3">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317517" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1121.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y5U4" />
+  </DataNode>
+  <DataNode TextLabel="oxysterol " GraphId="e8f3f" Type="Metabolite" GroupRef="fc7e3">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317517" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1141.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:53030" />
+  </DataNode>
+  <DataNode TextLabel="SREBP1A,1C,2:SCAP:INSIG:oxysterol" GraphId="f860d" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="163.5" CenterY="326.0" Width="249.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2317522" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1 " GraphId="e526c" Type="Protein" GroupRef="d5daf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317522" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="1201.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="fd464" Type="Protein" GroupRef="d5daf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317522" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1221.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-1141) " GraphId="e73b0" Type="Protein" GroupRef="d5daf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317522" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="380.0" CenterY="1241.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="SCAP " GraphId="c9a7b" Type="Protein" GroupRef="d5daf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317522" />
+    <Attribute Key="copies_num" Value="13" />
+    <Graphics CenterX="380.0" CenterY="1261.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12770" />
+  </DataNode>
+  <DataNode TextLabel="INSIG1 " GraphId="eb789" Type="Protein" GroupRef="d5daf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317522" />
+    <Attribute Key="copies_num" Value="16" />
+    <Graphics CenterX="380.0" CenterY="1281.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15503" />
+  </DataNode>
+  <DataNode TextLabel="INSIG2 " GraphId="f3454" Type="Protein" GroupRef="d5daf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317522" />
+    <Attribute Key="copies_num" Value="19" />
+    <Graphics CenterX="380.0" CenterY="1301.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y5U4" />
+  </DataNode>
+  <DataNode TextLabel="oxysterol " GraphId="b3b1d" Type="Metabolite" GroupRef="d5daf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317522" />
+    <Attribute Key="copies_num" Value="22" />
+    <Graphics CenterX="380.0" CenterY="1321.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:53030" />
+  </DataNode>
+  <DataNode TextLabel="KPNB1" GraphId="d63fa" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="903.0" CenterY="539.0" Width="116.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14974" />
+  </DataNode>
+  <DataNode TextLabel="SREBP1A,1C,2:SCAP" GraphId="d42e5" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="214.5" CenterY="51.0" Width="149.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2317520" />
+  </DataNode>
+  <DataNode TextLabel="SCAP " GraphId="f143d" Type="Protein" GroupRef="ba416">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317520" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="1381.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12770" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-1 " GraphId="b57b4" Type="Protein" GroupRef="ba416">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317520" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1401.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-1" />
+  </DataNode>
+  <DataNode TextLabel="SREBF1-3 " GraphId="be2dc" Type="Protein" GroupRef="ba416">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317520" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="380.0" CenterY="1421.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36956-3" />
+  </DataNode>
+  <DataNode TextLabel="SREBF2(1-1141) " GraphId="b580b" Type="Protein" GroupRef="ba416">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2317520" />
+    <Attribute Key="copies_num" Value="13" />
+    <Graphics CenterX="380.0" CenterY="1441.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12772" />
+  </DataNode>
+  <DataNode TextLabel="CHOL" GraphId="f41c2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="412.5" CenterY="165.0" Width="81.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16113" />
+  </DataNode>
+  <DataNode TextLabel="Activation of gene&#xA;expression by SREBF&#xA;(SREBP)" GraphId="dee96" Type="Pathway">
+    <Comment Source="Reactome">After transiting to the nucleus SREBPs (SREBP1A/1C/2, SREBFs) bind short sequences, sterol regulatory elements (SREs), in the promoters of target genes (reviewed in Eberle et al. 2004, Weber et al. 2004). SREBPs alone are relatively weak activators of transcription, with SREBP1C being significantly weaker than SREBP1A or SREBP2. In combination with other transcription factors such as SP1 and NF-Y the SREBPs are much stronger activators. SREBP1C seems to more specifically target genes involved in fatty acid synthesis while SREBP2 seems to target genes involved in cholesterol synthesis (Pai et al. 1998).</Comment>
+    <BiopaxRef>b4c</BiopaxRef>
+    <BiopaxRef>efb</BiopaxRef>
+    <BiopaxRef>a84</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="285.5" CenterY="632.5" Width="343.0" Height="75.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-2426168" />
+  </DataNode>
+  <Interaction GraphId="d01c4">
+    <Comment Source="Reactome">SREBPs (SREBP1A, SREBP1C, SREBP2, also known as SREBFs) are transmembrane proteins that bind SCAP in the endoplasmic reticulum membrane. In the presence of cholesterol or oxysterols SCAP:SREBP1A/1C/2 binds INSIG and is retained in the endoplasmic reticulum. At cholesterol concentrations below 5 mol%  SCAP changes conformation, SCAP:SREBP1A/1C/2 loses interaction with INSIG, binds the CopII coat complex, and is translocated to the Golgi.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="448.0" Y="50.0" />
+      <Point X="593.0" Y="85.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a6ebf" />
+      <Anchor Position="0.99" Shape="None" GraphId="a0ed1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655825" />
+  </Interaction>
+  <Interaction GraphId="de192">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="477.0" Y="91.0" GraphRef="d8e8d" RelX="1.0" RelY="-0.037037037037037035" />
+      <Point X="448.0" Y="50.0" GraphRef="a6ebf" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655825" />
+  </Interaction>
+  <Interaction GraphId="d1361">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="288.0" Y="51.0" GraphRef="d42e5" RelX="0.9865771812080537" RelY="0.0" />
+      <Point X="448.0" Y="50.0" GraphRef="a6ebf" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655825" />
+  </Interaction>
+  <Interaction GraphId="c0621">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="593.0" Y="85.0" GraphRef="a0ed1" RelX="1.4500000000000455" RelY="0.3499999999999943" />
+      <Point X="619.0" Y="88.0" GraphRef="cb538" RelX="-0.004739336492890996" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655825" />
+  </Interaction>
+  <Interaction GraphId="ec01a">
+    <Comment Source="Reactome">In low concentrations of cholesterol SCAP interacts with Sec24 of the CopII coat complex causing SCAP:SREBP1A/1C/2 to be transported with the CopII complex from the endoplasmic reticulum to the Golgi.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="728.0" Y="95.0" />
+      <Point X="893.0" Y="76.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c5369" />
+      <Anchor Position="0.99" Shape="None" GraphId="d2e36" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655834" />
+  </Interaction>
+  <Interaction GraphId="b05c4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="724.0" Y="100.0" GraphRef="cb538" RelX="0.990521327014218" RelY="0.0" />
+      <Point X="728.0" Y="95.0" GraphRef="c5369" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655834" />
+  </Interaction>
+  <Interaction GraphId="c46c2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="893.0" Y="76.0" GraphRef="d2e36" RelX="1.6499999999999773" RelY="-0.18999999999999773" />
+      <Point X="896.0" Y="67.0" GraphRef="ca91e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655834" />
+  </Interaction>
+  <Interaction GraphId="ab60e">
+    <Comment Source="Reactome">S1P (MBTPS1, SKI-1), a membrane-bound protease in the Golgi, cleaves the intralumenal loop of SREBP1A/1C/2 (SREBF1A/1C/2), releasing the N-terminal domain of SREBP1A/1C/2, which remains bound to the membrane.</Comment>
+    <BiopaxRef>c5e</BiopaxRef>
+    <BiopaxRef>b51</BiopaxRef>
+    <BiopaxRef>db4</BiopaxRef>
+    <BiopaxRef>aec</BiopaxRef>
+    <BiopaxRef>fb5</BiopaxRef>
+    <BiopaxRef>b31</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="971.0" Y="81.0" />
+      <Point X="965.0" Y="180.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c8eba" />
+      <Anchor Position="0.99" Shape="None" GraphId="b081c" />
+      <Anchor Position="0.5" Shape="None" GraphId="e2a24" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655842" />
+  </Interaction>
+  <Interaction GraphId="f15d6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="973.0" Y="78.0" GraphRef="ca91e" RelX="0.0" RelY="1.0" />
+      <Point X="971.0" Y="81.0" GraphRef="c8eba" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655842" />
+  </Interaction>
+  <Interaction GraphId="a2c05">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="965.0" Y="180.0" GraphRef="b081c" RelX="-0.05999999999994543" RelY="0.9900000000000091" />
+      <Point X="974.0" Y="254.0" GraphRef="da871" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655842" />
+  </Interaction>
+  <Interaction GraphId="b4cca">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="965.0" Y="180.0" GraphRef="b081c" RelX="-0.05999999999994543" RelY="0.9900000000000091" />
+      <Point X="1040.0" Y="206.0" GraphRef="e977c" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655842" />
+  </Interaction>
+  <Interaction GraphId="a0e29">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1041.0" Y="130.0" GraphRef="ff3ac" RelX="-1.0" RelY="0.0" />
+      <Point X="967.0" Y="129.0" GraphRef="e2a24" RelX="-1.0" RelY="-1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655842" />
+  </Interaction>
+  <Interaction GraphId="a45de">
+    <Comment Source="Reactome">S2P(MBTPS2), a membrane-bound protease in the Golgi, cleaves within the transmembrane region of SREBP1A/1C/2 (SREBF1A/1C/2), releasing the N-terminal domain of SREBP1A/1C/2 into the cytosol.</Comment>
+    <BiopaxRef>d60</BiopaxRef>
+    <BiopaxRef>cbc</BiopaxRef>
+    <BiopaxRef>fb5</BiopaxRef>
+    <BiopaxRef>aec</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="977.0" Y="287.0" />
+      <Point X="1005.0" Y="408.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cde5a" />
+      <Anchor Position="0.99" Shape="None" GraphId="b365c" />
+      <Anchor Position="0.5" Shape="None" GraphId="c3498" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655851" />
+  </Interaction>
+  <Interaction GraphId="ea56d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="974.0" Y="280.0" GraphRef="da871" RelX="0.0" RelY="0.9259259259259259" />
+      <Point X="977.0" Y="287.0" GraphRef="cde5a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655851" />
+  </Interaction>
+  <Interaction GraphId="d3716">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1005.0" Y="408.0" GraphRef="b365c" RelX="0.2799999999999727" RelY="1.2100000000000364" />
+      <Point X="1009.0" Y="414.0" GraphRef="ea4ca" RelX="-0.004739336492890996" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655851" />
+  </Interaction>
+  <Interaction GraphId="dae7f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1062.0" Y="330.0" GraphRef="cd3f9" RelX="-1.0" RelY="-0.05263157894736842" />
+      <Point X="989.0" Y="331.0" GraphRef="c3498" RelX="-2.0" RelY="-16.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655851" />
+  </Interaction>
+  <Interaction GraphId="aa698">
+    <Comment Source="Reactome">The N-terminal domain of SREBP1A,1C,2 (SREBF1A,1C,2) dimerizes and is imported from the cytosol into the nucleus by importin-beta (Nagoshi et al. 1999, Nagoshi and Yoned 2001, Lee et al. 2003, Di Pardo et al. 2020). In the nucleus the dimers bind DNA (Parraga et al. 1998) and activate transcription (Datta and Osborne 2005).</Comment>
+    <BiopaxRef>fb5</BiopaxRef>
+    <BiopaxRef>aec</BiopaxRef>
+    <BiopaxRef>f99</BiopaxRef>
+    <BiopaxRef>dcc</BiopaxRef>
+    <BiopaxRef>af4</BiopaxRef>
+    <BiopaxRef>ea1</BiopaxRef>
+    <BiopaxRef>f9f</BiopaxRef>
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="946.0" Y="635.0" />
+      <Point X="581.0" Y="472.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d1b0d" />
+      <Anchor Position="0.99" Shape="None" GraphId="ed5d5" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655831" />
+  </Interaction>
+  <Interaction GraphId="d5627">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="949.0" Y="637.0" GraphRef="ee1aa" RelX="-1.0" RelY="-0.04" />
+      <Point X="946.0" Y="635.0" GraphRef="d1b0d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655831" />
+  </Interaction>
+  <Interaction GraphId="e9085">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="581.0" Y="472.0" GraphRef="ed5d5" RelX="-3.6499999999999773" RelY="-1.6299999999999955" />
+      <Point X="578.0" Y="470.0" GraphRef="b13ef" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-1655831" />
+  </Interaction>
+  <Interaction GraphId="dff96">
+    <Comment Source="Reactome">The N-terminal domains of SREBPs (SREBP1A/1C/2, SREBFs) dimerize via interaction of their helix-loop-helix leucine zipper domains (Nagoshi and Yoneda 2001).</Comment>
+    <BiopaxRef>f99</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1015.0" Y="451.0" />
+      <Point X="1109.0" Y="521.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bd08d" />
+      <Anchor Position="0.99" Shape="None" GraphId="fce5c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065549" />
+  </Interaction>
+  <Interaction GraphId="c41a6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1009.0" Y="444.0" GraphRef="ea4ca" RelX="-0.004739336492890996" RelY="0.9354838709677419" />
+      <Point X="1015.0" Y="451.0" GraphRef="bd08d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065549" />
+  </Interaction>
+  <Interaction GraphId="b41f2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1109.0" Y="521.0" GraphRef="fce5c" RelX="0.9400000000000546" RelY="0.7000000000000455" />
+      <Point X="1142.0" Y="524.0" GraphRef="c38f2" RelX="-0.006369426751592357" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065549" />
+  </Interaction>
+  <Interaction GraphId="a8fb5">
+    <Comment Source="Reactome">SREBP2 dimer (also called SREBF2 dimer) and, by inference SREBP1A,1C dimer, binds Importin beta-1 via the helix-loop-helix leucine zipper domain of SREBP1A,1C,2 (Nagoshi et al. 1999, Di Pardo et al. 2020).</Comment>
+    <BiopaxRef>af4</BiopaxRef>
+    <BiopaxRef>bff</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1027.0" Y="556.0" />
+      <Point X="1049.0" Y="622.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d92ca" />
+      <Anchor Position="0.99" Shape="None" GraphId="ec026" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065550" />
+  </Interaction>
+  <Interaction GraphId="e6d7c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="961.0" Y="539.0" GraphRef="d63fa" RelX="1.0" RelY="0.0" />
+      <Point X="1027.0" Y="556.0" GraphRef="d92ca" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065550" />
+  </Interaction>
+  <Interaction GraphId="a594e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1064.0" Y="536.0" GraphRef="c38f2" RelX="-1.0" RelY="0.0" />
+      <Point X="1027.0" Y="556.0" GraphRef="d92ca" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065550" />
+  </Interaction>
+  <Interaction GraphId="bf0ca">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1049.0" Y="622.0" GraphRef="ec026" RelX="0.22000000000002728" RelY="0.6599999999999682" />
+      <Point X="1057.0" Y="625.0" GraphRef="ee1aa" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065550" />
+  </Interaction>
+  <Interaction GraphId="a58d3">
+    <Comment Source="Reactome">SREBP1A/1C/2 (SREBF1A/1C/2) dimer dissociates from Importin beta-1 in response to Ran-GTP in the nucleoplasm (Nagoshi et al. 1999).</Comment>
+    <BiopaxRef>af4</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="560.0" Y="523.0" />
+      <Point X="562.0" Y="577.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b5c8f" />
+      <Anchor Position="0.99" Shape="None" GraphId="f467d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065539" />
+  </Interaction>
+  <Interaction GraphId="e7334">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="618.0" Y="507.0" GraphRef="b52d8" RelX="-1.0" RelY="0.0" />
+      <Point X="560.0" Y="523.0" GraphRef="b5c8f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065539" />
+  </Interaction>
+  <Interaction GraphId="a4f99">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="578.0" Y="470.0" GraphRef="b13ef" RelX="1.0" RelY="0.0" />
+      <Point X="560.0" Y="523.0" GraphRef="b5c8f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065539" />
+  </Interaction>
+  <Interaction GraphId="f7988">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="562.0" Y="577.0" GraphRef="f467d" RelX="0.01999999999998181" RelY="0.5399999999999636" />
+      <Point X="603.0" Y="608.0" GraphRef="d2061" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065539" />
+  </Interaction>
+  <Interaction GraphId="d39bb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="562.0" Y="577.0" GraphRef="f467d" RelX="0.01999999999998181" RelY="0.5399999999999636" />
+      <Point X="443.0" Y="572.0" GraphRef="ba600" RelX="0.9874213836477987" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2065539" />
+  </Interaction>
+  <Interaction GraphId="ce0c2">
+    <Comment Source="Reactome">SREBPs (SREBP1A/1C/2, SREBFs) bind SCAP in the endoplasmic reticulum membrane. Luminal loop 1 of SCAP binds cholesterol which prevents SCAP from interacting with Sec24 in the CopII coat complex and allows SCAP to interact with INSIG instead. These interactions retain SCAP:SREBP1A/1C/2 in the endoplasmic reticulum. The order of assembly of the SREBP1A/1C/2:SCAP:cholesterol:INSIG complex is unknown.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="332.0" Y="209.0" />
+      <Point X="427.0" Y="310.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e2e08" />
+      <Anchor Position="0.99" Shape="None" GraphId="b6b7d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2317530" />
+  </Interaction>
+  <Interaction GraphId="e64fe">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="372.0" Y="165.0" GraphRef="f41c2" RelX="-1.0" RelY="0.0" />
+      <Point X="332.0" Y="209.0" GraphRef="e2e08" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2317530" />
+  </Interaction>
+  <Interaction GraphId="a6c56">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="407.0" Y="205.0" GraphRef="e7554" RelX="-1.0" RelY="-0.043478260869565216" />
+      <Point X="332.0" Y="209.0" GraphRef="e2e08" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2317530" />
+  </Interaction>
+  <Interaction GraphId="c7d68">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="288.0" Y="51.0" GraphRef="d42e5" RelX="0.9865771812080537" RelY="0.0" />
+      <Point X="332.0" Y="209.0" GraphRef="e2e08" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2317530" />
+  </Interaction>
+  <Interaction GraphId="e520f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="427.0" Y="310.0" GraphRef="b6b7d" RelX="0.9499999999999886" RelY="1.009999999999991" />
+      <Point X="440.0" Y="313.0" GraphRef="ad6c7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2317530" />
+  </Interaction>
+  <Interaction GraphId="f954f">
+    <Comment Source="Reactome">INSIG binds oxysterols and the INSIG:oxysterol complex interacts with SCAP subunits of the SREBP1A/1C/2:SCAP (SREBF1A/1C/2:SCAP) complex. This interaction retains the SREBP1A/1C/2:SCAP:INSIG:oxysterol complex in the endoplasmic reticulum. The order of assembly of the SREBP1A/1C/2:SCAP:INSIG:oxysterol complex is unknown.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="193.0" Y="201.0" />
+      <Point X="165.0" Y="310.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d7340" />
+      <Anchor Position="0.99" Shape="None" GraphId="eb938" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2317531" />
+  </Interaction>
+  <Interaction GraphId="da7e7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="154.0" Y="126.0" GraphRef="e53dc" RelX="0.9826086956521739" RelY="-0.043478260869565216" />
+      <Point X="193.0" Y="201.0" GraphRef="d7340" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2317531" />
+  </Interaction>
+  <Interaction GraphId="cf4a0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="214.0" Y="65.0" GraphRef="d42e5" RelX="-0.006711409395973154" RelY="1.0" />
+      <Point X="193.0" Y="201.0" GraphRef="d7340" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2317531" />
+  </Interaction>
+  <Interaction GraphId="bb7a8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="165.0" Y="310.0" GraphRef="eb938" RelX="-0.28000000000000114" RelY="1.0900000000000318" />
+      <Point X="163.0" Y="313.0" GraphRef="f860d" RelX="-0.004016064257028112" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2317531" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="def65" GroupRef="ae13f">
+    <Graphics CenterX="68.0" CenterY="741.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="a8c9e" GroupRef="da145">
+    <Graphics CenterX="154.5" CenterY="691.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="endoplasmic reticulum membrane" GraphId="fdbbd" GroupRef="fc3c9">
+    <Graphics CenterX="149.0" CenterY="369.5" Width="232.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Golgi membrane" GraphId="a518d" GroupRef="fe59f">
+    <Graphics CenterX="851.0" CenterY="361.5" Width="122.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="c66ad" GroupRef="ae13f">
+    <Graphics CenterX="639.0" CenterY="388.5" Width="1264.0" Height="769.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c3b48" GroupRef="da145">
+    <Graphics CenterX="409.5" CenterY="578.5" Width="649.0" Height="289.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="e86e3" GroupRef="fc3c9">
+    <Graphics CenterX="385.0" CenterY="209.0" Width="718.0" Height="374.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="f81d2" GroupRef="fe59f">
+    <Graphics CenterX="978.5" CenterY="207.0" Width="383.0" Height="352.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="a2f68" GraphId="f2a07" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1655765" />
+  </Group>
+  <Group GroupId="de603" GraphId="d0064" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1655742" />
+  </Group>
+  <Group GroupId="c5ea3" GraphId="e6c91">
+    <Attribute Key="complex_id" Value="R-HSA-1655726" />
+  </Group>
+  <Group GroupId="f75f8" GraphId="a2615" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1655737" />
+  </Group>
+  <Group GroupId="cdd52" GraphId="e962b">
+    <Attribute Key="complex_id" Value="R-HSA-1655732" />
+  </Group>
+  <Group GroupId="f90b9" GraphId="d1355" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2065556" />
+  </Group>
+  <Group GroupId="c9dd0" GraphId="b6ef7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2065543" />
+  </Group>
+  <Group GroupId="f5893" GraphId="be626" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2065548" />
+  </Group>
+  <Group GroupId="f3d2c" GraphId="b38d4" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-180738" />
+  </Group>
+  <Group GroupId="f4c35" GraphId="fe25a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-180719" />
+  </Group>
+  <Group GroupId="c4748" GraphId="c3317" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1655744" />
+  </Group>
+  <Group GroupId="e24cf" GraphId="b3990" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-203997" />
+  </Group>
+  <Group GroupId="b0b80" GraphId="f2e17">
+    <Attribute Key="complex_id" Value="R-HSA-1655749" />
+  </Group>
+  <Group GroupId="bded8" GraphId="b085a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-1655766" />
+  </Group>
+  <Group GroupId="fc7e3" GraphId="adf55" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2317517" />
+  </Group>
+  <Group GroupId="d5daf" GraphId="e991d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2317522" />
+  </Group>
+  <Group GroupId="ba416" GraphId="a706d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2317520" />
+  </Group>
+  <Group GroupId="ae13f" GraphId="d543c" Style="Group" />
+  <Group GroupId="da145" GraphId="b41a6" Style="Group" />
+  <Group GroupId="fc3c9" GraphId="f625d" Style="Group" />
+  <Group GroupId="fe59f" GraphId="fb145" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18974038</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholesterol feedback: from Schoenheimer's bottle to Scap's MELADL.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown MS, Goldstein JL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d77">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19933148</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evolutionary conservation and adaptation in the mechanism that regulates SREBP action: what a long, strange tRIP it's been.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osborne TF, Espenshade PJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a84">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15457548</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maintaining cholesterol homeostasis: sterol regulatory element-binding proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weber LW, Boll M, Stampfl A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="beb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15798184</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatial distribution and function of sterol regulatory element-binding protein 1a and 2 homo- and heterodimers by in vivo two-photon imaging and spectroscopy fluorescence resonance energy transfer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zoumi A, Datta S, Liaw LH, Wu CJ, Manthripragada G, Osborne TF, Lamorte VJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15550381</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation domains from both monomers contribute to transcriptional stimulation by sterol regulatory element-binding protein dimers.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Datta S, Osborne TF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9634703</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co-crystal structure of sterol regulatory element binding protein 1a at 2.3 A resolution.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Párraga A, Bellsolell L, Ferré-D'Amaré AR, Burley SK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12242332</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insig-2, a second endoplasmic reticulum protein that binds SCAP and blocks export of sterol regulatory element-binding proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yabe D, Brown MS, Goldstein JL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e56">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17428920</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sterol-regulated transport of SREBPs from endoplasmic reticulum to Golgi: oxysterols block transport by binding to Insig.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radhakrishnan A, Ikeda Y, Kwon HJ, Brown MS, Goldstein JL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15589694</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SREBP transcription factors: master regulators of lipid homeostasis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eberlé D, Hegarty B, Bossard P, Ferré P, Foufelle F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9748295</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Differential stimulation of cholesterol and unsaturated fatty acid biosynthesis in cells expressing individual nuclear sterol regulatory element-binding proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pai JT, Guryev O, Brown MS, Goldstein JL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10644685</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biosynthesis and enzymatic characterization of human SKI-1/S1P and the processing of its inhibitory prosegment.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Touré BB, Munzer JS, Basak A, Benjannet S, Rochemont J, Lazure C, Chrétien M, Seidah NG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17449569</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genistein downregulates SREBP-1 regulated gene expression by inhibiting site-1 protease expression in HepG2 cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shin ES, Lee HH, Cho SY, Park HW, Lee SJ, Lee TR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10428864</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autocatalytic processing of site-1 protease removes propeptide and permits cleavage of sterol regulatory element-binding proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espenshade PJ, Cheng D, Goldstein JL, Brown MS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aec">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8674110</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sterol-regulated release of SREBP-2 from cell membranes requires two sequential cleavages, one within a transmembrane segment.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sakai J, Duncan EA, Rawson RB, Hua X, Brown MS, Goldstein JL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8156598</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SREBP-1, a membrane-bound transcription factor released by sterol-regulated proteolysis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang X, Sato R, Brown MS, Hua X, Goldstein JL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b31">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9488713</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleavage of sterol regulatory element-binding proteins (SREBPs) at site-1 requires interaction with SREBP cleavage-activating protein. Evidence from in vivo competition studies.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sakai J, Nohturfft A, Goldstein JL, Brown MS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d60">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10805775</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asparagine-proline sequence within membrane-spanning segment of SREBP triggers intramembrane cleavage by site-2 protease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ye J, Davé UP, Grishin NV, Goldstein JL, Brown MS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cbc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9659902</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complementation cloning of S2P, a gene encoding a putative metalloprotease required for intramembrane cleavage of SREBPs.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rawson RB, Zelenski NG, Nijhawan D, Ye J, Sakai J, Hasan MT, Chang TY, Brown MS, Goldstein JL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f99">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11283257</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dimerization of sterol regulatory element-binding protein 2 via the helix-loop-helix-leucine zipper domain is a prerequisite for its nuclear localization mediated by importin beta.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagoshi E, Yoneda Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dcc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14645851</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The structure of importin-beta bound to SREBP-2: nuclear import of a transcription factor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee SJ, Sekimoto T, Yamashita E, Nagoshi E, Nakagawa A, Imamoto N, Yoshimura M, Sakai H, Chong KT, Tsukihara T, Yoneda Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10397761</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuclear import of sterol regulatory element-binding protein-2, a basic helix-loop-helix-leucine zipper (bHLH-Zip)-containing transcription factor, occurs through the direct interaction of importin beta with HLH-Zip.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagoshi E, Imamoto N, Sato R, Yoneda Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31875875</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutant huntingtin interacts with the sterol regulatory element-binding proteins and impairs their nuclear import.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Di Pardo A, Monyror J, Morales LC, Kadam V, Lingrell S, Maglione V, Wozniak RW, Sipione S.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

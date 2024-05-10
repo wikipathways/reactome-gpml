@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Aryl hydrocarbon receptor signalling" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The aryl hydrocarbon receptor (AHR) is a ligand-activated transcription factor that belongs to the basic helix-loop-helix/PER-ARNT-SIM family of DNA binding proteins and controls the expression of a diverse set of genes. Two major types of environmental compounds can activate AHR signaling: halogenated aromatic hydrocarbons such as 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) and polycyclic aromatic hydrocarbons (PAH) such as benzo(a)pyrene. Unliganded AHR forms a complex in the cytosol with two copies of 90kD heat shock protein (HSP90AB1), one X-associated protein (AIP), and one p23 molecular chaperone protein (PTGES3). After ligand binding and activation, the AHR complex translocates to the nucleus, disassociates from the chaperone subunits, dimerises with the aryl hydrocarbon receptor nuclear translocator (ARNT) and transactivates target genes via binding to xenobiotic response elements (XREs) in their promoter regions. AHR targets genes of Phase I and Phase II metabolism, such as cytochrome P450 1A1 (CYP1A1), cytochorme P450 1B1 (CYP1B1), NAD(P)H:quinone oxidoreductase I (NQO1) and aldehyde dehydrogenase 3 (ALHD3A1). This is thought to be an organism's response to foreign chemical exposure and normally, foreign chemicals are made less reactive by the induction and therefore increased activity of these enzymes (Beischlag et al. 2008).&lt;br&gt;&lt;br&gt;AHR itself is regulated by the aryl hydrocarbon receptor repressor (AHRR, aka BHLHE77, KIAA1234), an evolutionarily conserved bHLH-PAS protein that inhibits both xenobiotic-induced and constitutively active AHR transcriptional activity in many species. AHRR  resides predominantly in the nuclear compartment where it competes with AHR for binding to ARNT. As a result, there is competition between AHR:ARNT and AHRR:ARNT complexes for binding to XREs in target genes and AHRR can repress the transcription activity of AHR (Hahn et al. 2009, Haarmann-Stemmann &amp; Abel 2006).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=8937144 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 8937144</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Jassal, Bijay</Comment>
+  <BiopaxRef>ccc</BiopaxRef>
+  <BiopaxRef>e86</BiopaxRef>
+  <BiopaxRef>e62</BiopaxRef>
+  <Attribute Key="reactome_id" Value="8937144" />
+  <Graphics BoardWidth="1201.0" BoardHeight="1230.0" />
+  <DataNode TextLabel="AHR:2xHSP90AB1:AIP:PTGES3" GraphId="d39f6" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="172.0" CenterY="256.0" Width="94.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8936844" />
+  </DataNode>
+  <DataNode TextLabel="AHR " GraphId="f97b1" Type="Protein" GroupRef="f7041">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8936844" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="582.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35869" />
+  </DataNode>
+  <DataNode TextLabel="HSP90AB1 " GraphId="f7eb3" Type="Protein" GroupRef="f7041">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8936844" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="602.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08238" />
+  </DataNode>
+  <DataNode TextLabel="AIP " GraphId="bfdad" Type="Protein" GroupRef="f7041">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8936844" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="622.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00170" />
+  </DataNode>
+  <DataNode TextLabel="PTGES3 " GraphId="a89d1" Type="Protein" GroupRef="f7041">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8936844" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="642.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15185" />
+  </DataNode>
+  <DataNode TextLabel="TCDD" GraphId="ddf68" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="182.5" CenterY="168.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28119" />
+  </DataNode>
+  <DataNode TextLabel="AHR:TCDD:2xHSP90AB1:AIP:PTGES3" GraphId="f8123" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="388.5" CenterY="215.0" Width="97.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8936846" />
+  </DataNode>
+  <DataNode TextLabel="AHR " GraphId="a53aa" Type="Protein" GroupRef="c65d3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8936846" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="702.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35869" />
+  </DataNode>
+  <DataNode TextLabel="HSP90AB1 " GraphId="ead72" Type="Protein" GroupRef="c65d3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8936846" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="722.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08238" />
+  </DataNode>
+  <DataNode TextLabel="AIP " GraphId="b9537" Type="Protein" GroupRef="c65d3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8936846" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="742.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00170" />
+  </DataNode>
+  <DataNode TextLabel="PTGES3 " GraphId="c4094" Type="Protein" GroupRef="c65d3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8936846" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="762.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15185" />
+  </DataNode>
+  <DataNode TextLabel="TCDD " GraphId="db1c2" Type="Metabolite" GroupRef="c65d3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8936846" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="782.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28119" />
+  </DataNode>
+  <DataNode TextLabel="AHR:TCDD:2xHSP90AB1:AIP:PTGES3" GraphId="ecfc2" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="573.5" CenterY="214.0" Width="95.0" Height="52.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8937154" />
+  </DataNode>
+  <DataNode TextLabel="TCDD " GraphId="c438c" Type="Metabolite" GroupRef="a9be2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937154" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="842.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28119" />
+  </DataNode>
+  <DataNode TextLabel="AHR " GraphId="ec0f2" Type="Protein" GroupRef="a9be2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937154" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="862.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35869" />
+  </DataNode>
+  <DataNode TextLabel="AIP " GraphId="d91a5" Type="Protein" GroupRef="a9be2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937154" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="882.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00170" />
+  </DataNode>
+  <DataNode TextLabel="PTGES3 " GraphId="daead" Type="Protein" GroupRef="a9be2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937154" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="902.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15185" />
+  </DataNode>
+  <DataNode TextLabel="HSP90AB1 " GraphId="fd5a9" Type="Protein" GroupRef="a9be2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937154" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="922.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08238" />
+  </DataNode>
+  <DataNode TextLabel="2xHSP90AB1:AIP:PTGES3" GraphId="bf30f" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="748.5" CenterY="162.0" Width="89.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8937201" />
+  </DataNode>
+  <DataNode TextLabel="AIP " GraphId="e70a6" Type="Protein" GroupRef="e4cb1">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937201" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="982.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00170" />
+  </DataNode>
+  <DataNode TextLabel="PTGES3 " GraphId="e92f1" Type="Protein" GroupRef="e4cb1">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937201" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1002.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15185" />
+  </DataNode>
+  <DataNode TextLabel="HSP90AB1 " GraphId="b04ea" Type="Protein" GroupRef="e4cb1">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937201" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1022.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08238" />
+  </DataNode>
+  <DataNode TextLabel="AHR:TCDD" GraphId="def90" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="743.0" CenterY="250.0" Width="72.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8937150" />
+  </DataNode>
+  <DataNode TextLabel="TCDD " GraphId="e3980" Type="Metabolite" GroupRef="ec4b3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937150" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1082.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28119" />
+  </DataNode>
+  <DataNode TextLabel="AHR " GraphId="f652e" Type="Protein" GroupRef="ec4b3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937150" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1102.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35869" />
+  </DataNode>
+  <DataNode TextLabel="ARNT, ARNT2" GraphId="bcb02" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="757.5" CenterY="313.5" Width="55.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8936837" />
+  </DataNode>
+  <DataNode TextLabel="ARNT " GraphId="af194" Type="Protein" GroupRef="a5904">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8936837" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1162.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P27540" />
+  </DataNode>
+  <DataNode TextLabel="ARNT2 " GraphId="b44fb" Type="Protein" GroupRef="a5904">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8936837" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1182.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HBZ2" />
+  </DataNode>
+  <DataNode TextLabel="AHR:TCDD:ARNT" GraphId="d9dce" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="914.0" CenterY="276.0" Width="76.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8937203" />
+  </DataNode>
+  <DataNode TextLabel="TCDD " GraphId="cb071" Type="Metabolite" GroupRef="aae0b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937203" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="622.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28119" />
+  </DataNode>
+  <DataNode TextLabel="AHR " GraphId="fc0a2" Type="Protein" GroupRef="aae0b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937203" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="642.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35869" />
+  </DataNode>
+  <DataNode TextLabel="ARNT " GraphId="cd371" Type="Protein" GroupRef="aae0b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937203" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="662.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P27540" />
+  </DataNode>
+  <DataNode TextLabel="ARNT2 " GraphId="f91e8" Type="Protein" GroupRef="aae0b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8937203" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="682.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HBZ2" />
+  </DataNode>
+  <DataNode TextLabel="AHRR" GraphId="e21fb" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="763.5" CenterY="389.0" Width="55.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A9YTQ3" />
+  </DataNode>
+  <DataNode TextLabel="AHRR:ARNT" GraphId="cd6ff" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="900.0" CenterY="360.5" Width="46.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8936835" />
+  </DataNode>
+  <DataNode TextLabel="AHRR " GraphId="ef3f8" Type="Protein" GroupRef="c0d9c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8936835" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="742.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A9YTQ3" />
+  </DataNode>
+  <DataNode TextLabel="ARNT " GraphId="e50f9" Type="Protein" GroupRef="c0d9c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8936835" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="762.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P27540" />
+  </DataNode>
+  <DataNode TextLabel="ARNT2 " GraphId="b9d41" Type="Protein" GroupRef="c0d9c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8936835" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="782.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HBZ2" />
+  </DataNode>
+  <Interaction GraphId="e03ae">
+    <Comment Source="Reactome">The aryl hydrocarbon receptor (AHR) is a ligand-activated transcription factor that can control the expression of a diverse set of genes. Two major types of environmental compounds can activate AHR signaling: halogenated aromatic hydrocarbons such as 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) and polycyclic aromatic hydrocarbons (PAH) such as benzo(a)pyrene. Unliganded AHR forms a complex in the cytosol with two copies of 90kD heat shock protein (HSP90AB1) (Forsythe et al. 2001), one X-associated protein (AIP) (Meyer et al. 1998), and one p23 molecular chaperone protein (PTGES3) (Nguyen et al. 2012, Beischlag et al. 2008). Here, the binding of TCDD is shown.</Comment>
+    <BiopaxRef>d5c</BiopaxRef>
+    <BiopaxRef>eac</BiopaxRef>
+    <BiopaxRef>b08</BiopaxRef>
+    <BiopaxRef>b38</BiopaxRef>
+    <BiopaxRef>ccc</BiopaxRef>
+    <BiopaxRef>fcd</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="293.0" Y="213.0" />
+      <Point X="337.0" Y="213.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fbc92" />
+      <Anchor Position="0.99" Shape="None" GraphId="a06f6" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8936849" />
+  </Interaction>
+  <Interaction GraphId="a6b86">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="219.0" Y="256.0" GraphRef="d39f6" RelX="1.0" RelY="0.0" />
+      <Point X="293.0" Y="213.0" GraphRef="fbc92" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8936849" />
+  </Interaction>
+  <Interaction GraphId="e65c2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="203.0" Y="168.0" GraphRef="ddf68" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="293.0" Y="213.0" GraphRef="fbc92" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8936849" />
+  </Interaction>
+  <Interaction GraphId="b04f0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="337.0" Y="213.0" GraphRef="a06f6" RelX="0.4399999999999977" RelY="0.0" />
+      <Point X="340.0" Y="215.0" GraphRef="f8123" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8936849" />
+  </Interaction>
+  <Interaction GraphId="be5f0">
+    <Comment Source="Reactome">After ligand binding and activation, the AHR complex translocates to the nucleus by an unknown mechanism (Beischlag et al. 2008) but it has been hypothesised that ligand binding to AHR promoted p23-associated hsp90 complex-mediated interaction of AHR with the nuclear import receptor protein pendulin and subsequent nuclear translocation of the receptor (Kazlauskas et al. 2001).</Comment>
+    <BiopaxRef>ccc</BiopaxRef>
+    <BiopaxRef>a05</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="440.0" Y="214.0" />
+      <Point X="523.0" Y="214.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c4183" />
+      <Anchor Position="0.99" Shape="None" GraphId="d20c5" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937169" />
+  </Interaction>
+  <Interaction GraphId="f96ff">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="436.0" Y="215.0" GraphRef="f8123" RelX="0.979381443298969" RelY="0.0" />
+      <Point X="440.0" Y="214.0" GraphRef="c4183" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937169" />
+  </Interaction>
+  <Interaction GraphId="b1046">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="523.0" Y="214.0" GraphRef="d20c5" RelX="0.8300000000000409" RelY="0.0" />
+      <Point X="526.0" Y="214.0" GraphRef="ecfc2" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937169" />
+  </Interaction>
+  <Interaction GraphId="dfe83">
+    <Comment Source="Reactome">After ligand binding and activation, the AHR complex translocates to the nucleus where it disassociates from the chaperone subunits to then dimerise with the aryl hydrocarbon receptor nuclear translocator (ARNT) (Lees &amp; Whitelaw 1999).</Comment>
+    <BiopaxRef>a01</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="624.0" Y="212.0" />
+      <Point X="703.0" Y="212.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bd700" />
+      <Anchor Position="0.99" Shape="None" GraphId="cb861" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937191" />
+  </Interaction>
+  <Interaction GraphId="c5399">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="620.0" Y="214.0" GraphRef="ecfc2" RelX="0.9789473684210527" RelY="0.0" />
+      <Point X="624.0" Y="212.0" GraphRef="bd700" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937191" />
+  </Interaction>
+  <Interaction GraphId="b9002">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="703.0" Y="212.0" GraphRef="cb861" RelX="0.7899999999999636" RelY="0.0" />
+      <Point X="704.0" Y="162.0" GraphRef="bf30f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937191" />
+  </Interaction>
+  <Interaction GraphId="bd548">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="703.0" Y="212.0" GraphRef="cb861" RelX="0.7899999999999636" RelY="0.0" />
+      <Point X="707.0" Y="250.0" GraphRef="def90" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937191" />
+  </Interaction>
+  <Interaction GraphId="b535d">
+    <Comment Source="Reactome">Ligand-bound aryl hydrocarbon receptor (AHR:TCDD) disassociates from the chaperone subunits to then dimerise with the aryl hydrocarbon receptor nuclear translocator (ARNT) (Lees &amp; Whitelaw 1999).</Comment>
+    <BiopaxRef>a01</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="831.0" Y="274.0" />
+      <Point X="873.0" Y="276.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ceb15" />
+      <Anchor Position="0.99" Shape="None" GraphId="e2f2d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937177" />
+  </Interaction>
+  <Interaction GraphId="a5565">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="784.0" Y="313.0" GraphRef="bcb02" RelX="0.9636363636363636" RelY="-0.034482758620689655" />
+      <Point X="831.0" Y="274.0" GraphRef="ceb15" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937177" />
+  </Interaction>
+  <Interaction GraphId="d3238">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="779.0" Y="250.0" GraphRef="def90" RelX="1.0" RelY="0.0" />
+      <Point X="831.0" Y="274.0" GraphRef="ceb15" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937177" />
+  </Interaction>
+  <Interaction GraphId="a5b78">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="873.0" Y="276.0" GraphRef="e2f2d" RelX="0.4199999999999591" RelY="0.01999999999998181" />
+      <Point X="876.0" Y="276.0" GraphRef="d9dce" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8937177" />
+  </Interaction>
+  <Interaction GraphId="d9860">
+    <Comment Source="Reactome">The aryl hydrocarbon receptor repressor (AHRR) is predominantly localised in the nucleus of cells (Kanno et al. 2007) and can bind  AHR nuclear translocator (ARNT). The resultant AHRR:ARNT complex can compete with AHR:ARNT for binding to the xenobiotic response element (XRE) on target genes such CYP1A1 (Evans et al. 2008, Hahn et al. 2009). </Comment>
+    <BiopaxRef>f82</BiopaxRef>
+    <BiopaxRef>e86</BiopaxRef>
+    <BiopaxRef>e1e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="821.0" Y="358.0" />
+      <Point X="874.0" Y="359.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fee1a" />
+      <Anchor Position="0.99" Shape="None" GraphId="e39a6" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8936851" />
+  </Interaction>
+  <Interaction GraphId="d5846">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="790.0" Y="389.0" GraphRef="e21fb" RelX="0.9636363636363636" RelY="0.0" />
+      <Point X="821.0" Y="358.0" GraphRef="fee1a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8936851" />
+  </Interaction>
+  <Interaction GraphId="fa84c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="784.0" Y="313.0" GraphRef="bcb02" RelX="0.9636363636363636" RelY="-0.034482758620689655" />
+      <Point X="821.0" Y="358.0" GraphRef="fee1a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8936851" />
+  </Interaction>
+  <Interaction GraphId="e5198">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="874.0" Y="359.0" GraphRef="e39a6" RelX="0.5299999999999727" RelY="0.009999999999990905" />
+      <Point X="877.0" Y="360.0" GraphRef="cd6ff" RelX="-1.0" RelY="-0.02702702702702703" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8936851" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="b77f1" GroupRef="e38c0">
+    <Graphics CenterX="341.0" CenterY="433.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="c2b99" GroupRef="e2dbb">
+    <Graphics CenterX="535.5" CenterY="433.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="ce72c" GroupRef="e38c0">
+    <Graphics CenterX="594.0" CenterY="294.5" Width="1138.0" Height="519.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="bbfc5" GroupRef="e2dbb">
+    <Graphics CenterX="729.0" CenterY="300.0" Width="524.0" Height="364.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="f7041" GraphId="c7362" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8936844" />
+  </Group>
+  <Group GroupId="c65d3" GraphId="c4596" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8936846" />
+  </Group>
+  <Group GroupId="a9be2" GraphId="dd30e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8937154" />
+  </Group>
+  <Group GroupId="e4cb1" GraphId="af413" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8937201" />
+  </Group>
+  <Group GroupId="ec4b3" GraphId="beed9" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8937150" />
+  </Group>
+  <Group GroupId="a5904" GraphId="b553d">
+    <Attribute Key="complex_id" Value="R-HSA-8936837" />
+  </Group>
+  <Group GroupId="aae0b" GraphId="f519f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8937203" />
+  </Group>
+  <Group GroupId="c0d9c" GraphId="b436e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8936835" />
+  </Group>
+  <Group GroupId="e38c0" GraphId="d8fcd" Style="Group" />
+  <Group GroupId="e2dbb" GraphId="d3499" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18540824</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The aryl hydrocarbon receptor complex and the control of gene expression.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beischlag TV, Luis Morales J, Hollingshead BD, Perdew GH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e86">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18848529</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of constitutive and inducible AHR signaling: complex interactions involving the AHR repressor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hahn ME, Allan LL, Sherr DH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e62">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16972786</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The arylhydrocarbon receptor repressor (AhRR): structure, expression, and function.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haarmann-Stemmann T, Abel J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22759865</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p23 co-chaperone protects the aryl hydrocarbon receptor from degradation in mouse and human cell lines.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen PM, Wang D, Wang Y, Li Y, Uchizono JA, Chan WK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eac">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11274138</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stable association of hsp90 and p23, but Not hsp70, with active human telomerase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forsythe HL, Jarvis JL, Turner JW, Elmore LW, Holt SE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b08">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7961644</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dioxin binding activities of polymorphic forms of mouse and human arylhydrocarbon receptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ema M, Ohe N, Suzuki M, Mimura J, Sogawa K, Ikawa S, Fujii-Kuriyama Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b38">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12573486</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional role of AhR in the expression of toxic effects by TCDD.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mimura J, Fujii-Kuriyama Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9447995</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatitis B virus X-associated protein 2 is a subunit of the unliganded aryl hydrocarbon receptor core complex and exhibits transcriptional enhancer activity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meyer BK, Pray-Grant MG, Vanden Heuvel JP, Perdew GH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a05">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11259606</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hsp90 chaperone complex regulates intracellular localization of the dioxin receptor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kazlauskas A, Sundström S, Poellinger L, Pongratz I.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a01">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10409767</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple roles of ligand in transforming the dioxin receptor to an active basic helix-loop-helix/PAS transcription factor complex with the nuclear protein Arnt.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lees MJ, Whitelaw ML.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f82">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17980155</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of intracellular localization signals and of mechanisms underlining the nucleocytoplasmic shuttling of human aryl hydrocarbon receptor repressor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kanno Y, Miyama Y, Takane Y, Nakahama T, Inouye Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18000031</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repression of aryl hydrocarbon receptor (AHR) signaling by AHR repressor: role of DNA binding and competition for AHR nuclear translocator.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evans BR, Karchner SI, Allan LL, Pollenz RS, Tanguay RL, Jenny MJ, Sherr DH, Hahn ME.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

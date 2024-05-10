@@ -1,0 +1,2727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Chromatin modifications during the maternal to zygotic transition (MZT)" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Chromatin in the zygotic pronuclei transitions to a more open and accessible conformation by DNA demethylation and changes to histone modifications. As development proceeds through the cleavage stages to the blastocyst, chromatin continues to become more accessible until DNA methylation and a more restrictive chromatin conformation are re-established after implantation of the embryo in the uterus.&lt;br&gt;In the oocyte, H3K9me2 produced by EHMT2 (G9a, KMT1C) and H3K9me3 produced by SETDB1 (KMT1E) are transmitted to the female pronucleus of the zygote and protect maternal DNA from active demethylation (inferred from mouse zygotes in Zeng et al. 2019, reviewed in de Macedo et al. 2021). DPPA3 binds H3K9me2, preventing the 5-methylcytosine oxidase TET3 from being recruited to chromatin (inferred from mouse homologs in Nakamura et al. 2007, Wossidlo et al. 2011, Nakamura et al. 2012). DPPA3 also displaces UHRF1 from chromatin, preventing the maintenance DNA methylase DNMT1 from being recruited to chromatin and thus allowing passive DNA demethylation to occur in the female genome (inferred from mouse homologs in Funaki et al. 2014, Li et al. 2018, Du et al. 2019, Mulholland et al. 2020).&lt;br&gt;In the male pronucleus of the zygote, AICDA (AID) deaminates cytosine residues and long patch repair replaces the mismatches and adjacent 5-methylcytidine residues with cytidine (Santos et al. 2013, Franchini et al. 2014). After this initial demethylation, TET3 is recruited to chromatin by METTL23 and STGP4 (GSE) (inferred from mouse homologs in Hatanaka et al. 2017) where it oxidizes remaining 5-methylcytidine to 5-hydroxymethylcytidine, which is removed by base excision repair and replaced with cytidine (inferred from mouse homologs in Gu et al. 2011, Iqbal et al. 2011, Wossidlo et al. 2011, Santos et al. 2013, Amouroux et al. 2016, Hatanaka et al. 2017).&lt;br&gt;The repressive mark H3K27me3 decreases in 2-cell embryos near developmentally related genes (Xia et al. 2019). The H3K27me3 demethylases KDM6B (inferred from bovine embryos in Chung et al. 2017, Canovas et al. 2012) and KDM6A (inferred from mouse embryos in Bai et al. 2019) appear to play a role in the decrease of H3K27me3, as downregulation of them impairs H3K27me3 loss, zygotic genome activation, and embryonic development. Embryonic development also requires H3K36me3, a permissive mark located in transcribed gene bodies that is produced in the oocyte by SETD2 (inferred from mouse embryos in Xu et al. 2019).&lt;br&gt;In mouse oocytes, H3K4me3 occurs in unusually broad regions that span genes Dahl et al. 2016, Zhang et al. 2016). These broad regions persist in the zygote and into the 2-cell stage. In the late 2-cell stage the more usual patterns of H3K4me3 are established as sharp peaks of H3K4me3 near the transcription start sites and stop sites of genes. The histone methyltransferase KMT2B is at least partly responsible for establishing the broad regions of H3K4me3 in the oocyte and the histone demethylases KDM5B and KDM5A remove the broad H3K4me3 in the late 2-cell stage embryo (inferred from mouse homologs in Dahl et al. 2016, reviewed in Eckerseley-Maslin et al. 2018).&lt;br&gt;In human oocytes and zygotes, however, broad regions of H3K4me3 are not observed across genes but are located across distal, CpG-rich domains which have partial DNA methylation (Xia et al. 2019). At the 8-cell stage, expression of KDM5B increases and the H3K4me3 at the distal domains is lost as zygotic genome activation occurs, suggesting a role for KDM5B in loss of H3K4me3 (Xia et al. 2019).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9821002 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 9821002</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: May, Bruce</Comment>
+  <BiopaxRef>ed0</BiopaxRef>
+  <BiopaxRef>eee</BiopaxRef>
+  <BiopaxRef>cd9</BiopaxRef>
+  <BiopaxRef>b7f</BiopaxRef>
+  <BiopaxRef>be8</BiopaxRef>
+  <BiopaxRef>cc5</BiopaxRef>
+  <BiopaxRef>eca</BiopaxRef>
+  <BiopaxRef>c7e</BiopaxRef>
+  <BiopaxRef>aa7</BiopaxRef>
+  <BiopaxRef>cce</BiopaxRef>
+  <BiopaxRef>b73</BiopaxRef>
+  <BiopaxRef>e1f</BiopaxRef>
+  <BiopaxRef>b3c</BiopaxRef>
+  <BiopaxRef>f51</BiopaxRef>
+  <BiopaxRef>f26</BiopaxRef>
+  <BiopaxRef>c45</BiopaxRef>
+  <BiopaxRef>d52</BiopaxRef>
+  <BiopaxRef>baa</BiopaxRef>
+  <BiopaxRef>ffc</BiopaxRef>
+  <BiopaxRef>da4</BiopaxRef>
+  <BiopaxRef>fe4</BiopaxRef>
+  <BiopaxRef>bff</BiopaxRef>
+  <BiopaxRef>a20</BiopaxRef>
+  <BiopaxRef>d64</BiopaxRef>
+  <Attribute Key="reactome_id" Value="9821002" />
+  <Graphics BoardWidth="1293.0" BoardHeight="2220.0" />
+  <DataNode TextLabel="DPPA3" GraphId="b923c" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="314.5" CenterY="88.0" Width="49.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6W0C5" />
+  </DataNode>
+  <DataNode TextLabel="UHRF1:H3K9me3" GraphId="df30f" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="201.5" CenterY="89.0" Width="121.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9818486" />
+  </DataNode>
+  <DataNode TextLabel="Me3K10-HIST1H3A " GraphId="eb382" Type="Protein" GroupRef="bbf16">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9818486" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1228.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68431" />
+  </DataNode>
+  <DataNode TextLabel="Me3K10-HIST2H3A " GraphId="d7241" Type="Protein" GroupRef="bbf16">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9818486" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1248.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71DI3" />
+  </DataNode>
+  <DataNode TextLabel="Me3K-10-H3F3A " GraphId="c8174" Type="Protein" GroupRef="bbf16">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9818486" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1268.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="UHRF1 " GraphId="ee4ef" Type="Protein" GroupRef="bbf16">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9818486" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1288.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96T88" />
+  </DataNode>
+  <DataNode TextLabel="UHRF1:DPPA3" GraphId="c88f3" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="203.0" CenterY="226.0" Width="96.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9818448" />
+  </DataNode>
+  <DataNode TextLabel="DPPA3 " GraphId="c4a97" Type="Protein" GroupRef="eabd3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9818448" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1348.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6W0C5" />
+  </DataNode>
+  <DataNode TextLabel="UHRF1 " GraphId="de700" Type="Protein" GroupRef="eabd3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9818448" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1368.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96T88" />
+  </DataNode>
+  <DataNode TextLabel="H3K9me3" GraphId="da6eb" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="335.0" CenterY="229.0" Width="74.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5625750" />
+  </DataNode>
+  <DataNode TextLabel="Me3K10-HIST1H3A " GraphId="d3726" Type="Protein" GroupRef="afd0c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5625750" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1428.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68431" />
+  </DataNode>
+  <DataNode TextLabel="Me3K10-HIST2H3A " GraphId="e6e3a" Type="Protein" GroupRef="afd0c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5625750" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1448.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71DI3" />
+  </DataNode>
+  <DataNode TextLabel="Me3K-10-H3F3A " GraphId="a5d82" Type="Protein" GroupRef="afd0c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5625750" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="UHRF1:DPPA3" GraphId="a0aa4" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="57.5" CenterY="359.5" Width="61.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9818471" />
+  </DataNode>
+  <DataNode TextLabel="DPPA3 " GraphId="b522f" Type="Protein" GroupRef="e9110">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9818471" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1528.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6W0C5" />
+  </DataNode>
+  <DataNode TextLabel="UHRF1 " GraphId="f9770" Type="Protein" GroupRef="e9110">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9818471" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1548.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96T88" />
+  </DataNode>
+  <DataNode TextLabel="Chromatin with&#xA;H3K9me2, 5mC" GraphId="d65a3" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="591.0" CenterY="96.5" Width="110.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5226877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H4 " GraphId="d5fb2" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1608.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  </DataNode>
+  <DataNode TextLabel="H2AFB1 " GraphId="bd2bb" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="132" />
+    <Graphics CenterX="100.0" CenterY="1628.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0C5Y9" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2AB " GraphId="a23f4" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="262" />
+    <Graphics CenterX="100.0" CenterY="1648.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04908" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2AJ " GraphId="f9609" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="392" />
+    <Graphics CenterX="100.0" CenterY="1668.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99878" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2AD " GraphId="a034f" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="522" />
+    <Graphics CenterX="100.0" CenterY="1688.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20671" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2AC " GraphId="ae58c" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="652" />
+    <Graphics CenterX="100.0" CenterY="1708.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93077" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2AA3 " GraphId="a3f4d" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="782" />
+    <Graphics CenterX="100.0" CenterY="1728.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6FI13" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2AC " GraphId="e98b8" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="912" />
+    <Graphics CenterX="100.0" CenterY="1748.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16777" />
+  </DataNode>
+  <DataNode TextLabel="H2AFJ " GraphId="bfabe" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="1042" />
+    <Graphics CenterX="100.0" CenterY="1768.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BTM1" />
+  </DataNode>
+  <DataNode TextLabel="H2AFV " GraphId="a1d35" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="1172" />
+    <Graphics CenterX="100.0" CenterY="1788.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71UI9" />
+  </DataNode>
+  <DataNode TextLabel="H2AFX " GraphId="a6367" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="1302" />
+    <Graphics CenterX="100.0" CenterY="1808.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16104" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BK " GraphId="d61af" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="1454" />
+    <Graphics CenterX="100.0" CenterY="1828.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60814" />
+  </DataNode>
+  <DataNode TextLabel="HIST3H2BB " GraphId="fa3a2" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="1606" />
+    <Graphics CenterX="100.0" CenterY="1848.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N257" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BA " GraphId="e35e9" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="1758" />
+    <Graphics CenterX="100.0" CenterY="1868.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A08" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BC " GraphId="d3f20" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="1910" />
+    <Graphics CenterX="100.0" CenterY="1888.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62807" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BD " GraphId="e7626" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="2062" />
+    <Graphics CenterX="100.0" CenterY="1908.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P58876" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BL " GraphId="f3c98" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="2214" />
+    <Graphics CenterX="100.0" CenterY="1928.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99880" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BN " GraphId="a7410" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="2366" />
+    <Graphics CenterX="100.0" CenterY="1948.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BM " GraphId="cd129" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="2518" />
+    <Graphics CenterX="100.0" CenterY="1968.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99879" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BB " GraphId="dc250" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="2670" />
+    <Graphics CenterX="100.0" CenterY="1988.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BH " GraphId="ca850" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="2822" />
+    <Graphics CenterX="100.0" CenterY="2008.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93079" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BO " GraphId="e5b50" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="2974" />
+    <Graphics CenterX="100.0" CenterY="2028.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23527" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2BE " GraphId="b9005" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="3126" />
+    <Graphics CenterX="100.0" CenterY="2048.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BJ " GraphId="fb5a6" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="3278" />
+    <Graphics CenterX="100.0" CenterY="2068.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06899" />
+  </DataNode>
+  <DataNode TextLabel="H2BFS " GraphId="c83da" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="3430" />
+    <Graphics CenterX="100.0" CenterY="2088.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57053" />
+  </DataNode>
+  <DataNode TextLabel="Me2K10-HIST1H3A " GraphId="a14d8" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="3431" />
+    <Graphics CenterX="100.0" CenterY="2108.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68431" />
+  </DataNode>
+  <DataNode TextLabel="Me2K10-HIST2H3A " GraphId="f2781" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="3432" />
+    <Graphics CenterX="100.0" CenterY="2128.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71DI3" />
+  </DataNode>
+  <DataNode TextLabel="Me2K-10-H3F3A " GraphId="d3a7d" Type="Protein" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="3433" />
+    <Graphics CenterX="100.0" CenterY="2148.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="DNA containing 5-mC " GraphId="ddaf2" GroupRef="b4b3c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+    <Attribute Key="copies_num" Value="3433" />
+    <Graphics CenterX="100.0" CenterY="2168.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-212172" />
+  </DataNode>
+  <DataNode TextLabel="Chromatin with&#xA;DPPA3:H3K9me2 and&#xA;5mC" GraphId="efa1a" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="535.0" CenterY="262.0" Width="142.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9817457" />
+  </DataNode>
+  <DataNode TextLabel="DPPA3 " GraphId="ea81f" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1268.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6W0C5" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H4 " GraphId="fd06c" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1288.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  </DataNode>
+  <DataNode TextLabel="H2AFB1 " GraphId="c0978" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="136" />
+    <Graphics CenterX="240.0" CenterY="1308.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0C5Y9" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2AB " GraphId="d4b91" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="270" />
+    <Graphics CenterX="240.0" CenterY="1328.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04908" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2AJ " GraphId="ad46e" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="404" />
+    <Graphics CenterX="240.0" CenterY="1348.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99878" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2AD " GraphId="e8a5f" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="538" />
+    <Graphics CenterX="240.0" CenterY="1368.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20671" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2AC " GraphId="f36c3" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="672" />
+    <Graphics CenterX="240.0" CenterY="1388.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93077" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2AA3 " GraphId="c10e5" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="806" />
+    <Graphics CenterX="240.0" CenterY="1408.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6FI13" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2AC " GraphId="d4532" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="940" />
+    <Graphics CenterX="240.0" CenterY="1428.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16777" />
+  </DataNode>
+  <DataNode TextLabel="H2AFJ " GraphId="bc892" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="1074" />
+    <Graphics CenterX="240.0" CenterY="1448.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BTM1" />
+  </DataNode>
+  <DataNode TextLabel="H2AFV " GraphId="fb011" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="1208" />
+    <Graphics CenterX="240.0" CenterY="1468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71UI9" />
+  </DataNode>
+  <DataNode TextLabel="H2AFX " GraphId="f31fe" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="1342" />
+    <Graphics CenterX="240.0" CenterY="1488.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16104" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BK " GraphId="b15ce" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="1498" />
+    <Graphics CenterX="240.0" CenterY="1508.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60814" />
+  </DataNode>
+  <DataNode TextLabel="HIST3H2BB " GraphId="a03de" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="1654" />
+    <Graphics CenterX="240.0" CenterY="1528.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N257" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BA " GraphId="a1370" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="1810" />
+    <Graphics CenterX="240.0" CenterY="1548.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A08" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BC " GraphId="c88b8" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="1966" />
+    <Graphics CenterX="240.0" CenterY="1568.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62807" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BD " GraphId="e0275" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="2122" />
+    <Graphics CenterX="240.0" CenterY="1588.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P58876" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BL " GraphId="ad34d" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="2278" />
+    <Graphics CenterX="240.0" CenterY="1608.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99880" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BN " GraphId="fadc2" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="2434" />
+    <Graphics CenterX="240.0" CenterY="1628.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BM " GraphId="ed4fa" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="2590" />
+    <Graphics CenterX="240.0" CenterY="1648.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99879" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BB " GraphId="d7bc4" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="2746" />
+    <Graphics CenterX="240.0" CenterY="1668.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BH " GraphId="b66ef" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="2902" />
+    <Graphics CenterX="240.0" CenterY="1688.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93079" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BO " GraphId="bee2e" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="3058" />
+    <Graphics CenterX="240.0" CenterY="1708.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23527" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2BE " GraphId="e91a0" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="3214" />
+    <Graphics CenterX="240.0" CenterY="1728.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BJ " GraphId="ee338" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="3370" />
+    <Graphics CenterX="240.0" CenterY="1748.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06899" />
+  </DataNode>
+  <DataNode TextLabel="H2BFS " GraphId="e749c" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="3526" />
+    <Graphics CenterX="240.0" CenterY="1768.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57053" />
+  </DataNode>
+  <DataNode TextLabel="Me2K10-HIST1H3A " GraphId="e3b14" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="3527" />
+    <Graphics CenterX="240.0" CenterY="1788.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68431" />
+  </DataNode>
+  <DataNode TextLabel="Me2K10-HIST2H3A " GraphId="bfa79" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="3528" />
+    <Graphics CenterX="240.0" CenterY="1808.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71DI3" />
+  </DataNode>
+  <DataNode TextLabel="Me2K-10-H3F3A " GraphId="e97e8" Type="Protein" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="3529" />
+    <Graphics CenterX="240.0" CenterY="1828.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="DNA containing 5-mC " GraphId="d63a0" GroupRef="e6eb3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+    <Attribute Key="copies_num" Value="3529" />
+    <Graphics CenterX="240.0" CenterY="1848.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-212172" />
+  </DataNode>
+  <DataNode TextLabel="Chromatin with H3.3,&#xA;H2AX, and 5mC" GraphId="aafe1" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="908.0" CenterY="78.0" Width="140.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9822634" />
+  </DataNode>
+  <DataNode TextLabel="DNA containing 5-mC " GraphId="deb58" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1268.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-212172" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BK " GraphId="c5f4c" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="161" />
+    <Graphics CenterX="380.0" CenterY="1288.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60814" />
+  </DataNode>
+  <DataNode TextLabel="HIST3H2BB " GraphId="b3cad" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="321" />
+    <Graphics CenterX="380.0" CenterY="1308.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N257" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BA " GraphId="d8579" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="481" />
+    <Graphics CenterX="380.0" CenterY="1328.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A08" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BC " GraphId="fcd27" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="641" />
+    <Graphics CenterX="380.0" CenterY="1348.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62807" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BD " GraphId="ea959" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="801" />
+    <Graphics CenterX="380.0" CenterY="1368.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P58876" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BL " GraphId="f39f4" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="961" />
+    <Graphics CenterX="380.0" CenterY="1388.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99880" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BN " GraphId="f63e8" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="1121" />
+    <Graphics CenterX="380.0" CenterY="1408.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BM " GraphId="b306f" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="1281" />
+    <Graphics CenterX="380.0" CenterY="1428.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99879" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BB " GraphId="f597d" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="1441" />
+    <Graphics CenterX="380.0" CenterY="1448.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BH " GraphId="c5e75" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="1601" />
+    <Graphics CenterX="380.0" CenterY="1468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93079" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BO " GraphId="fe16a" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="1761" />
+    <Graphics CenterX="380.0" CenterY="1488.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23527" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2BE " GraphId="defeb" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="1921" />
+    <Graphics CenterX="380.0" CenterY="1508.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BJ " GraphId="f73d4" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="2081" />
+    <Graphics CenterX="380.0" CenterY="1528.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06899" />
+  </DataNode>
+  <DataNode TextLabel="H2BFS " GraphId="e346e" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="2241" />
+    <Graphics CenterX="380.0" CenterY="1548.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57053" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H4 " GraphId="cfcce" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="2242" />
+    <Graphics CenterX="380.0" CenterY="1568.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  </DataNode>
+  <DataNode TextLabel="H3F3A " GraphId="feeb3" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="2243" />
+    <Graphics CenterX="380.0" CenterY="1588.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="H2AFX " GraphId="abe57" Type="Protein" GroupRef="d6cdb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+    <Attribute Key="copies_num" Value="2244" />
+    <Graphics CenterX="380.0" CenterY="1608.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16104" />
+  </DataNode>
+  <DataNode TextLabel="Chromatin with H3.3,&#xA;H2AX, 5mC, U" GraphId="c42e3" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="840.5" CenterY="226.5" Width="127.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9817527" />
+  </DataNode>
+  <DataNode TextLabel="DNA containing 5-mC and U " GraphId="b6748" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1688.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-9817509" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BK " GraphId="b9ac9" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="165" />
+    <Graphics CenterX="380.0" CenterY="1708.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60814" />
+  </DataNode>
+  <DataNode TextLabel="HIST3H2BB " GraphId="b3cfe" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="329" />
+    <Graphics CenterX="380.0" CenterY="1728.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N257" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BA " GraphId="cc6a1" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="493" />
+    <Graphics CenterX="380.0" CenterY="1748.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A08" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BC " GraphId="df884" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="657" />
+    <Graphics CenterX="380.0" CenterY="1768.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62807" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BD " GraphId="ba8b0" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="821" />
+    <Graphics CenterX="380.0" CenterY="1788.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P58876" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BL " GraphId="fe4fc" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="985" />
+    <Graphics CenterX="380.0" CenterY="1808.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99880" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BN " GraphId="dccec" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="1149" />
+    <Graphics CenterX="380.0" CenterY="1828.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BM " GraphId="cc5a1" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="1313" />
+    <Graphics CenterX="380.0" CenterY="1848.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99879" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BB " GraphId="f3660" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="1477" />
+    <Graphics CenterX="380.0" CenterY="1868.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BH " GraphId="af7ee" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="1641" />
+    <Graphics CenterX="380.0" CenterY="1888.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93079" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BO " GraphId="a8c5c" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="1805" />
+    <Graphics CenterX="380.0" CenterY="1908.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23527" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2BE " GraphId="ac325" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="1969" />
+    <Graphics CenterX="380.0" CenterY="1928.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BJ " GraphId="c82ec" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="2133" />
+    <Graphics CenterX="380.0" CenterY="1948.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06899" />
+  </DataNode>
+  <DataNode TextLabel="H2BFS " GraphId="a61cc" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="2297" />
+    <Graphics CenterX="380.0" CenterY="1968.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57053" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H4 " GraphId="e5e9c" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="2298" />
+    <Graphics CenterX="380.0" CenterY="1988.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  </DataNode>
+  <DataNode TextLabel="H3F3A " GraphId="b1f8a" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="2299" />
+    <Graphics CenterX="380.0" CenterY="2008.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="H2AFX " GraphId="ec3af" Type="Protein" GroupRef="eb202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+    <Attribute Key="copies_num" Value="2300" />
+    <Graphics CenterX="380.0" CenterY="2028.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16104" />
+  </DataNode>
+  <DataNode TextLabel="AICDA" GraphId="b32e9" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="853.5" CenterY="141.0" Width="59.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9GZX7" />
+  </DataNode>
+  <DataNode TextLabel="Chromatin with&#xA;H3.3,H2AX" GraphId="e0afd" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="840.0" CenterY="321.0" Width="118.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9817514" />
+  </DataNode>
+  <DataNode TextLabel="dsDNA " GraphId="f3035" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1268.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5649637" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BK " GraphId="bbb7f" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="169" />
+    <Graphics CenterX="520.0" CenterY="1288.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60814" />
+  </DataNode>
+  <DataNode TextLabel="HIST3H2BB " GraphId="a5d36" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="337" />
+    <Graphics CenterX="520.0" CenterY="1308.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N257" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BA " GraphId="a5c7d" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="505" />
+    <Graphics CenterX="520.0" CenterY="1328.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A08" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BC " GraphId="c11f8" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="673" />
+    <Graphics CenterX="520.0" CenterY="1348.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62807" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BD " GraphId="d5fac" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="841" />
+    <Graphics CenterX="520.0" CenterY="1368.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P58876" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BL " GraphId="d1a5b" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="1009" />
+    <Graphics CenterX="520.0" CenterY="1388.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99880" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BN " GraphId="d6721" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="1177" />
+    <Graphics CenterX="520.0" CenterY="1408.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BM " GraphId="a1d38" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="1345" />
+    <Graphics CenterX="520.0" CenterY="1428.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99879" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BB " GraphId="b0e7b" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="1513" />
+    <Graphics CenterX="520.0" CenterY="1448.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BH " GraphId="f7c2e" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="1681" />
+    <Graphics CenterX="520.0" CenterY="1468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93079" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BO " GraphId="b4e6c" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="1849" />
+    <Graphics CenterX="520.0" CenterY="1488.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23527" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2BE " GraphId="c0249" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="2017" />
+    <Graphics CenterX="520.0" CenterY="1508.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BJ " GraphId="eebc4" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="2185" />
+    <Graphics CenterX="520.0" CenterY="1528.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06899" />
+  </DataNode>
+  <DataNode TextLabel="H2BFS " GraphId="ba14c" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="2353" />
+    <Graphics CenterX="520.0" CenterY="1548.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57053" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H4 " GraphId="f45df" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="2354" />
+    <Graphics CenterX="520.0" CenterY="1568.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  </DataNode>
+  <DataNode TextLabel="H3F3A " GraphId="f4059" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="2355" />
+    <Graphics CenterX="520.0" CenterY="1588.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="H2AFX " GraphId="e1275" Type="Protein" GroupRef="c7480">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+    <Attribute Key="copies_num" Value="2356" />
+    <Graphics CenterX="520.0" CenterY="1608.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16104" />
+  </DataNode>
+  <DataNode TextLabel="UNG" GraphId="c64a0" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="775.0" CenterY="273.5" Width="50.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13051" />
+  </DataNode>
+  <DataNode TextLabel="STPG4" GraphId="bad79" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1012.5" CenterY="359.0" Width="57.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N801" />
+  </DataNode>
+  <DataNode TextLabel="Chromatin&#xA;with&#xA;H3.3&#xA;dimethylarginine-17, H2AX, and 5mC" GraphId="a39f8" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="840.5" CenterY="372.0" Width="157.0" Height="52.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9817468" />
+  </DataNode>
+  <DataNode TextLabel="DNA containing 5-mC " GraphId="f2cbe" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1668.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-212172" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BK " GraphId="fc0f0" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="173" />
+    <Graphics CenterX="520.0" CenterY="1688.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60814" />
+  </DataNode>
+  <DataNode TextLabel="HIST3H2BB " GraphId="e54f9" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="345" />
+    <Graphics CenterX="520.0" CenterY="1708.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N257" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BA " GraphId="b967a" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="517" />
+    <Graphics CenterX="520.0" CenterY="1728.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A08" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BC " GraphId="a064d" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="689" />
+    <Graphics CenterX="520.0" CenterY="1748.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62807" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BD " GraphId="afd76" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="861" />
+    <Graphics CenterX="520.0" CenterY="1768.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P58876" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BL " GraphId="f7731" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="1033" />
+    <Graphics CenterX="520.0" CenterY="1788.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99880" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BN " GraphId="bf13d" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="1205" />
+    <Graphics CenterX="520.0" CenterY="1808.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BM " GraphId="c8a9c" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="1377" />
+    <Graphics CenterX="520.0" CenterY="1828.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99879" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BB " GraphId="ad261" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="1549" />
+    <Graphics CenterX="520.0" CenterY="1848.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BH " GraphId="ab8b7" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="1721" />
+    <Graphics CenterX="520.0" CenterY="1868.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93079" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BO " GraphId="ede5a" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="1893" />
+    <Graphics CenterX="520.0" CenterY="1888.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23527" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2BE " GraphId="dd42a" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="2065" />
+    <Graphics CenterX="520.0" CenterY="1908.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BJ " GraphId="d2ca7" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="2237" />
+    <Graphics CenterX="520.0" CenterY="1928.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06899" />
+  </DataNode>
+  <DataNode TextLabel="H2BFS " GraphId="b66a5" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="2409" />
+    <Graphics CenterX="520.0" CenterY="1948.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57053" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H4 " GraphId="d0c85" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="2410" />
+    <Graphics CenterX="520.0" CenterY="1968.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  </DataNode>
+  <DataNode TextLabel="H3R17me2a " GraphId="f077f" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="2411" />
+    <Graphics CenterX="520.0" CenterY="1988.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="H2AFX " GraphId="d35cd" Type="Protein" GroupRef="e0631">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+    <Attribute Key="copies_num" Value="2412" />
+    <Graphics CenterX="520.0" CenterY="2008.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16104" />
+  </DataNode>
+  <DataNode TextLabel="METTL23" GraphId="cc122" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1101.5" CenterY="368.5" Width="83.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86XA0" />
+  </DataNode>
+  <DataNode TextLabel="STGP4:METTL23:Chromatin with H3.3 dimethylarginine-17, H2A.x, and 5-mC" GraphId="e2495" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1001.0" CenterY="516.0" Width="240.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9822601" />
+  </DataNode>
+  <DataNode TextLabel="DNA containing 5-mC " GraphId="e3604" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1268.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-212172" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BK " GraphId="fff36" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="177" />
+    <Graphics CenterX="660.0" CenterY="1288.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60814" />
+  </DataNode>
+  <DataNode TextLabel="HIST3H2BB " GraphId="eb156" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="353" />
+    <Graphics CenterX="660.0" CenterY="1308.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N257" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BA " GraphId="a6af7" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="529" />
+    <Graphics CenterX="660.0" CenterY="1328.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A08" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BC " GraphId="c3ee8" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="705" />
+    <Graphics CenterX="660.0" CenterY="1348.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62807" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BD " GraphId="d32ec" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="881" />
+    <Graphics CenterX="660.0" CenterY="1368.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P58876" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BL " GraphId="a0261" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="1057" />
+    <Graphics CenterX="660.0" CenterY="1388.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99880" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BN " GraphId="fdea5" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="1233" />
+    <Graphics CenterX="660.0" CenterY="1408.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BM " GraphId="bb069" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="1409" />
+    <Graphics CenterX="660.0" CenterY="1428.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99879" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BB " GraphId="a0765" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="1585" />
+    <Graphics CenterX="660.0" CenterY="1448.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BH " GraphId="ccbc1" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="1761" />
+    <Graphics CenterX="660.0" CenterY="1468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93079" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BO " GraphId="dbc8e" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="1937" />
+    <Graphics CenterX="660.0" CenterY="1488.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23527" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2BE " GraphId="b9adb" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="2113" />
+    <Graphics CenterX="660.0" CenterY="1508.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BJ " GraphId="aa279" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="2289" />
+    <Graphics CenterX="660.0" CenterY="1528.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06899" />
+  </DataNode>
+  <DataNode TextLabel="H2BFS " GraphId="edb7f" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="2465" />
+    <Graphics CenterX="660.0" CenterY="1548.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57053" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H4 " GraphId="d0008" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="2466" />
+    <Graphics CenterX="660.0" CenterY="1568.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  </DataNode>
+  <DataNode TextLabel="H3R17me2a " GraphId="c0b11" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="2467" />
+    <Graphics CenterX="660.0" CenterY="1588.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="H2AFX " GraphId="b83ed" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="2468" />
+    <Graphics CenterX="660.0" CenterY="1608.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16104" />
+  </DataNode>
+  <DataNode TextLabel="METTL23 " GraphId="cc2e5" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="2468" />
+    <Graphics CenterX="660.0" CenterY="1628.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86XA0" />
+  </DataNode>
+  <DataNode TextLabel="STPG4 " GraphId="df47e" Type="Protein" GroupRef="e41c0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+    <Attribute Key="copies_num" Value="2468" />
+    <Graphics CenterX="660.0" CenterY="1648.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N801" />
+  </DataNode>
+  <DataNode TextLabel="TET3:Fe2+" GraphId="e0b3d" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="790.5" CenterY="551.0" Width="87.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5221040" />
+  </DataNode>
+  <DataNode TextLabel="TET3 " GraphId="b1737" Type="Protein" GroupRef="db2e6">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5221040" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1268.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43151" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="ef175" Type="Metabolite" GroupRef="db2e6">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5221040" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1288.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="TET3:STGP4:METTL23:Chromatin with H3.3 dimethylarginine-17, H2A.x, and 5-mC" GraphId="e26f9" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="957.5" CenterY="657.5" Width="267.0" Height="43.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9822585" />
+  </DataNode>
+  <DataNode TextLabel="DNA containing 5-mC " GraphId="df6f6" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1348.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-212172" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BK " GraphId="bcc74" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="181" />
+    <Graphics CenterX="800.0" CenterY="1368.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60814" />
+  </DataNode>
+  <DataNode TextLabel="HIST3H2BB " GraphId="e6392" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="361" />
+    <Graphics CenterX="800.0" CenterY="1388.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N257" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BA " GraphId="d4e34" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="541" />
+    <Graphics CenterX="800.0" CenterY="1408.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A08" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BC " GraphId="e6877" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="721" />
+    <Graphics CenterX="800.0" CenterY="1428.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62807" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BD " GraphId="abed9" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="901" />
+    <Graphics CenterX="800.0" CenterY="1448.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P58876" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BL " GraphId="be996" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="1081" />
+    <Graphics CenterX="800.0" CenterY="1468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99880" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BN " GraphId="d9d93" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="1261" />
+    <Graphics CenterX="800.0" CenterY="1488.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BM " GraphId="e5d56" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="1441" />
+    <Graphics CenterX="800.0" CenterY="1508.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99879" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BB " GraphId="b1c16" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="1621" />
+    <Graphics CenterX="800.0" CenterY="1528.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BH " GraphId="ca619" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="1801" />
+    <Graphics CenterX="800.0" CenterY="1548.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93079" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BO " GraphId="a8d7c" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="1981" />
+    <Graphics CenterX="800.0" CenterY="1568.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23527" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2BE " GraphId="d1391" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2161" />
+    <Graphics CenterX="800.0" CenterY="1588.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BJ " GraphId="d6883" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2341" />
+    <Graphics CenterX="800.0" CenterY="1608.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06899" />
+  </DataNode>
+  <DataNode TextLabel="H2BFS " GraphId="bea23" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2521" />
+    <Graphics CenterX="800.0" CenterY="1628.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57053" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H4 " GraphId="ebbb9" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2522" />
+    <Graphics CenterX="800.0" CenterY="1648.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  </DataNode>
+  <DataNode TextLabel="H3R17me2a " GraphId="e4366" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2523" />
+    <Graphics CenterX="800.0" CenterY="1668.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="H2AFX " GraphId="ba36a" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2524" />
+    <Graphics CenterX="800.0" CenterY="1688.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16104" />
+  </DataNode>
+  <DataNode TextLabel="METTL23 " GraphId="bce50" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2524" />
+    <Graphics CenterX="800.0" CenterY="1708.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86XA0" />
+  </DataNode>
+  <DataNode TextLabel="STPG4 " GraphId="a6665" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2524" />
+    <Graphics CenterX="800.0" CenterY="1728.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N801" />
+  </DataNode>
+  <DataNode TextLabel="TET3 " GraphId="eb50f" Type="Protein" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2524" />
+    <Graphics CenterX="800.0" CenterY="1748.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43151" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="f86a3" Type="Metabolite" GroupRef="d3929">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+    <Attribute Key="copies_num" Value="2524" />
+    <Graphics CenterX="800.0" CenterY="1768.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="bb4f3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="379.0" CenterY="342.5" Width="52.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="ce85a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="381.0" CenterY="383.5" Width="42.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="TET3:STGP4:METTL23:Chromatin with H3.3 dimethylarginine-4 and 5-hmC" GraphId="a815e" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1057.0" CenterY="860.0" Width="240.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9822604" />
+  </DataNode>
+  <DataNode TextLabel="METTL23 " GraphId="e824b" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="940.0" CenterY="1268.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86XA0" />
+  </DataNode>
+  <DataNode TextLabel="STPG4 " GraphId="a2967" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="940.0" CenterY="1288.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N801" />
+  </DataNode>
+  <DataNode TextLabel="TET3 " GraphId="edbc9" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="940.0" CenterY="1308.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43151" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="ba144" Type="Metabolite" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="940.0" CenterY="1328.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="DNA containing 5-hmC " GraphId="fc77d" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="940.0" CenterY="1368.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-5221008" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BK " GraphId="af663" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="185" />
+    <Graphics CenterX="940.0" CenterY="1388.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60814" />
+  </DataNode>
+  <DataNode TextLabel="HIST3H2BB " GraphId="ed5af" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="369" />
+    <Graphics CenterX="940.0" CenterY="1408.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N257" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BA " GraphId="ff72d" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="553" />
+    <Graphics CenterX="940.0" CenterY="1428.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A08" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BC " GraphId="d4316" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="737" />
+    <Graphics CenterX="940.0" CenterY="1448.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62807" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BD " GraphId="f7835" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="921" />
+    <Graphics CenterX="940.0" CenterY="1468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P58876" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BL " GraphId="d8bf1" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1105" />
+    <Graphics CenterX="940.0" CenterY="1488.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99880" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BN " GraphId="bac08" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1289" />
+    <Graphics CenterX="940.0" CenterY="1508.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99877" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BM " GraphId="e93bf" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1473" />
+    <Graphics CenterX="940.0" CenterY="1528.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99879" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BB " GraphId="f6845" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1657" />
+    <Graphics CenterX="940.0" CenterY="1548.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BH " GraphId="fcdf6" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="1841" />
+    <Graphics CenterX="940.0" CenterY="1568.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q93079" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BO " GraphId="e6996" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="2025" />
+    <Graphics CenterX="940.0" CenterY="1588.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23527" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H2BE " GraphId="c4469" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="2209" />
+    <Graphics CenterX="940.0" CenterY="1608.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16778" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H2BJ " GraphId="f1751" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="2393" />
+    <Graphics CenterX="940.0" CenterY="1628.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P06899" />
+  </DataNode>
+  <DataNode TextLabel="H2BFS " GraphId="acc85" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="2577" />
+    <Graphics CenterX="940.0" CenterY="1648.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57053" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H4 " GraphId="a38eb" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="2578" />
+    <Graphics CenterX="940.0" CenterY="1668.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  </DataNode>
+  <DataNode TextLabel="H3R17me2a " GraphId="edc29" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="2579" />
+    <Graphics CenterX="940.0" CenterY="1688.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="H2AFX " GraphId="d9e36" Type="Protein" GroupRef="db4fd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+    <Attribute Key="copies_num" Value="2580" />
+    <Graphics CenterX="940.0" CenterY="1708.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16104" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="b81f5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="800.5" CenterY="827.5" Width="49.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="SUCCA" GraphId="d9866" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="877.5" CenterY="840.0" Width="65.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30031" />
+  </DataNode>
+  <DataNode TextLabel="CH2O" GraphId="e973d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="384.5" CenterY="629.0" Width="57.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16842" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="de381" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="744.0" CenterY="717.5" Width="42.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="e667f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="801.0" CenterY="691.5" Width="52.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="c14b7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="386.5" CenterY="538.5" Width="49.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="SUCCA" GraphId="f3a94" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="384.5" CenterY="581.0" Width="65.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30031" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="fd8a9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1061.0" CenterY="126.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="e9df7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1010.5" CenterY="103.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="NH4+" GraphId="d75a3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="967.5" CenterY="206.0" Width="53.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28938" />
+  </DataNode>
+  <DataNode TextLabel="Histone H3 (H3K4me3)" GraphId="b751d" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="388.0" CenterY="431.5" Width="160.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-1214232" />
+  </DataNode>
+  <DataNode TextLabel="Me3K5-H3F3A " GraphId="e2cc0" Type="Protein" GroupRef="fa0e0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1214232" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1268.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="Me3K5-HIST1H3A " GraphId="d8952" Type="Protein" GroupRef="fa0e0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1214232" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1288.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68431" />
+  </DataNode>
+  <DataNode TextLabel="Me3K5-HIST2H3A " GraphId="b800e" Type="Protein" GroupRef="fa0e0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-1214232" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1308.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71DI3" />
+  </DataNode>
+  <DataNode TextLabel="Histone H3" GraphId="e8cd1" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="388.5" CenterY="489.0" Width="73.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-212293" />
+  </DataNode>
+  <DataNode TextLabel="HIST1H3A " GraphId="d751f" Type="Protein" GroupRef="d32ce">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-212293" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1368.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68431" />
+  </DataNode>
+  <DataNode TextLabel="HIST2H3A " GraphId="bf45e" Type="Protein" GroupRef="d32ce">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-212293" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1388.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71DI3" />
+  </DataNode>
+  <DataNode TextLabel="H3F3A " GraphId="dc4d5" Type="Protein" GroupRef="d32ce">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-212293" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1408.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="Histone H3&#xA;(H3K27me3)" GraphId="d9183" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="420.5" CenterY="784.5" Width="167.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-212266" />
+  </DataNode>
+  <DataNode TextLabel="Me3K28-HIST2H3A " GraphId="b2e8f" Type="Protein" GroupRef="fdd30">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-212266" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71DI3" />
+  </DataNode>
+  <DataNode TextLabel="Me3K-28-H3F3A " GraphId="d762a" Type="Protein" GroupRef="fdd30">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-212266" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1488.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="Me3K28-HIST1H3A " GraphId="b899b" Type="Protein" GroupRef="fdd30">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-212266" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1508.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68431" />
+  </DataNode>
+  <DataNode TextLabel="Histone H3&#xA;(H3K27me1)" GraphId="d0526" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="421.0" CenterY="866.5" Width="172.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9822946" />
+  </DataNode>
+  <DataNode TextLabel="MeK28-H3-3A " GraphId="fb3e3" Type="Protein" GroupRef="c0f4a">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822946" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1568.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P84243" />
+  </DataNode>
+  <DataNode TextLabel="MeK28-HIST2H3A " GraphId="d5d0d" Type="Protein" GroupRef="c0f4a">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822946" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1588.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q71DI3" />
+  </DataNode>
+  <DataNode TextLabel="MeK28-HIST1H3A " GraphId="e418e" Type="Protein" GroupRef="c0f4a">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822946" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1608.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P68431" />
+  </DataNode>
+  <DataNode TextLabel="KDM6A:Fe2+" GraphId="f2bd9" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="186.5" CenterY="815.0" Width="99.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9822909" />
+  </DataNode>
+  <DataNode TextLabel="KDM6A " GraphId="bf33c" Type="Protein" GroupRef="b8ef1">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822909" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1668.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15550" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="a5b68" Type="Metabolite" GroupRef="b8ef1">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9822909" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1688.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="daee5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="419.0" CenterY="738.5" Width="42.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="c2ab8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="420.0" CenterY="696.5" Width="52.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="CH2O" GraphId="fd7f9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="429.5" CenterY="989.0" Width="57.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16842" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="a9ef2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="426.5" CenterY="907.5" Width="49.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="SUCCA" GraphId="c9801" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="426.5" CenterY="948.0" Width="65.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30031" />
+  </DataNode>
+  <DataNode TextLabel="KDM6B:Fe2+" GraphId="ebb73" Type="Complex">
+    <BiopaxRef>da6</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="664.0" CenterY="830.0" Width="106.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-3222589" />
+  </DataNode>
+  <DataNode TextLabel="KDM6B " GraphId="f54c5" Type="Protein" GroupRef="d520c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-3222589" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1748.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15054" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="ef199" Type="Metabolite" GroupRef="d520c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-3222589" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1768.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="KDM5A:Fe2+" GraphId="d62cc" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="178.5" CenterY="468.0" Width="93.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9823015" />
+  </DataNode>
+  <DataNode TextLabel="KDM5A " GraphId="b3598" Type="Protein" GroupRef="d52b5">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9823015" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1828.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P29375" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="c8a27" Type="Metabolite" GroupRef="d52b5">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9823015" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1848.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="KDM5B:Fe2+" GraphId="f0e81" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="584.5" CenterY="470.5" Width="97.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9823016" />
+  </DataNode>
+  <DataNode TextLabel="KDM5B " GraphId="da37d" Type="Protein" GroupRef="dc676">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9823016" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1908.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UGL1" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="e9a4e" Type="Metabolite" GroupRef="dc676">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9823016" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1928.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <Interaction GraphId="c1213">
+    <Comment Source="Reactome">DPPA3 displaces UHRF1 from the N-terminal tail of histone H3 and remains bound to UHRF1 in the female nucleus (inferred from mouse homologs). The binding of DPPA3 to UHRF1 prevents UHRF1 from recruiting the DNA methylase DNMT1 to chromatin and hence causes hypomethylation of regions of the genome that persists from the oocyte into the female pronucleus of the zygote (inferred from mouse oocytes and zygotes).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="265.0" Y="130.0" />
+      <Point X="266.0" Y="188.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="af630" />
+      <Anchor Position="0.99" Shape="None" GraphId="ae7a9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9818501" />
+  </Interaction>
+  <Interaction GraphId="f6fe0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="290.0" Y="88.0" GraphRef="b923c" RelX="-1.0" RelY="0.0" />
+      <Point X="265.0" Y="130.0" GraphRef="af630" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9818501" />
+  </Interaction>
+  <Interaction GraphId="bce01">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="261.0" Y="89.0" GraphRef="df30f" RelX="0.9834710743801653" RelY="0.0" />
+      <Point X="265.0" Y="130.0" GraphRef="af630" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9818501" />
+  </Interaction>
+  <Interaction GraphId="ee62e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="266.0" Y="188.0" GraphRef="ae7a9" RelX="0.009999999999990905" RelY="0.5799999999999841" />
+      <Point X="251.0" Y="226.0" GraphRef="c88f3" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9818501" />
+  </Interaction>
+  <Interaction GraphId="a2b94">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="266.0" Y="188.0" GraphRef="ae7a9" RelX="0.009999999999990905" RelY="0.5799999999999841" />
+      <Point X="298.0" Y="229.0" GraphRef="da6eb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9818501" />
+  </Interaction>
+  <Interaction GraphId="eec05">
+    <Comment Source="Reactome">After DPPA3 binds UHRF1 in the female nucleus, the UHRF1:DPPA3 complex translocates from the nucleus to the cytoplasm (Mazid et al. 2022, and inferred from mouse homologs). Binding of UHRF1 by DPPA3 inhibits de novo DNA methylation by DNMT1 (inferred from mouse homologs).</Comment>
+    <BiopaxRef>dd3</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="164.0" Y="240.0" />
+      <Point X="65.0" Y="338.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d36b2" />
+      <Anchor Position="0.99" Shape="None" GraphId="d2793" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9818495" />
+  </Interaction>
+  <Interaction GraphId="a8b23">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="155.0" Y="226.0" GraphRef="c88f3" RelX="-1.0" RelY="0.0" />
+      <Point X="164.0" Y="240.0" GraphRef="d36b2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9818495" />
+  </Interaction>
+  <Interaction GraphId="b5608">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="65.0" Y="338.0" GraphRef="d2793" RelX="-0.9900000000000091" RelY="0.9800000000000182" />
+      <Point X="57.0" Y="341.0" GraphRef="a0aa4" RelX="-0.01639344262295082" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9818495" />
+  </Interaction>
+  <Interaction GraphId="a5dc3">
+    <Comment Source="Reactome">DPPA3 (also called STELLA) binds dimethylated lysine-9 of histone H3 (H3K9me2, lysine-10 of the preprotein) that is present in the maternal genome but not the paternal genome of the zygote (inferred from mouse homologs). DPPA3 prevents TET3 from oxidizing 5-methylcytidine to 5-hydroxymethylcytidine and thereby blocks one pathway of active DNA methylation in the female pronucleus (inferred from mouse zygotes).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="534.0" Y="151.0" />
+      <Point X="534.0" Y="239.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c9ec7" />
+      <Anchor Position="0.99" Shape="None" GraphId="e627e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817471" />
+  </Interaction>
+  <Interaction GraphId="bdf3f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="338.0" Y="88.0" GraphRef="b923c" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="534.0" Y="151.0" GraphRef="c9ec7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817471" />
+  </Interaction>
+  <Interaction GraphId="c7ef0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="536.0" Y="96.0" GraphRef="d65a3" RelX="-1.0" RelY="-0.02564102564102564" />
+      <Point X="534.0" Y="151.0" GraphRef="c9ec7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817471" />
+  </Interaction>
+  <Interaction GraphId="fbca3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="534.0" Y="239.0" GraphRef="e627e" RelX="0.0" RelY="0.8799999999999955" />
+      <Point X="535.0" Y="242.0" GraphRef="efa1a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817471" />
+  </Interaction>
+  <Interaction GraphId="c634d">
+    <Comment Source="Reactome">The first phase of active DNA demethylation in the male pronucleus is initiated by deamination of cytidine residues by AICDA (AID), which produces T-G mismatches that are repaired by the long patch base excision repair pathway to yield a C-G base pair (inferred from mouse homologs). If the repair patch encompasses a 5-methylcytidine residue adjacent to the T-G mismatch then the 5-methylcytidine is replaced by cytidine, resulting in a loss of DNA methylation (inferred from mouse cells).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="908.0" Y="120.0" />
+      <Point X="910.0" Y="170.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ec9ea" />
+      <Anchor Position="0.99" Shape="None" GraphId="dcfc1" />
+      <Anchor Position="0.5" Shape="None" GraphId="e7a14" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817513" />
+  </Interaction>
+  <Interaction GraphId="c58e2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1043.0" Y="126.0" GraphRef="fd8a9" RelX="-1.0" RelY="0.0" />
+      <Point X="908.0" Y="120.0" GraphRef="ec9ea" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817513" />
+  </Interaction>
+  <Interaction GraphId="abf47">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="908.0" Y="99.0" GraphRef="aafe1" RelX="0.0" RelY="1.0" />
+      <Point X="908.0" Y="120.0" GraphRef="ec9ea" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817513" />
+  </Interaction>
+  <Interaction GraphId="e3e0e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="989.0" Y="103.0" GraphRef="e9df7" RelX="-1.0" RelY="0.0" />
+      <Point X="908.0" Y="120.0" GraphRef="ec9ea" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817513" />
+  </Interaction>
+  <Interaction GraphId="b0c26">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="910.0" Y="170.0" GraphRef="dcfc1" RelX="0.01999999999998181" RelY="0.5" />
+      <Point X="941.0" Y="206.0" GraphRef="d75a3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817513" />
+  </Interaction>
+  <Interaction GraphId="fa7fb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="910.0" Y="170.0" GraphRef="dcfc1" RelX="0.01999999999998181" RelY="0.5" />
+      <Point X="903.0" Y="226.0" GraphRef="c42e3" RelX="0.984251968503937" RelY="-0.02564102564102564" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817513" />
+  </Interaction>
+  <Interaction GraphId="a31cd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="882.0" Y="141.0" GraphRef="b32e9" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="910.0" Y="144.0" GraphRef="e7a14" RelX="1.0" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817513" />
+  </Interaction>
+  <Interaction GraphId="d1669">
+    <Comment Source="Reactome">The cytidine deaminase AICDA, the uracil-DNA glycosylase UNG (UNG2), and base excision repair are required for removal of 5-methylcytidine from DNA in the male pronucleus of the zygote (inferred from mouse homologs in mouse zygotes). The inference is that AICDA deaminates cytidine to uridine and then UNG and the base excision repair pathway remove the uridine residue and any adjacent 5-methylcytidine residues, resynthesizing DNA with unmodified cytidine residues in their places.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="840.0" Y="249.0" />
+      <Point X="840.0" Y="300.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b89f1" />
+      <Anchor Position="0.99" Shape="None" GraphId="bf1e1" />
+      <Anchor Position="0.5" Shape="None" GraphId="e2880" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817512" />
+  </Interaction>
+  <Interaction GraphId="a5619">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="840.0" Y="245.0" GraphRef="c42e3" RelX="-0.007874015748031496" RelY="0.9487179487179487" />
+      <Point X="840.0" Y="249.0" GraphRef="b89f1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817512" />
+  </Interaction>
+  <Interaction GraphId="b9173">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="840.0" Y="300.0" GraphRef="bf1e1" RelX="0.0" RelY="0.5099999999999909" />
+      <Point X="840.0" Y="303.0" GraphRef="e0afd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817512" />
+  </Interaction>
+  <Interaction GraphId="b4544">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="800.0" Y="273.0" GraphRef="c64a0" RelX="1.0" RelY="-0.037037037037037035" />
+      <Point X="840.0" Y="274.0" GraphRef="e2880" RelX="0.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817512" />
+  </Interaction>
+  <Interaction GraphId="e8384">
+    <Comment Source="Reactome">METTL23 binds both chromatin (probably via dimethylarginine-17 of histone H3.3) and STGP4 (GSE) (inferred from mouse homologs). METTL23 and STGP4 are required for localizing TET3 to the pronuclei of the zygote (inferred from mouse zygotes).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="997.0" Y="405.0" />
+      <Point X="999.0" Y="492.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fb728" />
+      <Anchor Position="0.99" Shape="None" GraphId="a1e66" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822597" />
+  </Interaction>
+  <Interaction GraphId="b7bef">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1012.0" Y="372.0" GraphRef="bad79" RelX="-0.017543859649122806" RelY="1.0" />
+      <Point X="997.0" Y="405.0" GraphRef="fb728" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822597" />
+  </Interaction>
+  <Interaction GraphId="ae294">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="918.0" Y="372.0" GraphRef="a39f8" RelX="0.9872611464968153" RelY="0.0" />
+      <Point X="997.0" Y="405.0" GraphRef="fb728" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822597" />
+  </Interaction>
+  <Interaction GraphId="c4ca8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1060.0" Y="368.0" GraphRef="cc122" RelX="-1.0" RelY="-0.037037037037037035" />
+      <Point X="997.0" Y="405.0" GraphRef="fb728" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822597" />
+  </Interaction>
+  <Interaction GraphId="ccf78">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="999.0" Y="492.0" GraphRef="a1e66" RelX="0.01999999999998181" RelY="0.8700000000000045" />
+      <Point X="1001.0" Y="495.0" GraphRef="e2495" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822597" />
+  </Interaction>
+  <Interaction GraphId="bdbe4">
+    <Comment Source="Reactome">STGP4 (GSE) interacts with TET3 and is required for localizing TET3 to the pronuclei of zygotes (inferred from mouse homologs). Within the pronuclei, STGP4 is bound to METTL23, which binds chromatin, possibly via dimethylarginine-17 of histone H3.3 (inferred from mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="959.0" Y="578.0" />
+      <Point X="957.0" Y="633.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fe34c" />
+      <Anchor Position="0.99" Shape="None" GraphId="a131e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822591" />
+  </Interaction>
+  <Interaction GraphId="b28dc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="833.0" Y="551.0" GraphRef="e0b3d" RelX="0.9770114942528736" RelY="0.0" />
+      <Point X="959.0" Y="578.0" GraphRef="fe34c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822591" />
+  </Interaction>
+  <Interaction GraphId="ab29d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1001.0" Y="537.0" GraphRef="e2495" RelX="0.0" RelY="1.0" />
+      <Point X="959.0" Y="578.0" GraphRef="fe34c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822591" />
+  </Interaction>
+  <Interaction GraphId="be26a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="957.0" Y="633.0" GraphRef="a131e" RelX="-0.01999999999998181" RelY="0.5499999999999545" />
+      <Point X="957.0" Y="636.0" GraphRef="e26f9" RelX="-0.003745318352059925" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822591" />
+  </Interaction>
+  <Interaction GraphId="a8c21">
+    <Comment Source="Reactome">TET3 supplied by maternal cytoplasm is the major enzyme catalyzing oxidation of 5-methylcytidine to 5-hydroxymethylcytidine in the male pronucleus (inferred from mouse homologs in mouse zygotes). TET3-catalyzed demethylation is part of the second phase of active demethylation in the male pronucleus (inferred from mouse zygotes). The first phase appears to be catalyzed by cytidine deamination followed by base excision repair (inferred from mouse zygotes). Accumulation of 5-hydroxymethylcytidine requires the cytosine methylases DNMT3A and DNMT1 (inferred from mouse homologs in mouse zygotes). TET3 is present in both pronuclei of the zygote, however maternal 5-methylcytidine is protected from oxidation by DPPA3 (PGC7) bound to dimethyllysine-9 of histone H3 in maternal chromatin (inferred from mouse homologs in Nakamura et al. 2007, Nakamura et al. 2012). TET3 interacts with STGP4 (GSE), which interacts with METTL23 to localize TET3 to chromatin in pronuclei (inferred from mouse homologs in Hatanaka et al. 2017). TET1 and TET2 may also play a role in production of hydroxycytidine in the paternal genome (inferred from mouse embryos in Ficz et al. 2011).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="944.0" Y="714.0" />
+      <Point X="963.0" Y="792.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b22b9" />
+      <Anchor Position="0.99" Shape="None" GraphId="b09df" />
+      <Anchor Position="0.5" Shape="None" GraphId="e1683" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817458" />
+  </Interaction>
+  <Interaction GraphId="e113e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="957.0" Y="678.0" GraphRef="e26f9" RelX="-0.003745318352059925" RelY="0.9534883720930233" />
+      <Point X="944.0" Y="714.0" GraphRef="b22b9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817458" />
+  </Interaction>
+  <Interaction GraphId="d4e4a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="765.0" Y="717.0" GraphRef="de381" RelX="1.0" RelY="-0.030303030303030304" />
+      <Point X="944.0" Y="714.0" GraphRef="b22b9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817458" />
+  </Interaction>
+  <Interaction GraphId="eb7a0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="827.0" Y="691.0" GraphRef="e667f" RelX="1.0" RelY="-0.02857142857142857" />
+      <Point X="944.0" Y="714.0" GraphRef="b22b9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817458" />
+  </Interaction>
+  <Interaction GraphId="fb4bc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="963.0" Y="792.0" GraphRef="b09df" RelX="0.19000000000005457" RelY="0.7799999999999727" />
+      <Point X="937.0" Y="860.0" GraphRef="a815e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817458" />
+  </Interaction>
+  <Interaction GraphId="a87d8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="963.0" Y="792.0" GraphRef="b09df" RelX="0.19000000000005457" RelY="0.7799999999999727" />
+      <Point X="824.0" Y="827.0" GraphRef="b81f5" RelX="0.9591836734693877" RelY="-0.02857142857142857" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817458" />
+  </Interaction>
+  <Interaction GraphId="bd234">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="963.0" Y="792.0" GraphRef="b09df" RelX="0.19000000000005457" RelY="0.7799999999999727" />
+      <Point X="909.0" Y="840.0" GraphRef="d9866" RelX="0.9692307692307692" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817458" />
+  </Interaction>
+  <Interaction GraphId="d50e6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="957.0" Y="678.0" GraphRef="e26f9" RelX="-0.003745318352059925" RelY="0.9534883720930233" />
+      <Point X="961.0" Y="735.0" GraphRef="e1683" RelX="7.5" RelY="-18.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9817458" />
+  </Interaction>
+  <Interaction GraphId="ac065">
+    <Comment Source="Reactome">The histone demethylase KDM5A (JARID1A, RBBP2, RBP2) demethylates trimethylated histone 3 lysine-4 (H3K4me3, lysine-5 of the preprotein) in in vitro and in embryonic stem cells  (Christensen et al. 2007, Iwase et al. 2077, Klose et al. 2007) and is inferred to catalyze the same reaction in zygotes. KDM5A can processively remove all three methyl groups to yield unmethylated H3K4 (Christensen et al. 2007, Klose et al. 2007), however other studies showed demethylation of H3K4me3 to H3K4me2 and H3K4me1 (Iwase et al. 2007). In 2-cell embryos, nucleosomes contain a canonical distrubution of H3.1, H3.2, and H3.3 (inferred from mouse embryos). KDM5A and KDM5B are responsible for demethylating the broad regions of H3K4me3 that are inherited from oocytes (inferred from mouse embryos). The result is peaks of H3K4me3 at the 5' and 3' ends of genes.</Comment>
+    <BiopaxRef>de1</BiopaxRef>
+    <BiopaxRef>b87</BiopaxRef>
+    <BiopaxRef>f9d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="256.0" Y="396.0" />
+      <Point X="258.0" Y="547.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="db0d8" />
+      <Anchor Position="0.99" Shape="None" GraphId="d628a" />
+      <Anchor Position="0.5" Shape="None" GraphId="c0ca3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822467" />
+  </Interaction>
+  <Interaction GraphId="fb454">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="308.0" Y="431.0" GraphRef="b751d" RelX="-1.0" RelY="-0.030303030303030304" />
+      <Point X="256.0" Y="396.0" GraphRef="db0d8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822467" />
+  </Interaction>
+  <Interaction GraphId="fdeba">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="353.0" Y="342.0" GraphRef="bb4f3" RelX="-1.0" RelY="-0.02857142857142857" />
+      <Point X="256.0" Y="396.0" GraphRef="db0d8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822467" />
+  </Interaction>
+  <Interaction GraphId="f2b4e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="360.0" Y="383.0" GraphRef="ce85a" RelX="-1.0" RelY="-0.030303030303030304" />
+      <Point X="256.0" Y="396.0" GraphRef="db0d8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822467" />
+  </Interaction>
+  <Interaction GraphId="e2c03">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="258.0" Y="547.0" GraphRef="d628a" RelX="0.01999999999998181" RelY="1.509999999999991" />
+      <Point X="352.0" Y="489.0" GraphRef="e8cd1" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822467" />
+  </Interaction>
+  <Interaction GraphId="ab2ca">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="258.0" Y="547.0" GraphRef="d628a" RelX="0.01999999999998181" RelY="1.509999999999991" />
+      <Point X="356.0" Y="629.0" GraphRef="e973d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822467" />
+  </Interaction>
+  <Interaction GraphId="bc7c8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="258.0" Y="547.0" GraphRef="d628a" RelX="0.01999999999998181" RelY="1.509999999999991" />
+      <Point X="362.0" Y="538.0" GraphRef="c14b7" RelX="-1.0" RelY="-0.02857142857142857" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822467" />
+  </Interaction>
+  <Interaction GraphId="aeed3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="258.0" Y="547.0" GraphRef="d628a" RelX="0.01999999999998181" RelY="1.509999999999991" />
+      <Point X="352.0" Y="581.0" GraphRef="f3a94" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822467" />
+  </Interaction>
+  <Interaction GraphId="ec0b3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="224.0" Y="468.0" GraphRef="d62cc" RelX="0.978494623655914" RelY="0.0" />
+      <Point X="258.0" Y="474.0" GraphRef="c0ca3" RelX="1.0" RelY="2.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822467" />
+  </Interaction>
+  <Interaction GraphId="ff5e0">
+    <Comment Source="Reactome">KDM5B (PLU-1) demethylates histone H3 trimethyllysine-4 (H3K4me3, lysine-5 of the preprotein) in vitro and in embryonic cells (Christensen et al. 2007, Yamane et al. 2007, Kristensen et al. 2012) and is inferred to catalyze the same reaction in zygotes. KDM5A and KDM5B demethylate broad regions of H3K4me3 in cleavage stage embryos (inferred from mouse embryos).</Comment>
+    <BiopaxRef>e4a</BiopaxRef>
+    <BiopaxRef>e3b</BiopaxRef>
+    <BiopaxRef>b87</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="505.0" Y="387.0" />
+      <Point X="509.0" Y="552.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c9fcb" />
+      <Anchor Position="0.99" Shape="None" GraphId="b5581" />
+      <Anchor Position="0.5" Shape="None" GraphId="aae5c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822461" />
+  </Interaction>
+  <Interaction GraphId="bac1c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="468.0" Y="431.0" GraphRef="b751d" RelX="1.0" RelY="-0.030303030303030304" />
+      <Point X="505.0" Y="387.0" GraphRef="c9fcb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822461" />
+  </Interaction>
+  <Interaction GraphId="ad7e6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="405.0" Y="342.0" GraphRef="bb4f3" RelX="1.0" RelY="-0.02857142857142857" />
+      <Point X="505.0" Y="387.0" GraphRef="c9fcb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822461" />
+  </Interaction>
+  <Interaction GraphId="c2045">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="402.0" Y="383.0" GraphRef="ce85a" RelX="1.0" RelY="-0.030303030303030304" />
+      <Point X="505.0" Y="387.0" GraphRef="c9fcb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822461" />
+  </Interaction>
+  <Interaction GraphId="b5119">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="509.0" Y="552.0" GraphRef="b5581" RelX="0.040000000000020464" RelY="1.6499999999999773" />
+      <Point X="424.0" Y="489.0" GraphRef="e8cd1" RelX="0.9726027397260274" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822461" />
+  </Interaction>
+  <Interaction GraphId="f1bc4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="509.0" Y="552.0" GraphRef="b5581" RelX="0.040000000000020464" RelY="1.6499999999999773" />
+      <Point X="412.0" Y="629.0" GraphRef="e973d" RelX="0.9649122807017544" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822461" />
+  </Interaction>
+  <Interaction GraphId="bebbc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="509.0" Y="552.0" GraphRef="b5581" RelX="0.040000000000020464" RelY="1.6499999999999773" />
+      <Point X="410.0" Y="538.0" GraphRef="c14b7" RelX="0.9591836734693877" RelY="-0.02857142857142857" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822461" />
+  </Interaction>
+  <Interaction GraphId="cbb75">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="509.0" Y="552.0" GraphRef="b5581" RelX="0.040000000000020464" RelY="1.6499999999999773" />
+      <Point X="416.0" Y="581.0" GraphRef="f3a94" RelX="0.9692307692307692" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822461" />
+  </Interaction>
+  <Interaction GraphId="bfdf3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="536.0" Y="470.0" GraphRef="f0e81" RelX="-1.0" RelY="-0.037037037037037035" />
+      <Point X="506.0" Y="471.0" GraphRef="aae5c" RelX="-1.0" RelY="1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822461" />
+  </Interaction>
+  <Interaction GraphId="f870b">
+    <Comment Source="Reactome">KDM6A (UTX) demethylates histone H3 trimethyllysine-27 (H3K27me3, lysine-28 of the preprotein) to yield histone H3 monomethyllysine-27 (H3K27me1) in embryonic cells (Agger et al. 2007, Hong et al. 2007, Lan et al. 2007) and is inferred to catalyze the same reaction in zygotes. KDM6A participates in demethylating genome-wide H3K27me3 in cleavage stage embryos (inferred from mouse homologs).</Comment>
+    <BiopaxRef>a2e</BiopaxRef>
+    <BiopaxRef>e28</BiopaxRef>
+    <BiopaxRef>a73</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="261.0" Y="735.0" />
+      <Point X="265.0" Y="912.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b9c83" />
+      <Anchor Position="0.99" Shape="None" GraphId="e236d" />
+      <Anchor Position="0.5" Shape="None" GraphId="ed297" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822985" />
+  </Interaction>
+  <Interaction GraphId="b65c4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="337.0" Y="784.0" GraphRef="d9183" RelX="-1.0" RelY="-0.03225806451612903" />
+      <Point X="261.0" Y="735.0" GraphRef="b9c83" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822985" />
+  </Interaction>
+  <Interaction GraphId="cb0fe">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="398.0" Y="738.0" GraphRef="daee5" RelX="-1.0" RelY="-0.030303030303030304" />
+      <Point X="261.0" Y="735.0" GraphRef="b9c83" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822985" />
+  </Interaction>
+  <Interaction GraphId="f56dc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="394.0" Y="696.0" GraphRef="c2ab8" RelX="-1.0" RelY="-0.02857142857142857" />
+      <Point X="261.0" Y="735.0" GraphRef="b9c83" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822985" />
+  </Interaction>
+  <Interaction GraphId="ba112">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="265.0" Y="912.0" GraphRef="e236d" RelX="0.040000000000020464" RelY="1.7699999999999818" />
+      <Point X="335.0" Y="866.0" GraphRef="d0526" RelX="-1.0" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822985" />
+  </Interaction>
+  <Interaction GraphId="b3224">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="265.0" Y="912.0" GraphRef="e236d" RelX="0.040000000000020464" RelY="1.7699999999999818" />
+      <Point X="401.0" Y="989.0" GraphRef="fd7f9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822985" />
+  </Interaction>
+  <Interaction GraphId="b2c45">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="265.0" Y="912.0" GraphRef="e236d" RelX="0.040000000000020464" RelY="1.7699999999999818" />
+      <Point X="402.0" Y="907.0" GraphRef="a9ef2" RelX="-1.0" RelY="-0.02857142857142857" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822985" />
+  </Interaction>
+  <Interaction GraphId="f21d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="265.0" Y="912.0" GraphRef="e236d" RelX="0.040000000000020464" RelY="1.7699999999999818" />
+      <Point X="394.0" Y="948.0" GraphRef="c9801" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822985" />
+  </Interaction>
+  <Interaction GraphId="f5dbb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="235.0" Y="815.0" GraphRef="f2bd9" RelX="0.9797979797979798" RelY="0.0" />
+      <Point X="263.0" Y="821.0" GraphRef="ed297" RelX="0.0" RelY="-2.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822985" />
+  </Interaction>
+  <Interaction GraphId="b966f">
+    <Comment Source="Reactome">KDM6B demethylates histone H3 trimethyllysine-27 (H3K27me3, lysine-28 of the preprotein) to yield histone H3 monomethyllysine-27 (H3K27me1) (Agger et al. 2007, Hong et al. 2007, Lan et al. 2007, and inferred from the mouse homolog). KDM6B is associated with loss of H3K27me3 in cleavage stage mouse embryos (Yang et al. 2016) and is required for loss of H3K27me3 in cleavage stage bovine embryos (Canovas et al. 2012).</Comment>
+    <BiopaxRef>e28</BiopaxRef>
+    <BiopaxRef>a73</BiopaxRef>
+    <BiopaxRef>a2e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="572.0" Y="731.0" />
+      <Point X="576.0" Y="927.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b7618" />
+      <Anchor Position="0.99" Shape="None" GraphId="a90b6" />
+      <Anchor Position="0.5" Shape="None" GraphId="b37b7" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822914" />
+  </Interaction>
+  <Interaction GraphId="cbb1c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="503.0" Y="784.0" GraphRef="d9183" RelX="0.9880239520958084" RelY="-0.03225806451612903" />
+      <Point X="572.0" Y="731.0" GraphRef="b7618" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822914" />
+  </Interaction>
+  <Interaction GraphId="d2832">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="446.0" Y="696.0" GraphRef="c2ab8" RelX="1.0" RelY="-0.02857142857142857" />
+      <Point X="572.0" Y="731.0" GraphRef="b7618" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822914" />
+  </Interaction>
+  <Interaction GraphId="e86d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="440.0" Y="738.0" GraphRef="daee5" RelX="1.0" RelY="-0.030303030303030304" />
+      <Point X="572.0" Y="731.0" GraphRef="b7618" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822914" />
+  </Interaction>
+  <Interaction GraphId="b64f8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="576.0" Y="927.0" GraphRef="a90b6" RelX="0.03999999999996362" RelY="1.9600000000000364" />
+      <Point X="507.0" Y="866.0" GraphRef="d0526" RelX="1.0" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822914" />
+  </Interaction>
+  <Interaction GraphId="c00a8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="576.0" Y="927.0" GraphRef="a90b6" RelX="0.03999999999996362" RelY="1.9600000000000364" />
+      <Point X="457.0" Y="989.0" GraphRef="fd7f9" RelX="0.9649122807017544" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822914" />
+  </Interaction>
+  <Interaction GraphId="a7f7c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="576.0" Y="927.0" GraphRef="a90b6" RelX="0.03999999999996362" RelY="1.9600000000000364" />
+      <Point X="450.0" Y="907.0" GraphRef="a9ef2" RelX="0.9591836734693877" RelY="-0.02857142857142857" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822914" />
+  </Interaction>
+  <Interaction GraphId="dc1c2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="576.0" Y="927.0" GraphRef="a90b6" RelX="0.03999999999996362" RelY="1.9600000000000364" />
+      <Point X="458.0" Y="948.0" GraphRef="c9801" RelX="0.9692307692307692" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822914" />
+  </Interaction>
+  <Interaction GraphId="a9193">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="611.0" Y="830.0" GraphRef="ebb73" RelX="-1.0" RelY="0.0" />
+      <Point X="574.0" Y="828.0" GraphRef="b37b7" RelX="0.0" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9822914" />
+  </Interaction>
+  <Label TextLabel="nucleoplasm" GraphId="aac65" GroupRef="b273e">
+    <Graphics CenterX="167.5" CenterY="1088.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="df082" GroupRef="e5933">
+    <Graphics CenterX="58.0" CenterY="1152.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="f08ce" GroupRef="b273e">
+    <Graphics CenterX="658.5" CenterY="583.5" Width="1109.0" Height="1091.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b6bd5" GroupRef="e5933">
+    <Graphics CenterX="629.5" CenterY="604.5" Width="1251.0" Height="1191.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="bbf16" GraphId="f6e8c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9818486" />
+  </Group>
+  <Group GroupId="eabd3" GraphId="d58f5" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9818448" />
+  </Group>
+  <Group GroupId="afd0c" GraphId="a1d43">
+    <Attribute Key="complex_id" Value="R-HSA-5625750" />
+  </Group>
+  <Group GroupId="e9110" GraphId="d8f2e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9818471" />
+  </Group>
+  <Group GroupId="b4b3c" GraphId="cce0d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5226877" />
+  </Group>
+  <Group GroupId="e6eb3" GraphId="dd0ee" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9817457" />
+  </Group>
+  <Group GroupId="d6cdb" GraphId="e16bf" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9822634" />
+  </Group>
+  <Group GroupId="eb202" GraphId="e189d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9817527" />
+  </Group>
+  <Group GroupId="c7480" GraphId="ce095" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9817514" />
+  </Group>
+  <Group GroupId="e0631" GraphId="d0d84" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9817468" />
+  </Group>
+  <Group GroupId="e41c0" GraphId="b9516" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9822601" />
+  </Group>
+  <Group GroupId="db2e6" GraphId="fe5a6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5221040" />
+  </Group>
+  <Group GroupId="d3929" GraphId="da681" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9822585" />
+  </Group>
+  <Group GroupId="db4fd" GraphId="a44c5" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9822604" />
+  </Group>
+  <Group GroupId="fa0e0" GraphId="fbec9">
+    <Attribute Key="complex_id" Value="R-HSA-1214232" />
+  </Group>
+  <Group GroupId="d32ce" GraphId="cb2c3">
+    <Attribute Key="complex_id" Value="R-HSA-212293" />
+  </Group>
+  <Group GroupId="fdd30" GraphId="e42b2">
+    <Attribute Key="complex_id" Value="R-HSA-212266" />
+  </Group>
+  <Group GroupId="c0f4a" GraphId="daaaa">
+    <Attribute Key="complex_id" Value="R-HSA-9822946" />
+  </Group>
+  <Group GroupId="b8ef1" GraphId="ff194" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9822909" />
+  </Group>
+  <Group GroupId="d520c" GraphId="e824f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-3222589" />
+  </Group>
+  <Group GroupId="d52b5" GraphId="c242b" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9823015" />
+  </Group>
+  <Group GroupId="dc676" GraphId="ba614" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9823016" />
+  </Group>
+  <Group GroupId="b273e" GraphId="a1751" Style="Group" />
+  <Group GroupId="e5933" GraphId="e8274" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34934530</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromatin role in early programming of embryos.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Macedo MP, Glanzner WG, Gutierrez K, Bordignon V.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35955697</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Control of Maternal-to-Zygotic Transition in Human Embryos and Other Animal Species (Especially Mouse): Similarities and Differences.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tesarik J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31088968</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHMT2 and SETDB1 protect the maternal pronucleus from 5mC oxidation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeng TB, Han L, Pierce N, Pfeifer GP, Szabó PE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31040401</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SETD2 regulates the maternal epigenome, genomic imprinting and embryonic development.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu Q, Xiang Y, Wang Q, Wang L, Brind'Amour J, Bogutz AB, Zhang Y, Zhang B, Yu G, Xia W, Du Z, Huang C, Ma J, Zheng H, Li Y, Liu C, Walker CL, Jonasch E, Lefebvre L, Wu M, Lorincz MC, Li W, Li L, Xie W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29686419</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dynamics of the epigenetic landscape during the maternal-to-zygotic transition.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eckersley-Maslin MA, Alda-Catalinas C, Reik W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27626377</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broad histone H3K4me3 domains in mouse oocytes modulate maternal-to-zygotic transition.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dahl JA, Jung I, Aanes H, Greggains GD, Manaf A, Lerdrup M, Li G, Kuan S, Li B, Lee AY, Preissl S, Jermstad I, Haugen MH, Suganthan R, Bjørås M, Hansen K, Dalen KT, Fedorcsak P, Ren B, Klungland A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eca">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27626382</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allelic reprogramming of the histone modification H3K4me3 in early mammalian development.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B, Zheng H, Huang B, Li W, Xiang Y, Peng X, Ming J, Wu X, Zhang Y, Xu Q, Liu W, Kou X, Zhao Y, He W, Li C, Chen B, Li Y, Wang Q, Ma J, Yin Q, Kee K, Meng A, Gao S, Xu F, Na J, Xie W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31273069</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resetting histone modifications during human parental-to-zygotic transition.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xia W, Xu J, Yu G, Yao G, Xu K, Ma X, Zhang N, Liu B, Li T, Lin Z, Chen X, Li L, Wang Q, Shi D, Shi S, Zhang Y, Song W, Jin H, Hu L, Bu Z, Wang Y, Na J, Xie W, Sun YP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29160132</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Active H3K27me3 demethylation by KDM6B is required for normal development of bovine preimplantation embryos.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chung N, Bogliotti YS, Ding W, Vilarino M, Takahashi K, Chitwood JL, Schultz RM, Ross PJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cce">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31595154</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histone Demethylase UTX is an Essential Factor for Zygotic Genome Activation and Regulates Zscan4 Expression in Mouse Embryos.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bai L, Yang L, Zhao C, Song L, Liu X, Bai C, Su G, Wei Z, Li G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b73">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22308433</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jumonji domain-containing protein 3 regulates histone 3 lysine 27 methylation during bovine preimplantation development.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canovas S, Cibelli JB, Ross PJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22722204</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PGC7 binds histone H3K9me2 to protect against conversion of 5mC to 5hmC in early embryos.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakamura T, Liu YJ, Nakashima H, Umehara H, Inoue K, Matoba S, Tachibana M, Ogura A, Shinkai Y, Nakano T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17143267</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PGC7/Stella protects against DNA demethylation in early embryogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakamura T, Arai Y, Umehara H, Masuhara M, Kimura T, Taniguchi H, Sekimoto T, Ikawa M, Yoneda Y, Okabe M, Tanaka S, Shiota K, Nakano T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30487604</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stella safeguards the oocyte methylome by preventing de novo methylation mediated by DNMT1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li Y, Zhang Z, Chen J, Liu W, Lai W, Liu B, Li X, Liu L, Xu S, Dong Q, Wang M, Duan X, Tan J, Zheng Y, Zhang P, Fan G, Wong J, Xu GL, Wang Z, Wang H, Gao S, Zhu B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f26">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33235224</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recent evolution of a TET-controlled and DPPA3/STELLA-driven pathway of passive DNA demethylation in mammals.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mulholland CB, Nishiyama A, Ryan J, Nakamura R, Yiğit M, Glück IM, Trummer C, Qin W, Bartoschek MD, Traube FR, Parsa E, Ugur E, Modic M, Acharya A, Stolz P, Ziegenhain C, Wierer M, Enard W, Carell T, Lamb DC, Takeda H, Nakanishi M, Bultmann S, Leonhardt H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c45">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25280994</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhibition of maintenance DNA methylation by Stella.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funaki S, Nakamura T, Nakatani T, Umehara H, Nakashima H, Nakano T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d52">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31018966</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stella protein facilitates DNA demethylation by disrupting the chromatin association of the RING finger-type E3 ubiquitin ligase UHRF1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Du W, Dong Q, Zhang Z, Liu B, Zhou T, Xu RM, Wang H, Zhu B, Li Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="baa">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28930672</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histone H3 Methylated at Arginine 17 Is Essential for Reprogramming the Paternal Genome in Zygotes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hatanaka Y, Tsusaka T, Shimizu N, Morita K, Suzuki T, Machida S, Satoh M, Honda A, Hirose M, Kamimura S, Ogonuki N, Nakamura T, Inoue K, Hosoi Y, Dohmae N, Nakano T, Kurumizaka H, Matsumoto K, Shinkai Y, Ogura A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21407207</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-Hydroxymethylcytosine in the mammalian zygote is linked with epigenetic reprogramming.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wossidlo M, Nakamura T, Lepikhov K, Marques CJ, Zakhartchenko V, Boiani M, Arand J, Nakano T, Reik W, Walter J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21892189</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of Tet3 DNA dioxygenase in epigenetic reprogramming by oocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gu TP, Guo F, Yang H, Wu HP, Xu GF, Liu W, Xie ZG, Shi L, He X, Jin SG, Iqbal K, Shi YG, Deng Z, Szabó PE, Pfeifer GP, Li J, Xu GL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21321204</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reprogramming of the paternal genome upon fertilization involves genome-wide oxidation of 5-methylcytosine.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iqbal K, Jin SG, Pfeifer GP, Szabó PE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24279473</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Active demethylation in mouse zygotes involves cytosine deamination and base excision repair.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santos F, Peat J, Burgess H, Rada C, Reik W, Dean W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a20">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26751286</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De novo DNA methylation drives 5hmC accumulation in mouse zygotes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amouroux R, Nashun B, Shirane K, Nakagawa S, Hill PW, D'Souza Z, Nakayama M, Matsuda M, Turp A, Ndjetehe E, Encheva V, Kudo NR, Koseki H, Sasaki H, Hajkova P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d64">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25025377</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processive DNA demethylation via DNA deaminase-induced lesion resolution.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Franchini DM, Chan CF, Morgan H, Incorvaia E, Rangam G, Dean W, Santos F, Reik W, Petersen-Mahrt SK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17825402</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The histone H3 lysine-27 demethylase Jmjd3 links inflammation to inhibition of polycomb-mediated gene silencing.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De Santa F, Totaro MG, Prosperini E, Notarbartolo S, Testa G, Natoli G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35314832</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolling back human pluripotent stem cells to an eight-cell embryo-like stage.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mazid MA, Ward C, Luo Z, Liu C, Li Y, Lai Y, Wu L, Li J, Jia W, Jiang Y, Liu H, Fu L, Yang Y, Ibañez DP, Lai J, Wei X, An J, Guo P, Yuan Y, Deng Q, Wang Y, Liu Y, Gao F, Wang J, Zaman S, Qin B, Wu G, Maxwell PH, Xu X, Liu L, Li W, Esteban MA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17320163</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The retinoblastoma binding protein RBP2 is an H3K4 demethylase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klose RJ, Yan Q, Tothova Z, Yamane K, Erdjument-Bromage H, Tempst P, Gilliland DG, Zhang Y, Kaelin WG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b87">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17320161</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RBP2 belongs to a family of demethylases, specific for tri-and dimethylated lysine 4 on histone 3.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christensen J, Agger K, Cloos PA, Pasini D, Rose S, Sennels L, Rappsilber J, Hansen KH, Salcini AE, Helin K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17320160</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The X-linked mental retardation gene SMCX/JARID1C defines a family of histone H3 lysine 4 demethylases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iwase S, Lan F, Bayliss P, de la Torre-Ubieta L, Huarte M, Qi HH, Whetstine JR, Bonni A, Roberts TM, Shi Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17363312</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLU-1 is an H3K4 demethylase involved in transcriptional repression and breast cancer cell proliferation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamane K, Tateishi K, Klose RJ, Fang J, Fabrizio LA, Erdjument-Bromage H, Taylor-Papadimitriou J, Tempst P, Zhang Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22420752</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Studies of H3K4me3 demethylation by KDM5B/Jarid1B/PLU1 reveals strong substrate recognition in vitro and identifies 2,4-pyridine-dicarboxylic acid as an in vitro and in cell inhibitor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristensen LH, Nielsen AL, Helgstrand C, Lees M, Cloos P, Kastrup JS, Helin K, Olsen L, Gajhede M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a2e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18003914</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of JmjC domain-containing UTX and JMJD3 as histone H3 lysine 27 demethylases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hong S, Cho YW, Yu LR, Yu H, Veenstra TD, Ge K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e28">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17713478</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UTX and JMJD3 are histone H3K27 demethylases involved in HOX gene regulation and development.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agger K, Cloos PA, Christensen J, Pasini D, Rose S, Rappsilber J, Issaeva I, Canaani E, Salcini AE, Helin K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a73">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17851529</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A histone H3 lysine 27 demethylase regulates animal posterior development.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lan F, Bayliss PE, Rinn JL, Whetstine JR, Wang JK, Chen S, Iwase S, Alpatov R, Issaeva I, Canaani E, Roberts TM, Chang HY, Shi Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

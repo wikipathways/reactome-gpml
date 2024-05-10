@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Assembly and release of respiratory syncytial virus (RSV) virions" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">A mature virion of the respiratory syncytial virus (RSV) consists of the ribonucleoprotein complex (RNP) surrounded by the protein matrix and a lipid bilayer envelope. The RNP is composed of the genomic negative sense single-stranded (-ssRNA) that is tightly associated with the N protein (nucleoprotein) and the RNA-dependent RNA polymerase complex (RdRP). The RdRP consists of the L protein subunit (large polymerase subunit), the P protein subunit (phosphoprotein polymerase cofactor), and the M2-1 protein, which acts as a transcription processivity factor. The matrix consists of the M (matrix) protein. The M2-1 protein serves as the bridge between the RNP and the M protein. The matrix supports the viral envelope. The viral envelope contains three embedded viral proteins: fusion protein (F), attachment protein (G), and a small hydrophobic protein (SH). The M protein associates with the cytoplasmic domain of the F protein. The SH protein forms a pentameric ion channel in the viral envelope and is thought to delay apoptosis of infected cells. The assembly and budding of RSV virions primarily occurs at the apical surface of ciliated airway epithelial cells where viral filaments containing RNPs form. The budding of RSV virions requires interactions between viral proteins, host cytoskeletal proteins, and membrane. For review, please refer to Shaikh and Crowe 2013, and Battles and McLellan 2019.&lt;br&gt;&lt;br&gt;Based on the findings that P, M, and F proteins are sufficient for formation of viralâ€‘like particles (VLPs), P protein, particularly its highly phosphorylated serine/threonineâ€‘rich region between amino acids 39 and 57 that likely interacts with M and/or F proteins, may play an important role in the assembly (Meshram and Oomens 2019).
+
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9820962 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 9820962</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Orlic-Milacic, Marija</Comment>
+  <BiopaxRef>c5d</BiopaxRef>
+  <BiopaxRef>c7a</BiopaxRef>
+  <BiopaxRef>a0d</BiopaxRef>
+  <Attribute Key="reactome_id" Value="9820962" />
+  <Graphics BoardWidth="2226.0" BoardHeight="2157.0" />
+  <DataNode TextLabel="Protein N decamer" GraphId="ab491" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="676.5" CenterY="393.0" Width="117.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9823349" />
+  </DataNode>
+  <DataNode TextLabel="p-N " GraphId="d4a06" Type="Protein" GroupRef="f9fcb">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9823349" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="100.0" CenterY="1325.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="Protein N hendecamer" GraphId="e3e63" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="497.5" CenterY="424.0" Width="101.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9823350" />
+  </DataNode>
+  <DataNode TextLabel="p-N " GraphId="cfa1d" Type="Protein" GroupRef="f394d">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9823350" />
+    <Attribute Key="copies_num" Value="11" />
+    <Graphics CenterX="100.0" CenterY="1385.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="Maturation of hRSV A&#xA;proteins" GraphId="fc61d" Type="Pathway">
+    <Comment Source="Reactome">Human respiratory syncytial virus contains 10 genes which are translated into 11 proteins, of which 2 have translation isoforms due to use of alternative translation initiation codons. These proteins function in viral replication and host interaction. Fusion protein F, glycoprotein G, and both variants of small hydrophobic protein, SH and SHt, get glycosylated and F, G, and SH later migrate to the plasma membrane where virion assembly takes place. Matrix protein M first translocates to the nucleus and back to cytosol before serving as a scaffold at the assembly site. M2-1 is also found in the nucleus. Phosphorylations, partially transient, appear to be necessary for oligomerization and function of the SH, N, P, M, and M2-1 proteins (Gan &amp; Torres, 2011; McLellan et al, 2013; Muniyandi et al, 2018; Anderson et al, 2021).</Comment>
+    <BiopaxRef>d94</BiopaxRef>
+    <BiopaxRef>b51</BiopaxRef>
+    <BiopaxRef>b3f</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="569.5" CenterY="271.5" Width="147.0" Height="89.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9828806" />
+  </DataNode>
+  <DataNode TextLabel="Replicated hRSV A&#xA;genomic (-)ssRNA" GraphId="adf11" Type="Rna">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="634.0" CenterY="560.0" Width="146.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="990099" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="Replicated hRSV A&#xA;nucleocapsid" GraphId="d70a5" Type="Complex">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Graphics CenterX="840.5" CenterY="459.0" Width="129.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9834738" />
+  </DataNode>
+  <DataNode TextLabel="p-N " GraphId="a3cb0" Type="Protein" GroupRef="a7f23">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9834738" />
+    <Attribute Key="copies_num" Value="2170" />
+    <Graphics CenterX="100.0" CenterY="1445.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="Replicated hRSV A genomic (-)ssRNA " GraphId="db884" Type="Protein" GroupRef="a7f23">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9834738" />
+    <Attribute Key="copies_num" Value="2170" />
+    <Graphics CenterX="100.0" CenterY="1485.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="RdRP:p-M2-1" GraphId="dfec8" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="982.5" CenterY="387.5" Width="89.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9830283" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="dc180" Type="Protein" GroupRef="a6e92">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1545.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="ed29a" Type="Protein" GroupRef="a6e92">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1565.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="a3d9d" Type="Metabolite" GroupRef="a6e92">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1585.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="c9f1f" Type="Metabolite" GroupRef="a6e92">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="100.0" CenterY="1605.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="aac2f" Type="Protein" GroupRef="a6e92">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="100.0" CenterY="1625.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="Replicated&#xA;hRSV&#xA;A&#xA;nucleocapsid:Packaged RdRP:p-M2-1" GraphId="e039d" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1149.5" CenterY="464.0" Width="113.0" Height="64.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9835160" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="aaa6d" Type="Protein" GroupRef="a2a0b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835160" />
+    <Attribute Key="copies_num" Value="836" />
+    <Graphics CenterX="100.0" CenterY="1685.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="e88b9" Type="Protein" GroupRef="a2a0b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835160" />
+    <Attribute Key="copies_num" Value="1044" />
+    <Graphics CenterX="100.0" CenterY="1705.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="d9a58" Type="Metabolite" GroupRef="a2a0b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835160" />
+    <Attribute Key="copies_num" Value="1252" />
+    <Graphics CenterX="100.0" CenterY="1725.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="d9662" Type="Metabolite" GroupRef="a2a0b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835160" />
+    <Attribute Key="copies_num" Value="2087" />
+    <Graphics CenterX="100.0" CenterY="1745.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="a60ce" Type="Protein" GroupRef="a2a0b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835160" />
+    <Attribute Key="copies_num" Value="2922" />
+    <Graphics CenterX="100.0" CenterY="1765.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="p-N " GraphId="ded04" Type="Protein" GroupRef="a2a0b">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9835160" />
+    <Attribute Key="copies_num" Value="5091" />
+    <Graphics CenterX="100.0" CenterY="1785.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="Replicated hRSV A genomic (-)ssRNA " GraphId="f1627" Type="Protein" GroupRef="a2a0b">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9835160" />
+    <Attribute Key="copies_num" Value="5091" />
+    <Graphics CenterX="100.0" CenterY="1825.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="p-M dimer" GraphId="b47b8" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1235.5" CenterY="371.0" Width="77.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9831699" />
+  </DataNode>
+  <DataNode TextLabel="p-S95,T205-M " GraphId="ddd8a" Type="Protein" GroupRef="d1909">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9831699" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1885.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE7" />
+  </DataNode>
+  <DataNode TextLabel="Matrix&#xA;lattice-enclosed&#xA;replicated hRSV A&#xA;nucleocapsid" GraphId="fed66" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1420.0" CenterY="465.0" Width="136.0" Height="54.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9835163" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="beaeb" Type="Protein" GroupRef="f2aff">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835163" />
+    <Attribute Key="copies_num" Value="836" />
+    <Graphics CenterX="100.0" CenterY="1945.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="f7d29" Type="Protein" GroupRef="f2aff">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835163" />
+    <Attribute Key="copies_num" Value="1044" />
+    <Graphics CenterX="100.0" CenterY="1965.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="bcf96" Type="Metabolite" GroupRef="f2aff">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835163" />
+    <Attribute Key="copies_num" Value="1252" />
+    <Graphics CenterX="100.0" CenterY="1985.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="e651f" Type="Metabolite" GroupRef="f2aff">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835163" />
+    <Attribute Key="copies_num" Value="2087" />
+    <Graphics CenterX="100.0" CenterY="2005.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="d22fb" Type="Protein" GroupRef="f2aff">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835163" />
+    <Attribute Key="copies_num" Value="2922" />
+    <Graphics CenterX="100.0" CenterY="2025.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="p-N " GraphId="c07d7" Type="Protein" GroupRef="f2aff">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9835163" />
+    <Attribute Key="copies_num" Value="5091" />
+    <Graphics CenterX="100.0" CenterY="2045.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="Replicated hRSV A genomic (-)ssRNA " GraphId="d8dca" Type="Protein" GroupRef="f2aff">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9835163" />
+    <Attribute Key="copies_num" Value="5091" />
+    <Graphics CenterX="100.0" CenterY="2085.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="p-S95,T205-M " GraphId="e6ca0" Type="Protein" GroupRef="f2aff">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835163" />
+    <Attribute Key="copies_num" Value="7260" />
+    <Graphics CenterX="100.0" CenterY="2105.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE7" />
+  </DataNode>
+  <DataNode TextLabel="p-SH pentamer" GraphId="d1fe2" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1405.5" CenterY="203.0" Width="105.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9831119" />
+  </DataNode>
+  <DataNode TextLabel="p-SH " GraphId="fc696" Type="Protein" GroupRef="b9ae6">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9831119" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="240.0" CenterY="1365.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE5-1" />
+  </DataNode>
+  <DataNode TextLabel="F trimer" GraphId="c15b1" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1291.5" CenterY="202.0" Width="57.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9829197" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F1 " GraphId="d7402" Type="Protein" GroupRef="d1d46">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9829197" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1425.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F2 " GraphId="a55fe" Type="Protein" GroupRef="d1d46">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9829197" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="240.0" CenterY="1445.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Mature G" GraphId="ce500" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1155.5" CenterY="209.0" Width="123.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="Replicated hRSV A&#xA;virion" GraphId="f0c1d" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="1552.5" CenterY="108.0" Width="129.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9835170" />
+  </DataNode>
+  <DataNode TextLabel="F1-F2 " GraphId="bb00f" Type="Protein" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="1440" />
+    <Graphics CenterX="240.0" CenterY="1505.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Mature G " GraphId="ac594" Type="Protein" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="1487" />
+    <Graphics CenterX="240.0" CenterY="1525.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="p-SH " GraphId="f1528" Type="Protein" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="240.0" CenterY="1545.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE5-1" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A genomic (-)ssRNA " GraphId="ab75d" Type="Protein" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="240.0" CenterY="1585.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="N " GraphId="d3f4e" Type="Protein" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="3705" />
+    <Graphics CenterX="240.0" CenterY="1605.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="e3788" Type="Protein" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="4540" />
+    <Graphics CenterX="240.0" CenterY="1625.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="a1553" Type="Protein" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="4748" />
+    <Graphics CenterX="240.0" CenterY="1645.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="f3035" Type="Metabolite" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="4956" />
+    <Graphics CenterX="240.0" CenterY="1665.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="e10eb" Type="Metabolite" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="5791" />
+    <Graphics CenterX="240.0" CenterY="1685.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="c3b8a" Type="Protein" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="6626" />
+    <Graphics CenterX="240.0" CenterY="1705.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="p-S95,T205-M " GraphId="d5a93" Type="Protein" GroupRef="b6962">
+    <Attribute Key="cellular_location" Value="viral tegument" />
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+    <Attribute Key="copies_num" Value="8795" />
+    <Graphics CenterX="240.0" CenterY="1725.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE7" />
+  </DataNode>
+  <DataNode TextLabel="Respiratory&#xA;syncytial virus&#xA;(RSV) genome&#xA;replication,&#xA;transcription and&#xA;translation" GraphId="daaad" Type="Pathway">
+    <Comment Source="Reactome">After the human respiratory syncytial virus A (hRSV A) enters host cells, an initial round of transcription and translation of virally-encoded mRNAs ensues, which is followed by genome replication.&lt;br&gt;&lt;br&gt;The negative sense, single-stranded RNA (-ssRNA) genome of the human respiratory syncytial virus (RSV) A is 15.2 kb long and contains 10 genes that encode 11 proteins. The 10 genes, going from the 3' end to the 5' end of the -ssRNA are: 1C (NS1), 1B (NS2), N, P, M, SH, G, F, M2, and L. Except for the M2 gene, each gene encodes one protein. The two overlapping open reading frames (ORFs) of the M2 gene encode proteins M2-1 and M2-2.&lt;br&gt;&lt;br&gt;The N gene encodes the nucleoprotein, which forms decameric and hendecameric (11-fold) rings around which viral genomic RNA is packaged. The L and P genes encode the large polymerase subunit and the phosphoprotein polymerase cofactor subunit, respectively, of the RNA-dependent RNA polymerase complex (RdRP) (reviewed in Battles and McLellan 2019). The L protein contains three conserved enzymatic domains: the RNA-dependent RNA polymerase (RdRp) domain, the polyribonucleotidyl transferase (PRNTase or capping) domain, and the methyltransferase (MTase) domain (reviewed in Sutto-Ortiz et al. 2023). The M2-1 product of the M2 gene is a transcription processivity factor, while the M2-2 product of the M2 gene is a nonstructural protein that regulates the switch between transcription and genome replication. The SH, G, and F genes encode three proteins that are embedded in the viral envelope: small hydrophobic protein, attachment protein, and fusion protein, respectively. The secreted isoform of G protein (sG) mediates immune evasion. The NS1 and NS2 genes encode nonstructural proteins that function together to inhibit apoptosis and interferon response in infected cells. For review, please refer to Battles and McLellan 2019.&lt;br&gt;&lt;br&gt;The genomic -ssRNA and the antigenome RNA are encapsidated as they are synthesized, and the association of the nascent RNA with the N protein is likely what causes the replicating polymerase to be processive, with the processivity being further augmented by the M2-1 processivity factor (reviewed in Fearns and Deval 2016). The C-terminal arm of the N protein, known to interact with the P protein subunit of RdRP complex, extends above the plane of N decamers. The interaction between N and P proteins may allow the RdRP complex to distort the helical conformation of the nucleocapsid during RNA synthesis. A long beta-hairpin in the N-terminal region of the N protein may be the site of contact with the catalytic L subunit of the RdRP complex. The proposed model for RNA synthesis in RSV is that the RdRP complex induces a hinge movement of the N-terminal region with respect to the C-terminal region of the N protein that allows the polymerase to thread through the template RNA without the need to disassemble the nucleocapsid (Tawar et al. 2009). The hinge movement would enable 11 bases available for readout at a time (Tawar et al. 2009), consistent with the accumulation of abortive transcripts 9-11 nucleotides in length in P protein phosphorylation mutants that impair transcript elongation (Dupuy et al. 1999).&lt;br&gt;&lt;br&gt;The M2-2 protein regulates the shift from positive to negative sense RNA synthesis. While the mechanism has not been fully elucidated, M2-2 was shown to directly bind to the L protein and to inhibit positive sense RNA synthesis (reviewed in Noton and Fearns 2015).&lt;br&gt;&lt;br&gt;For review, please refer to Collins et al. 2013. </Comment>
+    <BiopaxRef>c5d</BiopaxRef>
+    <BiopaxRef>e3d</BiopaxRef>
+    <BiopaxRef>b79</BiopaxRef>
+    <BiopaxRef>d45</BiopaxRef>
+    <BiopaxRef>f5e</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="636.0" CenterY="753.5" Width="196.0" Height="81.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9820965" />
+  </DataNode>
+  <DataNode TextLabel="HSP90 dimer" GraphId="f8534" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1512.0" CenterY="309.5" Width="92.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9693660" />
+  </DataNode>
+  <DataNode TextLabel="HSP90AA1 " GraphId="ad5c8" Type="Protein" GroupRef="f0d88">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9693660" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1785.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P07900" />
+  </DataNode>
+  <DataNode TextLabel="HSP90AB1 " GraphId="f3c29" Type="Protein" GroupRef="f0d88">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9693660" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1805.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08238" />
+  </DataNode>
+  <Interaction GraphId="ce4da">
+    <Comment Source="Reactome">In the human respiratory syncytial virus (hRSV) virion, N protein decamers constitute ~60% of the nucleocapsid, while N protein hendecamers constitute ~40% of the nucleocapsid (Tran et al. 2007). While it was initially suggested that each N protein monomer contacts 6 or 7 nucleotides of RSV genomic RNA (Tran et al. 2007), it has been demonstrated that each N protein monomer contacts 7 nucleotides of genomic RNA (Tawar et al. 2009) and that RSV ribonucleocapsid is a left-handed helix (Bakker et al. 2013; Liljeroos et al. 2013). Taking into account the ratio of N-decamers to N-hendecamers, the number of RNA nucleotides bound by each N protein monomer, and the length of the human RSV A genome of ~15200 nt, it is estimated that 129 N-decamers and 80 N-hendecamers coat the RSV genome to form the nucleocapsid.&lt;br&gt;&lt;br&gt;Formation of a complex between nascent P and nascent N proteins may prevent premature association of N proteins with viral RNA (CastagnÃ© et al. 2004; Esneau et al. 2019).</Comment>
+    <BiopaxRef>b58</BiopaxRef>
+    <BiopaxRef>a3e</BiopaxRef>
+    <BiopaxRef>ffa</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="656.0" Y="444.0" />
+      <Point X="773.0" Y="454.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a1295" />
+      <Anchor Position="0.99" Shape="None" GraphId="c6cad" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9825340" />
+  </Interaction>
+  <Interaction GraphId="d7e1b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="634.0" Y="535.0" GraphRef="adf11" RelX="0.0" RelY="-1.0" />
+      <Point X="656.0" Y="444.0" GraphRef="a1295" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9825340" />
+  </Interaction>
+  <Interaction GraphId="a3fe9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="547.0" Y="424.0" GraphRef="e3e63" RelX="0.9801980198019802" RelY="0.0" />
+      <Point X="656.0" Y="444.0" GraphRef="a1295" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9825340" />
+  </Interaction>
+  <Interaction GraphId="a9ef5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="676.0" Y="404.0" GraphRef="ab491" RelX="-0.008547008547008548" RelY="1.0" />
+      <Point X="656.0" Y="444.0" GraphRef="a1295" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9825340" />
+  </Interaction>
+  <Interaction GraphId="d476f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="773.0" Y="454.0" GraphRef="c6cad" RelX="1.169999999999959" RelY="0.10000000000002274" />
+      <Point X="776.0" Y="459.0" GraphRef="d70a5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9825340" />
+  </Interaction>
+  <Interaction GraphId="adbf3">
+    <Comment Source="Reactome">Based on mass spectroscopy of purified viral particles of human respiratory syncytial virus (RSV) A2, the ratio of P protein to M2-1 protein is ~1:1 (Radhakrishnan et al. 2010). This is expected based on the knowledge that this is the ratio in the viral RNA-dependent RNA polymerase (RdRP) complex, where both proteins are present as tetramers. The ratio of the L protein, the catalytic subunit of RdRP, to P protein and M2-1 protein is ~1:3 (Radhakrishnan et al. 2010), close to the expected ratio of 1:4, as the L protein participates as a monomer in the RdRP complex. Slight divergence from the expected ratio may be due to the large size of the L protein (Radhakrishnan et al. 2010). The ratio of P protein and M2-1 protein to N protein is lower than but close to ~1:2 (Radhakrishnan et al. 2010).&lt;br&gt;&lt;br&gt;Based on the curatorial estimation that viral genomic RNA is packaged around 209 oligomeric rings of N protein, of which 129 are N decamers (10 N subunits) and 80 are N hendecamers (11 N subunits), and taking into consideration the experimentally determined length of RSV genomic RNA (Bose et al. 2015), number of genomic RNA nucleotides bound by each N subunit (Tawar et al. 2009), and the ratio of N decamers to N hendecamers in RSV nucleocapsids (Tran et al. 2007), the total number of N proteins in a viral nucleocapsid is expected to be 2170. If each N oligomeric ring binds one RdRP complex, this would result in the total number of 832 P proteins, 832 M2-1 proteins, and 209 L proteins in a viral particle. This is close to the ratios observed by mass spectrometry analysis.&lt;br&gt;&lt;br&gt;Virion assembly occurs in cytoplasmic inclusion bodies localized in the vicinity of the plasma membrane region where virus filaments, which represent budding virions, form. Each infected cell usually contains several viral inclusion bodies of irregular shape and varying sizes (Radhakrishnan et al. 2010). </Comment>
+    <BiopaxRef>b1a</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="987.0" Y="463.0" />
+      <Point X="1090.0" Y="464.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fc761" />
+      <Anchor Position="0.99" Shape="None" GraphId="d5622" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835151" />
+  </Interaction>
+  <Interaction GraphId="eade9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="982.0" Y="398.0" GraphRef="dfec8" RelX="-0.011235955056179775" RelY="0.9130434782608695" />
+      <Point X="987.0" Y="463.0" GraphRef="fc761" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835151" />
+  </Interaction>
+  <Interaction GraphId="b5b1e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="904.0" Y="459.0" GraphRef="d70a5" RelX="0.9844961240310077" RelY="0.0" />
+      <Point X="987.0" Y="463.0" GraphRef="fc761" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835151" />
+  </Interaction>
+  <Interaction GraphId="b742f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1090.0" Y="464.0" GraphRef="d5622" RelX="1.0299999999999727" RelY="0.009999999999990905" />
+      <Point X="1093.0" Y="464.0" GraphRef="e039d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835151" />
+  </Interaction>
+  <Interaction GraphId="d55d9">
+    <Comment Source="Reactome">Based on mass spectroscopy of purified viral particles of human respiratory syncytial virus (RSV) A2, the ratio of matrix protein M to nucleocapsid protein N is ~1:1 (Radhakrishnan et al. 2010). Based on the curatorial estimation that viral genomic RNA is packaged around 209 oligomeric rings of N protein, of which 129 are N decamers (10 N subunits) and 80 are N hendecamers (11 N subunits), and taking into consideration the experimentally determined length of RSV genomic RNA (Bose et al. 2015), number of genomic RNA nucleotides bound by each N subunit (Tawar et al. 2009), and the ratio of N decamers to N hendecamers in RSV nucleocapsids (Tran et al. 2007), the total number of N proteins in a viral nucleocapsid is expected to be 2170. As M protein forms dimers, which are a prerequisite for further oligomerization during matrix lattice formation as well as formation of viral filaments and viral budding (FÃ¶rster et al. 2015), we are showing that 1085 M dimers are involved in formation of the matrix lattice around the nucleocapsid.&lt;br&gt;&lt;br&gt;Virion assembly occurs in cytoplasmic inclusion bodies localized in the vicinity of the plasma membrane region where virus filaments, which represent budding virions, form. Each infected cell usually contains several viral inclusion bodies of irregular shape and varying sizes (Radhakrishnan et al. 2010).&lt;br&gt;&lt;br&gt;Based on cryogenic electron microscopy (cryoEM) and cryogenic electron tomography (cryoET), M protein dimers form a helical lattice that constitutes an endoskeleton under the viral envelope (Conley et al. 2022; Sibert et al. 2021).</Comment>
+    <BiopaxRef>b1a</BiopaxRef>
+    <BiopaxRef>ff5</BiopaxRef>
+    <BiopaxRef>c77</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1249.0" Y="467.0" />
+      <Point X="1349.0" Y="464.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a1b44" />
+      <Anchor Position="0.99" Shape="None" GraphId="c5bf3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835165" />
+  </Interaction>
+  <Interaction GraphId="c65d5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1235.0" Y="382.0" GraphRef="b47b8" RelX="-0.012987012987012988" RelY="1.0" />
+      <Point X="1249.0" Y="467.0" GraphRef="a1b44" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835165" />
+  </Interaction>
+  <Interaction GraphId="aec0d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1205.0" Y="464.0" GraphRef="e039d" RelX="0.9823008849557522" RelY="0.0" />
+      <Point X="1249.0" Y="467.0" GraphRef="a1b44" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835165" />
+  </Interaction>
+  <Interaction GraphId="bbf21">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1349.0" Y="464.0" GraphRef="c5bf3" RelX="1.0" RelY="-0.029999999999972715" />
+      <Point X="1352.0" Y="465.0" GraphRef="fed66" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835165" />
+  </Interaction>
+  <Interaction GraphId="d7655">
+    <Comment Source="Reactome">Based on mass spectroscopy of purified viral particles of human respiratory syncytial virus (RSV) A2, the ratio of fusion protein F to nucleocapsid protein N is ~3:4, while the ratio of mature glycoprotein G to F protein is ~1:30. This low G to F ratio could, however,  be due to the hydrophobic nature of the G protein, which makes its recovery difficult, as well its heavy glycosylation, which interferes with peptide identification by mass spectroscopy (Radhakrishnan et al. 2010). In the same study, the SH protein was not detected, which may also have been a consequence of SH being highly hydrophobic.&lt;br&gt;&lt;br&gt;In this reaction, we are showing SH protein in ~1:1 ratio with the G protein. Based on the curatorial estimation that viral genomic RNA is packaged around 209 oligomeric rings of N protein, of which 129 are N decamers (10 N subunits) and 80 are N hendecamers (11 N subunits), and taking into considerations the experimentally determined length of RSV genomic RNA (Bose et al. 2015), number of genomic RNA nucleotides bound by each N subunit (Tawar et al. 2009), and the ratio of N decamers to N hendecamers in RSV nucleocapsids (Tran et al. 2007), the total number of N proteins in a viral nucleocapsid is expected to be 2170. As the F protein forms trimers, and SH protein forms pentamers, we are showing that 542 F trimers, 54 G proteins, and 10 SH protein pentamers become embedded in the virion membrane.&lt;br&gt;&lt;br&gt;Budding virions are observed as viral filaments at the plasma membrane of infected cells. Viral filaments are connected with cytoplasmic inclusion bodies where the virion assembly occurs. Viral nucleocapsids appear as strands along the length of viral filaments, with some viral filaments containing more than one viral nucleocapsid (Radhakrishnan et al. 2010; Liljeroos et al. 2013; Conley et al. 2022).&lt;br&gt;&lt;br&gt;Based on cryogenic electron microscopy (cryoEM) and cryogenic electron tomography (cryoET), glycoproteins that stud the viral envelope are clustered in pairs and helically ordered; an organization that is coordinated by the M protein lattice (Conley et al. 2022; Liljeroos et al. 2013; Sibert et al. 2021).&lt;br&gt;&lt;br&gt;The cortical actin network takes part in formation of viral filaments. In particular, the association of beta-actin (ACTB), filamin-1 (FLNA), and cofilin-1(CFL1) with viral filaments has been confirmed (Radhakrishnan et al. 2010, Huong et al. 2016). HSP90A is needed for formation of mature virions and both isoforms of HSP90A (HSP90AA1, and HSP90AB1) can be found as components of viral filaments (Radhakrishnan et al. 2010).
+</Comment>
+    <BiopaxRef>b1a</BiopaxRef>
+    <BiopaxRef>ff5</BiopaxRef>
+    <BiopaxRef>bb1</BiopaxRef>
+    <BiopaxRef>d95</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1386.0" Y="301.0" />
+      <Point X="1543.0" Y="129.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ac80d" />
+      <Anchor Position="0.99" Shape="None" GraphId="fea87" />
+      <Anchor Position="0.5" Shape="None" GraphId="fa0e4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835171" />
+  </Interaction>
+  <Interaction GraphId="f2bfd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1216.0" Y="209.0" GraphRef="ce500" RelX="0.983739837398374" RelY="0.0" />
+      <Point X="1386.0" Y="301.0" GraphRef="ac80d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835171" />
+  </Interaction>
+  <Interaction GraphId="a3bc5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1405.0" Y="214.0" GraphRef="d1fe2" RelX="-0.009523809523809525" RelY="1.0" />
+      <Point X="1386.0" Y="301.0" GraphRef="ac80d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835171" />
+  </Interaction>
+  <Interaction GraphId="f9388">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1420.0" Y="438.0" GraphRef="fed66" RelX="0.0" RelY="-1.0" />
+      <Point X="1386.0" Y="301.0" GraphRef="ac80d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835171" />
+  </Interaction>
+  <Interaction GraphId="cdc8d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1319.0" Y="202.0" GraphRef="c15b1" RelX="0.9649122807017544" RelY="0.0" />
+      <Point X="1386.0" Y="301.0" GraphRef="ac80d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835171" />
+  </Interaction>
+  <Interaction GraphId="c6974">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1543.0" Y="129.0" GraphRef="fea87" RelX="1.5699999999999363" RelY="-1.7200000000000273" />
+      <Point X="1552.0" Y="126.0" GraphRef="f0c1d" RelX="-0.007751937984496124" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835171" />
+  </Interaction>
+  <Interaction GraphId="c8de2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1466.0" Y="309.0" GraphRef="f8534" RelX="-1.0" RelY="-0.043478260869565216" />
+      <Point X="1478.0" Y="264.0" GraphRef="fa0e4" RelX="13.5" RelY="49.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9835171" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="a6bde" GroupRef="af6b4">
+    <Graphics CenterX="261.0" CenterY="1249.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="e1d45" GroupRef="fdad6">
+    <Graphics CenterX="1792.5" CenterY="1008.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="c9ebf" GroupRef="af6b4">
+    <Graphics CenterX="1189.0" CenterY="748.0" Width="1998.0" Height="1098.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="ccba7" GroupRef="fdad6">
+    <Graphics CenterX="1789.0" CenterY="1009.0" Width="250.0" Height="250.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="f9fcb" GraphId="db3c0" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9823349" />
+  </Group>
+  <Group GroupId="f394d" GraphId="e28a7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9823350" />
+  </Group>
+  <Group GroupId="a7f23" GraphId="d0f64" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9834738" />
+  </Group>
+  <Group GroupId="a6e92" GraphId="d5cbe" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+  </Group>
+  <Group GroupId="a2a0b" GraphId="b935a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9835160" />
+  </Group>
+  <Group GroupId="d1909" GraphId="dff97" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9831699" />
+  </Group>
+  <Group GroupId="f2aff" GraphId="debea" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9835163" />
+  </Group>
+  <Group GroupId="b9ae6" GraphId="ac2e8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9831119" />
+  </Group>
+  <Group GroupId="d1d46" GraphId="e193a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9829197" />
+  </Group>
+  <Group GroupId="b6962" GraphId="bcb96" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9835170" />
+  </Group>
+  <Group GroupId="f0d88" GraphId="e73be" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9693660" />
+  </Group>
+  <Group GroupId="af6b4" GraphId="aeb37" Style="Group" />
+  <Group GroupId="fdad6" GraphId="ed903" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30723301</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus entry and how to block it.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Battles MB, McLellan JS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23252497</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mechanisms driving respiratory syncytial virus assembly.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaikh FY, Crowe JE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31009855</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a human respiratory syncytial virus phosphoprotein domain required for virus-like-particle formation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meshram CD, Oomens AGP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d94">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24362685</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure and function of respiratory syncytial virus surface glycoproteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McLellan JS, Ray WC, Peeples ME.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34372490</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional Features of the Respiratory Syncytial Virus G Protein.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anderson LJ, Jadhao SJ, Paden CR, Tong S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29900500</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure and Function of the Human Respiratory Syncytial Virus M2-1 Protein.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muniyandi S, Pangratiou G, Edwards TA, Barr JN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36851554</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemistry of the Respiratory Syncytial Virus L Protein Embedding RNA Polymerase and Capping Activities.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sutto-Ortiz P, Eléouët JF, Ferron F, Decroly E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b79">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24362682</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus: virology, reverse genetics, and pathogenesis of disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collins PL, Fearns R, Graham BS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d45">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27575793</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New antiviral approaches for respiratory syncytial virus and other mononegaviruses: Inhibiting the RNA polymerase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fearns R, Deval J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25683441</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Initiation and regulation of paramyxovirus transcription and replication.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noton SL, Fearns R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b58">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17170452</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The nine C-terminal amino acids of the respiratory syncytial virus protein P are necessary and sufficient for binding to ribonucleoprotein complexes in which six ribonucleotides are contacted per N protein protomer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tran TL, Castagné N, Bhella D, Varela PF, Bernard J, Chilmonczyk S, Berkenkamp S, Benhamo V, Grznarova K, Grosclaude J, Nespoulos C, Rey FA, Eléouët JF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19965480</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structure of a nucleocapsid-like nucleoprotein-RNA complex of respiratory syncytial virus.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tawar RG, Duquerroy S, Vonrhein C, Varela PF, Damier-Piolle L, Castagné N, MacLellan K, Bedouelle H, Bricogne G, Bhella D, Eléouët JF, Rey FA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffa">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23677789</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The respiratory syncytial virus nucleoprotein-RNA complex forms a left-handed helical nucleocapsid.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bakker SE, Duquerroy S, Galloux M, Loney C, Conner E, Eléouët JF, Rey FA, Bhella D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20530633</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein analysis of purified respiratory syncytial virus particles reveals an important role for heat shock protein 90 in virus particle assembly.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radhakrishnan A, Yeo D, Brown G, Myaing MZ, Iyer LR, Fleck R, Tan BH, Aitken J, Sanmun D, Tang K, Yarwood A, Brink J, Sugrue RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34935163</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helical ordering of envelope-associated proteins and glycoproteins in respiratory syncytial virus.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conley MJ, Short JM, Burns AM, Streetley J, Hutchings J, Bakker SE, Power BJ, Jaffery H, Haney J, Zanetti G, Murcia PR, Stewart M, Fearns R, Vijayakrishnan S, Bhella D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c77">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25673702</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dimerization of matrix protein is required for budding of respiratory syncytial virus.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Förster A, Maertens GN, Farrell PJ, Bajorek M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27464695</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Proteomic-Based Workflow Using Purified Respiratory Syncytial Virus Particles to Identify Cellular Factors as Drug Targets.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huong TN, Tan BH, Sugrue RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d95">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23776214</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Architecture of respiratory syncytial virus revealed by electron cryotomography.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liljeroos L, Krzyzaniak MA, Helenius A, Butcher SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

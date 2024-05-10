@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Malate-aspartate shuttle" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The malate-aspartate shuttle (MAS) is a redox process that supports oxidative pathways in the cytosol, and reductive potential in mitochondria. The mitochondrial succinate dehydrogenase (SDH) reaction provides reducing equivalents (electrons) for the respiratory electron transport, with the NADH needed to reduce malate coming from cytosolic processes. There is no NADH equilibrium between cytosol and mitochondria: cytosolic NADH/NAD+ ratio is 0.001, while in mitochondria, it is 0.1. The MAS creates this NADH gradient by reducing oxaloacetate (OA) to malate (MAL), catalyzed by cytosolic MDH1, and exchanging cytosolic MAL with mitochondrial 2-oxoglutarate (2OG, 2-KG), catalyzed by SLC25A11. At the same time, aspartate (L-Asp) gets exported and transaminated to glutamate (L-Glu), which subsequently gets coimported with a proton and transaminated back.
+
+In summary, mitochondria take up one proton and one reducing equivalent. The proton import by SLC25A12/13 is irreversible, so the MAS always runs in one direction. Hence, the mitochondrial outward proton-motive force drives the MAS toward cytosolic NADH oxidation. Defects in any of the reactions of this pathway lead to cytosolic NAD+ scarcity, affecting glycolysis, L-Glu, and L-Ser biosynthesis, as well as L-Asp availability. Neurotransmission in the CNS specifically needs L-Asp and L-Glu, and mutations in proteins catalyzing MAS reactions are commonly associated with early infantile epileptic encephalopathy (reviewed in Borst, 2020; Broeks et al., 2021).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9856872 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 9856872</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Stephan, Ralf</Comment>
+  <BiopaxRef>b8e</BiopaxRef>
+  <BiopaxRef>bc9</BiopaxRef>
+  <Attribute Key="reactome_id" Value="9856872" />
+  <Graphics BoardWidth="1559.0" BoardHeight="1230.0" />
+  <DataNode TextLabel="NAD+" GraphId="f1126" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="260.0" CenterY="481.0" Width="50.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57540" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="fffec" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="817.0" CenterY="160.0" Width="40.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="L-Asp" GraphId="e264d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="499.5" CenterY="145.5" Width="43.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29991" />
+  </DataNode>
+  <DataNode TextLabel="MAL" GraphId="bbde6" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="848.5" CenterY="521.5" Width="47.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15589" />
+  </DataNode>
+  <DataNode TextLabel="L-Asp" GraphId="ab6d5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="727.0" CenterY="157.5" Width="50.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29991" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K259-GOT1 dimer" GraphId="e4a4e" Type="Complex">
+    <BiopaxRef>d5c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="378.0" CenterY="229.5" Width="106.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-70579" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K259-GOT1 " GraphId="f374f" Type="Protein" GroupRef="df090">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-70579" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="762.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17174" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="bee5f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="1005.0" CenterY="388.0" Width="44.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57945" />
+  </DataNode>
+  <DataNode TextLabel="MDH1 dimer" GraphId="f1008" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="266.0" CenterY="400.0" Width="50.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-198437" />
+  </DataNode>
+  <DataNode TextLabel="MDH1 " GraphId="a5241" Type="Protein" GroupRef="dfc46">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-198437" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="822.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P40925" />
+  </DataNode>
+  <DataNode TextLabel="GOT2 dimer" GraphId="f6192" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="863.5" CenterY="240.5" Width="45.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-70594" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K279-GOT2 " GraphId="ac9a2" Type="Protein" GroupRef="d7681">
+    <BiopaxRef>d50</BiopaxRef>
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-70594" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="882.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P00505" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="da08d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="425.0" CenterY="335.5" Width="34.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="c49fa" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="246.5" CenterY="322.5" Width="45.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57945" />
+  </DataNode>
+  <DataNode TextLabel="L-Glu" GraphId="eb6a4" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="693.5" CenterY="306.0" Width="39.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29985" />
+  </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="d4c2e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="968.0" CenterY="533.5" Width="48.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57540" />
+  </DataNode>
+  <DataNode TextLabel="MAL" GraphId="f2c91" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="341.0" CenterY="518.0" Width="40.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15589" />
+  </DataNode>
+  <DataNode TextLabel="OA" GraphId="c5620" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="846.0" CenterY="338.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16452" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="bbc08" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="393.0" CenterY="133.0" Width="38.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="c35a6" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="948.0" CenterY="335.5" Width="32.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="MDH2 dimer" GraphId="ee557" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="988.5" CenterY="455.0" Width="47.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-198511" />
+  </DataNode>
+  <DataNode TextLabel="MDH2 " GraphId="c1a52" Type="Protein" GroupRef="b5cbf">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-198511" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="942.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P40926" />
+  </DataNode>
+  <DataNode TextLabel="L-Glu" GraphId="beb0f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="498.0" CenterY="304.0" Width="40.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29985" />
+  </DataNode>
+  <DataNode TextLabel="OA" GraphId="bf010" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="344.5" CenterY="305.0" Width="37.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16452" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="d32f7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="621.0" CenterY="206.5" Width="32.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="cf627" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="554.0" CenterY="322.0" Width="30.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="a7403" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="635.0" CenterY="438.5" Width="32.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="SLC25A11 homodimer" GraphId="a2c78" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Graphics CenterX="582.0" CenterY="582.5" Width="78.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-376856" />
+  </DataNode>
+  <DataNode TextLabel="SLC25A11 " GraphId="d5876" Type="Protein" GroupRef="b3cc1">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-376856" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1002.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q02978" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="a456c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="523.5" CenterY="439.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="SLC25A12,13" GraphId="a7b3e" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Graphics CenterX="585.0" CenterY="154.5" Width="92.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-372469" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="ba83a" Type="Metabolite" GroupRef="ca323">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-372469" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1062.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="SLC25A12 " GraphId="a6519" Type="Protein" GroupRef="ca323">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-372469" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1082.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75746" />
+  </DataNode>
+  <DataNode TextLabel="SLC25A13 " GraphId="b6d78" Type="Protein" GroupRef="ca323">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-372469" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1102.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UJS0" />
+  </DataNode>
+  <DataNode TextLabel="SLC25A18,A22" GraphId="d4285" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Graphics CenterX="585.0" CenterY="477.5" Width="94.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8875842" />
+  </DataNode>
+  <DataNode TextLabel="SLC25A18 " GraphId="fb285" Type="Protein" GroupRef="d9b09">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8875842" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1162.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H1K4" />
+  </DataNode>
+  <DataNode TextLabel="SLC25A22 " GraphId="dd879" Type="Protein" GroupRef="d9b09">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8875842" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1182.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H936" />
+  </DataNode>
+  <DataNode TextLabel="Glucose metabolism" GraphId="d770d" Type="Pathway">
+    <Comment Source="Reactome">Glucose is the major form in which dietary sugars are made available to cells of the human body. Its breakdown is a major source of energy for all cells, and is essential for the brain and red blood cells. Glucose utilization begins with its uptake by cells and conversion to glucose 6-phosphate, which cannot traverse the cell membrane. Fates open to cytosolic glucose 6-phosphate include glycolysis to yield pyruvate, glycogen synthesis, and the pentose phosphate pathway. In some tissues, notably the liver and kidney, glucose 6-phosphate can be synthesized from pyruvate by the pathway of gluconeogenesis.</Comment>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="247.5" CenterY="80.0" Width="97.0" Height="52.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-70326" />
+  </DataNode>
+  <DataNode TextLabel="Serine biosynthesis" GraphId="b4f0d" Type="Pathway">
+    <Comment Source="Reactome">L-Serine is needed in human brain in large amounts as precursor to important biomolecules such as nucleotides, phospholipids and the neurotransmitters glycine and D-serine. The pathway for its synthesis starts with 3-phosphoglycerate and it later needs glutamate as an amination agent. Deficiencies in the participating enzymes lead to severe neurological symptoms that are treatable with serine if treatment starts early (de Koning &amp; Klomp 2004).</Comment>
+    <BiopaxRef>e34</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="80.0" CenterY="312.5" Width="138.0" Height="45.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-977347" />
+  </DataNode>
+  <DataNode TextLabel="Peroxisomal lipid&#xA;metabolism" GraphId="aab6d" Type="Pathway">
+    <Comment Source="Reactome">In humans, the catabolism of phytanate, pristanate, and very long chain fatty acids as well as the first four steps of the biosynthesis of plasmalogens are catalyzed by peroxisomal enzymes. Defects in any of these enzymes or in the assembly of peroxisomes are associated with severe developmental disorders (Wanders and Watherham 2006).</Comment>
+    <BiopaxRef>e49</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="83.0" CenterY="395.0" Width="132.0" Height="56.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-390918" />
+  </DataNode>
+  <DataNode TextLabel="Citric acid cycle&#xA;(TCA cycle)" GraphId="d5f9b" Type="Pathway">
+    <Comment Source="Reactome">In the citric acid or tricarboxylic acid (TCA) cycle, the acetyl group of acetyl CoA (derived primarily from oxidative decarboxylation of pyruvate, beta-oxidation of long-chain fatty acids, and catabolism of ketone bodies and several amino acids) can be completely oxidized to CO2 in reactions that also yield one high-energy phosphate bond (as GTP or ATP) and four reducing equivalents (three NADH + H+, and one FADH2). Then, the electron transport chain oxidizes NADH and FADH2 to yield nine more high-energy phosphate bonds (as ATP). All reactions of the citric acid cycle take place in the mitochondrion.&lt;p&gt;Eight canonical reactions mediate the synthesis of citrate from acetyl-CoA and oxaloacetate and the metabolism of citrate to re-form oxaloacetate. Three reactions are reversible: the interconversions of citrate and isocitrate, of fumarate and malate, and of malate and oxaloacetate. The reverse reactions are irrelevant under normal physiological conditions but appear to have a role in glucose- and glutamine-stimulated insulin secretion (Zhang et al., 2020) and cancer metabolism (e.g., Jiang et al., 2016). Succinate synthesis from succinyl-CoA can be coupled to the phosphorylation of either GDP (the canonical reaction) or ADP; we annotate both reactions. Two mitochondrial isocitrate dehydrogenase isozymes catalyze the oxidative decarboxylation of isocitrate to form alpha-ketoglutarate (2-oxoglutarate): IDH3 catalyzes the canonical reaction coupled to the reduction of NAD+, while IDH2 catalyzes the same reaction coupled to the reduction of NADP+, a reaction whose normal physiological function is unclear. Both reactions are annotated.&lt;p&gt;The cyclical nature of the reactions responsible for the oxidation of acetate was first suggested by Hans Krebs from biochemical studies of pigeon breast muscle (Krebs et al., 1938; Krebs and Eggleston, 1940). Ochoa and colleagues studied many molecular details of individual reactions, mainly by studying enzymes purified from pig hearts (Ochoa, 1980). While the human homologs of these enzymes have all been identified, their biochemical characterization has, in general, been limited, and many molecular details of the human reactions are inferred from those worked out in studies of the model systems.
+
+Studies examining the impact of elevated citric acid cycle intermediates such as succinate and fumarate led to the recognition of the role of metabolites in driving cancer progression ('oncometabolites') (Pollard et al., 2005; reviewed in Hayashi et al., 2018). The role of TCA enzymes in disease was reviewed by Kang et al., 2021.</Comment>
+    <BiopaxRef>af7</BiopaxRef>
+    <BiopaxRef>fe4</BiopaxRef>
+    <BiopaxRef>b2f</BiopaxRef>
+    <BiopaxRef>a2f</BiopaxRef>
+    <BiopaxRef>ad7</BiopaxRef>
+    <BiopaxRef>c52</BiopaxRef>
+    <BiopaxRef>f40</BiopaxRef>
+    <BiopaxRef>a40</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="1213.0" CenterY="448.5" Width="188.0" Height="53.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-71403" />
+  </DataNode>
+  <DataNode TextLabel="Respiratory electron&#xA;transport, ATP&#xA;synthesis by&#xA;chemiosmotic&#xA;coupling, and heat&#xA;production by&#xA;uncoupling&#xA;proteins." GraphId="dae29" Type="Pathway">
+    <Comment Source="Reactome">Oxidation of fatty acids and pyruvate in the mitochondrial matrix yield large amounts of NADH. The respiratory electron transport chain couples the re-oxidation of this NADH to NAD+ to the export of protons from the mitochonrial matrix, generating a chemiosmotic gradient across the inner mitochondrial membrane. This gradient is used to drive the synthesis of ATP; it can also be bypassed by uncoupling proteins to generate heat, a reaction in brown fat that may be important in regulation of body temperature in newborn children.</Comment>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="1224.5" CenterY="279.0" Width="189.0" Height="122.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-163200" />
+  </DataNode>
+  <Interaction GraphId="bbdb2">
+    <Comment Source="Reactome">Calcium-binding mitochondrial carrier proteins SLC25A12 (Aralar, AGC1) and SLC25A13 (Citrin, Aralar2, AGC2), located in the inner mitochondrial membrane, mediate the exchange of cytosolic aspartate and mitochondrial glutamate (Palmieri et al., 2001; GonzÃ¡lez-Moreno et al., 2023). The exchange is physiologically irreversible because of the potential across the inner mitochondrial membrane (positive outside, negative inside). In the body, SLC25A12 is found mainly in the heart, skeletal muscle, and brain, while SCL25A13 is widely expressed but most abundant in the liver (del Arco et al., 2000; Palmieri et al., 2001). Mutations in SLC25A12 can cause a form of early-onset epileptic encephalopathy (DEE39, MIM:612949; Wibom et al., 2009; reviewed in Pardo et al., 2022). Defects in SLC25A13 are associated with type II citrullinemia, characterized by a liver-specific deficiency of the urea cycle enzyme argininosuccinate synthase (Kobayashi et al., 1999, Saheki et al., 2002; GonzÃ¡lez-Moreno et al., 2023; reviewed in Hayasaka, 2021)</Comment>
+    <BiopaxRef>edf</BiopaxRef>
+    <BiopaxRef>dea</BiopaxRef>
+    <BiopaxRef>bc4</BiopaxRef>
+    <BiopaxRef>b59</BiopaxRef>
+    <BiopaxRef>fce</BiopaxRef>
+    <BiopaxRef>e8b</BiopaxRef>
+    <BiopaxRef>e4c</BiopaxRef>
+    <BiopaxRef>f7e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="581.0" Y="280.0" />
+      <Point X="583.0" Y="279.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f825b" />
+      <Anchor Position="0.99" Shape="None" GraphId="b334b" />
+      <Anchor Position="0.5" Shape="None" GraphId="d1fc1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-372448" />
+  </Interaction>
+  <Interaction GraphId="b6ab9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="702.0" Y="157.0" GraphRef="ab6d5" RelX="-1.0" RelY="-0.030303030303030304" />
+      <Point X="581.0" Y="280.0" GraphRef="f825b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-372448" />
+  </Interaction>
+  <Interaction GraphId="bf5ad">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="518.0" Y="304.0" GraphRef="beb0f" RelX="1.0" RelY="0.0" />
+      <Point X="581.0" Y="280.0" GraphRef="f825b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-372448" />
+  </Interaction>
+  <Interaction GraphId="cc338">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="554.0" Y="307.0" GraphRef="cf627" RelX="0.0" RelY="-1.0" />
+      <Point X="581.0" Y="280.0" GraphRef="f825b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-372448" />
+  </Interaction>
+  <Interaction GraphId="a3588">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="583.0" Y="279.0" GraphRef="b334b" RelX="0.01999999999998181" RelY="-0.009999999999990905" />
+      <Point X="499.0" Y="161.0" GraphRef="e264d" RelX="-0.023255813953488372" RelY="0.9393939393939394" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-372448" />
+  </Interaction>
+  <Interaction GraphId="ec939">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="583.0" Y="279.0" GraphRef="b334b" RelX="0.01999999999998181" RelY="-0.009999999999990905" />
+      <Point X="674.0" Y="306.0" GraphRef="eb6a4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-372448" />
+  </Interaction>
+  <Interaction GraphId="b4a8c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="583.0" Y="279.0" GraphRef="b334b" RelX="0.01999999999998181" RelY="-0.009999999999990905" />
+      <Point X="621.0" Y="221.0" GraphRef="d32f7" RelX="0.0" RelY="0.9354838709677419" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-372448" />
+  </Interaction>
+  <Interaction GraphId="cc19c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="585.0" Y="166.0" GraphRef="a7b3e" RelX="0.0" RelY="0.92" />
+      <Point X="584.0" Y="277.0" GraphRef="d1fc1" RelX="2.0" RelY="-2.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-372448" />
+  </Interaction>
+  <Interaction GraphId="a4abd">
+    <Comment Source="Reactome">Mitochondrial GOT2 (glutamate oxaloacetate transaminase 2, also known as aspartate aminotransferase, mitochondrial) catalyzes the reversible transamination of oxaloacetate (OA) and glutamate (L-Glu) to form aspartate (L-Asp) and 2-oxoglutarate (2-OG, alpha-ketoglutarate) (Martini et al. 1985). The active form of the enzyme is a homodimer of GOT2 monomers each conjugated with pyridoxal phosphate on lysine residue 279 (Jiang et al., 2016). Mutations in MDH1 can cause a form of early-onset epileptic encephalopathy (DEE82, MIM:618721; van Karnebeek et al. 2019).</Comment>
+    <BiopaxRef>d50</BiopaxRef>
+    <BiopaxRef>c4c</BiopaxRef>
+    <BiopaxRef>ff8</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="782.0" Y="274.0" />
+      <Point X="783.0" Y="212.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ea0b8" />
+      <Anchor Position="0.99" Shape="None" GraphId="ff098" />
+      <Anchor Position="0.5" Shape="None" GraphId="fd5b4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70613" />
+  </Interaction>
+  <Interaction GraphId="da3a4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="828.0" Y="338.0" GraphRef="c5620" RelX="-1.0" RelY="0.0" />
+      <Point X="782.0" Y="274.0" GraphRef="ea0b8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70613" />
+  </Interaction>
+  <Interaction GraphId="c7c08">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="712.0" Y="306.0" GraphRef="eb6a4" RelX="0.9487179487179487" RelY="0.0" />
+      <Point X="782.0" Y="274.0" GraphRef="ea0b8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70613" />
+  </Interaction>
+  <Interaction GraphId="a1c3c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="783.0" Y="212.0" GraphRef="ff098" RelX="0.009999999999990905" RelY="-0.6200000000000045" />
+      <Point X="817.0" Y="176.0" GraphRef="fffec" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70613" />
+  </Interaction>
+  <Interaction GraphId="c97ce">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="783.0" Y="212.0" GraphRef="ff098" RelX="0.009999999999990905" RelY="-0.6200000000000045" />
+      <Point X="752.0" Y="157.0" GraphRef="ab6d5" RelX="1.0" RelY="-0.030303030303030304" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70613" />
+  </Interaction>
+  <Interaction GraphId="f7af3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="841.0" Y="240.0" GraphRef="f6192" RelX="-1.0" RelY="-0.02702702702702703" />
+      <Point X="783.0" Y="242.0" GraphRef="fd5b4" RelX="0.5" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70613" />
+  </Interaction>
+  <Interaction GraphId="eb19a">
+    <Comment Source="Reactome">Cytosolic GOT1 (glutamate oxaloacetate transaminase 1, also known as aspartate aminotransferase 1) catalyzes the reversible reaction of aspartate (L-Asp) and 2-oxoglutarate (2OG, alpha-ketoglutarate) to form oxaloacetate (OA) and glutamate (L-Glu) (Doyle et al. 1990). Crystallographic data show the enzyme is a homodimer (Holt et al., 2018).</Comment>
+    <BiopaxRef>d5c</BiopaxRef>
+    <BiopaxRef>ccb</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="498.0" Y="201.0" />
+      <Point X="498.0" Y="252.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a16a5" />
+      <Anchor Position="0.99" Shape="None" GraphId="e7f09" />
+      <Anchor Position="0.5" Shape="None" GraphId="c0f63" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70592" />
+  </Interaction>
+  <Interaction GraphId="c5e29">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="499.0" Y="161.0" GraphRef="e264d" RelX="-0.023255813953488372" RelY="0.9393939393939394" />
+      <Point X="498.0" Y="201.0" GraphRef="a16a5" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70592" />
+  </Interaction>
+  <Interaction GraphId="df85c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="412.0" Y="133.0" GraphRef="bbc08" RelX="1.0" RelY="0.0" />
+      <Point X="498.0" Y="201.0" GraphRef="a16a5" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70592" />
+  </Interaction>
+  <Interaction GraphId="c00ea">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="498.0" Y="252.0" GraphRef="e7f09" RelX="0.0" RelY="0.5099999999999909" />
+      <Point X="498.0" Y="291.0" GraphRef="beb0f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70592" />
+  </Interaction>
+  <Interaction GraphId="a671a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="498.0" Y="252.0" GraphRef="e7f09" RelX="0.0" RelY="0.5099999999999909" />
+      <Point X="362.0" Y="305.0" GraphRef="bf010" RelX="0.9459459459459459" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70592" />
+  </Interaction>
+  <Interaction GraphId="f49c8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="431.0" Y="229.0" GraphRef="e4a4e" RelX="1.0" RelY="-0.02702702702702703" />
+      <Point X="498.0" Y="228.0" GraphRef="c0f63" RelX="0.0" RelY="1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70592" />
+  </Interaction>
+  <Interaction GraphId="fea95">
+    <Comment Source="Reactome">Mitochondrial malate dehydrogenase (MDH2) dimer catalyzes the reversible reaction of malate and NAD+ to form oxaloacetate (OA) and NADH + H+ (Luo et al. 2006; Eo et al., 2022). This reaction is highly endergonic but is pulled in the direction annotated here when the TCA cycle is operating. The active enzyme is a palmitoylated homodimer (Sanchez et al. 1998; Pei et al., 2022). Mutations in MDH2 can cause infantile epileptic encephalopathy (DEE51, MIM:617339; see Priestley et al., 2022).</Comment>
+    <BiopaxRef>ffc</BiopaxRef>
+    <BiopaxRef>c5b</BiopaxRef>
+    <BiopaxRef>efc</BiopaxRef>
+    <BiopaxRef>c44</BiopaxRef>
+    <BiopaxRef>d3e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="918.0" Y="479.0" />
+      <Point X="916.0" Y="431.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b2306" />
+      <Anchor Position="0.99" Shape="None" GraphId="cd8e2" />
+      <Anchor Position="0.5" Shape="None" GraphId="ea0bd" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70979" />
+  </Interaction>
+  <Interaction GraphId="a1f41">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="944.0" Y="533.0" GraphRef="d4c2e" RelX="-1.0" RelY="-0.02702702702702703" />
+      <Point X="918.0" Y="479.0" GraphRef="b2306" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70979" />
+  </Interaction>
+  <Interaction GraphId="a550f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="871.0" Y="521.0" GraphRef="bbde6" RelX="0.9574468085106383" RelY="-0.02564102564102564" />
+      <Point X="918.0" Y="479.0" GraphRef="b2306" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70979" />
+  </Interaction>
+  <Interaction GraphId="bbe6f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="916.0" Y="431.0" GraphRef="cd8e2" RelX="-0.01999999999998181" RelY="-0.4800000000000182" />
+      <Point X="846.0" Y="353.0" GraphRef="c5620" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70979" />
+  </Interaction>
+  <Interaction GraphId="c2376">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="916.0" Y="431.0" GraphRef="cd8e2" RelX="-0.01999999999998181" RelY="-0.4800000000000182" />
+      <Point X="948.0" Y="350.0" GraphRef="c35a6" RelX="0.0" RelY="0.9354838709677419" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70979" />
+  </Interaction>
+  <Interaction GraphId="b63e1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="916.0" Y="431.0" GraphRef="cd8e2" RelX="-0.01999999999998181" RelY="-0.4800000000000182" />
+      <Point X="983.0" Y="388.0" GraphRef="bee5f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70979" />
+  </Interaction>
+  <Interaction GraphId="b3517">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="965.0" Y="455.0" GraphRef="ee557" RelX="-1.0" RelY="0.0" />
+      <Point X="916.0" Y="456.0" GraphRef="ea0bd" RelX="-1.0" RelY="1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70979" />
+  </Interaction>
+  <Interaction GraphId="e61b5">
+    <Comment Source="Reactome">Mitochondrial glutamate carriers 1 and 2 (SLC25A22, GC1, and SLC25A18, GC2) belong to the mitochondrial carrier family of transport proteins that shuttle substrates, metabolites, and cofactors through the mitochondrial membrane, connecting the cytosol to the mitochondrial matrix. Glutamate (Glu) can be co-transported with H+ via SLC25A18 and SLC25A22, located on the inner mitochondrial membrane (Fiermonte et al., 2002). Defects in SLC25A22 can cause early infantile epileptic encephalopathy 3 (EIEE3; MIM:609304), a severe neonatal epilepsy characterized by very early onset, erratic and fragmentary myoclonus. With no treatment available, children with EIEE3 die within 1 or 2 years of birth or survive in a vegetative state (Molinari et al., 2005; reviewed in Spoto et al., 2021).</Comment>
+    <BiopaxRef>dfe</BiopaxRef>
+    <BiopaxRef>b14</BiopaxRef>
+    <BiopaxRef>bb7</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="552.0" Y="388.0" />
+      <Point X="615.0" Y="388.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b8a32" />
+      <Anchor Position="0.99" Shape="None" GraphId="b2fe1" />
+      <Anchor Position="0.5" Shape="None" GraphId="a4cb1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8875623" />
+  </Interaction>
+  <Interaction GraphId="c595b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="498.0" Y="317.0" GraphRef="beb0f" RelX="0.0" RelY="1.0" />
+      <Point X="552.0" Y="388.0" GraphRef="b8a32" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8875623" />
+  </Interaction>
+  <Interaction GraphId="d6d7f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="523.0" Y="424.0" GraphRef="a456c" RelX="-0.02857142857142857" RelY="-1.0" />
+      <Point X="552.0" Y="388.0" GraphRef="b8a32" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8875623" />
+  </Interaction>
+  <Interaction GraphId="fc798">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="615.0" Y="388.0" GraphRef="b2fe1" RelX="0.6299999999999955" RelY="0.0" />
+      <Point X="674.0" Y="306.0" GraphRef="eb6a4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8875623" />
+  </Interaction>
+  <Interaction GraphId="a6b26">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="615.0" Y="388.0" GraphRef="b2fe1" RelX="0.6299999999999955" RelY="0.0" />
+      <Point X="635.0" Y="423.0" GraphRef="a7403" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8875623" />
+  </Interaction>
+  <Interaction GraphId="e1f08">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="585.0" Y="465.0" GraphRef="d4285" RelX="0.0" RelY="-1.0" />
+      <Point X="585.0" Y="388.0" GraphRef="a4cb1" RelX="1.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8875623" />
+  </Interaction>
+  <Interaction GraphId="f0431">
+    <Comment Source="Reactome">Cytosolic MDH1 (malate dehydrogenase 1) catalyzes the reversible reaction of oxaloacetate (OA) and NADH + H+ to form malate (MAL) and NAD+ (Friedrich et al. 1988; Lo et al. 2005). This reaction provides the malate-aspartate shuttle with reducing equivalents that are transported in the form of MAL into the mitochondrion, and are available there as NADH from the reverse reaction catalyzed by MDH2. Sources of cytosolic NADH are glycolysis, serine biosynthesis, and peroxisomal fatty acid oxidation (reviewed by Borst, 2020). The dimeric structure of the human dehydrogenase is inferred from human and pig crystallographic data (McCue &amp; Finzel, 2021; Birktoft et al. 1989). Mutations in MDH1 can cause a form of early-onset epileptic encephalopathy (DEE88, MIM:618959; Broeks et al., 2019).</Comment>
+    <BiopaxRef>c08</BiopaxRef>
+    <BiopaxRef>bb5</BiopaxRef>
+    <BiopaxRef>da5</BiopaxRef>
+    <BiopaxRef>da7</BiopaxRef>
+    <BiopaxRef>df5</BiopaxRef>
+    <BiopaxRef>dfc</BiopaxRef>
+    <BiopaxRef>b8e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="343.0" Y="360.0" />
+      <Point X="342.0" Y="463.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f8457" />
+      <Anchor Position="0.99" Shape="None" GraphId="ccb26" />
+      <Anchor Position="0.5" Shape="None" GraphId="b39b9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9856871" />
+  </Interaction>
+  <Interaction GraphId="af025">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="408.0" Y="335.0" GraphRef="da08d" RelX="-1.0" RelY="-0.03225806451612903" />
+      <Point X="343.0" Y="360.0" GraphRef="f8457" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9856871" />
+  </Interaction>
+  <Interaction GraphId="e4343">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="268.0" Y="322.0" GraphRef="c49fa" RelX="0.9555555555555556" RelY="-0.02702702702702703" />
+      <Point X="343.0" Y="360.0" GraphRef="f8457" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9856871" />
+  </Interaction>
+  <Interaction GraphId="aef32">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="344.0" Y="323.0" GraphRef="bf010" RelX="-0.02702702702702703" RelY="1.0" />
+      <Point X="343.0" Y="360.0" GraphRef="f8457" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9856871" />
+  </Interaction>
+  <Interaction GraphId="b7fe7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="342.0" Y="463.0" GraphRef="ccb26" RelX="-0.009999999999990905" RelY="1.0299999999999727" />
+      <Point X="341.0" Y="502.0" GraphRef="f2c91" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9856871" />
+  </Interaction>
+  <Interaction GraphId="eee17">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="342.0" Y="463.0" GraphRef="ccb26" RelX="-0.009999999999990905" RelY="1.0299999999999727" />
+      <Point X="285.0" Y="481.0" GraphRef="f1126" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9856871" />
+  </Interaction>
+  <Interaction GraphId="fe83a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="291.0" Y="400.0" GraphRef="f1008" RelX="1.0" RelY="0.0" />
+      <Point X="343.0" Y="399.0" GraphRef="b39b9" RelX="0.5" RelY="-12.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9856871" />
+  </Interaction>
+  <Interaction GraphId="f1a63">
+    <Comment Source="Reactome">The SLC25A11 transport protein in the inner mitochondrial membrane mediates the reversible exchange of mitochondrial alpha-ketoglutarate (2OG, 2-oxoglutarate) and cytosolic malate (MAL) (Booty et al., 2015; Kabe et al. 2006). Kinetic details were also inferred from studies of rat mitochondria under conditions in which only the one transport protein appears to be active (Sluse et al. 1973). The dimeric state of the transport protein is inferred from studies of its bovine homologue (Bisaccia et al. 1996). Mutations in SLC25A11 can cause adult-onset development of paragangliomas (PGL6, MIM:618464; Buffet et al., 2018).</Comment>
+    <BiopaxRef>cfc</BiopaxRef>
+    <BiopaxRef>d25</BiopaxRef>
+    <BiopaxRef>b1c</BiopaxRef>
+    <BiopaxRef>e80</BiopaxRef>
+    <BiopaxRef>ed2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="585.0" Y="518.0" />
+      <Point X="585.0" Y="518.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="dee09" />
+      <Anchor Position="0.99" Shape="None" GraphId="ae70f" />
+      <Anchor Position="0.5" Shape="None" GraphId="a4151" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-376851" />
+  </Interaction>
+  <Interaction GraphId="c38cf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="361.0" Y="518.0" GraphRef="f2c91" RelX="1.0" RelY="0.0" />
+      <Point X="585.0" Y="518.0" GraphRef="dee09" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-376851" />
+  </Interaction>
+  <Interaction GraphId="a96da">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="817.0" Y="176.0" GraphRef="fffec" RelX="0.0" RelY="1.0" />
+      <Point X="585.0" Y="518.0" GraphRef="dee09" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-376851" />
+  </Interaction>
+  <Interaction GraphId="ff3e5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="585.0" Y="518.0" GraphRef="ae70f" RelX="0.0" RelY="0.0" />
+      <Point X="825.0" Y="521.0" GraphRef="bbde6" RelX="-1.0" RelY="-0.02564102564102564" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-376851" />
+  </Interaction>
+  <Interaction GraphId="f5c63">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="585.0" Y="518.0" GraphRef="ae70f" RelX="0.0" RelY="0.0" />
+      <Point X="393.0" Y="149.0" GraphRef="bbc08" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-376851" />
+  </Interaction>
+  <Interaction GraphId="c20bc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="582.0" Y="565.0" GraphRef="a2c78" RelX="0.0" RelY="-1.0" />
+      <Point X="582.0" Y="518.0" GraphRef="a4151" RelX="-3.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-376851" />
+  </Interaction>
+  <Label TextLabel="mitochondrial matrix" GraphId="d39be" GroupRef="cec66">
+    <Graphics CenterX="962.5" CenterY="136.5" Width="147.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="dd846" GroupRef="cec66">
+    <Graphics CenterX="1050.0" CenterY="352.0" Width="942.0" Height="684.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="df090" GraphId="f7196" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-70579" />
+  </Group>
+  <Group GroupId="dfc46" GraphId="f9453" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-198437" />
+  </Group>
+  <Group GroupId="d7681" GraphId="def11" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-70594" />
+  </Group>
+  <Group GroupId="b5cbf" GraphId="e658d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-198511" />
+  </Group>
+  <Group GroupId="b3cc1" GraphId="d4d83" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-376856" />
+  </Group>
+  <Group GroupId="ca323" GraphId="b551c">
+    <Attribute Key="complex_id" Value="R-HSA-372469" />
+  </Group>
+  <Group GroupId="d9b09" GraphId="ebbad">
+    <Attribute Key="complex_id" Value="R-HSA-8875842" />
+  </Group>
+  <Group GroupId="cec66" GraphId="d543a" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32916028</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The malate-aspartate shuttle (Borst cycle): How it started and developed into a major metabolic pathway.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borst P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33990986</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inborn disorders of the malate aspartate shuttle.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broeks MH, van Karnebeek CDM, Wanders RJA, Jans JJM, Verhoeven-Duif NM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2241899</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amino acid sequence of cytosolic aspartate aminotransferase from human liver.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doyle JM, Schininà ME, Bossa F, Doonan S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d50">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4052435</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The primary structure of mitochondrial aspartate aminotransferase from human heart.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martini F, Angelaccio S, Barra D, Pascarella S, Maras B, Doonan S, Bossa F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e34">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15021249</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serine-deficiency syndromes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Koning TJ, Klomp LW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e49">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16756494</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemistry of mammalian peroxisomes revisited.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wanders RJ, Waterham HR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16747180</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The oxidation of pyruvate in pigeon breast muscle.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krebs HA, Eggleston LV.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16746585</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The formation of citric and alpha-ketoglutaric acids in the mammalian body.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krebs HA, Salvin E, Johnson WA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6773467</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pursuit of a hobby.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ochoa S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a2f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15987702</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accumulation of Krebs cycle intermediates and over-expression of HIF1alpha in tumours which result from germline FH and SDH mutations.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pollard PJ, Brière JJ, Alam NA, Barwell J, Barclay E, Wortham NC, Hunt T, Mitchell M, Olpin S, Moat SJ, Hargreaves IP, Heales SJ, Chung YL, Griffiths JR, Dalgleish A, McGrath JA, Gleeson MJ, Hodgson SV, Poulsom R, Rustin P, Tomlinson IP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30844107</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypoxia/pseudohypoxia-mediated activation of hypoxia-inducible factor-1α in cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayashi Y, Yokota A, Harada H, Huang G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c52">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34884868</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emerging Role of TCA Cycle-Related Enzymes in Human Diseases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kang W, Suzuki M, Saito T, Miyado K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f40">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33321098</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reductive TCA cycle metabolism fuels glutamine- and glucose-stimulated insulin secretion.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang GF, Jensen MV, Gray SM, El K, Wang Y, Lu D, Becker TC, Campbell JE, Newgard CB.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a40">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27049945</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reductive carboxylation supports redox homeostasis during anchorage-independent growth.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang L, Shestov AA, Swain P, Yang C, Parker SJ, Wang QA, Terada LS, Adams ND, McCabe MT, Pietrak B, Schmidt S, Metallo CM, Dranka BP, Schwartz B, DeBerardinis RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11566871</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrin and aralar1 are Ca(2+)-stimulated aspartate/glutamate transporters in mitochondria.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palmieri L, Pardo B, Lasorsa FM, del Arco A, Kobayashi K, Iijima M, Runswick MJ, Walker JE, Saheki T, Satrústegui J, Palmieri F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dea">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10642534</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of a second member of the subfamily of calcium-binding mitochondrial carriers expressed in human non-excitable tissues.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Del Arco A, Agudo M, Satrústegui J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10369257</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The gene mutated in adult-onset type II citrullinaemia encodes a putative mitochondrial carrier protein.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kobayashi K, Sinasac DS, Iijima M, Boright AP, Begum L, Lee JR, Yasuda T, Ikeda S, Hirano R, Terazono H, Crackower MA, Kondo I, Tsui LC, Scherer SW, Saheki T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b59">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12602510</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathogenesis and pathophysiology of citrin (a mitochondrial aspartate glutamate carrier) deficiency.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saheki T, Kobayashi K, Iijima M, Nishi I, Yasuda T, Yamaguchi N, Gao HZ, Jalil MA, Begum L, Li MX.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fce">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36967723</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exogenous aralar/slc25a12 can replace citrin/slc25a13 as malate aspartate shuttle component in liver.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">González-Moreno L, Santamaría-Cano A, Paradela A, Martínez-Chantar ML, Martín MÁ, Pérez-Carreras M, García-Picazo A, Vázquez J, Calvo E, González-Aseguinolaza G, Saheki T, Del Arco A, Satrústegui J, Contreras L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32740958</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic basis and treatment of citrin deficiency.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayasaka K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35008954</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGC1 Deficiency: Pathology and Molecular and Cellular Mechanisms of the Disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pardo B, Herrada-Soler E, Satrústegui J, Contreras L, Del Arco A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19641205</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGC1 deficiency associated with global cerebral hypomyelination.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wibom R, Lasorsa FM, Töhönen V, Barbaro M, Sterky FH, Kucinski T, Naess K, Jonsson M, Pierri CL, Palmieri F, Wedell A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31422819</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bi-allelic GOT2 Mutations Cause a Treatable Malate-Aspartate Shuttle-Related Encephalopathy.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">van Karnebeek CDM, Ramos RJ, Wen XY, Tarailo-Graovac M, Gleeson JG, Skrypnyk C, Brand-Arzamendi K, Karbassi F, Issa MY, van der Lee R, Drögemöller BI, Koster J, Rousseau J, Campeau PM, Wang Y, Cao F, Li M, Ruiter J, Ciapaite J, Kluijtmans LAJ, Willemsen MAAP, Jans JJ, Ross CJ, Wintjes LT, Rodenburg RJ, Huigen MCDG, Jia Z, Waterham HR, Wasserman WW, Wanders RJA, Verhoeven-Duif NM, Zaki MS, Wevers RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26902786</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recombinant expression, purification and crystallographic studies of the mature form of human mitochondrial aspartate aminotransferase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang X, Wang J, Chang H, Zhou Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30365304</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical Characterization and Structure-Based Mutational Analysis Provide Insight into the Binding and Mechanism of Action of Novel Aspartate Aminotransferase Inhibitors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holt MC, Assar Z, Beheshti Zavareh R, Lin L, Anglin J, Mashadova O, Haldar D, Mullarky E, Kremer DM, Cantley LC, Kimmelman AC, Stein AJ, Lairson LL, Lyssiotis CA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16740313</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An NADH-tetrazolium-coupled sensitive assay for malate dehydrogenase in mitochondria and crude tissue homogenates.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luo C, Wang X, Long J, Liu J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9792106</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggregation states of mitochondrial malate dehydrogenase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sánchez SA, Hazlett TL, Brunet JE, Jameson DM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36139014</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural Comparison of hMDH2 Complexed with Natural Substrates and Cofactors: The Importance of Phosphate Binding for Active Conformation and Catalysis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eo Y, Duong MTH, Ahn HC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c44">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36420423</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malate dehydrogenase 2 deficiency is an emerging cause of pediatric epileptic encephalopathy with a recognizable biochemical signature.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priestley JRC, Pace LM, Sen K, Aggarwal A, Alves CAPF, Campbell IM, Cuddapah SR, Engelhardt NM, Eskandar M, Jolín García PC, Gropman A, Helbig I, Hong X, Gowda VK, Lusk L, Trapane P, Srinivasan VM, Suwannarat P, Ganetzky RD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35366151</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palmitoylation of MDH2 by ZDHHC18 activates mitochondrial respiration and accelerates ovarian cancer growth.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pei X, Li KY, Shen Y, Li JT, Lei MZ, Fang CY, Lu HJ, Yang HJ, Wen W, Yin M, Qu J, Lei QY.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11897791</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of the mitochondrial glutamate transporter. Bacterial expression, reconstitution, functional characterization, and tissue distribution of two human isoforms.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiermonte G, Palmieri L, Todisco S, Agrimi G, Palmieri F, Walker JE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b14">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15592994</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired mitochondrial glutamate transport in autosomal recessive neonatal myoclonic epilepsy.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molinari F, Raas-Rothschild A, Rio M, Fiermonte G, Encha-Razavi F, Palmieri L, Palmieri F, Ben-Neriah Z, Kadhom N, Vekemans M, Attie-Bitach T, Munnich A, Rustin P, Colleaux L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34679360</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neonatal Seizures: An Overview of Genetic Causes and Treatment Options.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spoto G, Saia MC, Amore G, Gitto E, Loddo G, Mainieri G, Nicotera AG, Di Rosa G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c08">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2775751</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refined crystal structure of cytoplasmic malate dehydrogenase at 2.5-A resolution.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birktoft JJ, Rhodes G, Banaszak LJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3052244</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical and genetic identity of alpha-keto acid reductase and cytoplasmic malate dehydrogenase from human erythrocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedrich CA, Ferrell RE, Siciliano MJ, Kitto GB.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15565635</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developmental regulation and cellular distribution of human cytosolic malate dehydrogenase (MDH1).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lo AS, Liew CT, Ngai SM, Tsui SK, Fung KP, Lee CY, Waye MM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22971926</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytosolic malate dehydrogenase regulates senescence in human fibroblasts.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee SM, Dho SH, Ju SK, Maeng JS, Kim JY, Kwon KS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31538237</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MDH1 deficiency is a metabolic disorder of the malate-aspartate shuttle associated with early onset severe encephalopathy.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broeks MH, Shamseldin HE, Alhashem A, Hashem M, Abdulwahab F, Alshedi T, Alobaid I, Zwartkruis F, Westland D, Fuchs S, Verhoeven-Duif NM, Jans JJM, Alkuraya FS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35036692</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural Characterization of the Human Cytosolic Malate Dehydrogenase I.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McCue WM, Finzel BC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cfc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16920706</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porphyrin accumulation in mitochondria is mediated by 2-oxoglutarate carrier.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kabe Y, Ohmori M, Shinouchi K, Tsuboi Y, Hirao S, Azuma M, Watanabe H, Okura I, Handa H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d25">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8597574</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The formation of a disulfide cross-link between the two subunits demonstrates the dimeric structure of the mitochondrial oxoglutarate carrier.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bisaccia F, Zara V, Capobianco L, Iacobazzi V, Mazzeo M, Palmieri F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4687397</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanism of the exchanges catalysed by the oxoglutarate translocator of rat-heart mitochondria. Kinetics of the external-product inhibition.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sluse FE, Goffart G, Liébecq C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e80">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25637873</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mitochondrial dicarboxylate and 2-oxoglutarate carriers do not transport glutathione.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Booty LM, King MS, Thangaratnarajah C, Majd H, James AM, Kunji ER, Murphy MP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29431636</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germline Mutations in the Mitochondrial 2-Oxoglutarate/Malate Carrier &lt;i&gt;SLC25A11&lt;/i&gt; Gene Confer a Predisposition to Metastatic Paragangliomas.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buffet A, Morin A, Castro-Vega LJ, Habarou F, Lussey-Lepoutre C, Letouzé E, Lefebvre H, Guilhem I, Haissaguerre M, Raingeard I, Padilla-Girola M, Tran T, Tchara L, Bertherat J, Amar L, Ottolenghi C, Burnichon N, Gimenez-Roqueplo AP, Favier J.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

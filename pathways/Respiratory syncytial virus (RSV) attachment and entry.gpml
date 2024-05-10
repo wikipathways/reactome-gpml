@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Respiratory syncytial virus (RSV) attachment and entry" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The entry of human respiratory syncytial virus (RSV) into host cells involves attachment of the virion to the host cell surface, through interaction of viral envelope proteins with host cell attachment factors, and fusion of the viral membrane with the host cell membrane. The G glycoprotein is the attachment protein that interacts with surface molecules of the host cells, enabling the RSV virions to bind to their target cells. While the F glycoprotein may facilitate attachment, its primary function is to promote fusion of the viral and host cell membranes. The SH protein is dispensable for entry. For review, please refer to Battles and McLellan 2019.&lt;br&gt;&lt;br&gt;Using human primary airway epithelial cell cultures, it was established that RSV efficiently infects the airway epithelium from the luminal surface and specifically targets ciliated airway epithelial cells. In the absence of immune response, RSV causes no obvious cytopathology (Zhang et al. 2002).&lt;br&gt;&lt;br&gt;In addition to ciliated respiratory epithelial cells, RSV may infect granulocytes and cause a delay in constitutive apoptosis of neutrophils and eosinophils (Lindemans et al. 2006). RSV can also infect neonatal-specific regulatory B cells, which may contribute to high viral load and disease severity in infants (Zhivaki et al. 2017).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9820960 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 9820960</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Orlic-Milacic, Marija</Comment>
+  <BiopaxRef>de4</BiopaxRef>
+  <BiopaxRef>a75</BiopaxRef>
+  <BiopaxRef>cb1</BiopaxRef>
+  <BiopaxRef>d56</BiopaxRef>
+  <Attribute Key="reactome_id" Value="9820960" />
+  <Graphics BoardWidth="1239.0" BoardHeight="1538.0" />
+  <DataNode TextLabel="F protein binds NCL&#xA;on host cell&#xA;surface" GraphId="d15e3">
+    <Comment Source="Reactome">The F protein at the envelope of the respiratory syncytial virus (RSV) binds to NCL (nucleolin) presented on the apical surface of host cells. The RSV infection rate decreases when the RSV preparation is pre-incubated with soluble NCL, when host cells are pre-treated with an anti-NCL antibody, or when NCL level in host cells is knocked down by RNAi. NCL thus serves as an RSV entry co-receptor (Tayyari et al. 2011). NCL is predominantly a nuclear protein. Binding of the G-protein of RSV to the CX3CR1 receptor expressed on the surface of normal human bronchial epithelial (NHBE) cells has been shown to induce downstream signaling that results in changes in gene expression. For example, NCL is upregulated and cilium-associated genes including CC2D2A and CFAP221 (PCDP1) are downregulated (Anderson et al. 2021). F protein has been reported to bind to Insulin-like growth factor receptor 1 (IGFR1), which triggers a signaling cascade that activates Protein kinase C-zeta (PRKCZ). Activated PRKCZ promotes relocalization of NCL from the nucleus to the plasma membrane, where it can bind to the F protein and act as a co-receptor for RSV entry into the host cell (Griffiths et al. 2020). NCL has been reported to be a direct substrate of PRKCZ (Zhou et al. 1997), but this relationship has not been further investigated. Extranuclear NCL, including plasma membrane-associated NCL, undergoes glycosylation (Carpentier et al. 2005, Aldi et al. 2009; Losfeld et al. 2009; Losfeld et al. 2011), but it is uncertain what role this plays in trafficking to the plasma membrane and RSV binding. Binding of ligands to the plasma membrane-associated NCL may induce Ca2+ entry into the cells (Losfeld et al. 2009). The glycine arginine rich (GAR) domain of NCL is involved in regulation of subcellular localization of NCL via protein-protein interactions with a kinesin light chain, which may regulate NCL trafficking, and via protein-protein interactions with plasma membrane components (Doron-Mandel et al. 2021).&lt;br&gt;&lt;br&gt;The role of NCL in the entry of RSV, other viruses, and bacteria is reviewed in Tonello et al. 2022.</Comment>
+    <BiopaxRef>cf4</BiopaxRef>
+    <BiopaxRef>ce9</BiopaxRef>
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-9836467" />
+  </DataNode>
+  <DataNode TextLabel="CX3CR1" GraphId="e29c5" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="573.5" CenterY="207.0" Width="57.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49238" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A virion" GraphId="befa5" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="571.5" CenterY="122.0" Width="85.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9836527" />
+  </DataNode>
+  <DataNode TextLabel="F1-F2 " GraphId="a3e86" Type="Protein" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="1440" />
+    <Graphics CenterX="100.0" CenterY="666.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Mature G " GraphId="ccf00" Type="Protein" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="1487" />
+    <Graphics CenterX="100.0" CenterY="686.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="p-SH " GraphId="e541c" Type="Protein" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="100.0" CenterY="706.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE5-1" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A genomic (-)ssRNA " GraphId="a1dac" Type="Protein" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="100.0" CenterY="746.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="N " GraphId="a9c29" Type="Protein" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="3705" />
+    <Graphics CenterX="100.0" CenterY="766.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="f989d" Type="Protein" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="4540" />
+    <Graphics CenterX="100.0" CenterY="786.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="f3e24" Type="Protein" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="4748" />
+    <Graphics CenterX="100.0" CenterY="806.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="b9b7a" Type="Metabolite" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="4956" />
+    <Graphics CenterX="100.0" CenterY="826.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="e6507" Type="Metabolite" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="5791" />
+    <Graphics CenterX="100.0" CenterY="846.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="d171d" Type="Protein" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="6626" />
+    <Graphics CenterX="100.0" CenterY="866.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="p-S95,T205-M " GraphId="c168f" Type="Protein" GroupRef="c33e1">
+    <Attribute Key="cellular_location" Value="viral tegument" />
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+    <Attribute Key="copies_num" Value="8795" />
+    <Graphics CenterX="100.0" CenterY="886.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE7" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A virion:CX3CR1" GraphId="c5817" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="839.5" CenterY="207.5" Width="93.0" Height="45.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9836529" />
+  </DataNode>
+  <DataNode TextLabel="F1-F2 " GraphId="db78d" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="1440" />
+    <Graphics CenterX="100.0" CenterY="946.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Mature G " GraphId="a012f" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="1487" />
+    <Graphics CenterX="100.0" CenterY="966.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="p-SH " GraphId="a3c92" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="100.0" CenterY="986.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE5-1" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A genomic (-)ssRNA " GraphId="bc697" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="100.0" CenterY="1026.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="N " GraphId="c8afd" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="3705" />
+    <Graphics CenterX="100.0" CenterY="1046.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="fc972" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="4540" />
+    <Graphics CenterX="100.0" CenterY="1066.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="c0b13" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="4748" />
+    <Graphics CenterX="100.0" CenterY="1086.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="b4ba9" Type="Metabolite" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="4956" />
+    <Graphics CenterX="100.0" CenterY="1106.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="b7716" Type="Metabolite" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="5791" />
+    <Graphics CenterX="100.0" CenterY="1126.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="b64d6" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="6626" />
+    <Graphics CenterX="100.0" CenterY="1146.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="p-S95,T205-M " GraphId="e1108" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="viral tegument" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="8795" />
+    <Graphics CenterX="100.0" CenterY="1166.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE7" />
+  </DataNode>
+  <DataNode TextLabel="CX3CR1 " GraphId="cb2b8" Type="Protein" GroupRef="a85da">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+    <Attribute Key="copies_num" Value="8795" />
+    <Graphics CenterX="100.0" CenterY="1186.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49238" />
+  </DataNode>
+  <DataNode TextLabel="NCL" GraphId="c70f9" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="952.0" CenterY="210.0" Width="32.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P19338" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A&#xA;virion:CX3CR1:NCL" GraphId="bd509" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1120.5" CenterY="194.5" Width="83.0" Height="47.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9836905" />
+  </DataNode>
+  <DataNode TextLabel="NCL " GraphId="cb116" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="706.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P19338" />
+  </DataNode>
+  <DataNode TextLabel="F1-F2 " GraphId="b5530" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="1440" />
+    <Graphics CenterX="240.0" CenterY="726.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Mature G " GraphId="bfb49" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="1487" />
+    <Graphics CenterX="240.0" CenterY="746.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="p-SH " GraphId="f2c30" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="240.0" CenterY="766.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE5-1" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A genomic (-)ssRNA " GraphId="f79a8" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="240.0" CenterY="806.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="N " GraphId="fa63a" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="3705" />
+    <Graphics CenterX="240.0" CenterY="826.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="c90ad" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="4540" />
+    <Graphics CenterX="240.0" CenterY="846.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="b2859" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="4748" />
+    <Graphics CenterX="240.0" CenterY="866.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="e226f" Type="Metabolite" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="4956" />
+    <Graphics CenterX="240.0" CenterY="886.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="fd01a" Type="Metabolite" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="5791" />
+    <Graphics CenterX="240.0" CenterY="906.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="d2a30" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="6626" />
+    <Graphics CenterX="240.0" CenterY="926.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="p-S95,T205-M " GraphId="a9193" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="viral tegument" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="8795" />
+    <Graphics CenterX="240.0" CenterY="946.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE7" />
+  </DataNode>
+  <DataNode TextLabel="CX3CR1 " GraphId="cb536" Type="Protein" GroupRef="e92c6">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+    <Attribute Key="copies_num" Value="8795" />
+    <Graphics CenterX="240.0" CenterY="966.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49238" />
+  </DataNode>
+  <DataNode TextLabel="CD14" GraphId="c1605" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="304.0" CenterY="96.5" Width="50.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-166029" />
+  </DataNode>
+  <DataNode TextLabel="CD14(20-345) " GraphId="a891d" Type="Protein" GroupRef="b3a17">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-166029" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1026.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08571" />
+  </DataNode>
+  <DataNode TextLabel="GPIN-CD14(20-345) " GraphId="b415b" Type="Protein" GroupRef="b3a17">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-166029" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1046.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08571" />
+  </DataNode>
+  <DataNode TextLabel="TLR4:LY96" GraphId="fb0b9" Type="Complex">
+    <BiopaxRef>a79</BiopaxRef>
+    <BiopaxRef>f55</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="297.0" CenterY="145.0" Width="80.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-166050" />
+  </DataNode>
+  <DataNode TextLabel="2xN4GlycoAsn-LY96 " GraphId="aa8fa" Type="Protein" GroupRef="d2062">
+    <BiopaxRef>c91</BiopaxRef>
+    <BiopaxRef>eca</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-166050" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1106.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y6Y9" />
+  </DataNode>
+  <DataNode TextLabel="2xN4GlycoAsn-TLR4 " GraphId="bf203" Type="Protein" GroupRef="d2062">
+    <BiopaxRef>c91</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-166050" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1126.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00206" />
+  </DataNode>
+  <DataNode TextLabel="TLR4:LY96:CD14:RSV A&#xA;virion" GraphId="a4bd9" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="247.5" CenterY="199.0" Width="127.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9836220" />
+  </DataNode>
+  <DataNode TextLabel="CD14(20-345) " GraphId="a811f" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1186.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08571" />
+  </DataNode>
+  <DataNode TextLabel="GPIN-CD14(20-345) " GraphId="a76eb" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1206.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08571" />
+  </DataNode>
+  <DataNode TextLabel="2xN4GlycoAsn-LY96 " GraphId="aa64a" Type="Protein" GroupRef="ffeb3">
+    <BiopaxRef>c91</BiopaxRef>
+    <BiopaxRef>eca</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1226.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y6Y9" />
+  </DataNode>
+  <DataNode TextLabel="2xN4GlycoAsn-TLR4 " GraphId="beff9" Type="Protein" GroupRef="ffeb3">
+    <BiopaxRef>c91</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1246.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00206" />
+  </DataNode>
+  <DataNode TextLabel="F1-F2 " GraphId="dd6ef" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="1440" />
+    <Graphics CenterX="240.0" CenterY="1266.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Mature G " GraphId="e3205" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="1487" />
+    <Graphics CenterX="240.0" CenterY="1286.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="p-SH " GraphId="a1775" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="240.0" CenterY="1306.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE5-1" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A genomic (-)ssRNA " GraphId="a4b7a" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="240.0" CenterY="1346.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="N " GraphId="bcaed" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="3705" />
+    <Graphics CenterX="240.0" CenterY="1366.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="ac432" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="4540" />
+    <Graphics CenterX="240.0" CenterY="1386.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="cc7f7" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="4748" />
+    <Graphics CenterX="240.0" CenterY="1406.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="d85f2" Type="Metabolite" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="4956" />
+    <Graphics CenterX="240.0" CenterY="1426.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="c1e50" Type="Metabolite" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="5791" />
+    <Graphics CenterX="240.0" CenterY="1446.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="e975b" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="6626" />
+    <Graphics CenterX="240.0" CenterY="1466.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="p-S95,T205-M " GraphId="c0571" Type="Protein" GroupRef="ffeb3">
+    <Attribute Key="cellular_location" Value="viral tegument" />
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+    <Attribute Key="copies_num" Value="8795" />
+    <Graphics CenterX="240.0" CenterY="1486.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE7" />
+  </DataNode>
+  <DataNode TextLabel="Mature G" GraphId="debbe" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1147.5" CenterY="346.0" Width="73.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="F trimer" GraphId="a84b7" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1142.0" CenterY="447.0" Width="54.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9829197" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F1 " GraphId="d0684" Type="Protein" GroupRef="d6a63">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9829197" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="380.0" CenterY="706.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F2 " GraphId="cbd6c" Type="Protein" GroupRef="d6a63">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9829197" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="380.0" CenterY="726.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="p-SH pentamer" GraphId="bfa42" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1131.5" CenterY="494.0" Width="99.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9831119" />
+  </DataNode>
+  <DataNode TextLabel="p-SH " GraphId="c51b4" Type="Protein" GroupRef="f8770">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9831119" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="380.0" CenterY="786.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE5-1" />
+  </DataNode>
+  <DataNode TextLabel="RdRP:p-M2-1" GraphId="fb824" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="990.5" CenterY="434.5" Width="85.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9830283" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="d62c1" Type="Protein" GroupRef="dcd6f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="846.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="b123c" Type="Protein" GroupRef="dcd6f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="866.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="bd2f0" Type="Metabolite" GroupRef="dcd6f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="886.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="d2a0f" Type="Metabolite" GroupRef="dcd6f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="906.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="de517" Type="Protein" GroupRef="dcd6f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="380.0" CenterY="926.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="F trimer:NCL" GraphId="d6013" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1142.5" CenterY="400.0" Width="81.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9837548" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F1 " GraphId="df08b" Type="Protein" GroupRef="f17a7">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837548" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="380.0" CenterY="986.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F2 " GraphId="fe289" Type="Protein" GroupRef="f17a7">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837548" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="380.0" CenterY="1006.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="NCL " GraphId="dbc1b" Type="Protein" GroupRef="f17a7">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837548" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="380.0" CenterY="1026.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P19338" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A nucleocapsid" GraphId="e36ce" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="846.5" CenterY="472.0" Width="125.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9825338" />
+  </DataNode>
+  <DataNode TextLabel="p-N " GraphId="f53e4" Type="Protein" GroupRef="fe89c">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9825338" />
+    <Attribute Key="copies_num" Value="2170" />
+    <Graphics CenterX="380.0" CenterY="1086.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A genomic (-)ssRNA " GraphId="ec3c4" Type="Protein" GroupRef="fe89c">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9825338" />
+    <Attribute Key="copies_num" Value="2170" />
+    <Graphics CenterX="380.0" CenterY="1126.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="Mature G:CX3CR1" GraphId="fadc7" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1152.0" CenterY="291.0" Width="114.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9837549" />
+  </DataNode>
+  <DataNode TextLabel="Mature G " GraphId="c5290" Type="Protein" GroupRef="e385a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837549" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1186.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="CX3CR1 " GraphId="de5f9" Type="Protein" GroupRef="e385a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837549" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1206.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49238" />
+  </DataNode>
+  <DataNode TextLabel="M dimer" GraphId="df5ca" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="879.5" CenterY="277.0" Width="57.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9831671" />
+  </DataNode>
+  <DataNode TextLabel="Nascent M " GraphId="e7951" Type="Protein" GroupRef="ca05f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-RSY-9831671" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="1266.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE7" />
+  </DataNode>
+  <DataNode TextLabel="Respiratory&#xA;syncytial virus&#xA;(RSV) genome&#xA;replication,&#xA;transcription and&#xA;translation" GraphId="cf0a4" Type="Pathway">
+    <Comment Source="Reactome">After the human respiratory syncytial virus A (hRSV A) enters host cells, an initial round of transcription and translation of virally-encoded mRNAs ensues, which is followed by genome replication.&lt;br&gt;&lt;br&gt;The negative sense, single-stranded RNA (-ssRNA) genome of the human respiratory syncytial virus (RSV) A is 15.2 kb long and contains 10 genes that encode 11 proteins. The 10 genes, going from the 3' end to the 5' end of the -ssRNA are: 1C (NS1), 1B (NS2), N, P, M, SH, G, F, M2, and L. Except for the M2 gene, each gene encodes one protein. The two overlapping open reading frames (ORFs) of the M2 gene encode proteins M2-1 and M2-2.&lt;br&gt;&lt;br&gt;The N gene encodes the nucleoprotein, which forms decameric and hendecameric (11-fold) rings around which viral genomic RNA is packaged. The L and P genes encode the large polymerase subunit and the phosphoprotein polymerase cofactor subunit, respectively, of the RNA-dependent RNA polymerase complex (RdRP) (reviewed in Battles and McLellan 2019). The L protein contains three conserved enzymatic domains: the RNA-dependent RNA polymerase (RdRp) domain, the polyribonucleotidyl transferase (PRNTase or capping) domain, and the methyltransferase (MTase) domain (reviewed in Sutto-Ortiz et al. 2023). The M2-1 product of the M2 gene is a transcription processivity factor, while the M2-2 product of the M2 gene is a nonstructural protein that regulates the switch between transcription and genome replication. The SH, G, and F genes encode three proteins that are embedded in the viral envelope: small hydrophobic protein, attachment protein, and fusion protein, respectively. The secreted isoform of G protein (sG) mediates immune evasion. The NS1 and NS2 genes encode nonstructural proteins that function together to inhibit apoptosis and interferon response in infected cells. For review, please refer to Battles and McLellan 2019.&lt;br&gt;&lt;br&gt;The genomic -ssRNA and the antigenome RNA are encapsidated as they are synthesized, and the association of the nascent RNA with the N protein is likely what causes the replicating polymerase to be processive, with the processivity being further augmented by the M2-1 processivity factor (reviewed in Fearns and Deval 2016). The C-terminal arm of the N protein, known to interact with the P protein subunit of RdRP complex, extends above the plane of N decamers. The interaction between N and P proteins may allow the RdRP complex to distort the helical conformation of the nucleocapsid during RNA synthesis. A long beta-hairpin in the N-terminal region of the N protein may be the site of contact with the catalytic L subunit of the RdRP complex. The proposed model for RNA synthesis in RSV is that the RdRP complex induces a hinge movement of the N-terminal region with respect to the C-terminal region of the N protein that allows the polymerase to thread through the template RNA without the need to disassemble the nucleocapsid (Tawar et al. 2009). The hinge movement would enable 11 bases available for readout at a time (Tawar et al. 2009), consistent with the accumulation of abortive transcripts 9-11 nucleotides in length in P protein phosphorylation mutants that impair transcript elongation (Dupuy et al. 1999).&lt;br&gt;&lt;br&gt;The M2-2 protein regulates the shift from positive to negative sense RNA synthesis. While the mechanism has not been fully elucidated, M2-2 was shown to directly bind to the L protein and to inhibit positive sense RNA synthesis (reviewed in Noton and Fearns 2015).&lt;br&gt;&lt;br&gt;For review, please refer to Collins et al. 2013. </Comment>
+    <BiopaxRef>de4</BiopaxRef>
+    <BiopaxRef>df5</BiopaxRef>
+    <BiopaxRef>d64</BiopaxRef>
+    <BiopaxRef>ff9</BiopaxRef>
+    <BiopaxRef>e17</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="929.5" CenterY="568.0" Width="135.0" Height="86.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9820965" />
+  </DataNode>
+  <DataNode TextLabel="HSPGs" GraphId="f9912" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="688.0" CenterY="206.0" Width="46.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2076618" />
+  </DataNode>
+  <DataNode TextLabel="HS(1)-PGs " GraphId="fae90" GroupRef="fb844">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2076618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1326.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-2076647" />
+  </DataNode>
+  <DataNode TextLabel="HS(2)-PGs " GraphId="ccae9" GroupRef="fb844">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2076618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1346.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-2076620" />
+  </DataNode>
+  <DataNode TextLabel="HS(3)-PGs " GraphId="bf856" GroupRef="fb844">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2076618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1366.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-2076690" />
+  </DataNode>
+  <DataNode TextLabel="HS(4)-PGs " GraphId="c2bdb" GroupRef="fb844">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2076618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1386.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-2076655" />
+  </DataNode>
+  <DataNode TextLabel="HS(5)-PGs " GraphId="d5fec" GroupRef="fb844">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2076618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1406.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-2076688" />
+  </DataNode>
+  <DataNode TextLabel="HS/HPIN-PGs " GraphId="ce9ef" GroupRef="fb844">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2076618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1426.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-2076639" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A&#xA;virion:CX3CR1:NCL" GraphId="fc757" Type="Complex">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Graphics CenterX="680.0" CenterY="374.5" Width="106.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9837677" />
+  </DataNode>
+  <DataNode TextLabel="NCL " GraphId="db690" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="706.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P19338" />
+  </DataNode>
+  <DataNode TextLabel="CX3CR1 " GraphId="f03da" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="726.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49238" />
+  </DataNode>
+  <DataNode TextLabel="F1-F2 " GraphId="b847f" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="1440" />
+    <Graphics CenterX="520.0" CenterY="746.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Mature G " GraphId="c304a" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="1487" />
+    <Graphics CenterX="520.0" CenterY="766.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="p-SH " GraphId="f6bd7" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="virion membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="520.0" CenterY="786.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE5-1" />
+  </DataNode>
+  <DataNode TextLabel="hRSV A genomic (-)ssRNA " GraphId="da321" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="1536" />
+    <Graphics CenterX="520.0" CenterY="826.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="NCBI Protein" ID="KT992094" />
+  </DataNode>
+  <DataNode TextLabel="N " GraphId="f8e66" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="viral capsid" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="3705" />
+    <Graphics CenterX="520.0" CenterY="846.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03418" />
+  </DataNode>
+  <DataNode TextLabel="p-P " GraphId="aba4d" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="4540" />
+    <Graphics CenterX="520.0" CenterY="866.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03421" />
+  </DataNode>
+  <DataNode TextLabel="Nascent L " GraphId="c685f" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="4748" />
+    <Graphics CenterX="520.0" CenterY="886.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28887" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="da0df" Type="Metabolite" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="4956" />
+    <Graphics CenterX="520.0" CenterY="906.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="d8fbe" Type="Metabolite" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="5791" />
+    <Graphics CenterX="520.0" CenterY="926.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="p-M2-1 " GraphId="ccbc5" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="6626" />
+    <Graphics CenterX="520.0" CenterY="946.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04545" />
+  </DataNode>
+  <DataNode TextLabel="p-S95,T205-M " GraphId="b43fb" Type="Protein" GroupRef="e5b56">
+    <Attribute Key="cellular_location" Value="viral tegument" />
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+    <Attribute Key="copies_num" Value="8795" />
+    <Graphics CenterX="520.0" CenterY="966.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE7" />
+  </DataNode>
+  <DataNode TextLabel="(EGFR,IGF1R)" GraphId="ff222" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="468.5" CenterY="207.0" Width="85.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9837684" />
+  </DataNode>
+  <DataNode TextLabel="EGFR " GraphId="b0227" Type="Protein" GroupRef="c7b46">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837684" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1026.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P00533" />
+  </DataNode>
+  <DataNode TextLabel="IGF1R(31-736) " GraphId="c8d28" Type="Protein" GroupRef="c7b46">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837684" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="520.0" CenterY="1046.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08069" />
+  </DataNode>
+  <DataNode TextLabel="IGF1R(741-1367) " GraphId="e27a9" Type="Protein" GroupRef="c7b46">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837684" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="520.0" CenterY="1066.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08069" />
+  </DataNode>
+  <DataNode TextLabel="F trimer:NCL" GraphId="a81e1" Type="Complex">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Graphics CenterX="606.5" CenterY="455.0" Width="81.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9837711" />
+  </DataNode>
+  <DataNode TextLabel="NCL " GraphId="edd87" Type="Protein" GroupRef="c3991">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837711" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1126.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P19338" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F1 " GraphId="ff808" Type="Protein" GroupRef="c3991">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837711" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="520.0" CenterY="1146.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F2 " GraphId="f82f5" Type="Protein" GroupRef="c3991">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837711" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="520.0" CenterY="1166.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Mature G:CX3CR1" GraphId="f233e" Type="Complex">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Graphics CenterX="578.0" CenterY="410.0" Width="114.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9837715" />
+  </DataNode>
+  <DataNode TextLabel="CX3CR1 " GraphId="ad8d3" Type="Protein" GroupRef="b7295">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837715" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1226.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49238" />
+  </DataNode>
+  <DataNode TextLabel="Mature G " GraphId="ac079" Type="Protein" GroupRef="b7295">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837715" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1246.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="F trimer" GraphId="b4803" Type="Complex">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Graphics CenterX="489.0" CenterY="442.0" Width="54.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9837713" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F1 " GraphId="e87dd" Type="Protein" GroupRef="f2170">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9837713" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="660.0" CenterY="706.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Crosslinked F2 " GraphId="f4245" Type="Protein" GroupRef="f2170">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9837713" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="660.0" CenterY="726.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03420" />
+  </DataNode>
+  <DataNode TextLabel="Mature G" GraphId="bd249" Type="Protein">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Graphics CenterX="618.0" CenterY="492.5" Width="98.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P03423-1" />
+  </DataNode>
+  <DataNode TextLabel="p-SH pentamer" GraphId="a1112" Type="Complex">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Graphics CenterX="670.5" CenterY="540.0" Width="99.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9837722" />
+  </DataNode>
+  <DataNode TextLabel="p-SH " GraphId="e4508" Type="Protein" GroupRef="c04a4">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-RSY-9837722" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="660.0" CenterY="786.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DOE5-1" />
+  </DataNode>
+  <DataNode TextLabel="FURIN" GraphId="d9b81" Type="Protein">
+    <BiopaxRef>a24</BiopaxRef>
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Graphics CenterX="725.5" CenterY="323.0" Width="43.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P09958" />
+  </DataNode>
+  <DataNode TextLabel="GGC-RAB5" GraphId="f738f" Type="Complex">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Graphics CenterX="514.5" CenterY="281.0" Width="73.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9837698" />
+  </DataNode>
+  <DataNode TextLabel="GGC-RAB5A " GraphId="bf2ed" Type="Protein" GroupRef="ef977">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837698" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="846.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20339" />
+  </DataNode>
+  <DataNode TextLabel="GGC-RAB5B " GraphId="f3906" Type="Protein" GroupRef="ef977">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837698" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="866.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61020" />
+  </DataNode>
+  <DataNode TextLabel="GGC-RAB5C " GraphId="ca52c" Type="Protein" GroupRef="ef977">
+    <Attribute Key="cellular_location" Value="macropinosome membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9837698" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="886.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P51148" />
+  </DataNode>
+  <DataNode TextLabel="RSV F inhibitors" GraphId="d186b" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="505.5" CenterY="54.5" Width="93.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-9845120" />
+  </DataNode>
+  <DataNode TextLabel="gontivimab " GraphId="e0dae" GroupRef="cb0be">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-9845120" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="F inhibitors:RSV&#xA;virion" GraphId="b7aca" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="677.0" CenterY="67.5" Width="78.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-RSY-9845117" />
+  </DataNode>
+  <DataNode TextLabel="gontivimab " GraphId="b398a" GroupRef="a61f1">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-RSY-9845117" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GraphId="a3264">
+    <Comment Source="Reactome">During the initial infection steps, G protein of the respiratory syncytial virus (RSV) acts as the main attachment factor. The G protein possesses a CX3C motif (amino acid residues 182-186 of G protein), present in the natural ligand of the host CX3CR1 receptor, fractalkine, which enables G protein binding to the CX3CR1 receptor (Tripp et al. 2001, Chirkova et al. 2015). Mutations in the CX3C motif of G protein attenuate RSV infection in cotton rats and primary human airway epithelial cells (Ha et al. 2019). In pediatric lung, CX3CR1 was found to be expressed at both mRNA and protein levels in epithelial cells that line the airways. The epithelial cells of the upper airways in pediatric patients also expressed CX3CR1. Infection of primary pediatric human lung epithelial (PHLE) cells by RSV was impaired when PHLE cells were pre-incubated with an anti-CX3CR1 antibody (Anderson et al. 2020). More specifically, CX3CR1was shown to be expressed in the motile cilia of differentiated human airway epithelial cells, where it co-localizes with RSV particles (Jeong et al. 2015; Johnson et al. 2015). CX3CR1 was also shown to be the main human RSV receptor in cotton rats (Green et al. 2021). While RSV is infective in the absence of G protein, the attachment to host cells and viral replication are significantly reduced (Jeong et al. 2015). In a mouse model, antibodies that block interaction between G protein and CX3CR1 reduce lung RSV titers and lung inflammation (Zhang et al. 2010; Johnson et al. 2015). CX3CR1 is expressed in ciliated cells of the primary human airway epithelium culture (HAEC), with expression level varying between cells and between individual HAECs (Chirkova et al. 2015). CX3CR1 enables RSV to infect neonatal-specific regulatory B cells, which may contribute to high viral load and disease severity in infants (Zhivaki et al. 2017).&lt;br&gt;&lt;br&gt;Besides binding to CX3CR1, G protein also binds to glycosaminoglycans (GAGs), such as heparan sulfate (HS), unbranched disaccharide polymers linked to extracellular portion of transmembrane proteins, known as heparan sulfate proteoglycans (HSPGs), on the host cell surface (Tripp et al. 2001). While GAGs were shown to be important for in vitro infection of cultured host cells, it is unknown how important they are for infection of RSV target cells in vivo (Zhang et al. 2002, Chirkova et al. 2015; Johnson et al. 2015), as heparan sulfate is not detectable on the surface of ciliated airway epithelial cells (Johnson et al. 2015).&lt;br&gt;&lt;br&gt;In addition to being involved in the viral entry into ciliated epithelial cells of the airways, association of RSV with CX3CR1 is likely involved in immune response to RSV, including innate immune response to RSV infection (Johnson et al. 2011). CX3CR1-positive cells of the immune system are a major component of the cytotoxic response to RSV infection, and the CX3C motif of the viral G protein may reduce the antiviral T cell response to RSV infection (Harcourt et al. 2006). In the unsuccessful formalin-inactivated RSV vaccine that led to enhanced pulmonary disease after live RSV infection, the enhanced secondary inflammatory response was dependent on the presence of CX3C motif in the G protein (Haynes et al. 2003). G protein binding to CX3CR1 is associated with reduced leukocyte migration and chemotaxis, as shown in human peripheral blood mononuclear cells (Tripp et al, 2001; Chirkova et al, 2013), mouse bronchoalveolar, mediastinal lymph node and spleen leukocytes (Harcourt et al, 2006), as well as suppression of cilium-related genes and induction of nucleolin expression (Anderson et al, 2021). A common polymorphism in CX3CR1, CX3CR1 T280M, decreases affinity of CX3CR1 for its ligand fractalkine and is associated with an increased risk of severe RSV bronchiolitis in children (Amanatidou et al. 2006). While mast cells express CX3CR1, they are not efficiently infected by RSV and RSV does not efficiently induce their degranulation unless RSV-infected airway epithelial cells are present (Shirato and Taguchi 2009).
+</Comment>
+    <BiopaxRef>fc0</BiopaxRef>
+    <BiopaxRef>f27</BiopaxRef>
+    <BiopaxRef>e94</BiopaxRef>
+    <BiopaxRef>e91</BiopaxRef>
+    <BiopaxRef>b63</BiopaxRef>
+    <BiopaxRef>a6d</BiopaxRef>
+    <BiopaxRef>c99</BiopaxRef>
+    <BiopaxRef>d05</BiopaxRef>
+    <BiopaxRef>d56</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="638.0" Y="146.0" />
+      <Point X="790.0" Y="186.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b9000" />
+      <Anchor Position="0.99" Shape="None" GraphId="f345e" />
+      <Anchor Position="0.5" Shape="None" GraphId="e1481" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836468" />
+  </Interaction>
+  <Interaction GraphId="c13c9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="601.0" Y="207.0" GraphRef="e29c5" RelX="0.9649122807017544" RelY="0.0" />
+      <Point X="638.0" Y="146.0" GraphRef="b9000" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836468" />
+  </Interaction>
+  <Interaction GraphId="cb1dd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="613.0" Y="122.0" GraphRef="befa5" RelX="0.9764705882352941" RelY="0.0" />
+      <Point X="638.0" Y="146.0" GraphRef="b9000" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836468" />
+  </Interaction>
+  <Interaction GraphId="d32d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="790.0" Y="186.0" GraphRef="f345e" RelX="1.5199999999999818" RelY="0.4000000000000057" />
+      <Point X="793.0" Y="207.0" GraphRef="c5817" RelX="-1.0" RelY="-0.022222222222222223" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836468" />
+  </Interaction>
+  <Interaction GraphId="f7320">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="665.0" Y="206.0" GraphRef="f9912" RelX="-1.0" RelY="0.0" />
+      <Point X="699.0" Y="144.0" GraphRef="e1481" RelX="-15.0" RelY="-22.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836468" />
+  </Interaction>
+  <Interaction GraphId="b1f10">
+    <Comment Source="Reactome">The F protein at the envelope of the respiratory syncytial virus (RSV) binds to NCL (nucleolin) presented on the apical surface of host cells. The RSV infection rate decreases when the RSV preparation is pre-incubated with soluble NCL, when host cells are pre-treated with an anti-NCL antibody, or when NCL level in host cells is knocked down by RNAi. NCL thus serves as an RSV entry co-receptor (Tayyari et al. 2011). NCL is predominantly a nuclear protein. Binding of the G-protein of RSV to the CX3CR1 receptor expressed on the surface of normal human bronchial epithelial (NHBE) cells has been shown to induce downstream signaling that results in changes in gene expression. For example, NCL is upregulated and cilium-associated genes including CC2D2A and CFAP221 (PCDP1) are downregulated (Anderson et al. 2021). F protein has been reported to bind to Insulin-like growth factor receptor 1 (IGFR1), which triggers a signaling cascade that activates Protein kinase C-zeta (PRKCZ). Activated PRKCZ promotes relocalization of NCL from the nucleus to the plasma membrane, where it can bind to the F protein and act as a co-receptor for RSV entry into the host cell (Griffiths et al. 2020). NCL has been reported to be a direct substrate of PRKCZ (Zhou et al. 1997), but this relationship has not been further investigated. Extranuclear NCL, including plasma membrane-associated NCL, undergoes glycosylation (Carpentier et al. 2005, Aldi et al. 2009; Losfeld et al. 2009; Losfeld et al. 2011), but it is uncertain what role this plays in trafficking to the plasma membrane and RSV binding. Binding of ligands to the plasma membrane-associated NCL may induce Ca2+ entry into the cells (Losfeld et al. 2009). The glycine arginine rich (GAR) domain of NCL is involved in regulation of subcellular localization of NCL via protein-protein interactions with a kinesin light chain, which may regulate NCL trafficking, and via protein-protein interactions with plasma membrane components (Doron-Mandel et al. 2021).&lt;br&gt;&lt;br&gt;The role of NCL in the entry of RSV, other viruses, and bacteria is reviewed in Tonello et al. 2022.</Comment>
+    <BiopaxRef>cf4</BiopaxRef>
+    <BiopaxRef>ce9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="920.0" Y="155.0" />
+      <Point X="1076.0" Y="179.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d7e2f" />
+      <Anchor Position="0.99" Shape="None" GraphId="e8cd4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836467" />
+  </Interaction>
+  <Interaction GraphId="a4126">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="885.0" Y="207.0" GraphRef="c5817" RelX="0.978494623655914" RelY="-0.022222222222222223" />
+      <Point X="920.0" Y="155.0" GraphRef="d7e2f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836467" />
+  </Interaction>
+  <Interaction GraphId="aebaa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="952.0" Y="199.0" GraphRef="c70f9" RelX="0.0" RelY="-1.0" />
+      <Point X="920.0" Y="155.0" GraphRef="d7e2f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836467" />
+  </Interaction>
+  <Interaction GraphId="d3604">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1076.0" Y="179.0" GraphRef="e8cd4" RelX="1.5599999999999454" RelY="0.2400000000000091" />
+      <Point X="1079.0" Y="194.0" GraphRef="bd509" RelX="-1.0" RelY="-0.02127659574468085" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836467" />
+  </Interaction>
+  <Interaction GraphId="e9ecf">
+    <Comment Source="Reactome">Respiratory syncytial virus (RSV) fusion glycoprotein (F) is synthesized as an inactive precursor that is proteolytically cleaved into covalently linked F2 and F1 polypeptides to become fusion competent (GonzÃ¡lez-Reyes et al. 2001). The N-terminal fragment of F1, which includes the fusion peptide, interacts with human lymphocyte antigen 96 (LY96 or MD2), a co-receptor of Toll-like receptor 4 (TLR4) (Rallabhandi et al. 2012). &lt;br&gt;&lt;br&gt;This Reactome event shows interaction between the virion-bound F protein and the host TLR4:MD2 complex leading to the production of pro-inflammatory cytokines via the MyD88-dependent or independent pathways. &lt;p&gt;Multiple lines of evidence indicate that F protein binding activates TLR4 signaling, although the precise mechanism is not known (Kurt-Jones et al. 2000; Rallabhandi et al. 2012). Yuan et al. 2018 showed colocalization of RSV (strain Long) F protein with TLR4 but a decrease of TLR4 expression after infection. Increased TLR4 expression upon RSV infection has also been reported (Monick et al. 2003; Gagro et al. 2004). The consensus is also lacking with respect to which form of F protein (virion-associated or purified protein) activates TLR4 signaling (Rallabhandi P et al. 2012; Marr and Turvey 2012; Lizundia et al. 2008).&lt;br&gt;&lt;br&gt;Functional TLR4 signaling is required to mount an immune response against RSV. Polymorphisms in the TLR4 and CD14 genes have been associated with severity of RSV infection (Tal et al. 2004; Inoue et al. 2007). Lack of CD14 function leads to impaired TLR4-mediated immune responses in human peripheral blood mononuclear cells (PBMCs) in response to viral F (Kurt-Jones et al. 2000; Besteman et al. 2022), and the CD14-deficient patients develop recurrent RSV bronchiolitis (Besteman et al. 2022). TLR4 knockout mice show persistent RSV infection, impaired cytotoxicity of NK cells, decreased pulmonary CD14+ cell infiltration (Haynes et al. 2001) and reduced expression of inflammatory cytokines (Kurt-Jones et al. 2000; Haynes et al. 2001). Macrophages from LY96-deficient mice fail to express interleukin 1Î² (IL-1Î²) upon F protein treatment (Rallabhandi P et al. 2012). Intact TLR4/MyD88 signaling is required for optimal RSV immune response in mice and protection against RSV (Cyr et al. 2009). Intense TLR4 signaling can result in a more severe disease. The interaction of the RSV F protein with TLR4 receptor on the surface of neutrophils may promote release of neutrophil extracellular traps, which may exacerbate inflammation of the airways (Funchal et al. 2015). MEG3 lncRNA, which suppresses TLR4 signaling, has a protective effect against RSV disease severity (Tao et al. 2018). RSV infection can lead to increased TLR4 expression (Monick et al. 2003; Gagro et al. 2004). Increased level of TLR4 may sensitize airway epithelium to bacterial endotoxin LPS (lipopolysaccharide), leading to exacerbated airway inflammation (Monick et al. 2003), possibly through LPS-induced IL6 production in RSV-infected epithelial cells (Xie et al. 2009). In infected infants, LPS exposure and TLR4 genotype influence disease phenotypes (Caballero et al. 2015).&lt;br&gt;&lt;br&gt;It is unlikely that the binding of F protein to the TLR4 receptor complex contributes to RSV entry into host cells or that the activation of TLR4 signaling requires viral internalization. While a mouse study has shown that TLR4/Myd88/p38 MAPK signaling cascade may aid in viral internalization (Marchant et al. 2010), other studies have not confirmed this. RSV-mediated, TLR4-dependent NF-kappa-B activation in alveolar macrophages is independent of viral replication (Haeberle et al. 2002). RSV can infect B lymphocytes, but this infection and upregulation of B lymphocyte activation markers is independent of TLR4 (Rico et al. 2010). Infection of macrophages by RSV is TLR4-independent, but differentiation of RSV-infected macrophages into so-called alternatively activated macrophages is dependent on TLR4 signaling (Shirey et al. 2010; Nikonova et al. 2018).</Comment>
+    <BiopaxRef>eb7</BiopaxRef>
+    <BiopaxRef>c1c</BiopaxRef>
+    <BiopaxRef>fb2</BiopaxRef>
+    <BiopaxRef>dd4</BiopaxRef>
+    <BiopaxRef>d09</BiopaxRef>
+    <BiopaxRef>d0e</BiopaxRef>
+    <BiopaxRef>ce9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="419.0" Y="114.0" />
+      <Point X="314.0" Y="199.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e9542" />
+      <Anchor Position="0.99" Shape="None" GraphId="a21f2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836227" />
+  </Interaction>
+  <Interaction GraphId="c1763">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="329.0" Y="96.0" GraphRef="c1605" RelX="1.0" RelY="-0.043478260869565216" />
+      <Point X="419.0" Y="114.0" GraphRef="e9542" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836227" />
+  </Interaction>
+  <Interaction GraphId="fc54e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="529.0" Y="122.0" GraphRef="befa5" RelX="-1.0" RelY="0.0" />
+      <Point X="419.0" Y="114.0" GraphRef="e9542" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836227" />
+  </Interaction>
+  <Interaction GraphId="f7054">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="337.0" Y="145.0" GraphRef="fb0b9" RelX="1.0" RelY="0.0" />
+      <Point X="419.0" Y="114.0" GraphRef="e9542" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836227" />
+  </Interaction>
+  <Interaction GraphId="cbcfa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="314.0" Y="199.0" GraphRef="a21f2" RelX="-1.0500000000000114" RelY="0.8499999999999943" />
+      <Point X="310.0" Y="199.0" GraphRef="a4bd9" RelX="0.984251968503937" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9836227" />
+  </Interaction>
+  <Interaction GraphId="c316a">
+    <Comment Source="Reactome">After attachment, the ribonucleocapsid of the human respiratory syncytial virus (RSV) A , the virus enters the host cell through release of the ribonucleocapsid into the cytosol. RSV entry into the host cell by direct fusion of the viral membrane and the plasma membrane is a route consistent with the established entry of the family Paramyxoviridae, closely related to the RSV's Pneumoviridae family, and is supported by studies that showed RSV host cell entry to be pH-independent and insensitive to lysosome acidification (Srinivasakumar et al. 1991; Kahn et al. 1999).</Comment>
+    <BiopaxRef>f53</BiopaxRef>
+    <BiopaxRef>ba7</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1076.0" Y="214.0" />
+      <Point X="978.0" Y="312.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c023c" />
+      <Anchor Position="0.99" Shape="None" GraphId="acd67" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="e05ab">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1079.0" Y="194.0" GraphRef="bd509" RelX="-1.0" RelY="-0.02127659574468085" />
+      <Point X="1076.0" Y="214.0" GraphRef="c023c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="de0c5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="978.0" Y="312.0" GraphRef="acd67" RelX="-0.9800000000000182" RelY="0.9800000000000182" />
+      <Point X="1111.0" Y="346.0" GraphRef="debbe" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="b6a39">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="978.0" Y="312.0" GraphRef="acd67" RelX="-0.9800000000000182" RelY="0.9800000000000182" />
+      <Point X="907.0" Y="277.0" GraphRef="df5ca" RelX="0.9649122807017544" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="bb176">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="978.0" Y="312.0" GraphRef="acd67" RelX="-0.9800000000000182" RelY="0.9800000000000182" />
+      <Point X="1115.0" Y="447.0" GraphRef="a84b7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="c3325">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="978.0" Y="312.0" GraphRef="acd67" RelX="-0.9800000000000182" RelY="0.9800000000000182" />
+      <Point X="1082.0" Y="494.0" GraphRef="bfa42" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="eef69">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="978.0" Y="312.0" GraphRef="acd67" RelX="-0.9800000000000182" RelY="0.9800000000000182" />
+      <Point X="990.0" Y="420.0" GraphRef="fb824" RelX="-0.011764705882352941" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="f0ba7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="978.0" Y="312.0" GraphRef="acd67" RelX="-0.9800000000000182" RelY="0.9800000000000182" />
+      <Point X="1102.0" Y="400.0" GraphRef="d6013" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="e0802">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="978.0" Y="312.0" GraphRef="acd67" RelX="-0.9800000000000182" RelY="0.9800000000000182" />
+      <Point X="908.0" Y="472.0" GraphRef="e36ce" RelX="0.984" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="aca53">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="978.0" Y="312.0" GraphRef="acd67" RelX="-0.9800000000000182" RelY="0.9800000000000182" />
+      <Point X="1095.0" Y="291.0" GraphRef="fadc7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837543" />
+  </Interaction>
+  <Interaction GraphId="ade37">
+    <Comment Source="Reactome">The study of human respiratory syncytial virus (RSV) A entry into HeLa and A549 cells using fluorescence microscopy and quantitative FACS assays has shown that, after attachment, RSV rapidly enters host cells by an actin-dependent process with characteristics of macropinocytosis. Findings are similar when primary bronchial epithelial cells are used (Krzyzaniak et al. 2013). Macropinocytosis requires activation of receptor tyrosine kinases (RTKs). The only RTK activated in experiments with HeLa and A549 cells is EGFR, and EGFR inhibitors block RSV entry (Krzyzaniak et al. 2013). EGFR has been reported to interact with the F protein of some RSV strains (Currier et al. 2016). However, in the airway epithelium, EGFR is mainly expressed in basal cells while the RTK IGF1R has been shown to be the binding partner for the F protein in the hRSV A2 strain and is required for RSV entry into ciliated epithelial cells of the airways (Griffiths et al. 2020). Protein kinase C signaling appears to be important for macropinocytosis-mediated entry of RSV (Krzyzaniak et al. 2013). Protein kinase C zeta (PRKCZ) has been shown to be activated downstream of IGF1R and seems to be important for RSV entry as it increases the concentration of the F protein binding partner, NCL, at the surface of ciliated airway epithelium (Griffiths et al. 2020). NCL has been reported to be involved in promotion of macropinocytosis (Reyes-Reyes et al. 2010; Reyes-Reyes et al. 2015). Other host cell factors implicated in RSV macropinocytosis are PI3K, RAC1 and CDC42 GTPases, PAK1 kinase - downstream effector of RAC1 and CDC42, myosin II - PAK1 target, Na+/H+ exchangers, and RAB5 macropinosome marker (Krzyzaniak et al. 2013).</Comment>
+    <BiopaxRef>a16</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1076.0" Y="202.0" />
+      <Point X="682.0" Y="352.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ea8c4" />
+      <Anchor Position="0.99" Shape="None" GraphId="f23e9" />
+      <Anchor Position="0.5" Shape="None" GraphId="a637f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837625" />
+  </Interaction>
+  <Interaction GraphId="a005f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1079.0" Y="194.0" GraphRef="bd509" RelX="-1.0" RelY="-0.02127659574468085" />
+      <Point X="1076.0" Y="202.0" GraphRef="ea8c4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837625" />
+  </Interaction>
+  <Interaction GraphId="eeb94">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="682.0" Y="352.0" GraphRef="f23e9" RelX="-3.9400000000000546" RelY="1.5" />
+      <Point X="680.0" Y="355.0" GraphRef="fc757" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837625" />
+  </Interaction>
+  <Interaction GraphId="a444f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="510.0" Y="207.0" GraphRef="ff222" RelX="0.9764705882352941" RelY="0.0" />
+      <Point X="692.0" Y="283.0" GraphRef="a637f" RelX="-187.0" RelY="6.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837625" />
+  </Interaction>
+  <Interaction GraphId="c89c7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="510.0" Y="207.0" GraphRef="f738f" RelX="-0.1232876712328767" RelY="-6.7272727272727275" />
+      <Point X="692.0" Y="283.0" GraphRef="a637f" RelX="-187.0" RelY="6.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837625" />
+  </Interaction>
+  <Interaction GraphId="d6800">
+    <Comment Source="Reactome">Similar to endosomes, macropinosomes gradually acidify, acquiring RAB5 followed by RAB7 before fusing with endolysosomes. Human respiratory syncytial virus (RSV) A co-localizes with RAB5-positive macropinosomes and depends on the GTPase activity of RAB5 for infection of host cells, but not on the activity of RAB7. Co-localization of RSV with RAB7 was only observed when RAB5 was defective, and full maturation of macropinosomes was not required for RSV infection, indicating that the RSV membrane fuses with the macropinosome membrane during maturation of RAB5-positive macropinosomes, releasing the ribonucleocapsid (RNP) into the cytosol of the host cell (Krzyzaniak et al. 2013). RAB5C was independently shown to be important for RSV infection (Li et al. 2020), supporting the involvement of RAB5-positive macropinosomes. The release of RSV from RAB5-positive macropinosomes requires the activity of FURIN-like convertase that cleaves the mature F protein (F1-F2 peptide), releasing a glycosylated peptide of 27 amino acids (p27) to allow the fusion of the viral membrane with the macropinosomes membrane (Krzyzaniak et al. 2013). FURIN-mediated cleavage of F1-F2 mature form of F protein with the release of glycosylated p27 fragment was previously reported to be needed for RSV-mediated syncytia formation (Zimmer et al. 2001)</Comment>
+    <BiopaxRef>a16</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="736.0" Y="379.0" />
+      <Point X="816.0" Y="419.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fe296" />
+      <Anchor Position="0.99" Shape="None" GraphId="af5f9" />
+      <Anchor Position="0.5" Shape="None" GraphId="fe551" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="a4e99">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="733.0" Y="374.0" GraphRef="fc757" RelX="1.0" RelY="-0.02564102564102564" />
+      <Point X="736.0" Y="379.0" GraphRef="fe296" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="a60b4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="816.0" Y="419.0" GraphRef="af5f9" RelX="0.7999999999999545" RelY="0.39999999999997726" />
+      <Point X="879.0" Y="288.0" GraphRef="df5ca" RelX="-0.017543859649122806" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="bc565">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="816.0" Y="419.0" GraphRef="af5f9" RelX="0.7999999999999545" RelY="0.39999999999997726" />
+      <Point X="646.0" Y="455.0" GraphRef="a81e1" RelX="0.9753086419753086" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="ebc3a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="816.0" Y="419.0" GraphRef="af5f9" RelX="0.7999999999999545" RelY="0.39999999999997726" />
+      <Point X="948.0" Y="434.0" GraphRef="fb824" RelX="-1.0" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="e0235">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="816.0" Y="419.0" GraphRef="af5f9" RelX="0.7999999999999545" RelY="0.39999999999997726" />
+      <Point X="635.0" Y="410.0" GraphRef="f233e" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="d95df">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="816.0" Y="419.0" GraphRef="af5f9" RelX="0.7999999999999545" RelY="0.39999999999997726" />
+      <Point X="516.0" Y="442.0" GraphRef="b4803" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="a72ec">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="816.0" Y="419.0" GraphRef="af5f9" RelX="0.7999999999999545" RelY="0.39999999999997726" />
+      <Point X="846.0" Y="456.0" GraphRef="e36ce" RelX="-0.008" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="d61b6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="816.0" Y="419.0" GraphRef="af5f9" RelX="0.7999999999999545" RelY="0.39999999999997726" />
+      <Point X="667.0" Y="492.0" GraphRef="bd249" RelX="1.0" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="c0005">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="816.0" Y="419.0" GraphRef="af5f9" RelX="0.7999999999999545" RelY="0.39999999999997726" />
+      <Point X="719.0" Y="540.0" GraphRef="a1112" RelX="0.9797979797979798" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="ad88d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="725.0" Y="334.0" GraphRef="d9b81" RelX="-0.023255813953488372" RelY="1.0" />
+      <Point X="792.0" Y="385.0" GraphRef="fe551" RelX="16.0" RelY="-14.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9837707" />
+  </Interaction>
+  <Interaction GraphId="d229c">
+    <Comment Source="Reactome">Several F inhibitors bind the hRSV A fusion (F) protein on the virion and prevent F from initiating viral fusion with the cell membrane, abolishing viral entry. The monoclonal antibody palivizumab was approved in 1998 and is recommended as prophylactic treatment for infants at high risk for RSV due to conditions such as prematurity or other medical problems, including heart or lung diseases. It is administered once per month during the RSV high-risk season (September to November) and reduces the risk of infection by half, having minor side effects (reviewed by Wang et al., 2011).
+
+Nirsevimab is the second monoclonal antibody for preventing respiratory syncytial virus lower respiratory tract disease. It was approved in 2023 for prophylaxis in neonates and infants during their first RSV season. It is administered as a 1-dose intramuscular injection shortly before or during the RSV season since it has an extended half-life (Jones et al., 2023). However, the CDC recommends nirsevimab as prophylaxis for older people with increased risk (CDC, 2023).
+
+The nanobody ALX-0171 (Gontivimab) was designed as an inhalation to target the F protein. It showed antiviral effects in hospitalized RSV-Infected infants but no consistent differences in clinical outcome measures (NCT02979431); a second trial was terminated early because of the lack of clinical efficacy (NCT03418571). Further development of ALX-0171 was stopped by the producing company (Lowensteyn &amp; Bont, 2020).
+
+The small molecule F inhibitor rilematovir showed a reduction of time to resolution of key RSV symptoms in a phase 2b trial (Nilsson et al., 2023).
+
+Sisunatovir (RV521) is a small molecule investigated in two phase 2 trials and showed safety and efficacy (NCT04267822, NCT04225897). However, the producing company withdrew the product due to strategic considerations (Cockerill et al., 2021).
+
+Ziresovir was safe and efficient in a phase 3 trial treating infants hospitalized with RSV (NCT04231968; Zheng et al., 2019; reviewed in Langedijk &amp; Bond, 2021). China's National Medical Products Administration granted it priority review status in December 2022.</Comment>
+    <BiopaxRef>ccb</BiopaxRef>
+    <BiopaxRef>d30</BiopaxRef>
+    <BiopaxRef>bcd</BiopaxRef>
+    <BiopaxRef>f79</BiopaxRef>
+    <BiopaxRef>b62</BiopaxRef>
+    <BiopaxRef>bbf</BiopaxRef>
+    <BiopaxRef>b92</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="589.0" Y="81.0" />
+      <Point X="635.0" Y="73.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ee2c2" />
+      <Anchor Position="0.99" Shape="None" GraphId="f24e9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9845143" />
+  </Interaction>
+  <Interaction GraphId="a5337">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="571.0" Y="111.0" GraphRef="befa5" RelX="-0.011764705882352941" RelY="-1.0" />
+      <Point X="589.0" Y="81.0" GraphRef="ee2c2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9845143" />
+  </Interaction>
+  <Interaction GraphId="d899c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="551.0" Y="54.0" GraphRef="d186b" RelX="0.978494623655914" RelY="-0.043478260869565216" />
+      <Point X="589.0" Y="81.0" GraphRef="ee2c2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9845143" />
+  </Interaction>
+  <Interaction GraphId="aa7aa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="635.0" Y="73.0" GraphRef="f24e9" RelX="0.4600000000000364" RelY="-0.0799999999999983" />
+      <Point X="638.0" Y="67.0" GraphRef="b7aca" RelX="-1.0" RelY="-0.02564102564102564" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9845143" />
+  </Interaction>
+  <Label TextLabel="Airway Epithelium Cell" GraphId="dccea">
+    <Graphics CenterX="627.5" CenterY="593.0" Width="153.0" Height="22.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Immune system cell" GraphId="fa4b1">
+    <Graphics CenterX="181.0" CenterY="127.5" Width="158.0" Height="15.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="d8250" GroupRef="ce3b4">
+    <Graphics CenterX="478.0" CenterY="604.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="b0536" GroupRef="b3f10">
+    <Graphics CenterX="123.0" CenterY="166.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="macropinosome membrane" GraphId="e96de" GroupRef="c34eb">
+    <Graphics CenterX="549.5" CenterY="334.5" Width="191.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="a22d6" GroupRef="ce3b4">
+    <Graphics CenterX="774.0" CenterY="419.5" Width="718.0" Height="437.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="ea68c" GroupRef="b3f10">
+    <Graphics CenterX="189.5" CenterY="129.0" Width="263.0" Height="140.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c5703" GroupRef="c34eb">
+    <Graphics CenterX="594.5" CenterY="417.5" Width="287.0" Height="301.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="c33e1" GraphId="d577e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9836527" />
+  </Group>
+  <Group GroupId="a85da" GraphId="d7ba8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9836529" />
+  </Group>
+  <Group GroupId="e92c6" GraphId="e0b92" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9836905" />
+  </Group>
+  <Group GroupId="b3a17" GraphId="ab239">
+    <Attribute Key="complex_id" Value="R-HSA-166029" />
+  </Group>
+  <Group GroupId="d2062" GraphId="c6bfc" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-166050" />
+  </Group>
+  <Group GroupId="ffeb3" GraphId="f8784" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9836220" />
+  </Group>
+  <Group GroupId="d6a63" GraphId="b3423" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9829197" />
+  </Group>
+  <Group GroupId="f8770" GraphId="d55ff" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9831119" />
+  </Group>
+  <Group GroupId="dcd6f" GraphId="f19a6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9830283" />
+  </Group>
+  <Group GroupId="f17a7" GraphId="b4499" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9837548" />
+  </Group>
+  <Group GroupId="fe89c" GraphId="cf92c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9825338" />
+  </Group>
+  <Group GroupId="e385a" GraphId="ae0d4" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9837549" />
+  </Group>
+  <Group GroupId="ca05f" GraphId="c3513" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9831671" />
+  </Group>
+  <Group GroupId="fb844" GraphId="a211b">
+    <Attribute Key="complex_id" Value="R-HSA-2076618" />
+  </Group>
+  <Group GroupId="e5b56" GraphId="fc8fa" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9837677" />
+  </Group>
+  <Group GroupId="c7b46" GraphId="e81ae">
+    <Attribute Key="complex_id" Value="R-HSA-9837684" />
+  </Group>
+  <Group GroupId="c3991" GraphId="a7da2" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9837711" />
+  </Group>
+  <Group GroupId="b7295" GraphId="f8b87" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9837715" />
+  </Group>
+  <Group GroupId="f2170" GraphId="d83bd" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9837713" />
+  </Group>
+  <Group GroupId="c04a4" GraphId="f25e8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9837722" />
+  </Group>
+  <Group GroupId="ef977" GraphId="c22e5">
+    <Attribute Key="complex_id" Value="R-HSA-9837698" />
+  </Group>
+  <Group GroupId="cb0be" GraphId="b9e76">
+    <Attribute Key="complex_id" Value="R-ALL-9845120" />
+  </Group>
+  <Group GroupId="a61f1" GraphId="e45e8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-RSY-9845117" />
+  </Group>
+  <Group GroupId="ce3b4" GraphId="bf001" Style="Group" />
+  <Group GroupId="b3f10" GraphId="ab8a2" Style="Group" />
+  <Group GroupId="c34eb" GraphId="d7ccd" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30723301</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus entry and how to block it.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Battles MB, McLellan JS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a75">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11991994</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus infection of human airway epithelial cells is polarized, specific to ciliated cells, and without obvious cytopathology.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang L, Peeples ME, Boucher RC, Collins PL, Pickles RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16622022</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus inhibits granulocyte apoptosis through a phosphatidylinositol 3-kinase and NF-kappaB-dependent mechanism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lindemans CA, Coffer PJ, Schellens IM, de Graaff PM, Kimpen JL, Koenderman L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d56">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28228284</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory Syncytial Virus Infects Regulatory B Cells in Human Neonates via Chemokine Receptor CX3CR1 and Promotes Lung Disease Severity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhivaki D, Lemoine S, Lim A, Morva A, Vidalain PO, Schandene L, Casartelli N, Rameix-Welti MA, Hervé PL, Dériaud E, Beitz B, Ripaux-Lefevre M, Miatello J, Lemercier B, Lorin V, Descamps D, Fix J, Eléouët JF, Riffault S, Schwartz O, Porcheray F, Mascart F, Mouquet H, Zhang X, Tissières P, Lo-Man R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21841784</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of nucleolin as a cellular receptor for human respiratory syncytial virus.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tayyari F, Marchant D, Moraes TJ, Duan W, Mastrangelo P, Hegele RG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29427996</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus prolifically infects N2a neuronal cells, leading to TLR4 and nucleolin protein modulations and RSV F protein co-localization with TLR4 and nucleolin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yuan X, Hu T, He H, Qiu H, Wu X, Chen J, Wang M, Chen C, Huang S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c91">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11706042</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MD-2 and TLR4 N-linked glycosylations are important for a functional lipopolysaccharide receptor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">da Silva Correia J, Ulevitch RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eca">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11544325</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-linked glycosylations at Asn(26) and Asn(114) of human MD-2 are required for toll-like receptor 4-mediated activation of NF-kappaB by lipopolysaccharide.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohnishi T, Muroi M, Tanamoto K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a79">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17803912</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structure of the TLR4-MD-2 complex with bound endotoxin antagonist Eritoran.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim HM, Park BS, Kim JI, Kim SE, Lee J, Oh SC, Enkhbayar P, Matsushima N, Lee H, Yoo OJ, Lee JO.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f55">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19252480</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The structural basis of lipopolysaccharide recognition by the TLR4-MD-2 complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Park BS, Song DH, Kim HM, Choi BS, Lee H, Lee JO.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36851554</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemistry of the Respiratory Syncytial Virus L Protein Embedding RNA Polymerase and Capping Activities.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sutto-Ortiz P, Eléouët JF, Ferron F, Decroly E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d64">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24362682</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus: virology, reverse genetics, and pathogenesis of disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collins PL, Fearns R, Graham BS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27575793</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New antiviral approaches for respiratory syncytial virus and other mononegaviruses: Inhibiting the RNA polymerase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fearns R, Deval J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e17">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25683441</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Initiation and regulation of paramyxovirus transcription and replication.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noton SL, Fearns R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a24">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1629222</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation of human furin precursor processing endoprotease occurs by an intramolecular autoproteolytic cleavage.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leduc R, Molloy SS, Thorne BA, Thomas G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11477410</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX3C chemokine mimicry by respiratory syncytial virus G glycoprotein.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tripp RA, Jones LP, Haynes LM, Zheng H, Murphy PM, Anderson LJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f27">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31726465</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX3CR1 as a respiratory syncytial virus receptor in pediatric human lung.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anderson CS, Chu CY, Wang Q, Mereness JA, Ren Y, Donlon K, Bhattacharya S, Misra RS, Walsh EE, Pryhuber GS, Mariani TJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e94">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26297201</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX3CR1 is an important surface molecule for respiratory syncytial virus infection in human airway epithelial cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chirkova T, Lin S, Oomens AGP, Gaston KA, Boyoglu-Barnum S, Meng J, Stobart CC, Cotton CU, Hartert TV, Moore ML, Ziady AG, Anderson LJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e91">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16424189</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus G protein and G protein CX3C motif adversely affect CX3CR1+ T cell responses.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harcourt J, Alvarez R, Jones LP, Henderson C, Anderson LJ, Tripp RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b63">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24089561</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus G protein CX3C motif impairs human airway epithelial and immune cell responses.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chirkova T, Boyoglu-Barnum S, Gaston KA, Malik FM, Trau SP, Oomens AG, Anderson LJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33731455</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX3CR1 Engagement by Respiratory Syncytial Virus Leads to Induction of Nucleolin and Dysregulation of Cilia-related Genes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anderson CS, Chirkova T, Slaunwhite CG, Qiu X, Walsh EE, Anderson LJ, Mariani TJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c99">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26107373</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX3CR1 Is Expressed in Differentiated Human Ciliated Airway Cells and Co-Localizes with Respiratory Syncytial Virus on Cilia in a G Protein-Dependent Manner.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeong KI, Piepenhagen PA, Kishko M, DiNapoli JM, Groppo RP, Zhang L, Almond J, Kleanthous H, Delagrave S, Parrington M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d05">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26658574</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory Syncytial Virus Uses CX3CR1 as a Receptor on Primary Human Airway Epithelial Cultures.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Johnson SM, McNally BA, Ioannidis I, Flano E, Teng MN, Oomens AG, Walsh EE, Peeples ME.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35429403</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent Respiratory Syncytial Virus Infection in a CD14-Deficient Patient.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Besteman SB, Phung E, Raeven HHM, Amatngalim GD, Rumpret M, Crabtree J, Schepp RM, Rodenburg LW, Siemonsma SG, Verleur N, van Slooten R, Duran K, van Haaften GW, Beekman JM, Chang LA, Meyaard L, van der Bruggen T, Berbers GAM, Derksen N, Nierkens S, Morabito KM, Ruckwardt TJ, Kurt-Jones EA, Golenbock D, Graham BS, Bont LJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22872782</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus fusion protein-induced toll-like receptor 4 (TLR4) signaling is inhibited by the TLR4 antagonists Rhodobacter sphaeroides lipopolysaccharide and eritoran (E5564) and requires direct interaction with MD-2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rallabhandi P, Phillips RL, Boukhvalova MS, Pletneva LM, Shirey KA, Gioannini TL, Weiss JP, Chow JC, Hawkins LD, Vogel SN, Blanco JC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11062499</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pattern recognition receptors TLR4 and CD14 mediate response to respiratory syncytial virus.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kurt-Jones EA, Popova L, Kwinn L, Haynes LM, Jones LP, Tripp RA, Walsh EE, Freeman MW, Golenbock DT, Anderson LJ, Finberg RW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18669608</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Host species-specific usage of the TLR4-LPS receptor complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lizundia R, Sauter KS, Taylor G, Werling D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d09">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22535679</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of human TLR4 in respiratory syncytial virus-induced NF-κB activation, viral entry and replication.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marr N, Turvey SE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15048726</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of Toll-like receptor 4 versus interleukin-12 in immunity to respiratory syncytial virus.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ehl S, Bischoff R, Ostler T, Vallbracht S, Schulte-Mönting J, Poltorak A, Freudenberg M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f53">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1906550</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics of fusion of respiratory syncytial virus with HEp-2 cells as measured by R18 fluorescence dequenching assay.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Srinivasakumar N, Ogra PL, Flanagan TD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9927576</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recombinant vesicular stomatitis virus expressing respiratory syncytial virus (RSV) glycoproteins: RSV fusion protein can mediate infection and cell fusion.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kahn JS, Schnell MJ, Buonocore L, Rose JK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a16">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23593008</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Host cell entry of respiratory syncytial virus involves macropinocytosis followed by proteolytic activation of the F protein.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krzyzaniak MA, Zumstein MT, Gerez JA, Picotti P, Helenius A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21281564</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palivizumab for immunoprophylaxis of respiratory syncytial virus (RSV) bronchiolitis in high-risk infants and young children: a systematic review and additional economic modelling of subgroup analyses.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang D, Bayliss S, Meads C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d30">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37616235</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Use of Nirsevimab for the Prevention of Respiratory Syncytial Virus Disease Among Infants and Young Children: Recommendations of the Advisory Committee on Immunization Practices - United States, 2023.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jones JM, Fleming-Dutra KE, Prill MM, Roper LE, Brooks O, Sánchez PJ, Kotton CN, Mahon BE, Meyer S, Long SS, McMorrow ML.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31915814</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Development of Respiratory Syncytial Virus Antivirals-What We Can Learn From Oseltamivir.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Löwensteyn YN, Bont LJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f79">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37422079</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pilot phase 2a, randomized, double-blind, placebo-controlled study to explore the antiviral activity, clinical outcomes, safety, and tolerability of rilematovir at two dose levels in non-hospitalized adults with respiratory syncytial virus infection.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nilsson AC, Pullman J, Napora P, Luz K, Gupta A, Draghi J, Guzman Romero AK, Aggarwal N, Petrova G, Ianus J, Vijgen L, Scott J, Sinha R, Rusch S, Huntjens D, Bertzos K, Stevens M, ROSE Study Group.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b62">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33729773</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discovery of Sisunatovir (RV521), an Inhibitor of Respiratory Syncytial Virus Fusion.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cockerill GS, Angell RM, Bedernjak A, Chuckowree I, Fraser I, Gascon-Simorte J, Gilman MSA, Good JAD, Harland R, Johnson SM, Ludes-Meyers JH, Littler E, Lumley J, Lunn G, Mathews N, McLellan JS, Paradowski M, Peeples ME, Scott C, Tait D, Taylor G, Thom M, Thomas E, Villalonga Barber C, Ward SE, Watterson D, Williams G, Young P, Powell K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31194544</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discovery of Ziresovir as a Potent, Selective, and Orally Bioavailable Respiratory Syncytial Virus Fusion Protein Inhibitor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zheng X, Gao L, Wang L, Liang C, Wang B, Liu Y, Feng S, Zhang B, Zhou M, Yu X, Xiang K, Chen L, Guo T, Shen HC, Zou G, Wu JZ, Yun H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b92">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37438492</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory syncytial virus infection and novel interventions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langedijk AC, Bont LJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

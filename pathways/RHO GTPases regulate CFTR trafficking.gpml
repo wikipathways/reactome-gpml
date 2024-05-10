@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="RHO GTPases regulate CFTR trafficking" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Activated RHO GTPase RHOQ (TC10) regulates the trafficking of CFTR (cystic fibrosis transmembrane conductance regulator) by binding to GOPC (Golgi-associated and PDZ and coiled-coil motif-containing protein) also known as PIST, FIG or CAL. GOPC is a Golgi resident protein that binds several membrane proteins, thereby modulating their expression. In the absence of RHOQ, GOPC bound to CFTR directs CFTR for lysosomal degradation, while GTP-bound RHOQ directs GOPC:CFTR complex to the plasma membrane, thereby rescuing CFTR (Neudauer et al. 2001, Cheng et al. 2005).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5627083 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 5627083</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Orlic-Milacic, Marija</Comment>
+  <BiopaxRef>c1f</BiopaxRef>
+  <BiopaxRef>f29</BiopaxRef>
+  <Attribute Key="reactome_id" Value="5627083" />
+  <Graphics BoardWidth="789.0" BoardHeight="909.0" />
+  <DataNode TextLabel="GOPC:CFTR" GraphId="dc9a2" Type="Complex">
+    <BiopaxRef>f29</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi-associated vesicle membrane" />
+    <Graphics CenterX="369.5" CenterY="138.0" Width="87.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5627082" />
+  </DataNode>
+  <DataNode TextLabel="GOPC " GraphId="dc66d" Type="Protein" GroupRef="edc4e">
+    <Attribute Key="cellular_location" Value="Golgi-associated vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627082" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="437.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HD26" />
+  </DataNode>
+  <DataNode TextLabel="CFTR " GraphId="bc8bc" Type="Protein" GroupRef="edc4e">
+    <Attribute Key="cellular_location" Value="Golgi-associated vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627082" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="457.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13569" />
+  </DataNode>
+  <DataNode TextLabel="GOPC:CFTR" GraphId="bab9f" Type="Complex">
+    <BiopaxRef>f29</BiopaxRef>
+    <Attribute Key="cellular_location" Value="lysosomal membrane" />
+    <Graphics CenterX="529.0" CenterY="141.0" Width="78.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5627276" />
+  </DataNode>
+  <DataNode TextLabel="GOPC " GraphId="fce1e" Type="Protein" GroupRef="d9690">
+    <Attribute Key="cellular_location" Value="lysosomal membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627276" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="517.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HD26" />
+  </DataNode>
+  <DataNode TextLabel="CFTR " GraphId="fd5fe" Type="Protein" GroupRef="d9690">
+    <Attribute Key="cellular_location" Value="lysosomal membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627276" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="537.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13569" />
+  </DataNode>
+  <DataNode TextLabel="RHOQ:GTP" GraphId="c8076" Type="Complex">
+    <Attribute Key="cellular_location" Value="Golgi-associated vesicle membrane" />
+    <Graphics CenterX="293.0" CenterY="95.0" Width="72.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5627068" />
+  </DataNode>
+  <DataNode TextLabel="RHOQ " GraphId="ddd17" Type="Protein" GroupRef="c82c3">
+    <Attribute Key="cellular_location" Value="Golgi-associated vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627068" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="597.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17081" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="bb124" Type="Metabolite" GroupRef="c82c3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5627068" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="617.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RHOQ:GTP:GOPC:CFTR" GraphId="c2adc" Type="Complex">
+    <BiopaxRef>f29</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi-associated vesicle membrane" />
+    <Graphics CenterX="374.5" CenterY="208.0" Width="113.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5627078" />
+  </DataNode>
+  <DataNode TextLabel="GOPC " GraphId="c0314" Type="Protein" GroupRef="d4b38">
+    <Attribute Key="cellular_location" Value="Golgi-associated vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627078" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="677.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HD26" />
+  </DataNode>
+  <DataNode TextLabel="CFTR " GraphId="ef3c4" Type="Protein" GroupRef="d4b38">
+    <Attribute Key="cellular_location" Value="Golgi-associated vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627078" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="697.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13569" />
+  </DataNode>
+  <DataNode TextLabel="RHOQ " GraphId="a15a4" Type="Protein" GroupRef="d4b38">
+    <Attribute Key="cellular_location" Value="Golgi-associated vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627078" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="717.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17081" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="ae58c" Type="Metabolite" GroupRef="d4b38">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5627078" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="737.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="RHOQ:GTP:GOPC:CFTR" GraphId="dfccc" Type="Complex">
+    <BiopaxRef>f29</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="377.5" CenterY="391.5" Width="103.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5627084" />
+  </DataNode>
+  <DataNode TextLabel="RHOQ " GraphId="a73dd" Type="Protein" GroupRef="af2fe">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627084" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="797.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17081" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="ec5a9" Type="Metabolite" GroupRef="af2fe">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5627084" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="817.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="GOPC " GraphId="b80e8" Type="Protein" GroupRef="af2fe">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627084" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="837.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HD26" />
+  </DataNode>
+  <DataNode TextLabel="CFTR " GraphId="a5d37" Type="Protein" GroupRef="af2fe">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5627084" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="857.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13569" />
+  </DataNode>
+  <Interaction GraphId="fd5aa">
+    <Comment Source="Reactome">Binding of GOPC (also known as CAL, PIST or FIG) to CFTR (cystic fibrosis transmembrane conductance regulator) promotes translocation of GOPC:CFTR complex to lysosomes, which is followed by lysosomal degradation of CFTR (Cheng et al. 2005).</Comment>
+    <BiopaxRef>f29</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="416.0" Y="138.0" />
+      <Point X="487.0" Y="140.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a1dff" />
+      <Anchor Position="0.99" Shape="None" GraphId="dac13" />
+      <Anchor Position="0.5" Shape="None" GraphId="a64e2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627275" />
+  </Interaction>
+  <Interaction GraphId="a3af9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="412.0" Y="138.0" GraphRef="dc9a2" RelX="0.9770114942528736" RelY="0.0" />
+      <Point X="416.0" Y="138.0" GraphRef="a1dff" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627275" />
+  </Interaction>
+  <Interaction GraphId="fac50">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="487.0" Y="140.0" GraphRef="dac13" RelX="0.7100000000000364" RelY="0.020000000000010232" />
+      <Point X="490.0" Y="141.0" GraphRef="bab9f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627275" />
+  </Interaction>
+  <Interaction GraphId="cf0d5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="412.0" Y="138.0" GraphRef="dc9a2" RelX="0.9770114942528736" RelY="0.0" />
+      <Point X="443.0" Y="139.0" GraphRef="a64e2" RelX="-8.5" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627275" />
+  </Interaction>
+  <Interaction GraphId="e3bfc">
+    <Comment Source="Reactome">GTP-bound RHO GTPase RHOQ (TC10) binds GOPC (also known as PIST, CAL or FIG) dimer (Neudauer et al. 2001, Cheng et al. 2005) in complex with CFTR (cystic fibrosis transmembrane conductance regulator) on Golgi-associated vesicles (Cheng et al. 2005).</Comment>
+    <BiopaxRef>f29</BiopaxRef>
+    <BiopaxRef>c1f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="301.0" Y="156.0" />
+      <Point X="348.0" Y="187.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a6940" />
+      <Anchor Position="0.99" Shape="None" GraphId="e109e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627072" />
+  </Interaction>
+  <Interaction GraphId="c49e1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="293.0" Y="106.0" GraphRef="c8076" RelX="0.0" RelY="1.0" />
+      <Point X="301.0" Y="156.0" GraphRef="a6940" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627072" />
+  </Interaction>
+  <Interaction GraphId="fb8d2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="326.0" Y="138.0" GraphRef="dc9a2" RelX="-1.0" RelY="0.0" />
+      <Point X="301.0" Y="156.0" GraphRef="a6940" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627072" />
+  </Interaction>
+  <Interaction GraphId="b60e9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="348.0" Y="187.0" GraphRef="e109e" RelX="0.4700000000000273" RelY="0.3100000000000023" />
+      <Point X="374.0" Y="190.0" GraphRef="c2adc" RelX="-0.008849557522123894" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627072" />
+  </Interaction>
+  <Interaction GraphId="b0bf4">
+    <Comment Source="Reactome">While binding of GOPC (also known as CAL, PIST or FIG) to CFTR (cystic fibrosis transmembrane conductance regulator) promotes lysosomal degradation of CFTR, binding of active RHOQ to GOPC:CFTR complex redirects CFTR to the plasma membrane and prevents its degradation (Cheng et al. 2005).</Comment>
+    <BiopaxRef>f29</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="229.0" />
+      <Point X="376.0" Y="371.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fe062" />
+      <Anchor Position="0.99" Shape="None" GraphId="d2229" />
+      <Anchor Position="0.5" Shape="None" GraphId="d7abe" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627071" />
+  </Interaction>
+  <Interaction GraphId="eb646">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="226.0" GraphRef="c2adc" RelX="-0.008849557522123894" RelY="1.0" />
+      <Point X="374.0" Y="229.0" GraphRef="fe062" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627071" />
+  </Interaction>
+  <Interaction GraphId="dd09a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="376.0" Y="371.0" GraphRef="d2229" RelX="0.01999999999998181" RelY="1.419999999999959" />
+      <Point X="377.0" Y="374.0" GraphRef="dfccc" RelX="-0.009708737864077669" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627071" />
+  </Interaction>
+  <Interaction GraphId="ff5e8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="226.0" GraphRef="c2adc" RelX="-0.008849557522123894" RelY="1.0" />
+      <Point X="375.0" Y="298.0" GraphRef="d7abe" RelX="0.0" RelY="-2.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5627071" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="f4516" GroupRef="b2111">
+    <Graphics CenterX="93.0" CenterY="364.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="lysosomal lumen" GraphId="b505f" GroupRef="afb56">
+    <Graphics CenterX="636.5" CenterY="159.5" Width="123.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Golgi-associated vesicle" GraphId="e27d9" GroupRef="feff3">
+    <Graphics CenterX="281.0" CenterY="242.5" Width="170.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="f9249" GroupRef="b2111">
+    <Graphics CenterX="396.5" CenterY="219.0" Width="709.0" Height="362.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="ec0ac" GroupRef="afb56">
+    <Graphics CenterX="624.0" CenterY="139.5" Width="190.0" Height="107.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="a1fcc" GroupRef="feff3">
+    <Graphics CenterX="281.0" CenterY="183.5" Width="204.0" Height="187.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="edc4e" GraphId="e83e5" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5627082" />
+  </Group>
+  <Group GroupId="d9690" GraphId="ee616" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5627276" />
+  </Group>
+  <Group GroupId="c82c3" GraphId="f0cf6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5627068" />
+  </Group>
+  <Group GroupId="d4b38" GraphId="baa43" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5627078" />
+  </Group>
+  <Group GroupId="af2fe" GraphId="f381f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5627084" />
+  </Group>
+  <Group GroupId="b2111" GraphId="bcf9c" Style="Group" />
+  <Group GroupId="afb56" GraphId="ecc94" Style="Group" />
+  <Group GroupId="feff3" GraphId="b5d59" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11162552</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIST: a novel PDZ/coiled-coil domain binding partner for the rho-family GTPase TC10.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neudauer CL, Joberty G, Macara IG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f29">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15546864</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of cystic fibrosis transmembrane regulator trafficking and protein expression by a Rho family small GTPase TC10.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheng J, Wang H, Guggino WB.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

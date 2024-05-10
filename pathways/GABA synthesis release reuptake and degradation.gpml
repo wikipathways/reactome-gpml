@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="GABA synthesis, release, reuptake and degradation" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">GABA is a major inhibitory neurotransmitter in the mammalian central nervous system. GABA modulates neuronal excitability throughout the nervous system. Disruption of GABA neurotransmission leads to many neurological diseases including epilepsy and a general anxiety disorder. GABA is synthesized by two distinct enzymes GAD67 and GAD65 that differ in their cellular localization, functional properties and co-factor requirements. GABA synthesized by GAD65 is used for neurotransmission whereas GABA synthesized by GAD67 is used for processes other than neurotransmission such as synaptogenesis and protection against neuronal injury. GABA is loaded into synaptic vesicle with the help of vesicular inhibitory amino acid transporter or VGAT. GAD65 and VGAT are functionally linked at the synaptic vesicle membrane and GABA synthesized by GAD65 is preferentially loaded into the synaptic vesicle over GABA synthesized in cytoplasm by GAD67.The GABA loaded synaptic vesicles are docked at the plasma membrane with the help of the SNARE complexes and primed by interplay between various proteins including Munc18, complexin etc. Release of GABA loaded synaptic vesicle is initiated by the arrival of action potential at the presynaptic bouton and opening of N or P/Q voltage gated Ca2+ channels. Ca2+ influx results in Ca2+ binding by synaptobrevin, which is a part of the SNARE complex that also includes SNAP25 and syntaxin, leading to synaptic vesicle fusion. Release of GABA in the synaptic cleft leads to binding of GABA by the GABA receptors and post ligand binding events.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=888590 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 888590</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Mahajan, SS</Comment>
+  <BiopaxRef>d31</BiopaxRef>
+  <BiopaxRef>cdf</BiopaxRef>
+  <Attribute Key="reactome_id" Value="888590" />
+  <Graphics BoardWidth="1173.0" BoardHeight="1655.0" />
+  <DataNode TextLabel="L-Glu" GraphId="c5d4b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="590.5" CenterY="64.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29985" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="f7cbe" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="508.0" CenterY="63.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="d3df6" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="517.0" CenterY="252.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="GABA" GraphId="f5113" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="611.5" CenterY="250.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59888" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-GAD dimers" GraphId="ea734" Type="Complex">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Graphics CenterX="686.0" CenterY="164.0" Width="114.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-888569" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K396-GAD2 " GraphId="e1fbc" Type="Protein" GroupRef="ff1a9">
+    <Comment Source="Reactome">GAD65 or GAD2 is concentrated in the nerve terminal region in the neurons and is involved in the synthesis of GABA which is used as a neurotransmitter.</Comment>
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-888569" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="883.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q05329" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K405-GAD1 " GraphId="b9fda" Type="Protein" GroupRef="ff1a9">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-888569" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="903.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99259" />
+  </DataNode>
+  <DataNode TextLabel="GABA Loaded synaptic&#xA;vesicle" GraphId="ff510" Type="Complex">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Graphics CenterX="906.0" CenterY="351.0" Width="98.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-917748" />
+  </DataNode>
+  <DataNode TextLabel="DNAJC5 " GraphId="b6d68" Type="Protein" GroupRef="e0d6a">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="963.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H3Z4" />
+  </DataNode>
+  <DataNode TextLabel="HSPA8 " GraphId="f7a90" Type="Protein" GroupRef="e0d6a">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="983.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11142" />
+  </DataNode>
+  <DataNode TextLabel="SLC32A1 " GraphId="d6f4f" Type="Protein" GroupRef="e0d6a">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1003.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H598" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K396-GAD2 " GraphId="d7ab7" Type="Protein" GroupRef="e0d6a">
+    <Comment Source="Reactome">GAD65 or GAD2 is concentrated in the nerve terminal region in the neurons and is involved in the synthesis of GABA which is used as a neurotransmitter.</Comment>
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1023.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q05329" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K405-GAD1 " GraphId="eb18d" Type="Protein" GroupRef="e0d6a">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1043.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99259" />
+  </DataNode>
+  <DataNode TextLabel="SYT1 " GraphId="e2af8" Type="Protein" GroupRef="e0d6a">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1063.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P21579" />
+  </DataNode>
+  <DataNode TextLabel="VAMP2 " GraphId="b8566" Type="Protein" GroupRef="e0d6a">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1083.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P63027" />
+  </DataNode>
+  <DataNode TextLabel="RAB3A " GraphId="a131d" Type="Protein" GroupRef="e0d6a">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1103.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20336" />
+  </DataNode>
+  <DataNode TextLabel="GABA " GraphId="ebd0b" Type="Metabolite" GroupRef="e0d6a">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1123.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59888" />
+  </DataNode>
+  <DataNode TextLabel="GABA" GraphId="cf3bd" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle lumen" />
+    <Graphics CenterX="736.5" CenterY="249.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59888" />
+  </DataNode>
+  <DataNode TextLabel="SLC32A1" GraphId="f5541" Type="Protein">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Graphics CenterX="677.5" CenterY="298.0" Width="61.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H598" />
+  </DataNode>
+  <DataNode TextLabel="CPLX1" GraphId="e6369" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="828.0" CenterY="551.0" Width="46.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14810" />
+  </DataNode>
+  <DataNode TextLabel="STXBP1-1" GraphId="fd748" Type="Protein">
+    <Comment Source="Reactome">Munc 18 interacts with syntaxin in the plasma membrane, with Mint (Munc 18 interacting) which in turn interacts with CASK and neurexins. Munc18 also interacts with   granulophilin. Granulophilin is interacts simultaneously with syntaxin and Munc18. These interactions are believed to be involved in the docking of the synaptic vesicle to the plasma membrane. However, the sequence of events is unclear.</Comment>
+    <BiopaxRef>a49</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="693.0" CenterY="525.0" Width="68.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61764-1" />
+  </DataNode>
+  <DataNode TextLabel="RIMS1" GraphId="d6da6" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="766.0" CenterY="541.0" Width="44.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86UR5" />
+  </DataNode>
+  <DataNode TextLabel="Docked GABA loaded&#xA;synaptic vesicle" GraphId="aaf69" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1091.0" CenterY="638.0" Width="104.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-917774" />
+  </DataNode>
+  <DataNode TextLabel="DNAJC5 " GraphId="badbd" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1183.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H3Z4" />
+  </DataNode>
+  <DataNode TextLabel="HSPA8 " GraphId="c544a" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1203.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11142" />
+  </DataNode>
+  <DataNode TextLabel="SLC32A1 " GraphId="bc11b" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1223.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H598" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K396-GAD2 " GraphId="f8283" Type="Protein" GroupRef="dfdc8">
+    <Comment Source="Reactome">GAD65 or GAD2 is concentrated in the nerve terminal region in the neurons and is involved in the synthesis of GABA which is used as a neurotransmitter.</Comment>
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1243.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q05329" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K405-GAD1 " GraphId="f8695" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1263.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99259" />
+  </DataNode>
+  <DataNode TextLabel="SYT1 " GraphId="bc12e" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1283.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P21579" />
+  </DataNode>
+  <DataNode TextLabel="VAMP2 " GraphId="d1f8e" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1303.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P63027" />
+  </DataNode>
+  <DataNode TextLabel="RAB3A " GraphId="c1d5d" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1323.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20336" />
+  </DataNode>
+  <DataNode TextLabel="GABA " GraphId="c7e55" Type="Metabolite" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1343.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59888" />
+  </DataNode>
+  <DataNode TextLabel="RIMS1 " GraphId="e69d0" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1363.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86UR5" />
+  </DataNode>
+  <DataNode TextLabel="CPLX1 " GraphId="bfd8f" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1383.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14810" />
+  </DataNode>
+  <DataNode TextLabel="STXBP1-1 " GraphId="b54d6" Type="Protein" GroupRef="dfdc8">
+    <Comment Source="Reactome">Munc 18 interacts with syntaxin in the plasma membrane, with Mint (Munc 18 interacting) which in turn interacts with CASK and neurexins. Munc18 also interacts with   granulophilin. Granulophilin is interacts simultaneously with syntaxin and Munc18. These interactions are believed to be involved in the docking of the synaptic vesicle to the plasma membrane. However, the sequence of events is unclear.</Comment>
+    <BiopaxRef>a49</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1403.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61764-1" />
+  </DataNode>
+  <DataNode TextLabel="SNAP25 " GraphId="eca96" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1423.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60880" />
+  </DataNode>
+  <DataNode TextLabel="STX1A " GraphId="fb053" Type="Protein" GroupRef="dfdc8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1443.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16623" />
+  </DataNode>
+  <DataNode TextLabel="GABA" GraphId="e1c01" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="377.5" CenterY="797.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59888" />
+  </DataNode>
+  <DataNode TextLabel="SLC32A1" GraphId="b7611" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="717.5" CenterY="750.0" Width="61.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H598" />
+  </DataNode>
+  <DataNode TextLabel="RAB3A" GraphId="d230b" Type="Protein">
+    <Comment Source="Reactome">Rab3A, located in the synaptic vesicle membrane, interacts with RIM ( Rab3A interacting Molecule) and with Doc2. These interactions are beleived to initiate the process of priming which precedes the fuison of the synaptic vesicle with the plasma membrane.</Comment>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="784.0" CenterY="750.0" Width="48.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20336" />
+  </DataNode>
+  <DataNode TextLabel="SYT1" GraphId="f6f52" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="656.0" CenterY="747.0" Width="38.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P21579" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="c5565" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="235.5" CenterY="836.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="a601b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="322.5" CenterY="834.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17996" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="c9f8e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="238.5" CenterY="686.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="a90cd" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="248.5" CenterY="628.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17996" />
+  </DataNode>
+  <DataNode TextLabel="ligands of SLC6A12&#xA;(BGT-1)" GraphId="e521e" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="125.5" CenterY="837.0" Width="125.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-352007" />
+  </DataNode>
+  <DataNode TextLabel="GABA " GraphId="cf4ce" Type="Metabolite" GroupRef="b5770">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-352007" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="923.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59888" />
+  </DataNode>
+  <DataNode TextLabel="b-Ala " GraphId="af231" Type="Metabolite" GroupRef="b5770">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-352007" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="943.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16958" />
+  </DataNode>
+  <DataNode TextLabel="BET " GraphId="e6197" Type="Metabolite" GroupRef="b5770">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-352007" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="963.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17750" />
+  </DataNode>
+  <DataNode TextLabel="DAB " GraphId="c015d" Type="Metabolite" GroupRef="b5770">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-352007" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="983.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:48950" />
+  </DataNode>
+  <DataNode TextLabel="ligands of SLC6A12&#xA;(BGT-1)" GraphId="c6fc2" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="121.5" CenterY="622.0" Width="125.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-351982" />
+  </DataNode>
+  <DataNode TextLabel="GABA " GraphId="e779c" Type="Metabolite" GroupRef="ef5e0">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-351982" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1043.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59888" />
+  </DataNode>
+  <DataNode TextLabel="b-Ala " GraphId="f106f" Type="Metabolite" GroupRef="ef5e0">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-351982" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1063.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57966" />
+  </DataNode>
+  <DataNode TextLabel="BET " GraphId="df050" Type="Metabolite" GroupRef="ef5e0">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-351982" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1083.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17750" />
+  </DataNode>
+  <DataNode TextLabel="DAB " GraphId="c29fe" Type="Metabolite" GroupRef="ef5e0">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-351982" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1103.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:48950" />
+  </DataNode>
+  <DataNode TextLabel="GABA" GraphId="b1d23" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="331.5" CenterY="369.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59888" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="c7f01" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="276.5" CenterY="355.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="L-Glu" GraphId="cbcec" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="331.5" CenterY="146.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29985" />
+  </DataNode>
+  <DataNode TextLabel="SUCCSA" GraphId="aafc0" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="184.5" CenterY="148.0" Width="61.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57706" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K357-ABAT&#xA;dimer:2Fe-2S" GraphId="d8ee4" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="251.0" CenterY="252.0" Width="118.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-916847" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K357-ABAT " GraphId="f73ae" Type="Protein" GroupRef="d2572">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-916847" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1163.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P80404" />
+  </DataNode>
+  <DataNode TextLabel="2Fe-2S cluster " GraphId="ae518" Type="Metabolite" GroupRef="d2572">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-916847" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1183.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:33739" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="e30cf" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="220.5" CenterY="308.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="aa716" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="139.5" CenterY="309.0" Width="53.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57540" />
+  </DataNode>
+  <DataNode TextLabel="SUCCA" GraphId="eeac3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="211.5" CenterY="442.0" Width="55.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30031" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="d0671" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="113.0" CenterY="419.0" Width="52.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57945" />
+  </DataNode>
+  <DataNode TextLabel="DNAJC5" GraphId="e3b46" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="547.5" CenterY="748.0" Width="55.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H3Z4" />
+  </DataNode>
+  <DataNode TextLabel="HSPA8" GraphId="ffec1" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="603.5" CenterY="748.0" Width="47.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11142" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-GAD dimers" GraphId="cb7f7" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="987.0" CenterY="747.0" Width="114.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-947479" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K396-GAD2 " GraphId="b79d4" Type="Protein" GroupRef="b12f2">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-947479" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1243.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q05329" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K405-GAD1 " GraphId="d4f96" Type="Protein" GroupRef="b12f2">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-947479" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1263.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99259" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A GABA&#xA;transporters" GraphId="b0911" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="239.5" CenterY="748.0" Width="85.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-444011" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A1 " GraphId="f1d0e" Type="Protein" GroupRef="e1b49">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-444011" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1323.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P30531" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A11 " GraphId="e2c8c" Type="Protein" GroupRef="e1b49">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-444011" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1343.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P48066" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A13 " GraphId="a82e8" Type="Protein" GroupRef="e1b49">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-444011" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1363.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NSD5" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A12" GraphId="dcf37" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="95.5" CenterY="747.0" Width="61.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P48065" />
+  </DataNode>
+  <DataNode TextLabel="GABA" GraphId="e9f1c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="331.5" CenterY="580.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59888" />
+  </DataNode>
+  <DataNode TextLabel="SNAP25" GraphId="a417a" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1085.5" CenterY="360.0" Width="55.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60880" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K405-GAD1 dimer" GraphId="c523e" Type="Complex">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Graphics CenterX="681.5" CenterY="117.0" Width="121.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-888570" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-K405-GAD1 " GraphId="f9bf1" Type="Protein" GroupRef="b6bd6">
+    <Attribute Key="cellular_location" Value="clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-888570" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1423.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99259" />
+  </DataNode>
+  <DataNode TextLabel="STX1A" GraphId="f50eb" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1086.5" CenterY="406.0" Width="47.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16623" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="f9951" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="148.5" CenterY="451.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="ALDH5A1 tetramer" GraphId="e66cd" Type="Complex">
+    <BiopaxRef>a1a</BiopaxRef>
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="116.5" CenterY="367.0" Width="77.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9653545" />
+  </DataNode>
+  <DataNode TextLabel="ALDH5A1 " GraphId="d3ac7" Type="Protein" GroupRef="c9848">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-9653545" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1483.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P51649" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="e9107" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1012.0" CenterY="682.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="SNARE complex:Ca2+" GraphId="f62e7" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="870.0" CenterY="752.0" Width="104.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9670771" />
+  </DataNode>
+  <DataNode TextLabel="VAMP2 " GraphId="e5c34" Type="Protein" GroupRef="a5269">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9670771" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1543.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P63027" />
+  </DataNode>
+  <DataNode TextLabel="SNAP25 " GraphId="a29b3" Type="Protein" GroupRef="a5269">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9670771" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1563.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60880" />
+  </DataNode>
+  <DataNode TextLabel="STX1A " GraphId="f8bfc" Type="Protein" GroupRef="a5269">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9670771" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1583.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16623" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="f511e" Type="Metabolite" GroupRef="a5269">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9670771" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1603.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <Interaction GraphId="bcff8">
+    <Comment Source="Reactome">GAD1 (GAD67) is evenly spread throughout the neuronal cytoplasm and is invoved in GABA synthesis that is used for synaptogenesis, protection against neural injury and as an energy source through the GABA shunt. </Comment>
+    <BiopaxRef>efe</BiopaxRef>
+    <BiopaxRef>d7a</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="529.0" Y="128.0" />
+      <Point X="529.0" Y="203.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c1c54" />
+      <Anchor Position="0.99" Shape="None" GraphId="dfeb2" />
+      <Anchor Position="0.5" Shape="None" GraphId="b2f53" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888572" />
+  </Interaction>
+  <Interaction GraphId="fca3c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="566.0" Y="64.0" GraphRef="c5d4b" RelX="-1.0" RelY="0.0" />
+      <Point X="529.0" Y="128.0" GraphRef="c1c54" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888572" />
+  </Interaction>
+  <Interaction GraphId="d8a59">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="508.0" Y="78.0" GraphRef="f7cbe" RelX="0.0" RelY="1.0" />
+      <Point X="529.0" Y="128.0" GraphRef="c1c54" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888572" />
+  </Interaction>
+  <Interaction GraphId="acefd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="529.0" Y="203.0" GraphRef="dfeb2" RelX="0.0" RelY="0.75" />
+      <Point X="517.0" Y="237.0" GraphRef="d3df6" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888572" />
+  </Interaction>
+  <Interaction GraphId="ebe5c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="529.0" Y="203.0" GraphRef="dfeb2" RelX="0.0" RelY="0.75" />
+      <Point X="587.0" Y="250.0" GraphRef="f5113" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888572" />
+  </Interaction>
+  <Interaction GraphId="f1c30">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="621.0" Y="117.0" GraphRef="c523e" RelX="-1.0" RelY="0.0" />
+      <Point X="528.0" Y="169.0" GraphRef="b2f53" RelX="-1.0" RelY="3.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888572" />
+  </Interaction>
+  <Interaction GraphId="aff1f">
+    <Comment Source="Reactome">GAD65 or GAD2 is concentrated in the nerve terminal region in the neurons and is involved in the synthesis of GABA which is used as a neurotransmitter.</Comment>
+    <BiopaxRef>bcc</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="582.0" Y="124.0" />
+      <Point X="584.0" Y="204.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a7e13" />
+      <Anchor Position="0.99" Shape="None" GraphId="baf2c" />
+      <Anchor Position="0.5" Shape="None" GraphId="f72d4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888577" />
+  </Interaction>
+  <Interaction GraphId="fff99">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="590.0" Y="79.0" GraphRef="c5d4b" RelX="-0.02040816326530612" RelY="1.0" />
+      <Point X="582.0" Y="124.0" GraphRef="a7e13" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888577" />
+  </Interaction>
+  <Interaction GraphId="fed5d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="526.0" Y="63.0" GraphRef="f7cbe" RelX="1.0" RelY="0.0" />
+      <Point X="582.0" Y="124.0" GraphRef="a7e13" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888577" />
+  </Interaction>
+  <Interaction GraphId="f0fda">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="584.0" Y="204.0" GraphRef="baf2c" RelX="0.01999999999998181" RelY="0.8000000000000114" />
+      <Point X="538.0" Y="252.0" GraphRef="d3df6" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888577" />
+  </Interaction>
+  <Interaction GraphId="ea4ab">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="584.0" Y="204.0" GraphRef="baf2c" RelX="0.01999999999998181" RelY="0.8000000000000114" />
+      <Point X="611.0" Y="235.0" GraphRef="f5113" RelX="-0.02040816326530612" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888577" />
+  </Interaction>
+  <Interaction GraphId="f7d87">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="629.0" Y="164.0" GraphRef="ea734" RelX="-1.0" RelY="0.0" />
+      <Point X="583.0" Y="166.0" GraphRef="f72d4" RelX="0.0" RelY="2.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888577" />
+  </Interaction>
+  <Interaction GraphId="f90b4">
+    <Comment Source="Reactome">GABA is loaded into the synaptic vesicle by inihibitory amino acid transport, VIAAT or  VGAT.</Comment>
+    <BiopaxRef>ecf</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="639.0" Y="249.0" />
+      <Point X="709.0" Y="248.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="deb2d" />
+      <Anchor Position="0.99" Shape="None" GraphId="bceeb" />
+      <Anchor Position="0.5" Shape="None" GraphId="c7871" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888592" />
+  </Interaction>
+  <Interaction GraphId="d6f2c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="635.0" Y="250.0" GraphRef="f5113" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="639.0" Y="249.0" GraphRef="deb2d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888592" />
+  </Interaction>
+  <Interaction GraphId="bb712">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="709.0" Y="248.0" GraphRef="bceeb" RelX="0.7000000000000455" RelY="-0.009999999999990905" />
+      <Point X="712.0" Y="249.0" GraphRef="cf3bd" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888592" />
+  </Interaction>
+  <Interaction GraphId="e93d7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="647.0" Y="298.0" GraphRef="f5541" RelX="-1.0" RelY="0.0" />
+      <Point X="678.0" Y="248.0" GraphRef="c7871" RelX="4.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888592" />
+  </Interaction>
+  <Interaction GraphId="f1cdd">
+    <Comment Source="Reactome">GABA loaded synaptic vesicles are docked at the presynaptic terminal membrane by a number of proteins including Rab3a, RIM (Rab3a interaction protein) and Munc 13. The docked GABA vesicles are primed by the SNARE complex that includes synaptobrevin, SNAP 25 and syntaxin1.</Comment>
+    <BiopaxRef>a9b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="936.0" Y="495.0" />
+      <Point X="1076.0" Y="610.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c949e" />
+      <Anchor Position="0.99" Shape="None" GraphId="f2d6c" />
+      <Anchor Position="0.5" Shape="None" GraphId="f3fdd" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-917744" />
+  </Interaction>
+  <Interaction GraphId="f3721">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="727.0" Y="525.0" GraphRef="fd748" RelX="1.0" RelY="0.0" />
+      <Point X="936.0" Y="495.0" GraphRef="c949e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-917744" />
+  </Interaction>
+  <Interaction GraphId="e1c38">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1063.0" Y="406.0" GraphRef="f50eb" RelX="-1.0" RelY="0.0" />
+      <Point X="936.0" Y="495.0" GraphRef="c949e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-917744" />
+  </Interaction>
+  <Interaction GraphId="e4e91">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1058.0" Y="360.0" GraphRef="a417a" RelX="-1.0" RelY="0.0" />
+      <Point X="936.0" Y="495.0" GraphRef="c949e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-917744" />
+  </Interaction>
+  <Interaction GraphId="ab38b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="906.0" Y="369.0" GraphRef="ff510" RelX="0.0" RelY="1.0" />
+      <Point X="936.0" Y="495.0" GraphRef="c949e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-917744" />
+  </Interaction>
+  <Interaction GraphId="c60c0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="788.0" Y="541.0" GraphRef="d6da6" RelX="1.0" RelY="0.0" />
+      <Point X="936.0" Y="495.0" GraphRef="c949e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-917744" />
+  </Interaction>
+  <Interaction GraphId="e86b1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="851.0" Y="551.0" GraphRef="e6369" RelX="1.0" RelY="0.0" />
+      <Point X="936.0" Y="495.0" GraphRef="c949e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-917744" />
+  </Interaction>
+  <Interaction GraphId="cdfbd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1076.0" Y="610.0" GraphRef="f2d6c" RelX="1.400000000000091" RelY="1.1499999999999773" />
+      <Point X="1091.0" Y="613.0" GraphRef="aaf69" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-917744" />
+  </Interaction>
+  <Interaction GraphId="fae7b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="906.0" Y="369.0" GraphRef="ff510" RelX="0.0" RelY="1.0" />
+      <Point X="1010.0" Y="495.0" GraphRef="f3fdd" RelX="4.0" RelY="-57.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-917744" />
+  </Interaction>
+  <Interaction GraphId="ff5e8">
+    <Comment Source="Reactome">GABA synaptic vesicles are fused to the presynaptic terminal membrane with the help of SNARE complex proteins, synaptobrevin located in the synaptic vesicle, SNAP 25 and syntaxin located in the plasma membrane. Complexin optimizes partially assembled SNARES for Ca2+ dependent exocytosis. Fusion of the synaptic vesicle is triggered by the influx of Ca2+ through N, P/Q Ca2+ channels, which binds to synaptobrevin on the synaptic vesicles triggering a series of steps leading to fusion of the synaptic vesicle to the presynatic terminal membrane and release of GABA.</Comment>
+    <BiopaxRef>ecf</BiopaxRef>
+    <BiopaxRef>ad8</BiopaxRef>
+    <BiopaxRef>c95</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="960.0" Y="638.0" />
+      <Point X="826.0" Y="638.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="dd01b" />
+      <Anchor Position="0.99" Shape="None" GraphId="edfd9" />
+      <Anchor Position="0.5" Shape="None" GraphId="ba004" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="f7605">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="987.0" Y="682.0" GraphRef="e9107" RelX="-1.0" RelY="0.0" />
+      <Point X="960.0" Y="638.0" GraphRef="dd01b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="b435f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1039.0" Y="638.0" GraphRef="aaf69" RelX="-1.0" RelY="0.0" />
+      <Point X="960.0" Y="638.0" GraphRef="dd01b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="c7e86">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="788.0" Y="541.0" GraphRef="d6da6" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="ef241">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="747.0" Y="750.0" GraphRef="b7611" RelX="0.9672131147540983" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="e4dbf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="675.0" Y="747.0" GraphRef="f6f52" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="f5870">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="828.0" Y="562.0" GraphRef="e6369" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="dcd57">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="727.0" Y="525.0" GraphRef="fd748" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="ebd50">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="626.0" Y="748.0" GraphRef="ffec1" RelX="0.9574468085106383" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="e803e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="870.0" Y="734.0" GraphRef="f62e7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="f11cb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="930.0" Y="747.0" GraphRef="cb7f7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="a2b5e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="401.0" Y="797.0" GraphRef="e1c01" RelX="0.9591836734693877" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="b30f3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="574.0" Y="748.0" GraphRef="e3b46" RelX="0.9636363636363636" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="dc0fd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="638.0" GraphRef="edfd9" RelX="-1.3400000000000318" RelY="0.0" />
+      <Point X="784.0" Y="739.0" GraphRef="d230b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="a4283">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1039.0" Y="638.0" GraphRef="aaf69" RelX="-1.0" RelY="0.0" />
+      <Point X="885.0" Y="638.0" GraphRef="ba004" RelX="-8.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888589" />
+  </Interaction>
+  <Interaction GraphId="c2edc">
+    <Comment Source="Reactome">Four transporters mediate GABA uptake in the brain, GAT1-3 and BGT1. They terminates the action of GABA by high affinity sodium-dependent reuptake into presynaptic terminals. Transport of GABA by GAT1-3 is proposed to be accompanied by 2Na+ ions and 1 Cl- ion (Loo DD et al, 2000).&lt;br&gt;&lt;br&gt;SLC6A1 encodes a sodium- and chloride-dependent GABA transporter 1, GAT1, which is the predominant GABA transporter in brain. It is widely distributed in the brain and co-localized to GABAergic neurons (Nelson H et al, 1990). SLC6A13 encodes a sodium- and chloride-dependent GABA transporter 2, GAT2, which is localized to GABAergic neurons in the brain. It is also found in retina, liver and kidney (Christiansen B et al, 2007). SLC6A11 encodes a sodium- and chloride-dependent GABA transporter 3, GAT3. It is expressed in the brain and localizes to GABAergic neurons (Borden LA et al, 1994).</Comment>
+    <BiopaxRef>e53</BiopaxRef>
+    <BiopaxRef>f21</BiopaxRef>
+    <BiopaxRef>cd5</BiopaxRef>
+    <BiopaxRef>d1f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="318.0" Y="773.0" />
+      <Point X="317.0" Y="690.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c3d50" />
+      <Anchor Position="0.99" Shape="None" GraphId="c51bd" />
+      <Anchor Position="0.5" Shape="None" GraphId="aa65e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444007" />
+  </Interaction>
+  <Interaction GraphId="e7ee5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="353.0" Y="797.0" GraphRef="e1c01" RelX="-1.0" RelY="0.0" />
+      <Point X="318.0" Y="773.0" GraphRef="c3d50" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444007" />
+  </Interaction>
+  <Interaction GraphId="c1d5e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="256.0" Y="836.0" GraphRef="c5565" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="318.0" Y="773.0" GraphRef="c3d50" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444007" />
+  </Interaction>
+  <Interaction GraphId="b6758">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="322.0" Y="819.0" GraphRef="a601b" RelX="-0.02857142857142857" RelY="-1.0" />
+      <Point X="318.0" Y="773.0" GraphRef="c3d50" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444007" />
+  </Interaction>
+  <Interaction GraphId="cd58e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="317.0" Y="690.0" GraphRef="c51bd" RelX="-0.009999999999990905" RelY="-0.8300000000000409" />
+      <Point X="259.0" Y="686.0" GraphRef="c9f8e" RelX="0.9534883720930233" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444007" />
+  </Interaction>
+  <Interaction GraphId="e1f7e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="317.0" Y="690.0" GraphRef="c51bd" RelX="-0.009999999999990905" RelY="-0.8300000000000409" />
+      <Point X="265.0" Y="628.0" GraphRef="a90cd" RelX="0.9428571428571428" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444007" />
+  </Interaction>
+  <Interaction GraphId="b231a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="317.0" Y="690.0" GraphRef="c51bd" RelX="-0.009999999999990905" RelY="-0.8300000000000409" />
+      <Point X="331.0" Y="595.0" GraphRef="e9f1c" RelX="-0.02040816326530612" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444007" />
+  </Interaction>
+  <Interaction GraphId="fd0cc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="281.0" Y="748.0" GraphRef="b0911" RelX="0.9764705882352941" RelY="0.0" />
+      <Point X="318.0" Y="746.0" GraphRef="aa65e" RelX="0.5" RelY="14.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444007" />
+  </Interaction>
+  <Interaction GraphId="ee13d">
+    <Comment Source="Reactome">The plasma membrane transport protein SLC6A12 (BGT-1) mediates the uptake of GABA (gamma-aminobutyrate) and betaine and, less efficiently, of diminobutyrate (DABA) and beta-alanine. Together with each amino acid molecule, 3 sodium ions and 2 chloride ions are taken up. In the body, SLC6A12 is expressed in the proximal tubules of the kidney and cells of the central nervous system (Rasola et al. 1995; Matskevitch et al. 1999).</Comment>
+    <BiopaxRef>ce8</BiopaxRef>
+    <BiopaxRef>ce5</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="170.0" Y="782.0" />
+      <Point X="173.0" Y="687.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b196f" />
+      <Anchor Position="0.99" Shape="None" GraphId="b7cd7" />
+      <Anchor Position="0.5" Shape="None" GraphId="b7e5d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-352029" />
+  </Interaction>
+  <Interaction GraphId="cf627">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="187.0" Y="837.0" GraphRef="e521e" RelX="0.984" RelY="0.0" />
+      <Point X="170.0" Y="782.0" GraphRef="b196f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-352029" />
+  </Interaction>
+  <Interaction GraphId="d26bc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="214.0" Y="836.0" GraphRef="c5565" RelX="-1.0" RelY="0.0" />
+      <Point X="170.0" Y="782.0" GraphRef="b196f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-352029" />
+  </Interaction>
+  <Interaction GraphId="ce4cf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="305.0" Y="834.0" GraphRef="a601b" RelX="-1.0" RelY="0.0" />
+      <Point X="170.0" Y="782.0" GraphRef="b196f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-352029" />
+  </Interaction>
+  <Interaction GraphId="ed1e2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="173.0" Y="687.0" GraphRef="b7cd7" RelX="0.030000000000001137" RelY="-0.9500000000000455" />
+      <Point X="217.0" Y="686.0" GraphRef="c9f8e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-352029" />
+  </Interaction>
+  <Interaction GraphId="d1c28">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="173.0" Y="687.0" GraphRef="b7cd7" RelX="0.030000000000001137" RelY="-0.9500000000000455" />
+      <Point X="231.0" Y="628.0" GraphRef="a90cd" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-352029" />
+  </Interaction>
+  <Interaction GraphId="fc3d4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="173.0" Y="687.0" GraphRef="b7cd7" RelX="0.030000000000001137" RelY="-0.9500000000000455" />
+      <Point X="183.0" Y="622.0" GraphRef="c6fc2" RelX="0.984" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-352029" />
+  </Interaction>
+  <Interaction GraphId="d7573">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="125.0" Y="747.0" GraphRef="dcf37" RelX="0.9672131147540983" RelY="0.0" />
+      <Point X="171.0" Y="747.0" GraphRef="b7e5d" RelX="-0.5" RelY="12.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-352029" />
+  </Interaction>
+  <Interaction GraphId="a6597">
+    <Comment Source="Reactome">GABA and 2-oxoglutarate (2OG) are converted to succinate semialdehyde (SUCCSA) and L-glutamate (L-Glu) by 4 aminobutyrate aminotransferase (ABAT). The reaction takes place in the mitochondrial matrix. The active form of the enzyme is a dimer, with each subunit associated with a molecule of pyridoxal phosphate (PXLP) (De Biase et al. 1995).</Comment>
+    <BiopaxRef>f5c</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="330.0" Y="310.0" />
+      <Point X="331.0" Y="203.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b38d1" />
+      <Anchor Position="0.99" Shape="None" GraphId="f4d02" />
+      <Anchor Position="0.5" Shape="None" GraphId="ebac0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-916855" />
+  </Interaction>
+  <Interaction GraphId="f4a5c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="297.0" Y="355.0" GraphRef="c7f01" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="330.0" Y="310.0" GraphRef="b38d1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-916855" />
+  </Interaction>
+  <Interaction GraphId="cb378">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="331.0" Y="354.0" GraphRef="b1d23" RelX="-0.02040816326530612" RelY="-1.0" />
+      <Point X="330.0" Y="310.0" GraphRef="b38d1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-916855" />
+  </Interaction>
+  <Interaction GraphId="bc959">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="331.0" Y="203.0" GraphRef="f4d02" RelX="0.009999999999990905" RelY="-1.0699999999999932" />
+      <Point X="331.0" Y="161.0" GraphRef="cbcec" RelX="-0.02040816326530612" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-916855" />
+  </Interaction>
+  <Interaction GraphId="b6dc9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="331.0" Y="203.0" GraphRef="f4d02" RelX="0.009999999999990905" RelY="-1.0699999999999932" />
+      <Point X="214.0" Y="148.0" GraphRef="aafc0" RelX="0.9672131147540983" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-916855" />
+  </Interaction>
+  <Interaction GraphId="a7d89">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="310.0" Y="252.0" GraphRef="d8ee4" RelX="1.0" RelY="0.0" />
+      <Point X="331.0" Y="251.0" GraphRef="ebac0" RelX="0.5" RelY="-5.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-916855" />
+  </Interaction>
+  <Interaction GraphId="a5870">
+    <Comment Source="Reactome">Mitochondrial succinate semialdehyde dehydrogenase (ALDH5A1) tetramer catalyzes the reaction of succinate semialdehyde (SUCCSA), H2O, and NAD+ to form succinate (SUCCA) and NADH + 2 H+ (Kim et al. 2009). Mutations that inactivate this gene cause 4-hydroxybutyric aciduria (succinic semialdehyde dehydrogenase deficiency) (Chambliss et al. 1998).</Comment>
+    <BiopaxRef>a19</BiopaxRef>
+    <BiopaxRef>a1a</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="182.0" Y="337.0" />
+      <Point X="183.0" Y="397.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f5611" />
+      <Anchor Position="0.99" Shape="None" GraphId="db45e" />
+      <Anchor Position="0.5" Shape="None" GraphId="bf611" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888548" />
+  </Interaction>
+  <Interaction GraphId="ada8a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="199.0" Y="308.0" GraphRef="e30cf" RelX="-1.0" RelY="0.0" />
+      <Point X="182.0" Y="337.0" GraphRef="f5611" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888548" />
+  </Interaction>
+  <Interaction GraphId="d5be9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="184.0" Y="163.0" GraphRef="aafc0" RelX="-0.01639344262295082" RelY="1.0" />
+      <Point X="182.0" Y="337.0" GraphRef="f5611" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888548" />
+  </Interaction>
+  <Interaction GraphId="a8486">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="165.0" Y="309.0" GraphRef="aa716" RelX="0.9622641509433962" RelY="0.0" />
+      <Point X="182.0" Y="337.0" GraphRef="f5611" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888548" />
+  </Interaction>
+  <Interaction GraphId="d0694">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="183.0" Y="397.0" GraphRef="db45e" RelX="0.009999999999990905" RelY="0.6000000000000227" />
+      <Point X="148.0" Y="436.0" GraphRef="f9951" RelX="-0.02857142857142857" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888548" />
+  </Interaction>
+  <Interaction GraphId="fff34">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="183.0" Y="397.0" GraphRef="db45e" RelX="0.009999999999990905" RelY="0.6000000000000227" />
+      <Point X="211.0" Y="427.0" GraphRef="eeac3" RelX="-0.01818181818181818" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888548" />
+  </Interaction>
+  <Interaction GraphId="a574d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="183.0" Y="397.0" GraphRef="db45e" RelX="0.009999999999990905" RelY="0.6000000000000227" />
+      <Point X="139.0" Y="419.0" GraphRef="d0671" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888548" />
+  </Interaction>
+  <Interaction GraphId="dcc21">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="154.0" Y="367.0" GraphRef="e66cd" RelX="0.974025974025974" RelY="0.0" />
+      <Point X="182.0" Y="368.0" GraphRef="bf611" RelX="-0.5" RelY="1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-888548" />
+  </Interaction>
+  <Interaction GraphId="dfc46">
+    <Comment Source="Reactome">GABA (gamma-aminobutyrate) is transported across the inner mitochondrial membrane into the mitochondrial matrix. Studies of isolated mitochondria from rat and mouse brains together showed that GABA uptake into isolated mitochondria is energy- and Na+-dependent (Berkich et al. 2007; Kuriyama et al. 1969; Passarella et al. 1984), and Michaeli et al. (2011) have characterized an Arabidopsis protein that mediates mitochondrial GABA uptake, but no mammalian mitochondrial GABA transporter has been identified.</Comment>
+    <BiopaxRef>ba4</BiopaxRef>
+    <BiopaxRef>d6c</BiopaxRef>
+    <BiopaxRef>dda</BiopaxRef>
+    <BiopaxRef>eb9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="331.0" Y="562.0" />
+      <Point X="331.0" Y="387.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f605d" />
+      <Anchor Position="0.99" Shape="None" GraphId="af944" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9653180" />
+  </Interaction>
+  <Interaction GraphId="ea878">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="331.0" Y="565.0" GraphRef="e9f1c" RelX="-0.02040816326530612" RelY="-1.0" />
+      <Point X="331.0" Y="562.0" GraphRef="f605d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9653180" />
+  </Interaction>
+  <Interaction GraphId="d803b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="331.0" Y="387.0" GraphRef="af944" RelX="0.0" RelY="-1.75" />
+      <Point X="331.0" Y="384.0" GraphRef="b1d23" RelX="-0.02040816326530612" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9653180" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="f22bb" GroupRef="cba20">
+    <Graphics CenterX="94.0" CenterY="691.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="clathrin-sculpted gamma-aminobutyric acid transport vesicle lumen" GraphId="bb9fd" GroupRef="ba1a3">
+    <Graphics CenterX="831.5" CenterY="80.5" Width="293.0" Height="47.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="mitochondrial matrix" GraphId="bd45e" GroupRef="b8ab6">
+    <Graphics CenterX="146.5" CenterY="484.5" Width="147.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="a6ce5" GroupRef="cba20">
+    <Graphics CenterX="557.5" CenterY="386.5" Width="1059.0" Height="729.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="fa21d" GroupRef="ba1a3">
+    <Graphics CenterX="823.0" CenterY="200.5" Width="304.0" Height="313.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="bdc57" GroupRef="b8ab6">
+    <Graphics CenterX="229.5" CenterY="283.5" Width="347.0" Height="471.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="ff1a9" GraphId="a5ad0">
+    <Attribute Key="complex_id" Value="R-HSA-888569" />
+  </Group>
+  <Group GroupId="e0d6a" GraphId="bdab6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-917748" />
+  </Group>
+  <Group GroupId="dfdc8" GraphId="c315e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-917774" />
+  </Group>
+  <Group GroupId="b5770" GraphId="f76eb">
+    <Attribute Key="complex_id" Value="R-ALL-352007" />
+  </Group>
+  <Group GroupId="ef5e0" GraphId="aa22a">
+    <Attribute Key="complex_id" Value="R-ALL-351982" />
+  </Group>
+  <Group GroupId="d2572" GraphId="efe9f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-916847" />
+  </Group>
+  <Group GroupId="b12f2" GraphId="f3361">
+    <Attribute Key="complex_id" Value="R-HSA-947479" />
+  </Group>
+  <Group GroupId="e1b49" GraphId="be0fd">
+    <Attribute Key="complex_id" Value="R-HSA-444011" />
+  </Group>
+  <Group GroupId="b6bd6" GraphId="d28d1" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-888570" />
+  </Group>
+  <Group GroupId="c9848" GraphId="fdd0c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9653545" />
+  </Group>
+  <Group GroupId="a5269" GraphId="c0501" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9670771" />
+  </Group>
+  <Group GroupId="cba20" GraphId="b4205" Style="Group" />
+  <Group GroupId="ba1a3" GraphId="b85e5" Style="Group" />
+  <Group GroupId="b8ab6" GraphId="e357c" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d31">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16787421</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The glutamate/GABA-glutamine cycle: aspects of transport, neurotransmitter homeostasis and ammonia transfer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bak LK, Schousboe A, Waagepetersen HS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cdf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19428801</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A novel mechanism for GABA synthesis and packaging into synaptic vesicles.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buddhala C, Hsu CC, Wu JY.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a49">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11010978</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modulation of amyloid precursor protein metabolism by X11alpha /Mint-1. A deletion analysis of protein-protein interaction domains.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mueller HT, Borg JP, Margolis B, Turner RS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19300440</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redox-switch modulation of human SSADH by dynamic catalytic loop.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim YG, Lee S, Kwon OS, Park SY, Lee SJ, Park BJ, Kim KJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16759710</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular and cellular mechanisms of altered GAD1/GAD67 expression in schizophrenia and related disorders.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akbarian S, Huang HS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17767149</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allelic variation in GAD1 (GAD67) is associated with schizophrenia and influences cortical function and gene expression.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Straub RE, Lipska BK, Egan MF, Goldberg TE, Callicott JH, Mayhew MB, Vakkalanka RK, Kolachana BS, Kleinman JE, Weinberger DR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14691540</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD2 on chromosome 10p12 is a candidate gene for human obesity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boutin P, Dina C, Vasseur F, Dubois S, Corset L, Séron K, Bekris L, Cabellon J, Neve B, Vasseur-Delannoy V, Chikri M, Charles MA, Clement K, Lernmark A, Froguel P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12750892</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The SLC32 transporter, a key protein for the synaptic release of inhibitory amino acids.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gasnier B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a9b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16722236</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of SNARE proteins in trafficking and function of neurotransmitter transporters.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quick MW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11017172</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transport rates of GABA transporters: regulation by the N-terminal domain and syntaxin 1A.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deken SL, Beckman ML, Boos L, Quick MW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c95">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19375301</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconventional GABA release: mechanisms and function.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koch U, Magnusson AK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e53">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2387399</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning of the human brain GABA transporter.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nelson H, Mandiyan S, Nelson N.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f21">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17502375</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning and characterization of a functional human gamma-aminobutyric acid (GABA) transporter, human GAT-2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christiansen B, Meinild AK, Jensen AA, Braüner-Osborne H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7874447</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning of the human homologue of the GABA transporter GAT-3 and identification of a novel inhibitor with selectivity for this site.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borden LA, Dhar TG, Smith KE, Branchek TA, Gluchowski C, Weinshank RL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10973981</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of Cl- in electrogenic Na+-coupled cotransporters GAT1 and SGLT1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loo DD, Eskandari S, Boorer KJ, Sarkar HK, Wright EM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10358010</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional characterization of the Betaine/gamma-aminobutyric acid transporter BGT-1 expressed in Xenopus oocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matskevitch I, Wagner CA, Stegen C, Bröer S, Noll B, Risler T, Kwon HM, Handler JS, Waldegger S, Busch AE, Lang F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7589472</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning and functional characterization of a GABA/betaine transporter from human kidney.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rasola A, Galietta LJ, Barone V, Romeo G, Bagnasco S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7851425</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary structure and tissue distribution of human 4-aminobutyrate aminotransferase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De Biase D, Barra D, Simmaco M, John RA, Bossa F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a19">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9683595</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two exon-skipping mutations as the molecular basis of succinic semialdehyde dehydrogenase deficiency (4-hydroxybutyric aciduria).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chambliss KL, Hinson DD, Trettel F, Malaspina P, Novelletto A, Jakobs C, Gibson KM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17847082</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrial transport proteins of the brain.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berkich DA, Ola MS, Cole J, Sweatt AJ, Hutson SM, LaNoue KF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5359889</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uptake of gamma-aminobutyric acid by mitochondrial and synaptosomal fractions from mouse brain.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuriyama K, Weinstein H, Roberts E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dda">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21501262</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mitochondrial GABA permease connects the GABA shunt and the TCA cycle, and is essential for normal carbon metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michaeli S, Fait A, Lagor K, Nunes-Nesi A, Grillich N, Yellin A, Bar D, Khan M, Fernie AR, Turano FJ, Fromm H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6743319</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carrier mediated GABA translocation into rat brain mitochondria.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Passarella S, Atlante A, Barile M, Quagliariello E.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

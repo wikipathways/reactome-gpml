@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="SUMOylation of nuclear envelope proteins" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">SUMOylation of RANGAP1 (Mahajan et al. 1997, Lee et al. 1998, Knipscheer et al. 2008) and LMNA (Zhang and Sarge 2008) affect their localization at the nuclear envelope. SUMOylation of NUP153 has unknown consequences (Chow et al. 2012).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9793242 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 9793242</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: May, Bruce</Comment>
+  <BiopaxRef>be7</BiopaxRef>
+  <BiopaxRef>a96</BiopaxRef>
+  <BiopaxRef>adc</BiopaxRef>
+  <BiopaxRef>e7d</BiopaxRef>
+  <Attribute Key="reactome_id" Value="9793242" />
+  <Graphics BoardWidth="633.0" BoardHeight="634.0" />
+  <DataNode TextLabel="RANGAP1 homodimer" GraphId="f81ce" Type="Complex">
+    <BiopaxRef>a6a</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Graphics CenterX="98.0" CenterY="114.0" Width="96.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9626018" />
+  </DataNode>
+  <DataNode TextLabel="RANGAP1 " GraphId="d15f8" Type="Protein" GroupRef="ad354">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-9626018" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="512.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P46060" />
+  </DataNode>
+  <DataNode TextLabel="SUMO1:C93-UBE2I" GraphId="da554" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="98.0" CenterY="176.5" Width="134.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2993783" />
+  </DataNode>
+  <DataNode TextLabel="SUMO1-C93-UBE2I " GraphId="f9372" Type="Protein" GroupRef="ee230">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-2993783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="552.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P63279" />
+  </DataNode>
+  <DataNode TextLabel="UBE2I-G97-SUMO1 " GraphId="d4ad6" Type="Protein" GroupRef="ee230">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-2993783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="572.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P63165" />
+  </DataNode>
+  <DataNode TextLabel="SUMO1:RANGAP1&#xA;homodimer" GraphId="d6168" Type="Complex">
+    <BiopaxRef>a6a</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Graphics CenterX="466.0" CenterY="120.5" Width="190.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9624892" />
+  </DataNode>
+  <DataNode TextLabel="monoSUMO1-K524-RANGAP1 " GraphId="e9ece" Type="Protein" GroupRef="c3caf">
+    <BiopaxRef>b38</BiopaxRef>
+    <BiopaxRef>dae</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-9624892" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="572.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P46060" />
+  </DataNode>
+  <DataNode TextLabel="UBE2I" GraphId="b58db" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="399.5" CenterY="177.0" Width="49.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P63279" />
+  </DataNode>
+  <Interaction GraphId="d0ca2">
+    <Comment Source="Reactome">The majority of RANGAP1 in the cell is conjugated with SUMO1 by the E3 ligase UBE2l (Ubc9) (Knipscheer et al. 1998, Lee et al. 1998). SUMO1 targets RANGAP1 to the nucleoporin RANBP2 (Mahajan et al. 1997).</Comment>
+    <BiopaxRef>be7</BiopaxRef>
+    <BiopaxRef>a96</BiopaxRef>
+    <BiopaxRef>adc</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="217.0" Y="137.0" />
+      <Point X="291.0" Y="143.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fe35f" />
+      <Anchor Position="0.99" Shape="None" GraphId="d0f66" />
+      <Anchor Position="0.5" Shape="None" GraphId="eae63" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3000449" />
+  </Interaction>
+  <Interaction GraphId="c2f30">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="146.0" Y="114.0" GraphRef="f81ce" RelX="1.0" RelY="0.0" />
+      <Point X="217.0" Y="137.0" GraphRef="fe35f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3000449" />
+  </Interaction>
+  <Interaction GraphId="d3172">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="165.0" Y="176.0" GraphRef="da554" RelX="1.0" RelY="-0.04" />
+      <Point X="217.0" Y="137.0" GraphRef="fe35f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3000449" />
+  </Interaction>
+  <Interaction GraphId="c705f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="291.0" Y="143.0" GraphRef="d0f66" RelX="0.7400000000000091" RelY="0.060000000000002274" />
+      <Point X="371.0" Y="120.0" GraphRef="d6168" RelX="-1.0" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3000449" />
+  </Interaction>
+  <Interaction GraphId="d1aba">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="291.0" Y="143.0" GraphRef="d0f66" RelX="0.7400000000000091" RelY="0.060000000000002274" />
+      <Point X="375.0" Y="177.0" GraphRef="b58db" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3000449" />
+  </Interaction>
+  <Interaction GraphId="bd9b1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="165.0" Y="176.0" GraphRef="da554" RelX="1.0" RelY="-0.04" />
+      <Point X="260.0" Y="144.0" GraphRef="eae63" RelX="6.0" RelY="4.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3000449" />
+  </Interaction>
+  <Label TextLabel="nucleoplasm" GraphId="e92f9" GroupRef="f235b">
+    <Graphics CenterX="86.5" CenterY="57.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="e754c" GroupRef="f235b">
+    <Graphics CenterX="301.5" CenterY="244.0" Width="587.0" Height="480.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="ad354" GraphId="f4537" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9626018" />
+  </Group>
+  <Group GroupId="ee230" GraphId="e5c75" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2993783" />
+  </Group>
+  <Group GroupId="c3caf" GraphId="dd8a6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9624892" />
+  </Group>
+  <Group GroupId="f235b" GraphId="d30a8" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9497385</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modification of Ran GTPase-activating protein by the small ubiquitin-related modifier SUMO-1 requires Ubc9, an E2-type ubiquitin-conjugating enzyme homologue.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee GW, Melchior F, Matunis MJ, Mahajan R, Tian Q, Anderson P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a96">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18691969</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ubc9 sumoylation regulates SUMO target discrimination.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knipscheer P, Flotho A, Klug H, Olsen JV, van Dijk WJ, Fish A, Johnson ES, Mann M, Sixma TK, Pichler A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="adc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9019411</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small ubiquitin-related polypeptide involved in targeting RanGAP1 to nuclear pore complex protein RanBP2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahajan R, Delphin C, Guan T, Gerace L, Melchior F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18606848</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sumoylation regulates lamin A function and is lost in lamin A mutants associated with familial cardiomyopathies.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang YQ, Sarge KD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8146159</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RanGAP1 induces GTPase activity of nuclear Ras-related Ran.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bischoff FR, Klebe C, Kretschmer J, Wittinghofer A, Ponstingl H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b38">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11853669</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structural basis for E2-mediated SUMO conjugation revealed by a complex between ubiquitin-conjugating enzyme Ubc9 and RanGAP1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bernier-Villamor V, Sampson DA, Matunis MJ, Lima CD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19721078</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"ChopNSpice," a mass spectrometric approach that allows identification of endogenous small ubiquitin-like modifier-conjugated peptides.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsiao HH, Meulmeester E, Frank BT, Melchior F, Urlaub H.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

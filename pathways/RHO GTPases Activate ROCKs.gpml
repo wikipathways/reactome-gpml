@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="RHO GTPases Activate ROCKs" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">RHO associated, coiled-coil containing protein kinases ROCK1 and ROCK2 consist of a serine/threonine kinase domain, a coiled-coil region, a RHO-binding domain and a plekstrin homology (PH) domain interspersed with a cysteine-rich region. The PH domain inhibits the kinase activity of ROCKs by an intramolecular fold. ROCKs are activated by binding of the GTP-bound RHO GTPases RHOA, RHOB and RHOC to the RHO binding domain of ROCKs (Ishizaki et al. 1996, Leung et al. 1996), which disrupts the autoinhibitory fold. Once activated, ROCK1 and ROCK2 phosphorylate target proteins, many of which are involved in the stabilization of actin filaments and generation of actin-myosin contractile force. ROCKs phosphorylate LIM kinases LIMK1 and LIMK2, enabling LIMKs to phosphorylate cofilin, an actin depolymerizing factor, and thereby regulate the reorganization of the actin cytoskeleton (Ohashi et al. 2000, Sumi et al. 2001). ROCKs phosphorylate MRLC (myosin regulatory light chain), which stimulates the activity of non-muscle myosin II (NMM2), an actin-based motor protein involved in cell migration, polarity formation and cytokinesis (Amano et al. 1996, Riento and Ridley 2003, Watanabe et al. 2007, Amano et al. 2010). ROCKs also phosphorylate the myosin phosphatase targeting subunit (MYPT1) of MLC phosphatase, inhibiting the phosphatase activity and preventing dephosphorylation of MRLC. This pathway acts synergistically with phosphorylation of MRLC by ROCKs towards stimulation of non-muscle myosin II activity (Kimura et al. 1996, Amano et al. 2010). 
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5627117 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 5627117</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Orlic-Milacic, Marija</Comment>
+  <BiopaxRef>b00</BiopaxRef>
+  <BiopaxRef>ccc</BiopaxRef>
+  <BiopaxRef>e2f</BiopaxRef>
+  <BiopaxRef>a67</BiopaxRef>
+  <BiopaxRef>cfc</BiopaxRef>
+  <BiopaxRef>dfa</BiopaxRef>
+  <BiopaxRef>b12</BiopaxRef>
+  <BiopaxRef>bd2</BiopaxRef>
+  <Attribute Key="reactome_id" Value="5627117" />
+  <Graphics BoardWidth="1149.0" BoardHeight="1256.0" />
+  <DataNode TextLabel="RHOA/B/C:GTP" GraphId="c0f8b" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="214.0" CenterY="60.5" Width="104.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-419161" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="fded7" Type="Protein" GroupRef="ce1e8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="648.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="RHOB " GraphId="e660f" Type="Protein" GroupRef="ce1e8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="668.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62745" />
+  </DataNode>
+  <DataNode TextLabel="RHOC " GraphId="e6069" Type="Protein" GroupRef="ce1e8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="688.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08134" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="ad440" Type="Metabolite" GroupRef="ce1e8">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="708.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="Smooth&#xA;muscle/non-muscle&#xA;myosin II" GraphId="fba47" Type="Complex">
+    <Comment Source="Reactome">Class 2 myosins are a set of protein complexes that bind actin and hydrolyse ATP, acting as molecular motors. They consist of two myosin heavy chains , two essential light chains and two regulatory light chains (MRLCs). Smooth muscle and non-muscle myosin isoforms are a subset of Class 2 myosin complexes. The nomenclature for isoforms is misleading, as non-muscle isoforms can be found in smooth muscle. The 4 smooth muscle isoforms all have heavy chains encoded by MYH11. The non-muscle isoforms have heavy chains encoded by MYH9, MYH10 or MYH14 (NMHC-IIA, B and C). The essential light chain (LC17) common to smooth and non-muscle isoforms is encoded by MYL6. The regulatory light chain (LC20) is encoded by either MYL9, giving a slightly more basic protein that is referred to as the smooth muscle LC20 isoform, and MRLC2, giving a more acidic isoform referred to as the non-muscle LC20 isoform.  &#xD;
+&#xD;
+Class 2 myosins play a crucial role in a variety of cellular processes, including cell migration, polarity formation, and cytokinesis. </Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="730.5" CenterY="234.5" Width="131.0" Height="45.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-419194" />
+  </DataNode>
+  <DataNode TextLabel="MYH10 " GraphId="bc6c7" Type="Protein" GroupRef="ff009">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419194" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="768.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35580" />
+  </DataNode>
+  <DataNode TextLabel="MYH14 " GraphId="f9569" Type="Protein" GroupRef="ff009">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419194" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="788.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z406" />
+  </DataNode>
+  <DataNode TextLabel="MYH9 " GraphId="c516d" Type="Protein" GroupRef="ff009">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419194" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="808.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35579" />
+  </DataNode>
+  <DataNode TextLabel="MYH11 " GraphId="f49e6" Type="Protein" GroupRef="ff009">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419194" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="100.0" CenterY="828.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35749" />
+  </DataNode>
+  <DataNode TextLabel="MYL6 " GraphId="edd86" Type="Protein" GroupRef="ff009">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419194" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="100.0" CenterY="848.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60660" />
+  </DataNode>
+  <DataNode TextLabel="MYL9 " GraphId="c4b3c" Type="Protein" GroupRef="ff009">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419194" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="100.0" CenterY="868.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P24844" />
+  </DataNode>
+  <DataNode TextLabel="MYL12B " GraphId="e9f3b" Type="Protein" GroupRef="ff009">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419194" />
+    <Attribute Key="copies_num" Value="8" />
+    <Graphics CenterX="100.0" CenterY="888.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14950" />
+  </DataNode>
+  <DataNode TextLabel="Activated&#xA;ROCK:RhoA/B/C:GTP" GraphId="f4173" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="437.5" CenterY="60.0" Width="115.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-422483" />
+  </DataNode>
+  <DataNode TextLabel="RHOA " GraphId="de4e1" Type="Protein" GroupRef="bbd12">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-422483" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="948.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61586" />
+  </DataNode>
+  <DataNode TextLabel="RHOB " GraphId="fa551" Type="Protein" GroupRef="bbd12">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-422483" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="968.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62745" />
+  </DataNode>
+  <DataNode TextLabel="RHOC " GraphId="c7c2b" Type="Protein" GroupRef="bbd12">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-422483" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="988.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08134" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="e9229" Type="Metabolite" GroupRef="bbd12">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-422483" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1008.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="ROCK1 " GraphId="d78cc" Type="Protein" GroupRef="bbd12">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-422483" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1028.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13464" />
+  </DataNode>
+  <DataNode TextLabel="ROCK2 " GraphId="b85a8" Type="Protein" GroupRef="bbd12">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-422483" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1048.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75116" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="cec50" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="442.5" CenterY="295.5" Width="47.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="ROCK1,ROCK2" GraphId="a571c" Type="Complex">
+    <Comment Source="Reactome">ROCK I (alternatively called ROK ?) and ROCK II (also known as Rho kinase or ROK ?) were originally isolated as RhoA-GTP interacting proteins. The kinase domains of ROCK I and ROCK II are 92% identical, and so far there is no evidence that they phosphorylate different substrates. RhoA, RhoB, and RhoC associate with and activate ROCK but other GTP-binding proteins can be inhibitors, e.g. RhoE, Rad and Gem. PDK1 kinase promotes ROCK I activity not through phosphorylation but by blocking RhoE association. PLK1 can phosphorylate ROCK II and this enhances the effect of RhoA. Arachidonic acid can activate ROCK independently of Rho.</Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="277.5" CenterY="142.0" Width="67.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-419057" />
+  </DataNode>
+  <DataNode TextLabel="ROCK1 " GraphId="a0b93" Type="Protein" GroupRef="a063a">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419057" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1108.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13464" />
+  </DataNode>
+  <DataNode TextLabel="ROCK2 " GraphId="ba0ec" Type="Protein" GroupRef="a063a">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419057" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1128.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75116" />
+  </DataNode>
+  <DataNode TextLabel="p-LIMK" GraphId="ee35c" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="486.0" CenterY="441.0" Width="74.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-419709" />
+  </DataNode>
+  <DataNode TextLabel="p-T508-LIMK1 " GraphId="cb6ab" Type="Protein" GroupRef="d6bad">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419709" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1188.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P53667" />
+  </DataNode>
+  <DataNode TextLabel="p-T505-LIMK2 " GraphId="a5ff4" Type="Protein" GroupRef="d6bad">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419709" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1208.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P53671" />
+  </DataNode>
+  <DataNode TextLabel="LIM Kinases" GraphId="f28af" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="486.5" CenterY="257.0" Width="85.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-419708" />
+  </DataNode>
+  <DataNode TextLabel="LIMK1 " GraphId="d7666" Type="Protein" GroupRef="f66fd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419708" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="688.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P53667" />
+  </DataNode>
+  <DataNode TextLabel="LIMK2 " GraphId="b5a50" Type="Protein" GroupRef="f66fd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419708" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="708.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P53671" />
+  </DataNode>
+  <DataNode TextLabel="p-T19,S20-MRLC-smooth muscle/non-muscle myosin II" GraphId="b68f3" Type="Complex">
+    <Comment Source="Reactome">Nonmuscle myosin II (NMM2) is an actin-based motor protein that plays a crucial role in a variety of cellular processes, including smooth muscle contraction, cell migration, polarity formation, and cytokinesis. NMM2 consists of two myosin heavy chains encoded by MYH9, MYH10, MYH14 (NMHC-IIA, B and C) or MYH11, two copies of MYL6 essential light chain protein, and two regulatory light chains (MRLCs), MYL9 and MYL12B. Myosin II activity is stimulated by phosphorylation of MRLC. Diphosphorylation at Thr-19 and Ser-20 (commonly referred in the literature as Thr-18 and Ser-19) increases both actin-activated Mg2+ ATPase activity and the stability of myosin II filaments; monophosphorylation at Ser-20 is less effective (Ikebe and Hartshorne 1985, Ikebe et al. 1988). Kinases responsible for the phosphorylation include myosin light chain kinase (MLCK), ROCK kinase, citron kinase, myotonic dystrophy kinase-related CDC42-binding protein kinase, and Zipper-interacting protein (ZIP) kinase. ROCK activity has been shown to regulate MRLC phosphorylation by directly mono- or diphosphorylating MRLC (Amano et al., 1996, Ueda et al., 2002, Watanabe et al. 2007).</Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="731.0" CenterY="477.5" Width="134.0" Height="53.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-419195" />
+  </DataNode>
+  <DataNode TextLabel="MYH10 " GraphId="d1294" Type="Protein" GroupRef="afa16">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419195" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="768.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35580" />
+  </DataNode>
+  <DataNode TextLabel="MYH14 " GraphId="ff224" Type="Protein" GroupRef="afa16">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419195" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="788.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z406" />
+  </DataNode>
+  <DataNode TextLabel="MYH9 " GraphId="db548" Type="Protein" GroupRef="afa16">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419195" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="808.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35579" />
+  </DataNode>
+  <DataNode TextLabel="MYH11 " GraphId="f898b" Type="Protein" GroupRef="afa16">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419195" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="240.0" CenterY="828.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35749" />
+  </DataNode>
+  <DataNode TextLabel="MYL6 " GraphId="d508a" Type="Protein" GroupRef="afa16">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419195" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="240.0" CenterY="848.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60660" />
+  </DataNode>
+  <DataNode TextLabel="p-T19,S20-MYL12B " GraphId="c9fd6" Type="Protein" GroupRef="afa16">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419195" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="240.0" CenterY="868.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14950" />
+  </DataNode>
+  <DataNode TextLabel="p-T19,S20-MYL9 " GraphId="e908f" Type="Protein" GroupRef="afa16">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419195" />
+    <Attribute Key="copies_num" Value="8" />
+    <Graphics CenterX="240.0" CenterY="888.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P24844" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="bedd4" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="441.0" CenterY="395.5" Width="48.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="c398d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="788.0" CenterY="308.0" Width="44.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="fd1d8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="781.0" CenterY="410.0" Width="42.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="Semaphorin&#xA;interactions" GraphId="a9f97" Type="Pathway">
+    <Comment Source="Reactome">Semaphorins are a large family of cell surface and secreted guidance molecules divided into eight classes on the basis of their structures. They all have an N-terminal conserved sema domain. Semaphorins signal through multimeric receptor complexes that include other proteins such as plexins and neuropilins. </Comment>
+    <BiopaxRef>ec0</BiopaxRef>
+    <BiopaxRef>cb1</BiopaxRef>
+    <BiopaxRef>e79</BiopaxRef>
+    <BiopaxRef>bd5</BiopaxRef>
+    <BiopaxRef>c3c</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="123.0" CenterY="142.0" Width="122.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-373755" />
+  </DataNode>
+  <DataNode TextLabel="RHO GTPases activate&#xA;PAKs" GraphId="a2e6c" Type="Pathway">
+    <Comment Source="Reactome">The PAKs (p21-activated kinases) are a family of serine/threonine kinases mainly implicated in cytoskeletal rearrangements. All PAKs share a conserved catalytic domain located at the carboxyl terminus and a highly conserved motif in the amino terminus known as p21-binding domain (PBD) or Cdc42/Rac interactive binding (CRIB) domain. There are six mammalian PAKs that can be divided into two classes: class I (or conventional) PAKs (PAK1-3) and class II PAKs (PAK4-6). Conventional PAKs are important regulators of cytoskeletal dynamics and cell motility and are additionally implicated in transcription through MAPK (mitogen-activated protein kinase) cascades, death and survival signaling and cell cycle progression (Chan and Manser 2012).&lt;p&gt;PAK1, PAK2 and PAK3 are direct effectors of RAC1 and CDC42 GTPases. RAC1 and CDC42 bind to the CRIB domain. This binding induces a conformational change that disrupts inactive PAK homodimers and relieves autoinhibition of the catalytic carboxyl terminal domain (Manser et al. 1994, Manser et al. 1995, Zhang et al. 1998, Lei et al. 2000, Parrini et al. 2002; reviewed by Daniels and Bokoch 1999, Szczepanowska 2009). Autophosphorylation of a conserved threonine residue in the catalytic domain of PAKs (T423 in PAK1, T402 in PAK2 and T436 in PAK3) is necessary for the kinase activity of PAK1, PAK2 and PAK3. Autophosphorylation of PAK1 serine residue S144, PAK2 serine residue S141, and PAK3 serine residue S154 disrupts association of PAKs with RAC1 or CDC42 and enhances kinase activity (Lei et al. 2000, Chong et al. 2001, Parrini et al. 2002, Jung and Traugh 2005, Wang et al. 2011). LIMK1 is one of the downstream targets of PAK1 and is activated through PAK1-mediated phosphorylation of the threonine residue T508 within its activation loop (Edwards et al. 1999). Further targets are the myosin regulatory light chain (MRLC), myosin light chain kinase (MLCK), filamin, cortactin, p41Arc (a subunit of the Arp2/3 complex), caldesmon, paxillin and RhoGDI, to mention a few (Szczepanowska 2009).&lt;p&gt;Class II PAKs also have a CRIB domain, but lack a defined autoinhibitory domain and proline-rich regions. They do not require GTPases for their kinase activity, but their interaction with RAC or CDC42 affects their subcellular localization. Only conventional PAKs will be annotated here. </Comment>
+    <BiopaxRef>d0d</BiopaxRef>
+    <BiopaxRef>d5d</BiopaxRef>
+    <BiopaxRef>e18</BiopaxRef>
+    <BiopaxRef>cf9</BiopaxRef>
+    <BiopaxRef>a3c</BiopaxRef>
+    <BiopaxRef>b0d</BiopaxRef>
+    <BiopaxRef>d78</BiopaxRef>
+    <BiopaxRef>ddf</BiopaxRef>
+    <BiopaxRef>d23</BiopaxRef>
+    <BiopaxRef>b13</BiopaxRef>
+    <BiopaxRef>a76</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="119.5" CenterY="442.0" Width="137.0" Height="52.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5627123" />
+  </DataNode>
+  <DataNode TextLabel="Pi" GraphId="e7dc9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="893.0" CenterY="263.0" Width="36.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:43474" />
+  </DataNode>
+  <DataNode TextLabel="Myosin phosphatase" GraphId="ed00f" Type="Complex">
+    <Comment Source="Reactome">All known myosin phosphatases consist of PP1 beta and both a large and a small myosin phosphatase targetting (Mypt) subunit. The large Mypt targets PP1 beta to myosin and determines the substrate specifity of the phosphatase. The Large Mypt subunit is encoded by one of three human genes, PPP1R12A (MYPT1), PPP1R12B (MYPT2) and PPP1R12C. Only MYPT1 is represented here. The small subunit is an alternative transcript of MYPT2. The function of the small Mypt subunit remains unclear, but because it is known to interact directly with myosin and the large Mypt it is thought to have an unspecified regulatory role.</Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="947.5" CenterY="349.0" Width="83.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-419080" />
+  </DataNode>
+  <DataNode TextLabel="PPP1CB " GraphId="ac702" Type="Protein" GroupRef="a1965">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419080" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="948.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62140" />
+  </DataNode>
+  <DataNode TextLabel="PPP1R12A " GraphId="f2b30" Type="Protein" GroupRef="a1965">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419080" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="968.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14974" />
+  </DataNode>
+  <DataNode TextLabel="PPP1R12B " GraphId="d730f" Type="Protein" GroupRef="a1965">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419080" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="988.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60237" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="d161c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="888.0" CenterY="458.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="d0e12" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1004.0" CenterY="297.0" Width="38.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="e57df" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="990.0" CenterY="168.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="p-T696,S852-MYPT1-Myosin Phosphatase" GraphId="c1368" Type="Complex">
+    <Comment Source="Reactome">All known myosin phosphatases consist of PP1 beta and both a large and a small myosin phosphatase targetting (Mypt) subunit. The large Mypt targets PP1 beta to myosin and determines the substrate specifity of the phosphatase. The Large Mypt subunit is encoded by one of three human genes, PPP1R12A (MYPT1), PPP1R12B (MYPT2) and PPP1R12C. Only MYPT1 is represented here. The small subunit is an alternative transcript of MYPT2. The function of the small Mypt subunit remains unclear, but because it is known to interact directly with myosin and the large Mypt it is thought to have an unspecified regulatory role.</Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="946.0" CenterY="114.0" Width="148.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-419085" />
+  </DataNode>
+  <DataNode TextLabel="PPP1CB " GraphId="f01ef" Type="Protein" GroupRef="f48c7">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419085" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1048.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62140" />
+  </DataNode>
+  <DataNode TextLabel="p-T696,S852-PPP1R12A " GraphId="a2754" Type="Protein" GroupRef="f48c7">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419085" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1088.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14974" />
+  </DataNode>
+  <DataNode TextLabel="PPP1R12B " GraphId="ec1fc" Type="Protein" GroupRef="f48c7">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-419085" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1108.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60237" />
+  </DataNode>
+  <DataNode TextLabel="p-S144,T423-PAK1" GraphId="c164a" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="994.5" CenterY="497.5" Width="149.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13153" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="f8c37" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="386.5" CenterY="562.0" Width="37.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="CFL1" GraphId="c19a0" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="386.5" CenterY="507.5" Width="45.0" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23528" />
+  </DataNode>
+  <DataNode TextLabel="p-S3-CFL1" GraphId="ba926" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="593.0" CenterY="496.0" Width="78.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23528" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="eb215" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="582.0" CenterY="564.5" Width="38.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="ROCKi" GraphId="fd9ea" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="320.5" CenterY="241.0" Width="45.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-9686558" />
+  </DataNode>
+  <DataNode TextLabel="ripasudil " GraphId="a470c" GroupRef="ee9ad">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-9686558" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="ROCK1,ROCK2:ROCKi" GraphId="d440d" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="372.5" CenterY="141.0" Width="99.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9680444" />
+  </DataNode>
+  <DataNode TextLabel="ROCK1 " GraphId="b4fea" Type="Protein" GroupRef="d50cf">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9680444" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1168.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13464" />
+  </DataNode>
+  <DataNode TextLabel="ROCK2 " GraphId="c74dc" Type="Protein" GroupRef="d50cf">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9680444" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1188.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75116" />
+  </DataNode>
+  <DataNode TextLabel="ripasudil " GraphId="b32f6" GroupRef="d50cf">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9680444" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GraphId="a307f">
+    <Comment Source="Reactome">ROCKs are primarily known as downstream effectors of RHO, but they can also be activated by arachidonic acid, which binds to the pleckstrin homology domain, releasing an autoinhibitory loop within ROCK and allowing catalytic activity (Araki et al. 2001). Proteolytic cleavage at the C-terminus by caspase-3 and granzyme B also activates ROCK1 and ROCK2, causing plasma membrane blebbing during apoptosis (Coleman et al. 2001, Sebbagh et al. 2005). Multiple targets of ROCK contribute to the stabilization of actin filaments and the generation of actin-myosin contractile force.</Comment>
+    <BiopaxRef>b00</BiopaxRef>
+    <BiopaxRef>ccc</BiopaxRef>
+    <BiopaxRef>e7e</BiopaxRef>
+    <BiopaxRef>b8d</BiopaxRef>
+    <BiopaxRef>ca2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="319.0" Y="84.0" />
+      <Point X="377.0" Y="71.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d4ba5" />
+      <Anchor Position="0.99" Shape="None" GraphId="ef0a3" />
+      <Anchor Position="0.5" Shape="None" GraphId="cb80b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419049" />
+  </Interaction>
+  <Interaction GraphId="d52f7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="266.0" Y="60.0" GraphRef="c0f8b" RelX="1.0" RelY="-0.034482758620689655" />
+      <Point X="319.0" Y="84.0" GraphRef="d4ba5" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419049" />
+  </Interaction>
+  <Interaction GraphId="e8d8b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="310.0" Y="142.0" GraphRef="a571c" RelX="0.9701492537313433" RelY="0.0" />
+      <Point X="319.0" Y="84.0" GraphRef="d4ba5" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419049" />
+  </Interaction>
+  <Interaction GraphId="f3fe1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="377.0" Y="71.0" GraphRef="ef0a3" RelX="0.5799999999999841" RelY="-0.12999999999999545" />
+      <Point X="380.0" Y="60.0" GraphRef="f4173" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419049" />
+  </Interaction>
+  <Interaction GraphId="e665b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="323.0" Y="141.0" GraphRef="d440d" RelX="-1.0" RelY="0.0" />
+      <Point X="320.0" Y="84.0" GraphRef="cb80b" RelX="-28.0" RelY="6.5" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419049" />
+  </Interaction>
+  <Interaction GraphId="ea01e">
+    <Comment Source="Reactome">LIM kinases are serine protein kinases with a unique combination of two N-terminal LIM motifs, a central PDZ domain, and a C-terminal protein kinase domain. ROCK1 and ROCK2 phosphorylate and activate LIM kinases LIMK1 and LIMK2 at Thr508 and Thr505, respectively (Ohashi et al. 2000, Sumi et al. 2001). These threonine residues lay within the activation loop of the kinase domain. LIMKs phosphorylate and inactivate cofilin, an actin depolymerizing factor, resulting in stabilization of the actin cytoskeleton (Pandey et al. 2006).</Comment>
+    <BiopaxRef>e2f</BiopaxRef>
+    <BiopaxRef>a67</BiopaxRef>
+    <BiopaxRef>cf3</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="316.0" />
+      <Point X="486.0" Y="379.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="aec04" />
+      <Anchor Position="0.99" Shape="None" GraphId="a9d47" />
+      <Anchor Position="0.5" Shape="None" GraphId="cb7a0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419087" />
+  </Interaction>
+  <Interaction GraphId="bddf1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="465.0" Y="295.0" GraphRef="cec50" RelX="0.9574468085106383" RelY="-0.034482758620689655" />
+      <Point X="486.0" Y="316.0" GraphRef="aec04" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419087" />
+  </Interaction>
+  <Interaction GraphId="dda15">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="271.0" GraphRef="f28af" RelX="-0.011764705882352941" RelY="1.0" />
+      <Point X="486.0" Y="316.0" GraphRef="aec04" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419087" />
+  </Interaction>
+  <Interaction GraphId="f1d91">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="379.0" GraphRef="a9d47" RelX="0.0" RelY="0.6299999999999955" />
+      <Point X="486.0" Y="430.0" GraphRef="ee35c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419087" />
+  </Interaction>
+  <Interaction GraphId="aa6c5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="379.0" GraphRef="a9d47" RelX="0.0" RelY="0.6299999999999955" />
+      <Point X="465.0" Y="395.0" GraphRef="bedd4" RelX="1.0" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419087" />
+  </Interaction>
+  <Interaction GraphId="eeaa3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="437.0" Y="80.0" GraphRef="f4173" RelX="-0.008695652173913044" RelY="1.0" />
+      <Point X="486.0" Y="346.0" GraphRef="cb7a0" RelX="0.0" RelY="-1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419087" />
+  </Interaction>
+  <Interaction GraphId="aa09c">
+    <Comment Source="Reactome">Nonmuscle myosin II (NMM2) is an actin-based motor protein that plays a crucial role in a variety of cellular processes, including smooth muscle contraction, cell migration, polarity formation, and cytokinesis. NMM2 consists of two myosin heavy chains encoded by MYH9, MYH10, MYH14 (NMHC-IIA, B and C) or MYH11, two copies of MYL6 essential light chain protein, and two regulatory light chains (MRLCs), MYL9 and MYL12B. Myosin II activity is stimulated by phosphorylation of MRLC. Diphosphorylation at Thr-19 and Ser-20 (commonly referred in the literature as Thr-18 and Ser-19) increases both actin-activated Mg2+ ATPase activity and the stability of myosin II filaments; monophosphorylation at Ser-20 is less effective (Ikebe and Hartshorne 1985, Ikebe et al. 1988). Kinases responsible for the phosphorylation include myosin light chain kinase (MLCK), ROCK kinase, citron kinase, myotonic dystrophy kinase-related CDC42-binding protein kinase, and Zipper-interacting protein (ZIP) kinase. ROCK activity has been shown to regulate MRLC phosphorylation by directly mono- or diphosphorylating MRLC (Amano et al., 1996, Ueda et al., 2002, Watanabe et al. 2007).</Comment>
+    <BiopaxRef>cfc</BiopaxRef>
+    <BiopaxRef>dfa</BiopaxRef>
+    <BiopaxRef>b87</BiopaxRef>
+    <BiopaxRef>cd5</BiopaxRef>
+    <BiopaxRef>f66</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="730.0" Y="307.0" />
+      <Point X="730.0" Y="390.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ae3b8" />
+      <Anchor Position="0.99" Shape="None" GraphId="a84f0" />
+      <Anchor Position="0.5" Shape="None" GraphId="d62f6" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419197" />
+  </Interaction>
+  <Interaction GraphId="bfb15">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="730.0" Y="256.0" GraphRef="fba47" RelX="-0.007633587786259542" RelY="0.9555555555555556" />
+      <Point X="730.0" Y="307.0" GraphRef="ae3b8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419197" />
+  </Interaction>
+  <Interaction GraphId="e6a95">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="766.0" Y="308.0" GraphRef="c398d" RelX="-1.0" RelY="0.0" />
+      <Point X="730.0" Y="307.0" GraphRef="ae3b8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419197" />
+  </Interaction>
+  <Interaction GraphId="b0f09">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="730.0" Y="390.0" GraphRef="a84f0" RelX="0.0" RelY="0.8299999999999841" />
+      <Point X="731.0" Y="451.0" GraphRef="b68f3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419197" />
+  </Interaction>
+  <Interaction GraphId="a3e50">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="730.0" Y="390.0" GraphRef="a84f0" RelX="0.0" RelY="0.8299999999999841" />
+      <Point X="760.0" Y="410.0" GraphRef="fd1d8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419197" />
+  </Interaction>
+  <Interaction GraphId="a9149">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="494.0" Y="60.0" GraphRef="f4173" RelX="0.9826086956521739" RelY="0.0" />
+      <Point X="730.0" Y="349.0" GraphRef="d62f6" RelX="0.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419197" />
+  </Interaction>
+  <Interaction GraphId="f81fd">
+    <Comment Source="Reactome">In non-muscle cells, phosphorylation of myosin II regulates actomyosin contractility. The level of myosin phosphorylation depends mainly on the balance of two enzymes, the Ca2+-dependent MLC kinase (MLCK), and myosin phosphatase (MLCP). Phosphorylation of the regulatory light chain of myosin II (MRLC) induces its interaction with actin, activating myosin ATPase and resulting in enhanced cell contractility. Myosin phosphatase decreases MRLC phosphorylation, which inhibits binding to filamentous actin and stress fibre formation (Kimura et al. 1996, Nakai et al. 1997, Katoh et al. 2001, Iwasaki et al. 2001).</Comment>
+    <BiopaxRef>b12</BiopaxRef>
+    <BiopaxRef>a5b</BiopaxRef>
+    <BiopaxRef>cb0</BiopaxRef>
+    <BiopaxRef>ac7</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="847.0" Y="424.0" />
+      <Point X="847.0" Y="289.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="af328" />
+      <Anchor Position="0.99" Shape="None" GraphId="ea54e" />
+      <Anchor Position="0.5" Shape="None" GraphId="f14e4" />
+      <Anchor Position="0.5" Shape="None" GraphId="c66e1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419232" />
+  </Interaction>
+  <Interaction GraphId="e492e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="867.0" Y="458.0" GraphRef="d161c" RelX="-1.0" RelY="0.0" />
+      <Point X="847.0" Y="424.0" GraphRef="af328" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419232" />
+  </Interaction>
+  <Interaction GraphId="a549f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="798.0" Y="477.0" GraphRef="b68f3" RelX="1.0" RelY="-0.018867924528301886" />
+      <Point X="847.0" Y="424.0" GraphRef="af328" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419232" />
+  </Interaction>
+  <Interaction GraphId="fdca0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="847.0" Y="289.0" GraphRef="ea54e" RelX="0.0" RelY="-1.3500000000000227" />
+      <Point X="875.0" Y="263.0" GraphRef="e7dc9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419232" />
+  </Interaction>
+  <Interaction GraphId="e0aaf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="847.0" Y="289.0" GraphRef="ea54e" RelX="0.0" RelY="-1.3500000000000227" />
+      <Point X="795.0" Y="234.0" GraphRef="fba47" RelX="0.9847328244274809" RelY="-0.022222222222222223" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419232" />
+  </Interaction>
+  <Interaction GraphId="dccb9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="906.0" Y="349.0" GraphRef="ed00f" RelX="-1.0" RelY="0.0" />
+      <Point X="847.0" Y="351.0" GraphRef="f14e4" RelX="0.0" RelY="-5.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419232" />
+  </Interaction>
+  <Interaction GraphId="db254">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="920.0" Y="497.0" GraphRef="c164a" RelX="-1.0" RelY="-0.030303030303030304" />
+      <Point X="847.0" Y="351.0" GraphRef="c66e1" RelX="0.0" RelY="-5.5" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419232" />
+  </Interaction>
+  <Interaction GraphId="f1902">
+    <Comment Source="Reactome">The activity of nonmuscle myosin II (NMM2) is suppressed by dephosphorylation of myosin regulatory light chains (MRLC), MYL9 and MYL12B, by the MLC phosphatase. The MLC phosphatase is composed of a catalytic subunit (PPP1CB) and two regulatory subunits, myosin phosphatase-targeting subunit 1 (MYPT1, PPP1R12A) and M20 (MYPT2, PPP1R12B). MYPT1 binds directly to myosin II. Myosin phosphatase is inhibited by ROCKs. ROCKs phosphorylate MYPT1 subunit of the myosin phosphatase at two inhibitory sites, Thr696 and Ser852, resulting  in a decrease in MRLC phosphatase activity and an increase in phosphorylated MRLC (Kimura et al. 1996, Nakai et al. 1997, Katoh et al. 2001, Iwasaki et al. 2001), which promotes binding to filamentous actin and stress fibre formation. This effect is synergistic with the direct phosphorylation of MRLC by ROCKs.</Comment>
+    <BiopaxRef>b12</BiopaxRef>
+    <BiopaxRef>a5b</BiopaxRef>
+    <BiopaxRef>cb0</BiopaxRef>
+    <BiopaxRef>ac7</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="946.0" Y="270.0" />
+      <Point X="946.0" Y="185.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bc93e" />
+      <Anchor Position="0.99" Shape="None" GraphId="f4acd" />
+      <Anchor Position="0.5" Shape="None" GraphId="cbfc9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419083" />
+  </Interaction>
+  <Interaction GraphId="bbf7d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="985.0" Y="297.0" GraphRef="d0e12" RelX="-1.0" RelY="0.0" />
+      <Point X="946.0" Y="270.0" GraphRef="bc93e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419083" />
+  </Interaction>
+  <Interaction GraphId="b41b5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="947.0" Y="330.0" GraphRef="ed00f" RelX="-0.012048192771084338" RelY="-1.0" />
+      <Point X="946.0" Y="270.0" GraphRef="bc93e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419083" />
+  </Interaction>
+  <Interaction GraphId="ec254">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="946.0" Y="185.0" GraphRef="f4acd" RelX="0.0" RelY="-0.8499999999999943" />
+      <Point X="970.0" Y="168.0" GraphRef="e57df" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419083" />
+  </Interaction>
+  <Interaction GraphId="c12b9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="946.0" Y="185.0" GraphRef="f4acd" RelX="0.0" RelY="-0.8499999999999943" />
+      <Point X="946.0" Y="134.0" GraphRef="c1368" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419083" />
+  </Interaction>
+  <Interaction GraphId="c0026">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="494.0" Y="60.0" GraphRef="f4173" RelX="0.9826086956521739" RelY="0.0" />
+      <Point X="946.0" Y="229.0" GraphRef="cbfc9" RelX="0.0" RelY="1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-419083" />
+  </Interaction>
+  <Interaction GraphId="db94d">
+    <Comment Source="Reactome">The EPHB2-FAK pathway partially promotes dendritic spine stability through LIMK-mediated cofilin (CFL1) phosphorylation (Shi et al. 2009). CFL1 is a member of the ADF (actin-depolymerizing factor) protein family that is involved in regulating actin dynamics in the growth cone. It binds to actin in a one-to-one molar ratio, and stimulates both the severing of actin filaments and depolymerization of actin subunits from the actin filament end. Activated LIMK phosphorylates CFL1 on the conserved serine 3 residue located near the actin-binding site. After phosphorylation, CFL1 is inactive, loses its affinity for actin and dissociates from G-actin monomers. Once freed, ADP-actin monomers can exchange ADP with cytoplasmic ATP, ready for reincorporation at the barbed end of a growing filament (Gungabissoon &amp; Bamburg 2003).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="444.0" Y="529.0" />
+      <Point X="535.0" Y="529.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c202d" />
+      <Anchor Position="0.99" Shape="None" GraphId="db2cf" />
+      <Anchor Position="0.5" Shape="None" GraphId="ef9d1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3928608" />
+  </Interaction>
+  <Interaction GraphId="bfcd2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="404.0" Y="562.0" GraphRef="f8c37" RelX="0.9459459459459459" RelY="0.0" />
+      <Point X="444.0" Y="529.0" GraphRef="c202d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3928608" />
+  </Interaction>
+  <Interaction GraphId="f158f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="408.0" Y="507.0" GraphRef="c19a0" RelX="0.9555555555555556" RelY="-0.047619047619047616" />
+      <Point X="444.0" Y="529.0" GraphRef="c202d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3928608" />
+  </Interaction>
+  <Interaction GraphId="dc1b6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="535.0" Y="529.0" GraphRef="db2cf" RelX="0.9099999999999682" RelY="0.0" />
+      <Point X="554.0" Y="496.0" GraphRef="ba926" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3928608" />
+  </Interaction>
+  <Interaction GraphId="ed479">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="535.0" Y="529.0" GraphRef="db2cf" RelX="0.9099999999999682" RelY="0.0" />
+      <Point X="563.0" Y="564.0" GraphRef="eb215" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3928608" />
+  </Interaction>
+  <Interaction GraphId="d81c1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="452.0" GraphRef="ee35c" RelX="0.0" RelY="1.0" />
+      <Point X="486.0" Y="529.0" GraphRef="ef9d1" RelX="-3.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-3928608" />
+  </Interaction>
+  <Interaction GraphId="ad7b5">
+    <Comment Source="Reactome">Ripasudil (Glanatec), as its hydrochloride hydrate (K-115), is a specifc Rho-associated coiled-coil containing protein kinase (ROCK) inhibitor (ROCKi) used for the treatment of glaucoma and ocular hypertension in Japan (Garnock-Jones 2014). Netarsudil is a USA-approved ROCKi used to treat glaucoma and ocular hypertenstion (Sturdivant et al. 2016, Tanna &amp; Johnson 2018).</Comment>
+    <BiopaxRef>eaf</BiopaxRef>
+    <BiopaxRef>ddc</BiopaxRef>
+    <BiopaxRef>be0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="319.0" Y="184.0" />
+      <Point X="350.0" Y="162.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ed323" />
+      <Anchor Position="0.99" Shape="None" GraphId="bbf56" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9680443" />
+  </Interaction>
+  <Interaction GraphId="c8aed">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="310.0" Y="142.0" GraphRef="a571c" RelX="0.9701492537313433" RelY="0.0" />
+      <Point X="319.0" Y="184.0" GraphRef="ed323" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9680443" />
+  </Interaction>
+  <Interaction GraphId="bccf2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="320.0" Y="230.0" GraphRef="fd9ea" RelX="-0.022222222222222223" RelY="-1.0" />
+      <Point X="319.0" Y="184.0" GraphRef="ed323" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9680443" />
+  </Interaction>
+  <Interaction GraphId="ec9ac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="350.0" Y="162.0" GraphRef="bbf56" RelX="0.3100000000000023" RelY="-0.21999999999999886" />
+      <Point X="372.0" Y="159.0" GraphRef="d440d" RelX="-0.010101010101010102" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9680443" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="c9c80" GroupRef="cdbcb">
+    <Graphics CenterX="149.0" CenterY="528.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="d0418" GroupRef="cdbcb">
+    <Graphics CenterX="590.5" CenterY="336.5" Width="1041.0" Height="567.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="ce1e8" GraphId="bbf38" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-419161" />
+  </Group>
+  <Group GroupId="ff009" GraphId="d7781" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-419194" />
+  </Group>
+  <Group GroupId="bbd12" GraphId="da5ee" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-422483" />
+  </Group>
+  <Group GroupId="a063a" GraphId="ee91a">
+    <Attribute Key="complex_id" Value="R-HSA-419057" />
+  </Group>
+  <Group GroupId="d6bad" GraphId="fa68e">
+    <Attribute Key="complex_id" Value="R-HSA-419709" />
+  </Group>
+  <Group GroupId="f66fd" GraphId="c6f28">
+    <Attribute Key="complex_id" Value="R-HSA-419708" />
+  </Group>
+  <Group GroupId="afa16" GraphId="b2f6a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-419195" />
+  </Group>
+  <Group GroupId="a1965" GraphId="b0a0f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-419080" />
+  </Group>
+  <Group GroupId="f48c7" GraphId="d6e2d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-419085" />
+  </Group>
+  <Group GroupId="ee9ad" GraphId="cd3c4">
+    <Attribute Key="complex_id" Value="R-ALL-9686558" />
+  </Group>
+  <Group GroupId="d50cf" GraphId="b5c9a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9680444" />
+  </Group>
+  <Group GroupId="cdbcb" GraphId="d7b65" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b00">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8617235</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The small GTP-binding protein Rho binds to and activates a 160 kDa Ser/Thr protein kinase homologous to myotonic dystrophy kinase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ishizaki T, Maekawa M, Fujisawa K, Okawa K, Iwamatsu A, Fujita A, Watanabe N, Saito Y, Kakizuka A, Morii N, Narumiya S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8816443</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The p160 RhoA-binding kinase ROK alpha is a member of a kinase family and is involved in the reorganization of the cytoskeleton.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leung T, Chen XQ, Manser E, Lim L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10652353</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rho-associated kinase ROCK activates LIM-kinase 1 by phosphorylation at threonine 508 within the activation loop.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohashi K, Nagata K, Maekawa M, Ishizaki T, Narumiya S, Mizuno K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a67">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11018042</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific activation of LIM kinase 2 via phosphorylation of threonine 505 by ROCK, a Rho-dependent protein kinase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sumi T, Matsumoto K, Nakamura T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cfc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8702756</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphorylation and activation of myosin by Rho-associated kinase (Rho-kinase).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amano M, Ito M, Kimura K, Fukata Y, Chihara K, Nakano T, Matsuura Y, Kaibuchi K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfa">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17151359</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of myosin II dynamics by phosphorylation and dephosphorylation of its light chain in epithelial cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watanabe T, Hosoya H, Yonemura S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b12">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8662509</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of myosin phosphatase by Rho and Rho-associated kinase (Rho-kinase)</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimura K, Ito M, Amano M, Chihara K, Fukata Y, Nakafuku M, Yamamori B, Feng J, Nakano T, Okawa K, Iwamatsu A, Kaibuchi K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20803696</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rho-kinase/ROCK: A key regulator of the cytoskeleton and cell polarity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amano M, Nakayama M, Kaibuchi K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12471249</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mechanisms of axon guidance.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dickson BJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12593985</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semaphorin junction: making tracks toward neural connectivity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasterkamp RJ, Kolodkin AL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e79">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18374575</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semaphorin signaling: progress made and promises ahead.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhou Y, Gunput RA, Pasterkamp RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16939971</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semaphorins in axon regeneration: developmental guidance molecules gone wrong?</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasterkamp RJ, Verhaagen J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c3c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18269210</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of semaphorins during axon growth and guidance.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koncina E, Roth L, Gonthier B, Bagnard D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8107774</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brain serine/threonine protein kinase activated by Cdc42 and Rac1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manser E, Leung T, Salihuddin H, Zhao ZS, Lim L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7559638</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning of a new member of the p21-Cdc42/Rac-activated kinase (PAK) family.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manser E, Chong C, Zhao ZS, Leung T, Michael G, Hall C, Lim L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e18">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9535855</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interaction of Rac1 with GTPase-activating proteins and putative effectors. A comparison with Cdc42 and RhoA.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang B, Chernoff J, Zheng Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10975528</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure of PAK1 in an autoinhibited conformation reveals a multistage activation switch.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lei M, Lu W, Meng W, Parrini MC, Eck MJ, Mayer BJ, Harrison SC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11804587</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pak1 kinase homodimers are autoinhibited in trans and dissociated upon activation by Cdc42 and Rac1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parrini MC, Lei M, Harrison SC, Mayer BJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10470034</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p21-activated protein kinase: a crucial component of morphological signaling?</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniels RH, Bokoch GM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d78">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19513348</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involvement of Rac/Cdc42/PAK pathway in cytoskeletal rearrangements.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Szczepanowska J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11278486</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanism of PAK activation. Autophosphorylation events in both regulatory and kinase domains control activity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chong C, Tan L, Lim L, Manser E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d23">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16204230</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of the interaction of Pak2 with Cdc42 via autophosphorylation of serine 141.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jung JH, Traugh JA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b13">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21098037</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanistic studies of the autoactivation of PAK2: a two-step model of cis initiation followed by trans amplification.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang J, Wu JW, Wang ZX.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a76">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22340718</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAKs in human disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chan PM, Manser E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11294240</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arachidonic acid-induced Ca2+ sensitization of smooth muscle contraction through activation of Rho-kinase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Araki S, Ito M, Kureishi Y, Feng J, Machida H, Isaka N, Amano M, Kaibuchi K, Hartshorne DJ, Nakano T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11283606</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Membrane blebbing during apoptosis results from caspase-mediated activation of ROCK I.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coleman ML, Sahai EA, Yeo M, Bosch M, Dewar A, Olson MF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15699075</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct cleavage of ROCK II by granzyme B induces target cell membrane blebbing in a caspase-independent manner.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sebbagh M, Hamelin J, Bertoglio J, Solary E, Bréard J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16219803</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of LIM-kinase 1 and cofilin in thrombin-stimulated platelets.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandey D, Pandey D, Goyal P, Bamburg JR, Siess W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b87">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12185584</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rho-kinase contributes to diphosphorylation of myosin II regulatory light chain in nonmuscle cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ueda K, Murata-Hori M, Tatsuka M, Hosoya H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3839510</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphorylation of smooth muscle myosin at two distinct sites by myosin light chain kinase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ikebe M, Hartshorne DJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f66">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2966156</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effects of phosphorylation of light chain residues threonine 18 and serine 19 on the properties and conformation of smooth muscle myosin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ikebe M, Koretz J, Hartshorne DJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11331307</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rho-kinase--mediated contraction of isolated stress fibers.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katoh K, Kano Y, Amano M, Onishi H, Kaibuchi K, Fujiwara K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11942626</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diphosphorylated MRLC is required for organization of stress fibers in interphase cells and the contractile ring in dividing cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iwasaki T, Murata-Hori M, Ishitobi S, Hosoya H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9354661</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of myosin phosphatase through phosphorylation of the myosin-binding subunit in platelet activation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakai K, Suzuki Y, Kihira H, Wada H, Fujioka M, Ito M, Nakano T, Kaibuchi K, Shiku H, Nishikawa M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eaf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25414122</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripasudil: first global approval.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garnock-Jones KP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27072905</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discovery of the ROCK inhibitor netarsudil for the treatment of open-angle glaucoma.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sturdivant JM, Royalty SM, Lin CW, Moore LA, Yingling JD, Laethem CL, Sherman B, Heintzelman GR, Kopczynski CC, deLong MA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30007591</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rho Kinase Inhibitors as a Novel Treatment for Glaucoma and Ocular Hypertension.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanna AP, Johnson M.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

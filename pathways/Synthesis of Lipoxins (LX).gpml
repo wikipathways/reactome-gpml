@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of Lipoxins (LX)" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Lipoxins A4 (LXA4) and B4 (LXB4), structurally characterized from human neutrophils incubated with 15-hydroperoxy-eicosatetraenoic acid (15-HpETE), each contain three hydroxyl moieties and a conjugated tetraene. The third hydroxyl of LXA4 is positioned at C-6, and of LXB4 at C-14.  The action of arachidonate 5-lipoxygenase (ALOX5), in concert with an arachidonate 12-lipoxygenase (ALOX12) or arachidonate 15-lipoxygenase (ALOX15) activity, has been shown to produce lipoxins by three distinct pathways.  Neutrophil ALOX5 can produce and secrete leukotriene A4 (LTA4) that is taken up by platelets, where it is acted upon by ALOX12 to form lipoxins. Likewise, ALOX15s can generate either 15-hydroperoxy-eicosatetraenoic acid (15-HpETE) or 15-hydro-eicosatetraenoic acid (15-HETE) that can be taken up by monocytes and neutrophils, where highly expressed ALOX5 uses it to generate lipoxins. Finally, aspirin acetylated prostaglandin G/H synthase 2 (PTGS2), rendered unable to synthesize prostaglandins, can act as a 15-lipoxygenase. This leads to the formation of 15R-HETE and culminates in creation of epi-lipoxins, which have altered stereochemistry at the C-15 hydroxyl but similar biological potency (Chiang et al. 2006, Buczynski et al. 2009, Vance &amp; Vance 2008, Stsiapanava et al. 2017).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=2142700 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 2142700</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Williams, MG</Comment>
+  <BiopaxRef>b41</BiopaxRef>
+  <BiopaxRef>f11</BiopaxRef>
+  <BiopaxRef>a61</BiopaxRef>
+  <Attribute Key="reactome_id" Value="2142700" />
+  <Graphics BoardWidth="1269.0" BoardHeight="1340.0" />
+  <DataNode TextLabel="LTA4" GraphId="cdb1f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="480.0" CenterY="238.0" Width="54.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15651" />
+  </DataNode>
+  <DataNode TextLabel="15R-HETE" GraphId="ed597" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="414.0" CenterY="318.0" Width="92.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:63989" />
+  </DataNode>
+  <DataNode TextLabel="15S-HpETE" GraphId="f6523" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="525.5" CenterY="313.0" Width="101.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15628" />
+  </DataNode>
+  <DataNode TextLabel="LXA4/B4" GraphId="bc255" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="697.0" CenterY="73.0" Width="74.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-2161856" />
+  </DataNode>
+  <DataNode TextLabel="LXA4 " GraphId="ca234" Type="Metabolite" GroupRef="f1294">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-2161856" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="672.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6498" />
+  </DataNode>
+  <DataNode TextLabel="LXB4 " GraphId="f7687" Type="Metabolite" GroupRef="f1294">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-2161856" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="692.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6499" />
+  </DataNode>
+  <DataNode TextLabel="ALOX12:Fe2+" GraphId="b4570" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="568.5" CenterY="113.0" Width="107.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2142793" />
+  </DataNode>
+  <DataNode TextLabel="ALOX12 " GraphId="afa99" Type="Protein" GroupRef="b9169">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2142793" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="752.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18054" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="ab7a5" Type="Metabolite" GroupRef="b9169">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2142793" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="772.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="15epi-LXA4/B4" GraphId="fc82e" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="414.0" CenterY="488.0" Width="126.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-2161609" />
+  </DataNode>
+  <DataNode TextLabel="15epi-LXA4 " GraphId="b59ea" Type="Metabolite" GroupRef="c4240">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-2161609" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="832.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:63990" />
+  </DataNode>
+  <DataNode TextLabel="15epi-LXB4 " GraphId="bf69e" Type="Metabolite" GroupRef="c4240">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-2161609" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="852.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:63991" />
+  </DataNode>
+  <DataNode TextLabel="LXA4" GraphId="aea27" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="625.0" CenterY="465.0" Width="54.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6498" />
+  </DataNode>
+  <DataNode TextLabel="15k-LXA4" GraphId="cd9f0" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="896.0" CenterY="465.0" Width="92.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:63992" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="d576b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="812.0" CenterY="498.0" Width="54.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57945" />
+  </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="cba27" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="683.0" CenterY="440.0" Width="54.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57540" />
+  </DataNode>
+  <DataNode TextLabel="HPGD dimer" GraphId="f532f" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="738.5" CenterY="402.0" Width="93.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2142778" />
+  </DataNode>
+  <DataNode TextLabel="HPGD " GraphId="d8c01" Type="Protein" GroupRef="f6112">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2142778" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="912.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P15428" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="b2789" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="818.5" CenterY="427.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="dhk-LXA4" GraphId="b7c3b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1164.0" CenterY="464.0" Width="92.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:63993" />
+  </DataNode>
+  <DataNode TextLabel="PTGR1" GraphId="a74ef" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1026.5" CenterY="402.0" Width="55.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14914" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="d2abb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1104.5" CenterY="503.0" Width="63.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="d9bc2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="943.5" CenterY="496.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="f95b9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="942.5" CenterY="427.0" Width="63.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="ALOX5:ALOX5AP:LTC4S" GraphId="f0ee1" Type="Complex">
+    <BiopaxRef>e1a</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Graphics CenterX="307.0" CenterY="406.0" Width="130.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2318764" />
+  </DataNode>
+  <DataNode TextLabel="ALOX5AP " GraphId="d1011" Type="Protein" GroupRef="beaab">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-2318764" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="972.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20292" />
+  </DataNode>
+  <DataNode TextLabel="LTC4S " GraphId="bc645" Type="Protein" GroupRef="beaab">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-2318764" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="100.0" CenterY="992.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16873" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="dfb8b" Type="Metabolite" GroupRef="beaab">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-2318764" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="100.0" CenterY="1012.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="c0a72" Type="Metabolite" GroupRef="beaab">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-2318764" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="100.0" CenterY="1032.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="p-S272-ALOX5 " GraphId="d9b43" Type="Protein" GroupRef="beaab">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-2318764" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="100.0" CenterY="1052.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P09917" />
+  </DataNode>
+  <DataNode TextLabel="LTA4" GraphId="a4068" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="480.5" CenterY="73.0" Width="47.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15651" />
+  </DataNode>
+  <DataNode TextLabel="5S-HpETE" GraphId="c7f75" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="216.0" CenterY="239.0" Width="74.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15632" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="d55f5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="400.5" CenterY="273.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="LXA4/B4" GraphId="e80ba" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="524.0" CenterY="467.0" Width="74.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-2161856" />
+  </DataNode>
+  <DataNode TextLabel="LXA4 " GraphId="a29a9" Type="Metabolite" GroupRef="c3b76">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-2161856" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1112.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6498" />
+  </DataNode>
+  <DataNode TextLabel="LXB4 " GraphId="ded4a" Type="Metabolite" GroupRef="c3b76">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-2161856" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1132.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6499" />
+  </DataNode>
+  <DataNode TextLabel="LXA4/B4" GraphId="aa411" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="523.0" CenterY="633.0" Width="58.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-9037644" />
+  </DataNode>
+  <DataNode TextLabel="LXA4 " GraphId="a822f" Type="Metabolite" GroupRef="fc75d">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-9037644" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1192.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6498" />
+  </DataNode>
+  <DataNode TextLabel="LXB4 " GraphId="b59f1" Type="Metabolite" GroupRef="fc75d">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-9037644" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1212.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6499" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="fca9f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="470.5" CenterY="354.0" Width="33.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="cb919" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="525.5" CenterY="44.0" Width="33.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="LXA4/B4" GraphId="f8751" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="614.0" CenterY="408.0" Width="74.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-2161856" />
+  </DataNode>
+  <DataNode TextLabel="LXA4 " GraphId="ec6d2" Type="Metabolite" GroupRef="f971f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-2161856" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1272.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6498" />
+  </DataNode>
+  <DataNode TextLabel="LXB4 " GraphId="bc586" Type="Metabolite" GroupRef="f971f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-2161856" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1292.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6499" />
+  </DataNode>
+  <Interaction GraphId="be29c">
+    <Comment Source="Reactome">Arachidonate 12-lipoxygenase, 12S-type (ALOX12) catalyses the conversion of leukotriene A4 (LTA4) into the lipoxins LXA4, which has its third hydroxyl positioned at C-6 and LXB4, which has it positioned at C-14 (Romano et al. 1993, Serhan &amp; Sheppard  1990).  One of the reaction intermediates of this process might be 5S,6S-epoxy-15S-hydroxy-7E,9E,11Z,13E-eicosatetraenoic acid (5,6-Ep-15S-HETE) (Puustinen et al. 1986).  However, its generation from LTA4 is unclear but it can be hydrolysed to form the lipoxins.</Comment>
+    <BiopaxRef>a62</BiopaxRef>
+    <BiopaxRef>b89</BiopaxRef>
+    <BiopaxRef>fb0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="537.0" Y="73.0" />
+      <Point X="654.0" Y="73.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="dba2b" />
+      <Anchor Position="0.99" Shape="None" GraphId="c0846" />
+      <Anchor Position="0.5" Shape="None" GraphId="a6980" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161775" />
+  </Interaction>
+  <Interaction GraphId="c35fd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="503.0" Y="73.0" GraphRef="a4068" RelX="0.9574468085106383" RelY="0.0" />
+      <Point X="537.0" Y="73.0" GraphRef="dba2b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161775" />
+  </Interaction>
+  <Interaction GraphId="a7e5c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="525.0" Y="59.0" GraphRef="cb919" RelX="-0.030303030303030304" RelY="1.0" />
+      <Point X="537.0" Y="73.0" GraphRef="dba2b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161775" />
+  </Interaction>
+  <Interaction GraphId="ddede">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="654.0" Y="73.0" GraphRef="c0846" RelX="1.169999999999959" RelY="0.0" />
+      <Point X="660.0" Y="73.0" GraphRef="bc255" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161775" />
+  </Interaction>
+  <Interaction GraphId="ac2db">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="568.0" Y="102.0" GraphRef="b4570" RelX="-0.009345794392523364" RelY="-1.0" />
+      <Point X="568.0" Y="73.0" GraphRef="a6980" RelX="-27.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161775" />
+  </Interaction>
+  <Interaction GraphId="f6b6e">
+    <Comment Source="Reactome">Arachidonate 5-lipoxygenase (ALOX5) (Ueda et al. 1987) converts 15S-hydroperoxy-eicosatetraenoic acid (15S-HpETE) into lipoxin A4 (LXA4) and B4 (LXB4) (Serhan et al. 1984A, Serhan et al. 1984B).  One of the reaction intermediates of this process might be 5S,6S-epoxy-15S-hydroxy-7E,9E,11Z,13E-eicosatetraenoic acid (5,6-Ep-15S-HETE) (Puustinen et al. 1986).  However, its generation from LTA4 is unclear but it can be hydrolysed to form the lipoxins.</Comment>
+    <BiopaxRef>b6c</BiopaxRef>
+    <BiopaxRef>c78</BiopaxRef>
+    <BiopaxRef>d46</BiopaxRef>
+    <BiopaxRef>fb0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="524.0" Y="367.0" />
+      <Point X="571.0" Y="408.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="aefcf" />
+      <Anchor Position="0.99" Shape="None" GraphId="a66b6" />
+      <Anchor Position="0.5" Shape="None" GraphId="e53bc" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161917" />
+  </Interaction>
+  <Interaction GraphId="f99ad">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="354.0" GraphRef="fca9f" RelX="0.9393939393939394" RelY="0.0" />
+      <Point X="524.0" Y="367.0" GraphRef="aefcf" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161917" />
+  </Interaction>
+  <Interaction GraphId="cf548">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="525.0" Y="328.0" GraphRef="f6523" RelX="-0.009900990099009901" RelY="1.0" />
+      <Point X="524.0" Y="367.0" GraphRef="aefcf" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161917" />
+  </Interaction>
+  <Interaction GraphId="d839b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="571.0" Y="408.0" GraphRef="a66b6" RelX="0.4700000000000273" RelY="0.410000000000025" />
+      <Point X="577.0" Y="408.0" GraphRef="f8751" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161917" />
+  </Interaction>
+  <Interaction GraphId="ee8d7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="372.0" Y="406.0" GraphRef="f0ee1" RelX="1.0" RelY="0.0" />
+      <Point X="524.0" Y="408.0" GraphRef="e53bc" RelX="-23.5" RelY="20.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161917" />
+  </Interaction>
+  <Interaction GraphId="cc6f5">
+    <Comment Source="Reactome">Arachidonate 5-lipoxygenase (ALOX5) converts 15R-hydro-eicosatetraenoic acid (15R-HETE) to the epi-lipoxins, 15epi-lipoxin A4 (15epi-LXA4) and 15epi-lipoxin B4 (15epi-LXB4) (Claria &amp; Serhan 1995).  These epi-lipoxins have altered configuration at the C-15 hydroxyl but similar biological potency.</Comment>
+    <BiopaxRef>e85</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="414.0" Y="374.0" />
+      <Point X="413.0" Y="471.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e34e6" />
+      <Anchor Position="0.99" Shape="None" GraphId="ee9c2" />
+      <Anchor Position="0.5" Shape="None" GraphId="c696c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161907" />
+  </Interaction>
+  <Interaction GraphId="e519a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="454.0" Y="354.0" GraphRef="fca9f" RelX="-1.0" RelY="0.0" />
+      <Point X="414.0" Y="374.0" GraphRef="e34e6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161907" />
+  </Interaction>
+  <Interaction GraphId="be0ea">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="414.0" Y="333.0" GraphRef="ed597" RelX="0.0" RelY="1.0" />
+      <Point X="414.0" Y="374.0" GraphRef="e34e6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161907" />
+  </Interaction>
+  <Interaction GraphId="ec4a6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="413.0" Y="471.0" GraphRef="ee9c2" RelX="-0.009999999999990905" RelY="0.9700000000000273" />
+      <Point X="414.0" Y="477.0" GraphRef="fc82e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161907" />
+  </Interaction>
+  <Interaction GraphId="deded">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="372.0" Y="406.0" GraphRef="f0ee1" RelX="1.0" RelY="0.0" />
+      <Point X="413.0" Y="419.0" GraphRef="c696c" RelX="-0.5" RelY="-3.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161907" />
+  </Interaction>
+  <Interaction GraphId="c782c">
+    <Comment Source="Reactome">15-Hydroxyprostaglandin dehydrogenase (HPGD) converts lipoxin A4 (LXA4) to 15-oxo lipoxin A4 aka 15-keto-LXA4 (15k-LXA4) (Clish et al. 2000).</Comment>
+    <BiopaxRef>a35</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="694.0" Y="464.0" />
+      <Point X="798.0" Y="464.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="de743" />
+      <Anchor Position="0.99" Shape="None" GraphId="a052a" />
+      <Anchor Position="0.5" Shape="None" GraphId="e0af2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161779" />
+  </Interaction>
+  <Interaction GraphId="bf44e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="652.0" Y="465.0" GraphRef="aea27" RelX="1.0" RelY="0.0" />
+      <Point X="694.0" Y="464.0" GraphRef="de743" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161779" />
+  </Interaction>
+  <Interaction GraphId="dde7a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="683.0" Y="455.0" GraphRef="cba27" RelX="0.0" RelY="1.0" />
+      <Point X="694.0" Y="464.0" GraphRef="de743" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161779" />
+  </Interaction>
+  <Interaction GraphId="d2933">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="798.0" Y="464.0" GraphRef="a052a" RelX="1.0399999999999636" RelY="0.0" />
+      <Point X="850.0" Y="465.0" GraphRef="cd9f0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161779" />
+  </Interaction>
+  <Interaction GraphId="adc1a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="798.0" Y="464.0" GraphRef="a052a" RelX="1.0399999999999636" RelY="0.0" />
+      <Point X="812.0" Y="483.0" GraphRef="d576b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161779" />
+  </Interaction>
+  <Interaction GraphId="b2f12">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="798.0" Y="464.0" GraphRef="a052a" RelX="1.0399999999999636" RelY="0.0" />
+      <Point X="818.0" Y="442.0" GraphRef="b2789" RelX="-0.02857142857142857" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161779" />
+  </Interaction>
+  <Interaction GraphId="fd189">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="692.0" Y="402.0" GraphRef="f532f" RelX="-1.0" RelY="0.0" />
+      <Point X="738.0" Y="464.0" GraphRef="e0af2" RelX="-8.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161779" />
+  </Interaction>
+  <Interaction GraphId="c17dc">
+    <Comment Source="Reactome">Prostaglandin reductase 1 (PTGR1) aka LTB4DH, a 15-oxoprostaglandin 13-reductase (Yokomizo et al. 1996), metabolises 15-oxo lipoxin A4 aka 15-keto-LXA4 (15k-LXA4) to produce 13,14-dihydro-15-keto-Lipoxin A4 (dhk-LXA4).  This reaction has been inferred from a reaction in pig (Clish et al. 2000).</Comment>
+    <BiopaxRef>ae6</BiopaxRef>
+    <BiopaxRef>a35</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="980.0" Y="463.0" />
+      <Point X="1078.0" Y="464.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c2343" />
+      <Anchor Position="0.99" Shape="None" GraphId="a8c25" />
+      <Anchor Position="0.5" Shape="None" GraphId="a3e9a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161844" />
+  </Interaction>
+  <Interaction GraphId="c61c0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="942.0" Y="465.0" GraphRef="cd9f0" RelX="1.0" RelY="0.0" />
+      <Point X="980.0" Y="463.0" GraphRef="c2343" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161844" />
+  </Interaction>
+  <Interaction GraphId="f3647">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="960.0" Y="496.0" GraphRef="d9bc2" RelX="0.9428571428571428" RelY="0.0" />
+      <Point X="980.0" Y="463.0" GraphRef="c2343" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161844" />
+  </Interaction>
+  <Interaction GraphId="fe897">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="973.0" Y="427.0" GraphRef="f95b9" RelX="0.9682539682539683" RelY="0.0" />
+      <Point X="980.0" Y="463.0" GraphRef="c2343" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161844" />
+  </Interaction>
+  <Interaction GraphId="c2b6f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1078.0" Y="464.0" GraphRef="a8c25" RelX="0.9800000000000182" RelY="0.009999999999990905" />
+      <Point X="1118.0" Y="464.0" GraphRef="b7c3b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161844" />
+  </Interaction>
+  <Interaction GraphId="a1111">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1078.0" Y="464.0" GraphRef="a8c25" RelX="0.9800000000000182" RelY="0.009999999999990905" />
+      <Point X="1104.0" Y="488.0" GraphRef="d2abb" RelX="-0.015873015873015872" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161844" />
+  </Interaction>
+  <Interaction GraphId="ee79b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="999.0" Y="402.0" GraphRef="a74ef" RelX="-1.0" RelY="0.0" />
+      <Point X="1027.0" Y="464.0" GraphRef="a3e9a" RelX="-2.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2161844" />
+  </Interaction>
+  <Interaction GraphId="b73b6">
+    <Comment Source="Reactome">In the second step of the formation of leukotriene A4 (LTA4) from arachidonic acid, arachidonate 5-lipoxygenase (ALOX5) converts 5S-hydroperoxyeicosatetranoic acid (5S-HpETE) to an allylic epoxide, leukotriene A4 (LTA4) (Rouzer et al. 1988, Rouzer &amp; Samuelsson 1987, Rouzer et al. 1986).</Comment>
+    <BiopaxRef>c17</BiopaxRef>
+    <BiopaxRef>c7b</BiopaxRef>
+    <BiopaxRef>bc5</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="256.0" Y="239.0" />
+      <Point X="369.0" Y="238.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e9455" />
+      <Anchor Position="0.99" Shape="None" GraphId="c2071" />
+      <Anchor Position="0.5" Shape="None" GraphId="ebd24" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-266051" />
+  </Interaction>
+  <Interaction GraphId="b2636">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="253.0" Y="239.0" GraphRef="c7f75" RelX="1.0" RelY="0.0" />
+      <Point X="256.0" Y="239.0" GraphRef="e9455" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-266051" />
+  </Interaction>
+  <Interaction GraphId="a2a66">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="369.0" Y="238.0" GraphRef="c2071" RelX="1.1299999999999955" RelY="-0.009999999999990905" />
+      <Point X="453.0" Y="238.0" GraphRef="cdb1f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-266051" />
+  </Interaction>
+  <Interaction GraphId="ec8eb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="369.0" Y="238.0" GraphRef="c2071" RelX="1.1299999999999955" RelY="-0.009999999999990905" />
+      <Point X="379.0" Y="273.0" GraphRef="d55f5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-266051" />
+  </Interaction>
+  <Interaction GraphId="a5776">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="307.0" Y="388.0" GraphRef="f0ee1" RelX="0.0" RelY="-1.0" />
+      <Point X="315.0" Y="239.0" GraphRef="ebd24" RelX="2.5" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-266051" />
+  </Interaction>
+  <Interaction GraphId="de45b">
+    <Comment Source="Reactome">Leukotriene A4 (LTA4), produced by 5-lipoxygenase (ALOX5) in neutrophils, can be taken up by platelets where it is acted upon by 12-lipoxygenase (ALOX12) to form lipoxins (Samuelsson et al. 1987). The mechanism of translocation is unknown.</Comment>
+    <BiopaxRef>cba</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="479.0" Y="220.0" />
+      <Point X="479.0" Y="91.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f8c17" />
+      <Anchor Position="0.99" Shape="None" GraphId="a8be4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032036" />
+  </Interaction>
+  <Interaction GraphId="ae88e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="480.0" Y="223.0" GraphRef="cdb1f" RelX="0.0" RelY="-1.0" />
+      <Point X="479.0" Y="220.0" GraphRef="f8c17" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032036" />
+  </Interaction>
+  <Interaction GraphId="e9ba6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="479.0" Y="91.0" GraphRef="a8be4" RelX="0.0" RelY="-1.2900000000000063" />
+      <Point X="480.0" Y="88.0" GraphRef="a4068" RelX="-0.02127659574468085" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032036" />
+  </Interaction>
+  <Interaction GraphId="e6878">
+    <Comment Source="Reactome">lipoxin A4 (LXA4) and B4 (LXB4) are released to the extracellular region by an unknown mechanism (Samuelsson et al. 1987).</Comment>
+    <BiopaxRef>cba</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="523.0" Y="484.0" />
+      <Point X="523.0" Y="616.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="dd1ed" />
+      <Anchor Position="0.99" Shape="None" GraphId="f0225" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032054" />
+  </Interaction>
+  <Interaction GraphId="cb812">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="524.0" Y="478.0" GraphRef="e80ba" RelX="0.0" RelY="1.0" />
+      <Point X="523.0" Y="484.0" GraphRef="dd1ed" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032054" />
+  </Interaction>
+  <Interaction GraphId="ae1a8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="523.0" Y="616.0" GraphRef="f0225" RelX="0.0" RelY="1.3199999999999363" />
+      <Point X="523.0" Y="622.0" GraphRef="aa411" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032054" />
+  </Interaction>
+  <Label TextLabel="Neutrophil" GraphId="d6967">
+    <Graphics CenterX="174.0" CenterY="481.5" Width="70.0" Height="31.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Platelet" GraphId="c9cda">
+    <Graphics CenterX="441.0" CenterY="106.5" Width="64.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="d05ad" GroupRef="ee3e0">
+    <Graphics CenterX="172.0" CenterY="500.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nuclear envelope" GraphId="e8407" GroupRef="d3f3a">
+    <Graphics CenterX="245.0" CenterY="373.5" Width="128.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="de639" GroupRef="a5868">
+    <Graphics CenterX="445.0" CenterY="125.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="d8c1d" GroupRef="ee3e0">
+    <Graphics CenterX="672.5" CenterY="357.0" Width="1117.0" Height="400.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="fdeb9" GroupRef="d3f3a">
+    <Graphics CenterX="243.5" CenterY="382.0" Width="137.0" Height="82.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="a2d52" GroupRef="a5868">
+    <Graphics CenterX="601.5" CenterY="84.0" Width="411.0" Height="138.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="f1294" GraphId="a8396">
+    <Attribute Key="complex_id" Value="R-ALL-2161856" />
+  </Group>
+  <Group GroupId="b9169" GraphId="dffcb" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2142793" />
+  </Group>
+  <Group GroupId="c4240" GraphId="cee5f">
+    <Attribute Key="complex_id" Value="R-ALL-2161609" />
+  </Group>
+  <Group GroupId="f6112" GraphId="e0506" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2142778" />
+  </Group>
+  <Group GroupId="beaab" GraphId="a89f9" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2318764" />
+  </Group>
+  <Group GroupId="c3b76" GraphId="cbde8">
+    <Attribute Key="complex_id" Value="R-ALL-2161856" />
+  </Group>
+  <Group GroupId="fc75d" GraphId="fc7a0">
+    <Attribute Key="complex_id" Value="R-ALL-9037644" />
+  </Group>
+  <Group GroupId="f971f" GraphId="a06b8">
+    <Attribute Key="complex_id" Value="R-ALL-2161856" />
+  </Group>
+  <Group GroupId="ee3e0" GraphId="daca1" Style="Group" />
+  <Group GroupId="d3f3a" GraphId="bb52f" Style="Group" />
+  <Group GroupId="a5868" GraphId="cff18" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16968948</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The lipoxin receptor ALX: potent ligand-specific and stereoselective actions in vivo.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiang N, Serhan CN, Dahlén SE, Drazen JM, Hay DW, Rovati GE, Shimizu T, Yokomizo T, Brink C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f11">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19244215</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thematic Review Series: Proteomics. An integrated omics analysis of eicosanoid biology.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buczynski MW, Dumlao DS, Dennis EA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a61">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28827365</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capturing LTA&lt;sub&gt;4&lt;/sub&gt; hydrolase in action: Insights to the chemistry and dynamics of chemotactic LTB&lt;sub&gt;4&lt;/sub&gt; synthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stsiapanava A, Samuelsson B, Haeggström JZ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19233132</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distinct parts of leukotriene C(4) synthase interact with 5-lipoxygenase and 5-lipoxygenase activating protein.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strid T, Svartz J, Franck N, Hallin E, Ingelsson B, Söderström M, Hammarström S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a62">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8250832</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoxin synthase activity of human platelet 12-lipoxygenase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romano M, Chen XS, Takahashi Y, Yamamoto S, Funk CD, Serhan CN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b89">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2155925</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoxin formation during human neutrophil-platelet interactions. Evidence for the transformation of leukotriene A4 by platelet 12-lipoxygenase in vitro.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serhan CN, Sheppard KA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3770188</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence for a 5(6)-epoxytetraene intermediate in the biosynthesis of lipoxins in human leukocytes. Conversion into lipoxin A by cytosolic epoxide hydrolase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puustinen T, Webber SE, Nicolaou KC, Haeggström J, Serhan CN, Samuelsson B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6089195</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoxins: novel series of biologically active compounds formed from arachidonic acid in human leukocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serhan CN, Hamberg M, Samuelsson B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c78">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6422933</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trihydroxytetraenes: a novel series of compounds formed from arachidonic acid in human leukocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serhan CN, Hamberg M, Samuelsson B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d46">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3579953</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoxin synthesis by arachidonate 5-lipoxygenase purified from porcine leukocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ueda N, Yamamoto S, Fitzsimmons BJ, Rokach J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e85">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7568157</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspirin triggers previously undescribed bioactive eicosanoids by human endothelial cell-leukocyte interactions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clària J, Serhan CN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a35">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10837478</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxidoreductases in lipoxin A4 metabolic inactivation: a novel role for 15-onoprostaglandin 13-reductase/leukotriene B4 12-hydroxydehydrogenase in inflammation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clish CB, Levy BD, Chiang N, Tai HH, Serhan CN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8576264</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cDNA cloning, expression, and mutagenesis study of leukotriene B4 12-hydroxydehydrogenase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yokomizo T, Ogawa Y, Uozumi N, Kume K, Izumi T, Shimizu T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c17">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3164719</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of cloned human leukocyte 5-lipoxygenase expressed in mammalian cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rouzer CA, Rands E, Kargman S, Jones RE, Register RB, Dixon RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3118366</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reversible, calcium-dependent membrane association of human leukocyte 5-lipoxygenase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rouzer CA, Samuelsson B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3006030</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Single protein from human leukocytes possesses 5-lipoxygenase and leukotriene A4 synthase activities.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rouzer CA, Matsumoto T, Samuelsson B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cba">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2820055</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukotrienes and lipoxins: structures, biosynthesis, and biological effects.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samuelsson B, Dahlén SE, Lindgren JA, Rouzer CA, Serhan CN.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

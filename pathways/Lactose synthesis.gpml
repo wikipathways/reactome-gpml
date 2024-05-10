@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Lactose synthesis" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Synthesis of the disaccharide lactose takes place within the Golgi apparatus of epithelial cells of the lactating mammary gland. The synthesis itself is a single chemical reaction of free glucose and UDP-galactose to form lactose and UDP. For this reaction to occur, glucose is transported from the cytosol into the Golgi lumen, and B4GALT1 interacts with LALBA (alpha-lactalbumin) to modulate its substrate specificity (Brew and Hill 1975).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5653890 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 5653890</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <BiopaxRef>e5c</BiopaxRef>
+  <Attribute Key="reactome_id" Value="5653890" />
+  <Graphics BoardWidth="445.0" BoardHeight="625.0" />
+  <DataNode TextLabel="Glc" GraphId="d66f1" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="Golgi lumen" />
+    <Graphics CenterX="255.5" CenterY="159.0" Width="37.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17925" />
+  </DataNode>
+  <DataNode TextLabel="SLC2A1 tetramer" GraphId="df6b3" Type="Complex">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="166.5" CenterY="106.0" Width="115.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5653881" />
+  </DataNode>
+  <DataNode TextLabel="SLC2A1 " GraphId="a15ff" Type="Protein" GroupRef="b518e">
+    <BiopaxRef>ba3</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5653881" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="513.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11166" />
+  </DataNode>
+  <DataNode TextLabel="Glc" GraphId="c68f8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="257.5" CenterY="63.0" Width="37.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17925" />
+  </DataNode>
+  <DataNode TextLabel="B4GALT1" GraphId="fcb9f" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="122.0" CenterY="199.0" Width="66.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P15291" />
+  </DataNode>
+  <DataNode TextLabel="LALBA" GraphId="dbd8e" Type="Protein">
+    <BiopaxRef>e21</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi lumen" />
+    <Graphics CenterX="187.5" CenterY="200.0" Width="49.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P00709" />
+  </DataNode>
+  <DataNode TextLabel="B4GALT1:LALBA" GraphId="ed87f" Type="Complex">
+    <BiopaxRef>be2</BiopaxRef>
+    <BiopaxRef>aee</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="120.5" CenterY="312.0" Width="111.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5653885" />
+  </DataNode>
+  <DataNode TextLabel="B4GALT1 " GraphId="f34fb" Type="Protein" GroupRef="f58ab">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5653885" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="553.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P15291" />
+  </DataNode>
+  <DataNode TextLabel="LALBA " GraphId="c5e40" Type="Protein" GroupRef="f58ab">
+    <BiopaxRef>e21</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5653885" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="573.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P00709" />
+  </DataNode>
+  <DataNode TextLabel="UDP-Gal" GraphId="b6e38" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="Golgi lumen" />
+    <Graphics CenterX="200.0" CenterY="238.0" Width="70.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:66914" />
+  </DataNode>
+  <DataNode TextLabel="Mn2+" GraphId="e1ba3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="Golgi lumen" />
+    <Graphics CenterX="186.5" CenterY="276.0" Width="53.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29035" />
+  </DataNode>
+  <DataNode TextLabel="UDP" GraphId="aa385" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="Golgi lumen" />
+    <Graphics CenterX="202.5" CenterY="359.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58223" />
+  </DataNode>
+  <DataNode TextLabel="Lac" GraphId="ea644" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="Golgi lumen" />
+    <Graphics CenterX="256.5" CenterY="395.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17716" />
+  </DataNode>
+  <Interaction GraphId="a09b5">
+    <Comment Source="Reactome">SLC2A1 (aka GLUT1) tetramer in the Golgi membrane mediates the facilitated diffusion of glucose from the cytosol into the Golgi lumen. SLC2A1, normally confined to the plasma membrane, is also abundant in the Golgi membranes of epithelial cells of the lactating mammary gland, as demonstrated experimentally in mice (Nemeth et al. 2000). It is not known how this physiological state-specific relocalization is regulated.</Comment>
+    <BiopaxRef>ba3</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="256.0" Y="81.0" />
+      <Point X="255.0" Y="141.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fcb06" />
+      <Anchor Position="0.99" Shape="None" GraphId="f8543" />
+      <Anchor Position="0.5" Shape="None" GraphId="f009b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653873" />
+  </Interaction>
+  <Interaction GraphId="e6092">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="257.0" Y="78.0" GraphRef="c68f8" RelX="-0.02702702702702703" RelY="1.0" />
+      <Point X="256.0" Y="81.0" GraphRef="fcb06" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653873" />
+  </Interaction>
+  <Interaction GraphId="a2189">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="255.0" Y="141.0" GraphRef="f8543" RelX="-0.009999999999990905" RelY="0.5999999999999943" />
+      <Point X="255.0" Y="144.0" GraphRef="d66f1" RelX="-0.02702702702702703" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653873" />
+  </Interaction>
+  <Interaction GraphId="c5514">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="223.0" Y="106.0" GraphRef="df6b3" RelX="0.9826086956521739" RelY="0.0" />
+      <Point X="256.0" Y="106.0" GraphRef="f009b" RelX="0.5" RelY="-5.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653873" />
+  </Interaction>
+  <Interaction GraphId="e8c3f">
+    <Comment Source="Reactome">B4GALT1 (beta-1,4-galactosyltransferase 1) in the Golgi membrane associates with LALBA (alpha-lactalbumin) to form a heterodimer. This binding reaction is positively regulated by Mn2+ ions and UDP-galactose. This heterodimer has been observed both in solution in vitro and in crystalline form (Andrews 1970; Ramakrishnan &amp; Qasba 2001). The galactosyltransferase enzyme is found in the Golgi membrane of many cell types. LALBA is expressed specifically in the lactating mammary gland. Binding LALBA modulates the specificity of the galactosyltransferase enzyme. Alone, B4GALT1 transfers galactose moieties to glycolipids and N-linked oligosaccharides of glycoproteins. Complexed with LALBA, it transfers galactose to free glucose to form lactose (Brew and Hill 1975).</Comment>
+    <BiopaxRef>be2</BiopaxRef>
+    <BiopaxRef>e5c</BiopaxRef>
+    <BiopaxRef>aee</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="121.0" Y="238.0" />
+      <Point X="120.0" Y="298.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cb7fc" />
+      <Anchor Position="0.99" Shape="None" GraphId="fa9c1" />
+      <Anchor Position="0.5" Shape="None" GraphId="ee709" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653886" />
+  </Interaction>
+  <Interaction GraphId="ef8ea">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="122.0" Y="210.0" GraphRef="fcb9f" RelX="0.0" RelY="1.0" />
+      <Point X="121.0" Y="238.0" GraphRef="cb7fc" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653886" />
+  </Interaction>
+  <Interaction GraphId="ef905">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="163.0" Y="200.0" GraphRef="dbd8e" RelX="-1.0" RelY="0.0" />
+      <Point X="121.0" Y="238.0" GraphRef="cb7fc" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653886" />
+  </Interaction>
+  <Interaction GraphId="d7cb8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="120.0" Y="298.0" GraphRef="fa9c1" RelX="-0.010000000000005116" RelY="0.6000000000000227" />
+      <Point X="120.0" Y="301.0" GraphRef="ed87f" RelX="-0.009009009009009009" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653886" />
+  </Interaction>
+  <Interaction GraphId="d4bfe">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="165.0" Y="238.0" GraphRef="b6e38" RelX="-1.0" RelY="0.0" />
+      <Point X="121.0" Y="257.0" GraphRef="ee709" RelX="0.5" RelY="-11.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653886" />
+  </Interaction>
+  <Interaction GraphId="d6b28">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="165.0" Y="238.0" GraphRef="e1ba3" RelX="-0.8113207547169812" RelY="-2.533333333333333" />
+      <Point X="121.0" Y="257.0" GraphRef="ee709" RelX="0.5" RelY="-11.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653886" />
+  </Interaction>
+  <Interaction GraphId="a8d14">
+    <Comment Source="Reactome">In the Golgi membrane, the B4GALT1 subunit of the B4GALT1:LALBA (beta-1,4-galactosyltransferase 1 : alpha-lactalbumin) complex catalyzes the transfer of galactose from UDP-galactose to free glucose to form galactose and UDP (Andrews 1970; Ramakrishnan &amp; Qasba 2001). The representation here of a stable protein complex catalyzing the transformation of small molecule substrates provides a simplified view of the true reaction mechanism (Brew and Hill 1975), but is sufficient to identify the key participating molecules and their roles.</Comment>
+    <BiopaxRef>be2</BiopaxRef>
+    <BiopaxRef>e5c</BiopaxRef>
+    <BiopaxRef>aee</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="255.0" Y="267.0" />
+      <Point X="255.0" Y="331.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f00b9" />
+      <Anchor Position="0.99" Shape="None" GraphId="eac3b" />
+      <Anchor Position="0.5" Shape="None" GraphId="a7e0c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653878" />
+  </Interaction>
+  <Interaction GraphId="aab50">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="235.0" Y="238.0" GraphRef="b6e38" RelX="1.0" RelY="0.0" />
+      <Point X="255.0" Y="267.0" GraphRef="f00b9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653878" />
+  </Interaction>
+  <Interaction GraphId="caf3e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="255.0" Y="174.0" GraphRef="d66f1" RelX="-0.02702702702702703" RelY="1.0" />
+      <Point X="255.0" Y="267.0" GraphRef="f00b9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653878" />
+  </Interaction>
+  <Interaction GraphId="ea939">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="255.0" Y="331.0" GraphRef="eac3b" RelX="0.0" RelY="0.6399999999999864" />
+      <Point X="222.0" Y="359.0" GraphRef="aa385" RelX="0.9512195121951219" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653878" />
+  </Interaction>
+  <Interaction GraphId="c73a9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="255.0" Y="331.0" GraphRef="eac3b" RelX="0.0" RelY="0.6399999999999864" />
+      <Point X="256.0" Y="380.0" GraphRef="ea644" RelX="-0.024390243902439025" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653878" />
+  </Interaction>
+  <Interaction GraphId="a9dda">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="175.0" Y="312.0" GraphRef="ed87f" RelX="0.9819819819819819" RelY="0.0" />
+      <Point X="255.0" Y="312.0" GraphRef="a7e0c" RelX="0.0" RelY="13.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5653878" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="f9bd1" GroupRef="b35d8">
+    <Graphics CenterX="368.0" CenterY="440.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Golgi lumen" GraphId="a5599" GroupRef="fc2ef">
+    <Graphics CenterX="175.5" CenterY="384.5" Width="93.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="c8fe2" GroupRef="b35d8">
+    <Graphics CenterX="213.5" CenterY="253.0" Width="387.0" Height="464.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="dff63" GroupRef="fc2ef">
+    <Graphics CenterX="213.5" CenterY="271.5" Width="193.0" Height="341.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="b518e" GraphId="f42e8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5653881" />
+  </Group>
+  <Group GroupId="f58ab" GraphId="b0802" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5653885" />
+  </Group>
+  <Group GroupId="b35d8" GraphId="b5dcb" Style="Group" />
+  <Group GroupId="fc2ef" GraphId="eb40a" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">806951</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactose biosynthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brew K, Hill RL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10759149</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golgi targeting of the GLUT1 glucose transporter in lactating mouse mammary gland.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nemeth BA, Tsang SW, Geske RS, Haney PM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e21">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5049057</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The complete amino-acid sequence of human  -lactalbumin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Findlay JB, Brew K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11947697</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purification of lactose synthetase a protein from human milk and demonstration of its interaction with alpha-lactalbumin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrews P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11419947</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structure of lactose synthase reveals a large conformational change in its catalytic component, the beta1,4-galactosyltransferase-I.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramakrishnan B, Qasba PK.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

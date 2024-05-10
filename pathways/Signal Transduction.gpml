@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Signal Transduction" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Signal transduction is a process in which extracellular signals elicit changes in cell state and activity. Transmembrane receptors sense changes in the cellular environment by binding ligands, such as hormones and growth factors, or reacting to other types of stimuli, such as light. Stimulation of transmembrane receptors leads to their conformational change which propagates the signal to the intracellular environment by activating downstream signaling cascades. Depending on the cellular context, this may impact cellular proliferation, differentiation, and survival. On the organism level, signal transduction regulates overall growth and behavior.&lt;br&gt;Receptor tyrosine kinases (RTKs) transmit extracellular signals by phosphorylating their protein partners on conserved tyrosine residues.  Some of the best studied RTKs are EGFR (reviewed in Avraham and Yarden, 2011), FGFR (reviewed in Eswarakumar et al, 2005), insulin receptor (reviewed in Saltiel and Kahn, 2001), NGF (reviewed in Reichardt, 2006), PDGF (reviewed in Andrae et al, 2008) and VEGF (reviewed in Xie et al, 2004).  RTKs frequently activate downstream signaling through RAF/MAP kinases (reviewed in McKay and Morrison, 2007 and Wellbrock et al 2004), AKT (reviewed in Manning and Cantley, 2007) and PLC- gamma (reviewed in Patterson et al, 2005), which ultimately results in changes in gene expression and cellular metabolism.  &lt;br&gt;Receptor serine/threonine kinases of the TGF-beta family, such as TGF-beta receptors (reviewed in Kang et al. 2009) and BMP receptors (reviewed in Miyazono et al. 2009), transmit extracellular signals by phosphorylating regulatory SMAD proteins on conserved serine and threonine residues. This leads to formation of complexes of regulatory SMADs and SMAD4, which translocate to the nucleus where they act as transcription factors.  &lt;br&gt;WNT receptors transmit their signal through beta-catenin. In the absence of ligand, beta-catenin is constitutively degraded in a ubiquitin-dependent manner. WNT receptor stimulation releases beta-catenin from the destruction complex, allowing it to translocate to the nucleus where it acts as a transcriptional regulator (reviewed in MacDonald et al, 2009 and Angers and Moon, 2009).  WNT receptors were originally classified as G-protein coupled receptors (GPCRs).  Although they are structurally related, GPCRs primarily transmit their signals through G-proteins, which are trimers of alpha, beta and gamma subunits. When a GPCR is activated, it acts as a guanine nucleotide exchange factor, catalyzing GDP to GTP exchange on the G-alpha subunit of the G protein and its dissociation from the gamma-beta heterodimer.  The G-alpha subunit regulates the activity of adenylate cyclase, while the gamma-beta heterodimer can activate AKT and PLC signaling (reviewed in Rosenbaum et al. 2009, Oldham and Hamm 2008, Ritter and Hall 2009). &lt;br&gt;NOTCH receptors are activated by transmembrane ligands expressed on neighboring cells, which results in cleavage of NOTCH receptor and release of its intracellular domain. NOTCH intracellular domain translocates to the nucleus where it acts as a transcription factor (reviewed in Kopan and Ilagan, 2009). &lt;br&gt;Integrins are activated by extracellular matrix components, such as fibronectin and collagen, leading to conformational change and clustering of integrins on the cell surface.  This results in activation of integrin-linked kinase and other cytosolic kinases and, in co-operation with RTK signaling, regulates survival, proliferation and cell shape and adhesion (reviewed in Hehlgans et al, 2007) .  &lt;br&gt;Besides inducing changes in gene expression and cellular metabolism, extracellular signals that trigger the activation of Rho GTP-ases can trigger changes in the organization of cytoskeleton, thereby regulating cell polarity and cell-cell junctions (reviewed in Citi et al, 2011).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=162582 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 162582</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Bevan, A Paul, Charalambous, Marika, Gopinathrao, G, Joshi-Tope, Geeta, Rothfels, Karen, Orlic-Milacic, Marija</Comment>
+  <BiopaxRef>be9</BiopaxRef>
+  <BiopaxRef>c17</BiopaxRef>
+  <BiopaxRef>b5c</BiopaxRef>
+  <BiopaxRef>f80</BiopaxRef>
+  <BiopaxRef>cc0</BiopaxRef>
+  <BiopaxRef>b0e</BiopaxRef>
+  <BiopaxRef>a95</BiopaxRef>
+  <BiopaxRef>e65</BiopaxRef>
+  <BiopaxRef>ccc</BiopaxRef>
+  <BiopaxRef>d7d</BiopaxRef>
+  <BiopaxRef>d03</BiopaxRef>
+  <BiopaxRef>c36</BiopaxRef>
+  <BiopaxRef>aff</BiopaxRef>
+  <BiopaxRef>e1b</BiopaxRef>
+  <BiopaxRef>e02</BiopaxRef>
+  <BiopaxRef>ed1</BiopaxRef>
+  <BiopaxRef>c67</BiopaxRef>
+  <BiopaxRef>acf</BiopaxRef>
+  <BiopaxRef>ede</BiopaxRef>
+  <BiopaxRef>f9b</BiopaxRef>
+  <Attribute Key="reactome_id" Value="162582" />
+  <Graphics BoardWidth="653.0" BoardHeight="611.0" />
+  <DataNode TextLabel="Signaling by WNT" GraphId="f7481" Type="Pathway">
+    <Comment Source="Reactome">WNT signaling pathways control a wide range of developmental and adult process in metozoans including cell proliferation, cell fate decisions, cell polarity and stem cell maintenance (reviewed in Saito-Diaz et al, 2013; MacDonald et al, 2009).  The pathway is named for the WNT ligands, a large family of secreted cysteine-rich glycoproteins. At least 19 WNT members have been identified in humans and mice with distinct expression patterns during development (reviewed in Willert and Nusse, 2012).  These ligands can activate at least three different downstream signaling cascades depending on which receptors they engage. &lt;br&gt;  In the so-called 'canonical' WNT signaling pathway, WNT ligands bind one of the 10 human Frizzled (FZD) receptors in conjunction with the LRP5/6 co-receptors to activate a transcriptional cascade that controls processes such as cell fate, proliferation and self-renenwal of stem cells.  Engagement of the FZD-LRP receptor by WNT ligand results in the stabilization and translocation of cytosolic beta-catenin to the nucleus where it is a co-activator for LEF (lymphoid enhancer-binding factor)- and TCF (T cell factor) -dependent transcription.  In the absence of WNT ligand, cytosolic beta-catenin is phosphorylated by a degradation complex consisting of glycogen synthase kinase 3 (GSK3), casein kinase 1 (CK1), Axin and Adenomatous polyposis coli (APC), and subsequently ubiquitinated and degraded by the 26S proteasome (reviewed in Saito-Diaz et al, 2013; Kimmelman and Xu, 2006). &lt;br&gt;  In addition to the beta-catenin-dependent transcriptional response, WNT signaling can also activate distinct non-transcriptional pathways that regulate cell migration and polarity.  These beta-catenin-independent 'non-canonical' pathways signal through Frizzled receptors independently of LRP5/6, or occur through the tyrosine kinase receptors ROR and RYK (reviewed in Veeman et al, 2003; James et al, 2009).  Non-canonical WNT pathways are best studied in Drosophila where the planar cell polarity (PCP) pathway controls the orientation of wing hairs and eye facets, but are also involved in processes such as convergent extension, neural tube closure, inner ear development and hair orientation in vertebrates and mammals(reviewed in Seifert and Mlodzik, 2007; Simons and Mlodzik, 2008). In the PCP pathway, binding of WNT ligand to the FZD receptor leads to activation of small Rho GTPases and JNK, which regulate the cytoskeleton and coordinate cell migration and polarity (reviewed in Lai et al, 2009; Schlessinger et al, 2009).  In some cases, a FZD-WNT interaction increases intracellular calcium concentration and activates CaMK II and PKC; this WNT calcium pathway promotes cell migration and inhibits the canonical beta-catenin dependent transcriptional pathway (reviewed in Kuhl et al, 2000; Kohn and Moon, 2005; Rao et al 2010).  Binding of WNT to ROR or RYK receptors also regulates cell migration, apparently through activation of JNK or SRC kinases, respectively, however the details of these pathways remain to be worked out (reviewed in Minami et al, 2010).&lt;br&gt; Although the WNT signaling pathways were originally viewed as discrete, linear pathways controlled by defined subsets of 'canonical' or 'non-canonical' ligands and receptors, the emerging evidence is challenging this notion.  Instead, the specificity and the downstream response appear to depend on the particular cellular context and vary with species, tissue and stage of development (reviewed in van Amerongen and Nusse, 2009; Rao et al, 2010).</Comment>
+    <BiopaxRef>e35</BiopaxRef>
+    <BiopaxRef>e1b</BiopaxRef>
+    <BiopaxRef>ef5</BiopaxRef>
+    <BiopaxRef>af8</BiopaxRef>
+    <BiopaxRef>eef</BiopaxRef>
+    <BiopaxRef>e9f</BiopaxRef>
+    <BiopaxRef>a2f</BiopaxRef>
+    <BiopaxRef>a87</BiopaxRef>
+    <BiopaxRef>f78</BiopaxRef>
+    <BiopaxRef>bd2</BiopaxRef>
+    <BiopaxRef>f4c</BiopaxRef>
+    <BiopaxRef>b1e</BiopaxRef>
+    <BiopaxRef>b79</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="525.5" CenterY="245.0" Width="153.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-195721" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by NOTCH" GraphId="d35d8" Type="Pathway">
+    <Comment Source="Reactome">The Notch Signaling Pathway (NSP) is a highly conserved pathway  for cell-cell communication. NSP is involved in the regulation of cellular differentiation, proliferation, and specification. For example, it is utilised by continually renewing adult tissues such as blood, skin, and gut epithelium not only to maintain stem cells in a proliferative, pluripotent, and undifferentiated state but also to direct the cellular progeny to adopt different developmental cell fates. Analogously, it is used during embryonic development to create fine-grained patterns of differentiated cells, notably during neurogenesis where the NSP controls patches such as that of the vertebrate inner ear where individual hair cells are surrounded by supporting cells.&lt;br&gt;This process is known as lateral inhibition: a molecular mechanism whereby individual cells within a field are stochastically selected to adopt particular cell fates and the NSP inhibits their direct neighbours from doing the same. The NSP has been adopted by several other biological systems for binary cell fate choice. In addition, the NSP is also used during vertebrate segmentation to divide the growing embryo into regular blocks called somites which eventually form the vertebrae. The core of this process relies on regular pulses of Notch signaling generated from a molecular oscillator in the presomatic mesoderm.&lt;br&gt;The Notch receptor is synthesized in the rough endoplasmic reticulum as a single polypeptide precursor.  Newly synthesized Notch receptor is proteolytically cleaved in the trans-golgi network, creating a heterodimeric mature receptor comprising of non-covalently associated extracellular and transmembrane subunits. This assembly travels to the cell surface ready to interact with specific ligands. Following ligand activation and further proteolytic cleavage,  an intracellular domain is released and translocates to the nucleus where it regulates gene expression.</Comment>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="339.0" CenterY="375.5" Width="144.0" Height="55.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-157118" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by Hippo" GraphId="aca8e" Type="Pathway">
+    <Comment Source="Reactome">Human Hippo signaling is a network of reactions that regulates cell proliferation and apoptosis, centered on a three-step kinase cascade. The cascade was discovered by analysis of Drosophila mutations that lead to tissue overgrowth, and human homologues of its components have since been identified and characterized at a molecular level. Data from studies of mice carrying knockout mutant alleles of the genes as well as from studies of somatic mutations in these genes in human tumors are consistent with the conclusion that in mammals, as in flies, the Hippo cascade is required for normal regulation of cell proliferation and defects in the pathway are associated with cell overgrowth and tumorigenesis (Oh and Irvine 2010; Pan 2010; Zhao et al. 2010). This group of reactions is also notable for its abundance of protein:protein interactions mediated by WW domains and PPxY sequence motifs (Sudol and Harvey 2010).&lt;p&gt;There are two human homologues of each of the three Drosophila kinases, whose functions are well conserved: expression of human proteins rescues fly mutants. The two members of each pair of human homologues have biochemically indistinguishable functions. Autophosphorylated STK3 (MST2) and STK4 (MST1) (homologues of Drosophila Hippo) catalyze the phosphorylation and activation of LATS1 and LATS2 (homologues of Drosophila Warts) and of the accessory proteins MOB1A and MOB1B (homologues of Drosophila Mats). LATS1 and LATS2 in turn catalyze the phosphorylation of the transcriptional co-activators YAP1 and WWTR1 (TAZ) (homologues of Drosophila Yorkie).&lt;p&gt;In their unphosphorylated states, YAP1 and WWTR1 freely enter the nucleus and function as transcriptional co-activators. In their phosphorylated states, however, YAP1 and WWTR1 are instead bound by 14-3-3 proteins, YWHAB and YWHAE respectively, and sequestered in the cytosol.&lt;p&gt;Several accessory proteins are required for the three-step kinase cascade to function. STK3 (MST2) and STK4 (MST1) each form a complex with SAV1 (homologue of Drosophila Salvador), and LATS1 and LATS2 form complexes with MOB1A and MOB1B (homologues of Drosophila Mats).&lt;p&gt;In Drosophila a complex of three proteins, Kibra, Expanded, and Merlin, can trigger the Hippo cascade. A human homologue of Kibra, WWC1, has been identified and indirect evidence suggests that it can regulate the human Hippo pathway (Xiao et al. 2011). A molecular mechanism for this interaction has not yet been worked out and the molecular steps that trigger the Hippo kinase cascade in humans are unknown.&lt;p&gt;Four additional processes related to human Hippo signaling, although incompletely characterized, have been described in sufficient detail to allow their annotation. All are of physiological interest as they are likely to be parts of mechanisms by which Hippo signaling is modulated or functionally linked to other signaling processes. First, the caspase 3 protease cleaves STK3 (MST2) and STK4 (MST1), releasing inhibitory carboxyterminal domains in each case, leading to increased kinase activity and YAP1 / TAZ phosphorylation (Lee et al. 2001). Second, cytosolic AMOT (angiomotin) proteins can bind YAP1 and WWTR1 (TAZ) in their unphosphorylated states, a process that may provide a Hippo-independent mechanism to down-regulate the activities of these proteins (Chan et al. 2011). Third, WWTR1 (TAZ) and YAP1 bind ZO-1 and 2 proteins (Remue et al. 2010; Oka et al. 2010). Fourth, phosphorylated WWTR1 (TAZ) binds and sequesters DVL2, providing a molecular link between Hippo and Wnt signaling (Varelas et al. 2010).</Comment>
+    <BiopaxRef>be0</BiopaxRef>
+    <BiopaxRef>aa4</BiopaxRef>
+    <BiopaxRef>a89</BiopaxRef>
+    <BiopaxRef>eda</BiopaxRef>
+    <BiopaxRef>b07</BiopaxRef>
+    <BiopaxRef>b01</BiopaxRef>
+    <BiopaxRef>b4c</BiopaxRef>
+    <BiopaxRef>acc</BiopaxRef>
+    <BiopaxRef>a6e</BiopaxRef>
+    <BiopaxRef>de0</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="334.0" CenterY="145.0" Width="148.0" Height="56.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-2028269" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by Leptin" GraphId="a5562" Type="Pathway">
+    <Comment Source="Reactome">Leptin (LEP, OB, OBS), a circulating adipokine, and its receptor LEPR (DB, OBR) control food intake and energy balance and are implicated in obesity-related diseases (recently reviewed in Amitani et al. 2013, Dunmore and Brown 2013, Cottrell and Mercer 2012, La Cava 2012, Marroqui et al. 2012, Paz-Filho et al. 2012, Denver et al. 2011, Lee 2011, Marino et al. 2011, Morton and Schwartz 2011, Scherer and Buettner 2011, Shan and Yeo 2011, Wauman and Tavernier 2011, Dardeno et al. 2010, Bjorbaek 2009, Morris and Rui 2009, Myers et al. 2008), including cancer (Guo et al. 2012), inflammation (Newman and Gonzalez-Perez 2013, Iikuni et al. 2008), and angiogenesis (Gonzalez-Perez et al. 2013).&lt;br&gt;The identification of spontaneous mutations in the leptin gene (ob or LEP) and the leptin receptor gene (Ob-R, db or LEPR) genes in mice opened up a new field in obesity research. Leptin was discovered as the product of the gene affected by the ob (obesity) mutation, which causes obesity in mice. Likewise LEPR is the product of the gene affected by the db (diabetic) mutation. Leptin binding to LEPR induces canonical (JAK2/STATs; MAPK/ERK 1/2, PI-3K/AKT) and non-canonical signaling pathways (PKC, JNK, p38 MAPK and AMPK) in diverse cell types. The binding of leptin to the long isoform of LEPR (OB-Rl) initiates a phosphorylation cascade that results in transcriptional activation of target genes by STAT5 and STAT3 and activation of the PI3K pathway(not shown here), the MAPK/ERK pathway, and the mTOR/S6K pathway. Shorter LEPR isoforms with truncated intracellular domains are unable to activate the STAT pathway, but can transduce signals by way of activation of JAK2, IRS-1 or ERKs, including MAPKs.&lt;br&gt;LEPR is constitutively bound to the JAK2 kinase. Binding of LEP to LEPR causes a conformational change in LEPR that activates JAK2 autophosphorylation followed by phosphorylation of LEPR by JAK2. Phosphorylated LEPR binds STAT3, STAT5, and SHP2 which are then phosphorylated by JAK2. Phosphorylated JAK2 binds SH2B1 which then binds IRS1/2, resulting in phosphorylation of IRS1/2 by JAK2. Phosphorylated STAT3 and STAT5 dimerize and translocate to the nucleus where they activate transcription of target genes (Jovanovic et al. 2010). SHP2 activates the MAPK pathway. IRS1/2 activate the PI3K/AKT pathway which may be the activator of mTOR/S6K.&lt;br&gt;Several isoforms of LEPR have been identified (reviewed in Gorska et al. 2010). The long isoform (LEPRb, OBRb) is expressed in the hypothalamus and all types of immune cells. It is the only isoform known to fully activate signaling pathways in response to leptin. Shorter isoforms (LEPRa, LEPRc, LEPRd, and a soluble isoform LEPRe) are able to interact with JAK kinases and activate other pathways, however their roles in energy homeostasis are not fully characterized. </Comment>
+    <BiopaxRef>d19</BiopaxRef>
+    <BiopaxRef>efa</BiopaxRef>
+    <BiopaxRef>c47</BiopaxRef>
+    <BiopaxRef>fba</BiopaxRef>
+    <BiopaxRef>bea</BiopaxRef>
+    <BiopaxRef>a41</BiopaxRef>
+    <BiopaxRef>e03</BiopaxRef>
+    <BiopaxRef>f55</BiopaxRef>
+    <BiopaxRef>d51</BiopaxRef>
+    <BiopaxRef>c9a</BiopaxRef>
+    <BiopaxRef>edd</BiopaxRef>
+    <BiopaxRef>f7b</BiopaxRef>
+    <BiopaxRef>ab7</BiopaxRef>
+    <BiopaxRef>fbf</BiopaxRef>
+    <BiopaxRef>ed2</BiopaxRef>
+    <BiopaxRef>e7c</BiopaxRef>
+    <BiopaxRef>a53</BiopaxRef>
+    <BiopaxRef>da0</BiopaxRef>
+    <BiopaxRef>cc3</BiopaxRef>
+    <BiopaxRef>c9e</BiopaxRef>
+    <BiopaxRef>a8b</BiopaxRef>
+    <BiopaxRef>e46</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="339.5" CenterY="214.0" Width="153.0" Height="54.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-2586552" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by&#xA;Hedgehog" GraphId="b6b79" Type="Pathway">
+    <Comment Source="Reactome">Hedgehog (Hh) is a secreted morphogen that regulates developmental processes in vertebrates including limb bud formation, neural tube patterning, cell growth and differentiation (reviewed in Hui and Angers, 2011).  Hh signaling also contributes to stem cell homeostasis in adult tissues.  Downregulation of Hh signaling can lead to neonatal abnormalities, while upregulation of signaling is associated with the development of various cancers (Beachy et al, 2004; Jiang and Hui, 2008; Hui and Angers, 2011).&lt;br&gt;&lt;br&gt;Hh signaling is switched between 'off' and an 'on' states to differentially regulate an intracellular signaling cascade that targets the Gli transcription factors.  In the absence of Hh ligand, cytosolic Gli proteins are cleaved to yield a truncated form that translocates into the nucleus and represses target gene transcription.  Binding of Hh to the Patched (PTC) receptor on the cell surface stabilizes the Gli proteins in their full-length transcriptional activator form, stimulating Hh-dependent gene expression (reviewed in Hui and Angers, 2011; Briscoe and Therond, 2013).&lt;br&gt;&lt;br&gt;</Comment>
+    <BiopaxRef>e07</BiopaxRef>
+    <BiopaxRef>dda</BiopaxRef>
+    <BiopaxRef>b30</BiopaxRef>
+    <BiopaxRef>e85</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="331.5" CenterY="71.5" Width="143.0" Height="61.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5358351" />
+  </DataNode>
+  <DataNode TextLabel="Death Receptor&#xA;Signaling" GraphId="b14d7" Type="Pathway">
+    <Comment Source="Reactome">The death receptors (DR), all cell-surface receptors, that belong to the TNF receptor superfamily (TNFRSF). The term death receptor refers to those members of the TNFRSF that contain a "death domain" (DD) within their cytoplasmic tail which provides the capacity for proteinâ€“protein interactions with other DD-containing proteins suach as FADD. The main signals transmitted from TNF death receptors such as TNFR1, TRAIL-R, and CD95/FAS in response to their cognate ligand binding result in an apoptotic signaling pathway characterized by direct activation of intracellular cysteine proteases (caspases), without directly involving the mitochondrial death pathway. However, these death receptors have also been shown to initiate survival signals via the activation of transcription factors NFÎºappaB and AP1. This project describes an assembly of the death-inducing signaling complex (DISC) downstream of TNFR1, TRAIL-R, and CD95/FAS and shows protein composition and stoichiometry within the DISC. However, the DISC signaling complex may vary in its components stoichiometry. DR signaling may trigger formation of higher order receptor structures or signaling through rearrangement of receptor chains, which is not reflected here. The project also describes neuron-type-specific signaling by the p75NTR death receptor (also known as NGFR) that can regulate a number of different biological activities in response to ligand binding, including cell death and/or survival, axonal growth and synaptic plasticity.</Comment>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="137.0" CenterY="70.5" Width="150.0" Height="53.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-73887" />
+  </DataNode>
+  <DataNode TextLabel="MAPK family&#xA;signaling cascades" GraphId="bc3c6" Type="Pathway">
+    <Comment Source="Reactome">The mitogen activated protein kinases (MAPKs) are a family of conserved protein serine threonine kinases that respond to varied extracellular stimuli to activate intracellular processes including gene expression, metabolism, proliferation, differentiation and apoptosis, among others. &lt;br&gt;  The classic MAPK cascades, including the ERK1/2 pathway, the p38 MAPK pathway, the JNK pathway and the ERK5 pathway are characterized by three tiers of sequentially acting, activating kinases (reviewed in Kryiakis and Avruch, 2012; Cargnello and Roux, 2011).  The MAPK kinase kinase kinase (MAPKKK), at the top of the cascade, is phosphorylated on serine and threonine residues in response to external stimuli; this phosphorylation often occurs in the context of an interaction between the MAPKKK protein and a member of the RAS/RHO family of small GTP-binding proteins.  Activated MAPKKK proteins in turn phosphorylate the dual-specificity MAPK kinase proteins (MAPKK), which ultimately phosphorylate the MAPK proteins in a conserved Thr-X-Tyr motif in the activation loop.&lt;br&gt; Less is known about the activation of the atypical families of MAPKs, which include the ERK3/4 signaling cascade, the ERK7 cascade and the NLK cascade.  Although the details are not fully worked out, these MAPK proteins don't appear to be phosphorylated downstream of a 3-tiered kinase system as described above (reviewed in Coulombe and Meloche, 2007; Cargnello and Roux, 2011) . &lt;br&gt; Both conventional and atypical MAPKs are proline-directed serine threonine kinases and, once activated, phosphorylate substrates in the consensus P-X-S/T-P site. Both cytosolic and nuclear targets of MAPK proteins have been identified and upon stimulation, a proportion of the phosphorylated MAPKs relocalize from the cytoplasm to the nucleus. In some cases, nuclear translocation may be accompanied by dimerization, although the relationship between these two events is not fully elaborated (reviewed in Kryiakis and Avruch, 2012; Cargnello and Roux, 2011; Plotnikov et al, 2010).</Comment>
+    <BiopaxRef>c86</BiopaxRef>
+    <BiopaxRef>aa7</BiopaxRef>
+    <BiopaxRef>a17</BiopaxRef>
+    <BiopaxRef>d9b</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="123.0" CenterY="308.5" Width="136.0" Height="63.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5683057" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by&#xA;Receptor Tyrosine&#xA;Kinases" GraphId="b827d" Type="Pathway">
+    <Comment Source="Reactome">Receptor tyrosine kinases (RTKs) are a major class of cell surface proteins involved in Signal Transduction.  Human cells contain ~60 RTKs, grouped into 20 subfamilies based on their domain architecture. All RTK subfamilies are characterized by an extracellular ligand-binding domain, a single transmembrane region and an intracellular region consisting of the tyrosine kinase domain and additional regulatory and protein interaction domains. In general, RTKs associate into dimers upon ligand binding and are activated by autophosphorylation on conserved intracellular tyrosine residues. Autophosphorylation increases the catalytic efficiency of the receptor and provides binding sites for the assembly of downstream signaling complexes (reveiwed in Lemmon and Schlessinger, 2010). Common signaling pathways activated downstream of RTK activation include RAF/MAP kinase cascades (reviewed in McKay and Morrison, 2007 and Wellbrock et al 2004), AKT signaling (reviewed in Manning and Cantley, 2007) and PLC-gamma mediated signaling (reviewed in Patterson et al). Activation of these pathways ultimately results in changes in gene expression and cellular metabolism.</Comment>
+    <BiopaxRef>b03</BiopaxRef>
+    <BiopaxRef>c36</BiopaxRef>
+    <BiopaxRef>d03</BiopaxRef>
+    <BiopaxRef>be9</BiopaxRef>
+    <BiopaxRef>acf</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="342.5" CenterY="536.5" Width="135.0" Height="79.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9006934" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by TGFB&#xA;family members" GraphId="a90ba" Type="Pathway">
+    <Comment Source="Reactome">The human genome encodes 33 TGF-beta family members, including TGF-beta itself, as well as bone morphogenetic protein (BMP), activin, nodal and growth and differentiation factors (GDFs). This superfamily of ligands generally binds as dimers to hetero-tetrameric cell-surface receptor serine/threonine kinases to activate SMAD-dependent and SMAD-independent signaling (reviewed in Morikawa et al, 2016; Budi et al, 2017).&lt;br&gt;Signaling by the TGF-beta receptor complex is initiated by TGF-beta. TGF-beta (TGFB1), secreted as a homodimer, binds to TGF-beta receptor II (TGFBR2), inducing its dimerization and formation of a stable hetero-tetrameric complex with TGF-beta receptor I homodimer (TGFBR1). TGFBR2-mediated phosphorylation of TGFBR1 triggers internalization of the heterotetrameric TGF beta receptor complex (TGFBR) into clathrin coated endocytic vesicles and recruitment of cytosolic SMAD2 and SMAD3, which act as R-SMADs for TGF beta receptor complex. TGFBR1 phosphorylates SMAD2 and SMAD3, promoting their association with SMAD4 (known as Co-SMAD). In the nucleus, the SMAD2/3:SMAD4 heterotrimer binds target DNA elements and, in cooperation with other transcription factors, regulates expression of genes involved in cell differentiation. For a review of TGF-beta receptor signaling, please refer to Kang et al. 2009.&lt;br&gt; Signaling by BMP is triggered by bone morphogenetic proteins (BMPs). BMPs can bind type I receptors in the absence of type II receptors, but the presence of both types dramatically increases binding affinity. The type II receptor kinase transphosphorylates the type I receptor, leading to recruitment and phosphorylation of SMAD1, SMAD5 and SMAD8, which function as R-SMADs in BMP signalling pathways. Phosphorylated SMAD1, SMAD5 and SMAD8 form heterotrimeric complexes with SMAD4, the only Co-SMAD in mammals. The SMAD1/5/8:SMAD4 heterotrimer regulates transcription of genes involved in development of many tissues, including bone, cartilage, blood vessels, heart, kidney, neurons, liver and lung. For review of BMP signaling, please refer to Miyazono et al. 2010.&lt;br&gt;Signaling by activin is triggered when an activin dimer (activin A, activin AB or activin B) binds the type II receptor (ACVR2A, ACVR2B). This complex then interacts with the type I receptor (ACVR1B, ACVR1C) and phosphorylates it. The phosphorylated type I receptor phosphorylates SMAD2 and SMAD3. Dimers of phosphorylated SMAD2/3 bind SMAD4 and the resulting ternary complex enters the nucleus and activates target genes. For a review of activin signaling, please refer to Chen et al. 2006.</Comment>
+    <BiopaxRef>da2</BiopaxRef>
+    <BiopaxRef>b78</BiopaxRef>
+    <BiopaxRef>b5c</BiopaxRef>
+    <BiopaxRef>f80</BiopaxRef>
+    <BiopaxRef>c5c</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="513.5" CenterY="160.0" Width="137.0" Height="80.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9006936" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by GPCR" GraphId="df9d5" Type="Pathway">
+    <Comment Source="Reactome">G protein-coupled receptors (GPCRs; 7TM receptors; seven transmembrane domain receptors; heptahelical receptors; G protein-linked receptors [GPLR]) are the largest family of transmembrane receptors in humans, accounting for more than 1% of the protein-coding capacity of the human genome. All known GPCRs share a common architecture of seven membrane-spanning helices connected by intra- and extracellular loops. The extracellular loops contain two highly-conserved cysteine residues that form disulphide bonds to stabilize the structure of the receptor. They recognize diverse messengers such as light, odorants, small molecules, hormones and neurotransmitters. Most GPCRs act as guanine nucleotide exchange factors; activated by ligand binding, they promote GDP-GTP exchange on associated heterotrimeric guanine nucleotide-binding (G) proteins. There are two models for GPCR-G Protein interactions: 1) ligand-GPCR binding first, then binding to G Proteins; 2) "Pre-coupling" of GPCRs and G Proteins before ligand binding (review Oldham WM and Hamm HE, 2008). These in turn activate effector enzymes or ion channels. GPCRs are involved in a range of physiological roles which include the visual sense, smell, behavioural regulation, functions of the autonomic nervous system and regulation of the immune system and inflammation.&lt;br&gt;GPCRs are divided into  classes based on sequence homology and functional similarity.  The main mammalian classes, in order of size, are the Rhodopsin-like family A, the Secretin receptor family B, and the Metabotropic glutamate/pheromone receptor family C. </Comment>
+    <BiopaxRef>b87</BiopaxRef>
+    <BiopaxRef>b0e</BiopaxRef>
+    <BiopaxRef>fd0</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="133.5" CenterY="548.0" Width="139.0" Height="66.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-372790" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by Nuclear&#xA;Receptors" GraphId="a0828" Type="Pathway">
+    <Comment Source="Reactome">Nuclear receptors (NRs) are ligand-activated transcription factors that bind to small lipid based molecules to regulate gene expression and other cellular process. This family includes receptors for steroid hormones and derivatives (such as estrogen, progesterone,  glucocorticoids, Vitamin D, oxysterols and bile acids, among others) as well as receptors for retinoic acids, thyroid hormones and fatty acids and their derivatives. These ligands are able to diffuse directly through cellular membranes as a result of their lipophilic nature (reviewed in Beato et al, 1996; Holzer et al, 2017). 
+
+The 48 human nuclear receptors share a conserved modular structure that consists of a sequence specific DNA-binding domain and a ligand-binding domain, in addition to various other protein-protein interaction domains. Upon interaction with ligand, NRs bind to the regulatory regions of target genes as homo- or heterodimers, or more rarely, as monomers.  At the promoter, NRs interact with other activators and repressors to regulate gene expression (reviewed Beato et al, 1996; Simons et al, 2014; Hah and Kraus, 2010).
+
+A number of nuclear receptors are cytoplasmic in the absence of ligand and exist as part of a heat shock protein complex that regulates their cellular location, protein stability, competency to bind steroid hormones and transcriptional activity (Echeverria and Picard, 2010). Ligand-binding to these receptors promotes dimerization and nuclear translocation.  Other nuclear receptors are contstitutively nuclear and their chromatin-modifying activities are regulated by ligand binding (reviewed in Beato et al, 1996). 
+
+In addition to the classic transcriptional response, NRs also have a role in rapid, non-nuclear signaling originating from receptors localized at the plasma membrane. Ligand-binding to these receptors intitiates downstream phospholipase- and kinase-based signaling cascades (reviewed in Schwartz et al, 2016; Levin and Hammes, 2016).
+
+Signaling by estrogen, liver X and retinoic acid receptors are currently described here.
+
+
+
+
+ </Comment>
+    <BiopaxRef>c37</BiopaxRef>
+    <BiopaxRef>f68</BiopaxRef>
+    <BiopaxRef>b57</BiopaxRef>
+    <BiopaxRef>f61</BiopaxRef>
+    <BiopaxRef>a44</BiopaxRef>
+    <BiopaxRef>a4a</BiopaxRef>
+    <BiopaxRef>ec7</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="344.5" CenterY="451.0" Width="149.0" Height="74.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9006931" />
+  </DataNode>
+  <DataNode TextLabel="Intracellular&#xA;signaling by second&#xA;messengers" GraphId="fac5e" Type="Pathway">
+    <Comment Source="Reactome">Second messengers are generated within the cell as a downstream step in signal transduction cascades initiated by the interaction of an external stimulus with a  cell surface receptor.  Common second messengers include DAG,  cAMP, cGMP, IP3, Ca2+ and phosphatidylinositols (reviewed in Kang et al, 2015; Raker et al, 2016; Li and Marshall, 2015; Pinto et al, 2015; Ahmad et al, 2015).</Comment>
+    <BiopaxRef>e8b</BiopaxRef>
+    <BiopaxRef>cad</BiopaxRef>
+    <BiopaxRef>f41</BiopaxRef>
+    <BiopaxRef>d64</BiopaxRef>
+    <BiopaxRef>c09</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="141.0" CenterY="149.0" Width="176.0" Height="78.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9006925" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by&#xA;Non-Receptor&#xA;Tyrosine Kinases" GraphId="d4080" Type="Pathway">
+    <Comment Source="Reactome">In addition to receptor tyrosine kinases, the human genome encodes at least 32 non-receptor tyrosine kinases (non-RTKs). These cytosolic tyrosine kinases lack a transmembrane domain but are recruited into signal transduction cascades through interaction with other plasma-bound receptors, which may or may not themselves have intrinsic catalytic activity. In this way, non-RTKs essentially function as an (additional) enzymatic subunit of the signaling complex and contribute to many of the same downstream signaling pathways. The non-RTKs can be grouped into 9 families (ABL, SYK, JAK, TEC, FAK, ACK, SRC, BRK/PTK6 and CSK) based on their domain structure (reviewed in Neet and Hunter, 1996).</Comment>
+    <BiopaxRef>b83</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="339.5" CenterY="297.0" Width="151.0" Height="74.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9006927" />
+  </DataNode>
+  <DataNode TextLabel="MTOR signalling" GraphId="c2e01" Type="Pathway">
+    <Comment Source="Reactome">Target of rapamycin (mTOR) is a highly-conserved serine/threonine kinase that regulates cell growth and division in response to energy levels, growth signals, and nutrients (Zoncu et al. 2011). Control of mTOR activity is critical for the cell since its dysregulation leads to cancer, metabolic disease, and diabetes (Laplante &amp; Sabatini 2012). In cells, mTOR exists as two structurally distinct complexes termed mTOR complex 1 (mTORC1) and mTOR complex 2 (mTORC2), each one with specificity for different sets of effectors. mTORC1 couples energy and nutrient abundance to cell growth and proliferation by balancing anabolic (protein synthesis and nutrient storage) and catabolic (autophagy and utilization of energy stores) processes.</Comment>
+    <BiopaxRef>fd4</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="124.0" CenterY="383.5" Width="132.0" Height="61.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-165159" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by&#xA;Erythropoietin" GraphId="cd252" Type="Pathway">
+    <Comment Source="Reactome">Erythropoietin (EPO) is a cytokine that serves as the primary regulator of erythropoiesis, the differentiation of erythrocytes from stem cells in the liver of the fetus and the bone marrow of adult mammals (reviewed in Ingley 2012, Zhang et al. 2014, Kuhrt and Wojchowski 2015). EPO is produced in the kidneys in response to low oxygen tension and binds a receptor, EPOR, located on progenitor cells: burst forming unit-erythroid (BFU-e) cells and colony forming unit-erythroid (CFU-e) cells.&lt;br&gt;The erythropoietin receptor (EPOR) exists in lipid rafts (reviewed in McGraw and List 2017) as a dimer pre-associated with proteins involved in downstream signaling: the tyrosine kinase JAK2, the tyrosine kinase LYN, and the scaffold protein IRS2. Binding of EPO to the EPOR dimer causes a change in conformation (reviewed in Watowich et al. 2011, Corbett et al. 2016) that activates JAK2, which then transphosphorylates JAK2 and phosphorylates the cytoplasmic domain of EPOR. The phosphorylated EPOR serves directly or indirectly as a docking site for signaling molecules such as STAT5, phosphatidylinositol 4,5-bisphosphate 3-kinase (PI3K), phospholipase C gamma (PLCG1, PLCG2), and activators of RAS (SHC1, GRB2:SOS1, GRB2:VAV1).&lt;br&gt;EPO activates 4 major signaling pathways: STAT5-activated transcription, PI3K-AKT, RAS-RAF-ERK, and PLC-PKC. JAK2-STAT5 activates expression of BCL2L1 (Bcl-xL) and therefore appears to be important for anti-apoptosis. PI3K-AKT appears to be important for both anti-apoptosis and proliferation. The roles of other signaling pathways are controversial but both RAS-RAF-MEK-ERK and PLCgamma-PKC have mitogenic effects. Phosphatases such as SHP1 are also recruited and downregulate the EPO signal.&lt;br&gt;EPO also has effects outside of erythropoiesis. The EPOR is expressed in various tissues such as endothelium where it can act to stimulate growth and promote cell survival (Debeljak et al. 2014, KimÃ¡kovÃ¡ et al. 2017). EPO and EPOR in the neurovascular system act via Akt, Wnt1, mTOR, SIRT1, and FOXO proteins to prevent apoptotic cell injury (reviewed in  Ostrowski and Heinrich 2018, Maiese 2016) and EPO may have therapeutic value in the nervous system (Ma et al. 2016).</Comment>
+    <BiopaxRef>bbf</BiopaxRef>
+    <BiopaxRef>b15</BiopaxRef>
+    <BiopaxRef>edb</BiopaxRef>
+    <BiopaxRef>b4d</BiopaxRef>
+    <BiopaxRef>dee</BiopaxRef>
+    <BiopaxRef>d8d</BiopaxRef>
+    <BiopaxRef>cae</BiopaxRef>
+    <BiopaxRef>e51</BiopaxRef>
+    <BiopaxRef>b36</BiopaxRef>
+    <BiopaxRef>dfd</BiopaxRef>
+    <BiopaxRef>fc5</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="128.5" CenterY="465.0" Width="131.0" Height="62.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9006335" />
+  </DataNode>
+  <DataNode TextLabel="Integrin signaling" GraphId="c78d8" Type="Pathway">
+    <Comment Source="Reactome">Integrins are a major family of cell surface receptors that modulate cell adhesion, migration, proliferation and survival through interaction with the extracellular matrix (ECM) and the actin cytoskeleton.  Integrins are type 1 transmembrane proteins that exist at the cell surface as heterodimers of alpha and beta subunits, of which there are 18 and 8 different isoforms, respectively, in human cells. In addition to their mechanical role in mediating contact between the ECM and the cytoskeleton, integrins also modulate intracellular signaling pathways governing cytoskeletal rearrangements and pro-survival and mitogenic signaling (reviewed in Hehlgans et al, 2007; Harburger and Calderwood, 2009; Ata and Antonescu, 2017). &lt;br&gt;In this pathway, we describe signaling through integrin alphaIIb beta3 as a representative example.&lt;br&gt;
+At the sites of vascular injury bioactive molecules such as thrombin, ADP, collagen, fibrinogen and thrombospondin are generated, secreted or exposed. These stimuli activate platelets, converting the major platelet integrin alphaIIbbeta3 from a resting state to an active conformation, in a process termed integrin priming or 'inside-out signalling'. Integrin activation refers to the change required to enhance ligand-binding activity. The activated alphaIIbbeta3 interacts with the fibrinogen and links platelets together in an aggregate to form a platelet plug. AlphaIIbbeta3 bound to fibrin generates more intracellular signals (outside-in signalling), causing further platelet activation and platelet-plug retraction. &lt;br&gt;In the resting state the alpha and beta tails are close together.  This interaction keeps the membrane proximal regions in a bent conformation that maintains alphaIIbbeta3 in a low affinity state. &lt;br&gt;Integrin alphaIIbbeta3 is released from its inactive state by interaction with the protein talin. Talin interacts with the beta3 cytoplasmic domain and disrupts the salt bridge between the alpha and beta chains. This separation in the cytoplasmic regions triggers the conformational change in the extracellular domain that increases its affinity to fibrinogen. &lt;br&gt;Much of talin exists in an inactive cytosolic pool, and the Rap1 interacting adaptor molecule (RIAM) is implicated in talin activation and translocation to beta3 integrin cytoplasmic domain.&lt;br&gt;</Comment>
+    <BiopaxRef>ede</BiopaxRef>
+    <BiopaxRef>aae</BiopaxRef>
+    <BiopaxRef>e18</BiopaxRef>
+    <BiopaxRef>f3c</BiopaxRef>
+    <BiopaxRef>c13</BiopaxRef>
+    <BiopaxRef>cd7</BiopaxRef>
+    <BiopaxRef>ba7</BiopaxRef>
+    <BiopaxRef>bd0</BiopaxRef>
+    <BiopaxRef>bcb</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="132.0" CenterY="232.0" Width="144.0" Height="72.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-354192" />
+  </DataNode>
+  <DataNode TextLabel="Signaling by Rho&#xA;GTPases, Miro&#xA;GTPases and RHOBTB3" GraphId="e09f9" Type="Pathway">
+    <Comment Source="Reactome">RAS-like proteins are small GTP binding proteins characterized structurally by 5 G boxes that are involved in nucleotide binding and hydrolysis. RAS-like proteins are typically active when bound to GTP and inactive when bound to GDP. Conversion between the two states is mediated by effector proteins: among others, GTPase activating proteins (GAPs) enable hydrolysis of bound GTP to form GDP, which remains bound, and guanine nucleotide exchange factors (GEFs) enable exchange of bound GDP for free GTP (intracellular GTP concentrations are typically an order of magnitude higher than GDP concentrations) (reviewed in Tetlow and Tamanoi, 2013).&lt;br&gt;&lt;br&gt;The human genome includes over 150 members of the RAS superfamily grouped into five main subfamilies: RAS, RHO, ARF, RAB and RAN. These small GTPases affect a wide range of critical processes including gene expression, signal transduction, cell morphology, vesicle and nuclear trafficking, cellular proliferation and motility, among others (reviewed in Tetlow and Tamanoi, 2013).&lt;br&gt;&lt;br&gt;The RHO family of GTPases is large and diverse, with many of its members considered to be master regulators of actin cytoskeleton, involved in the regulation of cellular processes that depend on dynamic reorganization of the cytoskeleton, including cell migration, cell adhesion, cell division, establishment of cellular polarity and intracellular transport (reviewed in Hodge and Ridley 2016, and Olson 2018).&lt;br&gt;&lt;br&gt;MIRO proteins and RHOBTB3 protein, sometimes called atypical RHO proteins, show a high degree of overall sequence similarity to members of the five RAS-like subfamilies but diverge in their functions enough to constitute two separate subfamilies (Boureux et al. 2007). MIRO proteins have intrinsically high GTPase activity and do not require GTPase activator proteins (Peters et al. 2018). They play an important role mitochondrial biogenesis, maintenance and organization (reviewed in Birsa et al. 2013). The GTPase domain of RHOBTB3 is divergent from other Ras like superfamily members and displays ATPase activity (Espinosa et al. 2009). RHOBTB3 is involved in CUL3 dependent protein ubiquitination (Berthold et al. 2008; Ji and Rivero 2016), retrograde transport from endosomes to the Golgi apparatus (Espinosa et al. 2009), regulation of the cell cycle and in modulating the adaptive response to hypoxia (Ji and Rivero 2016).
+</Comment>
+    <BiopaxRef>e2b</BiopaxRef>
+    <BiopaxRef>b1f</BiopaxRef>
+    <BiopaxRef>bf5</BiopaxRef>
+    <BiopaxRef>f76</BiopaxRef>
+    <BiopaxRef>cd9</BiopaxRef>
+    <BiopaxRef>db7</BiopaxRef>
+    <BiopaxRef>c57</BiopaxRef>
+    <BiopaxRef>dba</BiopaxRef>
+    <BiopaxRef>ae6</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="526.5" CenterY="73.0" Width="193.0" Height="66.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-9716542" />
+  </DataNode>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17604717</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKT/PKB signaling: navigating downstream.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manning BD, Cantley LC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c17">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19379690</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The canonical Notch signaling pathway: unfolding the activation mechanism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kopan R, Ilagan MX.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19648010</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New regulatory mechanisms of TGF-beta receptor function.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kang JS, Liu C, Derynck R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f80">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19762341</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone morphogenetic protein receptors and signal transduction.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyazono K, Kamiya Y, Morikawa M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21252999</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feedback regulation of EGFR signalling: decision making by early and delayed loops.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avraham R, Yarden Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18043707</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterotrimeric G protein activation by G-protein-coupled receptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oldham WM, Hamm HE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a95">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19935667</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fine-tuning of GPCR activity by receptor-interacting proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ritter SL, Hall RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e65">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19458711</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The structure and function of G-protein-coupled receptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosenbaum DM, Rasmussen SG, Kobilka BK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21781017</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of small GTPases at epithelial cell-cell junctions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citi S, Spadaro D, Schneider Y, Stutz J, Pulimeno P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15863030</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cellular signaling by fibroblast growth factor receptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eswarakumar VP, Lax I, Schlessinger J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d03">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15520807</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The RAF proteins take centre stage.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wellbrock C, Karasarides M, Marais R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c36">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17496910</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrating signals from RTKs to ERK/MAPK.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McKay MM, Morrison DK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11742412</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insulin signalling and the regulation of glucose and lipid metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saltiel AR, Kahn CR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e1b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19619488</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt/beta-catenin signaling: components, mechanisms, and diseases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MacDonald BT, Tamai K, He X.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e02">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19536106</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proximal events in Wnt signal transduction.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angers S, Moon RT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15450248</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constitutive and inducible expression and regulation of vascular endothelial growth factor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xie K, Wei D, Shi Q, Huang S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c67">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18483217</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of platelet-derived growth factors in physiology and medicine.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrae J, Gallini R, Betsholtz C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="acf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16260143</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phospholipase C-gamma: diverse roles in receptor-mediated calcium signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patterson RL, van Rossum DB, Nikolaidis N, Gill DL, Snyder SH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ede">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17084981</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signalling via integrins: implications for cell survival and anticancer strategies.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hehlgans S, Haase M, Cordes N.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f9b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16939974</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurotrophin-regulated signalling pathways.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reichardt LF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e35">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17143292</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-catenin destruction complex: insights and questions from a structural perspective.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimelman D, Xu W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23256519</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The way Wnt works: components and mechanism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saito-Diaz K, Chen TW, Wang X, Thorne CA, Wallace HA, Page-McCaw A, Lee E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22952392</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Willert K, Nusse R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eef">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17230199</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frizzled/PCP signalling: a conserved mechanism regulating cell polarity and directed motility.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seifert JR, Mlodzik M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10858654</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Wnt/Ca2+ pathway: a new vertebrate Wnt signaling pathway takes shape.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kühl M, Sheldahl LC, Park M, Miller JR, Moon RT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a2f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16099039</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt and calcium signaling: beta-catenin-independent pathways.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kohn AD, Moon RT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a87">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18710302</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planar cell polarity signaling: from fly development to human disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simons M, Mlodzik M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f78">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12967557</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A second canon. Functions and mechanisms of beta-catenin-independent Wnt signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veeman MT, Axelrod JD, Moon RT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19204114</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt signaling pathways meet Rho GTPases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schlessinger K, Hall A, Tolwinski N.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20576942</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An updated overview on Wnt signaling pathways: a prelude for more.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rao TP, Kühl M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19530173</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ror-family receptor tyrosine kinases in noncanonical Wnt signaling: their implications in developmental morphogenesis and human diseases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minami Y, Oishi I, Endo M, Nishita M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b79">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19365405</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wnt/Fz signaling and the cytoskeleton: potential roles in tumorigenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lai SL, Chien AJ, Moon RT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21224387</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hippo pathway-independent restriction of TAZ and YAP by angiomotin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chan SW, Lim CJ, Chong YF, Pobbati AV, Huang C, Hong W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11278283</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MST, a physiological caspase substrate, highly sensitizes apoptosis both upstream and downstream of caspase activation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee KK, Ohyama T, Yajima N, Tsubuki S, Yonehara S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a89">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20452772</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yorkie: the final destination of Hippo signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oh H, Irvine KD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eda">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20868367</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional complexes between YAP2 and ZO-2 are PDZ domain-dependent, and regulate YAP2 nuclear localization and signalling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oka T, Remue E, Meerschaert K, Vanloo B, Boucherie C, Gfeller D, Bader GD, Sidhu SS, Vandekerckhove J, Gettemans J, Sudol M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b07">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20951342</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The hippo signaling pathway in development and cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b01">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20850437</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAZ interacts with zonula occludens-1 and -2 proteins in a PDZ-1 dependent manner.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remue E, Meerschaert K, Oka T, Boucherie C, Vandekerckhove J, Sudol M, Gettemans J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20598891</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modularity in the Hippo signaling pathway.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudol M, Harvey KF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="acc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20412773</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hippo pathway regulates Wnt/beta-catenin signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Varelas X, Miller BW, Sopko R, Song S, Gregorieff A, Fellouse FA, Sakuma R, Pawson T, Hunziker W, McNeill H, Wrana JL, Attisano L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21233212</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KIBRA regulates Hippo signaling activity via interactions with large tumor suppressor kinases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xiao L, Chen Y, Ji M, Dong J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20439427</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hippo-YAP pathway in organ size control and tumorigenesis: an updated version.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhao B, Li L, Lei Q, Guan KL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d19">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21622208</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptin receptor signaling: pathways to leptin resistance.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wauman J, Tavernier J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="efa">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20600241</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptin in human physiology and therapeutics.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dardeno TA, Chou SH, Moon HS, Chamberland JP, Fiorenza CG, Mantzoros CS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c47">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20029269</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central leptin receptor action and resistance in obesity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjørbaek C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fba">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17937601</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanisms of leptin action and leptin resistance.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myers MG, Cowley MA, Münzberg H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bea">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19724019</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recent advances in understanding leptin signaling and leptin resistance.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morris DL, Morris DL, Rui L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22991412</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of adipokines in β-cell failure of type 2 diabetes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dunmore SJ, Brown JE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e03">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22249808</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptin receptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cottrell EC, Mercer JG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f55">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21677426</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evolution of leptin structure and function.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denver RJ, Bonett RM, Boorse GC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23579596</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of leptin in the control of insulin-glucose axis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amitani M, Asakawa A, Amitani H, Inui A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23565489</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptin therapy, insulin sensitivity, and glucose homeostasis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paz-Filho G, Mastronardi C, Wong ML, Licinio J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21527729</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptin and the central nervous system control of glucose metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morton GJ, Schwartz MW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22458591</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proinflammatory activities of leptin in non-autoimmune conditions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Cava A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22448029</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of leptin in the pancreatic β-cell: effects and signaling pathways.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marroquí L, Gonzalez A, Ñeco P, Caballero-Garrido E, Vieira E, Ripoll C, Nadal A, Quesada I.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fbf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22211890</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obesity, leptin, and Alzheimer's disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee EB.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21713385</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yin and Yang of hypothalamic insulin and leptin signaling in regulating white adipose tissue metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scherer T, Buettner C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21489811</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central insulin and leptin-mediated autonomic control of glucose homeostasis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marino JS, Xu Y, Hill JW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a53">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21331644</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central leptin and ghrelin signalling: comparing and contrasting their mechanisms of action in the brain.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shan X, Yeo GS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20553370</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of the global transcriptomic response of the hypothalamic arcuate nucleus to fasting and leptin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jovanovic Z, Tung YC, Lam BY, O'Rahilly S, Yeo GS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21147620</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptin receptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gorska E, Popko K, Stelmaszczyk-Emmel A, Ciepiela O, Kucharska A, Kucharska A, Wasik M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22289780</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncogenic role and therapeutic target of leptin signaling in breast cancer and cancer stem cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guo S, Liu M, Wang G, Torroella-Kouri M, Gonzalez-Perez RR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20198122</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptin and Inflammation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iikuni N, Lam QL, Lu L, Matarese G, La Cava A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e46">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23562747</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptin-cytokine crosstalk in breast cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newman G, Gonzalez-Perez RR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e07">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21801010</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gli proteins in development and disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hui CC, Angers S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dda">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19081070</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgehog signaling in development and cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang J, Hui CC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b30">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23719536</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanisms of Hedgehog signalling and its roles in development and disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Briscoe J, Thérond PP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e85">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15549094</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue repair and stem cell renewal in carcinogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beachy PA, Karhadkar SS, Berman DM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c86">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22535895</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian MAPK signal transduction pathways activated by stress and inflammation: a 10-year update.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kyriakis JM, Avruch J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21372320</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation and function of the MAPKs and their substrates, the MAPK-activated protein kinases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cargnello M, Roux PP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a17">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17161475</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atypical mitogen-activated protein kinases: structure, regulation and functions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coulombe P, Meloche S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21167873</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The MAPK cascades: signaling components, nuclear roles and mechanisms of nuclear translocation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plotnikov A, Zehorai E, Procaccia S, Seger R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b03">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20602996</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell signaling by receptor tyrosine kinases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lemmon MA, Schlessinger J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28552280</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transforming Growth Factor-β Receptors and Smads: Regulatory Complexity and Functional Versatility.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Budi EH, Duan D, Derynck R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b78">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27141051</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGF-β and the TGF-β Family: Context-Dependent Roles in Cell and Tissue Physiology.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morikawa M, Derynck R, Miyazono K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16636301</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activin signaling and its role in regulation of cell proliferation, apoptosis, and carcinogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen YG, Wang Q, Lin SL, Chang CD, Chuang J, Ying SY.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b87">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10202136</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular tinkering of G protein-coupled receptors: an evolutionary success.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bockaert J, Pin JP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16902930</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 7 TM G-protein-coupled receptor target family.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacoby E, Bouhelal R, Gerspacher M, Seuwen K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c37">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8733009</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transcriptional regulation by steroid hormones.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beato M, Chávez S, Truss M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f68">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28527568</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evolution of Nuclear Receptors and Ligand Signaling: Toward a Soft Key-Lock Model?</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holzer G, Markov GV, Laudet V.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b57">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24284822</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minireview: dynamic structures of nuclear hormone receptors: new promises and challenges.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simons SS, Edwards DP, Kumar R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f61">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23810978</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hormone-regulated transcriptomes: lessons learned from estrogen signaling pathways in breast cancer cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hah N, Kraus WL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a44">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20006655</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular chaperones, essential partners of steroid hormone receptors for activity and mobility.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echeverria PC, Picard D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a4a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27288742</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapid steroid hormone actions via membrane receptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schwartz N, Verma A, Bivens CB, Schwartz Z, Boyan BD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27729652</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuclear receptors outside the nucleus: extranuclear signalling by steroid receptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levin ER, Hammes SR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25056711</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclic nucleotide phosphodiesterases: important signaling modulators and therapeutic targets.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmad F, Murata T, Shimizu K, Degerman E, Maurice D, Manganiello V.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cad">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27065076</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cAMP Pathway as Therapeutic Target in Autoimmune and Inflammatory Diseases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raker VK, Becker C, Steinbrink K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26275497</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcium signaling and cell proliferation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinto MC, Kihara AH, Goulart VA, Tonelli FM, Gomes KN, Ulrich H, Resende RR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d64">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26588873</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roles of phosphoinositide-specific phospholipase Cγ1 in brain development.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kang DS, Yang YR, Lee C, Kim S, Ryu SH, Suh PG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c09">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26922871</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signalling at membrane contact sites: two membranes come together to handle second messengers.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levine TP, Patel S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b83">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9140060</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrate non-receptor protein-tyrosine kinase families.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neet K, Hunter T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21157483</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mTOR: from growth signal integration to cancer, diabetes and ageing.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zoncu R, Efeyan A, Sabatini DM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27490140</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Revisiting the scissor-like mechanism of activation for the erythropoietin receptor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corbett MS, Poger D, Mark AE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b15">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22431075</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrating novel signaling pathways involved in erythropoiesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingley E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25887776</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emerging EPO and EPO receptor regulators and signal transducers.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuhrt D, Wojchowski DM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24918289</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythropoietin action in stress response, tissue maintenance and metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang Y, Wang L, Dey S, Alnaeeli M, Suresh S, Rogers H, Teng R, Noguchi CT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21307776</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The erythropoietin receptor: molecular structure and hematopoietic signaling pathways.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watowich SS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26549969</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regeneration in the nervous system with erythropoietin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maiese K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29393890</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternative Erythropoietin Receptors in the Nervous System.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostrowski D, Heinrich R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28629526</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythropoietin Receptor Signaling and Lipid Rafts.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McGraw K, List A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b36">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27164096</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythropoietin Pathway: A Potential Target for the Treatment of Depression.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ma C, Cheng F, Wang X, Zhai C, Yue W, Lian Y, Wang Q.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28703764</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythropoietin and Its Angiogenic Activity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimáková P, Solár P, Solárová Z, Komel R, Debeljak N.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25426117</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythropoietin and cancer: the unintended consequences of anemia correction.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Debeljak N, Solár P, Sytkowski AJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19118207</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrin signalling at a glance.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harburger DS, Calderwood DA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e18">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28106780</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrins and Cell Metabolism: An Intimate Relationship Impacting Cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ata R, Antonescu CN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16102042</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPVI and integrin alphaIIb beta3 signaling in platelets.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watson SP, Auger JM, McCarty OJ, Pearce AC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c13">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17624957</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platelet integrins and immunoreceptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kasirer-Friede A, Kahn ML, Shattil SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15205259</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrins: dynamic scaffolds for adhesion and signaling in platelets.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shattil SJ, Newman PJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14754902</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrin activation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calderwood DA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10508650</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrin alpha(IIb)beta(3) signaling in platelet adhesion and aggregation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parise LV.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10605720</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signaling through platelet integrin alpha IIb beta 3: inside-out, outside-in, and sideways.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shattil SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25033798</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ras superfamily G-proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetlow AL, Tamanoi F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17035353</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evolution of the Rho family of ras-like GTPases in eukaryotes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boureux A, Vignal E, Faure S, Fort P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27301673</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulating Rho GTPases and their regulators.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodge RG, Ridley AJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f76">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27548350</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rho GTPases, their post-translational modifications, disease-associated mutations and pharmacological inhibitors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olson MF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30513825</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Miro Proteins Act as NTP Hydrolases through a Novel, Non-Canonical Catalytic Mechanism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peters DT, Kay L, Eswaran J, Lakey JH, Soundararajan M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24256248</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrial trafficking in neurons and the role of the Miro family of GTPase proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birsa N, Norkett R, Higgs N, Lopez-Domenech G, Kittler JT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c57">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19490898</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RhoBTB3: a Rho GTPase-family ATPase required for endosome to Golgi transport.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espinosa EJ, Calero M, Sridevi K, Pfeffer SR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dba">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27314390</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atypical Rho GTPases of the RhoBTB Subfamily: Roles in Vesicle Trafficking and Tumorigenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ji W, Rivero F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18298893</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rho GTPases of the RhoBTB subfamily and tumorigenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berthold J, Schenkova K, Rivero F.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

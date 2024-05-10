@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Vitamin D (calciferol) metabolism" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Vitamin D3 (VD3, cholecalciferol) is a steroid hormone that principally plays roles in regulating intestinal calcium absorption and in bone metabolism. It is obtained from the diet and produced in the skin by photolysis of 7-dehydrocholesterol and released into the bloodstream. Very few foods (eg. oily fish, mushrooms exposed to sunlight and cod liver oil) are natural sources of vitamin D.  A small number of countries in the world artificially fortify a few foods with vitamin D. The metabolites of vitamin D are carried in the circulation bound to a plasma protein called vitamin D binding protein (GC) (for review see Delanghe et al. 2015, Chun 2012). Vitamin D undergoes two subsequent hydroxylations to form the active form of the vitamin, 1-alpha, 25-dihydroxyvitamin D (1,25(OH)2D). The first hydroxylation takes place in the liver followed by subsequent transport to the kidney where the second hydroxylation takes place. 1,25(OH)2D acts by binding to nuclear vitamin D receptors (Neme et al. 2017) and it has been estimated that upwards of 2000 genes are directly or indirectly regulated which are involved in calcium homeostasis, immune responses, cellular growth, differentiation and apoptosis (Hossein-nezhad et al. 2013, Hossein-nezhad &amp; Holick 2013). Inactivation of 1,25(OH)2D occurs via C23/C24 oxidation catalysed by cytochrome CYP24A1 enzyme (Christakos et al. 2016).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=196791 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 196791</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Jassal, Bijay</Comment>
+  <BiopaxRef>e36</BiopaxRef>
+  <Attribute Key="reactome_id" Value="196791" />
+  <Graphics BoardWidth="2219.0" BoardHeight="1630.0" />
+  <DataNode TextLabel="GC" GraphId="b6819" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="637.0" CenterY="175.0" Width="26.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P02774" />
+  </DataNode>
+  <DataNode TextLabel="GC:VD3" GraphId="b68e9" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="584.5" CenterY="113.0" Width="55.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-352339" />
+  </DataNode>
+  <DataNode TextLabel="GC " GraphId="ae5ca" Type="Protein" GroupRef="fb4e6">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-352339" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="878.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P02774" />
+  </DataNode>
+  <DataNode TextLabel="VD3 " GraphId="dc1da" Type="Metabolite" GroupRef="fb4e6">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-352339" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="898.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28940" />
+  </DataNode>
+  <DataNode TextLabel="CYP2R1" GraphId="cb2f1" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="918.5" CenterY="174.0" Width="55.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6VVX0" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="defc8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1022.5" CenterY="52.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="ac907" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1026.0" CenterY="97.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="bfb79" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="972.0" CenterY="73.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="fcf99" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="976.0" CenterY="283.0" Width="60.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="GC:25(OH)D" GraphId="d3cb5" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="305.5" CenterY="299.0" Width="81.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-209892" />
+  </DataNode>
+  <DataNode TextLabel="25(OH)D " GraphId="a548c" Type="Metabolite" GroupRef="bd303">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-209892" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="958.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17933" />
+  </DataNode>
+  <DataNode TextLabel="GC " GraphId="ff0bf" Type="Protein" GroupRef="bd303">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-209892" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="978.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P02774" />
+  </DataNode>
+  <DataNode TextLabel="CUBN" GraphId="f7887" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="29.5" CenterY="417.0" Width="41.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60494" />
+  </DataNode>
+  <DataNode TextLabel="CUBN:GC:25(OH)D" GraphId="a81a2" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="118.5" CenterY="415.0" Width="117.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-350115" />
+  </DataNode>
+  <DataNode TextLabel="CUBN " GraphId="a226a" Type="Protein" GroupRef="ca9c6">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-350115" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1038.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60494" />
+  </DataNode>
+  <DataNode TextLabel="25(OH)D " GraphId="e1154" Type="Metabolite" GroupRef="ca9c6">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-350115" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1058.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17933" />
+  </DataNode>
+  <DataNode TextLabel="GC " GraphId="b534b" Type="Protein" GroupRef="ca9c6">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-350115" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1078.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P02774" />
+  </DataNode>
+  <DataNode TextLabel="CUBN:GC:25(OH)D" GraphId="e02b0" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="205.5" CenterY="467.0" Width="117.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-350092" />
+  </DataNode>
+  <DataNode TextLabel="CUBN " GraphId="a1fb7" Type="Protein" GroupRef="c95cc">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-350092" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1138.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60494" />
+  </DataNode>
+  <DataNode TextLabel="25(OH)D " GraphId="ddc12" Type="Metabolite" GroupRef="c95cc">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-350092" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1158.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17933" />
+  </DataNode>
+  <DataNode TextLabel="GC " GraphId="ce769" Type="Protein" GroupRef="c95cc">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-350092" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1178.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P02774" />
+  </DataNode>
+  <DataNode TextLabel="CUBN:GC:25(OH)D" GraphId="ce9d0" Type="Complex">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Graphics CenterX="205.5" CenterY="568.0" Width="117.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-350085" />
+  </DataNode>
+  <DataNode TextLabel="GC " GraphId="c4823" Type="Protein" GroupRef="e74c5">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-350085" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1238.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P02774" />
+  </DataNode>
+  <DataNode TextLabel="CUBN " GraphId="cb2bd" Type="Protein" GroupRef="e74c5">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-350085" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1258.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60494" />
+  </DataNode>
+  <DataNode TextLabel="25(OH)D " GraphId="f2d67" Type="Metabolite" GroupRef="e74c5">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-350085" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1278.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17933" />
+  </DataNode>
+  <DataNode TextLabel="CUBN" GraphId="c2911" Type="Protein">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Graphics CenterX="391.5" CenterY="575.0" Width="41.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60494" />
+  </DataNode>
+  <DataNode TextLabel="25(OH)D" GraphId="b3fab" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Graphics CenterX="446.0" CenterY="634.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17933" />
+  </DataNode>
+  <DataNode TextLabel="LGMN" GraphId="acf8c" Type="Protein">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Graphics CenterX="130.5" CenterY="632.0" Width="43.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99538" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="b3448" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="828.5" CenterY="546.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="1,25(OH)2D" GraphId="a47fb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="894.0" CenterY="514.0" Width="88.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17823" />
+  </DataNode>
+  <DataNode TextLabel="CYP27B1(?-508)" GraphId="b67a4" Type="Protein">
+    <Comment Source="Reactome">The start coordinate is not yet known</Comment>
+    <Attribute Key="cellular_location" Value="mitochondrial outer membrane" />
+    <Graphics CenterX="761.0" CenterY="577.0" Width="106.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15528" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="afa0c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="821.0" CenterY="473.0" Width="60.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="bb272" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="635.0" CenterY="479.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="f50f7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="608.5" CenterY="514.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="e34e9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="680.0" CenterY="466.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="CTA" GraphId="f6004" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1004.5" CenterY="807.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:47828" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="f7cd0" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="973.5" CenterY="754.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="CYP24A1" GraphId="ee4c2" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Graphics CenterX="925.5" CenterY="632.0" Width="63.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q07973" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="a1d97" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="993.0" CenterY="577.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="ae6d9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1029.0" CenterY="586.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="b6ec0" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1052.5" CenterY="619.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="f421d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1046.0" CenterY="740.0" Width="60.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="25(OH)D" GraphId="ed754" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="700.0" CenterY="237.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17933" />
+  </DataNode>
+  <DataNode TextLabel="7-dehydroCHOL" GraphId="b349c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="220.0" CenterY="84.0" Width="112.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17759" />
+  </DataNode>
+  <DataNode TextLabel="VD3" GraphId="efedd" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="353.0" CenterY="84.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28940" />
+  </DataNode>
+  <DataNode TextLabel="VD3" GraphId="d5322" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="472.0" CenterY="86.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28940" />
+  </DataNode>
+  <DataNode TextLabel="VD3" GraphId="dfe38" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="927.0" CenterY="117.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28940" />
+  </DataNode>
+  <DataNode TextLabel="VD3" GraphId="eeabf" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="761.0" CenterY="113.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28940" />
+  </DataNode>
+  <DataNode TextLabel="GC" GraphId="fd412" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="477.0" CenterY="144.0" Width="26.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P02774" />
+  </DataNode>
+  <DataNode TextLabel="CUBN:25(OH)D" GraphId="e6c56" Type="Complex">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Graphics CenterX="290.0" CenterY="633.0" Width="96.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8963847" />
+  </DataNode>
+  <DataNode TextLabel="CUBN " GraphId="b215b" Type="Protein" GroupRef="fc537">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-8963847" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1338.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60494" />
+  </DataNode>
+  <DataNode TextLabel="25(OH)D " GraphId="cc891" Type="Metabolite" GroupRef="fc537">
+    <Attribute Key="cellular_location" Value="lysosomal lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-8963847" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1358.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17933" />
+  </DataNode>
+  <DataNode TextLabel="Cholesterol&#xA;biosynthesis" GraphId="f37c7" Type="Pathway">
+    <Comment Source="Reactome">Cholesterol is synthesized de novo from acetyl CoA. The overall synthetic process is outlined in the attached illustration. Enzymes whose regulation plays a major role in determining the rate of cholesterol synthesis in the body are highlighted in red, and connections to other metabolic processes are indicated. The transformation of zymosterol into cholesterol can follow either of routes, one in which reduction of the double bond in the isooctyl side chain is the final step (cholesterol synthesis via desmosterol, also known as the Bloch pathway) and one in which this reduction is the first step (cholesterol biosynthesis via lathosterol, also known as the Kandutsch-Russell pathway). The former pathway is prominent in the liver and many other tissues while the latter is prominent in skin, where it may serve as the source of the 7-dehydrocholesterol that is the starting point for the synthesis of D vitamins. Defects in several of the enzymes involved in this process are associated with human disease and have provided useful insights into the regulatory roles of cholesterol and its synthetic intermediates in human development (Gaylor 2002; Herman 2003; Kandutsch &amp; Russell 1960; Mitsche et al. 2015; Song et al. 2005).</Comment>
+    <BiopaxRef>ff8</BiopaxRef>
+    <BiopaxRef>bd3</BiopaxRef>
+    <BiopaxRef>dff</BiopaxRef>
+    <BiopaxRef>db7</BiopaxRef>
+    <BiopaxRef>e89</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="69.0" CenterY="85.5" Width="96.0" Height="53.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-191273" />
+  </DataNode>
+  <DataNode TextLabel="25(OH)D" GraphId="cb548" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="921.0" CenterY="243.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17933" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="db724" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1022.5" CenterY="236.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="25(OH)D" GraphId="c7b6e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="596.0" CenterY="635.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17933" />
+  </DataNode>
+  <DataNode TextLabel="1,25(OH)2D" GraphId="b0828" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1324.0" CenterY="514.0" Width="88.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17823" />
+  </DataNode>
+  <DataNode TextLabel="VDR" GraphId="ae45a" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1382.0" CenterY="552.0" Width="34.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11473" />
+  </DataNode>
+  <DataNode TextLabel="1,25(OH)2D:VDR" GraphId="fefa5" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1549.5" CenterY="515.0" Width="109.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8963916" />
+  </DataNode>
+  <DataNode TextLabel="1,25(OH)2D " GraphId="d0cab" Type="Metabolite" GroupRef="b2472">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8963916" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1418.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17823" />
+  </DataNode>
+  <DataNode TextLabel="VDR " GraphId="f2e27" Type="Protein" GroupRef="b2472">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8963916" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1438.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11473" />
+  </DataNode>
+  <DataNode TextLabel="SUMO2:UBE2I" GraphId="a4273" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1307.5" CenterY="665.0" Width="87.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2993778" />
+  </DataNode>
+  <DataNode TextLabel="SUMO2-C93-UBE2I " GraphId="b8571" Type="Protein" GroupRef="ef5fc">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-2993778" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1498.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P63279" />
+  </DataNode>
+  <DataNode TextLabel="UBE2I-G93-SUMO2 " GraphId="ad6bf" Type="Protein" GroupRef="ef5fc">
+    <BiopaxRef>ca2</BiopaxRef>
+    <BiopaxRef>b0b</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-2993778" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1518.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61956" />
+  </DataNode>
+  <DataNode TextLabel="UBE2I" GraphId="ec983" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1442.0" CenterY="694.0" Width="42.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P63279" />
+  </DataNode>
+  <DataNode TextLabel="polySUMO2-VDR" GraphId="c0eeb" Type="Protein">
+    <BiopaxRef>eb9</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1476.0" CenterY="728.0" Width="82.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11473" />
+  </DataNode>
+  <DataNode TextLabel="PIAS4" GraphId="f90f0" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1301.5" CenterY="730.0" Width="41.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N2W9" />
+  </DataNode>
+  <DataNode TextLabel="VDR agonists" GraphId="a6cce" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1473.5" CenterY="554.0" Width="85.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-9660116" />
+  </DataNode>
+  <DataNode TextLabel="calcipotriol " GraphId="b737c" GroupRef="aad36">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-ALL-9660116" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="VDR:VDR agonists" GraphId="ba86a" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1590.0" CenterY="639.0" Width="114.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9660135" />
+  </DataNode>
+  <DataNode TextLabel="VDR " GraphId="f0e7f" Type="Protein" GroupRef="a01d5">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9660135" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1578.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11473" />
+  </DataNode>
+  <DataNode TextLabel="calcipotriol " GraphId="c5d07" GroupRef="a01d5">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9660135" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="Fru" GraphId="d65b7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="664.0" CenterY="798.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15824" />
+  </DataNode>
+  <DataNode TextLabel="Fructose metabolism" GraphId="cfa57" Type="Pathway">
+    <Comment Source="Reactome">Fructose is found in fruits, is one of the components of the disaccharide sucrose, and is a widely used sweetener in processed foods. Dietary fructose is catabolized in the liver via fructose 1-phosphate to yield dihydroxyacetone phosphate and glyceraldehyde 3-phosphate, which then are converted to pyruvate via steps of canonical glycolysis (Hers &amp; Kusaka 1953; Sillero et al. 1969). Excessive dietary intake of fructose and its metabolism have been associated with major disease risks in humans, although this issue remains controversial (Kolderup &amp; Svihus 2015; DiNicolantonio et al. 2015; Bray 2013; Mayes 1993; Rippe &amp; Angelopoulos 2013; van Buul et al. 2013). Fructose can also be synthesized from glucose via the polyol pathway (Hers 1960; Oates 2008). This synthetic process provides the fructose found in seminal fluid and, in other tissues, can contribute to pathologies of diabetes.</Comment>
+    <BiopaxRef>d6a</BiopaxRef>
+    <BiopaxRef>b9d</BiopaxRef>
+    <BiopaxRef>ee0</BiopaxRef>
+    <BiopaxRef>b41</BiopaxRef>
+    <BiopaxRef>cb5</BiopaxRef>
+    <BiopaxRef>d70</BiopaxRef>
+    <BiopaxRef>bea</BiopaxRef>
+    <BiopaxRef>a5e</BiopaxRef>
+    <BiopaxRef>c6c</BiopaxRef>
+    <BiopaxRef>ea9</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="522.0" CenterY="798.5" Width="120.0" Height="47.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5652084" />
+  </DataNode>
+  <DataNode TextLabel="LRP2:LDLRAP1" GraphId="e1abb" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="299.0" CenterY="415.5" Width="94.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9759635" />
+  </DataNode>
+  <DataNode TextLabel="LDLRAP1 " GraphId="afcc5" Type="Protein" GroupRef="ce8e2">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9759635" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="918.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q5SW96" />
+  </DataNode>
+  <DataNode TextLabel="LRP2 " GraphId="f54b1" Type="Protein" GroupRef="ce8e2">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9759635" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="938.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P98164" />
+  </DataNode>
+  <Interaction GraphId="b0bce">
+    <Comment Source="Reactome">The skin's exposure to UV rays from sunlight induces the photolytic cleavage of 7-dehydrocholesterol to previtamin D3. This is followed by thermal isomerization to form vitamin D3 (VD3, cholecalciferol) (Holick et al. 1977).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="279.0" Y="84.0" />
+      <Point X="329.0" Y="84.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ce3e6" />
+      <Anchor Position="0.99" Shape="None" GraphId="f9ab3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209754" />
+  </Interaction>
+  <Interaction GraphId="e7639">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="276.0" Y="84.0" GraphRef="b349c" RelX="1.0" RelY="0.0" />
+      <Point X="279.0" Y="84.0" GraphRef="ce3e6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209754" />
+  </Interaction>
+  <Interaction GraphId="e4956">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="329.0" Y="84.0" GraphRef="f9ab3" RelX="0.5" RelY="0.0" />
+      <Point X="332.0" Y="84.0" GraphRef="efedd" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209754" />
+  </Interaction>
+  <Interaction GraphId="bf226">
+    <Comment Source="Reactome">Vitamin D metabolites such as VD3 are lipophilic and must be transported in the circulation bound to plasma proteins. Vitamin D3 is transported to the liver bound to a plasma protein called vitamin D binding protein (GC aka DBP) (Verboven et al. 2002). GC is a 58 kDa circulating glycoprotein that transports vitamin D metabolites. The vast majority of vitamin D metabolites circulate bound to GC (85â€“90%), some bound to albumin (10â€“15%), with the remainder (&lt;1%) circulating in the free form. GC has more than 1000-fold stronger binding affinity for vitamin D metabolites than albumin. Thus, the albumin-bound and free fractions of vitamin D metabolites are considered bioavailable (Denburg et al. 2016).</Comment>
+    <BiopaxRef>ac1</BiopaxRef>
+    <BiopaxRef>d04</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="516.0" Y="112.0" />
+      <Point X="554.0" Y="112.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="da726" />
+      <Anchor Position="0.99" Shape="None" GraphId="fecab" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209738" />
+  </Interaction>
+  <Interaction GraphId="b21cf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="493.0" Y="86.0" GraphRef="d5322" RelX="1.0" RelY="0.0" />
+      <Point X="516.0" Y="112.0" GraphRef="da726" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209738" />
+  </Interaction>
+  <Interaction GraphId="ea383">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="490.0" Y="144.0" GraphRef="fd412" RelX="1.0" RelY="0.0" />
+      <Point X="516.0" Y="112.0" GraphRef="da726" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209738" />
+  </Interaction>
+  <Interaction GraphId="ecdc5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="554.0" Y="112.0" GraphRef="fecab" RelX="0.37999999999999545" RelY="0.0" />
+      <Point X="557.0" Y="113.0" GraphRef="b68e9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209738" />
+  </Interaction>
+  <Interaction GraphId="ef56a">
+    <Comment Source="Reactome">Once vitamin D3 (VD3) is released from vitamin D binding protein (GC, DBP), it translocates from the extracellular region to the ER membrane, becoming available for hydroxylation by the microsomal enzyme CYP2R1 (Shinkyo et al. 2004).</Comment>
+    <BiopaxRef>c1f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="785.0" Y="112.0" />
+      <Point X="903.0" Y="116.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="faec6" />
+      <Anchor Position="0.99" Shape="None" GraphId="bf552" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350147" />
+  </Interaction>
+  <Interaction GraphId="d3e92">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="782.0" Y="113.0" GraphRef="eeabf" RelX="1.0" RelY="0.0" />
+      <Point X="785.0" Y="112.0" GraphRef="faec6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350147" />
+  </Interaction>
+  <Interaction GraphId="dcdbd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="903.0" Y="116.0" GraphRef="bf552" RelX="1.1800000000000637" RelY="0.04000000000000625" />
+      <Point X="906.0" Y="117.0" GraphRef="dfe38" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350147" />
+  </Interaction>
+  <Interaction GraphId="b4b3c">
+    <Comment Source="Reactome">To be functionally active, vitamin D3 (VD3) needs to be dihydroxylated. The first hydroxylation at position 25 is carried out by ER membrane-located vitamin D 25-hydroxylase (CYP2R1) in the liver, forming 25-hydroxyvitamin D (calcidiol, 25(OH)D) (Shinkyo et al. 2004, Cheng et al. 2003).</Comment>
+    <BiopaxRef>c1f</BiopaxRef>
+    <BiopaxRef>c41</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="973.0" Y="135.0" />
+      <Point X="972.0" Y="225.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bc30c" />
+      <Anchor Position="0.99" Shape="None" GraphId="bc685" />
+      <Anchor Position="0.5" Shape="None" GraphId="bb816" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209845" />
+  </Interaction>
+  <Interaction GraphId="ae6b5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1022.0" Y="67.0" GraphRef="defc8" RelX="-0.01694915254237288" RelY="1.0" />
+      <Point X="973.0" Y="135.0" GraphRef="bc30c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209845" />
+  </Interaction>
+  <Interaction GraphId="e0a68">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="972.0" Y="88.0" GraphRef="bfb79" RelX="0.0" RelY="1.0" />
+      <Point X="973.0" Y="135.0" GraphRef="bc30c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209845" />
+  </Interaction>
+  <Interaction GraphId="e197b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1008.0" Y="97.0" GraphRef="ac907" RelX="-1.0" RelY="0.0" />
+      <Point X="973.0" Y="135.0" GraphRef="bc30c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209845" />
+  </Interaction>
+  <Interaction GraphId="ed0f3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="948.0" Y="117.0" GraphRef="dfe38" RelX="1.0" RelY="0.0" />
+      <Point X="973.0" Y="135.0" GraphRef="bc30c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209845" />
+  </Interaction>
+  <Interaction GraphId="b05f6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="972.0" Y="225.0" GraphRef="bc685" RelX="-0.009999999999990905" RelY="0.9000000000000057" />
+      <Point X="955.0" Y="243.0" GraphRef="cb548" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209845" />
+  </Interaction>
+  <Interaction GraphId="fcc4c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="972.0" Y="225.0" GraphRef="bc685" RelX="-0.009999999999990905" RelY="0.9000000000000057" />
+      <Point X="976.0" Y="268.0" GraphRef="fcf99" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209845" />
+  </Interaction>
+  <Interaction GraphId="e5b5d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="972.0" Y="225.0" GraphRef="bc685" RelX="-0.009999999999990905" RelY="0.9000000000000057" />
+      <Point X="1001.0" Y="236.0" GraphRef="db724" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209845" />
+  </Interaction>
+  <Interaction GraphId="cced4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="945.0" Y="174.0" GraphRef="cb2f1" RelX="0.9636363636363636" RelY="0.0" />
+      <Point X="972.0" Y="173.0" GraphRef="bb816" RelX="-0.5" RelY="-7.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209845" />
+  </Interaction>
+  <Interaction GraphId="c334e">
+    <Comment Source="Reactome">Vitamin D binding protein (GC aka DBP), a plasma protein, carries vitamin D metabolites in the circulation. 25-hydroxyvitamin D (25(OH)D) translocates to the extracellular region where it binds with GC and is transported to the kidney (Verboven et al. 2002).</Comment>
+    <BiopaxRef>ac1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="549.0" Y="247.0" />
+      <Point X="349.0" Y="290.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ebb9a" />
+      <Anchor Position="0.99" Shape="None" GraphId="cd9a4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209944" />
+  </Interaction>
+  <Interaction GraphId="e59a0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="624.0" Y="175.0" GraphRef="b6819" RelX="-1.0" RelY="0.0" />
+      <Point X="549.0" Y="247.0" GraphRef="ebb9a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209944" />
+  </Interaction>
+  <Interaction GraphId="a30cb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="666.0" Y="237.0" GraphRef="ed754" RelX="-1.0" RelY="0.0" />
+      <Point X="549.0" Y="247.0" GraphRef="ebb9a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209944" />
+  </Interaction>
+  <Interaction GraphId="fcee6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="349.0" Y="290.0" GraphRef="cd9a4" RelX="-2.0" RelY="0.4300000000000068" />
+      <Point X="345.0" Y="299.0" GraphRef="d3cb5" RelX="0.9753086419753086" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209944" />
+  </Interaction>
+  <Interaction GraphId="e6ec9">
+    <Comment Source="Reactome">Cubilin (CUBN) is a membrane-associated protein colocalising with megalin (LRP2). Its function is to sequester steroid carrier complexes such as vitamin D binding protein:25-hydroxyvitamin D (GC:25(OH)D) on the cell surface before LRP2 mediates their internalisation (Nykjaer et al. 2001).</Comment>
+    <BiopaxRef>de4</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="77.0" Y="344.0" />
+      <Point X="111.0" Y="401.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d1d15" />
+      <Anchor Position="0.99" Shape="None" GraphId="f4329" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350186" />
+  </Interaction>
+  <Interaction GraphId="cd506">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="49.0" Y="417.0" GraphRef="f7887" RelX="0.9512195121951219" RelY="0.0" />
+      <Point X="77.0" Y="344.0" GraphRef="d1d15" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350186" />
+  </Interaction>
+  <Interaction GraphId="ef7c8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="265.0" Y="299.0" GraphRef="d3cb5" RelX="-1.0" RelY="0.0" />
+      <Point X="77.0" Y="344.0" GraphRef="d1d15" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350186" />
+  </Interaction>
+  <Interaction GraphId="be859">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="111.0" Y="401.0" GraphRef="f4329" RelX="0.3400000000000034" RelY="0.5699999999999932" />
+      <Point X="118.0" Y="404.0" GraphRef="a81a2" RelX="-0.008547008547008548" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350186" />
+  </Interaction>
+  <Interaction GraphId="a12a2">
+    <Comment Source="Reactome">Megalin (LRP2, glycoprotein 330) is a member of the low density lipoprotein receptor family and is abundant in kidney proximal tubules (Kounnas et al. 1995, Hjalm et al. 1996). LRP2 complexed with LDLRAP1 (low density lipoprotein receptor adapter protein 1, aka ARH) mediates the endocytic uptake of GC:25(OH)D complexes, thereby preventing the loss of 25-hydroxyvitamin D (calcidiol, 25(OH)D) in urine (Nykjaer  et al. 1999, Kaseda et al. 2011).</Comment>
+    <BiopaxRef>af5</BiopaxRef>
+    <BiopaxRef>deb</BiopaxRef>
+    <BiopaxRef>f48</BiopaxRef>
+    <BiopaxRef>be6</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="180.0" Y="414.0" />
+      <Point X="205.0" Y="453.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f368d" />
+      <Anchor Position="0.99" Shape="None" GraphId="f29ab" />
+      <Anchor Position="0.5" Shape="None" GraphId="ed2f6" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350168" />
+  </Interaction>
+  <Interaction GraphId="b2197">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="176.0" Y="415.0" GraphRef="a81a2" RelX="0.9829059829059829" RelY="0.0" />
+      <Point X="180.0" Y="414.0" GraphRef="f368d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350168" />
+  </Interaction>
+  <Interaction GraphId="c5db0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="205.0" Y="453.0" GraphRef="f29ab" RelX="0.25" RelY="0.38999999999998636" />
+      <Point X="205.0" Y="456.0" GraphRef="e02b0" RelX="-0.008547008547008548" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350168" />
+  </Interaction>
+  <Interaction GraphId="f6a71">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="252.0" Y="415.0" GraphRef="e1abb" RelX="-1.0" RelY="-0.043478260869565216" />
+      <Point X="205.0" Y="414.0" GraphRef="ed2f6" RelX="12.5" RelY="-19.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350168" />
+  </Interaction>
+  <Interaction GraphId="d058b">
+    <Comment Source="Reactome">The internalized CUBN:GC:25(OH)D complex enters the lysosome where it can be acted upon the protease legumain (Halfon et al. 1998, Chen et al. 2000).</Comment>
+    <BiopaxRef>ec5</BiopaxRef>
+    <BiopaxRef>eeb</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="204.0" Y="481.0" />
+      <Point X="204.0" Y="554.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ac94a" />
+      <Anchor Position="0.99" Shape="None" GraphId="f7e79" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209760" />
+  </Interaction>
+  <Interaction GraphId="c94a7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="205.0" Y="478.0" GraphRef="e02b0" RelX="-0.008547008547008548" RelY="1.0" />
+      <Point X="204.0" Y="481.0" GraphRef="ac94a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209760" />
+  </Interaction>
+  <Interaction GraphId="e0db3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="204.0" Y="554.0" GraphRef="f7e79" RelX="0.0" RelY="0.7300000000000182" />
+      <Point X="205.0" Y="557.0" GraphRef="ce9d0" RelX="-0.008547008547008548" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209760" />
+  </Interaction>
+  <Interaction GraphId="c12c7">
+    <Comment Source="Reactome">Mammalian legumain (LGMN, asparagine-specific endoprotease) is a subfamily of cysteine proteases with no homology to other known proteases and is found in a wide range of organisms from parasites to plants and animals. LGMN requires acidic conditions for its degradative activity. Cubilin (CUBN), once released from the complex, cycles back to the cell surface. Free 25-hydroxyvitamin D (calcidiol, 25(OH)D) becomes available for further processing (Nykjaer et al. 1999).</Comment>
+    <BiopaxRef>f48</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="204.0" Y="582.0" />
+      <Point X="239.0" Y="633.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="da2fe" />
+      <Anchor Position="0.99" Shape="None" GraphId="fac9a" />
+      <Anchor Position="0.5" Shape="None" GraphId="f6b02" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350158" />
+  </Interaction>
+  <Interaction GraphId="d25bc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="205.0" Y="579.0" GraphRef="ce9d0" RelX="-0.008547008547008548" RelY="1.0" />
+      <Point X="204.0" Y="582.0" GraphRef="da2fe" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350158" />
+  </Interaction>
+  <Interaction GraphId="f8924">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="239.0" Y="633.0" GraphRef="fac9a" RelX="0.3499999999999943" RelY="0.5099999999999909" />
+      <Point X="242.0" Y="633.0" GraphRef="e6c56" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350158" />
+  </Interaction>
+  <Interaction GraphId="a8f95">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="151.0" Y="632.0" GraphRef="acf8c" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="203.0" Y="633.0" GraphRef="f6b02" RelX="-18.5" RelY="25.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-350158" />
+  </Interaction>
+  <Interaction GraphId="fe486">
+    <Comment Source="Reactome">Once out of the lysosome, 25-hydroxyvitamin D (calcidiol, 25(OH)D) translocates to the mitochondion where it is made available to the mitochondrial membrane-resident protein CYP27B1 for further hydroxylation. The mechanism of mitochondrial targeting is unknown but may involve some kind of intracellular vitamin D binding protein (IDBP). IDBPs are related to the hsc-70 family of heat shock proteins and may function to localise vitamin D metabolites to specific areas. No human IDBP has yet been characterised (Radons 2016).</Comment>
+    <BiopaxRef>c3f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="483.0" Y="634.0" />
+      <Point X="559.0" Y="634.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f7fc6" />
+      <Anchor Position="0.99" Shape="None" GraphId="dd86e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209766" />
+  </Interaction>
+  <Interaction GraphId="e93b8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="480.0" Y="634.0" GraphRef="b3fab" RelX="1.0" RelY="0.0" />
+      <Point X="483.0" Y="634.0" GraphRef="f7fc6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209766" />
+  </Interaction>
+  <Interaction GraphId="e8cdc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="559.0" Y="634.0" GraphRef="dd86e" RelX="0.7599999999999909" RelY="0.0" />
+      <Point X="562.0" Y="635.0" GraphRef="c7b6e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209766" />
+  </Interaction>
+  <Interaction GraphId="c583c">
+    <Comment Source="Reactome">The second step in vitamin D activation requires hydroxylation of 25-hydroxyvitamin D (calcidiol, 25(OH)D) to 1-alpha, 25-dihydroxyvitamin D (1,25(OH)2D). This conversion is mediated by 25-hydroxyvitamin D-1-alpha hydroxylase (CYP27B1), an outer mitochondrial membrane-resident protein (Zehnder et al. 2002, Fritsche et al. 2003, Sawada et al. 1999).</Comment>
+    <BiopaxRef>e78</BiopaxRef>
+    <BiopaxRef>a5f</BiopaxRef>
+    <BiopaxRef>cf3</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="687.0" Y="514.0" />
+      <Point X="794.0" Y="514.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bc736" />
+      <Anchor Position="0.99" Shape="None" GraphId="ddba0" />
+      <Anchor Position="0.5" Shape="None" GraphId="e2e0e" />
+      <Anchor Position="0.5" Shape="None" GraphId="d9c9d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="c7a26">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="630.0" Y="635.0" GraphRef="c7b6e" RelX="1.0" RelY="0.0" />
+      <Point X="687.0" Y="514.0" GraphRef="bc736" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="b694f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="680.0" Y="481.0" GraphRef="e34e9" RelX="0.0" RelY="1.0" />
+      <Point X="687.0" Y="514.0" GraphRef="bc736" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="aa9ca">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="637.0" Y="514.0" GraphRef="f50f7" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="687.0" Y="514.0" GraphRef="bc736" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="d585e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="653.0" Y="479.0" GraphRef="bb272" RelX="1.0" RelY="0.0" />
+      <Point X="687.0" Y="514.0" GraphRef="bc736" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="fb972">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="794.0" Y="514.0" GraphRef="ddba0" RelX="1.07000000000005" RelY="0.0" />
+      <Point X="807.0" Y="546.0" GraphRef="b3448" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="d430c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="794.0" Y="514.0" GraphRef="ddba0" RelX="1.07000000000005" RelY="0.0" />
+      <Point X="850.0" Y="514.0" GraphRef="a47fb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="b810f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="794.0" Y="514.0" GraphRef="ddba0" RelX="1.07000000000005" RelY="0.0" />
+      <Point X="821.0" Y="488.0" GraphRef="afa0c" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="ad92f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="708.0" Y="577.0" GraphRef="b67a4" RelX="-1.0" RelY="0.0" />
+      <Point X="761.0" Y="514.0" GraphRef="e2e0e" RelX="20.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="f11c4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="664.0" Y="783.0" GraphRef="d65b7" RelX="0.0" RelY="-1.0" />
+      <Point X="761.0" Y="514.0" GraphRef="d9c9d" RelX="20.5" RelY="0.0" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209868" />
+  </Interaction>
+  <Interaction GraphId="bb9f1">
+    <Comment Source="Reactome">1-alpha, 25-dihydroxyvitamin D (1,25(OH)2D) is biologically inactivated through a series of reactions beginning with 24-hydroxylation and is most likely a mechanism of elimination. 24-Hydroxylation of vitamin D metabolites is largely regulated inversely to 1-hydroxylation, the initial step towards activation. Human cDNA encoding CYP24A1 was isolated in 1993 (Chen et al. 1993). Studies with expressed human CYP24A1 in Sf21 insect cells indicated that the enzyme could catalyze most, if not all, of the steps in the C23 and C24 oxidation pathways of 25(OH)D and 1,25(OH)2D metabolism (Beckman et al. 1996). Sakaki et al observed that the ratio of initial hydroxylation products at C24 to C23 was 4:1, indicating that the C24-oxidation pathway predominates in humans (Sakaki et al. 2000).
+</Comment>
+    <BiopaxRef>c39</BiopaxRef>
+    <BiopaxRef>e70</BiopaxRef>
+    <BiopaxRef>aff</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1004.0" Y="620.0" />
+      <Point X="1004.0" Y="693.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="adfc4" />
+      <Anchor Position="0.99" Shape="None" GraphId="f4b5c" />
+      <Anchor Position="0.5" Shape="None" GraphId="ae705" />
+      <Anchor Position="0.5" Shape="None" GraphId="b1486" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="b3ba2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="938.0" Y="514.0" GraphRef="a47fb" RelX="1.0" RelY="0.0" />
+      <Point X="1004.0" Y="620.0" GraphRef="adfc4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="a52d8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="993.0" Y="592.0" GraphRef="a1d97" RelX="0.0" RelY="1.0" />
+      <Point X="1004.0" Y="620.0" GraphRef="adfc4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="e2755">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1029.0" Y="601.0" GraphRef="ae6d9" RelX="0.0" RelY="1.0" />
+      <Point X="1004.0" Y="620.0" GraphRef="adfc4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="d97d9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1023.0" Y="619.0" GraphRef="b6ec0" RelX="-1.0" RelY="0.0" />
+      <Point X="1004.0" Y="620.0" GraphRef="adfc4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="edcfb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1004.0" Y="693.0" GraphRef="f4b5c" RelX="0.0" RelY="0.7300000000000182" />
+      <Point X="1004.0" Y="792.0" GraphRef="f6004" RelX="-0.024390243902439025" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="bd88f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1004.0" Y="693.0" GraphRef="f4b5c" RelX="0.0" RelY="0.7300000000000182" />
+      <Point X="973.0" Y="739.0" GraphRef="f7cd0" RelX="-0.023255813953488372" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="e3565">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1004.0" Y="693.0" GraphRef="f4b5c" RelX="0.0" RelY="0.7300000000000182" />
+      <Point X="1016.0" Y="740.0" GraphRef="f421d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="d8b08">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="956.0" Y="632.0" GraphRef="ee4c2" RelX="0.9682539682539683" RelY="0.0" />
+      <Point X="1004.0" Y="662.0" GraphRef="ae705" RelX="0.0" RelY="5.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="ba5cc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="682.0" Y="798.0" GraphRef="d65b7" RelX="1.0" RelY="0.0" />
+      <Point X="1004.0" Y="662.0" GraphRef="b1486" RelX="0.0" RelY="5.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-209765" />
+  </Interaction>
+  <Interaction GraphId="b8dd7">
+    <Comment Source="Reactome">25-hydroxyvitamin D (calcidiol, 25(OH)D) translocates to the extracellular region (Verboven et al. 2002).</Comment>
+    <BiopaxRef>ac1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="884.0" Y="241.0" />
+      <Point X="737.0" Y="237.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c0924" />
+      <Anchor Position="0.99" Shape="None" GraphId="d2549" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6807242" />
+  </Interaction>
+  <Interaction GraphId="c7424">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="887.0" Y="243.0" GraphRef="cb548" RelX="-1.0" RelY="0.0" />
+      <Point X="884.0" Y="241.0" GraphRef="c0924" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6807242" />
+  </Interaction>
+  <Interaction GraphId="ddddb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="737.0" Y="237.0" GraphRef="d2549" RelX="-1.4700000000000273" RelY="-0.03999999999999204" />
+      <Point X="734.0" Y="237.0" GraphRef="ed754" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6807242" />
+  </Interaction>
+  <Interaction GraphId="c693e">
+    <Comment Source="Reactome">Vitamin D metabolites such as VD3 are lipophilic and must be transported in the circulation bound to plasma proteins. VD3 translocates to the extracellular region where it binds GC, a vitamin D binding protein (Verboven et al. 2002).</Comment>
+    <BiopaxRef>ac1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="377.0" Y="83.0" />
+      <Point X="448.0" Y="84.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c1878" />
+      <Anchor Position="0.99" Shape="None" GraphId="b2ba6" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963872" />
+  </Interaction>
+  <Interaction GraphId="cdd05">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="84.0" GraphRef="efedd" RelX="1.0" RelY="0.0" />
+      <Point X="377.0" Y="83.0" GraphRef="c1878" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963872" />
+  </Interaction>
+  <Interaction GraphId="cc669">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="448.0" Y="84.0" GraphRef="b2ba6" RelX="0.7099999999999795" RelY="0.010000000000005116" />
+      <Point X="451.0" Y="86.0" GraphRef="d5322" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963872" />
+  </Interaction>
+  <Interaction GraphId="f6f9d">
+    <Comment Source="Reactome">Vitamin D3 (VD3) is transported to the liver bound to a plasma protein called vitamin D binding protein (GC aka DBP) (Verboven et al. 2002). Before uptake by the liver, VD3 must dissociate from GC.</Comment>
+    <BiopaxRef>ac1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="615.0" Y="112.0" />
+      <Point X="709.0" Y="113.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bc2b3" />
+      <Anchor Position="0.99" Shape="None" GraphId="baf4a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963851" />
+  </Interaction>
+  <Interaction GraphId="ce3f6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="611.0" Y="113.0" GraphRef="b68e9" RelX="0.9636363636363636" RelY="0.0" />
+      <Point X="615.0" Y="112.0" GraphRef="bc2b3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963851" />
+  </Interaction>
+  <Interaction GraphId="e109e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="709.0" Y="113.0" GraphRef="baf4a" RelX="0.9400000000000546" RelY="0.010000000000005116" />
+      <Point X="650.0" Y="175.0" GraphRef="b6819" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963851" />
+  </Interaction>
+  <Interaction GraphId="ebb7f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="709.0" Y="113.0" GraphRef="baf4a" RelX="0.9400000000000546" RelY="0.010000000000005116" />
+      <Point X="740.0" Y="113.0" GraphRef="eeabf" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963851" />
+  </Interaction>
+  <Interaction GraphId="ad1f0">
+    <Comment Source="Reactome">Cubilin (CUBN), once released from the complex, cycles back to the cell surface. Free 25-hydroxyvitamin D (calcidiol, 25(OH)D) becomes available for further processing (Nykjaer et al. 1999).</Comment>
+    <BiopaxRef>f48</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="341.0" Y="633.0" />
+      <Point X="365.0" Y="633.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f83f0" />
+      <Anchor Position="0.99" Shape="None" GraphId="ebf1b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963864" />
+  </Interaction>
+  <Interaction GraphId="d9234">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="338.0" Y="633.0" GraphRef="e6c56" RelX="1.0" RelY="0.0" />
+      <Point X="341.0" Y="633.0" GraphRef="f83f0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963864" />
+  </Interaction>
+  <Interaction GraphId="a3936">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="365.0" Y="633.0" GraphRef="ebf1b" RelX="0.2400000000000091" RelY="0.0" />
+      <Point X="391.0" Y="586.0" GraphRef="c2911" RelX="-0.024390243902439025" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963864" />
+  </Interaction>
+  <Interaction GraphId="dfab0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="365.0" Y="633.0" GraphRef="ebf1b" RelX="0.2400000000000091" RelY="0.0" />
+      <Point X="412.0" Y="634.0" GraphRef="b3fab" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963864" />
+  </Interaction>
+  <Interaction GraphId="a20d5">
+    <Comment Source="Reactome">The biologically active form of vitamin D, 1-alpha, 25-dihydroxyvitamin D (1,25(OH)2D), can be transported to any target tissue where it enters the nucleoplasm to interact with vitamin D receptor (VDR) to exert its effects. The mechanism of translocation from cytosol to nucleoplasm is unknown (see review for general description - Christakos et al. 2016).</Comment>
+    <BiopaxRef>e36</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="941.0" Y="514.0" />
+      <Point X="1277.0" Y="514.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bee99" />
+      <Anchor Position="0.99" Shape="None" GraphId="b483e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963913" />
+  </Interaction>
+  <Interaction GraphId="b846f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="938.0" Y="514.0" GraphRef="a47fb" RelX="1.0" RelY="0.0" />
+      <Point X="941.0" Y="514.0" GraphRef="bee99" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963913" />
+  </Interaction>
+  <Interaction GraphId="b0a4a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1277.0" Y="514.0" GraphRef="b483e" RelX="3.3600000000001273" RelY="0.0" />
+      <Point X="1280.0" Y="514.0" GraphRef="b0828" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963913" />
+  </Interaction>
+  <Interaction GraphId="ddf2f">
+    <Comment Source="Reactome">The biologically active form of vitamin D, 1-alpha, 25-dihydroxyvitamin D (1,25(OH)2D), interacts with the nuclear hormone receptor vitamin D receptor (VDR) in the nucleoplasm of any target tissue (Neme et al. 2017). VDR regulates the actions of 1,25(OH)2D and their binding recruits coactivators (Eelen et al. 2005, Kim et al. 2005, Du et al. 2017) to initiate a signaling response that regulates an estimated upwards of 2000 genes involved in calcium homeostasis, immune responses, cellular growth, differentiation and apoptosis (Hossein-nezhad et al. 2013, Hossein-nezhad &amp; Holick 2013, Wolden-Kirk et al. 2012, Prietl et al. 2013, Hewison 2012, Christakos et al. 2016, Bandera Merchan et al. 2017).</Comment>
+    <BiopaxRef>c0a</BiopaxRef>
+    <BiopaxRef>ffd</BiopaxRef>
+    <BiopaxRef>c2d</BiopaxRef>
+    <BiopaxRef>bbe</BiopaxRef>
+    <BiopaxRef>fa2</BiopaxRef>
+    <BiopaxRef>fb7</BiopaxRef>
+    <BiopaxRef>f3d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1432.0" Y="514.0" />
+      <Point X="1492.0" Y="514.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e53e2" />
+      <Anchor Position="0.99" Shape="None" GraphId="a18e0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963915" />
+  </Interaction>
+  <Interaction GraphId="eb605">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1368.0" Y="514.0" GraphRef="b0828" RelX="1.0" RelY="0.0" />
+      <Point X="1432.0" Y="514.0" GraphRef="e53e2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963915" />
+  </Interaction>
+  <Interaction GraphId="b9f18">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1399.0" Y="552.0" GraphRef="ae45a" RelX="1.0" RelY="0.0" />
+      <Point X="1432.0" Y="514.0" GraphRef="e53e2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963915" />
+  </Interaction>
+  <Interaction GraphId="d4040">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1492.0" Y="514.0" GraphRef="a18e0" RelX="0.599999999999909" RelY="0.0" />
+      <Point X="1495.0" Y="515.0" GraphRef="fefa5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8963915" />
+  </Interaction>
+  <Interaction GraphId="de5d3">
+    <Comment Source="Reactome">E3 SUMO-protein ligase (PIAS4) SUMOylates Vitamin D3 receptor (VDR) with SUMO2 (Jena et al. 2012). SUMOylation inhibits transcriptional activation by VDR in response to vitamin D.</Comment>
+    <BiopaxRef>eb9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1353.0" Y="705.0" />
+      <Point X="1391.0" Y="731.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a5be1" />
+      <Anchor Position="0.99" Shape="None" GraphId="f7b45" />
+      <Anchor Position="0.5" Shape="None" GraphId="f0090" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-4546387" />
+  </Interaction>
+  <Interaction GraphId="ac917">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1382.0" Y="563.0" GraphRef="ae45a" RelX="0.0" RelY="1.0" />
+      <Point X="1353.0" Y="705.0" GraphRef="a5be1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-4546387" />
+  </Interaction>
+  <Interaction GraphId="b3c30">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1350.0" Y="665.0" GraphRef="a4273" RelX="0.9770114942528736" RelY="0.0" />
+      <Point X="1353.0" Y="705.0" GraphRef="a5be1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-4546387" />
+  </Interaction>
+  <Interaction GraphId="c401a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1391.0" Y="731.0" GraphRef="f7b45" RelX="0.38000000000010914" RelY="0.2599999999999909" />
+      <Point X="1421.0" Y="694.0" GraphRef="ec983" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-4546387" />
+  </Interaction>
+  <Interaction GraphId="d3f0b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1391.0" Y="731.0" GraphRef="f7b45" RelX="0.38000000000010914" RelY="0.2599999999999909" />
+      <Point X="1435.0" Y="728.0" GraphRef="c0eeb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-4546387" />
+  </Interaction>
+  <Interaction GraphId="ea6cd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1321.0" Y="730.0" GraphRef="f90f0" RelX="0.9512195121951219" RelY="0.0" />
+      <Point X="1353.0" Y="731.0" GraphRef="f0090" RelX="-19.0" RelY="13.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-4546387" />
+  </Interaction>
+  <Interaction GraphId="c7745">
+    <Comment Source="Reactome">The genomic mechanism of 1,25(OH)2D action involves the direct, high-affinity binding of 1,25(OH)2D-activated VDR/RXRA to specific vitamin D response elements (VDREs) in and around target genes resulting in either activation or repression of transcription (Christakos et al. 2016). Vitamin D receptor (VDR) agonist drugs function in the same way as 1,25(OH)2D, resulting in activation of gene transcription. VDR agonist drugs bind VDR and activate transcription of genes involved in calcium and bone homeostasis and proliferation and differentiation. These drugs are used to treat secondary hyperparathyroidism (SHPT), bone diseases such as osteoporosis, psoriasis and alopecia.&lt;br&gt;&lt;br&gt;Paricalcitol (trade name Zemplar) is a VDR agonist drug used for the prevention and treatment of secondary hyperparathyroidism, SHPT, causing excessive secretion of parathyroid hormone associated with chronic renal failure. It is an analog of 1,25-dihydroxyergocalciferol, the active form of vitamin D2 (ergocalciferol). However current evidence is not sufficient to demonstrate an advantage of paricalcitol over non-selective vitamin D derivatives for this indication (Cai et al. 2016, Xie et al. 2017). Doxercalciferol (trade name Hectorol) is a VDR agonist drug for secondary hyperparathyroidism and metabolic bone disease (Sprague &amp; Ho 2002). It is a synthetic analog of ergocalciferol (vitamin D2). It suppresses parathyroid synthesis and secretion. Doxercalciferol needs a 25-hydroxylation step in the liver to become active and is independent of renal or extrarenal 1Î±-hydroxylase.&lt;br&gt;&lt;br&gt;Eldecalcitol (trade name Edirol) is a VDR agonist drug used in Japan for the treatment of osteoporosis. Studies suggest Eldecalcitol reduces calcium reabsorption into the body from bones, therefore increasing bone mineral density, and increases calcium absorption in intestines (Matsumoto 2012, Noguchi et al. 2013). Calcipotriol (trade names Dovonex, Daivonex and Psorcutan) is a synthetic derivative of the active form of vitamin D, calcitriol. It is used in the long-term treatment of chronic plaque psoriasis (Salmhofer et al. 2000, Ito et al. 2016) and alopecia areata (Kim et al. 2012). Falecalcitriol (Ito et al. 2009) and maxacalcitol (Akizawa et al. 2015) are used to treat SHPT in Japan (Honda et al. 2014, Mizobuchi et al. 2017).</Comment>
+    <BiopaxRef>def</BiopaxRef>
+    <BiopaxRef>a07</BiopaxRef>
+    <BiopaxRef>bad</BiopaxRef>
+    <BiopaxRef>fe6</BiopaxRef>
+    <BiopaxRef>e81</BiopaxRef>
+    <BiopaxRef>b04</BiopaxRef>
+    <BiopaxRef>b90</BiopaxRef>
+    <BiopaxRef>a66</BiopaxRef>
+    <BiopaxRef>c9c</BiopaxRef>
+    <BiopaxRef>aed</BiopaxRef>
+    <BiopaxRef>e2a</BiopaxRef>
+    <BiopaxRef>d9d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1445.0" Y="595.0" />
+      <Point X="1552.0" Y="625.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a06f7" />
+      <Anchor Position="0.99" Shape="None" GraphId="b7d80" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9660192" />
+  </Interaction>
+  <Interaction GraphId="ab0e4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1399.0" Y="552.0" GraphRef="ae45a" RelX="1.0" RelY="0.0" />
+      <Point X="1445.0" Y="595.0" GraphRef="a06f7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9660192" />
+  </Interaction>
+  <Interaction GraphId="e8ebb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1473.0" Y="565.0" GraphRef="a6cce" RelX="-0.011764705882352941" RelY="1.0" />
+      <Point X="1445.0" Y="595.0" GraphRef="a06f7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9660192" />
+  </Interaction>
+  <Interaction GraphId="af11a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1552.0" Y="625.0" GraphRef="b7d80" RelX="1.0699999999999363" RelY="0.2999999999999545" />
+      <Point X="1533.0" Y="639.0" GraphRef="ba86a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9660192" />
+  </Interaction>
+  <Label TextLabel="SKIN" GraphId="bb9a8">
+    <Graphics CenterX="36.5" CenterY="260.0" Width="35.0" Height="22.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="LIVER" GraphId="ee13c">
+    <Graphics CenterX="777.5" CenterY="45.0" Width="55.0" Height="22.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="KIDNEY" GraphId="fb892">
+    <Graphics CenterX="371.0" CenterY="381.5" Width="64.0" Height="23.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="TARGET CELL" GraphId="de43c">
+    <Graphics CenterX="1257.0" CenterY="330.5" Width="88.0" Height="31.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="ad98e" GroupRef="eed34">
+    <Graphics CenterX="1033.0" CenterY="327.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="endoplasmic reticulum lumen" GraphId="f2d5a" GroupRef="e895a">
+    <Graphics CenterX="882.5" CenterY="211.5" Width="103.0" Height="61.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="e7283" GroupRef="d7fd1">
+    <Graphics CenterX="81.0" CenterY="474.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="dc093" GroupRef="ccf0d">
+    <Graphics CenterX="186.0" CenterY="207.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="lysosomal lumen" GraphId="d4cf6" GroupRef="d3c13">
+    <Graphics CenterX="111.5" CenterY="721.5" Width="123.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="mitochondrial matrix" GraphId="ebd31" GroupRef="a6865">
+    <Graphics CenterX="775.5" CenterY="639.5" Width="147.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="endoplasmic reticulum lumen" GraphId="d538b" GroupRef="d68a6">
+    <Graphics CenterX="252.5" CenterY="135.5" Width="203.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="mitochondrial intermembrane space" GraphId="d6507" GroupRef="debfe">
+    <Graphics CenterX="801.5" CenterY="680.5" Width="247.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="df02d" GroupRef="a1541">
+    <Graphics CenterX="1326.5" CenterY="464.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="cc61c" GroupRef="b376d">
+    <Graphics CenterX="1251.0" CenterY="409.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="ff718" GroupRef="eed34">
+    <Graphics CenterX="943.0" CenterY="189.0" Width="264.0" Height="336.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="eea03" GroupRef="e895a">
+    <Graphics CenterX="885.0" CenterY="206.5" Width="108.0" Height="183.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="e4817" GroupRef="d7fd1">
+    <Graphics CenterX="566.0" CenterY="630.0" Width="1104.0" Height="440.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="bd975" GroupRef="ccf0d">
+    <Graphics CenterX="214.5" CenterY="133.5" Width="419.0" Height="207.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="afbe6" GroupRef="d3c13">
+    <Graphics CenterX="287.0" CenterY="635.5" Width="500.0" Height="231.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="bfbad" GroupRef="a6865">
+    <Graphics CenterX="781.5" CenterY="637.5" Width="185.0" Height="65.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="d6d1c" GroupRef="d68a6">
+    <Graphics CenterX="195.5" CenterY="123.0" Width="333.0" Height="86.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="bb95d" GroupRef="debfe">
+    <Graphics CenterX="795.0" CenterY="645.5" Width="248.0" Height="125.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="d597a" GroupRef="a1541">
+    <Graphics CenterX="1689.5" CenterY="593.5" Width="897.0" Height="337.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="bb60c" GroupRef="b376d">
+    <Graphics CenterX="1694.0" CenterY="577.0" Width="974.0" Height="414.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="fb4e6" GraphId="ef3ba" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-352339" />
+  </Group>
+  <Group GroupId="bd303" GraphId="d3a3d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-209892" />
+  </Group>
+  <Group GroupId="ca9c6" GraphId="ee5e6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-350115" />
+  </Group>
+  <Group GroupId="c95cc" GraphId="e740b" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-350092" />
+  </Group>
+  <Group GroupId="e74c5" GraphId="fa409" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-350085" />
+  </Group>
+  <Group GroupId="fc537" GraphId="faee7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8963847" />
+  </Group>
+  <Group GroupId="b2472" GraphId="db7f1" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8963916" />
+  </Group>
+  <Group GroupId="ef5fc" GraphId="eb388" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2993778" />
+  </Group>
+  <Group GroupId="aad36" GraphId="fb635">
+    <Attribute Key="complex_id" Value="R-ALL-9660116" />
+  </Group>
+  <Group GroupId="a01d5" GraphId="c0a3c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9660135" />
+  </Group>
+  <Group GroupId="ce8e2" GraphId="db4dc" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9759635" />
+  </Group>
+  <Group GroupId="eed34" GraphId="ca405" Style="Group" />
+  <Group GroupId="e895a" GraphId="a3f91" Style="Group" />
+  <Group GroupId="d7fd1" GraphId="ab8ca" Style="Group" />
+  <Group GroupId="ccf0d" GraphId="e0656" Style="Group" />
+  <Group GroupId="d3c13" GraphId="db681" Style="Group" />
+  <Group GroupId="a6865" GraphId="a6112" Style="Group" />
+  <Group GroupId="d68a6" GraphId="d7fed" Style="Group" />
+  <Group GroupId="debfe" GraphId="a951a" Style="Group" />
+  <Group GroupId="a1541" GraphId="aa5b9" Style="Group" />
+  <Group GroupId="b376d" GraphId="a434d" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e36">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26681795</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin D: Metabolism, Molecular Mechanism of Action, and Pleiotropic Effects.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christakos S, Dhawan P, Verstuyf A, Verlinden L, Carmeliet G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11969204</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Membrane-bound enzymes of cholesterol synthesis from lanosterol.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaylor JL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12668600</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorders of cholesterol biosynthesis: prototypic metabolic malformation syndromes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herman GE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3524618</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of cholesterol biosynthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rudney H, Sexton RC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1390320</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholesterol biosynthesis and metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Russell DW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e89">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16054061</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insig-mediated degradation of HMG CoA reductase stimulated by lanosterol, an intermediate in the synthesis of cholesterol.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Song BL, Javitt NB, DeBose-Boyd RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9556629</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of a second member of the sentrin family of ubiquitin-like proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kamitani T, Kito K, Nguyen HP, Fukuda-Kamitani T, Yeh ET.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12383504</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular features of human ubiquitin-like SUMO genes and their encoded proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Su HL, Li SS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22564762</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIAS4 represses vitamin D receptor-mediated signaling and acts as an E3-SUMO ligase towards vitamin D receptor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jena S, Lee WP, Doherty D, Thompson PD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23493538</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy and fructose from beverages sweetened with sugar or high-fructose corn syrup pose a health risk for some people.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bray GA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b9d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25639270</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Added fructose: a principal driver of type 2 diabetes mellitus and its consequences.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DiNicolantonio JJ, O'Keefe JH, Lucan SC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14401391</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[The mechanism of the formation of seminal fructose and fetal fructose].</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HERS HG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13093749</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[The metabolism of fructose-1-phosphate in the liver].</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HERS HG, KUSAKA T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26199742</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fructose Metabolism and Relation to Atherosclerosis, Type 2 Diabetes, and Obesity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolderup A, Svihus B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d70">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8213607</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intermediary metabolism of fructose.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayes PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bea">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18220710</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aldose reductase, still a compelling target for diabetic neuropathy.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oates PJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23493540</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sucrose, high-fructose corn syrup, and fructose, their metabolism and potential health effects: what do we really know?</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rippe JM, Angelopoulos TJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c6c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5823111</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzymes involved in fructose metabolism in lir and the glyceraldehyde metabolic crossroads.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sillero MA, Sillero A, Sols A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24666553</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misconceptions about fructose-containing sugars and their role in the obesity epidemic.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">van Buul VJ, Tappy L, Brouns FJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11799400</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structural basis for the unique binding features of the human vitamin D-binding protein.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verboven C, Rabijns A, De Maeyer M, Van Baelen H, Bouillon R, De Ranter C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d04">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27250744</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comparison of Two ELISA Methods and Mass Spectrometry for Measurement of Vitamin D-Binding Protein: Implications for the Assessment of Bioavailable Vitamin D Concentrations Across Genotypes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denburg MR, Hoofnagle AN, Sayed S, Gupta J, de Boer IH, Appel LJ, Durazo-Arvizu R, Whitehead K, Feldman HI, Leonard MB, Chronic Renal Insufficiency Cohort study investigators.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15465040</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolism of vitamin D by human microsomal CYP2R1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shinkyo R, Sakaki T, Kamakura M, Ohta M, Inouye K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12867411</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De-orphanization of cytochrome P450 2R1: a microsomal vitamin D 25-hydroxilase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheng JB, Motola DL, Mangelsdorf DJ, Russell DW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11717447</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cubilin dysfunction causes abnormal metabolism of the steroid hormone 25(OH) vitamin D(3).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nykjaer A, Fyfe JC, Kozyraki R, Leheste JR, Jacobsen C, Nielsen MS, Verroust PJ, Aminoff M, de la Chapelle A, Moestrup SK, Ray R, Gliemann J, Willnow TE, Christensen EI.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8706697</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning and sequencing of human gp330, a Ca(2+)-binding receptor with potential intracellular signaling properties.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hjälm G, Murray E, Crumley G, Harazim W, Lundgren S, Onyango I, Ek B, Larsson M, Juhlin C, Hellman P, Davis H, Akerström G, Rask L, Morse B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="deb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7768901</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of glycoprotein 330 as an endocytic receptor for apolipoprotein J/clusterin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kounnas MZ, Loukinova EB, Stefansson S, Harmony JA, Brewer BH, Strickland DK, Argraves WS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10052453</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endocytic pathway essential for renal uptake and activation of the steroid 25-(OH) vitamin D3.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nykjaer A, Dragun D, Walther D, Vorum H, Jacobsen C, Herz J, Melsen F, Christensen EI, Willnow TE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21595846</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of megalin and cubilin in the metabolism of vitamin D(3).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaseda R, Hosojima M, Sato H, Saito A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9821970</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autocatalytic activation of human legumain at aspartic acid residues.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halfon S, Patel S, Vega F, Zurawski S, Zurawski G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eeb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11085925</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation of human prolegumain by cleavage at a C-terminal asparagine residue.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen JM, Fortunato M, Barrett AJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c3f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26865365</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The human HSP70 family of chaperones: where do we stand?</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radons J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e78">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11856765</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synthesis of 1,25-dihydroxyvitamin D(3) by human endothelial cells is regulated by inflammatory cytokines: a novel autocrine determinant of vascular cell adhesion.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zehnder D, Bland R, Chana RS, Wheeler DC, Howie AJ, Williams MC, Stewart PM, Hewison M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12855575</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of 25-hydroxyvitamin D3-1 alpha-hydroxylase and production of 1 alpha,25-dihydroxyvitamin D3 by human dendritic cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fritsche J, Mondal K, Ehrnsperger A, Andreesen R, Kreutz M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10518789</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzymatic properties of human 25-hydroxyvitamin D3 1alpha-hydroxylase coexpression with adrenodoxin and NADPH-adrenodoxin reductase in Escherichia coli.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sawada N, Sakaki T, Kitanaka S, Takeyama K, Kato S, Inouye K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c39">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8506296</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isolation and expression of human 1,25-dihydroxyvitamin D3 24-hydroxylase cDNA.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen KS, Prahl JM, DeLuca HF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e70">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8679605</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human 25-hydroxyvitamin D3-24-hydroxylase, a multicatalytic enzyme.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beckman MJ, Tadikonda P, Werner E, Prahl J, Yamada S, DeLuca HF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11012668</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dual metabolic pathway of 25-hydroxyvitamin D3 catalyzed by human CYP24.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sakaki T, Sawada N, Komai K, Shiozawa S, Yamada S, Yamamoto K, Ohyama Y, Inouye K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15728261</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Superagonistic action of 14-epi-analogs of 1,25-dihydroxyvitamin D explained by vitamin D receptor-coactivator interaction.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eelen G, Verlinden L, Rochel N, Claessens F, De Clercq P, Vandewalle M, Tocchini-Valentini G, Moras D, Bouillon R, Verstuyf A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15647825</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,25-Dihydroxyvitamin D3 stimulates cyclic vitamin D receptor/retinoid X receptor DNA-binding, co-activator recruitment, and histone acetylation in intact osteoblasts.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim S, Shevde NK, Pike JW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c2d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28206978</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathogenic roles of alterations in vitamin D and vitamin D receptor in gastric tumorigenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Du C, Yang S, Zhao X, Dong H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22877430</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extraskeletal effects of vitamin D.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolden-Kirk H, Gysemans C, Verstuyf A, Mathieu C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23857223</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin D and immune function.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prietl B, Treiber G, Pieber TR, Amrein K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21849106</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin D and immune function: an overview.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hewison M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27913313</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of vitamin D and VDR in carcinogenesis: Through epidemiology and basic sciences.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bandera Merchan B, Morcillo S, Martin-Nuñez G, Tinahones FJ, Macías-González M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="def">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24569127</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Active vitamin D analogs, maxacalcitol and alfacalcidol, as maintenance therapy for mild secondary hyperparathyroidism in hemodialysis patients - a randomized study.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honda H, Koiwa F, Ogata H, Shishido K, Sekiguchi T, Michihata T, Ogawa H, Mukai M, Takahashi K, Suzuki R, Kino K, Kato K, Yamamoto K, Kinugasa E, Akizawa T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a07">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28841848</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comparative efficacy and safety of paricalcitol versus vitamin D receptor activators for dialysis patients with secondary hyperparathyroidism: a meta-analysis of randomized controlled trials.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xie Y, Su P, Sun Y, Zhang H, Zhao R, Li L, Meng L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bad">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26748501</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comparison between paricalcitol and active non-selective vitamin D receptor activator for secondary hyperparathyroidism in chronic kidney disease: a systematic review and meta-analysis of randomized controlled trials.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cai P, Tang X, Qin W, Ji L, Li Z.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19473635</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comparison of oral falecalcitriol and intravenous calcitriol in hemodialysis patients with secondary hyperparathyroidism: a randomized, crossover trial.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ito H, Ogata H, Yamamoto M, Takahashi K, Shishido K, Takahashi J, Taguchi S, Kinugasa E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e81">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25363733</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comparison of paricalcitol with maxacalcitol injection in Japanese hemodialysis patients with secondary hyperparathyroidism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akizawa T, Akiba T, Hirakata H, Kinugasa E, Tominaga Y, Fukagawa M, Yokoyama K, Zhang W, Linde PG, Suzuki M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b04">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11234559</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double-blind, placebo-controlled, randomized, right-left study comparing calcipotriol monotherapy with a combined treatment of calcipotriol and diflucortolone valerate in chronic plaque psoriasis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmhofer W, Maier H, Soyer HP, Hönigsmann H, Hödl S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b90">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24101867</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eldecalcitol for the treatment of osteoporosis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noguchi Y, Kawate H, Nomura M, Takayanagi R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a66">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12227689</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oral doxercalciferol therapy for secondary hyperparathyroidism in a peritoneal dialysis patient.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprague SM, Ho LT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22918710</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osteoporosis treatment by a new active vitamin D3 compound, eldecalcitol, in Japan.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matsumoto T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aed">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26434738</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proactive treatment with calcipotriol reduces recurrence of plaque psoriasis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ito K, Koga M, Shibayama Y, Tatematsu S, Nakayama J, Imafuku S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28005175</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research on kidney and mineral metabolism in Japan: past, present, and future.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mizobuchi M, Ogata H, Koiwa F, Kinugasa E, Akizawa T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22879719</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Successful treatment of alopecia areata with topical calcipotriol.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim DH, Lee JW, Kim IS, Choi SY, Lim YY, Kim HM, Kim BJ, Kim MN.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Gastrin-CREB signalling pathway via PKC and MAPK" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Gastrin is a hormone whose main function is to stimulate secretion of hydrochloric acid by the gastric mucosa, which results in gastrin formation inhibition. This hormone also acts as a mitogenic factor for gastrointestinal epithelial cells. Gastrin has two biologically active peptide forms, G34 and G17.Gastrin gene expression is upregulated in both a number of pre-malignant conditions and in established cancer through a variety of mechanisms. Depending on the tissue where it is expressed and the level of expression, differential processing of the polypeptide product leads to the production of different biologically active peptides. In turn, acting through the classical gastrin cholecystokinin B receptor CCK-BR, its isoforms and alternative receptors, these peptides trigger signalling pathways which influence the expression of downstream genes that affect cell survival, angiogenesis and invasion (Wank 1995, de Weerth et al. 1999, Grabowska &amp; Watson 2007)
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=881907 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 881907</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Jassal, Bijay, Tripathi, S</Comment>
+  <BiopaxRef>ebf</BiopaxRef>
+  <BiopaxRef>e36</BiopaxRef>
+  <BiopaxRef>f0d</BiopaxRef>
+  <Attribute Key="reactome_id" Value="881907" />
+  <Graphics BoardWidth="1353.0" BoardHeight="1414.0" />
+  <DataNode TextLabel="CCKBR" GraphId="c4952" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="53.0" CenterY="138.0" Width="74.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P32239" />
+  </DataNode>
+  <DataNode TextLabel="Gastrin:CCKBR" GraphId="f285f" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="173.5" CenterY="134.0" Width="97.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-870262" />
+  </DataNode>
+  <DataNode TextLabel="CCKBR " GraphId="effb4" Type="Protein" GroupRef="ba5e0">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-870262" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="582.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P32239" />
+  </DataNode>
+  <DataNode TextLabel="GAST(76-92) " GraphId="ed96a" Type="Protein" GroupRef="ba5e0">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-870262" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="602.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01350" />
+  </DataNode>
+  <DataNode TextLabel="DAG" GraphId="b4574" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="448.5" CenterY="133.0" Width="61.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17815" />
+  </DataNode>
+  <DataNode TextLabel="PRKCA" GraphId="cae9b" Type="Protein">
+    <BiopaxRef>a56</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="456.0" CenterY="194.5" Width="60.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17252" />
+  </DataNode>
+  <DataNode TextLabel="Protein Kinase C,&#xA;alpha type: DAG" GraphId="dda0a" Type="Complex">
+    <BiopaxRef>dc0</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="617.0" CenterY="133.0" Width="112.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-422275" />
+  </DataNode>
+  <DataNode TextLabel="DAG " GraphId="fe6a4" Type="Metabolite" GroupRef="d9b7e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-422275" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="662.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17815" />
+  </DataNode>
+  <DataNode TextLabel="PRKCA " GraphId="d9b4c" Type="Protein" GroupRef="d9b7e">
+    <BiopaxRef>a56</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-422275" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="682.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17252" />
+  </DataNode>
+  <DataNode TextLabel="MMP3(100-477)" GraphId="f6b8e" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="685.0" CenterY="29.0" Width="72.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08254" />
+  </DataNode>
+  <DataNode TextLabel="HBEGF(20-208)" GraphId="fcb44" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="781.5" CenterY="65.0" Width="79.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99075" />
+  </DataNode>
+  <DataNode TextLabel="HBEGF(149-208)" GraphId="d0986" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="980.5" CenterY="94.0" Width="81.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99075" />
+  </DataNode>
+  <DataNode TextLabel="HBEGF(63-148)" GraphId="a08b1" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="1069.5" CenterY="65.5" Width="55.0" Height="45.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99075" />
+  </DataNode>
+  <DataNode TextLabel="HBEGF(20-62)" GraphId="cd17b" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="980.0" CenterY="34.0" Width="66.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99075" />
+  </DataNode>
+  <DataNode TextLabel="EGFR" GraphId="bc6cd" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1077.5" CenterY="132.0" Width="41.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P00533" />
+  </DataNode>
+  <DataNode TextLabel="HB-EGF:p-6Y-EGFR&#xA;dimer" GraphId="c6211" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1240.5" CenterY="135.0" Width="129.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2179410" />
+  </DataNode>
+  <DataNode TextLabel="HBEGF(63-148) " GraphId="d6f1a" Type="Protein" GroupRef="b4fee">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-2179410" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="742.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99075" />
+  </DataNode>
+  <DataNode TextLabel="p-6Y-EGFR " GraphId="fac37" Type="Protein" GroupRef="b4fee">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2179410" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="762.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P00533" />
+  </DataNode>
+  <DataNode TextLabel="GRB2-1:SOS1" GraphId="ce1d8" Type="Complex">
+    <BiopaxRef>fbd</BiopaxRef>
+    <BiopaxRef>c51</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1135.5" CenterY="174.0" Width="91.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-109797" />
+  </DataNode>
+  <DataNode TextLabel="GRB2-1 " GraphId="e35a7" Type="Protein" GroupRef="f56ff">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-109797" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="822.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62993-1" />
+  </DataNode>
+  <DataNode TextLabel="SOS1 " GraphId="ea672" Type="Protein" GroupRef="f56ff">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-109797" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="842.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q07889" />
+  </DataNode>
+  <DataNode TextLabel="GRB2:SOS1:HB-EGF:p-6Y-EGFR" GraphId="ed702" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1259.5" CenterY="306.0" Width="127.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2179409" />
+  </DataNode>
+  <DataNode TextLabel="GRB2-1 " GraphId="a350f" Type="Protein" GroupRef="ae87b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2179409" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="902.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62993-1" />
+  </DataNode>
+  <DataNode TextLabel="SOS1 " GraphId="d8b4a" Type="Protein" GroupRef="ae87b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-2179409" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="922.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q07889" />
+  </DataNode>
+  <DataNode TextLabel="HBEGF(63-148) " GraphId="d2401" Type="Protein" GroupRef="ae87b">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-2179409" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="942.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99075" />
+  </DataNode>
+  <DataNode TextLabel="p-6Y-EGFR " GraphId="e8933" Type="Protein" GroupRef="ae87b">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2179409" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="962.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P00533" />
+  </DataNode>
+  <DataNode TextLabel="p21 RAS:GTP" GraphId="e860b" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="978.5" CenterY="338.0" Width="89.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-109783" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="f76bf" Type="Metabolite" GroupRef="afb95">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-109783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1022.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="S-Farn-Me-PalmS KRAS4A " GraphId="e1782" Type="Protein" GroupRef="afb95">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-109783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1062.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01116-1" />
+  </DataNode>
+  <DataNode TextLabel="S-Farn-Me PalmS NRAS " GraphId="ff663" Type="Protein" GroupRef="afb95">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-109783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1102.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01111" />
+  </DataNode>
+  <DataNode TextLabel="S-Farn-Me-2xPalmS HRAS " GraphId="a3d1d" Type="Protein" GroupRef="afb95">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-109783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1142.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01112" />
+  </DataNode>
+  <DataNode TextLabel="S-Farn-Me KRAS4B " GraphId="d3273" Type="Protein" GroupRef="afb95">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-109783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1162.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01116-2" />
+  </DataNode>
+  <DataNode TextLabel="p21 RAS:GDP" GraphId="b5ec4" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="835.5" CenterY="341.0" Width="91.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-109796" />
+  </DataNode>
+  <DataNode TextLabel="GDP " GraphId="b55f3" Type="Metabolite" GroupRef="fa20e">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-109796" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1222.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58189" />
+  </DataNode>
+  <DataNode TextLabel="S-Farn-Me-PalmS KRAS4A " GraphId="c55ef" Type="Protein" GroupRef="fa20e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-109796" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1262.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01116-1" />
+  </DataNode>
+  <DataNode TextLabel="S-Farn-Me PalmS NRAS " GraphId="b0917" Type="Protein" GroupRef="fa20e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-109796" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1302.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01111" />
+  </DataNode>
+  <DataNode TextLabel="S-Farn-Me-2xPalmS HRAS " GraphId="f1485" Type="Protein" GroupRef="fa20e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-109796" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1342.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01112" />
+  </DataNode>
+  <DataNode TextLabel="S-Farn-Me KRAS4B " GraphId="b00c5" Type="Protein" GroupRef="fa20e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-109796" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1362.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01116-2" />
+  </DataNode>
+  <DataNode TextLabel="GTP" GraphId="c0b94" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="845.5" CenterY="403.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="GDP" GraphId="b209a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="979.0" CenterY="404.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58189" />
+  </DataNode>
+  <DataNode TextLabel="Ribosomal protein S6&#xA;kinase" GraphId="d368a" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="162.0" CenterY="352.0" Width="118.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-199858" />
+  </DataNode>
+  <DataNode TextLabel="RPS6KA1 " GraphId="d46d4" Type="Protein" GroupRef="e7214">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-199858" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="622.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15418" />
+  </DataNode>
+  <DataNode TextLabel="RPS6KA2 " GraphId="ca983" Type="Protein" GroupRef="e7214">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-199858" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="642.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15349" />
+  </DataNode>
+  <DataNode TextLabel="RPS6KA3 " GraphId="e691b" Type="Protein" GroupRef="e7214">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-199858" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="662.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P51812" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="a40ba" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="178.0" CenterY="442.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="Phospho-Ribosomal&#xA;protein S6 kinase" GraphId="cfb61" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="378.5" CenterY="351.0" Width="129.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-199849" />
+  </DataNode>
+  <DataNode TextLabel="p-4S,T359,T573-RPS6KA1 " GraphId="e40f4" Type="Protein" GroupRef="bb7f0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-199849" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="742.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15418" />
+  </DataNode>
+  <DataNode TextLabel="p-4S,T356,T570-RPS6KA2 " GraphId="f88d2" Type="Protein" GroupRef="bb7f0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-199849" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="782.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15349" />
+  </DataNode>
+  <DataNode TextLabel="p-4S,T231,T365-RPS6KA3 " GraphId="bf540" Type="Protein" GroupRef="bb7f0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-199849" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="822.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P51812" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="b0278" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="320.5" CenterY="444.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="p-MAPK3/MAPK1/MAPK7&#xA;dimers" GraphId="e65af" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="252.5" CenterY="308.0" Width="83.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-199878" />
+  </DataNode>
+  <DataNode TextLabel="p-T185,Y187-MAPK1 " GraphId="d1f32" Type="Protein" GroupRef="f1ede">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-199878" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="882.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28482" />
+  </DataNode>
+  <DataNode TextLabel="p-T202,Y204-MAPK3 " GraphId="c2966" Type="Protein" GroupRef="f1ede">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-199878" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="902.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P27361" />
+  </DataNode>
+  <DataNode TextLabel="p-T218,Y221-MAPK7 " GraphId="f04fd" Type="Protein" GroupRef="f1ede">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-199878" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="922.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13164" />
+  </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="f4711" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="461.0" CenterY="282.0" Width="50.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16220-1" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="ea5e8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="524.0" CenterY="282.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="p-S133-CREB1" GraphId="a2732" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="462.5" CenterY="413.0" Width="99.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16220-1" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="f327b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="551.5" CenterY="414.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="RAF/MAP kinase&#xA;cascade" GraphId="a68c6" Type="Pathway">
+    <Comment Source="Reactome">The RAS-RAF-MEK-ERK pathway regulates processes such as proliferation, differentiation, survival, senescence and cell motility in response to growth factors, hormones and cytokines, among others. Binding of these stimuli to receptors in the plasma membrane promotes the GEF-mediated activation of RAS at the plasma membrane and initiates the three-tiered kinase cascade of the conventional MAPK cascades.  GTP-bound RAS recruits RAF (the MAPK kinase kinase), and promotes its dimerization and activation (reviewed in Cseh et al, 2014; Roskoski, 2010; McKay and Morrison, 2007; Wellbrock et al, 2004).  Activated RAF phosphorylates the MAPK kinase proteins MEK1 and MEK2 (also known as MAP2K1 and MAP2K2), which in turn phophorylate the proline-directed kinases ERK1 and 2 (also known as MAPK3 and MAPK1) (reviewed in Roskoski, 2012a, b; Kryiakis and Avruch, 2012).  Activated ERK proteins may undergo dimerization and have identified targets in both the nucleus and the cytosol; consistent with this, a proportion of activated ERK protein relocalizes to the nucleus in response to stimuli (reviewed in Roskoski 2012b; Turjanski et al, 2007; Plotnikov et al, 2010; Cargnello et al, 2011).  Although initially seen as a linear cascade originating at the plasma membrane and culminating in the nucleus, the RAS/RAF MAPK cascade is now also known to be activated from various intracellular location.  Temporal and spatial specificity of the cascade is achieved in part through the interaction of pathway components with numerous scaffolding proteins (reviewed in McKay and Morrison, 2007; Brown and Sacks, 2009). &lt;br&gt; The importance of the RAS/RAF MAPK cascade is highlighted by the fact that components of this pathway are mutated with high frequency in a large number of human cancers.  Activating mutations in RAS are found in approximately one third of human cancers, while ~8% of tumors express an activated form of BRAF (Roberts and Der, 2007; Davies et al, 2002; Cantwell-Dorris et al, 2011).</Comment>
+    <BiopaxRef>e5b</BiopaxRef>
+    <BiopaxRef>d12</BiopaxRef>
+    <BiopaxRef>e58</BiopaxRef>
+    <BiopaxRef>c70</BiopaxRef>
+    <BiopaxRef>dd7</BiopaxRef>
+    <BiopaxRef>ba6</BiopaxRef>
+    <BiopaxRef>bfc</BiopaxRef>
+    <BiopaxRef>d3e</BiopaxRef>
+    <BiopaxRef>ab9</BiopaxRef>
+    <BiopaxRef>fbf</BiopaxRef>
+    <BiopaxRef>e30</BiopaxRef>
+    <BiopaxRef>d6a</BiopaxRef>
+    <BiopaxRef>f6b</BiopaxRef>
+    <BiopaxRef>a98</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="1124.5" CenterY="427.0" Width="127.0" Height="56.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5673001" />
+  </DataNode>
+  <DataNode TextLabel="MMP3" GraphId="d1263" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="566.0" CenterY="30.0" Width="44.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P08254" />
+  </DataNode>
+  <DataNode TextLabel="GAST(76-92)" GraphId="e5e0f" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="58.5" CenterY="69.0" Width="91.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01350" />
+  </DataNode>
+  <DataNode TextLabel="G alpha (q)&#xA;signalling events" GraphId="feb82" Type="Pathway">
+    <Comment Source="Reactome">The classic signalling route for G alpha (q) is activation of phospholipase C beta thereby triggering phosphoinositide hydrolysis, calcium mobilization and protein kinase C activation. This provides a path to calcium-regulated kinases and phosphatases, GEFs, MAP kinase cassettes and other proteins that mediate cellular responses ranging from granule secretion, integrin activation, and aggregation in platelets. Gq participates in many other signalling events including direct interaction with RhoGEFs that stimulate RhoA activity and inhibition of PI3K. Both in vitro and in vivo, the G-protein Gq seems to be the predominant mediator of the activation of platelets. Moreover, G alpha (q) can stimulate the activation of Burton tyrosine kinase (Ma Y C et al. 1998). Regulator of G-protein Signalling (RGS) proteins can regulate the activity of G alpha (z) (Soundararajan M et al. 2008).</Comment>
+    <BiopaxRef>d96</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="322.0" CenterY="131.0" Width="116.0" Height="64.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-416476" />
+  </DataNode>
+  <Interaction GraphId="edcfa">
+    <Comment Source="Reactome">Diacylglycerol, produced by PLC beta-mediated PIP2 hydrolysis in G alpha (q) signalling, remains in the plasma membrane and binds Protein Kinase C alpha (PKC-alpha), causing PKC-alpha to translocate from the cytosol to the plasma membrane. PKC-alpha is thereby activated and phosphorylates target proteins.</Comment>
+    <BiopaxRef>b2d</BiopaxRef>
+    <BiopaxRef>dc0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="505.0" Y="160.0" />
+      <Point X="558.0" Y="149.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="acb17" />
+      <Anchor Position="0.99" Shape="None" GraphId="be05b" />
+      <Anchor Position="0.5" Shape="None" GraphId="e936f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-400015" />
+  </Interaction>
+  <Interaction GraphId="feafa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="478.0" Y="133.0" GraphRef="b4574" RelX="0.9672131147540983" RelY="0.0" />
+      <Point X="505.0" Y="160.0" GraphRef="acb17" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-400015" />
+  </Interaction>
+  <Interaction GraphId="e4a85">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="194.0" GraphRef="cae9b" RelX="1.0" RelY="-0.043478260869565216" />
+      <Point X="505.0" Y="160.0" GraphRef="acb17" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-400015" />
+  </Interaction>
+  <Interaction GraphId="e0957">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="558.0" Y="149.0" GraphRef="be05b" RelX="0.5299999999999727" RelY="-0.11000000000001364" />
+      <Point X="561.0" Y="133.0" GraphRef="dda0a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-400015" />
+  </Interaction>
+  <Interaction GraphId="a0a01">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="194.0" GraphRef="cae9b" RelX="1.0" RelY="-0.043478260869565216" />
+      <Point X="527.0" Y="160.0" GraphRef="e936f" RelX="-4.5" RelY="5.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-400015" />
+  </Interaction>
+  <Interaction GraphId="d6cd7">
+    <Comment Source="Reactome">Gastrin activated PKC pathway leads to the induction of matrix metalloproteinase 3 (MMP3) synthesis (Reuben et al. 2002). The cleavage and autocatalysis steps to obtain the fully activated form of MMP3 have been omitted here.</Comment>
+    <BiopaxRef>a59</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="591.0" Y="28.0" />
+      <Point X="646.0" Y="27.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d515a" />
+      <Anchor Position="0.99" Shape="None" GraphId="a7359" />
+      <Anchor Position="0.5" Shape="None" GraphId="da458" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179413" />
+  </Interaction>
+  <Interaction GraphId="f8634">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="588.0" Y="30.0" GraphRef="d1263" RelX="1.0" RelY="0.0" />
+      <Point X="591.0" Y="28.0" GraphRef="d515a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179413" />
+  </Interaction>
+  <Interaction GraphId="a650d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="646.0" Y="27.0" GraphRef="a7359" RelX="0.5499999999999545" RelY="-0.010000000000001563" />
+      <Point X="649.0" Y="29.0" GraphRef="f6b8e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179413" />
+  </Interaction>
+  <Interaction GraphId="f28f6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="617.0" Y="112.0" GraphRef="dda0a" RelX="0.0" RelY="-1.0" />
+      <Point X="618.0" Y="27.0" GraphRef="da458" RelX="-0.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179413" />
+  </Interaction>
+  <Interaction GraphId="f98a4">
+    <Comment Source="Reactome">Gastrin can induce cleavage of pro-HBEGF via MMP3, releasing mature HBEGF. This event is based on evidence from mouse experiments (Suzuki et al. 1997).</Comment>
+    <BiopaxRef>f10</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="824.0" Y="65.0" />
+      <Point X="891.0" Y="65.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b299e" />
+      <Anchor Position="0.99" Shape="None" GraphId="f9a56" />
+      <Anchor Position="0.5" Shape="None" GraphId="f56cd" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179402" />
+  </Interaction>
+  <Interaction GraphId="ceb2b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="820.0" Y="65.0" GraphRef="fcb44" RelX="0.9746835443037974" RelY="0.0" />
+      <Point X="824.0" Y="65.0" GraphRef="b299e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179402" />
+  </Interaction>
+  <Interaction GraphId="b01d7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="891.0" Y="65.0" GraphRef="f9a56" RelX="0.6699999999999591" RelY="0.0" />
+      <Point X="940.0" Y="94.0" GraphRef="d0986" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179402" />
+  </Interaction>
+  <Interaction GraphId="b27a7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="891.0" Y="65.0" GraphRef="f9a56" RelX="0.6699999999999591" RelY="0.0" />
+      <Point X="1042.0" Y="65.0" GraphRef="a08b1" RelX="-1.0" RelY="-0.022222222222222223" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179402" />
+  </Interaction>
+  <Interaction GraphId="f7486">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="891.0" Y="65.0" GraphRef="f9a56" RelX="0.6699999999999591" RelY="0.0" />
+      <Point X="947.0" Y="34.0" GraphRef="cd17b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179402" />
+  </Interaction>
+  <Interaction GraphId="e2ad6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="721.0" Y="29.0" GraphRef="f6b8e" RelX="1.0" RelY="0.0" />
+      <Point X="855.0" Y="65.0" GraphRef="f56cd" RelX="-2.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179402" />
+  </Interaction>
+  <Interaction GraphId="f4594">
+    <Comment Source="Reactome">The heparin-binding EGF growth factor (HBEGF) is a member of the EGF family of growth factors that binds to and activates the EGF receptor EGFR/ErbB1 and ErbB4 (not shown here) (Higashiyama et al. 1991, Elenius et al. 1997). The details which describe receptor dimerisation on ligand binding and autophosphorylation from experiments in mice have been omitted here.</Comment>
+    <BiopaxRef>fb0</BiopaxRef>
+    <BiopaxRef>f7b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1119.0" Y="100.0" />
+      <Point X="1194.0" Y="114.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e5367" />
+      <Anchor Position="0.99" Shape="None" GraphId="c8c59" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179387" />
+  </Interaction>
+  <Interaction GraphId="ae83b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1096.0" Y="65.0" GraphRef="a08b1" RelX="0.9636363636363636" RelY="-0.022222222222222223" />
+      <Point X="1119.0" Y="100.0" GraphRef="e5367" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179387" />
+  </Interaction>
+  <Interaction GraphId="dbc77">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1097.0" Y="132.0" GraphRef="bc6cd" RelX="0.9512195121951219" RelY="0.0" />
+      <Point X="1119.0" Y="100.0" GraphRef="e5367" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179387" />
+  </Interaction>
+  <Interaction GraphId="c0390">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1194.0" Y="114.0" GraphRef="c8c59" RelX="0.75" RelY="0.14000000000000057" />
+      <Point X="1176.0" Y="135.0" GraphRef="c6211" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179387" />
+  </Interaction>
+  <Interaction GraphId="a69e7">
+    <Comment Source="Reactome">Cytoplasmic target proteins containing the SH2 domain can bind to activated EGFR. One such protein, growth factor receptor-bound protein 2 (GRB2), can bind activated EGFR with its SH2 domain whilst in complex with SOS through its SH3 domain. GRB2 can bind at either Y1068 and/or Y1086 autophosphorylation sites on the receptor (Batzer et al. 1994, Okutani et al. 1994).</Comment>
+    <BiopaxRef>b40</BiopaxRef>
+    <BiopaxRef>f79</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1207.0" Y="187.0" />
+      <Point X="1244.0" Y="285.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="acaf6" />
+      <Anchor Position="0.99" Shape="None" GraphId="dd10a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179415" />
+  </Interaction>
+  <Interaction GraphId="d5b83">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1180.0" Y="174.0" GraphRef="ce1d8" RelX="0.978021978021978" RelY="0.0" />
+      <Point X="1207.0" Y="187.0" GraphRef="acaf6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179415" />
+  </Interaction>
+  <Interaction GraphId="b1f4a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1240.0" Y="153.0" GraphRef="c6211" RelX="-0.007751937984496124" RelY="1.0" />
+      <Point X="1207.0" Y="187.0" GraphRef="acaf6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179415" />
+  </Interaction>
+  <Interaction GraphId="e1022">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1244.0" Y="285.0" GraphRef="dd10a" RelX="0.36999999999989086" RelY="0.9800000000000182" />
+      <Point X="1259.0" Y="288.0" GraphRef="ed702" RelX="-0.007874015748031496" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179415" />
+  </Interaction>
+  <Interaction GraphId="b2e7f">
+    <Comment Source="Reactome">SOS1 is the guanine nucleotide exchange factor (GEF) for RAS. SOS1 activates RAS nucleotide exchange from the inactive form (bound to GDP) to an active form (bound to GTP) (Chardin et al. 1993).</Comment>
+    <BiopaxRef>c51</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="877.0" Y="369.0" />
+      <Point X="938.0" Y="369.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d2762" />
+      <Anchor Position="0.99" Shape="None" GraphId="bda1e" />
+      <Anchor Position="0.5" Shape="None" GraphId="d1651" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179407" />
+  </Interaction>
+  <Interaction GraphId="d7ac5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="880.0" Y="341.0" GraphRef="b5ec4" RelX="0.978021978021978" RelY="0.0" />
+      <Point X="877.0" Y="369.0" GraphRef="d2762" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179407" />
+  </Interaction>
+  <Interaction GraphId="d76b8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="865.0" Y="403.0" GraphRef="c0b94" RelX="0.9512195121951219" RelY="0.0" />
+      <Point X="877.0" Y="369.0" GraphRef="d2762" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179407" />
+  </Interaction>
+  <Interaction GraphId="c2e08">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="938.0" Y="369.0" GraphRef="bda1e" RelX="0.6100000000000136" RelY="0.0" />
+      <Point X="934.0" Y="338.0" GraphRef="e860b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179407" />
+  </Interaction>
+  <Interaction GraphId="c4433">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="938.0" Y="369.0" GraphRef="bda1e" RelX="0.6100000000000136" RelY="0.0" />
+      <Point X="958.0" Y="404.0" GraphRef="b209a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179407" />
+  </Interaction>
+  <Interaction GraphId="cb4bb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1196.0" Y="306.0" GraphRef="ed702" RelX="-1.0" RelY="0.0" />
+      <Point X="911.0" Y="368.0" GraphRef="d1651" RelX="3.5" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-2179407" />
+  </Interaction>
+  <Interaction GraphId="fd8f6">
+    <Comment Source="Reactome">The p90 ribosomal S6 kinases (RSK1-4) comprise a family of serine/threonine kinases that lie at the terminus of the ERK pathway. RSK family members are unusual among serine/threonine kinases in that they contain two distinct kinase domains, both of which are catalytically functional . The C-terminal kinase domain is believed to be involved in autophosphorylation, a critical step in RSK activation, whereas the N-terminal kinase domain, which is homologous to members of the AGC superfamily of kinases, is responsible for the phosphorylation of all known exogenous substrates of RSK.&lt;br&gt;RSKs can be activated by the ERKs (ERK1, 2, 5) in the cytoplasm as well as in the nucleus,  they both have cytoplasmic and nuclear substrates, and  they are able to move from nucleus to cytoplasm. Efficient RSK activation by ERKs requires its interaction through a docking site located near the RSK C terminus. The mechanism of RSK activation has been studied mainly with regard to ERK1 and ERK2. RSK activation leads to the phosphorylation of four essential residues Ser239, Ser381, Ser398,  and Thr590, and two additional sites, Thr377 and Ser749 (the amino acid numbering refers to RSK1). ERK is thought to play at least two roles in RSK1 activation. First, activated ERK phosphorylates RSK1 on Thr590, and possibly on Thr377 and Ser381, and second, ERK brings RSK1 into close proximity to membrane-associated kinases that may phosphorylate RSK1 on Ser381 and Ser398.&lt;br&gt;Moreover, RSKs and ERK1/2 form a complex that transiently dissociates upon growth factor signalling. Complex dissociation requires phosphorylation of RSK1 serine 749, a growth factor regulated phosphorylation site located near the ERK docking site. Serine 749 is phosphorylated by the N-terminal kinase domain of RSK1 itself. ERK1/2 docking to RSK2 and RSK3 is also regulated in a similar way. The length of RSK activation following growth factor stimulation depends on the duration  of the RSK/ERK complex, which, in turn, differs among the different RSK isoforms. RSK1 and RSK2 readily dissociate from ERK1/2 following growth factor stimulation stimulation, but RSK3 remains associated with active ERK1/2 longer, and  also remains active longer than RSK1 and RSK2. &lt;br&gt;</Comment>
+    <BiopaxRef>c92</BiopaxRef>
+    <BiopaxRef>a1a</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="223.0" Y="399.0" />
+      <Point X="280.0" Y="399.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b7fa1" />
+      <Anchor Position="0.99" Shape="None" GraphId="aecf0" />
+      <Anchor Position="0.5" Shape="None" GraphId="b53a4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198746" />
+  </Interaction>
+  <Interaction GraphId="df6f0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="221.0" Y="352.0" GraphRef="d368a" RelX="1.0" RelY="0.0" />
+      <Point X="223.0" Y="399.0" GraphRef="b7fa1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198746" />
+  </Interaction>
+  <Interaction GraphId="eb972">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="198.0" Y="442.0" GraphRef="a40ba" RelX="1.0" RelY="0.0" />
+      <Point X="223.0" Y="399.0" GraphRef="b7fa1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198746" />
+  </Interaction>
+  <Interaction GraphId="d39d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="280.0" Y="399.0" GraphRef="aecf0" RelX="0.5699999999999932" RelY="0.0" />
+      <Point X="314.0" Y="351.0" GraphRef="cfb61" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198746" />
+  </Interaction>
+  <Interaction GraphId="cf038">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="280.0" Y="399.0" GraphRef="aecf0" RelX="0.5699999999999932" RelY="0.0" />
+      <Point X="300.0" Y="444.0" GraphRef="b0278" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198746" />
+  </Interaction>
+  <Interaction GraphId="e9204">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="252.0" Y="319.0" GraphRef="e65af" RelX="-0.012048192771084338" RelY="1.0" />
+      <Point X="251.0" Y="398.0" GraphRef="b53a4" RelX="-0.5" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198746" />
+  </Interaction>
+  <Interaction GraphId="bb927">
+    <Comment Source="Reactome">CREB is phosphorylated at S133 by RSK1/2/3.</Comment>
+    <BiopaxRef>ed6</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="495.0" Y="311.0" />
+      <Point X="495.0" Y="376.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f3fc2" />
+      <Anchor Position="0.99" Shape="None" GraphId="d2d29" />
+      <Anchor Position="0.5" Shape="None" GraphId="ce6bf" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199895" />
+  </Interaction>
+  <Interaction GraphId="a015b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="282.0" GraphRef="f4711" RelX="1.0" RelY="0.0" />
+      <Point X="495.0" Y="311.0" GraphRef="f3fc2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199895" />
+  </Interaction>
+  <Interaction GraphId="aac8f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="504.0" Y="282.0" GraphRef="ea5e8" RelX="-1.0" RelY="0.0" />
+      <Point X="495.0" Y="311.0" GraphRef="f3fc2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199895" />
+  </Interaction>
+  <Interaction GraphId="f6d6a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="495.0" Y="376.0" GraphRef="d2d29" RelX="0.0" RelY="0.6499999999999773" />
+      <Point X="511.0" Y="413.0" GraphRef="a2732" RelX="0.9797979797979798" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199895" />
+  </Interaction>
+  <Interaction GraphId="c04b9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="495.0" Y="376.0" GraphRef="d2d29" RelX="0.0" RelY="0.6499999999999773" />
+      <Point X="531.0" Y="414.0" GraphRef="f327b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199895" />
+  </Interaction>
+  <Interaction GraphId="a74f8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="442.0" Y="351.0" GraphRef="cfb61" RelX="0.9844961240310077" RelY="0.0" />
+      <Point X="494.0" Y="348.0" GraphRef="ce6bf" RelX="-1.0" RelY="4.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199895" />
+  </Interaction>
+  <Interaction GraphId="ee1e8">
+    <Comment Source="Reactome">Gastrin receptors (gastric cholecystokinin B receptor, CCK-BR) mediate acid secretion from parietal cells, release of histamine from enterochromaffin-like (ECL) cells and contraction of smooth muscle (Ito et al. 1993).The hormone gastrin is the central regulator of gastric acid secretion and in addition, plays a prominent role in regulation of growth and differentiation of gastric and colonic mucosa.</Comment>
+    <BiopaxRef>d1b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="101.0" Y="99.0" />
+      <Point X="164.0" Y="120.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d4775" />
+      <Anchor Position="0.99" Shape="None" GraphId="b9c45" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-870269" />
+  </Interaction>
+  <Interaction GraphId="a29c7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="103.0" Y="69.0" GraphRef="e5e0f" RelX="0.978021978021978" RelY="0.0" />
+      <Point X="101.0" Y="99.0" GraphRef="d4775" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-870269" />
+  </Interaction>
+  <Interaction GraphId="d261f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="90.0" Y="138.0" GraphRef="c4952" RelX="1.0" RelY="0.0" />
+      <Point X="101.0" Y="99.0" GraphRef="d4775" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-870269" />
+  </Interaction>
+  <Interaction GraphId="ab244">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="164.0" Y="120.0" GraphRef="b9c45" RelX="0.6299999999999955" RelY="0.20999999999999375" />
+      <Point X="173.0" Y="123.0" GraphRef="f285f" RelX="-0.010309278350515464" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-870269" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="a7eae" GroupRef="e4213">
+    <Graphics CenterX="97.0" CenterY="522.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="af2c1" GroupRef="a4e49">
+    <Graphics CenterX="127.5" CenterY="473.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="f07f4" GroupRef="e4213">
+    <Graphics CenterX="654.5" CenterY="342.0" Width="1239.0" Height="424.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="b44b8" GroupRef="a4e49">
+    <Graphics CenterX="334.0" CenterY="373.0" Width="538.0" Height="256.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="ba5e0" GraphId="a736d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-870262" />
+  </Group>
+  <Group GroupId="d9b7e" GraphId="bac76" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-422275" />
+  </Group>
+  <Group GroupId="b4fee" GraphId="ea62e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2179410" />
+  </Group>
+  <Group GroupId="f56ff" GraphId="d295e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-109797" />
+  </Group>
+  <Group GroupId="ae87b" GraphId="b96c7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2179409" />
+  </Group>
+  <Group GroupId="afb95" GraphId="a6565" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-109783" />
+  </Group>
+  <Group GroupId="fa20e" GraphId="c851c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-109796" />
+  </Group>
+  <Group GroupId="e7214" GraphId="e6d9f">
+    <Attribute Key="complex_id" Value="R-HSA-199858" />
+  </Group>
+  <Group GroupId="bb7f0" GraphId="ef338">
+    <Attribute Key="complex_id" Value="R-HSA-199849" />
+  </Group>
+  <Group GroupId="f1ede" GraphId="e1e58">
+    <Attribute Key="complex_id" Value="R-HSA-199878" />
+  </Group>
+  <Group GroupId="e4213" GraphId="ff638" Style="Group" />
+  <Group GroupId="a4e49" GraphId="bd593" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ebf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7491953</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholecystokinin receptors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wank SA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e36">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10413847</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Receptors for cholecystokinin and gastrin].</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Weerth A, Bläker M, von Schrenck T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f0d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17698287</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of gastrin peptides in carcinogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grabowska AM, Watson SA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a56">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9588823</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resting distribution and stimulated translocation of protein kinase C isoforms alpha, epsilon and zeta in response to bradykinin and TNF in human endothelial cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ross D, Joyner WL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dc0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11997388</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interplay between calcium, diacylglycerol, and phosphorylation in the spatial and temporal regulation of PKCalpha-GFP.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanimura A, Nezu A, Morita T, Hashimoto N, Tojyo Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fbd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19665053</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gab1 transduces PI3K-mediated erythropoietin signals to the Erk pathway and regulates erythropoietin-dependent proliferation and survival of erythroid cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fukumoto T, Kubota Y, Kitanaka A, Yamaoka G, Ohara-Waki F, Imataki O, Ohnishi H, Ishida T, Tanaka T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8493579</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Sos1: a guanine nucleotide exchange factor for Ras that binds to GRB2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chardin P, Camonis JH, Gale NW, van Aelst L, Schlessinger J, Wigler MH, Bar-Sagi D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24937142</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"RAF" neighborhood: protein-protein interaction in the Raf/Mek/Erk pathway.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cseh B, Doma E, Baccarini M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d12">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20674547</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAF protein-serine/threonine kinases: structure and regulation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roskoski R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e58">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17496910</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrating signals from RTKs to ERK/MAPK.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McKay MM, Morrison DK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c70">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15520807</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The RAF proteins take centre stage.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wellbrock C, Karasarides M, Marais R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22569528</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERK1/2 MAP kinases: structure, function, and regulation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roskoski R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22177953</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEK1/2 dual-specificity protein kinases: structure and regulation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roskoski R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22535895</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian MAPK signal transduction pathways activated by stress and inflammation: a 10-year update.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kyriakis JM, Avruch J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17496919</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAP kinases and the control of nuclear events.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turjanski AG, Vaqué JP, Gutkind JS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21167873</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The MAPK cascades: signaling components, nuclear roles and mechanisms of nuclear translocation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plotnikov A, Zehorai E, Procaccia S, Seger R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fbf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21372320</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation and function of the MAPKs and their substrates, the MAPK-activated protein kinases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cargnello M, Roux PP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e30">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19091303</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein scaffolds in MAP kinase signalling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown MD, Sacks DB.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12068308</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutations of the BRAF gene in human cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Davies H, Bignell GR, Cox C, Stephens P, Edkins S, Clegg S, Teague J, Woffendin H, Garnett MJ, Bottomley W, Davis N, Dicks E, Ewing R, Floyd Y, Gray K, Hall S, Hawes R, Hughes J, Kosmidou V, Menzies A, Mould C, Parker A, Stevens C, Watt S, Hooper S, Wilson R, Jayatilake H, Gusterson BA, Cooper C, Shipley J, Hargrave D, Pritchard-Jones K, Maitland N, Chenevix-Trench G, Riggins GJ, Bigner DD, Palmieri G, Cossu A, Flanagan A, Nicholson A, Ho JW, Leung SY, Yuen ST, Weber BL, Seigler HF, Darrow TL, Paterson H, Marais R, Marshall CJ, Wooster R, Stratton MR, Futreal PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f6b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17496923</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roberts PJ, Der CJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a98">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21388974</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRAFV600E: implications for carcinogenesis and molecular therapy.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantwell-Dorris ER, O'Leary JJ, Sheils OM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d96">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19212139</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functions and regulatory mechanisms of Gq-signaling pathways.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mizuno N, Itoh H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11588141</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanisms and physiological significance of the cholinergic control of pancreatic beta-cell function.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gilon P, Henquin JC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a59">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11836255</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mechanism of the induction of metalloproteinases 1 and 3 in human fibroblasts by basic calcium phosphate crystals. Role of calcium-dependent protein kinase C alpha.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reuben PM, Brogley MA, Sun Y, Cheung HS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f10">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9395517</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matrix metalloproteinase-3 releases active heparin-binding EGF-like growth factor by cleavage at a specific juxtamembrane site.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suzuki M, Raab G, Moses MA, Fernandez CA, Klagsbrun M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1840698</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heparin-binding growth factor secreted by macrophage-like cells that is related to EGF.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Higashiyama S, Abraham JA, Miller J, Fiddes JC, Klagsbrun M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9135143</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activation of HER4 by heparin-binding EGF-like growth factor stimulates chemotaxis but not proliferation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elenius K, Paul S, Allison G, Sun J, Klagsbrun M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b40">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7518560</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hierarchy of binding sites for Grb2 and Shc on the epidermal growth factor receptor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Batzer AG, Rotin D, Ureña JM, Skolnik EY, Schlessinger J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f79">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7527043</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grb2/Ash binds directly to tyrosines 1068 and 1086 and indirectly to tyrosine 1148 of activated human epidermal growth factor receptors in intact cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okutani T, Okabayashi Y, Kido Y, Sugimoto Y, Sakaguchi K, Matuoka K, Takenawa T, Kasuga M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c92">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16626623</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The MAP kinase ERK5 binds to and phosphorylates p90 RSK.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranganathan A, Pearson GW, Chrestensen CA, Sturgill TW, Cobb MH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12832467</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphorylation of p90 ribosomal S6 kinase (RSK) regulates extracellular signal-regulated kinase docking and RSK activity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roux PP, Richards SA, Blenis J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9770464</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rsk-2 activity is necessary for epidermal growth factor-induced phosphorylation of CREB protein and transcription of c-fos gene.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">De Cesare D, Jacquot S, Hanauer A, Sassone-Corsi P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8349705</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional characterization of a human brain cholecystokinin-B receptor. A trophic effect of cholecystokinin and gastrin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ito M, Matsui T, Taniguchi T, Tsukamoto T, Murayama T, Arima N, Nakata H, Chiba T, Chihara K.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

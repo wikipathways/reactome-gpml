@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Protein lipoylation" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Lipoate is an essential cofactor for five redox reactions: four in oxoacid dehydrogenases (active in energy and amino acid metabolism) and one in the glycine cleavage system (GCS). Lipoate synthesis and transfer to target proteins in mitochondria requires three steps. Octanoyl carried by ACP from mitochondrial fatty acid synthesis is first transferred to GCSH. In the second step, two sulfur atoms of an iron-sulfur cluster are inserted on the side chain, synthesizing the lipoyl group in a highly complicated reaction. Finally, lipoyl is transferred onto the lipoyl domains of the E2 subunits (DLST, DLAT, DBT) of the target enzyme complexes (OGDH, OADH, PDH, BCKDH) (Schonauer et al., 2009; Cao et al., 2018; reviewed in Cronan, 2020). Defects in the enzymes catalyzing the three steps cause severe lactic acidosis and metabolic imbalances due to dehydrogenase deficiency. Mutations in the lipoyl carrier GCSH additionally cause hyperglycinemia, leading to epileptic encephalopathy, since GCSH moonlights in glycine catabolism (Arribas-Carreira et al., 2023).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9857492 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 9857492</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Stephan, Ralf</Comment>
+  <BiopaxRef>a44</BiopaxRef>
+  <BiopaxRef>e9d</BiopaxRef>
+  <BiopaxRef>b7d</BiopaxRef>
+  <BiopaxRef>bcd</BiopaxRef>
+  <Attribute Key="reactome_id" Value="9857492" />
+  <Graphics BoardWidth="1407.0" BoardHeight="1088.0" />
+  <DataNode TextLabel="GCSH" GraphId="a0ddd" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="253.0" CenterY="327.5" Width="40.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23434" />
+  </DataNode>
+  <DataNode TextLabel="octanoyl-K107-GCSH" GraphId="a6253" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="480.0" CenterY="298.0" Width="140.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23434" />
+  </DataNode>
+  <DataNode TextLabel="NDUFAB1" GraphId="b71f5" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Graphics CenterX="489.0" CenterY="113.0" Width="88.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14561" />
+  </DataNode>
+  <DataNode TextLabel="AdoMet" GraphId="ddeec" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="541.0" CenterY="381.5" Width="60.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59789" />
+  </DataNode>
+  <DataNode TextLabel="L-Met" GraphId="bf5a2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="793.0" CenterY="358.5" Width="48.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57844" />
+  </DataNode>
+  <DataNode TextLabel="5dAde" GraphId="f8c57" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="773.5" CenterY="239.5" Width="51.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17319" />
+  </DataNode>
+  <DataNode TextLabel="Lipo-K107-GCSH" GraphId="c6152" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="877.0" CenterY="297.0" Width="114.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23434" />
+  </DataNode>
+  <DataNode TextLabel="LIAS:2(4Fe-4S)" GraphId="d753d" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="683.0" CenterY="356.5" Width="96.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6793623" />
+  </DataNode>
+  <DataNode TextLabel="LIAS " GraphId="f851d" Type="Protein" GroupRef="e0ba4">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-6793623" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="576.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43766" />
+  </DataNode>
+  <DataNode TextLabel="4Fe-4S cluster " GraphId="dfb77" Type="Metabolite" GroupRef="e0ba4">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-6793623" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="596.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:49883" />
+  </DataNode>
+  <DataNode TextLabel="NFU1 " GraphId="f94d8" Type="Protein" GroupRef="e0ba4">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-6793623" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="616.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UMS0" />
+  </DataNode>
+  <DataNode TextLabel="DBT/DLST" GraphId="aec3d" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="923.5" CenterY="240.0" Width="71.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6792579" />
+  </DataNode>
+  <DataNode TextLabel="DBT " GraphId="c32d6" Type="Protein" GroupRef="c400d">
+    <BiopaxRef>fe0</BiopaxRef>
+    <BiopaxRef>d38</BiopaxRef>
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-6792579" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="676.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11182" />
+  </DataNode>
+  <DataNode TextLabel="DLST " GraphId="a42fe" Type="Protein" GroupRef="c400d">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-6792579" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="696.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36957" />
+  </DataNode>
+  <DataNode TextLabel="Lipoylated DBT/DLST" GraphId="ea3c3" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="1115.0" CenterY="259.5" Width="88.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6792580" />
+  </DataNode>
+  <DataNode TextLabel="Lipo-K110-DLST " GraphId="e3e11" Type="Protein" GroupRef="ca46e">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-6792580" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="756.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36957" />
+  </DataNode>
+  <DataNode TextLabel="Lipo-K105-DBT " GraphId="f1aa8" Type="Protein" GroupRef="ca46e">
+    <BiopaxRef>fe0</BiopaxRef>
+    <BiopaxRef>d38</BiopaxRef>
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-6792580" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="776.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11182" />
+  </DataNode>
+  <DataNode TextLabel="LIPT1" GraphId="dd54c" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="1002.0" CenterY="301.5" Width="40.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y234" />
+  </DataNode>
+  <DataNode TextLabel="LIPT2" GraphId="e97a1" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="341.0" CenterY="352.5" Width="40.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A6NK58" />
+  </DataNode>
+  <DataNode TextLabel="Glyoxylate&#xA;metabolism and&#xA;glycine degradation" GraphId="e3d2c" Type="Pathway">
+    <Comment Source="Reactome">Glyoxylate is generated in the course of glycine and hydroxyproline catabolism and can be converted to oxalate. In humans, this process takes place in the liver. Defects in two enzymes of glyoxylate metabolism, alanine:glyoxylate aminotransferase (AGXT) and glycerate dehydrogenase/glyoxylate reductase (GRHPR), are associated with pathogenic overproduction of oxalate (Danpure 2005). The reactions that interconvert glycine, glycolate, and glyoxylate and convert glyoxylate to oxalate have been characterized in molecular detail in humans. A reaction sequence for the conversion of hydroxyproline to glyoxylate has been inferred from studies of partially purified extracts of rat and bovine liver but the enzymes involved in the corresponding human reactions have not been identified.</Comment>
+    <BiopaxRef>caf</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="876.5" CenterY="175.5" Width="135.0" Height="69.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-389661" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="d2417" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="448.0" CenterY="357.5" Width="32.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="octanoyl-S112-NDUFAB1" GraphId="a1b93" Type="Protein">
+    <BiopaxRef>b85</BiopaxRef>
+    <Attribute Key="cellular_location" Value="mitochondrial inner membrane" />
+    <Graphics CenterX="149.0" CenterY="249.5" Width="102.0" Height="41.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14561" />
+  </DataNode>
+  <DataNode TextLabel="Fe3+" GraphId="d9c14" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="821.5" CenterY="261.5" Width="43.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29034" />
+  </DataNode>
+  <DataNode TextLabel="FDX1 (ox.)" GraphId="ba1af" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="552.0" CenterY="243.5" Width="78.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2395509" />
+  </DataNode>
+  <DataNode TextLabel="FDX1 " GraphId="d63af" Type="Protein" GroupRef="c4aa3">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-2395509" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="836.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P10109" />
+  </DataNode>
+  <DataNode TextLabel="(2Fe-2S)2+ " GraphId="fc762" Type="Metabolite" GroupRef="c4aa3">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-2395509" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="856.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:33737" />
+  </DataNode>
+  <DataNode TextLabel="FDX1 (red.)" GraphId="c6d05" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="747.5" CenterY="183.5" Width="79.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2395507" />
+  </DataNode>
+  <DataNode TextLabel="FDX1 " GraphId="be975" Type="Protein" GroupRef="b54b8">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-2395507" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="916.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P10109" />
+  </DataNode>
+  <DataNode TextLabel="(2Fe-2S)(1+) " GraphId="cffbb" Type="Metabolite" GroupRef="b54b8">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-2395507" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="936.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:33738" />
+  </DataNode>
+  <DataNode TextLabel="LIAS:4Fe-4S" GraphId="fc282" Type="Complex">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="769.0" CenterY="402.5" Width="80.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9857620" />
+  </DataNode>
+  <DataNode TextLabel="LIAS " GraphId="c5ac8" Type="Protein" GroupRef="c2181">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-9857620" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="996.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43766" />
+  </DataNode>
+  <DataNode TextLabel="4Fe-4S cluster " GraphId="a5786" Type="Metabolite" GroupRef="c2181">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-9857620" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1016.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:49883" />
+  </DataNode>
+  <DataNode TextLabel="NFU1 " GraphId="b4466" Type="Protein" GroupRef="c2181">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-9857620" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1036.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UMS0" />
+  </DataNode>
+  <DataNode TextLabel="H2S" GraphId="fdb16" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="841.5" CenterY="350.5" Width="39.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29919" />
+  </DataNode>
+  <DataNode TextLabel="Mitochondrial&#xA;iron-sulfur cluster&#xA;biogenesis" GraphId="ae0e5" Type="Pathway">
+    <Comment Source="Reactome">Iron-sulfur (Fe-S) proteins are localized in the cytosol, nucleus, and mitochondria of mammalian cells (reviewed in Stemmler et al. 2010, Rouault 2012, Bandyopadhyay et al. 2008, Lill 2009, Lill et al. 2012). Fe-S protein biogenesis in the mitochondrial matrix involves the iron-sulfur cluster (ISC) assembly machinery. Ferrous iron is transported across the inner mitochondrial membrane into the mitochondrial matrix by Mitoferrin-1 (SLC25A37) and Mitoferrin-2 (SLC25A28). (Mitoferrin-1 is enriched in erythroid cells while Mitoferrin-2 is ubiquitous.) Frataxin binds ferrous iron in the mitochondrial matrix. The cysteine desulfurase NFS1 in a subcomplex with ISD11 provides the sulfur by converting cyteine into alanine and forming a persulfide which is used for cluster formation on ISCU, the scaffold protein. Interaction between NFS1 and ISD11 is necessary for desulfurase activity. Frataxin binds to a complex containing NFS1, ISD11, and ISCU and is proposed to function as an iron donor to ISCU or as an allosteric switch that activates sulfur transfer and Fe-S cluster assembly (Tsai and Barondeau 2010). Cluster formation also involves the electron transfer chain ferredoxin reductase and ferredoxin. ISCU initially forms clusters containing 2 iron atoms and 2 sulfur atoms ([2Fe-2S] clusters). They are released by the function of HSP70-HSC20 chaperones and the monothiol glutaredoxin GLRX5 and used for assembly of [2Fe-2S] proteins. Assembly of larger clusters such as [4Fe-4S] clusters may involve the function of ISCA1, ISCA2, and IBA57. The clusters are transferred to apo-enzymes such as the respiratory complexes, aconitase, and lipoate synthase through dedicated targeting factors such as IND1, NFU1, and BOLA3.</Comment>
+    <BiopaxRef>f81</BiopaxRef>
+    <BiopaxRef>c56</BiopaxRef>
+    <BiopaxRef>dd9</BiopaxRef>
+    <BiopaxRef>b0f</BiopaxRef>
+    <BiopaxRef>e73</BiopaxRef>
+    <BiopaxRef>c55</BiopaxRef>
+    <BiopaxRef>e4c</BiopaxRef>
+    <BiopaxRef>a24</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="738.0" CenterY="476.0" Width="128.0" Height="64.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-1362409" />
+  </DataNode>
+  <DataNode TextLabel="Mitochondrial Fatty&#xA;Acid Beta-Oxidation" GraphId="cc07f" Type="Pathway">
+    <Comment Source="Reactome">Beta-oxidation begins once fatty acids have been imported into the mitochondrial matrix by carnitine acyltransferases. The beta-oxidation spiral of fatty acids metabolism involves the repetitive removal of two carbon units from the fatty acyl chain. There are four steps to this process: oxidation, hydration, a second oxidation, and finally thiolysis. The last step releases the two-carbon acetyl-CoA and a ready primed acyl-CoA that takes another turn down the spiral. In total each turn of the beta-oxidation spiral produces one NADH, one FADH2, and one acetyl-CoA.&lt;p&gt;Further oxidation of acetyl-CoA via the tricarboxylic acid cycle generates additional FADH2 and NADH. All reduced cofactors are used by the mitochondrial electron transport chain to form ATP. The complete oxidation of a fatty acid molecule produces numerous ATP molecules. Palmitate, used as the model here, produces 129 ATPs.&lt;p&gt;Beta-oxidation pathways differ for saturated and unsaturated fatty acids. The beta-oxidation of saturated fatty acids requires four different enzymatic steps. Beta-oxidation produces and consumes intermediates with a trans configuration; unsaturated fatty acids that have bonds in the cis configuration require three separate enzymatic steps to prepare these molecules for the beta-oxidation pathway.</Comment>
+    <BiopaxRef>ccb</BiopaxRef>
+    <BiopaxRef>b97</BiopaxRef>
+    <BiopaxRef>b6c</BiopaxRef>
+    <BiopaxRef>b52</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="150.5" CenterY="165.5" Width="139.0" Height="55.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-77289" />
+  </DataNode>
+  <DataNode TextLabel="Branched-chain amino&#xA;acid catabolism" GraphId="c8dba" Type="Pathway">
+    <Comment Source="Reactome">The branched-chain amino acids, leucine, isoleucine, and valine, are all essential amino acids (i.e., ones required in the diet). They are major constituents of muscle protein. The breakdown of these amino acids starts with two common steps catalyzed by enzymes that act on all three amino acids: reversible transamination by branched-chain amino acid aminotransferase, and irreversible oxidative decarboxylation by the branched-chain ketoacid dehydrogenase complex. Isovaleryl-CoA is produced from leucine by these two reactions, alpha-methylbutyryl-CoA from isoleucine, and isobutyryl-CoA from valine. These acyl-CoA's undergo dehydrogenation, catalyzed by three different but related enzymes, and the breakdown pathways then diverge. Leucine is ultimately converted to acetyl-CoA and acetoacetate; isoleucine to acetyl-CoA and succinyl-CoA; and valine to succinyl-CoA. Under fasting conditions, substantial amounts of all three amino acids are generated by protein breakdown. In muscle, the final products of leucine, isoleucine, and valine catabolism can be fully oxidized via the citric acid cycle; in liver they can be directed toward the synthesis of ketone bodies (acetoacetate and acetyl-CoA) and glucose (succinyl-CoA) (Neinast et al. 2019).</Comment>
+    <BiopaxRef>fc4</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="1243.5" CenterY="169.0" Width="115.0" Height="68.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-70895" />
+  </DataNode>
+  <DataNode TextLabel="Lysine catabolism" GraphId="ce770" Type="Pathway">
+    <Comment Source="Reactome">In humans, most catabolism of L-lysine normally proceeds via a sequence of seven reactions which feeds into the pathway for fatty acid catabolism. In the first two reactions, catalyzed by a single enzyme complex, lysine is combined with alpha-ketoglutarate to form saccharopine, which in turn is cleaved and oxidized to yield glutamate and alpha-ketoadipic semialdehyde. The latter molecule is further oxidized to alpha-ketoadipate. Alpha-ketoadipate is oxidatively decarboxylated by the alpha-ketoglutarate dehydrogenase complex (the same enzyme complex responsible for the conversion of alpha-ketoglutarate to succinyl-CoA in the citric acid cycle), yielding glutaryl-CoA. Glutaryl-CoA is converted to crotonyl-CoA, crotonyl-CoA is converted to beta-hydroxybutyryl-CoA, and beta-hydroxybutyryl-CoA is converted to acetoacetyl-CoA. The products of lysine catabolism are thus exclusively ketogenic; i.e., under starvation conditions they can be used for the synthesis of ketone bodies, beta-hydroxybutyrate and acetoacetate, but not for the net synthesis of glucose (Cox 2001; Goodman and Freeman 2001).</Comment>
+    <BiopaxRef>d3d</BiopaxRef>
+    <BiopaxRef>cea</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="1060.0" CenterY="166.5" Width="136.0" Height="43.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-71064" />
+  </DataNode>
+  <DataNode TextLabel="DLAT" GraphId="b521f" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="911.5" CenterY="360.5" Width="39.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P10515" />
+  </DataNode>
+  <DataNode TextLabel="Lipo-K259-DLAT" GraphId="fb488" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="1161.5" CenterY="323.5" Width="95.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P10515" />
+  </DataNode>
+  <DataNode TextLabel="Pyruvate metabolism" GraphId="c9981" Type="Pathway">
+    <Comment Source="Reactome">Pyruvate sits at an intersection of key pathways of energy metabolism. It is the end product of glycolysis and the starting point for gluconeogenesis and can be generated by the transamination of alanine. The pyruvate dehydrogenase complex can convert it to acetyl CoA (Reed and Hackert 1990), which can enter the TCA cycle or serve as the starting point for the syntheses of long-chain fatty acids, steroids, and ketone bodies depending on the tissue and metabolic state in which it is formed. It also plays a central role in balancing the energy needs of various tissues in the body. Under conditions in which oxygen supply is limiting, e.g., in exercising muscle, or in the absence of mitochondria, e.g., in red blood cells, re-oxidation of NADH produced by glycolysis cannot be coupled to the generation of ATP. Instead, re-oxidation is coupled to the reduction of pyruvate to lactate. This lactate is released into the blood and taken up primarily by the liver, where it is oxidized to pyruvate and can be used for gluconeogenesis (Cori 1981). For a recent review, see Prochownik &amp; Wang, 2021.</Comment>
+    <BiopaxRef>b5f</BiopaxRef>
+    <BiopaxRef>ad1</BiopaxRef>
+    <BiopaxRef>a6b</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="1289.5" CenterY="331.5" Width="95.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-70268" />
+  </DataNode>
+  <DataNode TextLabel="Citric acid cycle&#xA;(TCA cycle)" GraphId="b7e3b" Type="Pathway">
+    <Comment Source="Reactome">In the citric acid or tricarboxylic acid (TCA) cycle, the acetyl group of acetyl CoA (derived primarily from oxidative decarboxylation of pyruvate, beta-oxidation of long-chain fatty acids, and catabolism of ketone bodies and several amino acids) can be completely oxidized to CO2 in reactions that also yield one high-energy phosphate bond (as GTP or ATP) and four reducing equivalents (three NADH + H+, and one FADH2). Then, the electron transport chain oxidizes NADH and FADH2 to yield nine more high-energy phosphate bonds (as ATP). All reactions of the citric acid cycle take place in the mitochondrion.&lt;p&gt;Eight canonical reactions mediate the synthesis of citrate from acetyl-CoA and oxaloacetate and the metabolism of citrate to re-form oxaloacetate. Three reactions are reversible: the interconversions of citrate and isocitrate, of fumarate and malate, and of malate and oxaloacetate. The reverse reactions are irrelevant under normal physiological conditions but appear to have a role in glucose- and glutamine-stimulated insulin secretion (Zhang et al., 2020) and cancer metabolism (e.g., Jiang et al., 2016). Succinate synthesis from succinyl-CoA can be coupled to the phosphorylation of either GDP (the canonical reaction) or ADP; we annotate both reactions. Two mitochondrial isocitrate dehydrogenase isozymes catalyze the oxidative decarboxylation of isocitrate to form alpha-ketoglutarate (2-oxoglutarate): IDH3 catalyzes the canonical reaction coupled to the reduction of NAD+, while IDH2 catalyzes the same reaction coupled to the reduction of NADP+, a reaction whose normal physiological function is unclear. Both reactions are annotated.&lt;p&gt;The cyclical nature of the reactions responsible for the oxidation of acetate was first suggested by Hans Krebs from biochemical studies of pigeon breast muscle (Krebs et al., 1938; Krebs and Eggleston, 1940). Ochoa and colleagues studied many molecular details of individual reactions, mainly by studying enzymes purified from pig hearts (Ochoa, 1980). While the human homologs of these enzymes have all been identified, their biochemical characterization has, in general, been limited, and many molecular details of the human reactions are inferred from those worked out in studies of the model systems.
+
+Studies examining the impact of elevated citric acid cycle intermediates such as succinate and fumarate led to the recognition of the role of metabolites in driving cancer progression ('oncometabolites') (Pollard et al., 2005; reviewed in Hayashi et al., 2018). The role of TCA enzymes in disease was reviewed by Kang et al., 2021.</Comment>
+    <BiopaxRef>b67</BiopaxRef>
+    <BiopaxRef>ff2</BiopaxRef>
+    <BiopaxRef>ded</BiopaxRef>
+    <BiopaxRef>ab0</BiopaxRef>
+    <BiopaxRef>f40</BiopaxRef>
+    <BiopaxRef>f95</BiopaxRef>
+    <BiopaxRef>ae3</BiopaxRef>
+    <BiopaxRef>bb4</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="1282.0" CenterY="260.0" Width="118.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-71403" />
+  </DataNode>
+  <Interaction GraphId="db700">
+    <Comment Source="Reactome">Mitochondrial lipoyltransferase 2 (LIPT2) transfers an octanoyl group bound to the acyl-carrier protein NDUFAB1 (ACP) to mitochondrial glycine cleavage system H protein (GCSH) at lysine 107 (Schonauer et al. 2009; Cao et al., 2018). The octanoyl moiety is provided by mitochondrial fatty acid synthesis pathways (Feng et al., 2009; Witkowski et al., 2011). Mutations in LIPT2 can cause severe neonatal encephalopathy by lipoate deficiency of mitochondrial dehydrogenase complexes (NELABA. MIM:617668; Habarou et al., 2017).</Comment>
+    <BiopaxRef>b7d</BiopaxRef>
+    <BiopaxRef>a8b</BiopaxRef>
+    <BiopaxRef>a9e</BiopaxRef>
+    <BiopaxRef>cc4</BiopaxRef>
+    <BiopaxRef>abb</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="311.0" Y="298.0" />
+      <Point X="374.0" Y="297.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cdb79" />
+      <Anchor Position="0.99" Shape="None" GraphId="ac283" />
+      <Anchor Position="0.5" Shape="None" GraphId="d234d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793590" />
+  </Interaction>
+  <Interaction GraphId="a64de">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="273.0" Y="327.0" GraphRef="a0ddd" RelX="1.0" RelY="-0.043478260869565216" />
+      <Point X="311.0" Y="298.0" GraphRef="cdb79" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793590" />
+  </Interaction>
+  <Interaction GraphId="cd07c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="200.0" Y="249.0" GraphRef="a1b93" RelX="1.0" RelY="-0.024390243902439025" />
+      <Point X="311.0" Y="298.0" GraphRef="cdb79" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793590" />
+  </Interaction>
+  <Interaction GraphId="e6d07">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="297.0" GraphRef="ac283" RelX="0.6299999999999955" RelY="-0.009999999999990905" />
+      <Point X="445.0" Y="113.0" GraphRef="b71f5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793590" />
+  </Interaction>
+  <Interaction GraphId="c7751">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="297.0" GraphRef="ac283" RelX="0.6299999999999955" RelY="-0.009999999999990905" />
+      <Point X="410.0" Y="298.0" GraphRef="a6253" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793590" />
+  </Interaction>
+  <Interaction GraphId="d6469">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="297.0" GraphRef="ac283" RelX="0.6299999999999955" RelY="-0.009999999999990905" />
+      <Point X="432.0" Y="357.0" GraphRef="d2417" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793590" />
+  </Interaction>
+  <Interaction GraphId="a7eab">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="341.0" Y="341.0" GraphRef="e97a1" RelX="0.0" RelY="-1.0" />
+      <Point X="343.0" Y="297.0" GraphRef="d234d" RelX="0.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793590" />
+  </Interaction>
+  <Interaction GraphId="e64a9">
+    <Comment Source="Reactome">Mitochondrial lipoyl synthase (LIAS) mediates the radical-mediated insertion of two sulfur atoms into the C-6 and C-8 positions of the octanoyl moiety bound to glycine cleavage system H protein (GCSH), transforming the octanoyl moiety to a lipoyl moiety. LIAS requires two 4Fe-4S clusters as cofactors, which act as the sulfur donors in the reaction. It also requires ferredoxin FDX1 as a cofactor. Moreover, LIAS is in complex with iron-sulfur cluster scaffold NFU1, which restores the auxiliary cluster of LIAS during turnover (Morikawa et al., 2001; Warui et al., 2022; Dreishpoon et al., 2023; Joshi et al., 2023). Defects in LIAS can cause neonatal-onset epilepsy, defective mitochondrial energy metabolism, and glycine elevation (HGCLAS, MIM:614462; Mayr et al., 2011; reviewed by Cronan, 2020).</Comment>
+    <BiopaxRef>e78</BiopaxRef>
+    <BiopaxRef>edf</BiopaxRef>
+    <BiopaxRef>c42</BiopaxRef>
+    <BiopaxRef>d53</BiopaxRef>
+    <BiopaxRef>e65</BiopaxRef>
+    <BiopaxRef>a44</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="658.0" Y="294.0" />
+      <Point X="718.0" Y="293.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="be506" />
+      <Anchor Position="0.99" Shape="None" GraphId="caca4" />
+      <Anchor Position="0.5" Shape="None" GraphId="f2492" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="f9be4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="591.0" Y="243.0" GraphRef="ba1af" RelX="1.0" RelY="-0.04" />
+      <Point X="658.0" Y="294.0" GraphRef="be506" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="f360c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="683.0" Y="345.0" GraphRef="d753d" RelX="0.0" RelY="-1.0" />
+      <Point X="658.0" Y="294.0" GraphRef="be506" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="ff836">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="550.0" Y="298.0" GraphRef="a6253" RelX="1.0" RelY="0.0" />
+      <Point X="658.0" Y="294.0" GraphRef="be506" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="cff5f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="464.0" Y="357.0" GraphRef="d2417" RelX="1.0" RelY="-0.03225806451612903" />
+      <Point X="658.0" Y="294.0" GraphRef="be506" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="aad2b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="571.0" Y="381.0" GraphRef="ddeec" RelX="1.0" RelY="-0.03225806451612903" />
+      <Point X="658.0" Y="294.0" GraphRef="be506" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="a47f3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="293.0" GraphRef="caca4" RelX="0.6000000000000227" RelY="-0.009999999999990905" />
+      <Point X="820.0" Y="297.0" GraphRef="c6152" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="ab3ff">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="293.0" GraphRef="caca4" RelX="0.6000000000000227" RelY="-0.009999999999990905" />
+      <Point X="800.0" Y="261.0" GraphRef="d9c14" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="ce43b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="293.0" GraphRef="caca4" RelX="0.6000000000000227" RelY="-0.009999999999990905" />
+      <Point X="729.0" Y="402.0" GraphRef="fc282" RelX="-1.0" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="f80d3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="293.0" GraphRef="caca4" RelX="0.6000000000000227" RelY="-0.009999999999990905" />
+      <Point X="769.0" Y="358.0" GraphRef="bf5a2" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="fa8fb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="293.0" GraphRef="caca4" RelX="0.6000000000000227" RelY="-0.009999999999990905" />
+      <Point X="822.0" Y="350.0" GraphRef="fdb16" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="d1a43">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="293.0" GraphRef="caca4" RelX="0.6000000000000227" RelY="-0.009999999999990905" />
+      <Point X="747.0" Y="194.0" GraphRef="c6d05" RelX="-0.012658227848101266" RelY="0.9130434782608695" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="c9128">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="718.0" Y="293.0" GraphRef="caca4" RelX="0.6000000000000227" RelY="-0.009999999999990905" />
+      <Point X="748.0" Y="239.0" GraphRef="f8c57" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="bd2d9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="683.0" Y="345.0" GraphRef="d753d" RelX="0.0" RelY="-1.0" />
+      <Point X="688.0" Y="294.0" GraphRef="f2492" RelX="0.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6793591" />
+  </Interaction>
+  <Interaction GraphId="d11fd">
+    <Comment Source="Reactome">Mitochondrial lipoyltransferase 1 (LIPT1) catalyses the transfer of a lipoyl group from lipoyl-K107-GCSH to lysine residue(s) of lipoate-dependent enzymes (Fujiwara et al. 1999; Cao et al., 2018). Defects in LIPT1 reduce lipoylation of pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase, causing a cofactor disorder of mitochondrial energy metabolism (Soreze et al. 2013, Tort et al. 2014; Ni et al., 2019).</Comment>
+    <BiopaxRef>c54</BiopaxRef>
+    <BiopaxRef>eb5</BiopaxRef>
+    <BiopaxRef>bd7</BiopaxRef>
+    <BiopaxRef>abb</BiopaxRef>
+    <BiopaxRef>c4f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="980.0" Y="263.0" />
+      <Point X="1022.0" Y="262.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bc1e0" />
+      <Anchor Position="0.99" Shape="None" GraphId="f4202" />
+      <Anchor Position="0.5" Shape="None" GraphId="e9be4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6792572" />
+  </Interaction>
+  <Interaction GraphId="e7ffb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="958.0" Y="240.0" GraphRef="aec3d" RelX="0.971830985915493" RelY="0.0" />
+      <Point X="980.0" Y="263.0" GraphRef="bc1e0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6792572" />
+  </Interaction>
+  <Interaction GraphId="c2dbc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="934.0" Y="297.0" GraphRef="c6152" RelX="1.0" RelY="0.0" />
+      <Point X="980.0" Y="263.0" GraphRef="bc1e0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6792572" />
+  </Interaction>
+  <Interaction GraphId="adbb1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1022.0" Y="262.0" GraphRef="f4202" RelX="0.4199999999999591" RelY="-0.009999999999990905" />
+      <Point X="1071.0" Y="259.0" GraphRef="ea3c3" RelX="-1.0" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6792572" />
+  </Interaction>
+  <Interaction GraphId="dc5b9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1022.0" Y="262.0" GraphRef="f4202" RelX="0.4199999999999591" RelY="-0.009999999999990905" />
+      <Point X="273.0" Y="327.0" GraphRef="a0ddd" RelX="1.0" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6792572" />
+  </Interaction>
+  <Interaction GraphId="e41c2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1002.0" Y="290.0" GraphRef="dd54c" RelX="0.0" RelY="-1.0" />
+      <Point X="1002.0" Y="262.0" GraphRef="e9be4" RelX="1.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6792572" />
+  </Interaction>
+  <Interaction GraphId="b4938">
+    <Comment Source="Reactome">Mitochondrial lipoyltransferase 1 (LIPT1) catalyses the transfer of a lipoyl group from lipoyl-K107-GCSH to two lysine residues of the PDH complex subunit E2 (DLAT) (Fujiwara et al. 1999; Cao et al., 2018). Defects in LIPT1 reduce lipoylation of pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase, causing a cofactor disorder of mitochondrial energy metabolism (Soreze et al. 2013, Tort et al. 2014; Ni et al., 2019).</Comment>
+    <BiopaxRef>c54</BiopaxRef>
+    <BiopaxRef>eb5</BiopaxRef>
+    <BiopaxRef>bd7</BiopaxRef>
+    <BiopaxRef>abb</BiopaxRef>
+    <BiopaxRef>c4f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="956.0" Y="344.0" />
+      <Point X="1040.0" Y="343.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d3097" />
+      <Anchor Position="0.99" Shape="None" GraphId="f65bb" />
+      <Anchor Position="0.5" Shape="None" GraphId="e8e74" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9858752" />
+  </Interaction>
+  <Interaction GraphId="bc0c0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="934.0" Y="297.0" GraphRef="c6152" RelX="1.0" RelY="0.0" />
+      <Point X="956.0" Y="344.0" GraphRef="d3097" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9858752" />
+  </Interaction>
+  <Interaction GraphId="d75a0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="930.0" Y="360.0" GraphRef="b521f" RelX="0.9487179487179487" RelY="-0.043478260869565216" />
+      <Point X="956.0" Y="344.0" GraphRef="d3097" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9858752" />
+  </Interaction>
+  <Interaction GraphId="efab3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1040.0" Y="343.0" GraphRef="f65bb" RelX="0.8399999999999181" RelY="-0.009999999999990905" />
+      <Point X="273.0" Y="327.0" GraphRef="a0ddd" RelX="1.0" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9858752" />
+  </Interaction>
+  <Interaction GraphId="cde3e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1040.0" Y="343.0" GraphRef="f65bb" RelX="0.8399999999999181" RelY="-0.009999999999990905" />
+      <Point X="1114.0" Y="323.0" GraphRef="fb488" RelX="-1.0" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9858752" />
+  </Interaction>
+  <Interaction GraphId="b1acf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="982.0" Y="301.0" GraphRef="dd54c" RelX="-1.0" RelY="-0.043478260869565216" />
+      <Point X="1001.0" Y="344.0" GraphRef="e8e74" RelX="3.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9858752" />
+  </Interaction>
+  <Label TextLabel="mitochondrial matrix" GraphId="b46a1" GroupRef="df67d">
+    <Graphics CenterX="604.5" CenterY="182.5" Width="147.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="c3afc" GroupRef="df67d">
+    <Graphics CenterX="751.0" CenterY="325.5" Width="1236.0" Height="445.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="e0ba4" GraphId="ddea7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-6793623" />
+  </Group>
+  <Group GroupId="c400d" GraphId="c6f01">
+    <Attribute Key="complex_id" Value="R-HSA-6792579" />
+  </Group>
+  <Group GroupId="ca46e" GraphId="e3d1d">
+    <Attribute Key="complex_id" Value="R-HSA-6792580" />
+  </Group>
+  <Group GroupId="c4aa3" GraphId="cd21a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2395509" />
+  </Group>
+  <Group GroupId="b54b8" GraphId="ea80b" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2395507" />
+  </Group>
+  <Group GroupId="c2181" GraphId="e7b2c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9857620" />
+  </Group>
+  <Group GroupId="df67d" GraphId="d91f0" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a44">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32508887</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Progress in the Enzymology of the Mitochondrial Diseases of Lipoic Acid Requiring Enzymes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cronan JE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e9d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36190515</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathogenic variants in GCSH encoding the moonlighting H-protein cause combined nonketotic hyperglycinemia and lipoate deficiency.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arribas-Carreira L, Dallabona C, Swanson MA, Farris J, Østergaard E, Tsiakas K, Hempel M, Aquaviva-Bourdain C, Koutsoukos S, Stence NV, Magistrati M, Spector EB, Kronquist K, Christensen M, Karstensen HG, Feichtinger RG, Achleitner MT, Lawrence Merritt Ii J, Pérez B, Ugarte M, Grünewald S, Riela AR, Julve N, Arnoux JB, Haldar K, Donnini C, Santer R, Lund AM, Mayr JA, Rodriguez-Pombo P, Van Hove JLK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19570983</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoic acid synthesis and attachment in yeast mitochondria.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schonauer MS, Kastaniotis AJ, Kursu VA, Hiltunen JK, Dieckmann CL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29339506</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development and retention of a primordial moonlighting pathway of protein modification in the absence of selection presents a puzzle.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cao X, Hong Y, Zhu L, Hu Y, Cronan JE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7918575</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Differential processing of human and rat E1 alpha precursors of the branched-chain alpha-keto acid dehydrogenase complex caused by an N-terminal proline in the rat sequence.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wynn RM, Kochi H, Cox RP, Chuang DT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d38">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11839747</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solution structure and dynamics of the lipoic acid-bearing domain of human mitochondrial branched-chain alpha-keto acid dehydrogenase complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chang CF, Chou HT, Chuang JL, Chuang DT, Huang TH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="caf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15956068</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary hyperoxaluria: from gene defects to designer drugs?</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danpure CJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b85">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31664822</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure of the Human ACP-ISD11 Heterodimer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herrera MG, Noguera ME, Sewell KE, Agudelo Suárez WA, Capece L, Klinke S, Santos J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f81">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20522547</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frataxin and mitochondrial FeS cluster biogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stemmler TL, Lesuisse E, Pain D, Dancis A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c56">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19021507</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iron-sulfur cluster biosynthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bandyopadhyay S, Chandramouli K, Johnson MK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22609301</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of mitochondria in cellular iron-sulfur protein biogenesis and iron metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lill R, Hoffmann B, Molik S, Pierik AJ, Rietzschel N, Stehling O, Uzarska MA, Webert H, Wilbrecht C, Mühlenhoff U.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19675643</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Function and biogenesis of iron-sulphur proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lill R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e73">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20060739</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iron-sulfur proteins in health and disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheftel A, Stehling O, Lill R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c55">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22382365</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biogenesis of iron-sulfur clusters in mammalian cells: new insights and relevance to human disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rouault TA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e4c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20873749</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human frataxin is an allosteric switch that activates the Fe-S cluster biosynthetic complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tsai CL, Barondeau DP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a24">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23906713</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of mitochondria in cellular iron-sulfur protein biogenesis: mechanisms, connected processes, and diseases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stehling O, Lill R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ccb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10527676</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recent developments in the investigation of inherited metabolic disorders using cultured human cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roe CR, Roe DS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b97">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11826276</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatty acid oxidation disorders.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rinaldo P, Matern D, Bennett MJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b6c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1431593</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular basis of mitochondrial fatty acid oxidation defects.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coates PM, Tanaka K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b52">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7951672</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic disorders of mitochondrial fatty acid oxidation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stanley CA, Hale DE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30485760</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Branched Chain Amino Acids.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neinast M, Murashige D, Arany Z.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d3d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6434529</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Familial hyperlysinemias. Purification and characterization of the bifunctional aminoadipic semialdehyde synthase with lysine-ketoglutarate reductase and saccharopine dehydrogenase activities.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Markovitz PJ, Chuang DT, Cox RP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cea">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12126930</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of the human gene encoding alpha-aminoadipate aminotransferase (AADAT).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goh DL, Patel A, Thomas GH, Salomons GS, Schor DS, Jakobs C, Geraghty MT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7273846</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The glucose-lactic acid cycle and gluconeogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cori CF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2188967</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure-function relationships in dihydrolipoamide acyltransferases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reed LJ, Hackert ML.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33808495</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Metabolic Fates of Pyruvate in Normal and Neoplastic Cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prochownik EV, Wang H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b67">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16747180</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The oxidation of pyruvate in pigeon breast muscle.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krebs HA, Eggleston LV.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16746585</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The formation of citric and alpha-ketoglutaric acids in the mammalian body.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krebs HA, Salvin E, Johnson WA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ded">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6773467</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pursuit of a hobby.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ochoa S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15987702</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accumulation of Krebs cycle intermediates and over-expression of HIF1alpha in tumours which result from germline FH and SDH mutations.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pollard PJ, Brière JJ, Alam NA, Barwell J, Barclay E, Wortham NC, Hunt T, Mitchell M, Olpin S, Moat SJ, Hargreaves IP, Heales SJ, Chung YL, Griffiths JR, Dalgleish A, McGrath JA, Gleeson MJ, Hodgson SV, Poulsom R, Rustin P, Tomlinson IP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f40">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30844107</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypoxia/pseudohypoxia-mediated activation of hypoxia-inducible factor-1α in cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayashi Y, Yokota A, Harada H, Huang G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f95">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34884868</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emerging Role of TCA Cycle-Related Enzymes in Human Diseases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kang W, Suzuki M, Saito T, Miyado K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33321098</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reductive TCA cycle metabolism fuels glutamine- and glucose-stimulated insulin secretion.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang GF, Jensen MV, Gray SM, El K, Wang Y, Lu D, Becker TC, Campbell JE, Newgard CB.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27049945</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reductive carboxylation supports redox homeostasis during anchorage-independent growth.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang L, Shestov AA, Swain P, Yang C, Parker SJ, Wang QA, Terada LS, Adams ND, McCabe MT, Pietrak B, Schmidt S, Metallo CM, Dranka BP, Schwartz B, DeBerardinis RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a8b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28757203</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biallelic Mutations in LIPT2 Cause a Mitochondrial Lipoylation Defect Associated with Severe Neonatal Encephalopathy.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habarou F, Hamel Y, Haack TB, Feichtinger RG, Lebigot E, Marquardt I, Busiah K, Laroche C, Madrange M, Grisel C, Pontoizeau C, Eisermann M, Boutron A, Chrétien D, Chadefaux-Vekemans B, Barouki R, Bole-Feysot C, Nitschke P, Goudin N, Boddaert N, Nemazanyy I, Delahodde A, Kölker S, Rodenburg RJ, Korenke GC, Meitinger T, Strom TM, Prokisch H, Rotig A, Ottolenghi C, Mayr JA, de Lonlay P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a9e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19221180</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Down-regulation of mitochondrial acyl carrier protein in mammalian cells compromises protein lipoylation and respiratory complex I and results in cell death.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feng D, Witkowski A, Smith S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cc4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21846720</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian ACSF3 protein is a malonyl-CoA synthetase that supplies the chain extender units for mitochondrial fatty acid synthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Witkowski A, Thweatt J, Smith S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="abb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29987032</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein moonlighting elucidates the essential human pathway catalyzing lipoic acid assembly on its cognate enzymes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cao X, Zhu L, Song X, Hu Z, Cronan JE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e78">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11389890</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do mammalian cells synthesize lipoic acid? Identification of a mouse cDNA encoding a lipoic acid synthase located in mitochondria.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morikawa T, Yasuno R, Wada H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="edf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22152680</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoic acid synthetase deficiency causes neonatal-onset epilepsy, defective mitochondrial energy metabolism, and glycine elevation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayr JA, Zimmermann FA, Fauth C, Bergheim C, Meierhofer D, Radmayr D, Zschocke J, Koch J, Sperl W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c42">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37481209</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoylation is dependent on the ferredoxin FDX1 and dispensable under hypoxia in human cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joshi PR, Sadre S, Guo XA, McCoy JG, Mootha VK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d53">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36281303</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In Vitro Demonstration of Human Lipoyl Synthase Catalytic Activity in the Presence of NFU1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warui DM, Sil D, Lee KH, Neti SS, Esakova OA, Knox HL, Krebs C, Booker SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e65">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37453661</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDX1 regulates cellular protein lipoylation through direct binding to LIAS.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dreishpoon MB, Bick NR, Petrova B, Warui DM, Cameron A, Booker SJ, Kanarek N, Golub TR, Tsvetkov P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c54">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10103005</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular cloning, structural characterization and chromosomal localization of human lipoyltransferase gene.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fujiwara K, Suzuki M, Okumachi Y, Okamura-Ikeda K, Fujiwara T, Takahashi E, Motokawa Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eb5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24341803</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutations in human lipoyltransferase gene LIPT1 cause a Leigh disease with secondary deficiency for pyruvate and alpha-ketoglutarate dehydrogenase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soreze Y, Boutron A, Habarou F, Barnerias C, Nonnenmacher L, Delpech H, Mamoune A, Chrétien D, Hubert L, Bole-Feysot C, Nitschke P, Correia I, Sardet C, Boddaert N, Hamel Y, Delahodde A, Ottolenghi C, de Lonlay P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24256811</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutations in the lipoyltransferase LIPT1 gene cause a fatal disease associated with a specific lipoylation defect of the 2-ketoacid dehydrogenase complexes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tort F, Ferrer-Cortès X, Thió M, Navarro-Sastre A, Matalonga L, Quintana E, Bujan N, Arias A, García-Villoria J, Acquaviva C, Vianey-Saban C, Artuch R, García-Cazorla À, Briones P, Ribes A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31042466</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional Assessment of Lipoyltransferase-1 Deficiency in Cells, Mice, and Humans.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni M, Solmonson A, Pan C, Yang C, Li D, Notzon A, Cai L, Guevara G, Zacharias LG, Faubert B, Vu HS, Jiang L, Ko B, Morales NM, Pei J, Vale G, Rakheja D, Grishin NV, McDonald JG, Gotway GK, McNutt MC, Pascual JM, DeBerardinis RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Pentose phosphate pathway" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The pentose phosphate pathway is responsible for the generation of a substantial fraction of the cytoplasmic NADPH required for biosynthetic reactions, and for the generation of ribose 5-phosphate for nucleotide synthesis. Although the pentose phosphate pathway and glycolysis are distinct, they involve three common intermediates, glucose 6-phosphate, glyceraldehyde 3-phosphate, and fructose 6-phosphate, so the two pathways are interconnected. The pentose phosphate pathway consists of eight reactions:1. Conversion glucose 6-phosphate to D-glucono-1,5-lactone 6-phosphate, with the formation of NADPH; 2. Conversion of D-glucono-1,5-lactone 6-phosphate to 6-phospho-D-gluconate; 3. Conversion of 6-phospho-D-gluconate to ribulose 5-phosphate, with the formation of NADPH; 4. Conversion of ribulose 5-phosphate to xylulose 5-phosphate; 5. Conversion of ribulose 5-phosphate to ribose 5-phosphate; 6. Rearrangement of ribose 5-phosphate and xylulose 5-phosphate to form sedoheptulose 7-phosphate and glyceraldehyde 3-phosphate; 7. Rearrangement of sedoheptulose 7-phosphate and glyceraldehyde 3-phosphate to form erythrose  4-phosphate and fructose 6-phosphate; and 8. Rearrangement of xylulose 5-phosphate and erythrose 4-phosphate to form glyceraldehyde 3-phosphate and fructose-6-phosphate.&lt;P&gt;The oxidative branch of the pentose phosphate pathway, reactions 1-3, generates NADPH and pentose 5-phosphate. The non-oxidative branch of the pathway, reactions 4-8, converts pentose 5-phosphate to other sugars.&lt;P&gt;The overall pathway can operate to generate only NADPH (glucose 6-phosphate is converted to pentose 5-phosphates, which are directed to the synthesis of fructose 6-phosphate and glyceraldehyde 3-phosphate, which in turn are converted back to glucose 6-phosphate). The reactions of the non-oxidative branch can operate to generate net amounts of ribose 5-phosphate with no production of NADPH.  Net flux through this network of reactions appears to depend on the metabolic state of the cell and the nature of the biosynthetic reactions underway (Casazza and Veech 1987).&lt;p&gt;G6PD, the enzyme that catalyzes the first reaction of the pathway, is more extensively mutated in human populations than any other enzyme, pehaps because these mutant alleles confer malaria resistance (Luzzatto and Afolayan 1968). Mutations affecting other parts of the pathway are rare, though several have been described and studies of their effects have contributed to our understanding of the normal flux of metabolites through this network of reactions (Wamelink et al. 2008).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=71336 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 71336</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <BiopaxRef>e39</BiopaxRef>
+  <BiopaxRef>ce3</BiopaxRef>
+  <BiopaxRef>b1c</BiopaxRef>
+  <Attribute Key="reactome_id" Value="71336" />
+  <Graphics BoardWidth="1884.0" BoardHeight="1814.0" />
+  <DataNode TextLabel="G6P" GraphId="fa264" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="127.5" CenterY="536.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58225" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="aaa00" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="163.5" CenterY="480.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="f3011" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="300.5" CenterY="480.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="D-Glucono-1,5-lactone 6-phosphate" GraphId="ae417" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="443.5" CenterY="536.0" Width="123.0" Height="58.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16938" />
+  </DataNode>
+  <DataNode TextLabel="G6PD dimer and&#xA;tetramer" GraphId="f1ac5" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="232.0" CenterY="597.5" Width="92.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-464971" />
+  </DataNode>
+  <DataNode TextLabel="G6PD " GraphId="a3acb" Type="Protein" GroupRef="f3811">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-464971" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="100.0" CenterY="1002.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11413" />
+  </DataNode>
+  <DataNode TextLabel="NADP+ " GraphId="bde7b" Type="Metabolite" GroupRef="f3811">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-464971" />
+    <Attribute Key="copies_num" Value="11" />
+    <Graphics CenterX="100.0" CenterY="1022.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="a63c8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="348.5" CenterY="502.0" Width="33.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="fe339" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="529.5" CenterY="502.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="PDG" GraphId="fcffb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="656.5" CenterY="537.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58759" />
+  </DataNode>
+  <DataNode TextLabel="PGLS" GraphId="a9c11" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="589.5" CenterY="597.0" Width="41.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95336" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="bbe2a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="886.5" CenterY="502.0" Width="33.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="f3f66" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="836.5" CenterY="572.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="RU5P" GraphId="d814f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="966.5" CenterY="537.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58121" />
+  </DataNode>
+  <DataNode TextLabel="XY5P" GraphId="db67b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1139.5" CenterY="537.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57737" />
+  </DataNode>
+  <DataNode TextLabel="R5P" GraphId="faeed" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1186.5" CenterY="372.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:78346" />
+  </DataNode>
+  <DataNode TextLabel="SH7P" GraphId="b0ebf" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1419.5" CenterY="521.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15721" />
+  </DataNode>
+  <DataNode TextLabel="TKT dimer" GraphId="af3cb" Type="Complex">
+    <BiopaxRef>b94</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1295.0" CenterY="575.0" Width="68.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-71322" />
+  </DataNode>
+  <DataNode TextLabel="TKT " GraphId="cb6f3" Type="Protein" GroupRef="dd6cd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71322" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1082.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P29401" />
+  </DataNode>
+  <DataNode TextLabel="ThDP " GraphId="b9a75" Type="Metabolite" GroupRef="dd6cd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71322" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1102.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58937" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="d0b47" Type="Metabolite" GroupRef="dd6cd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71322" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1122.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="GA3P" GraphId="fc6df" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1422.5" CenterY="635.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:59776" />
+  </DataNode>
+  <DataNode TextLabel="E4P" GraphId="d80bf" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1734.5" CenterY="521.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16897" />
+  </DataNode>
+  <DataNode TextLabel="Fru(6)P" GraphId="c62f2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1759.0" CenterY="639.0" Width="62.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57634" />
+  </DataNode>
+  <DataNode TextLabel="TKT dimer" GraphId="caeca" Type="Complex">
+    <BiopaxRef>b94</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1535.0" CenterY="778.0" Width="68.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-71322" />
+  </DataNode>
+  <DataNode TextLabel="TKT " GraphId="bd114" Type="Protein" GroupRef="b7595">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71322" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1182.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P29401" />
+  </DataNode>
+  <DataNode TextLabel="ThDP " GraphId="caabe" Type="Metabolite" GroupRef="b7595">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71322" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1202.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58937" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="ff89c" Type="Metabolite" GroupRef="b7595">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71322" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1222.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="RPIA" GraphId="e9d7f" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1061.5" CenterY="391.5" Width="45.0" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49247" />
+  </DataNode>
+  <DataNode TextLabel="PGD dimer" GraphId="e33a9" Type="Complex">
+    <BiopaxRef>f3b</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="747.5" CenterY="597.0" Width="57.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-467365" />
+  </DataNode>
+  <DataNode TextLabel="PGD " GraphId="c6d70" Type="Protein" GroupRef="a224e">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-467365" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1282.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P52209" />
+  </DataNode>
+  <DataNode TextLabel="TALDO1 dimer" GraphId="cf9ec" Type="Complex">
+    <BiopaxRef>e6a</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1534.5" CenterY="575.0" Width="73.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5659970" />
+  </DataNode>
+  <DataNode TextLabel="TALDO1 " GraphId="b37c2" Type="Protein" GroupRef="b8254">
+    <BiopaxRef>f4d</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5659970" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1342.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P37837" />
+  </DataNode>
+  <DataNode TextLabel="PGM2:Mg2+" GraphId="c6a15" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="955.0" CenterY="289.0" Width="86.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-453137" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="b65ca" Type="Metabolite" GroupRef="d776b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-453137" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1402.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="PGM2 " GraphId="cdbdf" Type="Protein" GroupRef="d776b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-453137" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1422.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96G03" />
+  </DataNode>
+  <DataNode TextLabel="dR5P" GraphId="b694e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1241.5" CenterY="808.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57651" />
+  </DataNode>
+  <DataNode TextLabel="CH3CHO" GraphId="ce98e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1414.0" CenterY="811.0" Width="66.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15343" />
+  </DataNode>
+  <DataNode TextLabel="DERA" GraphId="b80fb" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1305.5" CenterY="857.0" Width="41.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y315" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="debc1" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1405.0" CenterY="314.0" Width="38.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="D-ribose" GraphId="abd08" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1444.0" CenterY="372.5" Width="60.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:47013" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="a76b3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1251.5" CenterY="314.0" Width="35.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="RBKS" GraphId="ba629" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1326.0" CenterY="431.0" Width="38.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H477" />
+  </DataNode>
+  <DataNode TextLabel="Sedo" GraphId="eae89" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1573.0" CenterY="286.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16802" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="ea6dc" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1620.0" CenterY="310.0" Width="32.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="SHPK" GraphId="d31da" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1644.0" CenterY="378.0" Width="42.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UHJ6" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="c7e9e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1642.5" CenterY="458.0" Width="33.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="RPE:Fe2+ dimers" GraphId="b4ce9" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1080.0" CenterY="643.5" Width="68.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8957329" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="eac3f" Type="Metabolite" GroupRef="c6207">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8957329" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1482.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="RPE " GraphId="d6546" Type="Protein" GroupRef="c6207">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8957329" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="100.0" CenterY="1502.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96AT9" />
+  </DataNode>
+  <DataNode TextLabel="RPEL1 " GraphId="efeee" Type="Protein" GroupRef="c6207">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8957329" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="100.0" CenterY="1522.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q2QD12" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="f3f62" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1641.0" CenterY="414.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="f8365" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="678.5" CenterY="480.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="b694d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="834.5" CenterY="480.0" Width="57.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="R1P" GraphId="f13d8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1045.5" CenterY="217.0" Width="37.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57720" />
+  </DataNode>
+  <DataNode TextLabel="dR1P" GraphId="c73e6" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1124.5" CenterY="808.0" Width="47.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57259" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="e4a08" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1168.0" CenterY="214.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="PRPP" GraphId="dcfef" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1440.5" CenterY="257.0" Width="47.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58017" />
+  </DataNode>
+  <DataNode TextLabel="AMP" GraphId="c963c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1463.0" CenterY="192.0" Width="44.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456215" />
+  </DataNode>
+  <DataNode TextLabel="PRPS2 dimer, PRPS1L&#xA;dimer" GraphId="f5e98" Type="Complex">
+    <BiopaxRef>c25</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1302.0" CenterY="208.5" Width="104.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-189812" />
+  </DataNode>
+  <DataNode TextLabel="PRPS1 " GraphId="c22f8" Type="Protein" GroupRef="bb8cf">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-189812" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1582.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60891" />
+  </DataNode>
+  <DataNode TextLabel="PRPS1L1 " GraphId="f1f6d" Type="Protein" GroupRef="bb8cf">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-189812" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1602.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P21108" />
+  </DataNode>
+  <DataNode TextLabel="PRPS2 " GraphId="dd7de" Type="Protein" GroupRef="bb8cf">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-189812" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1622.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11908" />
+  </DataNode>
+  <DataNode TextLabel="dATP" GraphId="ce026" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1168.0" CenterY="153.0" Width="48.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:61404" />
+  </DataNode>
+  <DataNode TextLabel="2'-deoxyadenosine&#xA;5'-monophosphate" GraphId="bf59b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1463.0" CenterY="153.0" Width="52.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58245" />
+  </DataNode>
+  <DataNode TextLabel="PRPS1 dimer" GraphId="fa98c" Type="Complex">
+    <BiopaxRef>c25</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1300.5" CenterY="158.0" Width="103.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-73485" />
+  </DataNode>
+  <DataNode TextLabel="PRPS1 " GraphId="bb7f5" Type="Protein" GroupRef="ac09c">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-73485" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1682.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60891" />
+  </DataNode>
+  <DataNode TextLabel="PGM2:Mg2+" GraphId="f26d2" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1184.0" CenterY="857.0" Width="86.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-453137" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="ed7e8" Type="Metabolite" GroupRef="d5212">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-453137" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1742.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="PGM2 " GraphId="a117c" Type="Protein" GroupRef="d5212">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-453137" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1762.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96G03" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+" GraphId="a1ccf" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1436.0" CenterY="102.0" Width="52.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="Pi" GraphId="e88e3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1174.5" CenterY="102.0" Width="27.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:43474" />
+  </DataNode>
+  <Interaction GraphId="de58e">
+    <Comment Source="Reactome">Cytosolic glucose-6-phosphate dehydrogenase (G6PD) catalyzes the reaction of glucose 6-phosphate and NADP+ to form D-glucono-1,5-lactone 6-phosphate and NADPH + H+. This constitutes the first committed step of the pentose phosphate pathway and it is critical to the maintenance of NAPDH pool and redox homeostasis. For this reason, anti-cancer therapies are making this step as a prominent target in cancer therapy (Zhang et al. 2014). The reaction is inhibited by high ADP/AMP concentration, and by high NAPDH concentration. Biochemical studies indicate that both G6PD dimers and tetramers are catalytically active and present under physiological conditions in vivo (Au et al. 2000). Mutations that reduce the catalytic efficiency of G6PD are remarkably common in human populations; these appear to have a protective effect against malaria (e.g., Luzzatto and Afolayan 1968).</Comment>
+    <BiopaxRef>ce3</BiopaxRef>
+    <BiopaxRef>a3e</BiopaxRef>
+    <BiopaxRef>a19</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="189.0" Y="535.0" />
+      <Point X="274.0" Y="535.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a78dc" />
+      <Anchor Position="0.99" Shape="None" GraphId="c4075" />
+      <Anchor Position="0.5" Shape="None" GraphId="f4cfe" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70377" />
+  </Interaction>
+  <Interaction GraphId="bad91">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="147.0" Y="536.0" GraphRef="fa264" RelX="0.9512195121951219" RelY="0.0" />
+      <Point X="189.0" Y="535.0" GraphRef="a78dc" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70377" />
+  </Interaction>
+  <Interaction GraphId="dd867">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="163.0" Y="495.0" GraphRef="aaa00" RelX="-0.017543859649122806" RelY="1.0" />
+      <Point X="189.0" Y="535.0" GraphRef="a78dc" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70377" />
+  </Interaction>
+  <Interaction GraphId="c648f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="274.0" Y="535.0" GraphRef="c4075" RelX="0.8500000000000227" RelY="0.0" />
+      <Point X="300.0" Y="495.0" GraphRef="f3011" RelX="-0.017543859649122806" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70377" />
+  </Interaction>
+  <Interaction GraphId="bedae">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="274.0" Y="535.0" GraphRef="c4075" RelX="0.8500000000000227" RelY="0.0" />
+      <Point X="382.0" Y="536.0" GraphRef="ae417" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70377" />
+  </Interaction>
+  <Interaction GraphId="ec93f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="274.0" Y="535.0" GraphRef="c4075" RelX="0.8500000000000227" RelY="0.0" />
+      <Point X="332.0" Y="502.0" GraphRef="a63c8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70377" />
+  </Interaction>
+  <Interaction GraphId="d2056">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="232.0" Y="579.0" GraphRef="f1ac5" RelX="0.0" RelY="-1.0" />
+      <Point X="231.0" Y="535.0" GraphRef="f4cfe" RelX="-0.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-70377" />
+  </Interaction>
+  <Interaction GraphId="a1b99">
+    <Comment Source="Reactome">Cytosolic 6-phosphogluconolactonase (PGLS) catalyzes the hydrolysis of D-glucono-1,5-lactone 6-phosphate to form 6-phospho-D-gluconate (Beutler and Kuhl 1985; Collard et al. 1999).</Comment>
+    <BiopaxRef>d35</BiopaxRef>
+    <BiopaxRef>b9d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="536.0" Y="536.0" />
+      <Point X="633.0" Y="536.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f594b" />
+      <Anchor Position="0.99" Shape="None" GraphId="e9624" />
+      <Anchor Position="0.5" Shape="None" GraphId="ecd09" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71296" />
+  </Interaction>
+  <Interaction GraphId="d6b86">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="529.0" Y="517.0" GraphRef="fe339" RelX="-0.024390243902439025" RelY="1.0" />
+      <Point X="536.0" Y="536.0" GraphRef="f594b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71296" />
+  </Interaction>
+  <Interaction GraphId="d1482">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="504.0" Y="536.0" GraphRef="ae417" RelX="0.983739837398374" RelY="0.0" />
+      <Point X="536.0" Y="536.0" GraphRef="f594b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71296" />
+  </Interaction>
+  <Interaction GraphId="e420f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="633.0" Y="536.0" GraphRef="e9624" RelX="0.9700000000000273" RelY="0.0" />
+      <Point X="636.0" Y="537.0" GraphRef="fcffb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71296" />
+  </Interaction>
+  <Interaction GraphId="a8fd6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="569.0" Y="597.0" GraphRef="a9c11" RelX="-1.0" RelY="0.0" />
+      <Point X="587.0" Y="536.0" GraphRef="ecd09" RelX="2.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71296" />
+  </Interaction>
+  <Interaction GraphId="cffac">
+    <Comment Source="Reactome">Cytosolic phosphogluconate dehydrogenase (PGD) catalyzes the reaction of 6-phospho-D-gluconate and NADP+ to form D-ribulose 5-phosphate, CO2, and NADPH + H+ (Beutler and Kuhl 1985; Rippa et al. 1998). The PGD enzyme is dimeric (Dallocchio et al. 1985).</Comment>
+    <BiopaxRef>d35</BiopaxRef>
+    <BiopaxRef>f3b</BiopaxRef>
+    <BiopaxRef>bbc</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="708.0" Y="536.0" />
+      <Point X="790.0" Y="536.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e2d50" />
+      <Anchor Position="0.99" Shape="None" GraphId="be09c" />
+      <Anchor Position="0.5" Shape="None" GraphId="c06ad" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71299" />
+  </Interaction>
+  <Interaction GraphId="fa813">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="676.0" Y="537.0" GraphRef="fcffb" RelX="0.9512195121951219" RelY="0.0" />
+      <Point X="708.0" Y="536.0" GraphRef="e2d50" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71299" />
+  </Interaction>
+  <Interaction GraphId="f5d69">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="678.0" Y="495.0" GraphRef="f8365" RelX="-0.017543859649122806" RelY="1.0" />
+      <Point X="708.0" Y="536.0" GraphRef="e2d50" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71299" />
+  </Interaction>
+  <Interaction GraphId="a83e8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="790.0" Y="536.0" GraphRef="be09c" RelX="0.82000000000005" RelY="0.0" />
+      <Point X="870.0" Y="502.0" GraphRef="bbe2a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71299" />
+  </Interaction>
+  <Interaction GraphId="a6c33">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="790.0" Y="536.0" GraphRef="be09c" RelX="0.82000000000005" RelY="0.0" />
+      <Point X="816.0" Y="572.0" GraphRef="f3f66" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71299" />
+  </Interaction>
+  <Interaction GraphId="f1443">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="790.0" Y="536.0" GraphRef="be09c" RelX="0.82000000000005" RelY="0.0" />
+      <Point X="942.0" Y="537.0" GraphRef="d814f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71299" />
+  </Interaction>
+  <Interaction GraphId="db9e5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="790.0" Y="536.0" GraphRef="be09c" RelX="0.82000000000005" RelY="0.0" />
+      <Point X="806.0" Y="480.0" GraphRef="b694d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71299" />
+  </Interaction>
+  <Interaction GraphId="fa15c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="747.0" Y="580.0" GraphRef="e33a9" RelX="-0.017543859649122806" RelY="-1.0" />
+      <Point X="746.0" Y="536.0" GraphRef="c06ad" RelX="-3.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71299" />
+  </Interaction>
+  <Interaction GraphId="c8da9">
+    <Comment Source="Reactome">Cytosolic ribulose-5-phosphate-3-epimerase (RPE), using Fe2+ as cofactor, catalyzes the reversible interconversion of D-ribulose 5-phosphate (RU5P) and D-xylulose 5-phosphate (XY5P) (Bose &amp; Pilz 1985, Liang et al. 2011). The electrophoretic properties of RPE activity detected in extracts of mouse-human somatic cell hybrids suggest that the active form of the enzyme is a homodimer (Spencer &amp; Hopkinson 1980). Ribulose-phosphate 3-epimerase-like protein 1 (RPEL1), based on sequence similarity, is suggested to function as RPE.</Comment>
+    <BiopaxRef>b3d</BiopaxRef>
+    <BiopaxRef>ad6</BiopaxRef>
+    <BiopaxRef>d39</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="994.0" Y="531.0" />
+      <Point X="1112.0" Y="530.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c076e" />
+      <Anchor Position="0.99" Shape="None" GraphId="a5c40" />
+      <Anchor Position="0.5" Shape="None" GraphId="e675b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71303" />
+  </Interaction>
+  <Interaction GraphId="a8b56">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="990.0" Y="537.0" GraphRef="d814f" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="994.0" Y="531.0" GraphRef="c076e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71303" />
+  </Interaction>
+  <Interaction GraphId="be758">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1112.0" Y="530.0" GraphRef="a5c40" RelX="1.1800000000000637" RelY="-0.009999999999990905" />
+      <Point X="1115.0" Y="537.0" GraphRef="db67b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71303" />
+  </Interaction>
+  <Interaction GraphId="be1d2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1046.0" Y="643.0" GraphRef="b4ce9" RelX="-1.0" RelY="-0.030303030303030304" />
+      <Point X="1059.0" Y="515.0" GraphRef="e675b" RelX="6.0" RelY="-15.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71303" />
+  </Interaction>
+  <Interaction GraphId="c82d0">
+    <Comment Source="Reactome">Cytosolic ribulose-5-phosphate-3-epimerase (RPE) catalyzes the reversible interconversion of D-xylulose 5-phosphate and  D-ribulose 5-phosphate (Bose and 1985). The electrophoretic properties of RPE activity detected in extracts of mouse-human somatic cell hybrids suggest that the active form of the enzyme is a homodimer (Spencer and Hopkinson 1980).</Comment>
+    <BiopaxRef>b3d</BiopaxRef>
+    <BiopaxRef>ad6</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1112.0" Y="547.0" />
+      <Point X="994.0" Y="547.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="eecdf" />
+      <Anchor Position="0.99" Shape="None" GraphId="e11cc" />
+      <Anchor Position="0.5" Shape="None" GraphId="fa042" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199803" />
+  </Interaction>
+  <Interaction GraphId="f1c4c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1115.0" Y="537.0" GraphRef="db67b" RelX="-1.0" RelY="0.0" />
+      <Point X="1112.0" Y="547.0" GraphRef="eecdf" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199803" />
+  </Interaction>
+  <Interaction GraphId="f50bd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="994.0" Y="547.0" GraphRef="e11cc" RelX="-1.1800000000000637" RelY="0.0" />
+      <Point X="990.0" Y="537.0" GraphRef="d814f" RelX="0.9591836734693877" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199803" />
+  </Interaction>
+  <Interaction GraphId="e11b2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1080.0" Y="627.0" GraphRef="b4ce9" RelX="0.0" RelY="-1.0" />
+      <Point X="1052.0" Y="574.0" GraphRef="fa042" RelX="-1.0" RelY="27.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-199803" />
+  </Interaction>
+  <Interaction GraphId="fa366">
+    <Comment Source="Reactome">Cytosolic transketolase (TKT) catalyzes the reversible reaction of D-xylulose 5-phosphate and D-ribose 5-phosphate to form D-glyceraldehyde 3-phosphate and sedoheptulose 7-phosphate. The active transketolase enzyme is a homodimer with one molecule of thiamine pyrophosphate and magnesium bound to each monomer (Wang et al. 1997).</Comment>
+    <BiopaxRef>b94</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1232.0" Y="632.0" />
+      <Point X="1347.0" Y="633.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e5e95" />
+      <Anchor Position="0.99" Shape="None" GraphId="f8073" />
+      <Anchor Position="0.5" Shape="None" GraphId="c7f1b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71324" />
+  </Interaction>
+  <Interaction GraphId="f9337">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1163.0" Y="537.0" GraphRef="db67b" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="1232.0" Y="632.0" GraphRef="e5e95" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71324" />
+  </Interaction>
+  <Interaction GraphId="ac4b0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1186.0" Y="387.0" GraphRef="faeed" RelX="-0.024390243902439025" RelY="1.0" />
+      <Point X="1232.0" Y="632.0" GraphRef="e5e95" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71324" />
+  </Interaction>
+  <Interaction GraphId="b9ef3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1347.0" Y="633.0" GraphRef="f8073" RelX="1.150000000000091" RelY="0.009999999999990905" />
+      <Point X="1419.0" Y="536.0" GraphRef="b0ebf" RelX="-0.02040816326530612" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71324" />
+  </Interaction>
+  <Interaction GraphId="b13c8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1347.0" Y="633.0" GraphRef="f8073" RelX="1.150000000000091" RelY="0.009999999999990905" />
+      <Point X="1398.0" Y="635.0" GraphRef="fc6df" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71324" />
+  </Interaction>
+  <Interaction GraphId="cd46b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1261.0" Y="575.0" GraphRef="af3cb" RelX="-1.0" RelY="0.0" />
+      <Point X="1297.0" Y="632.0" GraphRef="c7f1b" RelX="7.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71324" />
+  </Interaction>
+  <Interaction GraphId="f8dbe">
+    <Comment Source="Reactome">Cytosolic transketolase (TKT) catalyzes the reversible reaction of D-glyceraldehyde 3-phosphate and sedoheptulose 7-phosphate to form D-xylulose 5-phosphate and D-ribose 5-phosphate. The active transketolase enzyme is a homodimer with one molecule of thiamine pyrophosphate and magnesium bound to each monomer (Wang et al. 1997).</Comment>
+    <BiopaxRef>b94</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1337.0" Y="520.0" />
+      <Point X="1235.0" Y="520.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ec976" />
+      <Anchor Position="0.99" Shape="None" GraphId="f410d" />
+      <Anchor Position="0.5" Shape="None" GraphId="fe086" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163741" />
+  </Interaction>
+  <Interaction GraphId="bfdf3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1395.0" Y="521.0" GraphRef="b0ebf" RelX="-1.0" RelY="0.0" />
+      <Point X="1337.0" Y="520.0" GraphRef="ec976" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163741" />
+  </Interaction>
+  <Interaction GraphId="dfa9b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1398.0" Y="635.0" GraphRef="fc6df" RelX="-1.0" RelY="0.0" />
+      <Point X="1337.0" Y="520.0" GraphRef="ec976" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163741" />
+  </Interaction>
+  <Interaction GraphId="afcf4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1235.0" Y="520.0" GraphRef="f410d" RelX="-1.0199999999999818" RelY="0.0" />
+      <Point X="1163.0" Y="537.0" GraphRef="db67b" RelX="0.9591836734693877" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163741" />
+  </Interaction>
+  <Interaction GraphId="fe626">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1235.0" Y="520.0" GraphRef="f410d" RelX="-1.0199999999999818" RelY="0.0" />
+      <Point X="1186.0" Y="387.0" GraphRef="faeed" RelX="-0.024390243902439025" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163741" />
+  </Interaction>
+  <Interaction GraphId="d5b82">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1295.0" Y="556.0" GraphRef="af3cb" RelX="0.0" RelY="-1.0" />
+      <Point X="1295.0" Y="520.0" GraphRef="fe086" RelX="9.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163741" />
+  </Interaction>
+  <Interaction GraphId="bd04c">
+    <Comment Source="Reactome">Dimeric cytosolic transaldolase (TALDO1) catalyzes the reversible reaction of D-glyceraldehyde 3-phosphate and sedoheptulose 7-phosphate to form D-erythrose 4-phosphate and D-fructose 6-phosphate. Protein expressed from the cloned gene has been characterized biochemically and crystallographically  (Banki et al. 1994; Thorell et al. 2000) and transaldolase deficiency in a patient has been correlated with a mutation in the TALDO1 gene (Verhoeven et al. 2001).</Comment>
+    <BiopaxRef>f77</BiopaxRef>
+    <BiopaxRef>e6a</BiopaxRef>
+    <BiopaxRef>f4d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1497.0" Y="635.0" />
+      <Point X="1610.0" Y="636.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="dd7c0" />
+      <Anchor Position="0.99" Shape="None" GraphId="d8e97" />
+      <Anchor Position="0.5" Shape="None" GraphId="a4526" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71334" />
+  </Interaction>
+  <Interaction GraphId="d30e0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1419.0" Y="536.0" GraphRef="b0ebf" RelX="-0.02040816326530612" RelY="1.0" />
+      <Point X="1497.0" Y="635.0" GraphRef="dd7c0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71334" />
+  </Interaction>
+  <Interaction GraphId="b89e5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1446.0" Y="635.0" GraphRef="fc6df" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="1497.0" Y="635.0" GraphRef="dd7c0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71334" />
+  </Interaction>
+  <Interaction GraphId="ebf9c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1610.0" Y="636.0" GraphRef="d8e97" RelX="1.1300000000001091" RelY="0.009999999999990905" />
+      <Point X="1714.0" Y="521.0" GraphRef="d80bf" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71334" />
+  </Interaction>
+  <Interaction GraphId="dec7e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1610.0" Y="636.0" GraphRef="d8e97" RelX="1.1300000000001091" RelY="0.009999999999990905" />
+      <Point X="1728.0" Y="639.0" GraphRef="c62f2" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71334" />
+  </Interaction>
+  <Interaction GraphId="d4cb4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1534.0" Y="591.0" GraphRef="cf9ec" RelX="-0.0136986301369863" RelY="1.0" />
+      <Point X="1536.0" Y="635.0" GraphRef="a4526" RelX="-17.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71334" />
+  </Interaction>
+  <Interaction GraphId="f41c9">
+    <Comment Source="Reactome">Dimeric cytosolic transaldolase (TALDO1) catalyzes the reversible reaction of D-erythrose 4-phosphate and D-fructose 6-phosphate to form D-glyceraldehyde 3-phosphate and sedoheptulose 7-phosphate. Protein expressed from the cloned gene has been characterized biochemically and crystallographically (Banki et al. 1994; Thorell et al. 2000) and transaldolase deficiency in a patient has been correlated with a mutation in the TALDO1 gene (Verhoeven et al. 2001).</Comment>
+    <BiopaxRef>f77</BiopaxRef>
+    <BiopaxRef>e6a</BiopaxRef>
+    <BiopaxRef>f4d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1574.0" Y="521.0" />
+      <Point X="1491.0" Y="521.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bf4f2" />
+      <Anchor Position="0.99" Shape="None" GraphId="d625a" />
+      <Anchor Position="0.5" Shape="None" GraphId="f8dec" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163764" />
+  </Interaction>
+  <Interaction GraphId="dfcbf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1714.0" Y="521.0" GraphRef="d80bf" RelX="-1.0" RelY="0.0" />
+      <Point X="1574.0" Y="521.0" GraphRef="bf4f2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163764" />
+  </Interaction>
+  <Interaction GraphId="b69ac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1728.0" Y="639.0" GraphRef="c62f2" RelX="-1.0" RelY="0.0" />
+      <Point X="1574.0" Y="521.0" GraphRef="bf4f2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163764" />
+  </Interaction>
+  <Interaction GraphId="bc1e8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1491.0" Y="521.0" GraphRef="d625a" RelX="-0.8299999999999272" RelY="0.0" />
+      <Point X="1443.0" Y="521.0" GraphRef="b0ebf" RelX="0.9591836734693877" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163764" />
+  </Interaction>
+  <Interaction GraphId="a73a1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1491.0" Y="521.0" GraphRef="d625a" RelX="-0.8299999999999272" RelY="0.0" />
+      <Point X="1422.0" Y="620.0" GraphRef="fc6df" RelX="-0.02040816326530612" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163764" />
+  </Interaction>
+  <Interaction GraphId="d2d28">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1570.0" Y="575.0" GraphRef="cf9ec" RelX="0.9726027397260274" RelY="0.0" />
+      <Point X="1532.0" Y="521.0" GraphRef="f8dec" RelX="-0.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163764" />
+  </Interaction>
+  <Interaction GraphId="ef2d2">
+    <Comment Source="Reactome">Cytosolic transketolase (TKT) catalyzes the reaction of D-erythrose 4-phosphate and D-xylulose 5-phosphate to form D-glyceraldehyde 3-phosphate and D-fructose 6-phosphate. The active transketolase enzyme is a homodimer with one molecule of thiamine pyrophosphate and magnesium bound to each monomer (Wang et al. 1997).</Comment>
+    <BiopaxRef>b94</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1455.0" Y="691.0" />
+      <Point X="1679.0" Y="698.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c6349" />
+      <Anchor Position="0.99" Shape="None" GraphId="f899a" />
+      <Anchor Position="0.5" Shape="None" GraphId="f0e03" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71335" />
+  </Interaction>
+  <Interaction GraphId="f63c4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1714.0" Y="521.0" GraphRef="d80bf" RelX="-1.0" RelY="0.0" />
+      <Point X="1455.0" Y="691.0" GraphRef="c6349" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71335" />
+  </Interaction>
+  <Interaction GraphId="f5a41">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1163.0" Y="537.0" GraphRef="db67b" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="1455.0" Y="691.0" GraphRef="c6349" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71335" />
+  </Interaction>
+  <Interaction GraphId="d04dc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1679.0" Y="698.0" GraphRef="f899a" RelX="2.240000000000009" RelY="0.07000000000005002" />
+      <Point X="1446.0" Y="635.0" GraphRef="fc6df" RelX="0.9591836734693877" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71335" />
+  </Interaction>
+  <Interaction GraphId="d3189">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1679.0" Y="698.0" GraphRef="f899a" RelX="2.240000000000009" RelY="0.07000000000005002" />
+      <Point X="1728.0" Y="639.0" GraphRef="c62f2" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71335" />
+  </Interaction>
+  <Interaction GraphId="a5194">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1501.0" Y="778.0" GraphRef="caeca" RelX="-1.0" RelY="0.0" />
+      <Point X="1531.0" Y="693.0" GraphRef="f0e03" RelX="-36.0" RelY="-1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71335" />
+  </Interaction>
+  <Interaction GraphId="b8325">
+    <Comment Source="Reactome">Cytosolic transketolase (TKT) catalyzes the reaction of D-glyceraldehyde 3-phosphate and D-fructose 6-phosphate to form D-erythrose 4-phosphate and D-xylulose 5-phosphate. The active transketolase enzyme is a homodimer with one molecule of thiamine pyrophosphate and magnesium bound to each monomer (Wang et al. 1997).</Comment>
+    <BiopaxRef>b94</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1685.0" Y="731.0" />
+      <Point X="1458.0" Y="726.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bf50c" />
+      <Anchor Position="0.99" Shape="None" GraphId="b7c8c" />
+      <Anchor Position="0.5" Shape="None" GraphId="bca7b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163751" />
+  </Interaction>
+  <Interaction GraphId="fad85">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1728.0" Y="639.0" GraphRef="c62f2" RelX="-1.0" RelY="0.0" />
+      <Point X="1685.0" Y="731.0" GraphRef="bf50c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163751" />
+  </Interaction>
+  <Interaction GraphId="a4844">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1446.0" Y="635.0" GraphRef="fc6df" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="1685.0" Y="731.0" GraphRef="bf50c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163751" />
+  </Interaction>
+  <Interaction GraphId="fed7d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1458.0" Y="726.0" GraphRef="b7c8c" RelX="-2.269999999999982" RelY="-0.049999999999954525" />
+      <Point X="1714.0" Y="521.0" GraphRef="d80bf" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163751" />
+  </Interaction>
+  <Interaction GraphId="c7c9c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1458.0" Y="726.0" GraphRef="b7c8c" RelX="-2.269999999999982" RelY="-0.049999999999954525" />
+      <Point X="1163.0" Y="537.0" GraphRef="db67b" RelX="0.9591836734693877" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163751" />
+  </Interaction>
+  <Interaction GraphId="e96fe">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1569.0" Y="778.0" GraphRef="caeca" RelX="1.0" RelY="0.0" />
+      <Point X="1552.0" Y="728.0" GraphRef="bca7b" RelX="-19.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-163751" />
+  </Interaction>
+  <Interaction GraphId="d1ad8">
+    <Comment Source="Reactome">The reversible interconversion of ribulose 5-phosphate and ribose 5-phosphate is catalyzed by cytosolic ribose 5-phosphate isomerase (Huck et al. 2004).</Comment>
+    <BiopaxRef>fcd</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="989.0" Y="519.0" />
+      <Point X="1168.0" Y="390.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c56d5" />
+      <Anchor Position="0.99" Shape="None" GraphId="f3be1" />
+      <Anchor Position="0.5" Shape="None" GraphId="fd75b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71306" />
+  </Interaction>
+  <Interaction GraphId="f81cc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="990.0" Y="537.0" GraphRef="d814f" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="989.0" Y="519.0" GraphRef="c56d5" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71306" />
+  </Interaction>
+  <Interaction GraphId="c06be">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1168.0" Y="390.0" GraphRef="f3be1" RelX="1.7899999999999636" RelY="-1.2899999999999636" />
+      <Point X="1166.0" Y="372.0" GraphRef="faeed" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71306" />
+  </Interaction>
+  <Interaction GraphId="f237c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1039.0" Y="391.0" GraphRef="e9d7f" RelX="-1.0" RelY="-0.047619047619047616" />
+      <Point X="1080.0" Y="464.0" GraphRef="fd75b" RelX="1.5" RelY="9.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71306" />
+  </Interaction>
+  <Interaction GraphId="ebdd3">
+    <Comment Source="Reactome">The reversible interconversion of ribose 5-phosphate and ribulose 5-phosphate is catalyzed by cytosolic ribose 5-phosphate isomerase (Huck et al. 2004).</Comment>
+    <BiopaxRef>fcd</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1163.0" Y="384.0" />
+      <Point X="981.0" Y="519.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fbe4d" />
+      <Anchor Position="0.99" Shape="None" GraphId="a9c20" />
+      <Anchor Position="0.5" Shape="None" GraphId="f3239" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-177784" />
+  </Interaction>
+  <Interaction GraphId="e6242">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1166.0" Y="372.0" GraphRef="faeed" RelX="-1.0" RelY="0.0" />
+      <Point X="1163.0" Y="384.0" GraphRef="fbe4d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-177784" />
+  </Interaction>
+  <Interaction GraphId="dc4b7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="981.0" Y="519.0" GraphRef="a9c20" RelX="-1.8199999999999363" RelY="1.3500000000000227" />
+      <Point X="966.0" Y="522.0" GraphRef="d814f" RelX="-0.02040816326530612" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-177784" />
+  </Interaction>
+  <Interaction GraphId="a38f5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1083.0" Y="391.0" GraphRef="e9d7f" RelX="0.9555555555555556" RelY="-0.047619047619047616" />
+      <Point X="1050.0" Y="456.0" GraphRef="f3239" RelX="-22.0" RelY="4.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-177784" />
+  </Interaction>
+  <Interaction GraphId="b69d0">
+    <Comment Source="Reactome">The nucleoside breakdown product ribose-1-phosphate (R1P) can be used to produce energy during oxidative or mitochondrial stress to minimize or delay stress-induced damage. Two steps connect this nucleoside breakdown product to central carbon metabolism in mammals. In the first step, R1P is isomerised to the corresponding 5-phosphopentose, R5P, mediated by phosphoglucomutase-2 (PGM2). PGM2 is a cytosolic, M2+-dependent enzyme that acts ten times better as a phosphopentomutase (both on R1P and dR1P) than as a phosphoglucomutase (on glucose-1-phosphate) (Maliekal et al. 2007).</Comment>
+    <BiopaxRef>c43</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1045.0" Y="235.0" />
+      <Point X="1163.0" Y="359.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c0d17" />
+      <Anchor Position="0.99" Shape="None" GraphId="ea8e6" />
+      <Anchor Position="0.5" Shape="None" GraphId="cd307" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6787329" />
+  </Interaction>
+  <Interaction GraphId="c8ff5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1045.0" Y="232.0" GraphRef="f13d8" RelX="-0.02702702702702703" RelY="1.0" />
+      <Point X="1045.0" Y="235.0" GraphRef="c0d17" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6787329" />
+  </Interaction>
+  <Interaction GraphId="f8946">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1163.0" Y="359.0" GraphRef="ea8e6" RelX="1.1800000000000637" RelY="1.240000000000009" />
+      <Point X="1166.0" Y="372.0" GraphRef="faeed" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6787329" />
+  </Interaction>
+  <Interaction GraphId="d7999">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="998.0" Y="289.0" GraphRef="c6a15" RelX="1.0" RelY="0.0" />
+      <Point X="1046.0" Y="290.0" GraphRef="cd307" RelX="-58.0" RelY="-7.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6787329" />
+  </Interaction>
+  <Interaction GraphId="f5d04">
+    <Comment Source="Reactome">The nucleoside breakdown products ribose-1-phosphate (R1P) and deoxyribose-1-phosphate (dR1P) can be used to produce energy during oxidative or mitochondrial stress to minimize or delay stress-induced damage. Two steps connect these nucleoside breakdown products to central carbon metabolism in mammals. In the second step, deoxy-ribose5-phosphate (dR5P) is cleaved to glyceraldehyde-3-phosphate (GA3P, an intermediate in glycolysis) and acetaldehyde (CH3CHO) by deoxyribose-phosphate aldolase (DERA) (Salleron et al. 2014). </Comment>
+    <BiopaxRef>b79</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1269.0" Y="808.0" />
+      <Point X="1341.0" Y="808.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a9adb" />
+      <Anchor Position="0.99" Shape="None" GraphId="b95db" />
+      <Anchor Position="0.5" Shape="None" GraphId="a2a84" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6787321" />
+  </Interaction>
+  <Interaction GraphId="a37d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1265.0" Y="808.0" GraphRef="b694e" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="1269.0" Y="808.0" GraphRef="a9adb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6787321" />
+  </Interaction>
+  <Interaction GraphId="efc0b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1341.0" Y="808.0" GraphRef="b95db" RelX="0.7200000000000273" RelY="0.0" />
+      <Point X="1381.0" Y="811.0" GraphRef="ce98e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6787321" />
+  </Interaction>
+  <Interaction GraphId="c838b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1341.0" Y="808.0" GraphRef="b95db" RelX="0.7200000000000273" RelY="0.0" />
+      <Point X="1422.0" Y="650.0" GraphRef="fc6df" RelX="-0.02040816326530612" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6787321" />
+  </Interaction>
+  <Interaction GraphId="fc1df">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1285.0" Y="857.0" GraphRef="b80fb" RelX="-1.0" RelY="0.0" />
+      <Point X="1305.0" Y="808.0" GraphRef="a2a84" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6787321" />
+  </Interaction>
+  <Interaction GraphId="f234f">
+    <Comment Source="Reactome">In order for D-ribose to be incorporated into ATP or other high energy phosphorylated derivatives, ribose must first be converted into ribose-5-phosphate (R5P), which can then be used either for sythesis of nucleotides, histidine, and tryptophan, or as a component of the pentose phosphate pathway. Cytosolic ribokinase (RBKS) catalyses this reaction in the presence of ATP (Park et al. 2007). Other pentoses and simple sugars were either not or poorly phosphorylated by RBKS. RBKS belongs to the PfkB family of carbohydrate kinases which includes adenosine kinase (AK) and fructokinase. RBKS shares high structural similarity to AK and its catalytic mechanism is very similar to AK (Park &amp; Gupta 2008).</Comment>
+    <BiopaxRef>c0b</BiopaxRef>
+    <BiopaxRef>c98</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1369.0" Y="371.0" />
+      <Point X="1275.0" Y="372.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e3c33" />
+      <Anchor Position="0.99" Shape="None" GraphId="e8be3" />
+      <Anchor Position="0.5" Shape="None" GraphId="dccde" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8955844" />
+  </Interaction>
+  <Interaction GraphId="a15e7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1405.0" Y="329.0" GraphRef="debc1" RelX="0.0" RelY="1.0" />
+      <Point X="1369.0" Y="371.0" GraphRef="e3c33" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8955844" />
+  </Interaction>
+  <Interaction GraphId="e51bd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1414.0" Y="372.0" GraphRef="abd08" RelX="-1.0" RelY="-0.030303030303030304" />
+      <Point X="1369.0" Y="371.0" GraphRef="e3c33" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8955844" />
+  </Interaction>
+  <Interaction GraphId="ac9dd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1275.0" Y="372.0" GraphRef="e8be3" RelX="-0.9400000000000546" RelY="0.009999999999990905" />
+      <Point X="1251.0" Y="331.0" GraphRef="a76b3" RelX="-0.02857142857142857" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8955844" />
+  </Interaction>
+  <Interaction GraphId="dc5de">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1275.0" Y="372.0" GraphRef="e8be3" RelX="-0.9400000000000546" RelY="0.009999999999990905" />
+      <Point X="1206.0" Y="372.0" GraphRef="faeed" RelX="0.9512195121951219" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8955844" />
+  </Interaction>
+  <Interaction GraphId="e39e2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1326.0" Y="418.0" GraphRef="ba629" RelX="0.0" RelY="-1.0" />
+      <Point X="1324.0" Y="371.0" GraphRef="dccde" RelX="2.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8955844" />
+  </Interaction>
+  <Interaction GraphId="dd129">
+    <Comment Source="Reactome">Cytosolic sedoheptulokinase (SHPK aka CARKL) catalyses an orphan reaction in the pentose phosphate pathway and is a novel regulator of glycolytic energy flux which is critical for macrophage activation (Haschemi et al. 2012). The most common mutation in the nephropathic cystinosis (CTNS) gene is a homozygous 57-kb deletion that also includes the adjacent gene SHPK. In nephropathic cystinosis patients, defects in SHPK can cause urinary accumulation of sedoheptulose and erythritol (Wamelink et al. 2008, Kardon et al. 2008).</Comment>
+    <BiopaxRef>b05</BiopaxRef>
+    <BiopaxRef>ace</BiopaxRef>
+    <BiopaxRef>ba5</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1573.0" Y="338.0" />
+      <Point X="1574.0" Y="410.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e08b5" />
+      <Anchor Position="0.99" Shape="None" GraphId="adb00" />
+      <Anchor Position="0.5" Shape="None" GraphId="d9921" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8959719" />
+  </Interaction>
+  <Interaction GraphId="e574f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1573.0" Y="301.0" GraphRef="eae89" RelX="0.0" RelY="1.0" />
+      <Point X="1573.0" Y="338.0" GraphRef="e08b5" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8959719" />
+  </Interaction>
+  <Interaction GraphId="bbbf2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1604.0" Y="310.0" GraphRef="ea6dc" RelX="-1.0" RelY="0.0" />
+      <Point X="1573.0" Y="338.0" GraphRef="e08b5" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8959719" />
+  </Interaction>
+  <Interaction GraphId="ded1d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1574.0" Y="410.0" GraphRef="adb00" RelX="0.009999999999990905" RelY="0.7200000000000273" />
+      <Point X="1621.0" Y="414.0" GraphRef="f3f62" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8959719" />
+  </Interaction>
+  <Interaction GraphId="d8883">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1574.0" Y="410.0" GraphRef="adb00" RelX="0.009999999999990905" RelY="0.7200000000000273" />
+      <Point X="1443.0" Y="521.0" GraphRef="b0ebf" RelX="0.9591836734693877" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8959719" />
+  </Interaction>
+  <Interaction GraphId="c2e7c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1574.0" Y="410.0" GraphRef="adb00" RelX="0.009999999999990905" RelY="0.7200000000000273" />
+      <Point X="1626.0" Y="458.0" GraphRef="c7e9e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8959719" />
+  </Interaction>
+  <Interaction GraphId="fae9e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1623.0" Y="378.0" GraphRef="d31da" RelX="-1.0" RelY="0.0" />
+      <Point X="1573.0" Y="378.0" GraphRef="d9921" RelX="-0.5" RelY="4.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8959719" />
+  </Interaction>
+  <Interaction GraphId="bbf62">
+    <Comment Source="Reactome">The nucleoside breakdown product deoxyribose-1-phosphate (dR1P) can be used to produce energy during oxidative or mitochondrial stress to minimize or delay stress-induced damage. Two steps connect this nucleoside breakdown product to central carbon metabolism in mammals. In the first step, dR1P is isomerised to the corresponding 5-phosphopentose, dR5P, mediated by phosphoglucomutase-2 (PGM2). PGM2 is a cytosolic, M2+-dependent enzyme that acts ten times better as a phosphopentomutase (both on R1P and dR1P) than as a phosphoglucomutase (on glucose-1-phosphate) (Maliekal et al. 2007).</Comment>
+    <BiopaxRef>c43</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1151.0" Y="807.0" />
+      <Point X="1214.0" Y="807.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="da487" />
+      <Anchor Position="0.99" Shape="None" GraphId="cff81" />
+      <Anchor Position="0.5" Shape="None" GraphId="d6b98" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8982667" />
+  </Interaction>
+  <Interaction GraphId="ca363">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1147.0" Y="808.0" GraphRef="c73e6" RelX="0.9574468085106383" RelY="0.0" />
+      <Point X="1151.0" Y="807.0" GraphRef="da487" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8982667" />
+  </Interaction>
+  <Interaction GraphId="e964a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1214.0" Y="807.0" GraphRef="cff81" RelX="0.6300000000001091" RelY="0.0" />
+      <Point X="1217.0" Y="808.0" GraphRef="b694e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8982667" />
+  </Interaction>
+  <Interaction GraphId="a6c9e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1141.0" Y="857.0" GraphRef="f26d2" RelX="-1.0" RelY="0.0" />
+      <Point X="1183.0" Y="807.0" GraphRef="d6b98" RelX="0.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8982667" />
+  </Interaction>
+  <Interaction GraphId="ee29d">
+    <Comment Source="Reactome">Cytosolic phophoribosyl pyrophosphate synthetase catalyzes the reaction of D-ribose 5-phosphate and ATP to form 5-phospho-alpha-D-ribose and AMP. Three isoforms of the enzyme have been described. The first has been purified and characterized biochemically (Fox and Kelley 1971). The others are known only as inferred protein products of cloned genes; their catalytic properties have not been determined.</Comment>
+    <BiopaxRef>c25</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1236.0" Y="257.0" />
+      <Point X="1355.0" Y="257.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b5279" />
+      <Anchor Position="0.99" Shape="None" GraphId="feaf8" />
+      <Anchor Position="0.5" Shape="None" GraphId="d7aa5" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73580" />
+  </Interaction>
+  <Interaction GraphId="e44d6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1188.0" Y="214.0" GraphRef="e4a08" RelX="1.0" RelY="0.0" />
+      <Point X="1236.0" Y="257.0" GraphRef="b5279" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73580" />
+  </Interaction>
+  <Interaction GraphId="c574b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1186.0" Y="357.0" GraphRef="faeed" RelX="-0.024390243902439025" RelY="-1.0" />
+      <Point X="1236.0" Y="257.0" GraphRef="b5279" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73580" />
+  </Interaction>
+  <Interaction GraphId="ea723">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1355.0" Y="257.0" GraphRef="feaf8" RelX="1.1900000000000546" RelY="0.0" />
+      <Point X="1417.0" Y="257.0" GraphRef="dcfef" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73580" />
+  </Interaction>
+  <Interaction GraphId="c1aa3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1355.0" Y="257.0" GraphRef="feaf8" RelX="1.1900000000000546" RelY="0.0" />
+      <Point X="1441.0" Y="192.0" GraphRef="c963c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73580" />
+  </Interaction>
+  <Interaction GraphId="b9f20">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1250.0" Y="208.0" GraphRef="f5e98" RelX="-1.0" RelY="-0.02857142857142857" />
+      <Point X="1302.0" Y="257.0" GraphRef="d7aa5" RelX="6.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73580" />
+  </Interaction>
+  <Interaction GraphId="ad3e6">
+    <Comment Source="Reactome">Cytosolic phosphoribosyl pyrophosphate synthetase 1 catalyzes the reaction of D-ribose 5-phosphate and dATP to form 5-phospho-alpha-D-ribose 1-diphosphate and 2'-deoxyadenosine 5'-monophosphate. While phosphoribosyl pyrophosphate synthetase 1 works well with either ATP or dATP as a substrate in vitro, the extent of the dATP reaction in vivo is unclear, as cellular dATP concentrations are normally very low (Fox and Kelley 1971).</Comment>
+    <BiopaxRef>c25</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1231.0" Y="114.0" />
+      <Point X="1364.0" Y="114.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a4bb2" />
+      <Anchor Position="0.99" Shape="None" GraphId="ad011" />
+      <Anchor Position="0.5" Shape="None" GraphId="c1456" />
+      <Anchor Position="0.5" Shape="None" GraphId="c473a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111215" />
+  </Interaction>
+  <Interaction GraphId="a1d34">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1186.0" Y="357.0" GraphRef="faeed" RelX="-0.024390243902439025" RelY="-1.0" />
+      <Point X="1231.0" Y="114.0" GraphRef="a4bb2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111215" />
+  </Interaction>
+  <Interaction GraphId="b95cf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1192.0" Y="153.0" GraphRef="ce026" RelX="1.0" RelY="0.0" />
+      <Point X="1231.0" Y="114.0" GraphRef="a4bb2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111215" />
+  </Interaction>
+  <Interaction GraphId="a32eb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1364.0" Y="114.0" GraphRef="ad011" RelX="1.3299999999999272" RelY="0.0" />
+      <Point X="1437.0" Y="153.0" GraphRef="bf59b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111215" />
+  </Interaction>
+  <Interaction GraphId="aba14">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1364.0" Y="114.0" GraphRef="ad011" RelX="1.3299999999999272" RelY="0.0" />
+      <Point X="1440.0" Y="242.0" GraphRef="dcfef" RelX="-0.02127659574468085" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111215" />
+  </Interaction>
+  <Interaction GraphId="be447">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1249.0" Y="158.0" GraphRef="fa98c" RelX="-1.0" RelY="0.0" />
+      <Point X="1300.0" Y="114.0" GraphRef="c1456" RelX="2.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111215" />
+  </Interaction>
+  <Interaction GraphId="e3202">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1410.0" Y="102.0" GraphRef="a1ccf" RelX="-1.0" RelY="0.0" />
+      <Point X="1300.0" Y="114.0" GraphRef="c473a" RelX="2.5" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111215" />
+  </Interaction>
+  <Interaction GraphId="ed8b1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1410.0" Y="102.0" GraphRef="e88e3" RelX="17.444444444444443" RelY="0.0" />
+      <Point X="1300.0" Y="114.0" GraphRef="c473a" RelX="2.5" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111215" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="b8c58" GroupRef="c3170">
+    <Graphics CenterX="1803.0" CenterY="871.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="fd888" GroupRef="c3170">
+    <Graphics CenterX="951.5" CenterY="502.0" Width="1789.0" Height="864.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="f3811" GraphId="cfe37">
+    <Attribute Key="complex_id" Value="R-HSA-464971" />
+  </Group>
+  <Group GroupId="dd6cd" GraphId="f16f8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-71322" />
+  </Group>
+  <Group GroupId="b7595" GraphId="d78ff" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-71322" />
+  </Group>
+  <Group GroupId="a224e" GraphId="b780f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-467365" />
+  </Group>
+  <Group GroupId="b8254" GraphId="b0c1b" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5659970" />
+  </Group>
+  <Group GroupId="d776b" GraphId="d58ec" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-453137" />
+  </Group>
+  <Group GroupId="c6207" GraphId="e19ad">
+    <Attribute Key="complex_id" Value="R-HSA-8957329" />
+  </Group>
+  <Group GroupId="bb8cf" GraphId="ee5eb">
+    <Attribute Key="complex_id" Value="R-HSA-189812" />
+  </Group>
+  <Group GroupId="ac09c" GraphId="a0de9" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-73485" />
+  </Group>
+  <Group GroupId="d5212" GraphId="d88f5" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-453137" />
+  </Group>
+  <Group GroupId="c3170" GraphId="b65c3" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e39">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3790084</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The content of pentose-cycle intermediates in liver in starved, fed ad libitum and meal-fed rats.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casazza JP, Veech RL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5666113</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzymic properties of different types of human erythrocyte glucose-6-phosphate dehydrogenase, with characterization of two new genetic variants.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luzzatto L, Afolayan A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18987987</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The biochemistry, metabolism and inherited defects of the pentose phosphate pathway: a review.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wamelink MM, Struys EA, Jakobs C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b94">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9357955</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspartate 155 of human transketolase is essential for thiamine diphosphate-magnesium binding, and cofactor binding is required for dimer formation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang JJ, Martin PR, Singleton CK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3994686</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Half-site reactivity in 6-phosphogluconate dehydrogenase from human erythrocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dallocchio F, Matteuzzi M, Bellini T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11283793</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transaldolase deficiency: liver cirrhosis associated with a new inborn error in the pentose phosphate pathway.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verhoeven NM, Huck JH, Roos B, Struys EA, Salomons GS, Douwes AC, van der Knaap MS, Jakobs C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10869557</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The three-dimensional structure of human transaldolase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thorell S, Gergely P, Banki K, Perl A, Schneider G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c25">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4328836</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human phosphoribosylpyrophosphate synthetase. Distribution, purification, and properties.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fox IH, Kelley WN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10745013</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human glucose-6-phosphate dehydrogenase: the crystal structure reveals a structural NADP(+) molecule and provides insights into enzyme deficiency.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Au SW, Gover S, Lam VM, Adams MJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a19">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24066844</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose-6-phosphate dehydrogenase: a biomarker and potential therapeutic target for cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang C, Zhang Z, Zhu Y, Qin S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d35">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3932573</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limiting role of 6-phosphogluconolactonase in erythrocyte hexose monophosphate pathway metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beutler E, Kuhl W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b9d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10518023</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of the cDNA encoding human 6-phosphogluconolactonase, the enzyme catalyzing the second step of the pentose phosphate pathway(1).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collard F, Collet JF, Gerin I, Veiga-da-Cunha M, Van Schaftingen E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bbc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9920387</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-Phosphogluconate dehydrogenase: the mechanism of action investigated by a comparison of the enzyme from different species.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rippa M, Giovannini PP, Barrett MP, Dallocchio F, Hanau S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2581946</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphoribosylpyrophosphate synthesis from glucose decreases during amino acid starvation of human lymphoblasts.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boss GR, Pilz RB.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7396409</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical genetics of the pentose phosphate cycle: human ribose 5-phosphate isomerase (RPI) and ribulose 5-phosphate 3-epimerase (RPE).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spencer N, Hopkinson DA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d39">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20923965</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conversion of D-ribulose 5-phosphate to D-xylulose 5-phosphate: new insights from structural and biochemical studies on human RPE.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liang W, Ouyang S, Shaw N, Joachimiak A, Zhang R, Liu ZJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f77">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8300619</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloning and expression of the human gene for transaldolase. A novel highly repetitive element constitutes an integral part of the coding sequence.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banki K, Halladay D, Perl A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14988808</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ribose-5-phosphate isomerase deficiency: new inborn error in the pentose phosphate pathway associated with a slowly progressive leukoencephalopathy.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huck JH, Verhoeven NM, Struys EA, Salomons GS, Jakobs C, van der Knaap MS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c43">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17804405</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular identification of mammalian phosphopentomutase and glucose-1,6-bisphosphate synthase, two members of the alpha-D-phosphohexomutase family.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maliekal P, Sokolova T, Vertommen D, Veiga-da-Cunha M, Van Schaftingen E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b79">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25229427</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DERA is the human deoxyribose phosphate aldolase and is involved in stress response.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salleron L, Magistrelli G, Mary C, Fischer N, Bairoch A, Lane L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17585908</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification and characterization of human ribokinase and comparison of its properties with E. coli ribokinase and human adenosine kinase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Park J, van Koeverden P, Singh B, Gupta RS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c98">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18560757</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenosine kinase and ribokinase--the RK family of proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Park J, Gupta RS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b05">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22682222</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The sedoheptulose kinase CARKL directs macrophage polarization through control of glucose metabolism.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haschemi A, Kosma P, Gille L, Evans CR, Burant CF, Starkl P, Knapp B, Haas R, Schmid JA, Jandl C, Amir S, Lubec G, Park J, Esterbauer H, Bilban M, Brizuela L, Pospisilik JA, Otterbein LE, Wagner O.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ace">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18186520</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sedoheptulokinase deficiency due to a 57-kb deletion in cystinosis patients causes urinary accumulation of sedoheptulose: elucidation of the CARKL gene.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wamelink MM, Struys EA, Jansen EE, Levtchenko EN, Zijlstra FS, Engelke U, Blom HJ, Jakobs C, Wevers RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18775706</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of mammalian sedoheptulokinase and mechanism of formation of erythritol in sedoheptulokinase deficiency.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kardon T, Stroobant V, Veiga-da-Cunha M, Schaftingen EV.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

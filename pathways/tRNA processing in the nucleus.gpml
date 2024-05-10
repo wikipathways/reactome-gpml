@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="tRNA processing in the nucleus" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Genes encoding transfer RNAs are transcribed in the nucleus by RNA polymerase III. (Distinct processes of transcription and processing also occur in mitochondria.) The initial transcripts, pre-tRNAs, contain extra nucleotides at the 5' end and 3' end. 6.3% (32 of 509) of human tRNAs also contain introns, which are located in the anticodon loop, 3' to the anticodon. The additional nucleotides are removed and a non-templated CCA sequence is added to the resulting 3' terminus by processing reactions in the nucleus and cytosol (reviewed in Nakanishi and Nureki 2005, Phizicky and Hopper 2010).&lt;br&gt;The order of processing and nucleotide modification events may be different for different tRNAs and its analysis is complicated by a retrograde transport mechanism that can import tRNAs from the cytosol back to the nucleus (retrograde movement, Shaheen and Hopper 2005, reviewed in Phizicky  2005). Generally, the 5' leader of the pre-tRNA is removed first by endonucleolytic cleavage by the RNase P ribonucleoprotein complex, which contains a catalytic RNA (RNA H1 in humans) and at least 10 protein subunits (reviewed in Jarrous 2002, Xiao et al. 2002, Jarrous and Gopalan 2010).&lt;br&gt;The 3' trailer is then removed by RNase Z activity, a single protein in humans (reviewed in Maraia and Lamichhane 2011). ELAC2 is a RNase Z found in both nucleus and mitochondria. ELAC1 is found in the cytosol and may also act as an RNase Z. Human tRNA genes do not encode the universal acceptor 3' terminus CCA, instead it is added post-transcriptionally by TRNT1, an unusual polymerase that requires no nucleic acid template (reviewed in Xiong and Steitz 2006, Hou 2010, Tomita and Yamashita 2014).&lt;br&gt;In humans introns are spliced from intron-containing tRNAs in the nucleus by a two step mechanism that is distinct from mRNA splicing (reviewed in Popow et al. 2012, Lopes et al. 2015). The TSEN complex first cleaves 5' and 3' to the intron, generating a 2'3' cyclic phosphate on the 5' exon and a 5' hydroxyl group on the 3' exon. These two ends are ligated by a complex containing at least 6 proteins in a single reaction that both hydrolyzes the 2' phosphate bond and joins the 3' phosphate to the 5' hydroxyl. (In yeast the ligation and the hydrolysis of the 2' phosphate are separate reactions. The splicing reactions in yeast occur in the cytosol at the mitochondrial outer membrane.) &lt;br&gt;Mature transfer RNAs contain a large number of modified nucleotide residues that are produced by post-transcriptional modification reactions (reviewed in Li and Mason 2014). Depending on the specific tRNA these reactions may occur before or after splicing and before or after export from the nucleus to the cytosol.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=6784531 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 6784531</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: May, Bruce</Comment>
+  <BiopaxRef>d21</BiopaxRef>
+  <BiopaxRef>ab2</BiopaxRef>
+  <BiopaxRef>b9b</BiopaxRef>
+  <BiopaxRef>f2f</BiopaxRef>
+  <BiopaxRef>ca0</BiopaxRef>
+  <BiopaxRef>a5b</BiopaxRef>
+  <BiopaxRef>c3c</BiopaxRef>
+  <BiopaxRef>cb8</BiopaxRef>
+  <BiopaxRef>b00</BiopaxRef>
+  <BiopaxRef>d98</BiopaxRef>
+  <BiopaxRef>bdf</BiopaxRef>
+  <BiopaxRef>ed4</BiopaxRef>
+  <BiopaxRef>fcf</BiopaxRef>
+  <BiopaxRef>fdc</BiopaxRef>
+  <Attribute Key="reactome_id" Value="6784531" />
+  <Graphics BoardWidth="943.0" BoardHeight="2239.0" />
+  <DataNode TextLabel="pre-tRNA" GraphId="fd27d" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="403.5" CenterY="69.5" Width="85.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6784574" />
+  </DataNode>
+  <DataNode TextLabel="pre-tRNA (intron-containing) " GraphId="c7571" GroupRef="a55e6">
+    <Comment Source="Reactome">6.3% (32 of 509) of human tRNAs contain introns. Introns are always located one base 3' to the anticodon.</Comment>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6784574" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="807.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696768" />
+  </DataNode>
+  <DataNode TextLabel="pre-tRNA (intronless) " GraphId="e8265" GroupRef="a55e6">
+    <Comment Source="Reactome">93.7% (477 of 509) of human tRNAs do not have introns.</Comment>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6784574" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="847.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696799" />
+  </DataNode>
+  <DataNode TextLabel="5' cleaved pre-tRNA" GraphId="faef5" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="239.5" CenterY="155.5" Width="143.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6784537" />
+  </DataNode>
+  <DataNode TextLabel="5' cleaved pre-tRNA (intron-containing) " GraphId="d6204" GroupRef="bca59">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6784537" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="927.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696775" />
+  </DataNode>
+  <DataNode TextLabel="5' cleaved pre-tRNA (intronless) " GraphId="f8d1d" GroupRef="bca59">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6784537" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="967.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696767" />
+  </DataNode>
+  <DataNode TextLabel="RNase P" GraphId="f83d8" Type="Complex">
+    <BiopaxRef>bdf</BiopaxRef>
+    <BiopaxRef>ac6</BiopaxRef>
+    <BiopaxRef>a0f</BiopaxRef>
+    <BiopaxRef>cdb</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="164.5" CenterY="108.0" Width="83.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5696795" />
+  </DataNode>
+  <DataNode TextLabel="POP1 " GraphId="e47bf" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1027.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99575" />
+  </DataNode>
+  <DataNode TextLabel="POP4 " GraphId="a67ac" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1047.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95707" />
+  </DataNode>
+  <DataNode TextLabel="POP5 " GraphId="cb51a" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1067.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q969H6" />
+  </DataNode>
+  <DataNode TextLabel="POP7 " GraphId="d4ece" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1087.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75817" />
+  </DataNode>
+  <DataNode TextLabel="RPP14 " GraphId="ec4f7" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1107.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95059" />
+  </DataNode>
+  <DataNode TextLabel="RPP21 " GraphId="f920c" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1127.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H633" />
+  </DataNode>
+  <DataNode TextLabel="RPP25 " GraphId="bb9bc" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1147.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BUL9" />
+  </DataNode>
+  <DataNode TextLabel="RPP30 " GraphId="bf17d" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1167.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P78346" />
+  </DataNode>
+  <DataNode TextLabel="RPP38 " GraphId="b1888" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1187.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P78345" />
+  </DataNode>
+  <DataNode TextLabel="RPP40 " GraphId="a03f9" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1207.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75818" />
+  </DataNode>
+  <DataNode TextLabel="RPPH1 RNA " GraphId="d5149" Type="Protein" GroupRef="ea9ed">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1227.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENST00000516869" />
+  </DataNode>
+  <DataNode TextLabel="5',3' cleaved&#xA;pre-tRNA" GraphId="a7294" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="235.5" CenterY="254.5" Width="171.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6784544" />
+  </DataNode>
+  <DataNode TextLabel="5' cleaved, 3' cleaved pre-tRNA (intron-containing) " GraphId="ebd0d" GroupRef="ec4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6784544" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1317.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696773" />
+  </DataNode>
+  <DataNode TextLabel="5' cleaved, 3' cleaved pre-tRNA (intronless) " GraphId="f2c52" GroupRef="ec4a2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6784544" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1357.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696763" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="de554" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="108.5" CenterY="297.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="CTP" GraphId="d37db" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="93.5" CenterY="267.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37563" />
+  </DataNode>
+  <DataNode TextLabel="Cleaved tRNA with 3'&#xA;CCA" GraphId="abf01" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="293.5" CenterY="421.0" Width="185.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6784557" />
+  </DataNode>
+  <DataNode TextLabel="Cleaved pre-tRNA (intron-containing) with 3' CCA " GraphId="e5f0d" GroupRef="d6209">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6784557" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1437.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696798" />
+  </DataNode>
+  <DataNode TextLabel="Cleaved pre-tRNA (intronless) with 3' CCA " GraphId="b717b" GroupRef="d6209">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6784557" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1477.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696790" />
+  </DataNode>
+  <DataNode TextLabel="TRNT1" GraphId="ed8e0" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="171.0" CenterY="329.0" Width="68.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96Q11" />
+  </DataNode>
+  <DataNode TextLabel="Cleaved pre-tRNA&#xA;(intron-containing)&#xA;with 3' CCA" GraphId="cf5a8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="650.0" CenterY="160.5" Width="318.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696798" />
+  </DataNode>
+  <DataNode TextLabel="5' tRNA exon with&#xA;2',3' cyclic&#xA;phosphate" GraphId="b9f69">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="591.5" CenterY="338.0" Width="271.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696785" />
+  </DataNode>
+  <DataNode TextLabel="tRNA intron" GraphId="ccd88">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="804.5" CenterY="261.5" Width="91.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696774" />
+  </DataNode>
+  <DataNode TextLabel="3' tRNA exon with 5'&#xA;hydroxyl" GraphId="bff62">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="751.0" CenterY="297.5" Width="198.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696797" />
+  </DataNode>
+  <DataNode TextLabel="TSEN complex" GraphId="d5bbb" Type="Complex">
+    <BiopaxRef>c78</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="740.5" CenterY="204.5" Width="117.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5696765" />
+  </DataNode>
+  <DataNode TextLabel="CLP1 " GraphId="f9bda" Type="Protein" GroupRef="d7727">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696765" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1537.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92989" />
+  </DataNode>
+  <DataNode TextLabel="CPSF1 " GraphId="de76b" Type="Protein" GroupRef="d7727">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696765" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1557.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q10570" />
+  </DataNode>
+  <DataNode TextLabel="CPSF4 " GraphId="ae2c2" Type="Protein" GroupRef="d7727">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696765" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1577.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95639" />
+  </DataNode>
+  <DataNode TextLabel="CSTF2 " GraphId="e3fdf" Type="Protein" GroupRef="d7727">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696765" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1597.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33240" />
+  </DataNode>
+  <DataNode TextLabel="TSEN15 " GraphId="a2a46" Type="Protein" GroupRef="d7727">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696765" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1617.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8WW01" />
+  </DataNode>
+  <DataNode TextLabel="TSEN2 " GraphId="a21ed" Type="Protein" GroupRef="d7727">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696765" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1637.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NCE0" />
+  </DataNode>
+  <DataNode TextLabel="TSEN34 " GraphId="e29e4" Type="Protein" GroupRef="d7727">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696765" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1657.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BSV6" />
+  </DataNode>
+  <DataNode TextLabel="TSEN54 " GraphId="b5415" Type="Protein" GroupRef="d7727">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696765" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1677.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z6J9" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="b9108" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="801.5" CenterY="349.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="AMP" GraphId="f5fa8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="764.0" CenterY="470.0" Width="46.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456215" />
+  </DataNode>
+  <DataNode TextLabel="PPi" GraphId="ce249" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="815.0" CenterY="467.0" Width="38.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:33019" />
+  </DataNode>
+  <DataNode TextLabel="Spliced tRNA with 3'&#xA;CCA" GraphId="bfa37">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="598.0" CenterY="437.0" Width="170.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696762" />
+  </DataNode>
+  <DataNode TextLabel="tRNA ligase complex" GraphId="a20f8" Type="Complex">
+    <BiopaxRef>f6d</BiopaxRef>
+    <BiopaxRef>bcb</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="588.0" CenterY="388.0" Width="160.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5696778" />
+  </DataNode>
+  <DataNode TextLabel="C14orf166 " GraphId="cbe83" Type="Protein" GroupRef="a5ec9">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696778" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="787.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y224" />
+  </DataNode>
+  <DataNode TextLabel="C2orf49 " GraphId="b3948" Type="Protein" GroupRef="a5ec9">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696778" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="807.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BVC5" />
+  </DataNode>
+  <DataNode TextLabel="DDX1 " GraphId="f5099" Type="Protein" GroupRef="a5ec9">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696778" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="827.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92499" />
+  </DataNode>
+  <DataNode TextLabel="FAM98B " GraphId="c9a34" Type="Protein" GroupRef="a5ec9">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696778" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="847.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q52LJ0" />
+  </DataNode>
+  <DataNode TextLabel="RTCB " GraphId="fc7fe" Type="Protein" GroupRef="a5ec9">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696778" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="867.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y3I0" />
+  </DataNode>
+  <DataNode TextLabel="ZBTB8OS " GraphId="e9ccd" Type="Protein" GroupRef="a5ec9">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5696778" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="887.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IWT0" />
+  </DataNode>
+  <DataNode TextLabel="tRNA:XPOT:RAN:GTP" GraphId="d143e" Type="Complex">
+    <BiopaxRef>ea9</BiopaxRef>
+    <BiopaxRef>e58</BiopaxRef>
+    <BiopaxRef>df3</BiopaxRef>
+    <BiopaxRef>ad5</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="500.5" CenterY="566.0" Width="159.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6783450" />
+  </DataNode>
+  <DataNode TextLabel="XPOT " GraphId="c8c44" Type="Protein" GroupRef="cae74">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6783450" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="947.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43592" />
+  </DataNode>
+  <DataNode TextLabel="RAN " GraphId="ed1c4" Type="Protein" GroupRef="cae74">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6783450" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="967.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62826" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="e4f5f" Type="Metabolite" GroupRef="cae74">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6783450" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="987.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="Cleaved pre-tRNA (intronless) with 3' CCA " GraphId="de82b" GroupRef="cae74">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6783450" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1027.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696790" />
+  </DataNode>
+  <DataNode TextLabel="Spliced tRNA with 3' CCA " GraphId="a447f" GroupRef="cae74">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6783450" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1067.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696762" />
+  </DataNode>
+  <DataNode TextLabel="Pi" GraphId="eb690" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="361.5" CenterY="636.0" Width="29.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:43474" />
+  </DataNode>
+  <DataNode TextLabel="RAN:GDP" GraphId="ed7d6" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="369.0" CenterY="674.5" Width="92.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-206617" />
+  </DataNode>
+  <DataNode TextLabel="GDP " GraphId="c0f4a" Type="Metabolite" GroupRef="a8ff2">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-206617" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1127.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58189" />
+  </DataNode>
+  <DataNode TextLabel="RAN " GraphId="ad993" Type="Protein" GroupRef="a8ff2">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-206617" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1147.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62826" />
+  </DataNode>
+  <DataNode TextLabel="XPOT" GraphId="b91df" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="497.0" CenterY="669.5" Width="58.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43592" />
+  </DataNode>
+  <DataNode TextLabel="processed tRNA" GraphId="f233c" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="688.5" CenterY="679.0" Width="119.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6785476" />
+  </DataNode>
+  <DataNode TextLabel="Cleaved pre-tRNA (intronless) with 3' CCA " GraphId="b18a0" GroupRef="e2f65">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-6785476" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1227.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-6785481" />
+  </DataNode>
+  <DataNode TextLabel="Spliced tRNA with 3' CCA " GraphId="a493e" GroupRef="e2f65">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-6785476" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1267.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-6785475" />
+  </DataNode>
+  <DataNode TextLabel="RAN:GTP" GraphId="ff258" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="594.5" CenterY="518.0" Width="79.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-180738" />
+  </DataNode>
+  <DataNode TextLabel="RAN " GraphId="dc843" Type="Protein" GroupRef="a6202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-180738" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1327.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62826" />
+  </DataNode>
+  <DataNode TextLabel="GTP " GraphId="c23c0" Type="Metabolite" GroupRef="a6202">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-180738" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1347.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:37565" />
+  </DataNode>
+  <DataNode TextLabel="processed tRNA" GraphId="b362b" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="429.0" CenterY="479.5" Width="128.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6783491" />
+  </DataNode>
+  <DataNode TextLabel="Cleaved pre-tRNA (intronless) with 3' CCA " GraphId="bafac" GroupRef="b9e93">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6783491" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1427.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696790" />
+  </DataNode>
+  <DataNode TextLabel="Spliced tRNA with 3' CCA " GraphId="ceb49" GroupRef="b9e93">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-6783491" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1467.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5696762" />
+  </DataNode>
+  <DataNode TextLabel="XPOT" GraphId="de5ce" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="564.0" CenterY="485.0" Width="56.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43592" />
+  </DataNode>
+  <DataNode TextLabel="PPi" GraphId="ac239" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="99.0" CenterY="364.0" Width="38.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:33019" />
+  </DataNode>
+  <DataNode TextLabel="Nuclear Pore Complex&#xA;(NPC)" GraphId="b1bf2" Type="Complex">
+    <BiopaxRef>ca1</BiopaxRef>
+    <BiopaxRef>ee9</BiopaxRef>
+    <BiopaxRef>a34</BiopaxRef>
+    <BiopaxRef>ea5</BiopaxRef>
+    <BiopaxRef>a9d</BiopaxRef>
+    <BiopaxRef>bff</BiopaxRef>
+    <BiopaxRef>a24</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Graphics CenterX="583.0" CenterY="608.5" Width="120.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-157689" />
+  </DataNode>
+  <DataNode TextLabel="NUP62 " GraphId="cd519" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="32" />
+    <Graphics CenterX="240.0" CenterY="1527.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P37198" />
+  </DataNode>
+  <DataNode TextLabel="NUP54 " GraphId="e8335" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="63" />
+    <Graphics CenterX="240.0" CenterY="1547.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q7Z3B4" />
+  </DataNode>
+  <DataNode TextLabel="NUP58-1 " GraphId="bf11e" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="94" />
+    <Graphics CenterX="240.0" CenterY="1567.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BVL2-1" />
+  </DataNode>
+  <DataNode TextLabel="NUP58-2 " GraphId="ffb6a" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5773" />
+    <Graphics CenterX="240.0" CenterY="1587.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BVL2-2" />
+  </DataNode>
+  <DataNode TextLabel="AAAS " GraphId="b37df" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5780" />
+    <Graphics CenterX="240.0" CenterY="1607.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NRG9" />
+  </DataNode>
+  <DataNode TextLabel="NUP210 " GraphId="df011" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5795" />
+    <Graphics CenterX="240.0" CenterY="1627.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TEM1" />
+  </DataNode>
+  <DataNode TextLabel="NUPL2 " GraphId="a915b" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5810" />
+    <Graphics CenterX="240.0" CenterY="1647.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15504" />
+  </DataNode>
+  <DataNode TextLabel="NUP153 " GraphId="ea8ce" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5817" />
+    <Graphics CenterX="240.0" CenterY="1667.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49790" />
+  </DataNode>
+  <DataNode TextLabel="NUP188 " GraphId="a80d2" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5832" />
+    <Graphics CenterX="240.0" CenterY="1687.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q5SRE5" />
+  </DataNode>
+  <DataNode TextLabel="NUP214 " GraphId="eaee7" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5839" />
+    <Graphics CenterX="240.0" CenterY="1707.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35658" />
+  </DataNode>
+  <DataNode TextLabel="RANBP2 " GraphId="b6a6c" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5846" />
+    <Graphics CenterX="240.0" CenterY="1727.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49792" />
+  </DataNode>
+  <DataNode TextLabel="NUP50 " GraphId="d118c" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5877" />
+    <Graphics CenterX="240.0" CenterY="1747.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UKX7" />
+  </DataNode>
+  <DataNode TextLabel="NUP88 " GraphId="da9c6" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5908" />
+    <Graphics CenterX="240.0" CenterY="1767.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99567" />
+  </DataNode>
+  <DataNode TextLabel="RAE1 " GraphId="a04a4" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5955" />
+    <Graphics CenterX="240.0" CenterY="1787.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P78406" />
+  </DataNode>
+  <DataNode TextLabel="TPR " GraphId="f5a1a" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5970" />
+    <Graphics CenterX="240.0" CenterY="1807.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P12270" />
+  </DataNode>
+  <DataNode TextLabel="SEH1L-2 " GraphId="a4777" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5985" />
+    <Graphics CenterX="240.0" CenterY="1827.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96EE3-2" />
+  </DataNode>
+  <DataNode TextLabel="NUP98-4 " GraphId="e5566" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="5992" />
+    <Graphics CenterX="240.0" CenterY="1847.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P52948-4" />
+  </DataNode>
+  <DataNode TextLabel="NUP98-3 " GraphId="a47eb" Type="Protein" GroupRef="d2831">
+    <BiopaxRef>dbe</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6411" />
+    <Graphics CenterX="240.0" CenterY="1867.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P52948-3" />
+  </DataNode>
+  <DataNode TextLabel="POM121 " GraphId="e4371" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6426" />
+    <Graphics CenterX="240.0" CenterY="1887.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96HA1" />
+  </DataNode>
+  <DataNode TextLabel="POM121C " GraphId="e99fc" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6441" />
+    <Graphics CenterX="240.0" CenterY="1907.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A8CG34" />
+  </DataNode>
+  <DataNode TextLabel="NDC1 " GraphId="d2f81" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6472" />
+    <Graphics CenterX="240.0" CenterY="1927.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BTX1" />
+  </DataNode>
+  <DataNode TextLabel="NUP107 " GraphId="c6966" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6503" />
+    <Graphics CenterX="240.0" CenterY="1947.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P57740" />
+  </DataNode>
+  <DataNode TextLabel="NUP133 " GraphId="d8de2" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6534" />
+    <Graphics CenterX="240.0" CenterY="1967.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8WUM0" />
+  </DataNode>
+  <DataNode TextLabel="NUP160 " GraphId="ea01d" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6565" />
+    <Graphics CenterX="240.0" CenterY="1987.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12769" />
+  </DataNode>
+  <DataNode TextLabel="NUP85 " GraphId="c1130" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6596" />
+    <Graphics CenterX="240.0" CenterY="2007.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BW27" />
+  </DataNode>
+  <DataNode TextLabel="NUP98-5 " GraphId="af23d" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6627" />
+    <Graphics CenterX="240.0" CenterY="2027.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P52948-5" />
+  </DataNode>
+  <DataNode TextLabel="NUP37 " GraphId="d3218" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6658" />
+    <Graphics CenterX="240.0" CenterY="2047.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NFH4" />
+  </DataNode>
+  <DataNode TextLabel="NUP43 " GraphId="fe45c" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6689" />
+    <Graphics CenterX="240.0" CenterY="2067.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NFH3" />
+  </DataNode>
+  <DataNode TextLabel="SEC13 " GraphId="eec5c" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6720" />
+    <Graphics CenterX="240.0" CenterY="2087.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55735" />
+  </DataNode>
+  <DataNode TextLabel="SEH1L-1 " GraphId="c8cd8" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6751" />
+    <Graphics CenterX="240.0" CenterY="2107.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96EE3-1" />
+  </DataNode>
+  <DataNode TextLabel="NUP155 " GraphId="cfccc" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6782" />
+    <Graphics CenterX="240.0" CenterY="2127.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75694" />
+  </DataNode>
+  <DataNode TextLabel="NUP93 " GraphId="dec96" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6813" />
+    <Graphics CenterX="240.0" CenterY="2147.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N1F7" />
+  </DataNode>
+  <DataNode TextLabel="NUP35 " GraphId="b77a0" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6844" />
+    <Graphics CenterX="240.0" CenterY="2167.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NFH5" />
+  </DataNode>
+  <DataNode TextLabel="NUP205 " GraphId="c285c" Type="Protein" GroupRef="d2831">
+    <Attribute Key="cellular_location" Value="nuclear envelope" />
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+    <Attribute Key="copies_num" Value="6875" />
+    <Graphics CenterX="240.0" CenterY="2187.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92621" />
+  </DataNode>
+  <DataNode TextLabel="ELAC2" GraphId="f1505" Type="Protein">
+    <BiopaxRef>aa4</BiopaxRef>
+    <BiopaxRef>fa6</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="156.0" CenterY="204.0" Width="58.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BQ52" />
+  </DataNode>
+  <Interaction GraphId="f19d6">
+    <Comment Source="Reactome">The RNase P RNA-protein complex located in the nucleus endonucleolytically cleaves near the 5' end of pre-tRNAs, generating the mature 5' end (Ferrari et al. 1980, Bartkiewicz et al. 1989, Jiang et al. 2001, Reiner et al. 2011, reviewed in Jarrous 2002). The site of cleavage is determined by the length of the helices in the acceptor and T stems of the tRNA (Yuan and Altman 1995). Human cells contain distinct nuclear and mitochondrial RNase P activities (Rossmanith et al. 1995), with nuclear RNase P localized in the nucleolus (Jarrous et al. 1999). The nuclear RNase P is similar to bacterial enzymes in having a catalytic RNA component. The mitochondrial RNase P is unusual in containing only protein subunits (Holzmann et al. 2008).</Comment>
+    <BiopaxRef>b28</BiopaxRef>
+    <BiopaxRef>f82</BiopaxRef>
+    <BiopaxRef>c69</BiopaxRef>
+    <BiopaxRef>d1f</BiopaxRef>
+    <BiopaxRef>bdf</BiopaxRef>
+    <BiopaxRef>cdb</BiopaxRef>
+    <BiopaxRef>ab4</BiopaxRef>
+    <BiopaxRef>a0f</BiopaxRef>
+    <BiopaxRef>cf1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="355.0" Y="78.0" />
+      <Point X="239.0" Y="134.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="eec99" />
+      <Anchor Position="0.99" Shape="None" GraphId="f240b" />
+      <Anchor Position="0.5" Shape="None" GraphId="be277" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696810" />
+  </Interaction>
+  <Interaction GraphId="d9e56">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="361.0" Y="69.0" GraphRef="fd27d" RelX="-1.0" RelY="-0.037037037037037035" />
+      <Point X="355.0" Y="78.0" GraphRef="eec99" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696810" />
+  </Interaction>
+  <Interaction GraphId="bfbc9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="239.0" Y="134.0" GraphRef="f240b" RelX="-1.1599999999999966" RelY="0.5600000000000023" />
+      <Point X="239.0" Y="140.0" GraphRef="faef5" RelX="-0.006993006993006993" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696810" />
+  </Interaction>
+  <Interaction GraphId="a7c21">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="205.0" Y="108.0" GraphRef="f83d8" RelX="0.9759036144578314" RelY="0.0" />
+      <Point X="240.0" Y="105.0" GraphRef="be277" RelX="-57.0" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696810" />
+  </Interaction>
+  <Interaction GraphId="ea276">
+    <Comment Source="Reactome">ELAC2, a RNaseZ activity in humans, endonucleolytically cleaves pre-tRNAs near the 3' end, generating a 3' hydroxyl group to which the nucleotides CCA will be polymerized (Takaku et al. 2004, Yan et al. 2006, Elbarbary et al. 2008). ELAC2 is located in both the nucleus and mitochondria (Brzezniak et al. 2011). ELAC1, a homologue of ELAC2, is located in the cytosol (Rossmanith 2011) and cleaves 3' ends of tRNAs in vitro (Takaku et al. 2003).</Comment>
+    <BiopaxRef>fc4</BiopaxRef>
+    <BiopaxRef>e63</BiopaxRef>
+    <BiopaxRef>a35</BiopaxRef>
+    <BiopaxRef>fa6</BiopaxRef>
+    <BiopaxRef>ec3</BiopaxRef>
+    <BiopaxRef>aa4</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="237.0" Y="177.0" />
+      <Point X="235.0" Y="234.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ce99f" />
+      <Anchor Position="0.99" Shape="None" GraphId="d8548" />
+      <Anchor Position="0.5" Shape="None" GraphId="a690d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696815" />
+  </Interaction>
+  <Interaction GraphId="f177d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="239.0" Y="170.0" GraphRef="faef5" RelX="-0.006993006993006993" RelY="0.9354838709677419" />
+      <Point X="237.0" Y="177.0" GraphRef="ce99f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696815" />
+  </Interaction>
+  <Interaction GraphId="f528d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="235.0" Y="234.0" GraphRef="d8548" RelX="-0.020000000000010232" RelY="0.5699999999999932" />
+      <Point X="235.0" Y="240.0" GraphRef="a7294" RelX="-0.005847953216374269" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696815" />
+  </Interaction>
+  <Interaction GraphId="f132c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="185.0" Y="204.0" GraphRef="f1505" RelX="1.0" RelY="0.0" />
+      <Point X="235.0" Y="205.0" GraphRef="a690d" RelX="-1.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696815" />
+  </Interaction>
+  <Interaction GraphId="ac875">
+    <Comment Source="Reactome">TRNT1 (CCA-adding enzyme) polymerizes the non-templated nucleotides CCA onto the 3' end (acceptor arm) of tRNAs (Reichert et al. 2001, Lizano et al. 2007, Lizano et al. 2008). In contrast to some eubacterial tRNA genes, eukaryotic tRNA genes do not encode CCA at the 3' end. The added CCA sequence is determined by the structural properties of the TRNT1 protein itself rather than by any nucleic acid template (Augustin et al. 2003, Ernst et al. 2015, Kuhn et al. 2015, see also the structure of the bacterial enzyme in Li et al. 2002). After polymerization of a single CCA motif, conformational change of the enzyme ejects the tRNA before additional nucleotides can be polymerized (Kuhn et al. 2015). Aberrant RNA with two CCA motifs is targeted for destruction.</Comment>
+    <BiopaxRef>ae7</BiopaxRef>
+    <BiopaxRef>d6d</BiopaxRef>
+    <BiopaxRef>e5d</BiopaxRef>
+    <BiopaxRef>bba</BiopaxRef>
+    <BiopaxRef>ecc</BiopaxRef>
+    <BiopaxRef>ff3</BiopaxRef>
+    <BiopaxRef>f62</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="234.0" Y="301.0" />
+      <Point X="234.0" Y="343.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c299d" />
+      <Anchor Position="0.99" Shape="None" GraphId="b7e6e" />
+      <Anchor Position="0.5" Shape="None" GraphId="ed21c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696807" />
+  </Interaction>
+  <Interaction GraphId="bc97e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="129.0" Y="297.0" GraphRef="de554" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="234.0" Y="301.0" GraphRef="c299d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696807" />
+  </Interaction>
+  <Interaction GraphId="f6420">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="114.0" Y="267.0" GraphRef="d37db" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="234.0" Y="301.0" GraphRef="c299d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696807" />
+  </Interaction>
+  <Interaction GraphId="d559e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="235.0" Y="268.0" GraphRef="a7294" RelX="-0.005847953216374269" RelY="0.9310344827586207" />
+      <Point X="234.0" Y="301.0" GraphRef="c299d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696807" />
+  </Interaction>
+  <Interaction GraphId="f9cc1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="234.0" Y="343.0" GraphRef="b7e6e" RelX="0.0" RelY="0.4200000000000159" />
+      <Point X="201.0" Y="421.0" GraphRef="abf01" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696807" />
+  </Interaction>
+  <Interaction GraphId="ee306">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="234.0" Y="343.0" GraphRef="b7e6e" RelX="0.0" RelY="0.4200000000000159" />
+      <Point X="118.0" Y="364.0" GraphRef="ac239" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696807" />
+  </Interaction>
+  <Interaction GraphId="ae87c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="205.0" Y="329.0" GraphRef="ed8e0" RelX="1.0" RelY="0.0" />
+      <Point X="234.0" Y="328.0" GraphRef="ed21c" RelX="0.0" RelY="6.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696807" />
+  </Interaction>
+  <Interaction GraphId="eb78a">
+    <Comment Source="Reactome">The TSEN complex endonucleolytically cleaves 5' and 3' of introns in tRNAs, leaving a 2',3' cyclic phosphate on the 5' exon and a 5' hydroxyl on the 3' exon (Paushkin et al. 2004, Trotta et al. 2006).</Comment>
+    <BiopaxRef>c78</BiopaxRef>
+    <BiopaxRef>a09</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="650.0" Y="179.0" />
+      <Point X="650.0" Y="243.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="dc6a4" />
+      <Anchor Position="0.99" Shape="None" GraphId="b5a35" />
+      <Anchor Position="0.5" Shape="None" GraphId="fb89f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696813" />
+  </Interaction>
+  <Interaction GraphId="bebd1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="650.0" Y="175.0" GraphRef="cf5a8" RelX="0.0" RelY="0.9354838709677419" />
+      <Point X="650.0" Y="179.0" GraphRef="dc6a4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696813" />
+  </Interaction>
+  <Interaction GraphId="ec206">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="650.0" Y="243.0" GraphRef="b5a35" RelX="0.0" RelY="0.6399999999999864" />
+      <Point X="591.0" Y="322.0" GraphRef="b9f69" RelX="-0.0036900369003690036" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696813" />
+  </Interaction>
+  <Interaction GraphId="e15fa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="650.0" Y="243.0" GraphRef="b5a35" RelX="0.0" RelY="0.6399999999999864" />
+      <Point X="759.0" Y="261.0" GraphRef="ccd88" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696813" />
+  </Interaction>
+  <Interaction GraphId="f3948">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="650.0" Y="243.0" GraphRef="b5a35" RelX="0.0" RelY="0.6399999999999864" />
+      <Point X="652.0" Y="297.0" GraphRef="bff62" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696813" />
+  </Interaction>
+  <Interaction GraphId="cdfc3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="682.0" Y="204.0" GraphRef="d5bbb" RelX="-1.0" RelY="-0.043478260869565216" />
+      <Point X="651.0" Y="205.0" GraphRef="fb89f" RelX="1.0" RelY="-6.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696813" />
+  </Interaction>
+  <Interaction GraphId="fdeb2">
+    <Comment Source="Reactome">The RNA ligase complex ligates tRNA exons yielding intact, spliced tRNAs (Popow et al. 2011, Popow et al. 2014). The reaction apparently occurs in one step with no residual 2' phosphate that requires removal, as in yeast.</Comment>
+    <BiopaxRef>f6d</BiopaxRef>
+    <BiopaxRef>bcb</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="751.0" Y="366.0" />
+      <Point X="751.0" Y="421.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d932c" />
+      <Anchor Position="0.99" Shape="None" GraphId="a5861" />
+      <Anchor Position="0.5" Shape="None" GraphId="b0446" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696816" />
+  </Interaction>
+  <Interaction GraphId="a766e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="780.0" Y="349.0" GraphRef="b9108" RelX="-1.0" RelY="0.0" />
+      <Point X="751.0" Y="366.0" GraphRef="d932c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696816" />
+  </Interaction>
+  <Interaction GraphId="bff17">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="726.0" Y="338.0" GraphRef="b9f69" RelX="0.992619926199262" RelY="0.0" />
+      <Point X="751.0" Y="366.0" GraphRef="d932c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696816" />
+  </Interaction>
+  <Interaction GraphId="ac533">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="751.0" Y="312.0" GraphRef="bff62" RelX="0.0" RelY="0.9354838709677419" />
+      <Point X="751.0" Y="366.0" GraphRef="d932c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696816" />
+  </Interaction>
+  <Interaction GraphId="ad28a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="751.0" Y="421.0" GraphRef="a5861" RelX="0.0" RelY="0.5500000000000114" />
+      <Point X="764.0" Y="455.0" GraphRef="f5fa8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696816" />
+  </Interaction>
+  <Interaction GraphId="dd1a3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="751.0" Y="421.0" GraphRef="a5861" RelX="0.0" RelY="0.5500000000000114" />
+      <Point X="683.0" Y="437.0" GraphRef="bfa37" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696816" />
+  </Interaction>
+  <Interaction GraphId="d3476">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="751.0" Y="421.0" GraphRef="a5861" RelX="0.0" RelY="0.5500000000000114" />
+      <Point X="796.0" Y="467.0" GraphRef="ce249" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696816" />
+  </Interaction>
+  <Interaction GraphId="bbbac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="668.0" Y="388.0" GraphRef="a20f8" RelX="1.0" RelY="0.0" />
+      <Point X="751.0" Y="391.0" GraphRef="b0446" RelX="0.0" RelY="-2.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696816" />
+  </Interaction>
+  <Interaction GraphId="ad98f">
+    <Comment Source="Reactome">The nuclear export receptor XPOT (Exportin-t) interacts with both tRNA (Li and Sprinzl 2006) and RAN:GTP and the complex is translocated from the nucleus to the cytosol through the nuclear pore (Arts et al. 1998, Kutay et al. 1998, Kuersten et al. 2002, reviewed in Leisegang et al. 2012). RAN:GTP-dependent interactions of XPOT with components of the nuclear pore may increase the efficiency of the transport cycle (Kuersten et al. 2002).</Comment>
+    <BiopaxRef>ea9</BiopaxRef>
+    <BiopaxRef>e58</BiopaxRef>
+    <BiopaxRef>df3</BiopaxRef>
+    <BiopaxRef>ad5</BiopaxRef>
+    <BiopaxRef>f52</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="499.0" Y="583.0" />
+      <Point X="497.0" Y="629.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f6d70" />
+      <Anchor Position="0.99" Shape="None" GraphId="c523c" />
+      <Anchor Position="0.5" Shape="None" GraphId="ffc87" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6783483" />
+  </Interaction>
+  <Interaction GraphId="c4993">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="500.0" Y="580.0" GraphRef="d143e" RelX="-0.006289308176100629" RelY="1.0" />
+      <Point X="499.0" Y="583.0" GraphRef="f6d70" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6783483" />
+  </Interaction>
+  <Interaction GraphId="c1f2e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="497.0" Y="629.0" GraphRef="c523c" RelX="-0.01999999999998181" RelY="0.4600000000000364" />
+      <Point X="375.0" Y="636.0" GraphRef="eb690" RelX="0.9310344827586207" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6783483" />
+  </Interaction>
+  <Interaction GraphId="a3f95">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="497.0" Y="629.0" GraphRef="c523c" RelX="-0.01999999999998181" RelY="0.4600000000000364" />
+      <Point X="415.0" Y="674.0" GraphRef="ed7d6" RelX="1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6783483" />
+  </Interaction>
+  <Interaction GraphId="d7e09">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="497.0" Y="629.0" GraphRef="c523c" RelX="-0.01999999999998181" RelY="0.4600000000000364" />
+      <Point X="497.0" Y="657.0" GraphRef="b91df" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6783483" />
+  </Interaction>
+  <Interaction GraphId="ac0ba">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="497.0" Y="629.0" GraphRef="c523c" RelX="-0.01999999999998181" RelY="0.4600000000000364" />
+      <Point X="629.0" Y="679.0" GraphRef="f233c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6783483" />
+  </Interaction>
+  <Interaction GraphId="e3e94">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="523.0" Y="608.0" GraphRef="b1bf2" RelX="-1.0" RelY="-0.02857142857142857" />
+      <Point X="498.0" Y="602.0" GraphRef="ffc87" RelX="0.0" RelY="-4.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6783483" />
+  </Interaction>
+  <Interaction GraphId="d0959">
+    <Comment Source="Reactome">XPOT binds processed tRNA together with RAN:GTP in the nucleus (Arts et al. 1998, Kutay et al. 1998, Li and Sprinzl 2006).</Comment>
+    <BiopaxRef>ea9</BiopaxRef>
+    <BiopaxRef>e58</BiopaxRef>
+    <BiopaxRef>ad5</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="501.0" Y="504.0" />
+      <Point X="500.0" Y="549.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ec3d4" />
+      <Anchor Position="0.99" Shape="None" GraphId="fcdf4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6785478" />
+  </Interaction>
+  <Interaction GraphId="b6811">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="555.0" Y="518.0" GraphRef="ff258" RelX="-1.0" RelY="0.0" />
+      <Point X="501.0" Y="504.0" GraphRef="ec3d4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6785478" />
+  </Interaction>
+  <Interaction GraphId="ff732">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="493.0" Y="479.0" GraphRef="b362b" RelX="1.0" RelY="-0.037037037037037035" />
+      <Point X="501.0" Y="504.0" GraphRef="ec3d4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6785478" />
+  </Interaction>
+  <Interaction GraphId="cef19">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="536.0" Y="485.0" GraphRef="de5ce" RelX="-1.0" RelY="0.0" />
+      <Point X="501.0" Y="504.0" GraphRef="ec3d4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6785478" />
+  </Interaction>
+  <Interaction GraphId="b5785">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="500.0" Y="549.0" GraphRef="fcdf4" RelX="-0.009999999999990905" RelY="0.4500000000000455" />
+      <Point X="500.0" Y="552.0" GraphRef="d143e" RelX="-0.006289308176100629" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6785478" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="a8bfc" GroupRef="f6dde">
+    <Graphics CenterX="51.0" CenterY="688.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="db9a2" GroupRef="e92c1">
+    <Graphics CenterX="97.5" CenterY="541.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="ecbaf" GroupRef="f6dde">
+    <Graphics CenterX="454.5" CenterY="362.5" Width="901.0" Height="713.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c27a0" GroupRef="e92c1">
+    <Graphics CenterX="453.0" CenterY="318.5" Width="844.0" Height="585.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="a55e6" GraphId="d6b02">
+    <Attribute Key="complex_id" Value="R-HSA-6784574" />
+  </Group>
+  <Group GroupId="bca59" GraphId="ee655">
+    <Attribute Key="complex_id" Value="R-HSA-6784537" />
+  </Group>
+  <Group GroupId="ea9ed" GraphId="f5357" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5696795" />
+  </Group>
+  <Group GroupId="ec4a2" GraphId="a5a89">
+    <Attribute Key="complex_id" Value="R-HSA-6784544" />
+  </Group>
+  <Group GroupId="d6209" GraphId="d1e20">
+    <Attribute Key="complex_id" Value="R-HSA-6784557" />
+  </Group>
+  <Group GroupId="d7727" GraphId="e9ad4" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5696765" />
+  </Group>
+  <Group GroupId="a5ec9" GraphId="cfca7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5696778" />
+  </Group>
+  <Group GroupId="cae74" GraphId="a801d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-6783450" />
+  </Group>
+  <Group GroupId="a8ff2" GraphId="f57f4" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-206617" />
+  </Group>
+  <Group GroupId="e2f65" GraphId="d041d">
+    <Attribute Key="complex_id" Value="R-HSA-6785476" />
+  </Group>
+  <Group GroupId="a6202" GraphId="dcc1d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-180738" />
+  </Group>
+  <Group GroupId="b9e93" GraphId="c3c50">
+    <Attribute Key="complex_id" Value="R-HSA-6783491" />
+  </Group>
+  <Group GroupId="d2831" GraphId="d06b3" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-157689" />
+  </Group>
+  <Group GroupId="f6dde" GraphId="ee604" Style="Group" />
+  <Group GroupId="e92c1" GraphId="aaba8" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d21">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24898039</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pivotal regulatory landscape of RNA modifications.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li S, Mason CE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24596576</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mechanisms of template-independent RNA polymerization by tRNA nucleotidyltransferases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomita K, Yamashita S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b9b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21572561</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3' processing of eukaryotic precursor tRNAs.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maraia RJ, Lamichhane TN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16061803</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Have tRNA, will travel.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phizicky EM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20716516</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archaeal/eukaryal RNase P: subunits, functions and RNA diversification.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jarrous N, Gopalan V.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a5b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20101632</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCA addition to tRNA: implications for tRNA quality control.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hou YM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c3c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15879697</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recent progress of structural biology of tRNA processing and modification.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakanishi K, Nureki O.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16364630</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A story with a good ending: tRNA 3'-end maturation by CCA-adding enzymes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xiong Y, Steitz TA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b00">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22426497</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diversity and roles of (t)RNA ligases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Popow J, Schleiffer A, Martinez J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d98">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12045094</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryotic ribonuclease P: a plurality of ribonucleoprotein enzymes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xiao S, Scott F, Fierke CA, Engelke DR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bdf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11871657</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human ribonuclease P: subunits, function, and intranuclear localization.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jarrous N.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20810645</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tRNA biology charges to the front.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phizicky EM, Hopper AK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16040803</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retrograde movement of tRNAs from the cytoplasm to the nucleus in Saccharomyces cerevisiae.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shaheen HH, Hopper AK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fdc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25755220</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cutting, dicing, healing and sealing: the molecular surgery of tRNA.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lopes RR, Kessler AC, Polycarpo C, Alfonzo JD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10024167</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rpp14 and Rpp29, two protein subunits of human ribonuclease P.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jarrous N, Eder PS, Wesolowski D, Altman S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10444065</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localization in the nucleolus and coiled bodies of protein subunits of the ribonucleoprotein ribonuclease P.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jarrous N, Wolenski JS, Wesolowski D, Lee C, Altman S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cdb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11455963</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein-RNA interactions in the subunits of human nuclear RNase P.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang T, Guerrier-Takada C, Altman S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c78">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15109492</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a human endonuclease complex reveals a link between tRNA splicing and pre-mRNA 3' end formation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paushkin SV, Patel M, Furia BS, Peltz SW, Trotta CR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f6d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21311021</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSPC117 is the essential subunit of a human tRNA splicing ligase complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Popow J, Englert M, Weitzer S, Schleiffer A, Mierzwa B, Mechtler K, Trowitzsch S, Will CL, Lührmann R, Söll D, Martinez J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bcb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24870230</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analysis of orthologous groups reveals archease and DDX1 as tRNA splicing factors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Popow J, Jurkin J, Schleiffer A, Martinez J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9660920</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a tRNA-specific nuclear export receptor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kutay U, Lipowsky G, Izaurralde E, Bischoff FR, Schwarzmaier P, Hartmann E, Görlich D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e58">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9512417</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a nuclear export receptor for tRNA.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arts GJ, Fornerod M, Mattaj IW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12138183</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steady-state nuclear localization of exportin-t involves RanGTP binding and two distinct nuclear pore complex interaction domains.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuersten S, Arts GJ, Walther TC, Englmeier L, Mattaj IW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17224653</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interaction of immobilized human exportin-t with calf liver tRNA.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li S, Sprinzl M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10087256</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A conserved biogenesis pathway for nucleoporins: proteolytic processing of a 186-kilodalton precursor generates Nup98 and the novel nucleoporin, Nup96.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fontoura BM, Blobel G, Matunis MJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12791264</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peering through the pore: nuclear pore complex structure, assembly, and function.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suntharalingam M, Wente SR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12196509</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteomic analysis of the mammalian nuclear pore complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cronshaw JM, Krutchinsky AN, Zhang W, Chait BT, Matunis MJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a34">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15502822</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mapping the dynamic organization of the nuclear pore complex inside single living cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rabut G, Doye V, Ellenberg J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23511206</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell type-specific nuclear pores: a case in point for context-dependent stoichiometry of molecular machines.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ori A, Banterle N, Iskar M, Iskar M, Andrés-Pons A, Escher C, Khanh Bui H, Sparks L, Solis-Mezarino V, Rinner O, Bork P, Lemke EA, Beck M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a9d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27081075</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Architecture of the symmetric core of the nuclear pore.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lin DH, Stuwe T, Schilbach S, Rundlet EJ, Perriches T, Mobbs G, Fan Y, Thierbach K, Huber FM, Collins LN, Davenport AM, Jeon YE, Hoelz A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27081072</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular architecture of the inner ring scaffold of the human nuclear pore complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kosinski J, Mosalaganti S, von Appen A, Teimer R, DiGuilio AL, Wan W, Bui KH, Hagen WJ, Briggs JA, Glavy JS, Hurt E, Beck M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a24">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26046137</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The nuclear pore complex--structure and function at a glance.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kabachinski G, Schwartz TU.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21559454</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localization of human RNase Z isoforms: dual nuclear/mitochondrial targeting of the ELAC2 gene product by alternative translation initiation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rossmanith W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21593607</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involvement of human ELAC2 gene product in 3' end processing of mitochondrial tRNAs.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brzezniak LK, Bijata M, Szczesny RJ, Stepien PP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b28">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6930639</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific RNA-cleaving activities from HeLa cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferrari S, Yehle CO, Robertson HD, Dickson E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f82">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2470644</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification and characterization of an RNA molecule that copurifies with RNase P activity from HeLa cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bartkiewicz M, Gold H, Altman S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c69">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7828588</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substrate recognition by human RNase P: identification of small, model substrates for the enzyme.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yuan Y, Altman S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d1f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7759547</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human mitochondrial tRNA processing.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rossmanith W, Tullo A, Potuschak T, Karwan R, Sbisà E.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ab4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21450806</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA binding properties of conserved protein subunits of human RNase P.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reiner R, Alfiya-Mor N, Berrebi-Demma M, Wesolowski D, Altman S, Jarrous N.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18984158</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNase P without RNA: identification and functional reconstitution of the human mitochondrial tRNA processing enzyme.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holzmann J, Frank P, Löffler E, Bennett KL, Gerner C, Rossmanith W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16361254</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naturally occurring mutations in human mitochondrial pre-tRNASer(UCN) can affect the transfer ribonuclease Z cleavage site, processing kinetics, and substrate secondary structure.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yan H, Zareen N, Levinger L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e63">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18809514</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional analyses for tRNase Z variants: an aspartate and a histidine in the active site are essential for the catalytic activity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elbarbary RA, Takaku H, Nashimoto M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a35">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15317868</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The N-terminal half-domain of the long form of tRNase Z is required for the RNase 65 activity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takaku H, Minagawa A, Takagi M, Nashimoto M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12711671</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A candidate prostate cancer susceptibility gene encodes tRNA 3' processing endoribonuclease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takaku H, Minagawa A, Takagi M, Nashimoto M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18226598</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comparative analysis of CCA-adding enzymes from human and E. coli: differences in CCA addition and tRNA 3'-end repair.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lizano E, Scheibe M, Rammelt C, Betat H, Mörl M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d6d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12729736</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structure of the human CCA-adding enzyme: insights into template-independent polymerization.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Augustin MA, Reichert AS, Betat H, Huber R, Mörl M, Steegborn C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25640237</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On-enzyme refolding permits small RNA and tRNA surveillance by the CCA-adding enzyme.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuhn CD, Wilusz JE, Zheng Y, Beal PA, Joshua-Tor L.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bba">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25849199</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domain movements during CCA-addition: a new function for motif C in the catalytic core of the human tRNA nucleotidyltransferases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ernst FG, Rickert C, Bluschke A, Betat H, Steinhoff HJ, Mörl M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17204286</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A splice variant of the human CCA-adding enzyme with modified activity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lizano E, Schuster J, Müller M, Kelso J, Mörl M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11727826</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eubacterial origin for the human tRNA nucleotidyltransferase?</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reichert AS, Thurlow DL, Mörl M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f62">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12526808</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structures of the Bacillus stearothermophilus CCA-adding enzyme and its complexes with ATP or CTP.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li F, Xiong Y, Wang J, Cho HD, Tomita K, Weiner AM, Steitz TA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a09">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16710424</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleavage of pre-tRNAs by the splicing endonuclease requires a composite active site.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trotta CR, Paushkin SV, Patel M, Li H, Peltz SW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f52">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22944664</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exportin t and Exportin 5: tRNA and miRNA biogenesis - and beyond.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leisegang MS, Martin R, Ramírez AS, Bohnsack MT.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

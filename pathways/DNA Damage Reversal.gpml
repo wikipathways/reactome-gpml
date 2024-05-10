@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="DNA Damage Reversal" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">DNA damage can be directly reversed by dealkylation (Mitra and Kaina 1993). Three enzymes play a major role in reparative DNA dealkylation: MGMT, ALKBH2 and ALKBH3. MGMT dealkylates O-6-methylguanine in a suicidal reaction that inactivates the enzyme (Daniels et al. 2000, Rasimas et al. 2004, Duguid et al. 2005, Tubbs et al. 2007), while ALKBH2 and ALKBH3 dealkylate 1-methyladenine, 3-methyladenine, 3-methylcytosine and 1-ethyladenine (Duncan et al. 2002, Dango et al. 2011).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=73942 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 73942</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Pegg, Anthony E</Comment>
+  <BiopaxRef>d4b</BiopaxRef>
+  <BiopaxRef>c8a</BiopaxRef>
+  <BiopaxRef>acd</BiopaxRef>
+  <BiopaxRef>d5a</BiopaxRef>
+  <BiopaxRef>f90</BiopaxRef>
+  <BiopaxRef>f6f</BiopaxRef>
+  <BiopaxRef>e97</BiopaxRef>
+  <Attribute Key="reactome_id" Value="73942" />
+  <Graphics BoardWidth="1209.0" BoardHeight="1716.0" />
+  <DataNode TextLabel="O2" GraphId="afe7b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="564.0" CenterY="436.0" Width="40.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="eba30" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="614.0" CenterY="443.0" Width="36.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="CH2O" GraphId="a67ee" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="716.0" CenterY="444.0" Width="46.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16842" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH2:Fe2+" GraphId="b18c1" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="341.0" CenterY="453.0" Width="98.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5656464" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH2 " GraphId="fc8e3" Type="Protein" GroupRef="bf063">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5656464" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1064.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6NS38" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="bad6d" Type="Metabolite" GroupRef="bf063">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5656464" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1084.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH3:Fe2+:ASCC1:ASCC2:ASCC3" GraphId="d814d" Type="Complex">
+    <BiopaxRef>e97</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="303.0" CenterY="685.0" Width="110.0" Height="54.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5656407" />
+  </DataNode>
+  <DataNode TextLabel="ASCC1 " GraphId="ad78d" Type="Protein" GroupRef="f2014">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5656407" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1144.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N9N2" />
+  </DataNode>
+  <DataNode TextLabel="ASCC2 " GraphId="e299f" Type="Protein" GroupRef="f2014">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5656407" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1164.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H1I8" />
+  </DataNode>
+  <DataNode TextLabel="ASCC3 " GraphId="f60bb" Type="Protein" GroupRef="f2014">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5656407" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1184.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N3C0" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH3 " GraphId="b13b2" Type="Protein" GroupRef="f2014">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5656407" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1204.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96Q83" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="b303e" Type="Metabolite" GroupRef="f2014">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5656407" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1224.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="dsDNA" GraphId="bc644">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="998.5" CenterY="537.0" Width="49.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5649637" />
+  </DataNode>
+  <DataNode TextLabel="3-meC-dsDNA" GraphId="fe0f2">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="218.5" CenterY="509.0" Width="105.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657603" />
+  </DataNode>
+  <DataNode TextLabel="1-meA-dsDNA" GraphId="a065c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="221.5" CenterY="438.5" Width="107.0" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657602" />
+  </DataNode>
+  <DataNode TextLabel="6-OMeG-dsDNA" GraphId="ba53c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="290.0" CenterY="137.0" Width="124.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657606" />
+  </DataNode>
+  <DataNode TextLabel="CH3CHO" GraphId="f9b8c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="726.0" CenterY="605.5" Width="62.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15343" />
+  </DataNode>
+  <DataNode TextLabel="SUCCA" GraphId="b144e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="836.0" CenterY="457.0" Width="56.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30031" />
+  </DataNode>
+  <DataNode TextLabel="SUCCA" GraphId="b6a99" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="863.0" CenterY="820.0" Width="50.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30031" />
+  </DataNode>
+  <DataNode TextLabel="SUCCA" GraphId="ef8aa" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="847.5" CenterY="592.5" Width="53.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30031" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="aa2d2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="778.0" CenterY="830.5" Width="38.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="a964e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="777.5" CenterY="453.0" Width="39.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="CH2O" GraphId="bddde" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="716.0" CenterY="834.0" Width="48.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16842" />
+  </DataNode>
+  <DataNode TextLabel="MGMT:Zn2+:6-OMeG-dsDNA" GraphId="f1fba" Type="Complex">
+    <BiopaxRef>c8a</BiopaxRef>
+    <BiopaxRef>acd</BiopaxRef>
+    <BiopaxRef>ecd</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="558.0" CenterY="137.5" Width="190.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5657662" />
+  </DataNode>
+  <DataNode TextLabel="6-OMeG-dsDNA " GraphId="a8f05" GroupRef="ec126">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657662" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1284.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657606" />
+  </DataNode>
+  <DataNode TextLabel="MGMT " GraphId="abe29" Type="Protein" GroupRef="ec126">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657662" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1304.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16455" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="a817c" Type="Metabolite" GroupRef="ec126">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657662" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1324.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="MetC-MGMT:Zn2+" GraphId="c116c" Type="Complex">
+    <BiopaxRef>c8a</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="839.0" CenterY="87.0" Width="118.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5657639" />
+  </DataNode>
+  <DataNode TextLabel="MetC-MGMT " GraphId="e7184" Type="Protein" GroupRef="bce38">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657639" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1384.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16455" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="f81b7" Type="Metabolite" GroupRef="bce38">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657639" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1404.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="MGMT:Zn2+" GraphId="c1eb5" Type="Complex">
+    <BiopaxRef>c8a</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="380.0" CenterY="73.5" Width="92.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5657631" />
+  </DataNode>
+  <DataNode TextLabel="MGMT " GraphId="c305b" Type="Protein" GroupRef="d683b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657631" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1464.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16455" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+ " GraphId="a9d85" Type="Metabolite" GroupRef="d683b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657631" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1484.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH3:Fe2+:ASCC1:ASCC2:ASCC3:1-meA-dsDNA" GraphId="f7a49" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="455.5" CenterY="792.5" Width="189.0" Height="43.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5657653" />
+  </DataNode>
+  <DataNode TextLabel="1-meA-dsDNA " GraphId="f3e7d" GroupRef="d6d95">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657653" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1544.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657602" />
+  </DataNode>
+  <DataNode TextLabel="ASCC1 " GraphId="bc1f0" Type="Protein" GroupRef="d6d95">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657653" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1564.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N9N2" />
+  </DataNode>
+  <DataNode TextLabel="ASCC2 " GraphId="f94d4" Type="Protein" GroupRef="d6d95">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657653" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1584.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H1I8" />
+  </DataNode>
+  <DataNode TextLabel="ASCC3 " GraphId="ea3fc" Type="Protein" GroupRef="d6d95">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657653" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1604.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N3C0" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH3 " GraphId="c275c" Type="Protein" GroupRef="d6d95">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657653" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1624.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96Q83" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="eabc7" Type="Metabolite" GroupRef="d6d95">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657653" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1644.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH3:Fe2+:ASCC1:ASCC2:ASCC3:3-meC-dsDNA" GraphId="ec5ac" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="447.5" CenterY="872.5" Width="181.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5657618" />
+  </DataNode>
+  <DataNode TextLabel="ASCC1 " GraphId="b9187" Type="Protein" GroupRef="c8aeb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1104.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N9N2" />
+  </DataNode>
+  <DataNode TextLabel="ASCC2 " GraphId="d3e6f" Type="Protein" GroupRef="c8aeb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1124.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H1I8" />
+  </DataNode>
+  <DataNode TextLabel="ASCC3 " GraphId="e5044" Type="Protein" GroupRef="c8aeb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1144.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N3C0" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH3 " GraphId="eab58" Type="Protein" GroupRef="c8aeb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1164.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96Q83" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="e0cfc" Type="Metabolite" GroupRef="c8aeb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1184.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="3-meC-dsDNA " GraphId="ca210" GroupRef="c8aeb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657618" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1204.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657603" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH3:Fe2+:ASCC1:ASCC2:ASCC3:1-etA-dsDNA" GraphId="abdcc" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="483.5" CenterY="652.0" Width="179.0" Height="44.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5657647" />
+  </DataNode>
+  <DataNode TextLabel="ASCC1 " GraphId="bffa8" Type="Protein" GroupRef="e0b3d">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657647" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1264.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N9N2" />
+  </DataNode>
+  <DataNode TextLabel="ASCC2 " GraphId="eafec" Type="Protein" GroupRef="e0b3d">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657647" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1284.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H1I8" />
+  </DataNode>
+  <DataNode TextLabel="ASCC3 " GraphId="ced72" Type="Protein" GroupRef="e0b3d">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657647" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1304.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N3C0" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH3 " GraphId="dedd7" Type="Protein" GroupRef="e0b3d">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657647" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1324.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96Q83" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="c5789" Type="Metabolite" GroupRef="e0b3d">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657647" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1344.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="1-etA-dsDNA " GraphId="e6426" GroupRef="e0b3d">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657647" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1364.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657646" />
+  </DataNode>
+  <DataNode TextLabel="1-etA-dsDNA" GraphId="ab95c">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="204.5" CenterY="601.0" Width="97.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657646" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH2:Fe2+:1-meA-dsDNA" GraphId="ab026" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="488.0" CenterY="378.0" Width="104.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5657616" />
+  </DataNode>
+  <DataNode TextLabel="1-meA-dsDNA " GraphId="ea800" GroupRef="db1d5">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657616" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1424.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657602" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH2 " GraphId="b4f96" Type="Protein" GroupRef="db1d5">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657616" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1444.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6NS38" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="d9d1b" Type="Metabolite" GroupRef="db1d5">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657616" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1464.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH2:Fe2+:3-meC-dsDNA" GraphId="bb73b" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="468.5" CenterY="501.0" Width="103.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5657613" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH2 " GraphId="c46c7" Type="Protein" GroupRef="d9e39">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657613" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1524.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6NS38" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="d1952" Type="Metabolite" GroupRef="d9e39">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657613" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1544.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="3-meC-dsDNA " GraphId="c9d84" GroupRef="d9e39">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657613" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1564.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657603" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH2:Fe2+:1-etA-dsDNA" GraphId="ba5d5" Type="Complex">
+    <BiopaxRef>f6f</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="493.5" CenterY="587.5" Width="93.0" Height="41.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5657636" />
+  </DataNode>
+  <DataNode TextLabel="1-etA-dsDNA " GraphId="b1b5c" GroupRef="d9020">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657636" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1624.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5657646" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH2 " GraphId="f6e61" Type="Protein" GroupRef="d9020">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657636" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1644.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6NS38" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="c580a" Type="Metabolite" GroupRef="d9020">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-5657636" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1664.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="f4c55" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="580.0" CenterY="831.0" Width="38.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="d9f2c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="637.0" CenterY="831.5" Width="38.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="f453b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="598.0" CenterY="612.0" Width="40.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="f8281" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="657.0" CenterY="615.0" Width="42.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="f9c77" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="793.0" CenterY="611.0" Width="42.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="N6-methyladenosine" GraphId="e0fb9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="624.0" CenterY="278.0" Width="116.0" Height="48.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:21891" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+" GraphId="ab023" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="680.0" CenterY="206.0" Width="46.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="adenosine" GraphId="ec663" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="946.0" CenterY="279.0" Width="76.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16335" />
+  </DataNode>
+  <DataNode TextLabel="RNA demethylases" GraphId="e028b" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="797.5" CenterY="235.0" Width="117.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8857697" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="c9b9d" Type="Metabolite" GroupRef="cb34a">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8857697" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="1104.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="ALKBH5 " GraphId="d9c2f" Type="Protein" GroupRef="cb34a">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8857697" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="1124.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6P6C2" />
+  </DataNode>
+  <DataNode TextLabel="FTO " GraphId="cefe1" Type="Protein" GroupRef="cb34a">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8857697" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="1144.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9C0B1" />
+  </DataNode>
+  <DataNode TextLabel="dacarbazine,procarbazine,streptozocin,temozolomide" GraphId="a8ff6" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="414.5" CenterY="217.0" Width="115.0" Height="68.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-9729903" />
+  </DataNode>
+  <DataNode TextLabel="dacarbazine " GraphId="fefc1" GroupRef="e18bb">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-ALL-9729903" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="dsDNA" GraphId="e57f0">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="104.5" CenterY="151.0" Width="49.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5649637" />
+  </DataNode>
+  <Interaction GraphId="fffce">
+    <Comment Source="Reactome">ALKBH3, a homolog of E.coli AlkB (Trewick et al. 2002), removes the methyl group from 3-methylcytosine (3-meC) in a reaction dependent on alpha-ketoglutarate, oxygen and Fe2+. ALKBH3 directly reverses the alkylating damage of DNA in the form of 3-meC, releasing formaldehyde (Duncan et al. 2002). The reversal of alkylating damage of dsDNA by ALKBH3 requires the presence of DNA helicase ASCC3, a component of the activating signal co-integrator complex (Dango et al. 2011). ALKBH3 can also repair methylated RNA (Aas et al. 2003).</Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="590.0" Y="870.0" />
+      <Point X="706.0" Y="870.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d41e7" />
+      <Anchor Position="0.99" Shape="None" GraphId="ee123" />
+      <Anchor Position="0.5" Shape="None" GraphId="ef872" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="cca15">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="537.0" Y="872.0" GraphRef="ec5ac" RelX="0.988950276243094" RelY="-0.02564102564102564" />
+      <Point X="590.0" Y="870.0" GraphRef="d41e7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="b86a5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="580.0" Y="844.0" GraphRef="f4c55" RelX="0.0" RelY="1.0" />
+      <Point X="590.0" Y="870.0" GraphRef="d41e7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="e40ff">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="618.0" Y="831.0" GraphRef="d9f2c" RelX="-1.0" RelY="-0.034482758620689655" />
+      <Point X="590.0" Y="870.0" GraphRef="d41e7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="f70bf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="706.0" Y="870.0" GraphRef="ee123" RelX="1.1599999999999682" RelY="0.0" />
+      <Point X="974.0" Y="537.0" GraphRef="bc644" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="d11da">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="706.0" Y="870.0" GraphRef="ee123" RelX="1.1599999999999682" RelY="0.0" />
+      <Point X="759.0" Y="830.0" GraphRef="aa2d2" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="db34a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="706.0" Y="870.0" GraphRef="ee123" RelX="1.1599999999999682" RelY="0.0" />
+      <Point X="716.0" Y="847.0" GraphRef="bddde" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="bfaba">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="706.0" Y="870.0" GraphRef="ee123" RelX="1.1599999999999682" RelY="0.0" />
+      <Point X="838.0" Y="820.0" GraphRef="b6a99" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="ab8ad">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="706.0" Y="870.0" GraphRef="ee123" RelX="1.1599999999999682" RelY="0.0" />
+      <Point X="358.0" Y="685.0" GraphRef="d814d" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="e4984">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="537.0" Y="872.0" GraphRef="ec5ac" RelX="0.988950276243094" RelY="-0.02564102564102564" />
+      <Point X="671.0" Y="869.0" GraphRef="ef872" RelX="23.0" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112124" />
+  </Interaction>
+  <Interaction GraphId="fe545">
+    <Comment Source="Reactome">ALKBH3, a homolog of E.coli AlkB (Trewick et al. 2002), removes the ethyl group from 1-ethyladenine (1-etA) in a reaction dependent on alpha-ketoglutarate, oxygen and Fe2+. ALKBH3 directly reverses alkylating damage of DNA in the form of 1-etA, releasing acetaldehyde (Duncan et al. 2002). The reversal of alkylating damage of dsDNA by ALKBH3 requires the presence of DNA helicase ASCC3, a component of the activating signal co-activator complex (Dango et al. 2011). ALKBH3 can also repair methylated RNA (Aas et al. 2003).</Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="599.0" Y="642.0" />
+      <Point X="732.0" Y="652.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f5d36" />
+      <Anchor Position="0.99" Shape="None" GraphId="d8473" />
+      <Anchor Position="0.5" Shape="None" GraphId="c352b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="ee461">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="572.0" Y="652.0" GraphRef="abdcc" RelX="0.9888268156424581" RelY="0.0" />
+      <Point X="599.0" Y="642.0" GraphRef="f5d36" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="c3770">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="598.0" Y="624.0" GraphRef="f453b" RelX="0.0" RelY="1.0" />
+      <Point X="599.0" Y="642.0" GraphRef="f5d36" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="c9520">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="636.0" Y="615.0" GraphRef="f8281" RelX="-1.0" RelY="0.0" />
+      <Point X="599.0" Y="642.0" GraphRef="f5d36" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="c68c8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="732.0" Y="652.0" GraphRef="d8473" RelX="1.330000000000041" RelY="0.10000000000002274" />
+      <Point X="974.0" Y="537.0" GraphRef="bc644" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="b2a23">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="732.0" Y="652.0" GraphRef="d8473" RelX="1.330000000000041" RelY="0.10000000000002274" />
+      <Point X="726.0" Y="619.0" GraphRef="f9b8c" RelX="0.0" RelY="0.9310344827586207" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="c0fff">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="732.0" Y="652.0" GraphRef="d8473" RelX="1.330000000000041" RelY="0.10000000000002274" />
+      <Point X="821.0" Y="592.0" GraphRef="ef8aa" RelX="-1.0" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="b0e1e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="732.0" Y="652.0" GraphRef="d8473" RelX="1.330000000000041" RelY="0.10000000000002274" />
+      <Point X="772.0" Y="611.0" GraphRef="f9c77" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="f57a2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="732.0" Y="652.0" GraphRef="d8473" RelX="1.330000000000041" RelY="0.10000000000002274" />
+      <Point X="358.0" Y="685.0" GraphRef="d814d" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="e9a25">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="572.0" Y="652.0" GraphRef="abdcc" RelX="0.9888268156424581" RelY="0.0" />
+      <Point X="664.0" Y="642.0" GraphRef="c352b" RelX="-1.5" RelY="-5.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112125" />
+  </Interaction>
+  <Interaction GraphId="d1437">
+    <Comment Source="Reactome">MGMT, just like its E.coli homolog Ada, is an O-6-methylguanine transferase (Lindahl et al. 1983, Moore et al. 1994) that removes the methyl group from the guanine and transfers it to the cysteine residue at position 145 on the protein itself. MGMT thus methylated is not regenerated, as the S-methylcysteine is very stable. This is an energetically expensive approach to DNA repair as one entire protein molecule is sacrificed per lesion that is corrected in this manner (Rasimas et al. 2004, Tubbs et al. 2007, Mitra and Kaina 1993).</Comment>
+    <BiopaxRef>d4b</BiopaxRef>
+    <BiopaxRef>ecb</BiopaxRef>
+    <BiopaxRef>d76</BiopaxRef>
+    <BiopaxRef>d5a</BiopaxRef>
+    <BiopaxRef>f90</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="656.0" Y="138.0" />
+      <Point X="788.0" Y="139.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ac5d1" />
+      <Anchor Position="0.99" Shape="None" GraphId="dc014" />
+      <Anchor Position="0.5" Shape="None" GraphId="ba8fb" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73892" />
+  </Interaction>
+  <Interaction GraphId="ce93a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="653.0" Y="137.0" GraphRef="f1fba" RelX="1.0" RelY="-0.043478260869565216" />
+      <Point X="656.0" Y="138.0" GraphRef="ac5d1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73892" />
+  </Interaction>
+  <Interaction GraphId="f40e4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="788.0" Y="139.0" GraphRef="dc014" RelX="1.32000000000005" RelY="0.009999999999990905" />
+      <Point X="974.0" Y="537.0" GraphRef="bc644" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73892" />
+  </Interaction>
+  <Interaction GraphId="e23cc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="788.0" Y="139.0" GraphRef="dc014" RelX="1.32000000000005" RelY="0.009999999999990905" />
+      <Point X="780.0" Y="87.0" GraphRef="c116c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73892" />
+  </Interaction>
+  <Interaction GraphId="dfd14">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="653.0" Y="137.0" GraphRef="f1fba" RelX="1.0" RelY="-0.043478260869565216" />
+      <Point X="703.0" Y="140.0" GraphRef="ba8fb" RelX="-19.0" RelY="1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-73892" />
+  </Interaction>
+  <Interaction GraphId="f12ba">
+    <Comment Source="Reactome">MGMT recognizes and binds DNA containing 6-O-methylguanine in a manner consistent with a helix-loop-wing DNA binding model, where guanine is flipped out in order to bring the methylated oxygen atom close to MGMT active site (Vora et al. 1998, Daniels et al. 2000). Weakened or distorted base-pairs formed by 6-O-methylguanine probably aid in the substrate recognition by MGMT (Duguid et al. 2005). MGMT is stabilized by Zn2+ binding (Daniels et al. 2000). </Comment>
+    <BiopaxRef>d4b</BiopaxRef>
+    <BiopaxRef>c8a</BiopaxRef>
+    <BiopaxRef>acd</BiopaxRef>
+    <BiopaxRef>ecd</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="385.0" Y="137.0" />
+      <Point X="460.0" Y="137.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fea69" />
+      <Anchor Position="0.99" Shape="None" GraphId="d23d6" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657651" />
+  </Interaction>
+  <Interaction GraphId="c9547">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="352.0" Y="137.0" GraphRef="ba53c" RelX="1.0" RelY="0.0" />
+      <Point X="385.0" Y="137.0" GraphRef="fea69" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657651" />
+  </Interaction>
+  <Interaction GraphId="ec283">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="380.0" Y="84.0" GraphRef="c1eb5" RelX="0.0" RelY="0.9130434782608695" />
+      <Point X="385.0" Y="137.0" GraphRef="fea69" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657651" />
+  </Interaction>
+  <Interaction GraphId="a1d78">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="460.0" Y="137.0" GraphRef="d23d6" RelX="0.75" RelY="0.0" />
+      <Point X="463.0" Y="137.0" GraphRef="f1fba" RelX="-1.0" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657651" />
+  </Interaction>
+  <Interaction GraphId="e66f2">
+    <Comment Source="Reactome">ALKBH3 (ABH3) has a preference for binding single strand DNA or RNA containing alkylation damage. ALKBH3 associates with dsDNA containing 1-methyladenine alkylation damage (1-meA-dsDNA) in the presence of ASCC3 DNA helicase. ASCC3 is a part of ASCC1:ASCC2:ASCC3 activating signal co-integrator complex, which unwinds dsDNA, providing an appropriate substrate for ALKBH3 (Duncan et al. 2002, Sundheim et al. 2006, Chen et al. 2010, Dango et al. 2011). ALKBH3 requires iron (Fe2+) for its catalytic activity (Duncan et al. 2002, Sundheim et al. 2006).</Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <BiopaxRef>b3b</BiopaxRef>
+    <BiopaxRef>e97</BiopaxRef>
+    <BiopaxRef>c0b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="281.0" Y="783.0" />
+      <Point X="358.0" Y="786.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="eb6b3" />
+      <Anchor Position="0.99" Shape="None" GraphId="fe896" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657637" />
+  </Interaction>
+  <Interaction GraphId="f05f2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="303.0" Y="712.0" GraphRef="d814d" RelX="0.0" RelY="1.0" />
+      <Point X="281.0" Y="783.0" GraphRef="eb6b3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657637" />
+  </Interaction>
+  <Interaction GraphId="dc0a6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="221.0" Y="448.0" GraphRef="a065c" RelX="-0.009345794392523364" RelY="0.9047619047619048" />
+      <Point X="281.0" Y="783.0" GraphRef="eb6b3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657637" />
+  </Interaction>
+  <Interaction GraphId="abe7b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="358.0" Y="786.0" GraphRef="fe896" RelX="0.7699999999999818" RelY="0.029999999999972715" />
+      <Point X="361.0" Y="792.0" GraphRef="f7a49" RelX="-1.0" RelY="-0.023255813953488372" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657637" />
+  </Interaction>
+  <Interaction GraphId="dae3b">
+    <Comment Source="Reactome">ALKBH3 (ABH3) has a preference for binding single strand DNA or RNA containing alkylation damage. ALKBH3 associates with dsDNA containing 3-methylcytosine (3-meC-dsDNA) alkylation damage in the presence of ASCC3 DNA helicase. ASCC3 is a part of ASCC1:ASCC2:ASCC3 activating signal co-integrator complex, which unwinds dsDNA, providing an appropriate substrate for ALKBH3 (Duncan et al. 2002, Sundheim et al. 2006, Chen et al. 2010, Dango et al. 2011). ALKBH3 requires iron (Fe2+) for its catalytic activity (Duncan et al. 2002, Sundheim et al. 2006). ALKBH3 is ~2-fold more active on DNA containing 3-methylcytosine than 1-methyladenine (Duncan et al. 2002).</Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <BiopaxRef>b3b</BiopaxRef>
+    <BiopaxRef>e97</BiopaxRef>
+    <BiopaxRef>c0b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="226.0" Y="876.0" />
+      <Point X="354.0" Y="873.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b6406" />
+      <Anchor Position="0.99" Shape="None" GraphId="fc351" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657617" />
+  </Interaction>
+  <Interaction GraphId="d1b01">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="303.0" Y="712.0" GraphRef="d814d" RelX="0.0" RelY="1.0" />
+      <Point X="226.0" Y="876.0" GraphRef="b6406" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657617" />
+  </Interaction>
+  <Interaction GraphId="b779b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="218.0" Y="520.0" GraphRef="fe0f2" RelX="-0.009523809523809525" RelY="1.0" />
+      <Point X="226.0" Y="876.0" GraphRef="b6406" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657617" />
+  </Interaction>
+  <Interaction GraphId="efff3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="354.0" Y="873.0" GraphRef="fc351" RelX="1.2800000000000296" RelY="-0.029999999999972715" />
+      <Point X="357.0" Y="872.0" GraphRef="ec5ac" RelX="-1.0" RelY="-0.02564102564102564" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657617" />
+  </Interaction>
+  <Interaction GraphId="e6f88">
+    <Comment Source="Reactome">ALKBH3 (ABH3) has a preference for binding single strand DNA or RNA containing alkylation damage. ALKBH3 associates with dsDNA containing 1-ethyladenine alkylation damage (1-etA-dsDNA) in the presence of ASCC3 DNA helicase. ASCC3 is a part of ASCC1:ASCC2:ASCC3 activating signal co-integrator complex, which unwinds dsDNA, providing an appropriate subrate for ALKBH3 (Duncan et al. 2002, Sundheim et al. 2006, Chen et al. 2010, Dango et al. 2011). ALKBH3 requires iron (Fe2+) for its catalytic activity (Duncan et al. 2002, Sundheim et al. 2006).</Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <BiopaxRef>b3b</BiopaxRef>
+    <BiopaxRef>e97</BiopaxRef>
+    <BiopaxRef>c0b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="303.0" Y="633.0" />
+      <Point X="391.0" Y="642.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="df11c" />
+      <Anchor Position="0.99" Shape="None" GraphId="d17c9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657642" />
+  </Interaction>
+  <Interaction GraphId="b2be5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="252.0" Y="601.0" GraphRef="ab95c" RelX="0.979381443298969" RelY="0.0" />
+      <Point X="303.0" Y="633.0" GraphRef="df11c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657642" />
+  </Interaction>
+  <Interaction GraphId="fc4c9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="303.0" Y="658.0" GraphRef="d814d" RelX="0.0" RelY="-1.0" />
+      <Point X="303.0" Y="633.0" GraphRef="df11c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657642" />
+  </Interaction>
+  <Interaction GraphId="be23c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="391.0" Y="642.0" GraphRef="d17c9" RelX="0.8799999999999955" RelY="0.09000000000003183" />
+      <Point X="394.0" Y="652.0" GraphRef="abdcc" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657642" />
+  </Interaction>
+  <Interaction GraphId="f4385">
+    <Comment Source="Reactome">ALKBH2 binds alkylated DNA containing 1-methyladenine (1-meA). ALKBH2 preferentially binds double strand DNA (dsDNA) (Duncan et al. 2002, Aas et al. 2003, Chen et al. 2010). Iron (Fe2+) is needed for the catalytic activity of ALKBH2 (Duncan et al. 2002).</Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <BiopaxRef>c89</BiopaxRef>
+    <BiopaxRef>b3b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="332.0" Y="373.0" />
+      <Point X="433.0" Y="376.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d94a8" />
+      <Anchor Position="0.99" Shape="None" GraphId="ebfbb" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657641" />
+  </Interaction>
+  <Interaction GraphId="cb895">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="341.0" Y="441.0" GraphRef="b18c1" RelX="0.0" RelY="-1.0" />
+      <Point X="332.0" Y="373.0" GraphRef="d94a8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657641" />
+  </Interaction>
+  <Interaction GraphId="c7f8d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="274.0" Y="438.0" GraphRef="a065c" RelX="0.9813084112149533" RelY="-0.047619047619047616" />
+      <Point X="332.0" Y="373.0" GraphRef="d94a8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657641" />
+  </Interaction>
+  <Interaction GraphId="dd5a6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="433.0" Y="376.0" GraphRef="ebfbb" RelX="1.009999999999991" RelY="0.029999999999972715" />
+      <Point X="436.0" Y="378.0" GraphRef="ab026" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657641" />
+  </Interaction>
+  <Interaction GraphId="c27e7">
+    <Comment Source="Reactome">ALKBH3, a homolog of E.coli AlkB (Trewick et al. 2002), removes the methyl group from 1-methyladenine (1-meA) in a reaction dependent on alpha-ketoglutarate, oxygen and Fe2+. ALKBH3 directly reverses alkylating damage of DNA in the form of 1-meA that is accompanied with the release of formaldehyde (Duncan et al. 2002). The reversal of alkylating damage of dsDNA by ALKBH3 requires the presence of DNA helicase ASCC3, a component of the activating signal co-integrator complex (Dango et al. 2011). ALKBH3 can also repair methylated RNA (Aas et al. 2003). </Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <BiopaxRef>c89</BiopaxRef>
+    <BiopaxRef>f57</BiopaxRef>
+    <BiopaxRef>e97</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="588.0" Y="787.0" />
+      <Point X="690.0" Y="788.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d3ffc" />
+      <Anchor Position="0.99" Shape="None" GraphId="a2435" />
+      <Anchor Position="0.5" Shape="None" GraphId="e96e6" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="eb6e0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="549.0" Y="792.0" GraphRef="f7a49" RelX="0.9894179894179894" RelY="-0.023255813953488372" />
+      <Point X="588.0" Y="787.0" GraphRef="d3ffc" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="e561a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="580.0" Y="818.0" GraphRef="f4c55" RelX="0.0" RelY="-1.0" />
+      <Point X="588.0" Y="787.0" GraphRef="d3ffc" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="f0945">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="618.0" Y="831.0" GraphRef="d9f2c" RelX="-1.0" RelY="-0.034482758620689655" />
+      <Point X="588.0" Y="787.0" GraphRef="d3ffc" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="f0a6b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="690.0" Y="788.0" GraphRef="a2435" RelX="1.0199999999999818" RelY="0.009999999999990905" />
+      <Point X="974.0" Y="537.0" GraphRef="bc644" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="d94d5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="690.0" Y="788.0" GraphRef="a2435" RelX="1.0199999999999818" RelY="0.009999999999990905" />
+      <Point X="716.0" Y="821.0" GraphRef="bddde" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="b5665">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="690.0" Y="788.0" GraphRef="a2435" RelX="1.0199999999999818" RelY="0.009999999999990905" />
+      <Point X="759.0" Y="830.0" GraphRef="aa2d2" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="a465f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="690.0" Y="788.0" GraphRef="a2435" RelX="1.0199999999999818" RelY="0.009999999999990905" />
+      <Point X="838.0" Y="820.0" GraphRef="b6a99" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="b842f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="690.0" Y="788.0" GraphRef="a2435" RelX="1.0199999999999818" RelY="0.009999999999990905" />
+      <Point X="358.0" Y="685.0" GraphRef="d814d" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="e683d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="549.0" Y="792.0" GraphRef="f7a49" RelX="0.9894179894179894" RelY="-0.023255813953488372" />
+      <Point X="638.0" Y="788.0" GraphRef="e96e6" RelX="-1.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112123" />
+  </Interaction>
+  <Interaction GraphId="d4e0a">
+    <Comment Source="Reactome">ALKBH2 binds alkylated DNA containing 3-methylcytosine (3-meC). ALKBH2 preferentially binds double strand DNA (dsDNA) (Duncan et al. 2002, Aas et al. 2003, Chen et al. 2010). Iron (Fe2+) is needed for the catalytic activity of ALKBH2 (Duncan et al. 2002).</Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <BiopaxRef>c89</BiopaxRef>
+    <BiopaxRef>b3b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="335.0" Y="506.0" />
+      <Point X="414.0" Y="502.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f60ef" />
+      <Anchor Position="0.99" Shape="None" GraphId="af8fa" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657665" />
+  </Interaction>
+  <Interaction GraphId="bdf4f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="341.0" Y="465.0" GraphRef="b18c1" RelX="0.0" RelY="1.0" />
+      <Point X="335.0" Y="506.0" GraphRef="f60ef" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657665" />
+  </Interaction>
+  <Interaction GraphId="afe83">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="270.0" Y="509.0" GraphRef="fe0f2" RelX="0.9809523809523809" RelY="0.0" />
+      <Point X="335.0" Y="506.0" GraphRef="f60ef" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657665" />
+  </Interaction>
+  <Interaction GraphId="e9e8d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="414.0" Y="502.0" GraphRef="af8fa" RelX="0.7899999999999636" RelY="-0.040000000000020464" />
+      <Point X="417.0" Y="501.0" GraphRef="bb73b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657665" />
+  </Interaction>
+  <Interaction GraphId="aa557">
+    <Comment Source="Reactome">ALKBH2 catalyzes removal of the methyl group from 3-methylcytosine (3-meC) in a reaction that depends on oxygen, alpha-ketoglutarate and Fe2+. ALKBH2 thus directly reverses alkylation damage of DNA in the form of 3-meC, releasing formaldehyde (Duncan et al. 2002). </Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="558.0" Y="493.0" />
+      <Point X="681.0" Y="498.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a5029" />
+      <Anchor Position="0.99" Shape="None" GraphId="f74f6" />
+      <Anchor Position="0.5" Shape="None" GraphId="f1a95" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="b6b04">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="519.0" Y="501.0" GraphRef="bb73b" RelX="0.9805825242718447" RelY="0.0" />
+      <Point X="558.0" Y="493.0" GraphRef="a5029" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="a91e7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="564.0" Y="447.0" GraphRef="afe7b" RelX="0.0" RelY="1.0" />
+      <Point X="558.0" Y="493.0" GraphRef="a5029" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="d1f0c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="596.0" Y="443.0" GraphRef="eba30" RelX="-1.0" RelY="0.0" />
+      <Point X="558.0" Y="493.0" GraphRef="a5029" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="e177a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="681.0" Y="498.0" GraphRef="f74f6" RelX="1.2300000000000182" RelY="0.05000000000001137" />
+      <Point X="974.0" Y="537.0" GraphRef="bc644" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="df201">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="681.0" Y="498.0" GraphRef="f74f6" RelX="1.2300000000000182" RelY="0.05000000000001137" />
+      <Point X="758.0" Y="453.0" GraphRef="a964e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="e0426">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="681.0" Y="498.0" GraphRef="f74f6" RelX="1.2300000000000182" RelY="0.05000000000001137" />
+      <Point X="808.0" Y="457.0" GraphRef="b144e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="bddf7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="681.0" Y="498.0" GraphRef="f74f6" RelX="1.2300000000000182" RelY="0.05000000000001137" />
+      <Point X="716.0" Y="456.0" GraphRef="a67ee" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="aa7cf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="681.0" Y="498.0" GraphRef="f74f6" RelX="1.2300000000000182" RelY="0.05000000000001137" />
+      <Point X="390.0" Y="453.0" GraphRef="b18c1" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="c5771">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="519.0" Y="501.0" GraphRef="bb73b" RelX="0.9805825242718447" RelY="0.0" />
+      <Point X="627.0" Y="492.0" GraphRef="f1a95" RelX="7.5" RelY="-3.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112120" />
+  </Interaction>
+  <Interaction GraphId="f72ff">
+    <Comment Source="Reactome">ALKBH2 binds alkylated DNA containing 1-ethyladenine (1-etA). ALKBH2 preferentially binds double strand DNA (dsDNA) (Duncan et al. 2002, Aas et al. 2003, Chen et al. 2010). Iron (Fe2+) is needed for the catalytic activity of ALKBH2 (Duncan et al. 2002).</Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <BiopaxRef>c89</BiopaxRef>
+    <BiopaxRef>b3b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="297.0" Y="590.0" />
+      <Point X="444.0" Y="586.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a89e7" />
+      <Anchor Position="0.99" Shape="None" GraphId="b8298" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657649" />
+  </Interaction>
+  <Interaction GraphId="d5b6c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="341.0" Y="465.0" GraphRef="b18c1" RelX="0.0" RelY="1.0" />
+      <Point X="297.0" Y="590.0" GraphRef="a89e7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657649" />
+  </Interaction>
+  <Interaction GraphId="e6362">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="252.0" Y="601.0" GraphRef="ab95c" RelX="0.979381443298969" RelY="0.0" />
+      <Point X="297.0" Y="590.0" GraphRef="a89e7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657649" />
+  </Interaction>
+  <Interaction GraphId="d9099">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="444.0" Y="586.0" GraphRef="b8298" RelX="1.4700000000000273" RelY="-0.03999999999996362" />
+      <Point X="447.0" Y="587.0" GraphRef="ba5d5" RelX="-1.0" RelY="-0.024390243902439025" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5657649" />
+  </Interaction>
+  <Interaction GraphId="a99d3">
+    <Comment Source="Reactome">ALKBH2 catalyzes removal of the ethyl group from 1-ethyladenine (1-etA) in a reaction that depends on oxygen, alpha-ketoglutarate and Fe2+. ALKBH2 thus directly reverses alkylation damage of DNA in the form of 1-etA, releasing acetaldehyde (Duncan et al. 2002). </Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="596.0" Y="580.0" />
+      <Point X="785.0" Y="562.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bc7e3" />
+      <Anchor Position="0.99" Shape="None" GraphId="da8d6" />
+      <Anchor Position="0.5" Shape="None" GraphId="ba375" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="d4353">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="539.0" Y="587.0" GraphRef="ba5d5" RelX="0.978494623655914" RelY="-0.024390243902439025" />
+      <Point X="596.0" Y="580.0" GraphRef="bc7e3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="f3ee5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="598.0" Y="600.0" GraphRef="f453b" RelX="0.0" RelY="-1.0" />
+      <Point X="596.0" Y="580.0" GraphRef="bc7e3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="f5343">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="636.0" Y="615.0" GraphRef="f8281" RelX="-1.0" RelY="0.0" />
+      <Point X="596.0" Y="580.0" GraphRef="bc7e3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="a9f72">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="785.0" Y="562.0" GraphRef="da8d6" RelX="1.8899999999999864" RelY="-0.17999999999994998" />
+      <Point X="974.0" Y="537.0" GraphRef="bc644" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="cf26c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="785.0" Y="562.0" GraphRef="da8d6" RelX="1.8899999999999864" RelY="-0.17999999999994998" />
+      <Point X="821.0" Y="592.0" GraphRef="ef8aa" RelX="-1.0" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="b1fff">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="785.0" Y="562.0" GraphRef="da8d6" RelX="1.8899999999999864" RelY="-0.17999999999994998" />
+      <Point X="793.0" Y="598.0" GraphRef="f9c77" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="a38ea">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="785.0" Y="562.0" GraphRef="da8d6" RelX="1.8899999999999864" RelY="-0.17999999999994998" />
+      <Point X="757.0" Y="605.0" GraphRef="f9b8c" RelX="1.0" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="fa80e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="785.0" Y="562.0" GraphRef="da8d6" RelX="1.8899999999999864" RelY="-0.17999999999994998" />
+      <Point X="390.0" Y="453.0" GraphRef="b18c1" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="c6669">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="539.0" Y="587.0" GraphRef="ba5d5" RelX="0.978494623655914" RelY="-0.024390243902439025" />
+      <Point X="643.0" Y="581.0" GraphRef="ba375" RelX="-47.5" RelY="10.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112121" />
+  </Interaction>
+  <Interaction GraphId="b3dd9">
+    <Comment Source="Reactome">ALKBH2 catalyzes the removal of the methyl group from 1-methyladenine (1-meA) in a reaction that depends on oxygen, alpha-ketoglutarate and Fe2+. ALKBH2 thus directly reverses alkylation damage of DNA in the form of 1-meA, releasing formaldehyde. ALKBH2 is ~4-fold more active on dsDNA containing 1-methyladenine than 3-methylcytosine (Duncan et al. 2002). </Comment>
+    <BiopaxRef>f6f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="578.0" Y="376.0" />
+      <Point X="729.0" Y="381.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="eb438" />
+      <Anchor Position="0.99" Shape="None" GraphId="a4865" />
+      <Anchor Position="0.5" Shape="None" GraphId="f417e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="ee7fe">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="540.0" Y="378.0" GraphRef="ab026" RelX="1.0" RelY="0.0" />
+      <Point X="578.0" Y="376.0" GraphRef="eb438" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="aa81b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="614.0" Y="430.0" GraphRef="eba30" RelX="0.0" RelY="-1.0" />
+      <Point X="578.0" Y="376.0" GraphRef="eb438" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="d459b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="564.0" Y="425.0" GraphRef="afe7b" RelX="0.0" RelY="-1.0" />
+      <Point X="578.0" Y="376.0" GraphRef="eb438" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="b0283">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="729.0" Y="381.0" GraphRef="a4865" RelX="1.509999999999991" RelY="0.05000000000001137" />
+      <Point X="808.0" Y="457.0" GraphRef="b144e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="cc6d4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="729.0" Y="381.0" GraphRef="a4865" RelX="1.509999999999991" RelY="0.05000000000001137" />
+      <Point X="974.0" Y="537.0" GraphRef="bc644" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="f09f0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="729.0" Y="381.0" GraphRef="a4865" RelX="1.509999999999991" RelY="0.05000000000001137" />
+      <Point X="716.0" Y="432.0" GraphRef="a67ee" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="d83fa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="729.0" Y="381.0" GraphRef="a4865" RelX="1.509999999999991" RelY="0.05000000000001137" />
+      <Point X="777.0" Y="440.0" GraphRef="a964e" RelX="-0.02564102564102564" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="fcf7f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="729.0" Y="381.0" GraphRef="a4865" RelX="1.509999999999991" RelY="0.05000000000001137" />
+      <Point X="390.0" Y="453.0" GraphRef="b18c1" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="b1bf0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="540.0" Y="378.0" GraphRef="ab026" RelX="1.0" RelY="0.0" />
+      <Point X="635.0" Y="382.0" GraphRef="f417e" RelX="-18.5" RelY="3.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112118" />
+  </Interaction>
+  <Interaction GraphId="d0295">
+    <Comment Source="Reactome">Fe2+- and oxoglutarate-dependent ALKB oxygenase family members are able to oxidatively demethylate alkylated DNA and RNA, thereby repairing them. The family members alpha-ketoglutarate-dependent dioxygenase FTO (FTO) and RNA demethylase ALKBH5 (ALKBH5) localise to the nucleus and can both specifically demethylate N(6)-methyladenosine (m6A) RNA, the most abundant internal modification of messenger RNA (mRNA) in higher eukaryotes (Han et al. 2010, Jia et al. 2011, Xu et al. 2014). FTO contributes to the regulation of the global metabolic rate, energy expenditure and energy homeostasis and is associated with body mass index (BMI) (Dina et al. 2007, Frayling et al. 2007, Zhang et al. 2015; reviews - Zhao et al. 2014, Merkestein &amp; Sellayah 2015). ALKBH5 could play a role in spermatogenesis. Alkbh5-deficient male mice have increased N6-methyladenosine in mRNA and are characterised by impaired fertility (Zheng et al. 2013).</Comment>
+    <BiopaxRef>a1e</BiopaxRef>
+    <BiopaxRef>c59</BiopaxRef>
+    <BiopaxRef>b0a</BiopaxRef>
+    <BiopaxRef>bf5</BiopaxRef>
+    <BiopaxRef>b1f</BiopaxRef>
+    <BiopaxRef>a65</BiopaxRef>
+    <BiopaxRef>c5d</BiopaxRef>
+    <BiopaxRef>b7a</BiopaxRef>
+    <BiopaxRef>a87</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="756.0" Y="278.0" />
+      <Point X="848.0" Y="278.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a70a1" />
+      <Anchor Position="0.99" Shape="None" GraphId="b95e8" />
+      <Anchor Position="0.5" Shape="None" GraphId="d75a1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8857692" />
+  </Interaction>
+  <Interaction GraphId="d7368">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="682.0" Y="278.0" GraphRef="e0fb9" RelX="1.0" RelY="0.0" />
+      <Point X="756.0" Y="278.0" GraphRef="a70a1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8857692" />
+  </Interaction>
+  <Interaction GraphId="a4e38">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="703.0" Y="206.0" GraphRef="ab023" RelX="1.0" RelY="0.0" />
+      <Point X="756.0" Y="278.0" GraphRef="a70a1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8857692" />
+  </Interaction>
+  <Interaction GraphId="adb4a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="632.0" Y="443.0" GraphRef="eba30" RelX="1.0" RelY="0.0" />
+      <Point X="756.0" Y="278.0" GraphRef="a70a1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8857692" />
+  </Interaction>
+  <Interaction GraphId="b982b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="848.0" Y="278.0" GraphRef="b95e8" RelX="0.9199999999999591" RelY="0.0" />
+      <Point X="908.0" Y="279.0" GraphRef="ec663" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8857692" />
+  </Interaction>
+  <Interaction GraphId="ce07a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="848.0" Y="278.0" GraphRef="b95e8" RelX="0.9199999999999591" RelY="0.0" />
+      <Point X="836.0" Y="444.0" GraphRef="b144e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8857692" />
+  </Interaction>
+  <Interaction GraphId="f13bf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="848.0" Y="278.0" GraphRef="b95e8" RelX="0.9199999999999591" RelY="0.0" />
+      <Point X="739.0" Y="444.0" GraphRef="a67ee" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8857692" />
+  </Interaction>
+  <Interaction GraphId="bb9e1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="848.0" Y="278.0" GraphRef="b95e8" RelX="0.9199999999999591" RelY="0.0" />
+      <Point X="777.0" Y="440.0" GraphRef="a964e" RelX="-0.02564102564102564" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8857692" />
+  </Interaction>
+  <Interaction GraphId="c41d4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="739.0" Y="235.0" GraphRef="e028b" RelX="-1.0" RelY="0.0" />
+      <Point X="798.0" Y="278.0" GraphRef="d75a1" RelX="-4.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8857692" />
+  </Interaction>
+  <Interaction GraphId="c5794">
+    <Comment Source="Reactome">Monofunctional alkylating chemotherapeutic agents from the triazene family, dacarbazine (Souliotis et al. 1991), procarbazine (Souliotis et al. 1990), temozolomide (Taverna et al. 1992 - study done in mice) and streptozotocin (Bennett and Pegg 1981 - study done in rats), produce DNA damage in the form of O6-methylguanine (O6meG), which can be reversed by MGMT (6-O-methylguanine-DNA methyltransferase).</Comment>
+    <BiopaxRef>af3</BiopaxRef>
+    <BiopaxRef>bfe</BiopaxRef>
+    <BiopaxRef>cd1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="174.0" Y="148.0" />
+      <Point X="272.0" Y="123.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d50e9" />
+      <Anchor Position="0.99" Shape="None" GraphId="e6742" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9732692" />
+  </Interaction>
+  <Interaction GraphId="c22a3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="357.0" Y="217.0" GraphRef="a8ff6" RelX="-1.0" RelY="0.0" />
+      <Point X="174.0" Y="148.0" GraphRef="d50e9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9732692" />
+  </Interaction>
+  <Interaction GraphId="cdd63">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="128.0" Y="151.0" GraphRef="e57f0" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="174.0" Y="148.0" GraphRef="d50e9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9732692" />
+  </Interaction>
+  <Interaction GraphId="a2f34">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="272.0" Y="123.0" GraphRef="e6742" RelX="0.9800000000000182" RelY="-0.25" />
+      <Point X="290.0" Y="126.0" GraphRef="ba53c" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9732692" />
+  </Interaction>
+  <Label TextLabel="nucleoplasm" GraphId="ca69a" GroupRef="d4638">
+    <Graphics CenterX="607.5" CenterY="976.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="b9c5d" GroupRef="d4638">
+    <Graphics CenterX="607.0" CenterY="530.0" Width="1128.0" Height="1012.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="bf063" GraphId="bd5bc" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5656464" />
+  </Group>
+  <Group GroupId="f2014" GraphId="a0a40" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5656407" />
+  </Group>
+  <Group GroupId="ec126" GraphId="fd891" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5657662" />
+  </Group>
+  <Group GroupId="bce38" GraphId="d1675" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5657639" />
+  </Group>
+  <Group GroupId="d683b" GraphId="a453e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5657631" />
+  </Group>
+  <Group GroupId="d6d95" GraphId="e7273" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5657653" />
+  </Group>
+  <Group GroupId="c8aeb" GraphId="e07a1" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5657618" />
+  </Group>
+  <Group GroupId="e0b3d" GraphId="b08df" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5657647" />
+  </Group>
+  <Group GroupId="db1d5" GraphId="f19c4" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5657616" />
+  </Group>
+  <Group GroupId="d9e39" GraphId="fef9b" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5657613" />
+  </Group>
+  <Group GroupId="d9020" GraphId="de87f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5657636" />
+  </Group>
+  <Group GroupId="cb34a" GraphId="ad6d7">
+    <Attribute Key="complex_id" Value="R-HSA-8857697" />
+  </Group>
+  <Group GroupId="e18bb" GraphId="dc661">
+    <Attribute Key="complex_id" Value="R-ALL-9729903" />
+  </Group>
+  <Group GroupId="d4638" GraphId="ae67f" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d4b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8434121</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulation of repair of alkylation damage in mammalian genomes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitra S, Kaina B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c8a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10747039</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Active and alkylated human AGT structures: a novel zinc site, inhibitor and extrahelical base binding.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniels DS, Mol CD, Arvai AS, Kanugula S, Pegg AE, Tainer JA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="acd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15964013</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The structure of the human AGT protein bound to DNA and its implications for damage detection.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duguid EM, Rice PA, He C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14691244</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Active-site alkylation destabilizes human O6-alkylguanine DNA alkyltransferase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rasimas JJ, Dalessio PA, Ropson IJ, Pegg AE, Fried MG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f90">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17485252</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA binding, nucleotide flipping, and the helix-turn-helix motif in base repair by O6-alkylguanine-DNA alkyltransferase and its implications for cancer chemotherapy.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tubbs JL, Pegg AE, Tainer JA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f6f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12486230</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reversal of DNA alkylation damage by two human dioxygenases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duncan T, Trewick SC, Koivisto P, Bates PA, Lindahl T, Sedgwick B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e97">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22055184</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA unwinding by ASCC3 helicase is coupled to ALKBH3-dependent DNA alkylation repair and cancer cell proliferation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dango S, Mosammaparast N, Sowa ME, Xiong LJ, Wu F, Park K, Rubin M, Gygi S, Harper JW, Shi Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9672037</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A new model for how O6-methylguanine-DNA methyltransferase binds DNA.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vora RA, Pegg AE, Ealick SE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ecb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6765195</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suicide inactivation of the E. coli O6-methylguanine-DNA methyltransferase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lindahl T, Demple B, Robins P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d76">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8156986</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structure of a suicidal DNA repair protein: the Ada O6-methylguanine-DNA methyltransferase from E. coli.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moore MH, Gulbis JM, Dodson EJ, Demple B, Moody PC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20714506</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanistic insight into the recognition of single-stranded and double-stranded DNA substrates by ABH2 and ABH3.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen B, Liu H, Sun X, Yang CG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16858410</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human ABH3 structure and key residues for oxidative demethylation to reverse DNA/RNA damage.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sundheim O, Vågbø CB, Bjørås M, Sousa MM, Talstad V, Aas PA, Drabløs F, Krokan HE, Tainer JA, Slupphaug G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c89">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12594517</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human and bacterial oxidative demethylases repair alkylation damage in both RNA and DNA.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aas PA, Otterlei M, Falnes PO, Vågbø CB, Skorpen F, Akbari M, Sundheim O, Bjørås M, Slupphaug G, Seeberg E, Krokan HE.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f57">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12226667</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxidative demethylation by Escherichia coli AlkB directly reverts DNA base damage.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trewick SC, Henshaw TF, Hausinger RP, Lindahl T, Sedgwick B.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20376003</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structure of the FTO protein reveals basis for its substrate specificity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han Z, Niu T, Chang J, Lei X, Zhao M, Wang Q, Cheng W, Wang J, Feng Y, Chai J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c59">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22002720</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N6-methyladenosine in nuclear RNA is a major substrate of the obesity-associated FTO.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jia G, Fu Y, Zhao X, Dai Q, Zheng G, Yang Y, Yi C, Lindahl T, Pan T, Yang YG, He C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24616105</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structures of the human RNA demethylase Alkbh5 reveal basis for substrate recognition.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feng C, Liu Y, Wang G, Deng Z, Zhang Q, Wu W, Tong Y, Cheng C, Chen Z.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24778178</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structures of human ALKBH5 demethylase reveal a unique binding mode for specific single-stranded N6-methyladenosine RNA demethylation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xu C, Liu K, Tempel W, Demetriades M, Aik W, Schofield CJ, Min J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17434869</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A common variant in the FTO gene is associated with body mass index and predisposes to childhood and adult obesity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frayling TM, Timpson NJ, Weedon MN, Zeggini E, Freathy RM, Lindgren CM, Perry JR, Elliott KS, Lango H, Rayner NW, Shields B, Harries LW, Barrett JC, Ellard S, Groves CJ, Knight B, Patch AM, Ness AR, Ebrahim S, Lawlor DA, Ring SM, Ben-Shlomo Y, Jarvelin MR, Sovio U, Bennett AJ, Melzer D, Ferrucci L, Loos RJ, Barroso I, Wareham NJ, Karpe F, Owen KR, Cardon LR, Walker M, Hitman GA, Palmer CN, Doney AS, Morris AD, Smith GD, Hattersley AT, McCarthy MI.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a65">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17496892</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Variation in FTO contributes to childhood obesity and severe adult obesity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dina C, Meyre D, Gallina S, Durand E, Körner A, Jacobson P, Carlsson LM, Kiess W, Vatin V, Lecoeur C, Delplanque J, Vaillant E, Pattou F, Ruiz J, Weill J, Levy-Marchal C, Horber F, Potoczna N, Hercberg S, Le Stunff C, Bougnères P, Kovacs P, Marre M, Balkau B, Cauchi S, Chèvre JC, Froguel P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24627050</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FTO and obesity: mechanisms of association.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhao X, Yang Y, Sun BF, Zhao YL, Yang YG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b7a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26788058</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role of FTO in Adipocyte Development and Function: Recent Insights.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merkestein M, Sellayah D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a87">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23177736</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALKBH5 is a mammalian RNA demethylase that impacts RNA metabolism and mouse fertility.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zheng G, Dahl JA, Niu Y, Fedorcsak P, Huang CM, Li CJ, Vågbø CB, Shi Y, Wang WL, Song SH, Lu Z, Bosmans RP, Dai Q, Hao YJ, Yang X, Zhao WM, Tong WM, Wang XJ, Bogdan F, Furu K, Fu Y, Jia G, Zhao X, Liu J, Krokan HE, Klungland A, Yang YG, He C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1704822</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In vivo formation and repair of O6-methylguanine in human leukocyte DNA after intravenous exposure to dacarbazine.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Souliotis VL, Boussiotis VA, Pangalis GA, Kyrtopoulos SA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2328502</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accumulation of O6-methylguanine in human blood leukocyte DNA during exposure to procarbazine and its relationships with dose and repair.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Souliotis VL, Kaila S, Boussiotis VA, Pangalis GA, Kyrtopoulos SA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1421437</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Influence of O6-methylguanine on DNA damage and cytotoxicity of temozolomide in L1210 mouse leukemia sensitive and resistant to chloroethylnitrosoureas.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taverna P, Catapano CV, Citti L, Bonfanti M, D'Incalci M.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

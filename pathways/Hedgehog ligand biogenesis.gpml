@@ -1,0 +1,2736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Hedgehog ligand biogenesis" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Mammalian genomes encode three Hedgehog ligands, Sonic Hedgehog (SHH), Indian Hedgehog (IHH) and Desert Hedgehog (DHH).  These secreted morphogens can remain associated with lipid rafts on the surface of the secreting cell and affect developmental processes in adjacent cells. Alternatively, they can be released by proteolysis or packaging into vesicles or lipoprotein particles and dispersed to act on distant cells. SHH activity is required for organization of the limb bud, notochord and neural plate, IHH regulates bone and cartilage development and is partially redundant with SHH, and DHH contributes to germ cell development in the testis and formation of the peripheral nerve sheath (reviewed in Pan et al, 2013).  &lt;br&gt;&lt;br&gt;Despite divergent biological roles, all Hh ligands are subject to proteolytic processing and lipid modification during transit to the surface of the secreting cell (reviewed in Gallet, 2011).  Precursor Hh undergoes autoproteolytic cleavage mediated by the C-terminal region to yield an amino-terminal peptide Hh-Np (also referred to as Hh-N) (Chen et al, 2011).  No other well defined role for the C-terminal region of Hh has been identified, and the secreted Hh-Np is responsible for all Hh signaling activity.  Hh-Np is modified with cholesterol and palmitic acid during transit through the secretory system, and both modifications contribute to the activity of the ligand (Porter et al, 1996; Pepinsky et al, 1998; Chamoun et al, 2001).  &lt;br&gt;&lt;br&gt;At the cell surface, Hh-Np remains associated with the secreting cell membrane by virtue of its lipid modifications, which promote clustering of Hh-Np into lipid rafts (Callejo et al, 2006; Peters et al, 2004).  Long range dispersal of Hh-Np depends on the untethering of the ligand from the membrane through a variety of mechanisms.  These include release of monomers through the combined activity of the transmembrane protein Dispatched (DISP2) and the secreted protein SCUBE2, assembly into soluble multimers or apolipoprotein particles or release on the surface of exovesicles (Vyas et al, 2008; Tukachinsky et al, 2012; Chen 2004; Zeng et al, 2001; reviewed in Briscoe and Therond, 2013).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5358346 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 5358346</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Rothfels, Karen</Comment>
+  <BiopaxRef>c41</BiopaxRef>
+  <BiopaxRef>d08</BiopaxRef>
+  <BiopaxRef>a33</BiopaxRef>
+  <BiopaxRef>fe0</BiopaxRef>
+  <BiopaxRef>de1</BiopaxRef>
+  <BiopaxRef>c52</BiopaxRef>
+  <BiopaxRef>b41</BiopaxRef>
+  <BiopaxRef>b3b</BiopaxRef>
+  <BiopaxRef>df3</BiopaxRef>
+  <BiopaxRef>ac7</BiopaxRef>
+  <BiopaxRef>f51</BiopaxRef>
+  <BiopaxRef>d19</BiopaxRef>
+  <BiopaxRef>ffd</BiopaxRef>
+  <Attribute Key="reactome_id" Value="5358346" />
+  <Graphics BoardWidth="2389.0" BoardHeight="2714.0" />
+  <DataNode TextLabel="Hh precursors" GraphId="ec67e" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="240.0" CenterY="948.0" Width="112.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5358318" />
+  </DataNode>
+  <DataNode TextLabel="2xHC-SHH(24-462) " GraphId="c2f02" Type="Protein" GroupRef="d6691">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358318" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1302.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="2xHC-DHH(23-396) " GraphId="ee8ae" Type="Protein" GroupRef="d6691">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358318" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1322.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="2xHC-IHH(28-411) " GraphId="f0b48" Type="Protein" GroupRef="d6691">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358318" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1342.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="P4HB" GraphId="e04a1" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="400.0" CenterY="859.0" Width="126.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P07237" />
+  </DataNode>
+  <DataNode TextLabel="CHOL" GraphId="e6819" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="661.0" CenterY="832.0" Width="84.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16113" />
+  </DataNode>
+  <DataNode TextLabel="N-terminal CHOL-Hh&#xA;fragments" GraphId="c51ab" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="855.5" CenterY="745.0" Width="121.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5358332" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-SHH(24-197) " GraphId="fcb1b" Type="Protein" GroupRef="d95cd">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358332" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1402.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-DHH(23-198) " GraphId="cfe60" Type="Protein" GroupRef="d95cd">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358332" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1422.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-IHH(28-202) " GraphId="ba1fd" Type="Protein" GroupRef="d95cd">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358332" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1442.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="C-terminal Hh&#xA;fragments" GraphId="d425e" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="852.0" CenterY="935.0" Width="100.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5358286" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-SHH(198-462) " GraphId="e77f3" Type="Protein" GroupRef="a88cf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358286" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1522.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-DHH(199-396) " GraphId="c737e" Type="Protein" GroupRef="a88cf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358286" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1562.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-IHH(203-411) " GraphId="b41dd" Type="Protein" GroupRef="a88cf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358286" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1602.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="Palmitoyl-CoA" GraphId="ad2a7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="914.0" CenterY="681.0" Width="108.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57379" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="fb49e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="1061.0" CenterY="682.0" Width="64.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57287" />
+  </DataNode>
+  <DataNode TextLabel="Hh-Np" GraphId="a9134" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="1167.0" CenterY="742.5" Width="60.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5358329" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-SHH(24-197) " GraphId="e0687" Type="Protein" GroupRef="fe242">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358329" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1682.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-DHH(23-198) " GraphId="bacfa" Type="Protein" GroupRef="fe242">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358329" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1722.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-IHH(28-202) " GraphId="a3265" Type="Protein" GroupRef="fe242">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358329" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1762.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="HHAT" GraphId="ee3e7" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1004.0" CenterY="595.0" Width="66.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q5VTY9" />
+  </DataNode>
+  <DataNode TextLabel="NglycoAsn-Hh&#xA;precursors" GraphId="fc06c" Type="Complex">
+    <BiopaxRef>d74</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="395.5" CenterY="946.0" Width="95.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362382" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-2xHC-SHH(24-462) " GraphId="ad4b6" Type="Protein" GroupRef="e199e">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362382" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1842.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-2xHC-DHH(23-396) " GraphId="c5de2" Type="Protein" GroupRef="e199e">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362382" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1882.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-2xHC-IHH(28-411) " GraphId="a8871" Type="Protein" GroupRef="e199e">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362382" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1922.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="OS9/ERLEC1" GraphId="e93e2" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum quality control compartment" />
+    <Graphics CenterX="904.5" CenterY="862.5" Width="105.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362377" />
+  </DataNode>
+  <DataNode TextLabel="ERLEC1 " GraphId="d9989" Type="Protein" GroupRef="a942b">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum quality control compartment" />
+    <Attribute Key="complex_id" Value="R-HSA-5362377" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1982.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96DZ1" />
+  </DataNode>
+  <DataNode TextLabel="OS9 " GraphId="d4cf3" Type="Protein" GroupRef="a942b">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362377" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2002.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13438" />
+  </DataNode>
+  <DataNode TextLabel="C-terminal&#xA;Hh&#xA;fragments:OS9/ERLEC1" GraphId="a99b7" Type="Complex">
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="1069.5" CenterY="913.0" Width="139.0" Height="48.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362409" />
+  </DataNode>
+  <DataNode TextLabel="ERLEC1 " GraphId="a0050" Type="Protein" GroupRef="c3ee8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum quality control compartment" />
+    <Attribute Key="complex_id" Value="R-HSA-5362409" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2062.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96DZ1" />
+  </DataNode>
+  <DataNode TextLabel="OS9 " GraphId="c0f1f" Type="Protein" GroupRef="c3ee8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362409" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2082.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13438" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-SHH(198-462) " GraphId="b0c49" Type="Protein" GroupRef="c3ee8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362409" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="2122.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-DHH(199-396) " GraphId="b7b17" Type="Protein" GroupRef="c3ee8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362409" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="2162.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-IHH(203-411) " GraphId="ee3db" Type="Protein" GroupRef="c3ee8">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362409" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="2202.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="C-terminal&#xA;Hh&#xA;fragments:ERLEC/OS9:SEL1:SYVN1dimer:DERL2:VCP hexamer" GraphId="f3117" Type="Complex">
+    <BiopaxRef>e21</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1401.0" CenterY="1023.0" Width="146.0" Height="78.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362413" />
+  </DataNode>
+  <DataNode TextLabel="ERLEC1 " GraphId="a42a0" Type="Protein" GroupRef="d5bc5">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum quality control compartment" />
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1342.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96DZ1" />
+  </DataNode>
+  <DataNode TextLabel="OS9 " GraphId="ee885" Type="Protein" GroupRef="d5bc5">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1362.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13438" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-SHH(198-462) " GraphId="da006" Type="Protein" GroupRef="d5bc5">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1402.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-DHH(199-396) " GraphId="b6dba" Type="Protein" GroupRef="d5bc5">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1442.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-IHH(203-411) " GraphId="f533d" Type="Protein" GroupRef="d5bc5">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="240.0" CenterY="1482.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="SYVN1(1-617) " GraphId="a4e89" Type="Protein" GroupRef="d5bc5">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="240.0" CenterY="1502.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86TM6" />
+  </DataNode>
+  <DataNode TextLabel="SEL1L " GraphId="d06e9" Type="Protein" GroupRef="d5bc5">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="240.0" CenterY="1522.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UBV2" />
+  </DataNode>
+  <DataNode TextLabel="DERL2 " GraphId="ae502" Type="Protein" GroupRef="d5bc5">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="240.0" CenterY="1542.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9GZP9" />
+  </DataNode>
+  <DataNode TextLabel="VCP " GraphId="e6a3d" Type="Protein" GroupRef="d5bc5">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+    <Attribute Key="copies_num" Value="11" />
+    <Graphics CenterX="240.0" CenterY="1562.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55072" />
+  </DataNode>
+  <DataNode TextLabel="SEL1:SYVN1&#xA;dimer:DERL2:VCP&#xA;hexamer" GraphId="c3e8c" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1183.5" CenterY="1029.5" Width="123.0" Height="55.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362378" />
+  </DataNode>
+  <DataNode TextLabel="SYVN1(1-617) " GraphId="a7c1c" Type="Protein" GroupRef="e3be9">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362378" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1622.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86TM6" />
+  </DataNode>
+  <DataNode TextLabel="SEL1L " GraphId="f074c" Type="Protein" GroupRef="e3be9">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362378" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1642.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UBV2" />
+  </DataNode>
+  <DataNode TextLabel="DERL2 " GraphId="befae" Type="Protein" GroupRef="e3be9">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362378" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1662.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9GZP9" />
+  </DataNode>
+  <DataNode TextLabel="VCP " GraphId="c4809" Type="Protein" GroupRef="e3be9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5362378" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="240.0" CenterY="1682.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55072" />
+  </DataNode>
+  <DataNode TextLabel="Ub" GraphId="ef8a6" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1511.0" CenterY="1106.5" Width="66.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-113595" />
+  </DataNode>
+  <DataNode TextLabel="RPS27A(1-76) " GraphId="facb4" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1742.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62979" />
+  </DataNode>
+  <DataNode TextLabel="UBA52(1-76) " GraphId="d22c2" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1762.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62987" />
+  </DataNode>
+  <DataNode TextLabel="UBB(1-76) " GraphId="b4bd1" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1782.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG47" />
+  </DataNode>
+  <DataNode TextLabel="UBB(77-152) " GraphId="bda48" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1802.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG47" />
+  </DataNode>
+  <DataNode TextLabel="UBB(153-228) " GraphId="b4e1a" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1822.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG47" />
+  </DataNode>
+  <DataNode TextLabel="UBC(1-76) " GraphId="b2e8b" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1842.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="UBC(77-152) " GraphId="e8bf4" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1862.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="UBC(153-228) " GraphId="c4490" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1882.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="UBC(229-304) " GraphId="f70a4" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1902.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="UBC(305-380) " GraphId="e510e" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1922.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="UBC(381-456) " GraphId="d83e8" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1942.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="UBC(457-532) " GraphId="b45f1" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1962.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="UBC(533-608) " GraphId="c3565" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1982.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="UBC(609-684) " GraphId="f2120" Type="Protein" GroupRef="ad2e6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="2002.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="ub-C-terminal&#xA;Hh&#xA;fragments:ERLEC/OS9:SEL1:SYVN1dimer:DERL2:VCP hexamer" GraphId="a133a" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1624.0" CenterY="1020.5" Width="134.0" Height="81.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362408" />
+  </DataNode>
+  <DataNode TextLabel="SYVN1(1-617) " GraphId="f0b5b" Type="Protein" GroupRef="b6d47">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="1342.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86TM6" />
+  </DataNode>
+  <DataNode TextLabel="SEL1L " GraphId="ca6af" Type="Protein" GroupRef="b6d47">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="1362.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UBV2" />
+  </DataNode>
+  <DataNode TextLabel="DERL2 " GraphId="d691c" Type="Protein" GroupRef="b6d47">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="1382.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9GZP9" />
+  </DataNode>
+  <DataNode TextLabel="VCP " GraphId="d8f01" Type="Protein" GroupRef="b6d47">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1402.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55072" />
+  </DataNode>
+  <DataNode TextLabel="ERLEC1 " GraphId="b9873" Type="Protein" GroupRef="b6d47">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum quality control compartment" />
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1422.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96DZ1" />
+  </DataNode>
+  <DataNode TextLabel="OS9 " GraphId="a95f7" Type="Protein" GroupRef="b6d47">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1442.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13438" />
+  </DataNode>
+  <DataNode TextLabel="ub-N4glycoAsn-SHH(198-462) " GraphId="f2fd5" Type="Protein" GroupRef="b6d47">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1482.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="ub-N4glycoAsn-DHH(199-396) " GraphId="bb258" Type="Protein" GroupRef="b6d47">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1522.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="ub-N4glycoAsn-IHH(203-411) " GraphId="c5314" Type="Protein" GroupRef="b6d47">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1562.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="cdabe" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1773.0" CenterY="1094.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="f5b47" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1709.0" CenterY="1092.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="phosphate" GraphId="d6906" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytoplasm" />
+    <Graphics CenterX="1979.0" CenterY="1079.0" Width="84.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18367" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="f50d1" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1863.0" CenterY="1102.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="ub C-terminal Hh&#xA;fragments" GraphId="e3d4b" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="2115.5" CenterY="1034.0" Width="121.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362391" />
+  </DataNode>
+  <DataNode TextLabel="ub-N4glycoAsn-SHH(198-462) " GraphId="f7982" Type="Protein" GroupRef="e67d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5362391" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1642.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="ub-N4glycoAsn-DHH(199-396) " GraphId="c9f31" Type="Protein" GroupRef="e67d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5362391" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1682.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="ub-N4glycoAsn-IHH(203-411) " GraphId="f57e5" Type="Protein" GroupRef="e67d4">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5362391" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1722.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="26S proteasome" GraphId="f7519" Type="Complex">
+    <BiopaxRef>fee</BiopaxRef>
+    <BiopaxRef>d4f</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="2005.5" CenterY="1205.0" Width="97.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-68819" />
+  </DataNode>
+  <DataNode TextLabel="PSMD14 " GraphId="e34b9" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1782.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00487" />
+  </DataNode>
+  <DataNode TextLabel="PSMA1 " GraphId="dfe0e" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1802.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25786" />
+  </DataNode>
+  <DataNode TextLabel="PSMA2 " GraphId="c8f95" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1822.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25787" />
+  </DataNode>
+  <DataNode TextLabel="PSMA3 " GraphId="c3fdf" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1842.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25788" />
+  </DataNode>
+  <DataNode TextLabel="PSMA4 " GraphId="aa598" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1862.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25789" />
+  </DataNode>
+  <DataNode TextLabel="PSMA5 " GraphId="cf29b" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1882.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28066" />
+  </DataNode>
+  <DataNode TextLabel="PSMA6 " GraphId="cf0ce" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1902.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60900" />
+  </DataNode>
+  <DataNode TextLabel="PSMA7 " GraphId="bc6f1" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1922.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14818" />
+  </DataNode>
+  <DataNode TextLabel="PSMB1 " GraphId="ee315" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1942.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20618" />
+  </DataNode>
+  <DataNode TextLabel="PSMB10 " GraphId="ad985" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1962.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P40306" />
+  </DataNode>
+  <DataNode TextLabel="PSMB2 " GraphId="f2484" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1982.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49721" />
+  </DataNode>
+  <DataNode TextLabel="PSMB3 " GraphId="ebaf5" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2002.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49720" />
+  </DataNode>
+  <DataNode TextLabel="PSMB4 " GraphId="c1e9d" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2022.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28070" />
+  </DataNode>
+  <DataNode TextLabel="PSMB5 " GraphId="b687e" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2042.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28074" />
+  </DataNode>
+  <DataNode TextLabel="PSMB6 " GraphId="f25fb" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2062.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28072" />
+  </DataNode>
+  <DataNode TextLabel="PSMB7 " GraphId="ccc34" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2082.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99436" />
+  </DataNode>
+  <DataNode TextLabel="PSMB8 " GraphId="e043d" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2102.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28062" />
+  </DataNode>
+  <DataNode TextLabel="PSMB9 " GraphId="ca2da" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2122.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28065" />
+  </DataNode>
+  <DataNode TextLabel="PSMC1 " GraphId="be955" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2142.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62191" />
+  </DataNode>
+  <DataNode TextLabel="PSMC2 " GraphId="c5e61" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2162.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35998" />
+  </DataNode>
+  <DataNode TextLabel="PSMC3 " GraphId="e2474" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2182.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17980" />
+  </DataNode>
+  <DataNode TextLabel="PSMC4 " GraphId="eeae4" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2202.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P43686" />
+  </DataNode>
+  <DataNode TextLabel="PSMC5 " GraphId="c2cfd" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2222.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62195" />
+  </DataNode>
+  <DataNode TextLabel="PSMC6 " GraphId="dc048" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2242.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62333" />
+  </DataNode>
+  <DataNode TextLabel="PSMD1 " GraphId="b26ad" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2262.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99460" />
+  </DataNode>
+  <DataNode TextLabel="PSMD10 " GraphId="bc9be" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2282.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75832" />
+  </DataNode>
+  <DataNode TextLabel="PSMD11 " GraphId="e09e1" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2302.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00231" />
+  </DataNode>
+  <DataNode TextLabel="PSMD12 " GraphId="f2ede" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2322.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00232" />
+  </DataNode>
+  <DataNode TextLabel="PSMD13 " GraphId="e9d4b" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2342.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UNM6" />
+  </DataNode>
+  <DataNode TextLabel="PSMD2 " GraphId="fe22e" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2362.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13200" />
+  </DataNode>
+  <DataNode TextLabel="PSMD3 " GraphId="fdad7" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2382.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43242" />
+  </DataNode>
+  <DataNode TextLabel="PSMD4 " GraphId="adb66" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2402.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55036" />
+  </DataNode>
+  <DataNode TextLabel="PSMD5 " GraphId="df64c" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2422.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16401" />
+  </DataNode>
+  <DataNode TextLabel="PSMD6 " GraphId="e6932" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2442.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15008" />
+  </DataNode>
+  <DataNode TextLabel="PSMD7 " GraphId="f166a" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2462.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P51665" />
+  </DataNode>
+  <DataNode TextLabel="PSMD8 " GraphId="e70bb" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2482.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P48556" />
+  </DataNode>
+  <DataNode TextLabel="PSMD9 " GraphId="cd292" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2502.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00233" />
+  </DataNode>
+  <DataNode TextLabel="PSME1 " GraphId="cb9e2" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2522.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q06323" />
+  </DataNode>
+  <DataNode TextLabel="PSME2 " GraphId="a59bb" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2542.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UL46" />
+  </DataNode>
+  <DataNode TextLabel="PSME3 " GraphId="a6349" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2562.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P61289" />
+  </DataNode>
+  <DataNode TextLabel="PSMF1 " GraphId="cd778" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2582.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q92530" />
+  </DataNode>
+  <DataNode TextLabel="PSME4 " GraphId="b6233" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2602.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14997" />
+  </DataNode>
+  <DataNode TextLabel="PSMA8 " GraphId="b3304" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2622.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TAA3" />
+  </DataNode>
+  <DataNode TextLabel="PSMB11 " GraphId="cae10" Type="Protein" GroupRef="e4228">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2642.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A5LHX3" />
+  </DataNode>
+  <DataNode TextLabel="SEM1 " GraphId="f2e54" Type="Protein" GroupRef="e4228">
+    <BiopaxRef>d4f</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="2662.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P60896" />
+  </DataNode>
+  <DataNode TextLabel="DISP2" GraphId="c13c0" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1060.0" CenterY="328.0" Width="80.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A7MBM2" />
+  </DataNode>
+  <DataNode TextLabel="Hh-Np:DISP2" GraphId="e6963" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="892.0" CenterY="356.0" Width="74.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362421" />
+  </DataNode>
+  <DataNode TextLabel="DISP2 " GraphId="c378e" Type="Protein" GroupRef="f7b1b">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362421" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1342.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="A7MBM2" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-SHH(24-197) " GraphId="bd958" Type="Protein" GroupRef="f7b1b">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362421" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1382.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-DHH(23-198) " GraphId="a5184" Type="Protein" GroupRef="f7b1b">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362421" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1422.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-IHH(28-202) " GraphId="e0a8f" Type="Protein" GroupRef="f7b1b">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362421" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1462.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="Hh-Np" GraphId="f8f7f" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1166.5" CenterY="357.0" Width="49.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362423" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-SHH(24-197) " GraphId="dd1a5" Type="Protein" GroupRef="b1f91">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362423" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1542.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-DHH(23-198) " GraphId="a9866" Type="Protein" GroupRef="b1f91">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362423" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="520.0" CenterY="1582.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-IHH(28-202) " GraphId="de41b" Type="Protein" GroupRef="b1f91">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362423" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="520.0" CenterY="1622.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="SCUBE2" GraphId="a312f" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="823.0" CenterY="301.0" Width="58.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NQ36" />
+  </DataNode>
+  <DataNode TextLabel="Hh-Np:SCUBE2" GraphId="c2d94" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="894.0" CenterY="198.0" Width="106.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362543" />
+  </DataNode>
+  <DataNode TextLabel="SCUBE2 " GraphId="d344f" Type="Protein" GroupRef="c8422">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362543" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1682.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NQ36" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-SHH(24-197) " GraphId="fbf42" Type="Protein" GroupRef="c8422">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362543" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1722.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-DHH(23-198) " GraphId="d0f23" Type="Protein" GroupRef="c8422">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362543" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1762.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-IHH(28-202) " GraphId="c1fd7" Type="Protein" GroupRef="c8422">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362543" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1802.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="GPI-GPC5" GraphId="d5180" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1428.5" CenterY="323.0" Width="151.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P78333" />
+  </DataNode>
+  <DataNode TextLabel="Hh-Np:GPI-GPC5" GraphId="ecf17" Type="Complex">
+    <BiopaxRef>fa6</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1585.5" CenterY="355.5" Width="75.0" Height="47.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362428" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-SHH(24-197) " GraphId="ad920" Type="Protein" GroupRef="b2b6a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362428" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1882.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-DHH(23-198) " GraphId="d75a8" Type="Protein" GroupRef="b2b6a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362428" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="520.0" CenterY="1922.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-IHH(28-202) " GraphId="fa773" Type="Protein" GroupRef="b2b6a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362428" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="520.0" CenterY="1962.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="GPI-GPC5 " GraphId="cb271" Type="Protein" GroupRef="b2b6a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362428" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="520.0" CenterY="1982.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P78333" />
+  </DataNode>
+  <DataNode TextLabel="Hh-Np:GPC5" GraphId="a34dd" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="1688.5" CenterY="231.5" Width="83.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362546" />
+  </DataNode>
+  <DataNode TextLabel="GPI-cleaved GPC5 " GraphId="c0d11" Type="Protein" GroupRef="c3f6a">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362546" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="2042.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P78333" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-SHH(24-197) " GraphId="de9ac" Type="Protein" GroupRef="c3f6a">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362546" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="2082.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-DHH(23-198) " GraphId="e3839" Type="Protein" GroupRef="c3f6a">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362546" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="520.0" CenterY="2122.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="CHOL-N-palmitoyl-L-cysteine-IHH(28-202) " GraphId="ac33e" Type="Protein" GroupRef="c3f6a">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362546" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="520.0" CenterY="2162.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="NOTUM" GraphId="ac2b5" Type="Protein">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="1740.0" CenterY="293.0" Width="86.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6P988" />
+  </DataNode>
+  <DataNode TextLabel="Hh-Npp" GraphId="bd356" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="1165.0" CenterY="228.0" Width="76.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362783" />
+  </DataNode>
+  <DataNode TextLabel="SHH(34-?) " GraphId="b9b77" Type="Protein" GroupRef="c7717">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="2222.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="DHH(33-?) " GraphId="be54a" Type="Protein" GroupRef="c7717">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="2242.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="IHH " GraphId="ebad2" Type="Protein" GroupRef="c7717">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-HSA-5362783" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="2262.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="ADAM17" GraphId="e60df" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1241.0" CenterY="328.0" Width="82.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P78536" />
+  </DataNode>
+  <DataNode TextLabel="SHH variants" GraphId="c1e95" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="571.0" CenterY="971.5" Width="108.0" Height="49.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5358456" />
+  </DataNode>
+  <DataNode TextLabel="SHH(24-462) C198S " GraphId="e791f" Type="Protein" GroupRef="babff">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358456" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1342.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="SRR SHH variants " GraphId="c63d6" GroupRef="babff">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358456" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1362.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5358452" />
+  </DataNode>
+  <DataNode TextLabel="cholesterol site variants of SHH " GraphId="eef0a" GroupRef="babff">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358456" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1402.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5358450" />
+  </DataNode>
+  <DataNode TextLabel="SHH(24-462) W117G " GraphId="d6e5e" Type="Protein" GroupRef="babff">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358456" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1422.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="SHH(24-462) W117R " GraphId="fe49a" Type="Protein" GroupRef="babff">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5358456" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1442.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="SHH processing&#xA;variants:OS9/ERLEC1" GraphId="a685a" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="1045.0" CenterY="976.5" Width="140.0" Height="49.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5362380" />
+  </DataNode>
+  <DataNode TextLabel="ERLEC1 " GraphId="e878f" Type="Protein" GroupRef="aa18d">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum quality control compartment" />
+    <Attribute Key="complex_id" Value="R-HSA-5362380" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1502.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96DZ1" />
+  </DataNode>
+  <DataNode TextLabel="OS9 " GraphId="c447c" Type="Protein" GroupRef="aa18d">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5362380" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1522.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13438" />
+  </DataNode>
+  <DataNode TextLabel="SHH(24-462) C198S " GraphId="a66df" Type="Protein" GroupRef="aa18d">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362380" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1542.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="SRR SHH variants " GraphId="fc5a3" GroupRef="aa18d">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362380" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="660.0" CenterY="1562.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5358452" />
+  </DataNode>
+  <DataNode TextLabel="cholesterol site variants of SHH " GraphId="afecc" GroupRef="aa18d">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362380" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="660.0" CenterY="1602.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5358450" />
+  </DataNode>
+  <DataNode TextLabel="SHH(24-462) W117G " GraphId="a3d0d" Type="Protein" GroupRef="aa18d">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362380" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="660.0" CenterY="1622.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="SHH(24-462) W117R " GraphId="a6a33" Type="Protein" GroupRef="aa18d">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5362380" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="660.0" CenterY="1642.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="SHH&#xA;processing&#xA;variants:ERLEC:OS9:SEL1:SYVN1 dimer:DERL2:VCP hexamer" GraphId="bd9f5" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1424.0" CenterY="917.0" Width="144.0" Height="64.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5387378" />
+  </DataNode>
+  <DataNode TextLabel="SYVN1(1-617) " GraphId="cfc4a" Type="Protein" GroupRef="ba3c6">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="660.0" CenterY="1702.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86TM6" />
+  </DataNode>
+  <DataNode TextLabel="SEL1L " GraphId="db08d" Type="Protein" GroupRef="ba3c6">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="660.0" CenterY="1722.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UBV2" />
+  </DataNode>
+  <DataNode TextLabel="DERL2 " GraphId="a8a5c" Type="Protein" GroupRef="ba3c6">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="660.0" CenterY="1742.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9GZP9" />
+  </DataNode>
+  <DataNode TextLabel="VCP " GraphId="a6aa7" Type="Protein" GroupRef="ba3c6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="660.0" CenterY="1762.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55072" />
+  </DataNode>
+  <DataNode TextLabel="ERLEC1 " GraphId="e3cd7" Type="Protein" GroupRef="ba3c6">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum quality control compartment" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="660.0" CenterY="1782.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96DZ1" />
+  </DataNode>
+  <DataNode TextLabel="OS9 " GraphId="db3f9" Type="Protein" GroupRef="ba3c6">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="660.0" CenterY="1802.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13438" />
+  </DataNode>
+  <DataNode TextLabel="SHH(24-462) C198S " GraphId="ae59b" Type="Protein" GroupRef="ba3c6">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="660.0" CenterY="1822.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="SRR SHH variants " GraphId="d4475" GroupRef="ba3c6">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="9" />
+    <Graphics CenterX="660.0" CenterY="1842.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5358452" />
+  </DataNode>
+  <DataNode TextLabel="cholesterol site variants of SHH " GraphId="ccf0e" GroupRef="ba3c6">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="11" />
+    <Graphics CenterX="660.0" CenterY="1882.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5358450" />
+  </DataNode>
+  <DataNode TextLabel="SHH(24-462) W117G " GraphId="d4087" Type="Protein" GroupRef="ba3c6">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="13" />
+    <Graphics CenterX="660.0" CenterY="1902.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="SHH(24-462) W117R " GraphId="cfc74" Type="Protein" GroupRef="ba3c6">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+    <Attribute Key="copies_num" Value="15" />
+    <Graphics CenterX="660.0" CenterY="1922.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="ub-SHH variants" GraphId="e43cb" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="2204.0" CenterY="951.0" Width="126.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5387369" />
+  </DataNode>
+  <DataNode TextLabel="ub SHH(24-462) C198S " GraphId="ac896" Type="Protein" GroupRef="a64e4">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5387369" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1362.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="ub SRR SHH variants " GraphId="d658e" GroupRef="a64e4">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5387369" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1382.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5387370" />
+  </DataNode>
+  <DataNode TextLabel="ub cholesterol site variants of SHH " GraphId="c0c1f" GroupRef="a64e4">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5387369" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1422.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5387368" />
+  </DataNode>
+  <DataNode TextLabel="ub SHH(24-462) W117G " GraphId="f01c0" Type="Protein" GroupRef="a64e4">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5387369" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1462.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="ub SHH(24-462) W117R " GraphId="b9eb8" Type="Protein" GroupRef="a64e4">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5387369" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1502.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="ub-SHH&#xA;processing&#xA;variants:ERLEC:OS9:SEL1:SYVN1 dimer:DERL2:VCP hexamer" GraphId="c21e9" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1679.5" CenterY="910.0" Width="133.0" Height="84.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5483239" />
+  </DataNode>
+  <DataNode TextLabel="SYVN1(1-617) " GraphId="f9660" Type="Protein" GroupRef="e40e1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="800.0" CenterY="1562.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q86TM6" />
+  </DataNode>
+  <DataNode TextLabel="SEL1L " GraphId="adef2" Type="Protein" GroupRef="e40e1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="800.0" CenterY="1582.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UBV2" />
+  </DataNode>
+  <DataNode TextLabel="DERL2 " GraphId="f5649" Type="Protein" GroupRef="e40e1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="800.0" CenterY="1602.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9GZP9" />
+  </DataNode>
+  <DataNode TextLabel="VCP " GraphId="dcd11" Type="Protein" GroupRef="e40e1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="800.0" CenterY="1622.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55072" />
+  </DataNode>
+  <DataNode TextLabel="ERLEC1 " GraphId="ef691" Type="Protein" GroupRef="e40e1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum quality control compartment" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="800.0" CenterY="1642.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96DZ1" />
+  </DataNode>
+  <DataNode TextLabel="OS9 " GraphId="ae721" Type="Protein" GroupRef="e40e1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="800.0" CenterY="1662.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13438" />
+  </DataNode>
+  <DataNode TextLabel="ub-SHH(24-462) C198S " GraphId="ccfcd" Type="Protein" GroupRef="e40e1">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="800.0" CenterY="1702.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="ub SRR SHH mutants " GraphId="d9ebd" GroupRef="e40e1">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="800.0" CenterY="1722.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5387374" />
+  </DataNode>
+  <DataNode TextLabel="ub cholesterol site mutants of SHH " GraphId="d07f5" GroupRef="e40e1">
+    <BiopaxRef>aed</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="800.0" CenterY="1762.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-5387372" />
+  </DataNode>
+  <DataNode TextLabel="ub-SHH(24-462) W117G " GraphId="e3bbf" Type="Protein" GroupRef="e40e1">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="800.0" CenterY="1802.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="ub-SHH(24-462) W117R " GraphId="ab602" Type="Protein" GroupRef="e40e1">
+    <BiopaxRef>a7c</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="800.0" CenterY="1842.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="NglycoAsn-Hh&#xA;precursors:P4HB" GraphId="e7dcc" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="577.0" CenterY="868.0" Width="106.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5490380" />
+  </DataNode>
+  <DataNode TextLabel="P4HB " GraphId="fdd88" Type="Protein" GroupRef="c1e04">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5490380" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1902.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P07237" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-2xHC-SHH(24-462) " GraphId="d41a3" Type="Protein" GroupRef="c1e04">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5490380" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1942.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15465" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-2xHC-DHH(23-396) " GraphId="b7ff3" Type="Protein" GroupRef="c1e04">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5490380" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="800.0" CenterY="1982.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43323" />
+  </DataNode>
+  <DataNode TextLabel="N4glycoAsn-2xHC-IHH(28-411) " GraphId="be1e6" Type="Protein" GroupRef="c1e04">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5490380" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="800.0" CenterY="2022.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14623" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="e57d2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1926.5" CenterY="992.0" Width="39.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="f2c49" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1979.5" CenterY="984.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="c587d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="2146.5" CenterY="881.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <Interaction GraphId="ff963">
+    <Comment Source="Reactome">Hh ligands undergo a autoproteolytic cleavage mediated by a conserved residue in the C-terminal region to yield an N-terminal fragment destined for further modification and secretion, and a C-terminal fragment that is subsequently degraded by ERAD (reviewed in Gallet, 2011). Recent work has shown that autoproteolytic cleavage of Hh ligands depends on prior formation of an intramolecular disulphide bond between the catalytic cysteine residue and another conserved cysteine residue in the C-terminal region of the precursor (Chen et al, 2011).  Mutation of either of these cysteine residues abolishes cleavage, suggesting that the intramolecular disulphide bond is required to establish a catalytically active conformation of the precursor (Chen et al, 2011).   &lt;br&gt;&lt;br&gt;Prior to the autoproteolytic cleavage reaction, the protein disulphide isomerase P4HB is required to reduce the intramolecular disulphide, freeing the catalytic cysteine side chain for nucleophilic attack.  Mutational analysis and co-immunoprecipitation studies support a model where the N-terminal CXXC motif of P4HB forms a mixed disulphide with the non-catalytic cysteine residue of the Hh precursor (Chen et al, 2011.</Comment>
+    <BiopaxRef>d08</BiopaxRef>
+    <BiopaxRef>a33</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="467.0" Y="943.0" />
+      <Point X="550.0" Y="889.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="aa4b4" />
+      <Anchor Position="0.99" Shape="None" GraphId="d43da" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358336" />
+  </Interaction>
+  <Interaction GraphId="b6b2e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="463.0" Y="859.0" GraphRef="e04a1" RelX="1.0" RelY="0.0" />
+      <Point X="467.0" Y="943.0" GraphRef="aa4b4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358336" />
+  </Interaction>
+  <Interaction GraphId="f689f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="442.0" Y="946.0" GraphRef="fc06c" RelX="0.9789473684210527" RelY="0.0" />
+      <Point X="467.0" Y="943.0" GraphRef="aa4b4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358336" />
+  </Interaction>
+  <Interaction GraphId="d6714">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="550.0" Y="889.0" GraphRef="d43da" RelX="0.8300000000000409" RelY="-0.5399999999999636" />
+      <Point X="577.0" Y="886.0" GraphRef="e7dcc" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358336" />
+  </Interaction>
+  <Interaction GraphId="f93dd">
+    <Comment Source="Reactome">Autoproteolytic processing of the Hh precursor is essential for the production of active secreted Hh ligand and mutants that disrupt this processing have been identified in the congenital nervous system disorder holoprosencephaly (Traiffort et al, 2004; Maity et al, 2005; Roessler et al, 2009; reviewed in Jiang et al, 2008).  Cleavage of Hh occurs through two nucleophilic substitutions.  The first step is mediated by the catalytic cysteine residue, which is found in a conserved G-C-F motif.  The cysteine side chain attacks the carbonyl carbon of the main peptide chain between the glycine and cysteine residues, replacing the amino group in the peptide backbone with a thioester linkage (Lee et al, 1994; Porter et al, 1995; Porter et al, 1996a, b; Chen et al, 2011).  The second step involves nucleophilic attack of the same carbonyl group by cholesterol.  This step displaces the C-terminal fragment (Hh-C) of the Hh precursor and results in the formation of the N-terminal fragment (Hh-Np) modified at its C-terminus by an ester linkage with cholesterol (Porter et al, 1996a, b; Chen et al, 2011).  Cholesterol modification appears to contribute to further processing and trafficking of the Hh ligand, as engineered forms of vertebrate and fly Hh that lack cholesterol are not efficiently palmitoylated (Pepinsky et al, 1998). Cholesterol also restricts the diffusion of the secreted ligand by interacting with the lipid bilayer of the secreting cell.  Consistent with this, aberrant activation of Hh target genes is seen in the absence of cholesterol modification (Peters et al, 2004; Guerrero et al, 2007; Li et al, 2006; Huang et al, 2007).&lt;br&gt;</Comment>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>fe0</BiopaxRef>
+    <BiopaxRef>bb6</BiopaxRef>
+    <BiopaxRef>de1</BiopaxRef>
+    <BiopaxRef>df3</BiopaxRef>
+    <BiopaxRef>cba</BiopaxRef>
+    <BiopaxRef>aed</BiopaxRef>
+    <BiopaxRef>a7c</BiopaxRef>
+    <BiopaxRef>f16</BiopaxRef>
+    <BiopaxRef>eee</BiopaxRef>
+    <BiopaxRef>c6b</BiopaxRef>
+    <BiopaxRef>fe8</BiopaxRef>
+    <BiopaxRef>bf5</BiopaxRef>
+    <BiopaxRef>b57</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="695.0" Y="914.0" />
+      <Point X="748.0" Y="935.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ecf01" />
+      <Anchor Position="0.99" Shape="None" GraphId="bb6f5" />
+      <Anchor Position="0.5" Shape="None" GraphId="d4c53" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358340" />
+  </Interaction>
+  <Interaction GraphId="a4d85">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="630.0" Y="868.0" GraphRef="e7dcc" RelX="1.0" RelY="0.0" />
+      <Point X="695.0" Y="914.0" GraphRef="ecf01" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358340" />
+  </Interaction>
+  <Interaction GraphId="e8c9a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="661.0" Y="847.0" GraphRef="e6819" RelX="0.0" RelY="1.0" />
+      <Point X="695.0" Y="914.0" GraphRef="ecf01" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358340" />
+  </Interaction>
+  <Interaction GraphId="ea646">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="748.0" Y="935.0" GraphRef="bb6f5" RelX="0.5299999999999727" RelY="0.21000000000003638" />
+      <Point X="463.0" Y="859.0" GraphRef="e04a1" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358340" />
+  </Interaction>
+  <Interaction GraphId="b53ac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="748.0" Y="935.0" GraphRef="bb6f5" RelX="0.5299999999999727" RelY="0.21000000000003638" />
+      <Point X="795.0" Y="745.0" GraphRef="c51ab" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358340" />
+  </Interaction>
+  <Interaction GraphId="d427f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="748.0" Y="935.0" GraphRef="bb6f5" RelX="0.5299999999999727" RelY="0.21000000000003638" />
+      <Point X="802.0" Y="935.0" GraphRef="d425e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358340" />
+  </Interaction>
+  <Interaction GraphId="d0a52">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="630.0" Y="868.0" GraphRef="e7dcc" RelX="1.0" RelY="0.0" />
+      <Point X="727.0" Y="938.0" GraphRef="d4c53" RelX="5.5" RelY="13.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358340" />
+  </Interaction>
+  <Interaction GraphId="f0042">
+    <Comment Source="Reactome">In addition to being modified by cholesterol at its C-terminal end, the N-terminal fragment of Hh (Hh-Np) is also palmitoylated by the O-acyltransferase HHAT (Pepinsky et al, 1998; Charmoun et al 2001; Chen et al, 2004; Hardy and Resh, 2007).  HHAT-mediated palmitoylation of Hh can be recapitulated in vitro and in vivo, and the cholesterol- and palmitoyl-modified N-terminal fragment represents the predominant secreted form of Hh in vivo (Buglino and Resh, 2008; Buglino and Resh, 2010; Taipale et al, 2000).   Mutation or depletion of the HHAT enzyme and mutation of the palmitoyl acceptor cysteine in Hh itself abrogates palmitoylation of the ligand and reduces Hh signaling (Chen et al, 2004; Chamoun et al, 2001; Pepinsky et al, 1998; Callier et al, 2014).  </Comment>
+    <BiopaxRef>de1</BiopaxRef>
+    <BiopaxRef>c52</BiopaxRef>
+    <BiopaxRef>ac7</BiopaxRef>
+    <BiopaxRef>d7e</BiopaxRef>
+    <BiopaxRef>aea</BiopaxRef>
+    <BiopaxRef>ec2</BiopaxRef>
+    <BiopaxRef>ce2</BiopaxRef>
+    <BiopaxRef>c88</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="959.0" Y="743.0" />
+      <Point X="1030.0" Y="745.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="aaee2" />
+      <Anchor Position="0.99" Shape="None" GraphId="e53d3" />
+      <Anchor Position="0.5" Shape="None" GraphId="f1425" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358343" />
+  </Interaction>
+  <Interaction GraphId="e081b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="915.0" Y="745.0" GraphRef="c51ab" RelX="0.9834710743801653" RelY="0.0" />
+      <Point X="959.0" Y="743.0" GraphRef="aaee2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358343" />
+  </Interaction>
+  <Interaction GraphId="d8abc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="968.0" Y="681.0" GraphRef="ad2a7" RelX="1.0" RelY="0.0" />
+      <Point X="959.0" Y="743.0" GraphRef="aaee2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358343" />
+  </Interaction>
+  <Interaction GraphId="a6840">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1030.0" Y="745.0" GraphRef="e53d3" RelX="0.7100000000000364" RelY="0.01999999999998181" />
+      <Point X="1061.0" Y="697.0" GraphRef="fb49e" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358343" />
+  </Interaction>
+  <Interaction GraphId="a033e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1030.0" Y="745.0" GraphRef="e53d3" RelX="0.7100000000000364" RelY="0.01999999999998181" />
+      <Point X="1137.0" Y="742.0" GraphRef="a9134" RelX="-1.0" RelY="-0.034482758620689655" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358343" />
+  </Interaction>
+  <Interaction GraphId="ead42">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1004.0" Y="608.0" GraphRef="ee3e7" RelX="0.0" RelY="1.0" />
+      <Point X="999.0" Y="744.0" GraphRef="f1425" RelX="4.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5358343" />
+  </Interaction>
+  <Interaction GraphId="b8226">
+    <Comment Source="Reactome">Proteomic studies show that the C-termini of SHH and IHH are N-glycosylated (Liu et al, 2005).  A N278A mutant of SHH does not undergo cholesterol-mediated autoproteolysis suggesting that glycosylation is a prerequisite for this processing step (Huang et al, 2013).</Comment>
+    <BiopaxRef>d74</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="302.0" Y="948.0" />
+      <Point X="342.0" Y="947.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ea643" />
+      <Anchor Position="0.99" Shape="None" GraphId="ef74f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362386" />
+  </Interaction>
+  <Interaction GraphId="a4c03">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="296.0" Y="948.0" GraphRef="ec67e" RelX="1.0" RelY="0.0" />
+      <Point X="302.0" Y="948.0" GraphRef="ea643" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362386" />
+  </Interaction>
+  <Interaction GraphId="c41d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="342.0" Y="947.0" GraphRef="ef74f" RelX="0.39999999999997726" RelY="-0.009999999999990905" />
+      <Point X="348.0" Y="946.0" GraphRef="fc06c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362386" />
+  </Interaction>
+  <Interaction GraphId="fc790">
+    <Comment Source="Reactome">Promotion of the cholesterol-mediated autocleavage reaction is the only well documented role for the C-terminal region of intact Hh (reviewed in Briscoe and Therond, 2013), and recent in vitro studies suggest that the Hh-C fragment generated by autocleavage is subsequently targeted to the endoplasmic reticulum-associated degradation (ERAD) pathway (Chen et al, 2011; Huang et al, 2013).  This pathway delivers N-glycosylated ER-resident substrates to a retrotranslocation channel, where they are ubiquitinated and translocated to the cytosol for proteasome-mediated degradation in an ATP-ase dependent fashion (reviewed in Vembar and Brodsky, 2008).  Recognition and targettng of ER proteins for the ERAD pathway depends at least in part on modification and binding of the glycosyl groups.  Consistent with this, depletion of the lectins OS9 and ERLEC1 abrogates degradation of the Hh-C fragments (Chen et al, 2011).  OS9 and ERLEC1 may target Hh-C to the retrotranslocation channel by virtue of their interaction with SEL1, an ER membrane protein with established roles in the ERAD pathway (Christianson et al, 2008; Mueller et al, 2008; Hosokawa et al, 2008; Hosokawa et al, 2009).</Comment>
+    <BiopaxRef>d19</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>bb9</BiopaxRef>
+    <BiopaxRef>fa5</BiopaxRef>
+    <BiopaxRef>bed</BiopaxRef>
+    <BiopaxRef>b8f</BiopaxRef>
+    <BiopaxRef>b5f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="942.0" Y="913.0" />
+      <Point X="997.0" Y="913.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b5c48" />
+      <Anchor Position="0.99" Shape="None" GraphId="c4abd" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362437" />
+  </Interaction>
+  <Interaction GraphId="fe020">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="956.0" Y="862.0" GraphRef="e93e2" RelX="0.9809523809523809" RelY="-0.037037037037037035" />
+      <Point X="942.0" Y="913.0" GraphRef="b5c48" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362437" />
+  </Interaction>
+  <Interaction GraphId="fdfa8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="902.0" Y="935.0" GraphRef="d425e" RelX="1.0" RelY="0.0" />
+      <Point X="942.0" Y="913.0" GraphRef="b5c48" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362437" />
+  </Interaction>
+  <Interaction GraphId="d6bd9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="997.0" Y="913.0" GraphRef="c4abd" RelX="0.5499999999999545" RelY="0.0" />
+      <Point X="1000.0" Y="913.0" GraphRef="a99b7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362437" />
+  </Interaction>
+  <Interaction GraphId="ce649">
+    <Comment Source="Reactome">After binding to OS9/ERLEC1, the Hh C-terminal fragments are recruited to the ER membrane through a lectin-SEL1 interaction.  SEL1 is a component of a multiprotein retrotranslocation complex in the ER membrane that also includes the E3 ubiquitin ligase SYVN1 (also known as HRD1; present as a dimer), DERL2 and the hexameric ATPase VCP (Christianson et al, 2008; Hosokawa et al, 2008; Mueller et al, 2008; Chen et al, 2011; Huang et al, 2013; reviewed in Vembar and Brodsky, 2008). Depletion of SEL1, SYVN1, VCP or DERL2 results in the accumulation of the Hh-C in the ER lumen (Chen et al, 2011; Huang et al, 2013).</Comment>
+    <BiopaxRef>fa5</BiopaxRef>
+    <BiopaxRef>b8f</BiopaxRef>
+    <BiopaxRef>bed</BiopaxRef>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <BiopaxRef>bb9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1269.0" Y="981.0" />
+      <Point X="1325.0" Y="998.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bd096" />
+      <Anchor Position="0.99" Shape="None" GraphId="aebda" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362441" />
+  </Interaction>
+  <Interaction GraphId="f05c4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1244.0" Y="1029.0" GraphRef="c3e8c" RelX="0.983739837398374" RelY="-0.01818181818181818" />
+      <Point X="1269.0" Y="981.0" GraphRef="bd096" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362441" />
+  </Interaction>
+  <Interaction GraphId="a28fc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1138.0" Y="913.0" GraphRef="a99b7" RelX="0.9856115107913669" RelY="0.0" />
+      <Point X="1269.0" Y="981.0" GraphRef="bd096" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362441" />
+  </Interaction>
+  <Interaction GraphId="c93f3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1325.0" Y="998.0" GraphRef="aebda" RelX="0.5599999999999454" RelY="0.16999999999995907" />
+      <Point X="1328.0" Y="1023.0" GraphRef="f3117" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362441" />
+  </Interaction>
+  <Interaction GraphId="ab851">
+    <Comment Source="Reactome">SYVN1 ubiquitinates Hh-C as part of the retrotranslocon that targets these Hh fragments for degradation through the ERAD pathway.  Both depletion of SYVN1 by siRNA and expression of a catalytically inactive form of the enzyme strongly inhibits Hh-C degradation.  Consistent with this, a dominant negative version of SYVN1 abrogates the polyubiquitination of Hh-C as assessed by IP-Western from HEK293 cells (Chen et al, 2011).</Comment>
+    <BiopaxRef>a33</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1489.0" Y="1027.0" />
+      <Point X="1554.0" Y="1021.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a00c8" />
+      <Anchor Position="0.99" Shape="None" GraphId="bf622" />
+      <Anchor Position="0.5" Shape="None" GraphId="a1b9a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362412" />
+  </Interaction>
+  <Interaction GraphId="c0880">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1474.0" Y="1023.0" GraphRef="f3117" RelX="1.0" RelY="0.0" />
+      <Point X="1489.0" Y="1027.0" GraphRef="a00c8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362412" />
+  </Interaction>
+  <Interaction GraphId="e7a82">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1511.0" Y="1093.0" GraphRef="ef8a6" RelX="0.0" RelY="-1.0" />
+      <Point X="1489.0" Y="1027.0" GraphRef="a00c8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362412" />
+  </Interaction>
+  <Interaction GraphId="ca84c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1554.0" Y="1021.0" GraphRef="bf622" RelX="0.650000000000091" RelY="-0.05999999999994543" />
+      <Point X="1557.0" Y="1020.0" GraphRef="a133a" RelX="-1.0" RelY="-0.012345679012345678" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362412" />
+  </Interaction>
+  <Interaction GraphId="c9a69">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1474.0" Y="1023.0" GraphRef="f3117" RelX="1.0" RelY="0.0" />
+      <Point X="1506.0" Y="1023.0" GraphRef="a1b9a" RelX="-15.5" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362412" />
+  </Interaction>
+  <Interaction GraphId="d2e22">
+    <Comment Source="Reactome">The ATPase activity of VCP is required for the retrotranslocation of Hh-C across the ER membrane (Chen et al, 2011).  Although in this pathway, the VCP hexamer is shown as part of the SEL1:SYVN1:DERL2 retrotranslocon, the details, order of events and even the full complement of protein players in this process are not known.  In yeast, the VCP homologue Cdc48 is associated with two additional proteins Ufd1 and Npl4 -both of which are also conserved in mammals- and this complex interacts with several ER components including derlins and the yeast SYVN1 homologue, Hrd1 (reviewed in Vembar and Brodsky, 2009). Consistent with the yeast data, VCP interacts with DERL2 by co-immunoprecipitation in HEK293 cells (Huang et al, 2013).</Comment>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>bb9</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1701.0" Y="1029.0" />
+      <Point X="1839.0" Y="1039.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bd3c1" />
+      <Anchor Position="0.99" Shape="None" GraphId="fb1de" />
+      <Anchor Position="0.5" Shape="None" GraphId="bd51e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="de4d9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1753.0" Y="1094.0" GraphRef="cdabe" RelX="-1.0" RelY="0.0" />
+      <Point X="1701.0" Y="1029.0" GraphRef="bd3c1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="ce7b4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1709.0" Y="1077.0" GraphRef="f5b47" RelX="0.0" RelY="-1.0" />
+      <Point X="1701.0" Y="1029.0" GraphRef="bd3c1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="d1a69">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1691.0" Y="1020.0" GraphRef="a133a" RelX="1.0" RelY="-0.012345679012345678" />
+      <Point X="1701.0" Y="1029.0" GraphRef="bd3c1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="f558d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1839.0" Y="1039.0" GraphRef="fb1de" RelX="1.3800000000001091" RelY="0.09999999999990905" />
+      <Point X="1937.0" Y="1079.0" GraphRef="d6906" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="d30a1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1839.0" Y="1039.0" GraphRef="fb1de" RelX="1.3800000000001091" RelY="0.09999999999990905" />
+      <Point X="1244.0" Y="1029.0" GraphRef="c3e8c" RelX="0.983739837398374" RelY="-0.01818181818181818" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="e4a1b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1839.0" Y="1039.0" GraphRef="fb1de" RelX="1.3800000000001091" RelY="0.09999999999990905" />
+      <Point X="956.0" Y="862.0" GraphRef="e93e2" RelX="0.9809523809523809" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="bc1d9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1839.0" Y="1039.0" GraphRef="fb1de" RelX="1.3800000000001091" RelY="0.09999999999990905" />
+      <Point X="1863.0" Y="1087.0" GraphRef="f50d1" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="c1ecf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1839.0" Y="1039.0" GraphRef="fb1de" RelX="1.3800000000001091" RelY="0.09999999999990905" />
+      <Point X="2055.0" Y="1034.0" GraphRef="e3d4b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="c5348">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1691.0" Y="1020.0" GraphRef="a133a" RelX="1.0" RelY="-0.012345679012345678" />
+      <Point X="1763.0" Y="1040.0" GraphRef="bd51e" RelX="-7.0" RelY="6.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362459" />
+  </Interaction>
+  <Interaction GraphId="e831c">
+    <Comment Source="Reactome">After retrotranslocation to the cytosol, Hh-C is degraded by the proteasome (Chen et al, 2011; Huang et al, 2013).</Comment>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2102.0" Y="1058.0" />
+      <Point X="1550.0" Y="1107.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a9d59" />
+      <Anchor Position="0.99" Shape="None" GraphId="ce157" />
+      <Anchor Position="0.5" Shape="None" GraphId="bce1c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362448" />
+  </Interaction>
+  <Interaction GraphId="e808b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2115.0" Y="1052.0" GraphRef="e3d4b" RelX="-0.008264462809917356" RelY="1.0" />
+      <Point X="2102.0" Y="1058.0" GraphRef="a9d59" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362448" />
+  </Interaction>
+  <Interaction GraphId="d229f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1550.0" Y="1107.0" GraphRef="ce157" RelX="-5.519999999999982" RelY="0.4900000000000091" />
+      <Point X="1544.0" Y="1106.0" GraphRef="ef8a6" RelX="1.0" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362448" />
+  </Interaction>
+  <Interaction GraphId="e543e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2053.0" Y="1205.0" GraphRef="f7519" RelX="0.979381443298969" RelY="0.0" />
+      <Point X="1985.0" Y="1131.0" GraphRef="bce1c" RelX="159.0" RelY="48.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362448" />
+  </Interaction>
+  <Interaction GraphId="f2b6c">
+    <Comment Source="Reactome">Hh-Np traffics to the plasma membrane where it may cluster in lipid rafts. Cholesterol modification is thought to contribute to this transit and targeting, possibly by promoting interaction with the lipid raft components caveolin and flotillin2, although this has not been demonstrated in mammalian cells (reviewed in Gallet, 2011). Cholesterol and lipid modification also impact the effective signaling range of the secreted ligand: due to the hydrophobic nature of these modifications, Hh-Np remains closely associated with the plasma membrane of the secreting cell, where it is competent for short-range signaling to adjacent cells.  Long-range signaling depends on a number of possible mechanisms to extract the ligand from the secreting cell, including oligomerization of ligand into micelle-like structures, cleavage of the C-terminal cholesterol moiety by metalloproteases, or interaction with additional factors that help promote release from the plasma membrane (reviewed in Gallet, 2011; Briscoe and Therond, 2013).</Comment>
+    <BiopaxRef>d08</BiopaxRef>
+    <BiopaxRef>d19</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1167.0" Y="722.0" />
+      <Point X="1166.0" Y="374.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f502d" />
+      <Anchor Position="0.99" Shape="None" GraphId="e77c3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362549" />
+  </Interaction>
+  <Interaction GraphId="ac8f0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1167.0" Y="728.0" GraphRef="a9134" RelX="0.0" RelY="-1.0" />
+      <Point X="1167.0" Y="722.0" GraphRef="f502d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362549" />
+  </Interaction>
+  <Interaction GraphId="e5ba3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1166.0" Y="374.0" GraphRef="e77c3" RelX="-0.009999999999990905" RelY="-3.480000000000018" />
+      <Point X="1166.0" Y="368.0" GraphRef="f8f7f" RelX="-0.02040816326530612" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362549" />
+  </Interaction>
+  <Interaction GraphId="e3a0b">
+    <Comment Source="Reactome">Long range signaling of Hh depends on a number of additional factors that promote the release and spread of Hh-Np ligand.  Dispatched2 (DISP2) is a 12-pass transmembrane protein that was identified as being required for release and long-range signaling by Hh-Np (Burke et al, 1999; Ma et al, 2002; Nakano et al, 2004).  In mammals, DISP2 has been shown to bind directly to the cholesterol moiety of Hh-Np through its first extracellular region, and this interaction is required for secretion and long-range signaling.  Mutants of DISP2 that are inactive in promoting Hh long-range signaling show tighter binding to Hh-Np, suggesting that these mutants interfere with the release of Hh ligand from the plasma membrane  (Tukachinsky et al, 2012). Although this pathway shows DISP2 and Hh-Np interacting at the plasma membrane, it is possible that the interaction occurs earlier in the secretory pathway and that DISP2 escorts Hh-Np to the cell surface.&lt;br&gt;&lt;br&gt;In addition to binding to DISP2, the cholesterol moiety of Hh-Np is also bound by the secreted protein SCUBE2 (Tukachinsky et al, 2012; Creanga et al, 2012).  Like DISP2, SCUBE2 is required for long-range signaling by Hh-Np (Johnson et al, 2012; Tukachinsky et al, 2012; Creanga et al, 2012).  DISP2 and SCUBE2 recognize distinct portions of the cholesterol group on Hh-Np, suggesting a possible hand-off mechanism at the plasma membrane that allows the release of Hh from the secreting cell (Tukachinsky et al, 2012; Creanga et al, 2012).&lt;br&gt;</Comment>
+    <BiopaxRef>b3b</BiopaxRef>
+    <BiopaxRef>e5c</BiopaxRef>
+    <BiopaxRef>bb1</BiopaxRef>
+    <BiopaxRef>b5a</BiopaxRef>
+    <BiopaxRef>fc9</BiopaxRef>
+    <BiopaxRef>d31</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1041.0" Y="356.0" />
+      <Point X="932.0" Y="356.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d1eab" />
+      <Anchor Position="0.99" Shape="None" GraphId="a5914" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362422" />
+  </Interaction>
+  <Interaction GraphId="efd91">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1060.0" Y="341.0" GraphRef="c13c0" RelX="0.0" RelY="1.0" />
+      <Point X="1041.0" Y="356.0" GraphRef="d1eab" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362422" />
+  </Interaction>
+  <Interaction GraphId="f0108">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1142.0" Y="357.0" GraphRef="f8f7f" RelX="-1.0" RelY="0.0" />
+      <Point X="1041.0" Y="356.0" GraphRef="d1eab" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362422" />
+  </Interaction>
+  <Interaction GraphId="c02d3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="932.0" Y="356.0" GraphRef="a5914" RelX="-1.0900000000000318" RelY="0.0" />
+      <Point X="929.0" Y="356.0" GraphRef="e6963" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362422" />
+  </Interaction>
+  <Interaction GraphId="b29a1">
+    <Comment Source="Reactome">SCUBE2 is a member of a family of secreted proteins that is required for long-range signaling Hh signaling (Johnson et al, 2012; Tukachinsky et al, 2012; Creanga et al, 2013).  Like DISP2, SCUBE2 binds to the cholesterol moiety of the Hh ligand, although the structural elements recognized by the two proteins are distinct.  This suggests a model where Hh is released from the plasma membrane to the extracellular region via a DISP2 to SCUBE hand-off (Tukachinsky et al, 2012; Creanga et al, 2013).</Comment>
+    <BiopaxRef>d31</BiopaxRef>
+    <BiopaxRef>b3b</BiopaxRef>
+    <BiopaxRef>e5c</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="892.0" Y="277.0" />
+      <Point X="893.0" Y="240.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c12cb" />
+      <Anchor Position="0.99" Shape="None" GraphId="e6790" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362551" />
+  </Interaction>
+  <Interaction GraphId="eef13">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="852.0" Y="301.0" GraphRef="a312f" RelX="1.0" RelY="0.0" />
+      <Point X="892.0" Y="277.0" GraphRef="c12cb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362551" />
+  </Interaction>
+  <Interaction GraphId="bd660">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="892.0" Y="335.0" GraphRef="e6963" RelX="0.0" RelY="-1.0" />
+      <Point X="892.0" Y="277.0" GraphRef="c12cb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362551" />
+  </Interaction>
+  <Interaction GraphId="c7ed0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="893.0" Y="240.0" GraphRef="e6790" RelX="0.009999999999990905" RelY="-0.37000000000000455" />
+      <Point X="1020.0" Y="328.0" GraphRef="c13c0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362551" />
+  </Interaction>
+  <Interaction GraphId="e83e2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="893.0" Y="240.0" GraphRef="e6790" RelX="0.009999999999990905" RelY="-0.37000000000000455" />
+      <Point X="894.0" Y="214.0" GraphRef="c2d94" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362551" />
+  </Interaction>
+  <Interaction GraphId="b5e9b">
+    <Comment Source="Reactome">The establishment of a signaling gradient of Hh-Np is modulated in part by the interaction of the ligand with heparin sulphate proteoglycans (HSPGs) in the extracellular matrix (ECM) of the secreting cell.  Interactions with HSPGs can influence Hh oligomerization and also impact the lateral and long-range spread of Hh ligand (reviewed in Gallet, 2011; Briscoe and Therond, 2013).  Interactions with HSPGs can stimulate or restrict Hh signaling depending on the context and the particular proteoglycans involved (see for instance Witt et al, 2013; Li et al, 2011;  Capurro et al, 2005; Capurro et al, 2012; reviewed in Gallet, 2011).  &lt;br&gt;&lt;br&gt; In vertebrate cells, the GPI-anchored HSPG glypican 5 (GPC5) has been shown to stimulate Hh signaling by promoting the interaction between SHH ligand and the PTCH1 receptor (Li et al, 2011; Witt et al, 2013). SHH and PTCH1 binding depends on the GAG chains of GPC5, as versions lacking the GAG insertion sites are compromised for both ligand and receptor binding, and these proteins do not stimulate Hh signaling (Li et al, 2011).  Amplification of GPC5 has been observed in 20% of rhabdomyosarcomas (Williamson et al, 2007), and aberrant activation of Hh signaling in these cells promotes cellular proliferation (Li et al, 2011).</Comment>
+    <BiopaxRef>d08</BiopaxRef>
+    <BiopaxRef>d19</BiopaxRef>
+    <BiopaxRef>fdf</BiopaxRef>
+    <BiopaxRef>fa6</BiopaxRef>
+    <BiopaxRef>d20</BiopaxRef>
+    <BiopaxRef>eaf</BiopaxRef>
+    <BiopaxRef>e2c</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1453.0" Y="357.0" />
+      <Point X="1545.0" Y="355.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c14b2" />
+      <Anchor Position="0.99" Shape="None" GraphId="ee334" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362427" />
+  </Interaction>
+  <Interaction GraphId="fc037">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1190.0" Y="357.0" GraphRef="f8f7f" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="1453.0" Y="357.0" GraphRef="c14b2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362427" />
+  </Interaction>
+  <Interaction GraphId="b80b9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1428.0" Y="341.0" GraphRef="d5180" RelX="-0.006622516556291391" RelY="1.0" />
+      <Point X="1453.0" Y="357.0" GraphRef="c14b2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362427" />
+  </Interaction>
+  <Interaction GraphId="a51a7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1545.0" Y="355.0" GraphRef="ee334" RelX="0.9200000000000728" RelY="-0.01999999999998181" />
+      <Point X="1548.0" Y="355.0" GraphRef="ecf17" RelX="-1.0" RelY="-0.02127659574468085" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362427" />
+  </Interaction>
+  <Interaction GraphId="d71f3">
+    <Comment Source="Reactome">Notum is a secreted protein with phospholipase C activity that has been implicated in promoting long range Hh signaling in Drosophila (Ayers et al, 2010; Eugster et al, 2007; Takeo et al, 2005; Han et al, 2005; Giraldez et al, 2002).  Notum is thought to cleave the GPI-anchor from Dally, a Drosophila glypican, to release Hh-Dally complexes from the plasma membrane of the Hh-secreting cell (Ayers et al, 2010; Han et al, 2005), although this cleavage has not been directly demonstrated.  In cultured mammalian cells, NOTUM has been shown to cleave the GPI anchor of a number of glypicans to promote their release from the plasma membrane (Traister et al, 2008).</Comment>
+    <BiopaxRef>c70</BiopaxRef>
+    <BiopaxRef>ae1</BiopaxRef>
+    <BiopaxRef>c14</BiopaxRef>
+    <BiopaxRef>ae6</BiopaxRef>
+    <BiopaxRef>a0d</BiopaxRef>
+    <BiopaxRef>e5e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1607.0" Y="329.0" />
+      <Point X="1676.0" Y="251.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cb056" />
+      <Anchor Position="0.99" Shape="None" GraphId="e01a9" />
+      <Anchor Position="0.5" Shape="None" GraphId="cd404" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362553" />
+  </Interaction>
+  <Interaction GraphId="f9a5c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1585.0" Y="332.0" GraphRef="ecf17" RelX="-0.013333333333333334" RelY="-1.0" />
+      <Point X="1607.0" Y="329.0" GraphRef="cb056" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362553" />
+  </Interaction>
+  <Interaction GraphId="db4dc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1676.0" Y="251.0" GraphRef="e01a9" RelX="0.6900000000000546" RelY="-0.7800000000000011" />
+      <Point X="1688.0" Y="247.0" GraphRef="a34dd" RelX="-0.012048192771084338" RelY="0.9393939393939394" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362553" />
+  </Interaction>
+  <Interaction GraphId="aa4ba">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1697.0" Y="293.0" GraphRef="ac2b5" RelX="-1.0" RelY="0.0" />
+      <Point X="1649.0" Y="287.0" GraphRef="cd404" RelX="7.5" RelY="-3.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362553" />
+  </Interaction>
+  <Interaction GraphId="d5deb">
+    <Comment Source="Reactome">Hh-Np can be untethered from the plasma membrane of the secreting cell by ADAM17-mediated cleavage of the lipidated N- and C-termini (Dierker et al, 2009; Ohlig et al, 2011; Ohlig et al, 2012).  Shedding of SHH Np from the plasma membrane is abrogated by siRNA depletion of ADAM17, as well as in the presence of metalloprotease inhibitors or mutation of the ADAM17 catalytic E406 residue (Dierker et al, 2009).  ADAM17-mediated cleavage is stimulated by heparin sulphate and likely occurs in the context of a HSPG-SHH complex although specific HSPGs have not been identified (Dierker et al, 2009).  Cleavage of the cholesterol- and palmitoyl-modified termini is suggested to promote a SHH conformation that is competent to bind to the Patched receptor (Ohlig et al, 2011).</Comment>
+    <BiopaxRef>f2e</BiopaxRef>
+    <BiopaxRef>ed9</BiopaxRef>
+    <BiopaxRef>d9c</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1166.0" Y="340.0" />
+      <Point X="1165.0" Y="250.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b54e0" />
+      <Anchor Position="0.99" Shape="None" GraphId="f37b0" />
+      <Anchor Position="0.5" Shape="None" GraphId="f8484" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362793" />
+  </Interaction>
+  <Interaction GraphId="eb65e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1166.0" Y="346.0" GraphRef="f8f7f" RelX="-0.02040816326530612" RelY="-1.0" />
+      <Point X="1166.0" Y="340.0" GraphRef="b54e0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362793" />
+  </Interaction>
+  <Interaction GraphId="a4483">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1165.0" Y="250.0" GraphRef="f37b0" RelX="-0.009999999999990905" RelY="-0.9000000000000057" />
+      <Point X="1165.0" Y="244.0" GraphRef="bd356" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362793" />
+  </Interaction>
+  <Interaction GraphId="b33e7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1200.0" Y="328.0" GraphRef="e60df" RelX="-1.0" RelY="0.0" />
+      <Point X="1166.0" Y="297.0" GraphRef="f8484" RelX="0.5" RelY="2.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362793" />
+  </Interaction>
+  <Interaction GraphId="fcd2d">
+    <Comment Source="Reactome">Like the WT C-terminal fragment of Hh, processing-defective variant precursors of full-length Hh are also targetted for degradation by the endoplasmic reticulum-associated degradtion (ERAD) pathway (Chen et al, 2011; Huang et al, 2013).  This pathway delivers N-glycosylated ER-resident substrates to a retrotranslocation channel, where they are ubiquitinated and translocated to the cytosol for proteasome-mediated degradation in an ATP-ase dependent fashion (reviewed in Vembar and Brodsky, 2008).  Recognition and targetting of ER proteins for the ERAD pathway depends at least in part by modification and binding of the glycosyl groups, and as is the case for the WT C-terminal fragment,  lectins OS9 and ERLEC1 are required for the degradation of processing-defective variants of Hh (Chen et al, 2011).  OS9 and ERLEC1 may target substrates to the retrotranslocation channel by virtue of their interaction SEL1, an ER membrane protein with established roles in the ERAD pathway (Christianson et al, 2008; Mueller et al, 2008; Hosokawa et al, 2008; Hosokawa et al, 2009).</Comment>
+    <BiopaxRef>e21</BiopaxRef>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>bb9</BiopaxRef>
+    <BiopaxRef>fa5</BiopaxRef>
+    <BiopaxRef>bed</BiopaxRef>
+    <BiopaxRef>b8f</BiopaxRef>
+    <BiopaxRef>b5f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="927.0" Y="969.0" />
+      <Point X="972.0" Y="972.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f528a" />
+      <Anchor Position="0.99" Shape="None" GraphId="d8832" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362450" />
+  </Interaction>
+  <Interaction GraphId="eb86d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="904.0" Y="875.0" GraphRef="e93e2" RelX="-0.009523809523809525" RelY="0.9259259259259259" />
+      <Point X="927.0" Y="969.0" GraphRef="f528a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362450" />
+  </Interaction>
+  <Interaction GraphId="c2982">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="625.0" Y="971.0" GraphRef="c1e95" RelX="1.0" RelY="-0.02040816326530612" />
+      <Point X="927.0" Y="969.0" GraphRef="f528a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362450" />
+  </Interaction>
+  <Interaction GraphId="e45f4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="972.0" Y="972.0" GraphRef="d8832" RelX="0.4500000000000455" RelY="0.029999999999972715" />
+      <Point X="975.0" Y="976.0" GraphRef="a685a" RelX="-1.0" RelY="-0.02040816326530612" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5362450" />
+  </Interaction>
+  <Interaction GraphId="cc01c">
+    <Comment Source="Reactome">As is the case for the WT Hh C-terminal fragment, siRNA depletion of SEL1 and SYVN1 inhibits the degradation of processing-defective Hh mutants, suggesting these versions of Hh are also targets for ERAD-mediated degradation (Chen et al, 2011; Huang et al, 2013).</Comment>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1266.0" Y="965.0" />
+      <Point X="1349.0" Y="935.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f25bb" />
+      <Anchor Position="0.99" Shape="None" GraphId="ca6e2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387386" />
+  </Interaction>
+  <Interaction GraphId="a1af7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1244.0" Y="1029.0" GraphRef="c3e8c" RelX="0.983739837398374" RelY="-0.01818181818181818" />
+      <Point X="1266.0" Y="965.0" GraphRef="f25bb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387386" />
+  </Interaction>
+  <Interaction GraphId="d9226">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1115.0" Y="976.0" GraphRef="a685a" RelX="1.0" RelY="-0.02040816326530612" />
+      <Point X="1266.0" Y="965.0" GraphRef="f25bb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387386" />
+  </Interaction>
+  <Interaction GraphId="b22f2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1349.0" Y="935.0" GraphRef="ca6e2" RelX="0.8299999999999272" RelY="-0.2999999999999545" />
+      <Point X="1352.0" Y="917.0" GraphRef="bd9f5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387386" />
+  </Interaction>
+  <Interaction GraphId="f8f1c">
+    <Comment Source="Reactome">Processing-defective SHH variants are ubiquitinated by SYVN1 (Chen et al, 2011).</Comment>
+    <BiopaxRef>a33</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1572.0" Y="914.0" />
+      <Point X="1610.0" Y="911.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fee58" />
+      <Anchor Position="0.99" Shape="None" GraphId="e37e6" />
+      <Anchor Position="0.5" Shape="None" GraphId="e5c9e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5483238" />
+  </Interaction>
+  <Interaction GraphId="ae136">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1496.0" Y="917.0" GraphRef="bd9f5" RelX="1.0" RelY="0.0" />
+      <Point X="1572.0" Y="914.0" GraphRef="fee58" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5483238" />
+  </Interaction>
+  <Interaction GraphId="d9497">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1511.0" Y="1093.0" GraphRef="ef8a6" RelX="0.0" RelY="-1.0" />
+      <Point X="1572.0" Y="914.0" GraphRef="fee58" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5483238" />
+  </Interaction>
+  <Interaction GraphId="bac34">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1610.0" Y="911.0" GraphRef="e37e6" RelX="0.38000000000010914" RelY="-0.029999999999972715" />
+      <Point X="1613.0" Y="910.0" GraphRef="c21e9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5483238" />
+  </Interaction>
+  <Interaction GraphId="cc0b4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1496.0" Y="917.0" GraphRef="bd9f5" RelX="1.0" RelY="0.0" />
+      <Point X="1572.0" Y="912.0" GraphRef="e5c9e" RelX="-19.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5483238" />
+  </Interaction>
+  <Interaction GraphId="bc068">
+    <Comment Source="Reactome">Depletion of the ATPase VCP results in the stabilization of processing-defective Hh variants in the ER lumen, supporting the notion that, as is the case for the WT Hh C-terminal fragment, these peptides are also substrates for ERAD (Chen et al, 2011; Huang et al, 2013).</Comment>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>bb9</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1919.0" Y="913.0" />
+      <Point X="2077.0" Y="927.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f7689" />
+      <Anchor Position="0.99" Shape="None" GraphId="e5338" />
+      <Anchor Position="0.5" Shape="None" GraphId="d7e80" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="edf26">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1926.0" Y="977.0" GraphRef="e57d2" RelX="-0.02564102564102564" RelY="-1.0" />
+      <Point X="1919.0" Y="913.0" GraphRef="f7689" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="f759c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1958.0" Y="984.0" GraphRef="f2c49" RelX="-1.0" RelY="0.0" />
+      <Point X="1919.0" Y="913.0" GraphRef="f7689" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="cb350">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1745.0" Y="910.0" GraphRef="c21e9" RelX="0.9849624060150376" RelY="0.0" />
+      <Point X="1919.0" Y="913.0" GraphRef="f7689" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="babf1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2077.0" Y="927.0" GraphRef="e5338" RelX="1.5799999999999272" RelY="0.13999999999998636" />
+      <Point X="2126.0" Y="881.0" GraphRef="c587d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="b3e48">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2077.0" Y="927.0" GraphRef="e5338" RelX="1.5799999999999272" RelY="0.13999999999998636" />
+      <Point X="1244.0" Y="1029.0" GraphRef="c3e8c" RelX="0.983739837398374" RelY="-0.01818181818181818" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="bd76b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2077.0" Y="927.0" GraphRef="e5338" RelX="1.5799999999999272" RelY="0.13999999999998636" />
+      <Point X="2021.0" Y="1079.0" GraphRef="d6906" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="c6bea">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2077.0" Y="927.0" GraphRef="e5338" RelX="1.5799999999999272" RelY="0.13999999999998636" />
+      <Point X="2141.0" Y="951.0" GraphRef="e43cb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="c27a0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2077.0" Y="927.0" GraphRef="e5338" RelX="1.5799999999999272" RelY="0.13999999999998636" />
+      <Point X="956.0" Y="862.0" GraphRef="e93e2" RelX="0.9809523809523809" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="fa124">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1745.0" Y="910.0" GraphRef="c21e9" RelX="0.9849624060150376" RelY="0.0" />
+      <Point X="1949.0" Y="916.0" GraphRef="d7e80" RelX="-49.0" RelY="-4.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387389" />
+  </Interaction>
+  <Interaction GraphId="ddf41">
+    <Comment Source="Reactome">After retrotranslocation to the cytosol, processing-defective Hh variants are degraded by the proteasome (Chen et al, 2011; Huang et al, 2013).</Comment>
+    <BiopaxRef>a33</BiopaxRef>
+    <BiopaxRef>e21</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2200.0" Y="976.0" />
+      <Point X="1550.0" Y="1108.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b0cb4" />
+      <Anchor Position="0.99" Shape="None" GraphId="dda5e" />
+      <Anchor Position="0.5" Shape="None" GraphId="aa3f9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387392" />
+  </Interaction>
+  <Interaction GraphId="c409c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2204.0" Y="970.0" GraphRef="e43cb" RelX="0.0" RelY="1.0" />
+      <Point X="2200.0" Y="976.0" GraphRef="b0cb4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387392" />
+  </Interaction>
+  <Interaction GraphId="e5afc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1550.0" Y="1108.0" GraphRef="dda5e" RelX="-6.5" RelY="1.3199999999999363" />
+      <Point X="1544.0" Y="1106.0" GraphRef="ef8a6" RelX="1.0" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387392" />
+  </Interaction>
+  <Interaction GraphId="b2511">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2053.0" Y="1205.0" GraphRef="f7519" RelX="0.979381443298969" RelY="0.0" />
+      <Point X="2162.0" Y="1161.0" GraphRef="aa3f9" RelX="287.0" RelY="119.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5387392" />
+  </Interaction>
+  <Label TextLabel="endoplasmic reticulum lumen" GraphId="c1cde" GroupRef="ec97c">
+    <Graphics CenterX="570.5" CenterY="760.5" Width="203.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="da463" GroupRef="afe5c">
+    <Graphics CenterX="817.0" CenterY="557.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="ca61a" GroupRef="ec97c">
+    <Graphics CenterX="1026.0" CenterY="817.5" Width="1736.0" Height="465.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c96e6" GroupRef="afe5c">
+    <Graphics CenterX="1219.0" CenterY="802.0" Width="2264.0" Height="944.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="d6691" GraphId="e72dd">
+    <Attribute Key="complex_id" Value="R-HSA-5358318" />
+  </Group>
+  <Group GroupId="d95cd" GraphId="fcb44">
+    <Attribute Key="complex_id" Value="R-HSA-5358332" />
+  </Group>
+  <Group GroupId="a88cf" GraphId="b8a7f">
+    <Attribute Key="complex_id" Value="R-HSA-5358286" />
+  </Group>
+  <Group GroupId="fe242" GraphId="dc90b">
+    <Attribute Key="complex_id" Value="R-HSA-5358329" />
+  </Group>
+  <Group GroupId="e199e" GraphId="f6bab">
+    <Attribute Key="complex_id" Value="R-HSA-5362382" />
+  </Group>
+  <Group GroupId="a942b" GraphId="fbeee">
+    <Attribute Key="complex_id" Value="R-HSA-5362377" />
+  </Group>
+  <Group GroupId="c3ee8" GraphId="ab3d3" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5362409" />
+  </Group>
+  <Group GroupId="d5bc5" GraphId="c6ca8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5362413" />
+  </Group>
+  <Group GroupId="e3be9" GraphId="be70f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5362378" />
+  </Group>
+  <Group GroupId="ad2e6" GraphId="fded8">
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+  </Group>
+  <Group GroupId="b6d47" GraphId="a1168" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5362408" />
+  </Group>
+  <Group GroupId="e67d4" GraphId="ef7dc">
+    <Attribute Key="complex_id" Value="R-HSA-5362391" />
+  </Group>
+  <Group GroupId="e4228" GraphId="d45fb" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+  </Group>
+  <Group GroupId="f7b1b" GraphId="bc04f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5362421" />
+  </Group>
+  <Group GroupId="b1f91" GraphId="db6a0">
+    <Attribute Key="complex_id" Value="R-HSA-5362423" />
+  </Group>
+  <Group GroupId="c8422" GraphId="a3887" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5362543" />
+  </Group>
+  <Group GroupId="b2b6a" GraphId="a4190" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5362428" />
+  </Group>
+  <Group GroupId="c3f6a" GraphId="a3c2d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5362546" />
+  </Group>
+  <Group GroupId="c7717" GraphId="e9e43">
+    <Attribute Key="complex_id" Value="R-HSA-5362783" />
+  </Group>
+  <Group GroupId="babff" GraphId="bfffb">
+    <Attribute Key="complex_id" Value="R-HSA-5358456" />
+  </Group>
+  <Group GroupId="aa18d" GraphId="c343c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5362380" />
+  </Group>
+  <Group GroupId="ba3c6" GraphId="cee03" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5387378" />
+  </Group>
+  <Group GroupId="a64e4" GraphId="f3c2b">
+    <Attribute Key="complex_id" Value="R-HSA-5387369" />
+  </Group>
+  <Group GroupId="e40e1" GraphId="df46f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5483239" />
+  </Group>
+  <Group GroupId="c1e04" GraphId="ca046" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5490380" />
+  </Group>
+  <Group GroupId="ec97c" GraphId="b2a0a" Style="Group" />
+  <Group GroupId="afe5c" GraphId="fa711" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23565096</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A review of hedgehog signaling in cranial bone development.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan A, Chang L, Nguyen A, James AW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d08">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21257310</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgehog morphogen: from secretion to reception.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gallet A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a33">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21357747</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Processing and turnover of the Hedgehog protein in the endoplasmic reticulum.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen X, Tukachinsky H, Huang CH, Jao C, Chu YR, Tang HY, Mueller B, Schulman S, Rapoport TA, Salic A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8824192</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholesterol modification of hedgehog signaling proteins in animal development.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porter JA, Young KE, Beachy PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9593755</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a palmitic acid-modified form of human Sonic hedgehog.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pepinsky RB, Zeng C, Wen D, Rayhorn P, Baker DP, Williams KP, Bixler SA, Ambrose CM, Garber EA, Miatkowski K, Taylor FR, Wang EA, Galdes A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c52">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11486055</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skinny hedgehog, an acyltransferase required for palmitoylation and activity of the hedgehog signal.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chamoun Z, Mann RK, Nellen D, von Kessler DP, Bellotto M, Beachy PA, Basler K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b41">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16396909</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgehog lipid modifications are required for Hedgehog stabilization in the extracellular matrix.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callejo A, Torroja C, Quijada L, Guerrero I.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22902404</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dispatched and scube mediate the efficient secretion of the cholesterol-modified hedgehog ligand.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tukachinsky H, Kuzmickas RP, Jao CY, Liu J, Salic A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15163793</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cholesterol membrane anchor of the Hedgehog protein confers stable membrane association to lipid-modified proteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peters C, Wolf A, Wagner M, Kuhlmann J, Waldmann H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15075292</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palmitoylation is required for the production of a soluble multimeric Hedgehog protein complex and long-range signaling in vertebrates.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen MH, Li YJ, Kawakami T, Xu SM, Chuang PT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f51">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11395778</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A freely diffusible form of Sonic hedgehog mediates long-range signalling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeng X, Goetz JA, Suber LM, Scott WJ, Schreiner CM, Robbins DJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d19">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23719536</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanisms of Hedgehog signalling and its roles in development and disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Briscoe J, Thérond PP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18585355</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nanoscale organization of hedgehog is essential for long-range signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vyas N, Goswami D, Manonmani A, Sharma P, Ranganath HA, VijayRaghavan K, Shashidhara LS, Sowdhamini R, Mayor S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d74">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16335952</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human plasma N-glycoproteome analysis by immunoaffinity subtraction, hydrazide chemistry, and mass spectrometry.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liu T, Qian WJ, Gritsenko MA, Camp DG, Monroe ME, Moore RJ, Smith RD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e21">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23867461</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derlin2 protein facilitates HRD1-mediated retro-translocation of sonic hedgehog at the endoplasmic reticulum.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huang CH, Hsiao HT, Chu YR, Ye Y, Chen X.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18775730</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of a specific motif of the DSS1 protein required for proteasome interaction and p53 protein degradation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wei SJ, Williams JG, Dang H, Darden TA, Betz BL, Humble MM, Chang FM, Trempus CS, Johnson K, Cannon RE, Tennant RW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10872471</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 26S proteasome: a molecular machine designed for controlled proteolysis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voges D, Zwickl P, Baumeister W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21339334</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glypican-5 stimulates rhabdomyosarcoma cell proliferation by activating Hedgehog signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li F, Shi W, Capurro M, Filmus J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aed">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19603532</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mutational spectrum of holoprosencephaly-associated changes within the SHH gene in humans predicts loss-of-function through either key structural alterations of the ligand or its altered synthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roessler E, El-Jaick KB, Dubourg C, Vélez JI, Solomon BD, Pineda-Alvarez DE, Lacbawan F, Zhou N, Ouspenskaia M, Paulussen A, Smeets HJ, Hehr U, Bendavid C, Bale S, Odent S, David V, Muenke M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16282375</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mechanisms of Sonic hedgehog mutant effects in holoprosencephaly.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maity T, Fuse N, Beachy PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19081070</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgehog signaling in development and cancer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiang J, Hui CC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cba">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15292211</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional characterization of sonic hedgehog mutations associated with holoprosencephaly.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Traiffort E, Dubourg C, Faure H, Rognan D, Odent S, Durou MR, David V, Ruat M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f16">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16611729</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholesterol modification restricts the spread of Shh gradient in the limb bud.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li Y, Zhang H, Litingtung Y, Chiang C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7985023</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoproteolysis in hedgehog protein biogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee JJ, Ekker SC, von Kessler DP, Porter JA, Sun BI, Beachy PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c6b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17507410</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region-specific requirement for cholesterol modification of sonic hedgehog in patterning the telencephalon and spinal cord.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huang X, Litingtung Y, Chiang C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17126548</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A conserved mechanism of Hedgehog gradient formation by lipid modifications.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guerrero I, Chiang C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8689684</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgehog patterning activity: role of a lipophilic modification mediated by the carboxy-terminal autoprocessing domain.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porter JA, Ekker SC, Park WJ, von Kessler DP, Young KE, Chen CH, Ma Y, Woods AS, Cotter RJ, Koonin EV, Beachy PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b57">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7885476</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The product of hedgehog autoproteolytic cleavage active in local and long-range signalling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porter JA, von Kessler DP, Ekker SC, Young KE, Lee JJ, Moses K, Beachy PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23112049</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of N-terminal residues of Sonic Hedgehog important for palmitoylation by Hedgehog acyltransferase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardy RY, Resh MD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aea">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18534984</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hhat is a palmitoylacyltransferase with specificity for N-palmitoylation of Sonic Hedgehog.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buglino JA, Resh MD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20585641</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of conserved regions and residues within Hedgehog acyltransferase critical for palmitoylation of Sonic Hedgehog.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buglino JA, Resh MD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10984056</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effects of oncogenic mutations in Smoothened and Patched can be reversed by cyclopamine.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taipale J, Chen JK, Cooper MK, Wang B, Mann RK, Milenkovic L, Scott MP, Beachy PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c88">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24784881</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of function mutation in the palmitoyl-transferase HHAT leads to syndromic 46,XY disorder of sex development by impeding Hedgehog protein palmitoylation and signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callier P, Calvel P, Matevossian A, Makrythanasis P, Bernard P, Kurosaka H, Vannier A, Thauvin-Robinet C, Borel C, Mazaud-Guittot S, Rolland A, Desdoits-Lethimonier C, Guipponi M, Zimmermann C, Stévant I, Kuhne F, Conne B, Santoni F, Lambert S, Huet F, Mugneret F, Jaruzelska J, Faivre L, Wilhelm D, Jégou B, Trainor PA, Resh MD, Antonarakis SE, Nef S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19002207</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One step at a time: endoplasmic reticulum-associated degradation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vembar SS, Brodsky JL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fa5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18264092</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OS-9 and GRP94 deliver mutant alpha1-antitrypsin to the Hrd1-SEL1L ubiquitin ligase complex for ERAD.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christianson JC, Shaler TA, Tyler RE, Kopito RR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bed">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18711132</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEL1L nucleates a protein complex required for dislocation of misfolded glycoproteins.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mueller B, Klemm EJ, Spooner E, Claessen JH, Ploegh HL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18502753</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human XTP3-B forms an endoplasmic reticulum quality control scaffold with the HRD1-SEL1L ubiquitin ligase complex and BiP.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hosokawa N, Wada I, Nagasawa K, Moriyama T, Okawa K, Nagata K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19346256</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human OS-9, a lectin required for glycoprotein endoplasmic reticulum-associated degradation, recognizes mannose-trimmed N-glycans.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hosokawa N, Kamiya Y, Kamiya D, Kato K, Nagata K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22677548</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scube/You activity mediates release of dually lipid-modified Hedgehog signal in soluble form.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creanga A, Glenn TD, Mann RK, Saunders AM, Talbot WS, Beachy PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10619433</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dispatched, a novel sterol-sensing domain protein dedicated to the release of cholesterol-modified hedgehog from signaling cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burke R, Nellen D, Bellotto M, Hafen E, Senti KA, Dickson BJ, Basler K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15110707</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inactivation of dispatched 1 by the chameleon mutation disrupts Hedgehog signalling in the zebrafish embryo.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakano Y, Kim HR, Kawakami A, Roy S, Schier AF, Ingham PW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12372301</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hedgehog-mediated patterning of the mammalian embryo requires transporter-like function of dispatched.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ma Y, Erkner A, Gong R, Yao S, Taipale J, Basler K, Beachy PA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d31">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22609552</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scube activity is necessary for Hedgehog signal transduction in vivo.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Johnson JL, Hall TE, Dyson JM, Sonntag C, Ayers K, Berger S, Gautier P, Mitchell C, Hollway GE, Currie PD.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fdf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23867465</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heparan sulfate proteoglycans containing a glypican 5 core and 2-O-sulfo-iduronic acid function as Sonic Hedgehog co-receptors to promote proliferation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Witt RM, Hecht ML, Pazyra-Murphy MF, Cohen SM, Noti C, van Kuppevelt TH, Fuller M, Chan JA, Hopwood JJ, Seeberger PH, Segal RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d20">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18477453</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glypican-3 inhibits Hedgehog signaling during development by competing with patched for Hedgehog binding.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capurro MI, Xu P, Shi W, Li F, Jia A, Filmus J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eaf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22467855</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRP1 mediates Hedgehog-induced endocytosis of the GPC3-Hedgehog complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capurro MI, Shi W, Filmus J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e2c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17210683</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role for amplification and expression of glypican-5 in rhabdomyosarcoma.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Williamson D, Selfe J, Gordon T, Lu YJ, Pritchard-Jones K, Murai K, Jones P, Workman P, Shipley J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c70">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20412775</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The long-range activity of Hedgehog is regulated in the apical extracellular space by the glypican Dally and the hydrolase Notum.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ayers KL, Gallet A, Staccini-Lavenant L, Thérond PP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17609110</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipoprotein-heparan sulfate interactions in the Hh pathway.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eugster C, Panáková D, Mahmoud A, Eaton S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c14">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15963974</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expression of a secreted form of Dally, a Drosophila glypican, induces overgrowth phenotype by affecting action range of Hedgehog.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Takeo S, Akiyama T, Firkus C, Aigaki T, Nakato H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15647319</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drosophila glypicans Dally and Dally-like shape the extracellular Wingless morphogen gradient in the wing disc.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han C, Yan D, Belenkaya TY, Lin X.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17967162</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian Notum induces the release of glypicans and other GPI-anchored proteins from the cell surface.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Traister A, Shi W, Filmus J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12015973</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSPG modification by the secreted enzyme Notum shapes the Wingless morphogen gradient.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giráldez AJ, Copley RR, Cohen SM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21664575</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sonic hedgehog shedding results in functional activation of the solubilized protein.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohlig S, Farshi P, Pickhinke U, van den Boom J, Höing S, Jakuschev S, Hoffmann D, Dreier R, Schöler HR, Dierker T, Bordych C, Grobe K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19176481</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heparan sulfate-modulated, metalloprotease-mediated sonic hedgehog release from producing cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dierker T, Dreier R, Petersen A, Bordych C, Grobe K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23118222</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An emerging role of Sonic hedgehog shedding as a modulator of heparan sulfate interactions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohlig S, Pickhinke U, Sirko S, Bandari S, Hoffmann D, Dreier R, Farshi P, Götz M, Grobe K.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

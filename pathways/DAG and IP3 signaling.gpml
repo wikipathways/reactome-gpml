@@ -1,0 +1,2623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="DAG and IP3 signaling" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway describes the generation of DAG and IP3 by the PLCgamma-mediated hydrolysis of PIP2 and the subsequent downstream signaling events.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=1489509 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 1489509</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Nasi, Sergio, Annibali, D</Comment>
+  <BiopaxRef>f8f</BiopaxRef>
+  <Attribute Key="reactome_id" Value="1489509" />
+  <Graphics BoardWidth="2687.0" BoardHeight="1813.0" />
+  <DataNode TextLabel="CALM1:4xCa2+" GraphId="c3acb" Type="Complex">
+    <BiopaxRef>e35</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1407.0" CenterY="350.0" Width="126.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-74294" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="d5db5" Type="Metabolite" GroupRef="c809d">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-74294" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1021.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="f7b2c" Type="Protein" GroupRef="c809d">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-74294" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1041.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="b885f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1157.0" CenterY="349.5" Width="62.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="GRK2" GraphId="e8a33" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1437.5" CenterY="40.0" Width="57.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25098" />
+  </DataNode>
+  <DataNode TextLabel="GRK2:CALM1:4xCa2+" GraphId="bf68d" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1327.0" CenterY="42.5" Width="124.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-111965" />
+  </DataNode>
+  <DataNode TextLabel="GRK2 " GraphId="aee07" Type="Protein" GroupRef="c6db3">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-111965" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25098" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="eeb93" Type="Metabolite" GroupRef="c6db3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111965" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1121.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="b83b0" Type="Protein" GroupRef="c6db3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111965" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="1141.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="Protein Kinase A,&#xA;catalytic subunits" GraphId="a6d80" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2504.0" CenterY="389.0" Width="126.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-111917" />
+  </DataNode>
+  <DataNode TextLabel="PRKACA " GraphId="c5208" Type="Protein" GroupRef="cb1f1">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-111917" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1201.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17612" />
+  </DataNode>
+  <DataNode TextLabel="PRKACB " GraphId="b09cd" Type="Protein" GroupRef="cb1f1">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-111917" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1221.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22694" />
+  </DataNode>
+  <DataNode TextLabel="PRKACG " GraphId="f81f1" Type="Protein" GroupRef="cb1f1">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-111917" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1241.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22612" />
+  </DataNode>
+  <DataNode TextLabel="p-S133-CREB1&#xA;homodimer" GraphId="f37e9" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2381.5" CenterY="446.5" Width="109.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-111911" />
+  </DataNode>
+  <DataNode TextLabel="p-S133-CREB1 " GraphId="f2f06" Type="Protein" GroupRef="ff5e3">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-111911" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1301.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16220-1" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="f3587" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1753.0" CenterY="142.5" Width="38.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="b1351" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1904.5" CenterY="187.5" Width="51.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58165" />
+  </DataNode>
+  <DataNode TextLabel="Adenylate cyclase&#xA;(Mg2+ cofactor)" GraphId="dacd6" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1821.5" CenterY="36.0" Width="111.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-170665" />
+  </DataNode>
+  <DataNode TextLabel="Mg2+ " GraphId="c15fd" Type="Metabolite" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1361.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18420" />
+  </DataNode>
+  <DataNode TextLabel="ADCY2 " GraphId="e4cbd" Type="Protein" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1381.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q08462" />
+  </DataNode>
+  <DataNode TextLabel="ADCY3 " GraphId="ee6fb" Type="Protein" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1401.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60266" />
+  </DataNode>
+  <DataNode TextLabel="ADCY4 " GraphId="dd2ec" Type="Protein" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1421.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NFM4" />
+  </DataNode>
+  <DataNode TextLabel="ADCY6 " GraphId="e10e8" Type="Protein" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1441.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43306" />
+  </DataNode>
+  <DataNode TextLabel="ADCY7 " GraphId="fb1c6" Type="Protein" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P51828" />
+  </DataNode>
+  <DataNode TextLabel="ADCY9 " GraphId="d1179" Type="Protein" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1481.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60503" />
+  </DataNode>
+  <DataNode TextLabel="ADCY1 " GraphId="da98b" Type="Protein" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1501.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q08828" />
+  </DataNode>
+  <DataNode TextLabel="ADCY5 " GraphId="b94bb" Type="Protein" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1521.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95622" />
+  </DataNode>
+  <DataNode TextLabel="ADCY8 " GraphId="f0fe3" Type="Protein" GroupRef="aec8a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1541.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P40145" />
+  </DataNode>
+  <DataNode TextLabel="PPi" GraphId="e85d3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1910.0" CenterY="104.0" Width="50.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:33019" />
+  </DataNode>
+  <DataNode TextLabel="PKA catalytic&#xA;subunit" GraphId="ff496" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="2318.0" CenterY="214.0" Width="94.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-111920" />
+  </DataNode>
+  <DataNode TextLabel="PRKACA " GraphId="be45b" Type="Protein" GroupRef="db34b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111920" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1601.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17612" />
+  </DataNode>
+  <DataNode TextLabel="PRKACB " GraphId="de18d" Type="Protein" GroupRef="db34b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111920" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1621.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22694" />
+  </DataNode>
+  <DataNode TextLabel="PRKACG " GraphId="bdaca" Type="Protein" GroupRef="db34b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111920" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1641.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22612" />
+  </DataNode>
+  <DataNode TextLabel="cAMP:PKA regulatory&#xA;subunit" GraphId="a8fe9" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="2285.0" CenterY="101.0" Width="124.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-111923" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR1A " GraphId="ffcc5" Type="Protein" GroupRef="e48d9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111923" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1061.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P10644" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR1B " GraphId="c0fbe" Type="Protein" GroupRef="e48d9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111923" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1081.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P31321" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR2A " GraphId="f53fc" Type="Protein" GroupRef="e48d9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111923" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13861" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR2B " GraphId="b0883" Type="Protein" GroupRef="e48d9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111923" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="240.0" CenterY="1121.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P31323" />
+  </DataNode>
+  <DataNode TextLabel="cAMP " GraphId="f9455" Type="Metabolite" GroupRef="e48d9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111923" />
+    <Attribute Key="copies_num" Value="8" />
+    <Graphics CenterX="240.0" CenterY="1141.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58165" />
+  </DataNode>
+  <DataNode TextLabel="CREB1" GraphId="e0320" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2418.5" CenterY="839.0" Width="49.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16220-1" />
+  </DataNode>
+  <DataNode TextLabel="CAMK4:CALM1:4xCa2+" GraphId="b40a1" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2184.5" CenterY="418.0" Width="101.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-112281" />
+  </DataNode>
+  <DataNode TextLabel="CAMK4 " GraphId="e4fda" Type="Protein" GroupRef="ce38f">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-112281" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1201.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16566" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="a5eb3" Type="Metabolite" GroupRef="ce38f">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-112281" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1221.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="f94c6" Type="Protein" GroupRef="ce38f">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-112281" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1241.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="p-S12.S13,T200-CAMK4:CALM1:4xCa2+" GraphId="e85e7" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2250.0" CenterY="738.0" Width="104.0" Height="48.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-111904" />
+  </DataNode>
+  <DataNode TextLabel="p-S12,S13,T200-CAMK4 " GraphId="e2139" Type="Protein" GroupRef="b3be4">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-111904" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1321.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16566" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="ff2f9" Type="Metabolite" GroupRef="b3be4">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-111904" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1341.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="b4b4a" Type="Protein" GroupRef="b3be4">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-111904" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1361.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="p-S133-CREB1" GraphId="fc6e8" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2358.5" CenterY="562.0" Width="103.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16220-1" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="fe8ff" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2118.5" CenterY="738.0" Width="41.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="ea911" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2480.0" CenterY="596.5" Width="40.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="e4cd0" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2470.0" CenterY="796.5" Width="38.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="AMP" GraphId="e53b9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1604.0" CenterY="561.5" Width="40.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456215" />
+  </DataNode>
+  <DataNode TextLabel="PDE1 dimers" GraphId="f0741" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1332.0" CenterY="469.5" Width="58.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-111952" />
+  </DataNode>
+  <DataNode TextLabel="PDE1A " GraphId="a5e2f" Type="Protein" GroupRef="c8030">
+    <Comment Source="Reactome">Can hydrolyze both cAMP and cGMP</Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111952" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1421.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P54750" />
+  </DataNode>
+  <DataNode TextLabel="PDE1B " GraphId="ad936" Type="Protein" GroupRef="c8030">
+    <Comment Source="Reactome">Can hydrolyze both cAMP and cGMP</Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111952" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1441.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q01064" />
+  </DataNode>
+  <DataNode TextLabel="PDE1C " GraphId="efe08" Type="Protein" GroupRef="c8030">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111952" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14123" />
+  </DataNode>
+  <DataNode TextLabel="cAMP" GraphId="e9cce" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1464.5" CenterY="594.5" Width="43.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58165" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="d61bb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1447.5" CenterY="529.5" Width="41.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="PI(4,5)P2" GraphId="c3bb2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="744.0" CenterY="46.5" Width="62.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58456" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="dd0e8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="765.0" CenterY="110.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="I(1,4,5)P3" GraphId="f4099" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="877.5" CenterY="134.0" Width="85.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:203600" />
+  </DataNode>
+  <DataNode TextLabel="DAGs" GraphId="d5d89" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="942.5" CenterY="43.0" Width="63.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18035" />
+  </DataNode>
+  <DataNode TextLabel="p-4Y-PLCG1" GraphId="e5274" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="648.0" CenterY="27.0" Width="96.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P19174" />
+  </DataNode>
+  <DataNode TextLabel="PKC-delta/epsilon" GraphId="cd518" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1018.5" CenterY="90.0" Width="113.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-198276" />
+  </DataNode>
+  <DataNode TextLabel="PRKCD " GraphId="e5dff" Type="Protein" GroupRef="f5fd0">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-198276" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1521.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q05655" />
+  </DataNode>
+  <DataNode TextLabel="PRKCE " GraphId="c1efd" Type="Protein" GroupRef="f5fd0">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-198276" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1541.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q02156" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="f8ef5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1030.0" CenterY="181.0" Width="38.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="Phospho-PKC-delta/epsilon" GraphId="ef9a0" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1232.5" CenterY="94.0" Width="127.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-198265" />
+  </DataNode>
+  <DataNode TextLabel="p-T507,S645,S664-PRKCD(1-676) " GraphId="b0ac8" Type="Protein" GroupRef="a0732">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-198265" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1621.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q05655" />
+  </DataNode>
+  <DataNode TextLabel="p-T566,T710,S729-PRKCE " GraphId="f8071" Type="Protein" GroupRef="a0732">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-198265" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1661.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q02156" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="a844b" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1214.0" CenterY="184.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="IP3 receptor&#xA;homotetramer" GraphId="b8c2a" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="763.5" CenterY="288.5" Width="109.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-169686" />
+  </DataNode>
+  <DataNode TextLabel="ITPR3 " GraphId="f550d" Type="Protein" GroupRef="e9bf1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-169686" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="1721.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14573" />
+  </DataNode>
+  <DataNode TextLabel="ITPR1 " GraphId="fd3e6" Type="Protein" GroupRef="e9bf1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-169686" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="240.0" CenterY="1741.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14643" />
+  </DataNode>
+  <DataNode TextLabel="ITPR2 " GraphId="f5fe2" Type="Protein" GroupRef="e9bf1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-169686" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="240.0" CenterY="1761.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14571" />
+  </DataNode>
+  <DataNode TextLabel="ITPR:I(1,4,5)P3&#xA;tetramer" GraphId="a63d3" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="933.5" CenterY="283.0" Width="115.0" Height="46.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-169696" />
+  </DataNode>
+  <DataNode TextLabel="I(1,4,5)P3 " GraphId="e480a" Type="Metabolite" GroupRef="f1fb9">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-169696" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="1061.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:203600" />
+  </DataNode>
+  <DataNode TextLabel="ITPR1 " GraphId="f519f" Type="Protein" GroupRef="f1fb9">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-169696" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1081.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14643" />
+  </DataNode>
+  <DataNode TextLabel="ITPR2 " GraphId="a1a89" Type="Protein" GroupRef="f1fb9">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-169696" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="380.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14571" />
+  </DataNode>
+  <DataNode TextLabel="ITPR3 " GraphId="fd069" Type="Protein" GroupRef="f1fb9">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-169696" />
+    <Attribute Key="copies_num" Value="13" />
+    <Graphics CenterX="380.0" CenterY="1121.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14573" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="e1695" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="884.0" CenterY="356.0" Width="70.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="dcd28" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1453.0" CenterY="233.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="p-S29-ADRBK1" GraphId="e1332" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1640.5" CenterY="182.0" Width="109.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25098" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="df70d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1570.5" CenterY="234.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="active PKC (alpha,&#xA;gamma, delta)" GraphId="ca6fd" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1532.5" CenterY="135.0" Width="125.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-112002" />
+  </DataNode>
+  <DataNode TextLabel="PRKCA " GraphId="ea86b" Type="Protein" GroupRef="fde02">
+    <BiopaxRef>b8d</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-112002" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1181.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17252" />
+  </DataNode>
+  <DataNode TextLabel="PRKCD " GraphId="f2019" Type="Protein" GroupRef="fde02">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-112002" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1201.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q05655" />
+  </DataNode>
+  <DataNode TextLabel="PRKCG " GraphId="df965" Type="Protein" GroupRef="fde02">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-112002" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1221.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P05129" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="fc885" Type="Metabolite" GroupRef="fde02">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-112002" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1241.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="AHCYL1:NAD+:ITPR1:I(1,4,5)P3 tetramer" GraphId="eb093" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="877.5" CenterY="458.0" Width="109.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-5226920" />
+  </DataNode>
+  <DataNode TextLabel="AHCYL1 " GraphId="d97bf" Type="Protein" GroupRef="ff6b1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5226920" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1301.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43865" />
+  </DataNode>
+  <DataNode TextLabel="NAD+ " GraphId="a33b6" Type="Metabolite" GroupRef="ff6b1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-5226920" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1321.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57540" />
+  </DataNode>
+  <DataNode TextLabel="I(1,4,5)P3 " GraphId="c2ca0" Type="Metabolite" GroupRef="ff6b1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5226920" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="1341.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:203600" />
+  </DataNode>
+  <DataNode TextLabel="ITPR1 " GraphId="c05a4" Type="Protein" GroupRef="ff6b1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5226920" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1361.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14643" />
+  </DataNode>
+  <DataNode TextLabel="ITPR2 " GraphId="e4841" Type="Protein" GroupRef="ff6b1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5226920" />
+    <Attribute Key="copies_num" Value="10" />
+    <Graphics CenterX="380.0" CenterY="1381.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14571" />
+  </DataNode>
+  <DataNode TextLabel="ITPR3 " GraphId="fd911" Type="Protein" GroupRef="ff6b1">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-5226920" />
+    <Attribute Key="copies_num" Value="13" />
+    <Graphics CenterX="380.0" CenterY="1401.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14573" />
+  </DataNode>
+  <DataNode TextLabel="PKA tetramer:4xcAMP" GraphId="d1b75" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="2090.0" CenterY="159.0" Width="90.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8951729" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR1A " GraphId="e0518" Type="Protein" GroupRef="cbfc3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8951729" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="1461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P10644" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR1B " GraphId="b2824" Type="Protein" GroupRef="cbfc3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8951729" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="380.0" CenterY="1481.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P31321" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR2A " GraphId="c3f70" Type="Protein" GroupRef="cbfc3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8951729" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="1501.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13861" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR2B " GraphId="e31ca" Type="Protein" GroupRef="cbfc3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8951729" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="380.0" CenterY="1521.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P31323" />
+  </DataNode>
+  <DataNode TextLabel="PRKACA " GraphId="e9195" Type="Protein" GroupRef="cbfc3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8951729" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="380.0" CenterY="1541.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17612" />
+  </DataNode>
+  <DataNode TextLabel="PRKACB " GraphId="a577a" Type="Protein" GroupRef="cbfc3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8951729" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="380.0" CenterY="1561.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22694" />
+  </DataNode>
+  <DataNode TextLabel="PRKACG " GraphId="da0d0" Type="Protein" GroupRef="cbfc3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8951729" />
+    <Attribute Key="copies_num" Value="8" />
+    <Graphics CenterX="380.0" CenterY="1581.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22612" />
+  </DataNode>
+  <DataNode TextLabel="cAMP " GraphId="fed5d" Type="Metabolite" GroupRef="cbfc3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-8951729" />
+    <Attribute Key="copies_num" Value="11" />
+    <Graphics CenterX="380.0" CenterY="1601.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58165" />
+  </DataNode>
+  <DataNode TextLabel="PKA tetramer" GraphId="d708f" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1905.0" CenterY="240.0" Width="86.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-111922" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR1A " GraphId="a848f" Type="Protein" GroupRef="d1a19">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111922" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="520.0" CenterY="1061.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P10644" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR1B " GraphId="aa7c8" Type="Protein" GroupRef="d1a19">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111922" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="520.0" CenterY="1081.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P31321" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR2A " GraphId="a1353" Type="Protein" GroupRef="d1a19">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111922" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="520.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13861" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR2B " GraphId="f38d2" Type="Protein" GroupRef="d1a19">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111922" />
+    <Attribute Key="copies_num" Value="5" />
+    <Graphics CenterX="520.0" CenterY="1121.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P31323" />
+  </DataNode>
+  <DataNode TextLabel="PRKACA " GraphId="a00c3" Type="Protein" GroupRef="d1a19">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111922" />
+    <Attribute Key="copies_num" Value="6" />
+    <Graphics CenterX="520.0" CenterY="1141.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17612" />
+  </DataNode>
+  <DataNode TextLabel="PRKACB " GraphId="d6436" Type="Protein" GroupRef="d1a19">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111922" />
+    <Attribute Key="copies_num" Value="7" />
+    <Graphics CenterX="520.0" CenterY="1161.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22694" />
+  </DataNode>
+  <DataNode TextLabel="PRKACG " GraphId="b99ee" Type="Protein" GroupRef="d1a19">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-111922" />
+    <Attribute Key="copies_num" Value="8" />
+    <Graphics CenterX="520.0" CenterY="1181.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22612" />
+  </DataNode>
+  <DataNode TextLabel="CALM1" GraphId="d3dbc" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1223.5" CenterY="287.5" Width="51.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="activated PDE1&#xA;dimers" GraphId="abb16" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1539.5" CenterY="469.5" Width="83.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9014905" />
+  </DataNode>
+  <DataNode TextLabel="activated PDE1A " GraphId="e35d0" Type="Protein" GroupRef="bf12c">
+    <Comment Source="Reactome">Can hydrolyze both cAMP and cGMP</Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9014905" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="520.0" CenterY="1241.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P54750" />
+  </DataNode>
+  <DataNode TextLabel="activated PDE1B " GraphId="f6dca" Type="Protein" GroupRef="bf12c">
+    <Comment Source="Reactome">Can hydrolyze both cAMP and cGMP</Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9014905" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="520.0" CenterY="1261.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q01064" />
+  </DataNode>
+  <DataNode TextLabel="activated PDE1C " GraphId="f5878" Type="Protein" GroupRef="bf12c">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9014905" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="520.0" CenterY="1281.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14123" />
+  </DataNode>
+  <DataNode TextLabel="G-betagamma" GraphId="f0496">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="1702.0" CenterY="262.0" Width="94.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-111865" />
+  </DataNode>
+  <DataNode TextLabel="PRKACA,(PRKACB,PRKACG,PRKX)" GraphId="a7e0c" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2523.0" CenterY="658.0" Width="114.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9615387" />
+  </DataNode>
+  <DataNode TextLabel="PRKACA " GraphId="df888" Type="Protein" GroupRef="e07ab">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9615387" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1341.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17612" />
+  </DataNode>
+  <DataNode TextLabel="PRKACB " GraphId="bff3c" Type="Protein" GroupRef="e07ab">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9615387" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1361.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22694" />
+  </DataNode>
+  <DataNode TextLabel="PRKACG " GraphId="b660d" Type="Protein" GroupRef="e07ab">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9615387" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1381.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P22612" />
+  </DataNode>
+  <DataNode TextLabel="PRKX " GraphId="ee6a0" Type="Protein" GroupRef="e07ab">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9615387" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1401.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P51817" />
+  </DataNode>
+  <DataNode TextLabel="CAMK4:KPNA2" GraphId="a9505" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1771.5" CenterY="377.0" Width="95.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9619140" />
+  </DataNode>
+  <DataNode TextLabel="CAMK4 " GraphId="c1093" Type="Protein" GroupRef="e31cd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9619140" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16566" />
+  </DataNode>
+  <DataNode TextLabel="KPNA2 " GraphId="c58b7" Type="Protein" GroupRef="e31cd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9619140" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1481.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P52292" />
+  </DataNode>
+  <DataNode TextLabel="CAMK4" GraphId="ac620" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2076.5" CenterY="377.0" Width="51.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16566" />
+  </DataNode>
+  <DataNode TextLabel="KPNA2" GraphId="f66b9" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2041.5" CenterY="335.0" Width="49.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P52292" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="feee1" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1830.0" CenterY="312.5" Width="40.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="p-T200-CAMK4:CALM1:4xCa2+" GraphId="b9d08" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2231.5" CenterY="639.0" Width="109.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9619152" />
+  </DataNode>
+  <DataNode TextLabel="p-T200-CAMK4 " GraphId="adfe6" Type="Protein" GroupRef="c4d42">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9619152" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1541.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16566" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="c56ec" Type="Metabolite" GroupRef="c4d42">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9619152" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="520.0" CenterY="1561.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="b60cf" Type="Protein" GroupRef="c4d42">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9619152" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="520.0" CenterY="1581.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="f998f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2141.0" CenterY="671.5" Width="36.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="CALM1:4xCa2+" GraphId="a2861" Type="Complex">
+    <BiopaxRef>e35</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1974.5" CenterY="451.0" Width="101.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-629658" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="deb8d" Type="Metabolite" GroupRef="a0651">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-629658" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="520.0" CenterY="1641.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="fb49c" Type="Protein" GroupRef="a0651">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-629658" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="520.0" CenterY="1661.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="bf752" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2224.0" CenterY="470.0" Width="36.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="a36a5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2228.5" CenterY="536.0" Width="37.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="p-CaMKK:CALM1:4xCa2+" GraphId="f2187" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2085.5" CenterY="473.0" Width="113.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9618956" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="e80d4" Type="Metabolite" GroupRef="e00fe">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618956" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="660.0" CenterY="1061.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="db232" Type="Protein" GroupRef="e00fe">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618956" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="660.0" CenterY="1081.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="p-CAMKK1 " GraphId="e2129" Type="Protein" GroupRef="e00fe">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618956" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="660.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N5S9" />
+  </DataNode>
+  <DataNode TextLabel="p-CAMKK2 " GraphId="b3e30" Type="Protein" GroupRef="e00fe">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618956" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="660.0" CenterY="1121.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96RR4" />
+  </DataNode>
+  <DataNode TextLabel="CAMK4" GraphId="f862d" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1582.5" CenterY="333.0" Width="51.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q16566" />
+  </DataNode>
+  <DataNode TextLabel="KPNA2" GraphId="e9131" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1572.5" CenterY="397.0" Width="49.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P52292" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2G&#xA;dodecamer:CALM1:4xCa2+" GraphId="a6e38" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1578.5" CenterY="722.0" Width="123.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9618775" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="c5ad1" Type="Metabolite" GroupRef="acb0f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9618775" />
+    <Attribute Key="copies_num" Value="48" />
+    <Graphics CenterX="660.0" CenterY="1181.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="faa55" Type="Protein" GroupRef="acb0f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9618775" />
+    <Attribute Key="copies_num" Value="59" />
+    <Graphics CenterX="660.0" CenterY="1201.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2G " GraphId="c0be7" Type="Protein" GroupRef="acb0f">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9618775" />
+    <Attribute Key="copies_num" Value="70" />
+    <Graphics CenterX="660.0" CenterY="1221.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13555" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2G&#xA;dodecamer:CALM1:4xCa2+" GraphId="ce1e5" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2028.5" CenterY="807.0" Width="123.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9618760" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="c8256" Type="Metabolite" GroupRef="deedd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618760" />
+    <Attribute Key="copies_num" Value="48" />
+    <Graphics CenterX="660.0" CenterY="1281.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="a00b7" Type="Protein" GroupRef="deedd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618760" />
+    <Attribute Key="copies_num" Value="59" />
+    <Graphics CenterX="660.0" CenterY="1301.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2G " GraphId="ae8f0" Type="Protein" GroupRef="deedd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618760" />
+    <Attribute Key="copies_num" Value="70" />
+    <Graphics CenterX="660.0" CenterY="1321.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13555" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2B&#xA;dodecamer:CALM1:4xCa2+" GraphId="dd677" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1688.5" CenterY="648.0" Width="123.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9624331" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2B " GraphId="b0ec8" Type="Protein" GroupRef="e1822">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9624331" />
+    <Attribute Key="copies_num" Value="12" />
+    <Graphics CenterX="660.0" CenterY="1381.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13554" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="aae16" Type="Metabolite" GroupRef="e1822">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9624331" />
+    <Attribute Key="copies_num" Value="15" />
+    <Graphics CenterX="660.0" CenterY="1401.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="a7257" Type="Protein" GroupRef="e1822">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9624331" />
+    <Attribute Key="copies_num" Value="15" />
+    <Graphics CenterX="660.0" CenterY="1421.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="CaMKII dodecamer" GraphId="f4203" Type="Complex">
+    <Comment Source="Reactome">CaMKII is composed of a homo or hetero dodecamer of four subunits apha, beta, delta and gamma. In a heteromultimer the ratio of alpha to beta may vary from 6;1, 3:1 or 1:1.</Comment>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1134.0" CenterY="421.5" Width="118.0" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9611355" />
+  </DataNode>
+  <DataNode TextLabel="CAMK2A " GraphId="be9e2" Type="Protein" GroupRef="fcd88">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9611355" />
+    <Attribute Key="copies_num" Value="12" />
+    <Graphics CenterX="660.0" CenterY="1481.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UQM7" />
+  </DataNode>
+  <DataNode TextLabel="CAMK2B " GraphId="f4140" Type="Protein" GroupRef="fcd88">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9611355" />
+    <Attribute Key="copies_num" Value="23" />
+    <Graphics CenterX="660.0" CenterY="1501.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13554" />
+  </DataNode>
+  <DataNode TextLabel="CAMK2D " GraphId="ce637" Type="Protein" GroupRef="fcd88">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9611355" />
+    <Attribute Key="copies_num" Value="100" />
+    <Graphics CenterX="660.0" CenterY="1521.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13557" />
+  </DataNode>
+  <DataNode TextLabel="CAMK2G " GraphId="fbd03" Type="Protein" GroupRef="fcd88">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9611355" />
+    <Attribute Key="copies_num" Value="177" />
+    <Graphics CenterX="660.0" CenterY="1541.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13555" />
+  </DataNode>
+  <DataNode TextLabel="CaMKII&#xA;dodecamer:CALM1:4xCa2+" GraphId="f7969" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1235.5" CenterY="601.0" Width="125.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9617587" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="bb1f8" Type="Metabolite" GroupRef="b6c76">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617587" />
+    <Attribute Key="copies_num" Value="48" />
+    <Graphics CenterX="660.0" CenterY="1601.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="b270a" Type="Protein" GroupRef="b6c76">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617587" />
+    <Attribute Key="copies_num" Value="59" />
+    <Graphics CenterX="660.0" CenterY="1621.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="CAMK2A " GraphId="a31c5" Type="Protein" GroupRef="b6c76">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617587" />
+    <Attribute Key="copies_num" Value="70" />
+    <Graphics CenterX="660.0" CenterY="1641.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UQM7" />
+  </DataNode>
+  <DataNode TextLabel="CAMK2B " GraphId="b8e2a" Type="Protein" GroupRef="b6c76">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617587" />
+    <Attribute Key="copies_num" Value="81" />
+    <Graphics CenterX="660.0" CenterY="1661.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13554" />
+  </DataNode>
+  <DataNode TextLabel="CAMK2D " GraphId="de912" Type="Protein" GroupRef="b6c76">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617587" />
+    <Attribute Key="copies_num" Value="302" />
+    <Graphics CenterX="660.0" CenterY="1681.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13557" />
+  </DataNode>
+  <DataNode TextLabel="CAMK2G " GraphId="b6c18" Type="Protein" GroupRef="b6c76">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617587" />
+    <Attribute Key="copies_num" Value="523" />
+    <Graphics CenterX="660.0" CenterY="1701.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13555" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="fee49" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1243.5" CenterY="707.5" Width="41.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="p-T286-CaMKII&#xA;dodecamer:CALM1:4xCa2+" GraphId="de229" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1550.0" CenterY="655.5" Width="118.0" Height="49.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9617582" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="b7bcb" Type="Metabolite" GroupRef="a9e61">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617582" />
+    <Attribute Key="copies_num" Value="48" />
+    <Graphics CenterX="800.0" CenterY="1061.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="eec73" Type="Protein" GroupRef="a9e61">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617582" />
+    <Attribute Key="copies_num" Value="59" />
+    <Graphics CenterX="800.0" CenterY="1081.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="p-T286-CAMK2A " GraphId="a2eea" Type="Protein" GroupRef="a9e61">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617582" />
+    <Attribute Key="copies_num" Value="70" />
+    <Graphics CenterX="800.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UQM7" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2B " GraphId="e991d" Type="Protein" GroupRef="a9e61">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617582" />
+    <Attribute Key="copies_num" Value="81" />
+    <Graphics CenterX="800.0" CenterY="1121.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13554" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2D " GraphId="d66de" Type="Protein" GroupRef="a9e61">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617582" />
+    <Attribute Key="copies_num" Value="92" />
+    <Graphics CenterX="800.0" CenterY="1141.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13557" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2G " GraphId="e993f" Type="Protein" GroupRef="a9e61">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9617582" />
+    <Attribute Key="copies_num" Value="103" />
+    <Graphics CenterX="800.0" CenterY="1161.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13555" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="f1c61" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1417.5" CenterY="752.5" Width="39.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2G&#xA;dodecamer" GraphId="bfb0f" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1958.5" CenterY="704.0" Width="77.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9618773" />
+  </DataNode>
+  <DataNode TextLabel="p-T287-CAMK2G " GraphId="e2b08" Type="Protein" GroupRef="f5473">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618773" />
+    <Attribute Key="copies_num" Value="12" />
+    <Graphics CenterX="800.0" CenterY="1221.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13555" />
+  </DataNode>
+  <DataNode TextLabel="CaMKK" GraphId="db8a9" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2007.0" CenterY="622.0" Width="50.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9618862" />
+  </DataNode>
+  <DataNode TextLabel="CAMKK1 " GraphId="b3b33" Type="Protein" GroupRef="a3ec8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618862" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1281.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N5S9" />
+  </DataNode>
+  <DataNode TextLabel="CAMKK2 " GraphId="ad4db" Type="Protein" GroupRef="a3ec8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618862" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1301.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96RR4" />
+  </DataNode>
+  <DataNode TextLabel="CaMKK:CALM1:4xCa2+" GraphId="ae9f9" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2111.0" CenterY="617.0" Width="98.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9618860" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ " GraphId="d0e93" Type="Metabolite" GroupRef="df2d8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618860" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="800.0" CenterY="1361.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
+  </DataNode>
+  <DataNode TextLabel="CALM1 " GraphId="f21c5" Type="Protein" GroupRef="df2d8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618860" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="800.0" CenterY="1381.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0DP23" />
+  </DataNode>
+  <DataNode TextLabel="CAMKK1 " GraphId="e54b8" Type="Protein" GroupRef="df2d8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618860" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="800.0" CenterY="1401.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N5S9" />
+  </DataNode>
+  <DataNode TextLabel="CAMKK2 " GraphId="b727f" Type="Protein" GroupRef="df2d8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-9618860" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="800.0" CenterY="1421.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96RR4" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="bc66f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2149.0" CenterY="577.0" Width="38.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30616" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="c6253" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="2145.5" CenterY="518.5" Width="39.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:456216" />
+  </DataNode>
+  <DataNode TextLabel="NBEA" GraphId="c5568" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1973.0" CenterY="103.0" Width="40.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NFP9" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR2A" GraphId="edc54" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="2034.0" CenterY="83.0" Width="64.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13861" />
+  </DataNode>
+  <DataNode TextLabel="NBEA:PRKAR2A" GraphId="b4e83" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="2170.0" CenterY="112.0" Width="74.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9668559" />
+  </DataNode>
+  <DataNode TextLabel="NBEA " GraphId="a8a87" Type="Protein" GroupRef="efb97">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9668559" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1481.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8NFP9" />
+  </DataNode>
+  <DataNode TextLabel="PRKAR2A " GraphId="d9bf8" Type="Protein" GroupRef="efb97">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9668559" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1501.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13861" />
+  </DataNode>
+  <Interaction GraphId="db78f">
+    <Comment Source="Reactome">Upon increase in calcium concentration, calmodulin (CaM) is activated by binding to four calcium ions (Crouch and Klee 1980).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1247.0" Y="350.0" />
+      <Point X="1341.0" Y="350.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c4e13" />
+      <Anchor Position="0.99" Shape="None" GraphId="b8acb" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-74448" />
+  </Interaction>
+  <Interaction GraphId="c3e2e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1188.0" Y="349.0" GraphRef="b885f" RelX="1.0" RelY="-0.03225806451612903" />
+      <Point X="1247.0" Y="350.0" GraphRef="c4e13" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-74448" />
+  </Interaction>
+  <Interaction GraphId="e4034">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1223.0" Y="298.0" GraphRef="d3dbc" RelX="-0.0196078431372549" RelY="0.9130434782608695" />
+      <Point X="1247.0" Y="350.0" GraphRef="c4e13" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-74448" />
+  </Interaction>
+  <Interaction GraphId="a4a27">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1341.0" Y="350.0" GraphRef="b8acb" RelX="0.9400000000000546" RelY="0.0" />
+      <Point X="1344.0" Y="350.0" GraphRef="c3acb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-74448" />
+  </Interaction>
+  <Interaction GraphId="cd0f4">
+    <Comment Source="Reactome">ADRBK1 (also known as GRK2) is a Serine/Threonine kinase. G-protein-coupled receptor kinases (GRKs) are important regulators of G-protein-coupled receptor function. Binding of calmodulin to ADRBK1 results in inhibition of the kinase activity. This inhibition is almost completely abolished when ADRBK1 is phosphorylated by PKC.</Comment>
+    <BiopaxRef>a6a</BiopaxRef>
+    <BiopaxRef>ff1</BiopaxRef>
+    <BiopaxRef>cd2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1407.0" Y="151.0" />
+      <Point X="1338.0" Y="61.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b6de7" />
+      <Anchor Position="0.99" Shape="None" GraphId="f4861" />
+      <Anchor Position="0.5" Shape="None" GraphId="d86e7" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111966" />
+  </Interaction>
+  <Interaction GraphId="e2c75">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1437.0" Y="51.0" GraphRef="e8a33" RelX="-0.017543859649122806" RelY="1.0" />
+      <Point X="1407.0" Y="151.0" GraphRef="b6de7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111966" />
+  </Interaction>
+  <Interaction GraphId="ed6a4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1407.0" Y="339.0" GraphRef="c3acb" RelX="0.0" RelY="-1.0" />
+      <Point X="1407.0" Y="151.0" GraphRef="b6de7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111966" />
+  </Interaction>
+  <Interaction GraphId="dbd99">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1338.0" Y="61.0" GraphRef="f4861" RelX="-0.6900000000000546" RelY="-0.9000000000000057" />
+      <Point X="1327.0" Y="57.0" GraphRef="bf68d" RelX="0.0" RelY="0.9354838709677419" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111966" />
+  </Interaction>
+  <Interaction GraphId="c8212">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1470.0" Y="135.0" GraphRef="ca6fd" RelX="-1.0" RelY="0.0" />
+      <Point X="1406.0" Y="151.0" GraphRef="d86e7" RelX="33.5" RelY="45.0" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111966" />
+  </Interaction>
+  <Interaction GraphId="add65">
+    <Comment Source="Reactome">When cAMP level rises, the PKA catalytic subunit (C subunit) released from the holoenzyme enters the nucleus by passive diffusion whereas termination of signaling to the nucleus involves an active mechanism. In the nucleus, the C subunit binds to the heat-stable protein kinase inhibitor (PKI), and this binding not only inactivates the C subunit but also by conformational change unveils a nuclear export signal in PKI which leads to export of the C-PKI complex from the nucleus.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2336.0" Y="238.0" />
+      <Point X="2483.0" Y="365.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e4c18" />
+      <Anchor Position="0.99" Shape="None" GraphId="c1f87" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111924" />
+  </Interaction>
+  <Interaction GraphId="aa259">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2318.0" Y="232.0" GraphRef="ff496" RelX="0.0" RelY="1.0" />
+      <Point X="2336.0" Y="238.0" GraphRef="e4c18" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111924" />
+  </Interaction>
+  <Interaction GraphId="a6ed9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2483.0" Y="365.0" GraphRef="c1f87" RelX="1.4699999999998" RelY="1.2699999999999818" />
+      <Point X="2504.0" Y="371.0" GraphRef="a6d80" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111924" />
+  </Interaction>
+  <Interaction GraphId="e9c78">
+    <Comment Source="Reactome">Based on studies in rat cells, activation of CREB1 by phosphorylation at serine residue S133 induces formation of CREB1 homodimers which are able to bind DNA (Yamamoto et al. 1988). The DNA binding and dimerization domains reside in the C-terminal region of CREB1 (Yun et al. 1990).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2363.0" Y="548.0" />
+      <Point X="2382.0" Y="468.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e63af" />
+      <Anchor Position="0.99" Shape="None" GraphId="fbeef" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111916" />
+  </Interaction>
+  <Interaction GraphId="f54b9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2358.0" Y="551.0" GraphRef="fc6e8" RelX="-0.009708737864077669" RelY="-1.0" />
+      <Point X="2363.0" Y="548.0" GraphRef="e63af" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111916" />
+  </Interaction>
+  <Interaction GraphId="cbc8c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2382.0" Y="468.0" GraphRef="fbeef" RelX="0.19000000000005457" RelY="-0.8000000000000114" />
+      <Point X="2381.0" Y="464.0" GraphRef="f37e9" RelX="-0.009174311926605505" RelY="0.9459459459459459" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111916" />
+  </Interaction>
+  <Interaction GraphId="b0b21">
+    <Comment Source="Reactome">Protein kinase A (PKA) has two regulatory subunits and two catalytic subunits which are held together to form the holoenzyme and is activated upon binding of cAMP to the regulatory subunits. Once cAMP binds the regulatory subunits, the catalytic subunits are released to carry out phosphorylation of CREB1 at serine residue S133. Only the PKA catalytic subunit alpha, PRKACA, was directly demonstrated to phosphorylate CREB1 at S133, using recombinant mouse and rat proteins, respectively (Gonzalez and Montminy 1989). PKA catalytic subunits beta and gamma (PRKACB and PRKACG) are candidate CREB1 kinases based on indirect evidence and sequence similarity (Nagakura et al. 2002, Liang et al. 2007, James et al. 2009). PRKX is the catalytic subunit of the cAMP dependent protein kinase X, which shares the regulatory subunits and functional properties with the PKA. PRKX is highly expressed in the mouse fetal brain (Li et al. 2005) and is implicated in CREB1 phosphorylation through indirect evidence (Di Pasquale and Stacey 1998, Li et al. 2002).</Comment>
+    <BiopaxRef>d0d</BiopaxRef>
+    <BiopaxRef>ebc</BiopaxRef>
+    <BiopaxRef>a97</BiopaxRef>
+    <BiopaxRef>dff</BiopaxRef>
+    <BiopaxRef>f23</BiopaxRef>
+    <BiopaxRef>f98</BiopaxRef>
+    <BiopaxRef>a2d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2399.0" Y="758.0" />
+      <Point X="2392.0" Y="650.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d7ef2" />
+      <Anchor Position="0.99" Shape="None" GraphId="b4a46" />
+      <Anchor Position="0.5" Shape="None" GraphId="e2157" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111919" />
+  </Interaction>
+  <Interaction GraphId="eb4c8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2418.0" Y="828.0" GraphRef="e0320" RelX="-0.02040816326530612" RelY="-1.0" />
+      <Point X="2399.0" Y="758.0" GraphRef="d7ef2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111919" />
+  </Interaction>
+  <Interaction GraphId="fa379">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2451.0" Y="796.0" GraphRef="e4cd0" RelX="-1.0" RelY="-0.03225806451612903" />
+      <Point X="2399.0" Y="758.0" GraphRef="d7ef2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111919" />
+  </Interaction>
+  <Interaction GraphId="eeaad">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2392.0" Y="650.0" GraphRef="b4a46" RelX="-0.07000000000016371" RelY="-1.080000000000041" />
+      <Point X="2358.0" Y="573.0" GraphRef="fc6e8" RelX="-0.009708737864077669" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111919" />
+  </Interaction>
+  <Interaction GraphId="fd9eb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2392.0" Y="650.0" GraphRef="b4a46" RelX="-0.07000000000016371" RelY="-1.080000000000041" />
+      <Point X="2460.0" Y="596.0" GraphRef="ea911" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111919" />
+  </Interaction>
+  <Interaction GraphId="d17fe">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2466.0" Y="658.0" GraphRef="a7e0c" RelX="-1.0" RelY="0.0" />
+      <Point X="2386.0" Y="690.0" GraphRef="e2157" RelX="-9.5" RelY="-14.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111919" />
+  </Interaction>
+  <Interaction GraphId="fec47">
+    <Comment Source="Reactome">Adenylate cyclase is responsive to calcium and calmodulin and  produces cAMP. One important physiological role for Calmodulin is the regulation of adenylylcyclases. Four of the ten known adenylylcyclases are calcium sensitive, in particular type 8 (AC8).</Comment>
+    <BiopaxRef>fff</BiopaxRef>
+    <BiopaxRef>c3b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1775.0" Y="142.0" />
+      <Point X="1864.0" Y="143.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="de4cd" />
+      <Anchor Position="0.99" Shape="None" GraphId="a5ea2" />
+      <Anchor Position="0.5" Shape="None" GraphId="f99c9" />
+      <Anchor Position="0.5" Shape="None" GraphId="d7c3f" />
+      <Anchor Position="0.5" Shape="None" GraphId="fd951" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111930" />
+  </Interaction>
+  <Interaction GraphId="ca495">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1772.0" Y="142.0" GraphRef="f3587" RelX="1.0" RelY="-0.03225806451612903" />
+      <Point X="1775.0" Y="142.0" GraphRef="de4cd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111930" />
+  </Interaction>
+  <Interaction GraphId="e5da6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1864.0" Y="143.0" GraphRef="a5ea2" RelX="0.8900000000001" RelY="0.009999999999990905" />
+      <Point X="1879.0" Y="187.0" GraphRef="b1351" RelX="-1.0" RelY="-0.030303030303030304" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111930" />
+  </Interaction>
+  <Interaction GraphId="dfdf6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1864.0" Y="143.0" GraphRef="a5ea2" RelX="0.8900000000001" RelY="0.009999999999990905" />
+      <Point X="1885.0" Y="104.0" GraphRef="e85d3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111930" />
+  </Interaction>
+  <Interaction GraphId="eea23">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1821.0" Y="55.0" GraphRef="dacd6" RelX="-0.009009009009009009" RelY="1.0" />
+      <Point X="1825.0" Y="143.0" GraphRef="f99c9" RelX="5.5" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111930" />
+  </Interaction>
+  <Interaction GraphId="e1f03">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1749.0" Y="262.0" GraphRef="f0496" RelX="1.0" RelY="0.0" />
+      <Point X="1825.0" Y="143.0" GraphRef="d7c3f" RelX="5.5" RelY="0.5" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111930" />
+  </Interaction>
+  <Interaction GraphId="a2fa6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1470.0" Y="350.0" GraphRef="c3acb" RelX="1.0" RelY="0.0" />
+      <Point X="1825.0" Y="143.0" GraphRef="fd951" RelX="5.5" RelY="0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111930" />
+  </Interaction>
+  <Interaction GraphId="dd600">
+    <Comment Source="Reactome">CAMK4 (CaMKIV) entry into the nucleus is facilitated by importin alpha (KPNA2). Importin beta and RAN GTPase are not needed for CAMK4 nuclear import (Kotera et al. 2004). CAMK4 nuclear import requires functional kinase domain of CAMK4 (Lemrow et al. 2004) and ATP, but ATP hydrolysis is not needed (Kotera et al. 2005).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1822.0" Y="373.0" />
+      <Point X="1988.0" Y="364.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ee23e" />
+      <Anchor Position="0.99" Shape="None" GraphId="cad51" />
+      <Anchor Position="0.5" Shape="None" GraphId="f9036" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112282" />
+  </Interaction>
+  <Interaction GraphId="b9d35">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1818.0" Y="377.0" GraphRef="a9505" RelX="0.9789473684210527" RelY="0.0" />
+      <Point X="1822.0" Y="373.0" GraphRef="ee23e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112282" />
+  </Interaction>
+  <Interaction GraphId="e59c5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1988.0" Y="364.0" GraphRef="cad51" RelX="1.6600000000000819" RelY="-0.08999999999997499" />
+      <Point X="2051.0" Y="377.0" GraphRef="ac620" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112282" />
+  </Interaction>
+  <Interaction GraphId="c2712">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1988.0" Y="364.0" GraphRef="cad51" RelX="1.6600000000000819" RelY="-0.08999999999997499" />
+      <Point X="2017.0" Y="335.0" GraphRef="f66b9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112282" />
+  </Interaction>
+  <Interaction GraphId="fbb9b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1830.0" Y="324.0" GraphRef="feee1" RelX="0.0" RelY="0.92" />
+      <Point X="1895.0" Y="368.0" GraphRef="f9036" RelX="-10.0" RelY="-0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-112282" />
+  </Interaction>
+  <Interaction GraphId="adf4f">
+    <Comment Source="Reactome">Autophosphorylation of the N-terminal serine residues, S12 and S13, of CAMK4 is required for full activation after Ca2+/calmodulin binding and phosphorylation of the Ca2+/calmodulin-bound enzyme on threonine residue T200 by a Ca2+/calmodulin-dependent protein kinase kinase (CAMKK1 or CAMKK2) (Chatila et al. 1996).</Comment>
+    <BiopaxRef>bd3</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2200.0" Y="676.0" />
+      <Point X="2169.0" Y="736.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f7014" />
+      <Anchor Position="0.99" Shape="None" GraphId="ab67b" />
+      <Anchor Position="0.5" Shape="None" GraphId="cb04e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111915" />
+  </Interaction>
+  <Interaction GraphId="a169a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2231.0" Y="657.0" GraphRef="b9d08" RelX="-0.009174311926605505" RelY="1.0" />
+      <Point X="2200.0" Y="676.0" GraphRef="f7014" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111915" />
+  </Interaction>
+  <Interaction GraphId="f3dc7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2159.0" Y="671.0" GraphRef="f998f" RelX="1.0" RelY="-0.043478260869565216" />
+      <Point X="2200.0" Y="676.0" GraphRef="f7014" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111915" />
+  </Interaction>
+  <Interaction GraphId="c25a1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2169.0" Y="736.0" GraphRef="ab67b" RelX="-0.30999999999994543" RelY="0.6000000000000227" />
+      <Point X="2138.0" Y="738.0" GraphRef="fe8ff" RelX="0.9512195121951219" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111915" />
+  </Interaction>
+  <Interaction GraphId="b9429">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2169.0" Y="736.0" GraphRef="ab67b" RelX="-0.30999999999994543" RelY="0.6000000000000227" />
+      <Point X="2198.0" Y="738.0" GraphRef="e85e7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111915" />
+  </Interaction>
+  <Interaction GraphId="a47b7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2231.0" Y="657.0" GraphRef="b9d08" RelX="-0.009174311926605505" RelY="1.0" />
+      <Point X="2177.0" Y="707.0" GraphRef="cb04e" RelX="-7.5" RelY="1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111915" />
+  </Interaction>
+  <Interaction GraphId="c6ea2">
+    <Comment Source="Reactome">The cAMP-responsive element binding protein (CREB), a key regulator of gene expression, is activated by phosphorylation on Ser-133. Several different protein kinases possess the capability of driving this phosphorylation, making it a point of convergence for multiple intracellular signaling cascades. Work in neurons has indicated that physiologic synaptic stimulation recruits a fast calmodulin kinase IV (CaMKIV)-dependent pathway that dominates early signaling to CREB. Activated CaMKIV (CAMK4) phosphorylates CREB1 at S133, thereby initiating the transcription of CREB1-regulated set of genes, leading to protein synthesis and long lasting changes that underlie synaptic plasticity.</Comment>
+    <BiopaxRef>ce7</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2387.0" Y="762.0" />
+      <Point X="2371.0" Y="638.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d32c3" />
+      <Anchor Position="0.99" Shape="None" GraphId="c2180" />
+      <Anchor Position="0.5" Shape="None" GraphId="f1602" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111912" />
+  </Interaction>
+  <Interaction GraphId="f5a34">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2418.0" Y="828.0" GraphRef="e0320" RelX="-0.02040816326530612" RelY="-1.0" />
+      <Point X="2387.0" Y="762.0" GraphRef="d32c3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111912" />
+  </Interaction>
+  <Interaction GraphId="da037">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2451.0" Y="796.0" GraphRef="e4cd0" RelX="-1.0" RelY="-0.03225806451612903" />
+      <Point X="2387.0" Y="762.0" GraphRef="d32c3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111912" />
+  </Interaction>
+  <Interaction GraphId="e62cd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2371.0" Y="638.0" GraphRef="c2180" RelX="-0.15999999999985448" RelY="-1.240000000000009" />
+      <Point X="2358.0" Y="573.0" GraphRef="fc6e8" RelX="-0.009708737864077669" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111912" />
+  </Interaction>
+  <Interaction GraphId="e496e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2371.0" Y="638.0" GraphRef="c2180" RelX="-0.15999999999985448" RelY="-1.240000000000009" />
+      <Point X="2460.0" Y="596.0" GraphRef="ea911" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111912" />
+  </Interaction>
+  <Interaction GraphId="bf497">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2302.0" Y="738.0" GraphRef="e85e7" RelX="1.0" RelY="0.0" />
+      <Point X="2363.0" Y="689.0" GraphRef="f1602" RelX="-16.0" RelY="-11.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111912" />
+  </Interaction>
+  <Interaction GraphId="a5284">
+    <Comment Source="Reactome">CaMKIV (CAMK4) becomes fully activated after a three-step mechanism. In the first step, upon a transient increase in intracellular calcium, calcium-bound calmodulin (Ca2+/CaM) binds to its autoregulatory domain, which relieves intersteric inhibition (Chatila et al. 1996, Tokumitsu et al. 2004). In the second step, an activating protein kinase, calcium/calmodulin-dependent protein kinase kinase (CaMKK), binds to the Ca2+/CaM:CaMKIV complex and phosphorylates CaMKIV on a threonine residue in the activation loop (Chatila et al. 1996, Anderson et al. 1998, Tokumitsu et al. 2004). In the third step, CaMKK-phosphorylated CAMK4 autophosphorylates on two serine residues at the N-terminus (Chatila et al. 1996). After full activation by the three-step mechanism mentioned above, the activity of CaMKIV becomes autonomous and no longer requires bound Ca2+/CaM. This activity is required for CaMKIV-mediated transcriptional regulation. The CaMKIV-associated PP2A then dephosphorylates CaMKIV, thereby terminating autonomous activity and CaMKIV-mediated gene transcription.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2073.0" Y="417.0" />
+      <Point X="2131.0" Y="418.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="dfcd6" />
+      <Anchor Position="0.99" Shape="None" GraphId="a665f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111913" />
+  </Interaction>
+  <Interaction GraphId="f0837">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2076.0" Y="388.0" GraphRef="ac620" RelX="-0.0196078431372549" RelY="1.0" />
+      <Point X="2073.0" Y="417.0" GraphRef="dfcd6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111913" />
+  </Interaction>
+  <Interaction GraphId="cb159">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2024.0" Y="451.0" GraphRef="a2861" RelX="0.9801980198019802" RelY="0.0" />
+      <Point X="2073.0" Y="417.0" GraphRef="dfcd6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111913" />
+  </Interaction>
+  <Interaction GraphId="f3139">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2131.0" Y="418.0" GraphRef="a665f" RelX="0.5799999999999272" RelY="0.009999999999990905" />
+      <Point X="2134.0" Y="418.0" GraphRef="b40a1" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111913" />
+  </Interaction>
+  <Interaction GraphId="cc8a0">
+    <Comment Source="Reactome">Phosphodiesterases (PDEs) hydrolyze cAMP and cGMP, inactivating these second messengers.</Comment>
+    <BiopaxRef>f3d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1495.0" Y="561.0" />
+      <Point X="1581.0" Y="561.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bf112" />
+      <Anchor Position="0.99" Shape="None" GraphId="f878a" />
+      <Anchor Position="0.5" Shape="None" GraphId="f0db2" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111955" />
+  </Interaction>
+  <Interaction GraphId="c5d10">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1485.0" Y="594.0" GraphRef="e9cce" RelX="0.9534883720930233" RelY="-0.030303030303030304" />
+      <Point X="1495.0" Y="561.0" GraphRef="bf112" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111955" />
+  </Interaction>
+  <Interaction GraphId="e06d9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1467.0" Y="529.0" GraphRef="d61bb" RelX="0.9512195121951219" RelY="-0.03225806451612903" />
+      <Point X="1495.0" Y="561.0" GraphRef="bf112" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111955" />
+  </Interaction>
+  <Interaction GraphId="f105a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1581.0" Y="561.0" GraphRef="f878a" RelX="0.8599999999999" RelY="0.0" />
+      <Point X="1584.0" Y="561.0" GraphRef="e53b9" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111955" />
+  </Interaction>
+  <Interaction GraphId="b9a8c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1539.0" Y="487.0" GraphRef="abb16" RelX="-0.012048192771084338" RelY="0.9459459459459459" />
+      <Point X="1538.0" Y="561.0" GraphRef="f0db2" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111955" />
+  </Interaction>
+  <Interaction GraphId="a033d">
+    <Comment Source="Reactome">Increased Ca2+ levels, acting via calmodulin, can activate PDE which can then act upon cAMP.</Comment>
+    <BiopaxRef>d7b</BiopaxRef>
+    <BiopaxRef>cd6</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1367.0" Y="469.0" />
+      <Point X="1492.0" Y="469.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="accc2" />
+      <Anchor Position="0.99" Shape="None" GraphId="bfa43" />
+      <Anchor Position="0.5" Shape="None" GraphId="f3360" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111956" />
+  </Interaction>
+  <Interaction GraphId="c0b38">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1361.0" Y="469.0" GraphRef="f0741" RelX="1.0" RelY="-0.02857142857142857" />
+      <Point X="1367.0" Y="469.0" GraphRef="accc2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111956" />
+  </Interaction>
+  <Interaction GraphId="fa2f2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1492.0" Y="469.0" GraphRef="bfa43" RelX="1.25" RelY="0.0" />
+      <Point X="1498.0" Y="469.0" GraphRef="abb16" RelX="-1.0" RelY="-0.02702702702702703" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111956" />
+  </Interaction>
+  <Interaction GraphId="b2b6b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1407.0" Y="361.0" GraphRef="c3acb" RelX="0.0" RelY="1.0" />
+      <Point X="1408.0" Y="469.0" GraphRef="f3360" RelX="-21.5" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111956" />
+  </Interaction>
+  <Interaction GraphId="f5749">
+    <Comment Source="Reactome">Inositol 1,4,5-triphosphate (IP3) is a second messenger produced by phospholipase C (PLC) metabolism of phosphoinositol 4,5-bisphosphate (PIP2) (Canossa et al. 2001).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="798.0" Y="44.0" />
+      <Point X="876.0" Y="44.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f90d0" />
+      <Anchor Position="0.99" Shape="None" GraphId="bd407" />
+      <Anchor Position="0.5" Shape="None" GraphId="e891c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-167686" />
+  </Interaction>
+  <Interaction GraphId="ec319">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="775.0" Y="46.0" GraphRef="c3bb2" RelX="1.0" RelY="-0.03225806451612903" />
+      <Point X="798.0" Y="44.0" GraphRef="f90d0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-167686" />
+  </Interaction>
+  <Interaction GraphId="b29d1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="765.0" Y="95.0" GraphRef="dd0e8" RelX="0.0" RelY="-1.0" />
+      <Point X="798.0" Y="44.0" GraphRef="f90d0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-167686" />
+  </Interaction>
+  <Interaction GraphId="ab086">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="876.0" Y="44.0" GraphRef="bd407" RelX="0.7799999999999727" RelY="0.0" />
+      <Point X="877.0" Y="120.0" GraphRef="f4099" RelX="-0.011764705882352941" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-167686" />
+  </Interaction>
+  <Interaction GraphId="a448a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="876.0" Y="44.0" GraphRef="bd407" RelX="0.7799999999999727" RelY="0.0" />
+      <Point X="911.0" Y="43.0" GraphRef="d5d89" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-167686" />
+  </Interaction>
+  <Interaction GraphId="fe37c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="696.0" Y="27.0" GraphRef="e5274" RelX="1.0" RelY="0.0" />
+      <Point X="840.0" Y="44.0" GraphRef="e891c" RelX="3.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-167686" />
+  </Interaction>
+  <Interaction GraphId="b9829">
+    <Comment Source="Reactome">Diacylglycerol (DAG) positively regulates the autophosphorylation of protein kinase C-delta (PKC-delta), which stimulates ERK1/2 and triggers neurite outgrowth. DAG also stimulates the translocation of PKC from the cytosol to the plasma membrane. PKC-delta contributes to growth factor specificity and response to neuronal cells by promoting cell-type-specific differences in growth factor signalling. DAG can also activate PKC-epsilon in the same manner (Newton 2001).</Comment>
+    <BiopaxRef>d60</BiopaxRef>
+    <BiopaxRef>c14</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1090.0" Y="139.0" />
+      <Point X="1172.0" Y="139.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cdd78" />
+      <Anchor Position="0.99" Shape="None" GraphId="db776" />
+      <Anchor Position="0.5" Shape="None" GraphId="a3308" />
+      <Anchor Position="0.5" Shape="None" GraphId="cb2d9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198314" />
+  </Interaction>
+  <Interaction GraphId="af12f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1074.0" Y="90.0" GraphRef="cd518" RelX="0.9823008849557522" RelY="0.0" />
+      <Point X="1090.0" Y="139.0" GraphRef="cdd78" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198314" />
+  </Interaction>
+  <Interaction GraphId="b8e07">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1049.0" Y="181.0" GraphRef="f8ef5" RelX="1.0" RelY="0.0" />
+      <Point X="1090.0" Y="139.0" GraphRef="cdd78" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198314" />
+  </Interaction>
+  <Interaction GraphId="ae24c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1172.0" Y="139.0" GraphRef="db776" RelX="0.8199999999999363" RelY="0.0" />
+      <Point X="1169.0" Y="94.0" GraphRef="ef9a0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198314" />
+  </Interaction>
+  <Interaction GraphId="e76cc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1172.0" Y="139.0" GraphRef="db776" RelX="0.8199999999999363" RelY="0.0" />
+      <Point X="1194.0" Y="184.0" GraphRef="a844b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198314" />
+  </Interaction>
+  <Interaction GraphId="bec7e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1074.0" Y="90.0" GraphRef="cd518" RelX="0.9823008849557522" RelY="0.0" />
+      <Point X="1140.0" Y="139.0" GraphRef="a3308" RelX="9.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198314" />
+  </Interaction>
+  <Interaction GraphId="d31e5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="973.0" Y="43.0" GraphRef="d5d89" RelX="0.9682539682539683" RelY="0.0" />
+      <Point X="1140.0" Y="139.0" GraphRef="cb2d9" RelX="9.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-198314" />
+  </Interaction>
+  <Interaction GraphId="bede6">
+    <Comment Source="Reactome">The IP3 receptor (IP3R) is an IP3-gated calcium channel. It is a large, homotetrameric protein, similar to other calcium channel proteins such as ryanodine. The four subunits form a 'four-leafed clover' structure arranged around the central calcium channel. Binding of ligands such as IP3 results in conformational changes in the receptor's structure that leads to channel opening.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="834.0" Y="284.0" />
+      <Point X="873.0" Y="284.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c0ef8" />
+      <Anchor Position="0.99" Shape="None" GraphId="d810d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169680" />
+  </Interaction>
+  <Interaction GraphId="a4407">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="877.0" Y="148.0" GraphRef="f4099" RelX="-0.011764705882352941" RelY="1.0" />
+      <Point X="834.0" Y="284.0" GraphRef="c0ef8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169680" />
+  </Interaction>
+  <Interaction GraphId="adc43">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="817.0" Y="288.0" GraphRef="b8c2a" RelX="0.981651376146789" RelY="-0.02564102564102564" />
+      <Point X="834.0" Y="284.0" GraphRef="c0ef8" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169680" />
+  </Interaction>
+  <Interaction GraphId="bb62c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="873.0" Y="284.0" GraphRef="d810d" RelX="0.38999999999998636" RelY="0.0" />
+      <Point X="876.0" Y="283.0" GraphRef="a63d3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169680" />
+  </Interaction>
+  <Interaction GraphId="ec50e">
+    <Comment Source="Reactome">IP3 promotes the release of intracellular calcium.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="922.0" Y="354.0" />
+      <Point X="1123.0" Y="349.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fcd96" />
+      <Anchor Position="0.99" Shape="None" GraphId="b9038" />
+      <Anchor Position="0.5" Shape="None" GraphId="b9c11" />
+      <Anchor Position="0.5" Shape="None" GraphId="df30d" />
+      <Anchor Position="0.5" Shape="None" GraphId="f8437" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169683" />
+  </Interaction>
+  <Interaction GraphId="c3b4e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="919.0" Y="356.0" GraphRef="e1695" RelX="1.0" RelY="0.0" />
+      <Point X="922.0" Y="354.0" GraphRef="fcd96" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169683" />
+  </Interaction>
+  <Interaction GraphId="e74de">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1123.0" Y="349.0" GraphRef="b9038" RelX="2.009999999999991" RelY="-0.05000000000001137" />
+      <Point X="1126.0" Y="349.0" GraphRef="b885f" RelX="-1.0" RelY="-0.03225806451612903" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169683" />
+  </Interaction>
+  <Interaction GraphId="e1323">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="933.0" Y="306.0" GraphRef="a63d3" RelX="-0.008695652173913044" RelY="1.0" />
+      <Point X="1043.0" Y="351.0" GraphRef="b9c11" RelX="20.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169683" />
+  </Interaction>
+  <Interaction GraphId="a1d3e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="877.0" Y="433.0" GraphRef="eb093" RelX="-0.009174311926605505" RelY="-1.0" />
+      <Point X="1043.0" Y="351.0" GraphRef="df30d" RelX="20.5" RelY="-0.5" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169683" />
+  </Interaction>
+  <Interaction GraphId="d8e7a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="877.0" Y="148.0" GraphRef="f4099" RelX="-0.011764705882352941" RelY="1.0" />
+      <Point X="1043.0" Y="351.0" GraphRef="f8437" RelX="20.5" RelY="-0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-169683" />
+  </Interaction>
+  <Interaction GraphId="a083c">
+    <Comment Source="Reactome">ADRBK1 (also known as GRK2) is phosphorylated at serine 29 in vitro and in vivo by the alpha, gamma and delta isoforms of PKC.  PKC-mediated phosphorylation at Ser29 increases ADRBK1 kinase activity towards GPCR substrates, contributing to GPCR desensitization.  Phosphorylation at Ser29, which falls within the calmodulin-binding region of ADRBK1, abolishes the inhibitory effect of calmodulin on ADRBK1 kinase activity.</Comment>
+    <BiopaxRef>ff1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1472.0" Y="182.0" />
+      <Point X="1542.0" Y="182.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b539c" />
+      <Anchor Position="0.99" Shape="None" GraphId="a89d7" />
+      <Anchor Position="0.5" Shape="None" GraphId="ad83d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111970" />
+  </Interaction>
+  <Interaction GraphId="f09f0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1453.0" Y="218.0" GraphRef="dcd28" RelX="0.0" RelY="-1.0" />
+      <Point X="1472.0" Y="182.0" GraphRef="b539c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111970" />
+  </Interaction>
+  <Interaction GraphId="c33a0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1437.0" Y="51.0" GraphRef="e8a33" RelX="-0.017543859649122806" RelY="1.0" />
+      <Point X="1472.0" Y="182.0" GraphRef="b539c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111970" />
+  </Interaction>
+  <Interaction GraphId="f22ec">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1542.0" Y="182.0" GraphRef="a89d7" RelX="0.7000000000000455" RelY="0.0" />
+      <Point X="1586.0" Y="182.0" GraphRef="e1332" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111970" />
+  </Interaction>
+  <Interaction GraphId="de133">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1542.0" Y="182.0" GraphRef="a89d7" RelX="0.7000000000000455" RelY="0.0" />
+      <Point X="1570.0" Y="219.0" GraphRef="df70d" RelX="-0.024390243902439025" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111970" />
+  </Interaction>
+  <Interaction GraphId="e3e96">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1470.0" Y="135.0" GraphRef="ca6fd" RelX="-1.0" RelY="0.0" />
+      <Point X="1514.0" Y="182.0" GraphRef="ad83d" RelX="7.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111970" />
+  </Interaction>
+  <Interaction GraphId="f9b18">
+    <Comment Source="Reactome">Protein kinase A (PKA) regulatory subunit isoforms differ in their tissue specificity and functional characteristics. The isoform activated in response to glucagon signaling is not known. &lt;br&gt;&lt;br&gt;PKA kinase is a tetramer of two regulatory and two catalytic subunits. The regulatory subunits block the activity of the catalytic subunits. &lt;br&gt;&lt;br&gt;cAMP binds the regulatory subunits, which leads to dissociation of the tetramer into two active dimers made up of a regulatory and a catalytic subunit.</Comment>
+    <BiopaxRef>f14</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1991.0" Y="211.0" />
+      <Point X="2065.0" Y="180.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b13b7" />
+      <Anchor Position="0.99" Shape="None" GraphId="a7ada" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8951727" />
+  </Interaction>
+  <Interaction GraphId="bf49c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1929.0" Y="187.0" GraphRef="b1351" RelX="0.9607843137254902" RelY="-0.030303030303030304" />
+      <Point X="1991.0" Y="211.0" GraphRef="b13b7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8951727" />
+  </Interaction>
+  <Interaction GraphId="bec47">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1948.0" Y="240.0" GraphRef="d708f" RelX="1.0" RelY="0.0" />
+      <Point X="1991.0" Y="211.0" GraphRef="b13b7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8951727" />
+  </Interaction>
+  <Interaction GraphId="b89a3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2065.0" Y="180.0" GraphRef="a7ada" RelX="0.7399999999997817" RelY="-0.3100000000000023" />
+      <Point X="2090.0" Y="177.0" GraphRef="d1b75" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8951727" />
+  </Interaction>
+  <Interaction GraphId="ffdb8">
+    <Comment Source="Reactome">Activated CaMKKs, CAMKK1 (CaMKK-alpha) and CAMKK2 (CaMKK-beta), phosphorylate calmodulin-bound CAMK4 (CaMKIV) on evolutionarily conserved threonine residue T200 (Chatila et al. 1996, Anderson et al. 1998, Tokumitsu et al. 2004).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2184.0" Y="458.0" />
+      <Point X="2185.0" Y="525.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ad055" />
+      <Anchor Position="0.99" Shape="None" GraphId="cf139" />
+      <Anchor Position="0.5" Shape="None" GraphId="bd750" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619125" />
+  </Interaction>
+  <Interaction GraphId="a45fc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2184.0" Y="436.0" GraphRef="b40a1" RelX="-0.009900990099009901" RelY="1.0" />
+      <Point X="2184.0" Y="458.0" GraphRef="ad055" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619125" />
+  </Interaction>
+  <Interaction GraphId="e5097">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2206.0" Y="470.0" GraphRef="bf752" RelX="-1.0" RelY="0.0" />
+      <Point X="2184.0" Y="458.0" GraphRef="ad055" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619125" />
+  </Interaction>
+  <Interaction GraphId="e48be">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2185.0" Y="525.0" GraphRef="cf139" RelX="0.010000000000218279" RelY="0.6699999999999591" />
+      <Point X="2210.0" Y="536.0" GraphRef="a36a5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619125" />
+  </Interaction>
+  <Interaction GraphId="b4c26">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2185.0" Y="525.0" GraphRef="cf139" RelX="0.010000000000218279" RelY="0.6699999999999591" />
+      <Point X="2231.0" Y="621.0" GraphRef="b9d08" RelX="-0.009174311926605505" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619125" />
+  </Interaction>
+  <Interaction GraphId="b1980">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2141.0" Y="473.0" GraphRef="f2187" RelX="0.9823008849557522" RelY="0.0" />
+      <Point X="2181.0" Y="494.0" GraphRef="bd750" RelX="-3.5" RelY="2.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619125" />
+  </Interaction>
+  <Interaction GraphId="bb550">
+    <Comment Source="Reactome">CAMK4 (CaMKIV) forms a complex with KPNA2 (Importin alpha-1). Importin beta is not required for the formation of this complex, but interferes with CAMK4 binding to KPNA2 (Kotera et al. 2005).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1644.0" Y="377.0" />
+      <Point X="1721.0" Y="377.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bbd24" />
+      <Anchor Position="0.99" Shape="None" GraphId="ab3ba" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619127" />
+  </Interaction>
+  <Interaction GraphId="ce4a3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1607.0" Y="333.0" GraphRef="f862d" RelX="0.9607843137254902" RelY="0.0" />
+      <Point X="1644.0" Y="377.0" GraphRef="bbd24" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619127" />
+  </Interaction>
+  <Interaction GraphId="bee8a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1596.0" Y="397.0" GraphRef="e9131" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="1644.0" Y="377.0" GraphRef="bbd24" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619127" />
+  </Interaction>
+  <Interaction GraphId="d5538">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1721.0" Y="377.0" GraphRef="ab3ba" RelX="0.7699999999999818" RelY="0.0" />
+      <Point X="1724.0" Y="377.0" GraphRef="a9505" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9619127" />
+  </Interaction>
+  <Interaction GraphId="abdca">
+    <Comment Source="Reactome">Autophosphorylated, calmodulin-bound CaMKII-gamma (CAMK2G) translocates to the nucleus (Ma et al. 2014, Cohen et al. 2018). Translocation of CaMKII-gamma to the nucleus is positively regulated by activated CaMKII-beta through an unknown mechanism (Ma et al. 2014).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1643.0" Y="721.0" />
+      <Point X="1984.0" Y="779.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f6b8d" />
+      <Anchor Position="0.99" Shape="None" GraphId="c7e18" />
+      <Anchor Position="0.5" Shape="None" GraphId="bffe7" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444792" />
+  </Interaction>
+  <Interaction GraphId="ea2e2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1639.0" Y="722.0" GraphRef="a6e38" RelX="0.983739837398374" RelY="0.0" />
+      <Point X="1643.0" Y="721.0" GraphRef="f6b8d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444792" />
+  </Interaction>
+  <Interaction GraphId="cfb64">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1984.0" Y="779.0" GraphRef="c7e18" RelX="3.4099999999998545" RelY="0.5800000000000409" />
+      <Point X="1967.0" Y="807.0" GraphRef="ce1e5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444792" />
+  </Interaction>
+  <Interaction GraphId="e33d7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1688.0" Y="673.0" GraphRef="dd677" RelX="-0.008130081300813009" RelY="1.0" />
+      <Point X="1874.0" Y="719.0" GraphRef="bffe7" RelX="60.5" RelY="-31.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-444792" />
+  </Interaction>
+  <Interaction GraphId="af1a7">
+    <Comment Source="Reactome">CaMKII is fully activated upon binding to the complex of calcium and calmodulin (CALM1:4xCa2+), which forms upon influx of calcium ions through activated NMDA receptors. Autophosphorylation increases the affinity of CaMKII for the active calmodulin (CALM1:4xCa2+) (Meyer et al. 1992).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1243.0" Y="446.0" />
+      <Point X="1233.0" Y="580.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="eba90" />
+      <Anchor Position="0.99" Shape="None" GraphId="e5f7a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442725" />
+  </Interaction>
+  <Interaction GraphId="e0d97">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1344.0" Y="350.0" GraphRef="c3acb" RelX="-1.0" RelY="0.0" />
+      <Point X="1243.0" Y="446.0" GraphRef="eba90" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442725" />
+  </Interaction>
+  <Interaction GraphId="c0d71">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1193.0" Y="421.0" GraphRef="f4203" RelX="1.0" RelY="-0.047619047619047616" />
+      <Point X="1243.0" Y="446.0" GraphRef="eba90" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442725" />
+  </Interaction>
+  <Interaction GraphId="ef148">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1233.0" Y="580.0" GraphRef="e5f7a" RelX="-0.09999999999990905" RelY="1.3400000000000318" />
+      <Point X="1235.0" Y="583.0" GraphRef="f7969" RelX="-0.008" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442725" />
+  </Interaction>
+  <Interaction GraphId="e7e6a">
+    <Comment Source="Reactome">Binding of the complex of calcium and calmodulin (CALM1:4xCa2+) to CaMKII dodecamer, upon calcium influx through activated NMDA receptors, activates the kinase activity of CaMKII, leading to CaMKII autophosphorylation on threonine residue T286 (T286 in the alpha isoform of CaMKII corresponds to T287 in the beta isoforms of CaMKII). Autophosphorylation increases the affinity of CaMKII for calmodulin, but once autophosphorylated, CaMKII remains partially catalytically active even after dissociation of calmodulin (Schworer et al. 1986, Meyer et al. 1992).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1302.0" Y="658.0" />
+      <Point X="1395.0" Y="693.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b1bb2" />
+      <Anchor Position="0.99" Shape="None" GraphId="c155d" />
+      <Anchor Position="0.5" Shape="None" GraphId="dc6fa" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9617583" />
+  </Interaction>
+  <Interaction GraphId="cbe42">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1297.0" Y="601.0" GraphRef="f7969" RelX="0.984" RelY="0.0" />
+      <Point X="1302.0" Y="658.0" GraphRef="b1bb2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9617583" />
+  </Interaction>
+  <Interaction GraphId="e3ac7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1263.0" Y="707.0" GraphRef="fee49" RelX="0.9512195121951219" RelY="-0.04" />
+      <Point X="1302.0" Y="658.0" GraphRef="b1bb2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9617583" />
+  </Interaction>
+  <Interaction GraphId="c4d15">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1395.0" Y="693.0" GraphRef="c155d" RelX="0.9300000000000637" RelY="0.35000000000002274" />
+      <Point X="1491.0" Y="655.0" GraphRef="de229" RelX="-1.0" RelY="-0.02040816326530612" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9617583" />
+  </Interaction>
+  <Interaction GraphId="ad6e1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1395.0" Y="693.0" GraphRef="c155d" RelX="0.9300000000000637" RelY="0.35000000000002274" />
+      <Point X="1417.0" Y="739.0" GraphRef="f1c61" RelX="-0.02564102564102564" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9617583" />
+  </Interaction>
+  <Interaction GraphId="b6f3d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1297.0" Y="601.0" GraphRef="f7969" RelX="0.984" RelY="0.0" />
+      <Point X="1355.0" Y="676.0" GraphRef="dc6fa" RelX="6.5" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9617583" />
+  </Interaction>
+  <Interaction GraphId="a653d">
+    <Comment Source="Reactome">In the nucleus, activated calmodulin (CALM1:4xCa2+) dissociates from CaMKII-gamma (p-T287-CAMK2G dodecamer) (Ma et al. 2014, Cohen et al. 2018).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2026.0" Y="779.0" />
+      <Point X="1966.0" Y="644.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c32f7" />
+      <Anchor Position="0.99" Shape="None" GraphId="ec3f7" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9618834" />
+  </Interaction>
+  <Interaction GraphId="f8020">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2028.0" Y="782.0" GraphRef="ce1e5" RelX="-0.008130081300813009" RelY="-1.0" />
+      <Point X="2026.0" Y="779.0" GraphRef="c32f7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9618834" />
+  </Interaction>
+  <Interaction GraphId="a9f22">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1966.0" Y="644.0" GraphRef="ec3f7" RelX="-0.599999999999909" RelY="-1.3500000000000227" />
+      <Point X="1974.0" Y="462.0" GraphRef="a2861" RelX="-0.009900990099009901" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9618834" />
+  </Interaction>
+  <Interaction GraphId="f0b44">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1966.0" Y="644.0" GraphRef="ec3f7" RelX="-0.599999999999909" RelY="-1.3500000000000227" />
+      <Point X="1958.0" Y="679.0" GraphRef="bfb0f" RelX="-0.012987012987012988" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9618834" />
+  </Interaction>
+  <Interaction GraphId="c8670">
+    <Comment Source="Reactome">Two isoforms of CaMKK, CAMKK1 (CaMKK alpha) and CAMKK2 (CaMKK beta) are expressed in the brain and involved in signaling downstream of the NMDA receptor (Schmitt et al. 2005, Mairet-Coello et al. 2013). CAMKK1 (Lee et al. 2010) and CAMKK2 (Kylarova et al. 2018) become catalytically active upon binding to the calcium-bound calmodulin (CALM1:4xCa2+). Calcium-bound calmodulin needs to translocate to the nucleus for CaMKK activation that precedes CAMK4 phosphorylation in glutamatergic neurons (Ma et al. 2014).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2012.0" Y="554.0" />
+      <Point X="2068.0" Y="596.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b263e" />
+      <Anchor Position="0.99" Shape="None" GraphId="c3a39" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9618863" />
+  </Interaction>
+  <Interaction GraphId="d91af">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1974.0" Y="462.0" GraphRef="a2861" RelX="-0.009900990099009901" RelY="1.0" />
+      <Point X="2012.0" Y="554.0" GraphRef="b263e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9618863" />
+  </Interaction>
+  <Interaction GraphId="e7447">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2007.0" Y="611.0" GraphRef="db8a9" RelX="0.0" RelY="-1.0" />
+      <Point X="2012.0" Y="554.0" GraphRef="b263e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9618863" />
+  </Interaction>
+  <Interaction GraphId="be4a8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2068.0" Y="596.0" GraphRef="c3a39" RelX="0.5599999999999454" RelY="0.4199999999999591" />
+      <Point X="2062.0" Y="617.0" GraphRef="ae9f9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9618863" />
+  </Interaction>
+  <Interaction GraphId="a232c">
+    <Comment Source="Reactome">Both isoforms of CaMKK, CAMKK1 (CaMKK-alpha) and CAMKK2 (CaMKK-beta) are fully activated upon autophosphorylation, which, under physiological conditions, takes places after binding to the Ca2+/calmodulin complex (CALM1:4xCa2+) (Okuno et al. 1997, Yamamori et al. 2004). While several autophosphorylation sites in both CAMKK1 and CAMKK2 have been reported, it is not clear whether these sites are calmodulin-dependent and physiologically relevant (Tokumitsu et al. 2011, Scott et al. 2015). CAMKK1 is negatively regulated by phosphorylation of S74 and T108 by PKA. Constitutive phosphorylation of CAMKK2 by GSK3B and CDK5 may be required to prevent calmodulin-independent phosphorylation (Green et al. 2011). Once activated, CaMKK phosphorylates CaMKIV in a Ca2+/Calmodulin dependent manner (Yamamori et al. 2004). Because of uncertain localization of CaMKKs (Nakamura et al. 1996, Sakagami et al. 2000, Nakamura et al. 2001, Kitani et al. 2003), CaMKK autophosphorylation may occur in the nucleus, or in the cytosol, or in both cellular compartments.</Comment>
+    <BiopaxRef>fee</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2104.0" Y="576.0" />
+      <Point X="2099.0" Y="514.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c8ad7" />
+      <Anchor Position="0.99" Shape="None" GraphId="c4db8" />
+      <Anchor Position="0.5" Shape="None" GraphId="e0765" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442749" />
+  </Interaction>
+  <Interaction GraphId="bae10">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2111.0" Y="599.0" GraphRef="ae9f9" RelX="0.0" RelY="-1.0" />
+      <Point X="2104.0" Y="576.0" GraphRef="c8ad7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442749" />
+  </Interaction>
+  <Interaction GraphId="b8869">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2130.0" Y="577.0" GraphRef="bc66f" RelX="-1.0" RelY="0.0" />
+      <Point X="2104.0" Y="576.0" GraphRef="c8ad7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442749" />
+  </Interaction>
+  <Interaction GraphId="efe00">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2099.0" Y="514.0" GraphRef="c4db8" RelX="-0.0500000000001819" RelY="-0.6200000000000045" />
+      <Point X="2126.0" Y="518.0" GraphRef="c6253" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442749" />
+  </Interaction>
+  <Interaction GraphId="df200">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2099.0" Y="514.0" GraphRef="c4db8" RelX="-0.0500000000001819" RelY="-0.6200000000000045" />
+      <Point X="2085.0" Y="491.0" GraphRef="f2187" RelX="-0.008849557522123894" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442749" />
+  </Interaction>
+  <Interaction GraphId="b3f4e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2111.0" Y="599.0" GraphRef="ae9f9" RelX="0.0" RelY="-1.0" />
+      <Point X="2100.0" Y="550.0" GraphRef="e0765" RelX="-1.5" RelY="5.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-442749" />
+  </Interaction>
+  <Interaction GraphId="dabcd">
+    <Comment Source="Reactome">NBEA (neurobeachin) binds to the regulatory subunit of PKA, PRKAR2A (PKA RIIalpha). This binding may be involved in localizing PKA to specific subcellular regions, e.g. postsynaptic density in neurons (Wang et al. 2000), but the experimental evidence is not conclusive. Mice that are heterozygous for NBEA gene knockout have NBEA haploinsufficiency and show aberrant PKA activity and changes in platelet morphology (Nuytens et al. 2013). PRKAR2A-binding domain of NBEA is not essential for NBEA-mediated targeting of glutamate and GABA receptors to the synapse (Farzana et al. 2016).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2051.0" Y="121.0" />
+      <Point X="2130.0" Y="115.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ea274" />
+      <Anchor Position="0.99" Shape="None" GraphId="c7a79" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9668558" />
+  </Interaction>
+  <Interaction GraphId="f1d1b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1993.0" Y="103.0" GraphRef="c5568" RelX="1.0" RelY="0.0" />
+      <Point X="2051.0" Y="121.0" GraphRef="ea274" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9668558" />
+  </Interaction>
+  <Interaction GraphId="f661f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2034.0" Y="94.0" GraphRef="edc54" RelX="0.0" RelY="1.0" />
+      <Point X="2051.0" Y="121.0" GraphRef="ea274" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9668558" />
+  </Interaction>
+  <Interaction GraphId="f0ce8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2130.0" Y="115.0" GraphRef="c7a79" RelX="0.7899999999999636" RelY="-0.060000000000002274" />
+      <Point X="2133.0" Y="112.0" GraphRef="b4e83" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9668558" />
+  </Interaction>
+  <Interaction GraphId="a6b23">
+    <Comment Source="Reactome">The protein kinase A (PKA) regulatory subunit isoforms differ in their tissue specificity and functional characteristics. The specific isoform activated in response to glucagon signaling is not known. The PKA kinase is a tetramer of two regulatory and two catalytic subunits. The regulatory subunits block the catalytic subunits. Binding of cAMP to the regulatory subunit triggers dissociation of the tetramer into two active dimers made up of a regulatory and a catalytic subunit.</Comment>
+    <BiopaxRef>f14</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2138.0" Y="158.0" />
+      <Point X="2252.0" Y="158.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e80fd" />
+      <Anchor Position="0.99" Shape="None" GraphId="e0718" />
+      <Anchor Position="0.5" Shape="None" GraphId="ab85b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111925" />
+  </Interaction>
+  <Interaction GraphId="e8ff2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2135.0" Y="159.0" GraphRef="d1b75" RelX="1.0" RelY="0.0" />
+      <Point X="2138.0" Y="158.0" GraphRef="e80fd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111925" />
+  </Interaction>
+  <Interaction GraphId="d8299">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2252.0" Y="158.0" GraphRef="e0718" RelX="1.1399999999998727" RelY="0.0" />
+      <Point X="2271.0" Y="214.0" GraphRef="ff496" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111925" />
+  </Interaction>
+  <Interaction GraphId="f2588">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2252.0" Y="158.0" GraphRef="e0718" RelX="1.1399999999998727" RelY="0.0" />
+      <Point X="2285.0" Y="120.0" GraphRef="a8fe9" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111925" />
+  </Interaction>
+  <Interaction GraphId="b9cbc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="2135.0" Y="159.0" GraphRef="d1b75" RelX="1.0" RelY="0.0" />
+      <Point X="2187.0" Y="158.0" GraphRef="ab85b" RelX="-8.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-111925" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="d9ca6" GroupRef="c31b1">
+    <Graphics CenterX="620.0" CenterY="803.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="d94a3" GroupRef="db817">
+    <Graphics CenterX="1954.5" CenterY="879.5" Width="99.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="endoplasmic reticulum lumen" GraphId="dfa86" GroupRef="c6a08">
+    <Graphics CenterX="849.5" CenterY="408.5" Width="203.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="c8d7a" GroupRef="c31b1">
+    <Graphics CenterX="1604.0" CenterY="507.5" Width="2090.0" Height="971.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c4596" GroupRef="db817">
+    <Graphics CenterX="2234.0" CenterY="603.0" Width="740.0" Height="618.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="d0e8a" GroupRef="c6a08">
+    <Graphics CenterX="847.0" CenterY="371.5" Width="258.0" Height="175.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="c809d" GraphId="dc762" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-74294" />
+  </Group>
+  <Group GroupId="c6db3" GraphId="a2b33" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-111965" />
+  </Group>
+  <Group GroupId="cb1f1" GraphId="dd9f0">
+    <Attribute Key="complex_id" Value="R-HSA-111917" />
+  </Group>
+  <Group GroupId="ff5e3" GraphId="abf53" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-111911" />
+  </Group>
+  <Group GroupId="aec8a" GraphId="ed53b" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-170665" />
+  </Group>
+  <Group GroupId="db34b" GraphId="e624b">
+    <Attribute Key="complex_id" Value="R-HSA-111920" />
+  </Group>
+  <Group GroupId="e48d9" GraphId="fd616" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-111923" />
+  </Group>
+  <Group GroupId="ce38f" GraphId="ead7c" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-112281" />
+  </Group>
+  <Group GroupId="b3be4" GraphId="cb7d7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-111904" />
+  </Group>
+  <Group GroupId="c8030" GraphId="bfed1">
+    <Attribute Key="complex_id" Value="R-HSA-111952" />
+  </Group>
+  <Group GroupId="f5fd0" GraphId="a8415">
+    <Attribute Key="complex_id" Value="R-HSA-198276" />
+  </Group>
+  <Group GroupId="a0732" GraphId="ff78d">
+    <Attribute Key="complex_id" Value="R-HSA-198265" />
+  </Group>
+  <Group GroupId="e9bf1" GraphId="d1d9d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-169686" />
+  </Group>
+  <Group GroupId="f1fb9" GraphId="e01e6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-169696" />
+  </Group>
+  <Group GroupId="fde02" GraphId="f097d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-112002" />
+  </Group>
+  <Group GroupId="ff6b1" GraphId="deeb7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-5226920" />
+  </Group>
+  <Group GroupId="cbfc3" GraphId="f69bc" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8951729" />
+  </Group>
+  <Group GroupId="d1a19" GraphId="cbd5e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-111922" />
+  </Group>
+  <Group GroupId="bf12c" GraphId="eee99">
+    <Attribute Key="complex_id" Value="R-HSA-9014905" />
+  </Group>
+  <Group GroupId="e07ab" GraphId="c18b7">
+    <Attribute Key="complex_id" Value="R-HSA-9615387" />
+  </Group>
+  <Group GroupId="e31cd" GraphId="ce1e8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9619140" />
+  </Group>
+  <Group GroupId="c4d42" GraphId="a5b53" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9619152" />
+  </Group>
+  <Group GroupId="a0651" GraphId="fcece" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-629658" />
+  </Group>
+  <Group GroupId="e00fe" GraphId="ce61f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9618956" />
+  </Group>
+  <Group GroupId="acb0f" GraphId="fb4bf" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9618775" />
+  </Group>
+  <Group GroupId="deedd" GraphId="e3055" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9618760" />
+  </Group>
+  <Group GroupId="e1822" GraphId="a0992" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9624331" />
+  </Group>
+  <Group GroupId="fcd88" GraphId="b81d9" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9611355" />
+  </Group>
+  <Group GroupId="b6c76" GraphId="d29ff" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9617587" />
+  </Group>
+  <Group GroupId="a9e61" GraphId="c2ebc" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9617582" />
+  </Group>
+  <Group GroupId="f5473" GraphId="dd884" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9618773" />
+  </Group>
+  <Group GroupId="a3ec8" GraphId="eb0a0">
+    <Attribute Key="complex_id" Value="R-HSA-9618862" />
+  </Group>
+  <Group GroupId="df2d8" GraphId="a68e7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9618860" />
+  </Group>
+  <Group GroupId="efb97" GraphId="c3089" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9668559" />
+  </Group>
+  <Group GroupId="c31b1" GraphId="a6430" Style="Group" />
+  <Group GroupId="db817" GraphId="e258c" Style="Group" />
+  <Group GroupId="c6a08" GraphId="af3c8" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f8f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16260143</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phospholipase C-gamma: diverse roles in receptor-mediated calcium signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patterson RL, van Rossum DB, Nikolaidis N, Gill DL, Snyder SH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e35">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7526403</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subunit 2 (or beta) of retinal rod cGMP-gated cation channel is a component of the 240-kDa channel-associated protein and mediates Ca(2+)-calmodulin modulation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen TY, Illing M, Molday LL, Hsu YT, Yau KW, Molday RS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b8d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9588823</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resting distribution and stimulated translocation of protein kinase C isoforms alpha, epsilon and zeta in response to bradykinin and TNF in human endothelial cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ross D, Joyner WL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8910504</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhibition of G protein-coupled receptor kinase subtypes by Ca2+/calmodulin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chuang TT, Paolucci L, De Blasi A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11042191</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phosphorylation of GRK2 by protein kinase C abolishes its inhibition by calmodulin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krasel C, Dammeier S, Winstel R, Brockmann J, Mischak H, Lohse MJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9753452</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localization of the sites for Ca2+-binding proteins on G protein-coupled receptor kinases.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levay K, Satpaev DK, Pronin AN, Benovic JL, Slepak VZ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d0d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2573431</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclic AMP stimulates somatostatin gene transcription by phosphorylation of CREB at serine 133.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gonzalez GA, Montminy MR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ebc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19244110</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGS17, an overexpressed gene in human lung and prostate cancer, induces tumor cell proliferation through the cyclic AMP-PKA-CREB pathway.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James MA, Lu Y, Liu Y, Vikis HG, You M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a97">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17908236</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Down-regulation of cAMP-dependent protein kinase by over-activated calpain in Alzheimer disease brain.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liang Z, Liu F, Grundke-Iqbal I, Iqbal K, Gong CX.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12150772</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impairment of cerebral cAMP-mediated signal transduction system and of spatial memory function after microsphere embolism in rats.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagakura A, Takagi N, Takeo S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f23">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15879576</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Profiles of PrKX expression in developmental mouse embryo and human tissues.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li W, Yu ZX, Kotin RM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f98">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12082174</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRKX, a phylogenetically and functionally distinct cAMP-dependent protein kinase, activates renal epithelial cell migration and morphogenesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li X, Li HP, Amsler K, Hyink D, Wilson PD, Burrow CR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a2d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9733829</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adeno-associated virus Rep78 protein interacts with protein kinase A and its homolog PRKX and inhibits CREB-dependent transcriptional activation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Di Pasquale G, Stacey SN.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10075700</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calmodulin-binding sites on adenylyl cyclase type VIII.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gu C, Cooper DM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16613843</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The role of calmodulin recruitment in Ca2+ stimulation of adenylyl cyclase type 8.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simpson RE, Ciruela A, Cooper DMF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8702940</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unique phosphorylation-dependent mechanism for the activation of Ca2+/calmodulin-dependent protein kinase type IV/GR.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chatila T, Anderson KA, Ho N, Means AR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19001277</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of the Ca2+/calmodulin-dependent protein kinase type IV in dopaminoceptive neurons enhances behavioral effects of cocaine.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilbao A, Parkitna JR, Engblom D, Perreau-Lenz S, Sanchis-Segura C, Schneider M, Konopka W, Westphal M, Breen G, Desrivieres S, Klugmann M, Guindalini C, Vallada H, Laranjeira R, de Fonseca FR, Schumann G, Schütz G, Spanagel R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f3d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17726023</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclic nucleotide phosphodiesterase PDE1C1 in human cardiac myocytes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vandeput F, Wolda SL, Krall J, Hambleton R, Uher L, McCaw KN, Radwanski PB, Florio V, Movsesian MA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15272012</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sustained entry of Ca2+ is required to activate Ca2+-calmodulin-dependent phosphodiesterase 1A.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goraya TA, Masada N, Ciruela A, Cooper DM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18335582</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kinetic properties of Ca2+/calmodulin-dependent phosphodiesterase isoforms dictate intracellular cAMP dynamics in response to elevation of cytosolic Ca2+.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goraya TA, Masada N, Ciruela A, Willoughby D, Clynes MA, Cooper DM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d60">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11749377</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein kinase C: structural and spatial regulation by phosphorylation, cofactors, and macromolecular interactions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newton AC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c14">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16678913</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PKD at the crossroads of DAG and PKC signaling.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang QJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f14">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16407073</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dynamic binding of PKA regulatory subunit RI alpha.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gullingsrud J, Kim C, Taylor SS, McCammon JA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15591024</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcium/calmodulin kinase IV pathway is involved in the transcriptional regulation of the corticotropin-releasing hormone gene promoter in neuronal cells.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yamamori E, Asai M, Yoshida M, Takano K, Itoi K, Oiso Y, Iwasaki Y.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Biosynthesis of electrophilic Ï‰-3 PUFA oxo-derivatives" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Electrophilic oxo-derivatives of Ï‰-3 polyunsaturated fatty acids (Ï‰-3 PUFAs) are generated in macrophages and neutrophils in response to inflammation and oxidative stress to promote the resolution of inflammation. Being electrophilic, these derivatives reversibly bind to nucleophilic residues on target proteins (thiolates of cysteines and amino groups of histidine and lysine), triggering the activation of cytoprotective pathways. These include the Nrf2 antioxidant response, the heat shock response and the peroxisome proliferator activated receptor Î³ (PPARÎ³) and suppressing the NF-ÎºB proinflammatory pathway (Cipollina 2015). Thus, these electrophilic derivatives transduce anti-inflammatory actions rather than suppress the production of pro-inflammatory arachidonic acid metabolites. An oxo-derivative of EPA has been shown to ablate leukemia stem cells in mice, which may represent a novel chemoprotective action for some oxo-derivatives (Hedge et al. 2011, Finch et al. 2015). In humans, dietary supplementation with Ï‰-3 PUFAs has been reported to increase the formation of oxo-derivatives (Yates et al. 2014). The enzymes cyclooxygenases (COX), lipoxygenases (LOs) and cytochromes P450s, acting alone or in concerted transcellular biosynthesis, initially form epoxy or hydroxy intermediates of Ï‰-3 PUFAs docosahexaenoic acid (DHA), docosapentaenoic acid (DPAn-3) and eicosapentaenoic acid (EPA) before these are further oxidised to electrophilic Î±,Î²-unsaturated keto-derivatives by cellular dehydrogenases.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=9027604 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 9027604</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Jassal, Bijay</Comment>
+  <BiopaxRef>c38</BiopaxRef>
+  <Attribute Key="reactome_id" Value="9027604" />
+  <Graphics BoardWidth="1148.0" BoardHeight="1957.0" />
+  <DataNode TextLabel="O2" GraphId="e40e2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="190.0" CenterY="169.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="DHA" GraphId="d4fc0" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="101.5" CenterY="166.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:77016" />
+  </DataNode>
+  <DataNode TextLabel="13-HDHA" GraphId="b4451" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="375.0" CenterY="126.0" Width="74.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:90815" />
+  </DataNode>
+  <DataNode TextLabel="PTGS2 dimer" GraphId="ee392" Type="Complex">
+    <BiopaxRef>c27</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="276.0" CenterY="78.5" Width="54.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-140491" />
+  </DataNode>
+  <DataNode TextLabel="PTGS2 " GraphId="ac3c0" Type="Protein" GroupRef="d5bfd">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-140491" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1169.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35354" />
+  </DataNode>
+  <DataNode TextLabel="heme b " GraphId="c6834" Type="Metabolite" GroupRef="d5bfd">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-140491" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1189.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:26355" />
+  </DataNode>
+  <DataNode TextLabel="17-HDHA" GraphId="a50d8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="385.0" CenterY="220.0" Width="74.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:72637" />
+  </DataNode>
+  <DataNode TextLabel="Ac-PTGS2 dimer" GraphId="f0558" Type="Complex">
+    <BiopaxRef>c27</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="275.0" CenterY="180.0" Width="70.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2314687" />
+  </DataNode>
+  <DataNode TextLabel="O-acetyl-L-serine-PTGS2 " GraphId="a8cf6" Type="Protein" GroupRef="a608a">
+    <BiopaxRef>ea7</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2314687" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1269.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35354" />
+  </DataNode>
+  <DataNode TextLabel="PTGS2 " GraphId="a4cf5" Type="Protein" GroupRef="a608a">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2314687" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1289.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35354" />
+  </DataNode>
+  <DataNode TextLabel="heme b " GraphId="f2a8e" Type="Metabolite" GroupRef="a608a">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2314687" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1309.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:26355" />
+  </DataNode>
+  <DataNode TextLabel="7-HDHA" GraphId="f5972" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="383.5" CenterY="294.0" Width="67.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:72623" />
+  </DataNode>
+  <DataNode TextLabel="ALOX5" GraphId="b66ff" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="278.0" CenterY="255.0" Width="48.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P09917" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="eb30e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="412.5" CenterY="170.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="ed78e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="599.5" CenterY="167.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="13-oxo-DHA" GraphId="a1d0f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="680.5" CenterY="127.0" Width="95.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140204" />
+  </DataNode>
+  <DataNode TextLabel="Dehydrogenase" GraphId="db878">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="504.5" CenterY="169.0" Width="99.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-9027561" />
+  </DataNode>
+  <DataNode TextLabel="17-oxo-DHA" GraphId="a8389" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="683.5" CenterY="219.0" Width="95.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140238" />
+  </DataNode>
+  <DataNode TextLabel="7-oxo-DHA" GraphId="c0fa8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="690.5" CenterY="294.0" Width="87.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140252" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="ce7bb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="622.5" CenterY="329.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="5-HEDH" GraphId="df371">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="505.5" CenterY="248.0" Width="57.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-9028288" />
+  </DataNode>
+  <DataNode TextLabel="17-HDPAn-3" GraphId="d7d6a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="377.0" CenterY="458.0" Width="94.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:136352" />
+  </DataNode>
+  <DataNode TextLabel="Ac-PTGS2 dimer" GraphId="d572f" Type="Complex">
+    <BiopaxRef>c27</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="237.0" CenterY="410.5" Width="72.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-2314687" />
+  </DataNode>
+  <DataNode TextLabel="O-acetyl-L-serine-PTGS2 " GraphId="e010e" Type="Protein" GroupRef="bbab0">
+    <BiopaxRef>ea7</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2314687" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1389.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35354" />
+  </DataNode>
+  <DataNode TextLabel="PTGS2 " GraphId="c77d3" Type="Protein" GroupRef="bbab0">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2314687" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1409.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35354" />
+  </DataNode>
+  <DataNode TextLabel="heme b " GraphId="a98b7" Type="Metabolite" GroupRef="bbab0">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-2314687" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1429.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:26355" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="afa22" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="149.0" CenterY="520.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="7-HDPAn-3" GraphId="b5b8c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="383.0" CenterY="576.0" Width="86.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140250" />
+  </DataNode>
+  <DataNode TextLabel="ALOX5" GraphId="b3a11" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="252.0" CenterY="529.0" Width="48.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P09917" />
+  </DataNode>
+  <DataNode TextLabel="17-oxo-DPAn-3" GraphId="ec8b3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="686.0" CenterY="455.0" Width="114.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140239" />
+  </DataNode>
+  <DataNode TextLabel="Dehydrogenase" GraphId="d60dd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="531.5" CenterY="417.0" Width="99.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-9027561" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="ea945" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="442.5" CenterY="511.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="d26de" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="620.5" CenterY="509.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="13(R)-HDPAn-3" GraphId="c849d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="399.5" CenterY="754.0" Width="109.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:90824" />
+  </DataNode>
+  <DataNode TextLabel="13-oxo-DPAn-3" GraphId="cd57f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="709.0" CenterY="751.0" Width="114.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140205" />
+  </DataNode>
+  <DataNode TextLabel="Dehydrogenase" GraphId="ed506">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="536.5" CenterY="680.0" Width="99.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-9027561" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="d4b49" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="463.5" CenterY="716.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="d9d75" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="622.5" CenterY="716.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="7-oxo-DPAn-3" GraphId="d4989" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="706.5" CenterY="573.0" Width="107.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140253" />
+  </DataNode>
+  <DataNode TextLabel="5-HEDH" GraphId="ab25b">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="536.5" CenterY="533.0" Width="57.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-9028288" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="bef00" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="627.5" CenterY="614.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="EPA" GraphId="cfc75" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="60.0" CenterY="980.0" Width="38.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28364" />
+  </DataNode>
+  <DataNode TextLabel="5-HEPE" GraphId="a47b7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="359.0" CenterY="926.0" Width="60.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:72801" />
+  </DataNode>
+  <DataNode TextLabel="ALOX5" GraphId="ac95f" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="231.0" CenterY="883.0" Width="48.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P09917" />
+  </DataNode>
+  <DataNode TextLabel="5-oxo-EPA" GraphId="aacb5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="706.0" CenterY="922.0" Width="82.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140244" />
+  </DataNode>
+  <DataNode TextLabel="5-HEDH" GraphId="a1128">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="509.5" CenterY="868.0" Width="57.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-9028288" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="e3bc2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="413.5" CenterY="887.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="be5ba" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="619.5" CenterY="882.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="f65b8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="614.5" CenterY="962.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="PGH3" GraphId="e21df" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="285.0" CenterY="1041.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:134407" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="f66c5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="132.0" CenterY="980.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="PTGS2 dimer" GraphId="f654f" Type="Complex">
+    <BiopaxRef>c27</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="197.0" CenterY="988.5" Width="54.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-140491" />
+  </DataNode>
+  <DataNode TextLabel="PTGS2 " GraphId="bbb99" Type="Protein" GroupRef="f7a78">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-140491" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1489.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35354" />
+  </DataNode>
+  <DataNode TextLabel="heme b " GraphId="a7e2d" Type="Metabolite" GroupRef="f7a78">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-140491" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1509.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:26355" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="cc862" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="396.5" CenterY="1080.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="PGJ3" GraphId="ea133" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="433.5" CenterY="1042.0" Width="45.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140267" />
+  </DataNode>
+  <DataNode TextLabel="Î´12-PGJ3" GraphId="e0b0e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="562.5" CenterY="1043.0" Width="75.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140274" />
+  </DataNode>
+  <DataNode TextLabel="15d-PGJ3" GraphId="b7c8c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="745.0" CenterY="1042.0" Width="76.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140223" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="c9627" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="689.5" CenterY="1081.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="oxo-DHAs" GraphId="d3ed5" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="823.0" CenterY="219.0" Width="74.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-9032319" />
+  </DataNode>
+  <DataNode TextLabel="13-oxo-DHA " GraphId="a5e40" Type="Metabolite" GroupRef="a292b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-9032319" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1569.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140204" />
+  </DataNode>
+  <DataNode TextLabel="17-oxo-DHA " GraphId="c3788" Type="Metabolite" GroupRef="a292b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-9032319" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1589.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140238" />
+  </DataNode>
+  <DataNode TextLabel="7-oxo-DHA " GraphId="f67ae" Type="Metabolite" GroupRef="a292b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-9032319" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1609.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140252" />
+  </DataNode>
+  <DataNode TextLabel="oxo-DHAs" GraphId="e943b" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="1052.0" CenterY="219.0" Width="74.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-9032322" />
+  </DataNode>
+  <DataNode TextLabel="13-oxo-DHA " GraphId="a91a3" Type="Metabolite" GroupRef="c58ce">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-9032322" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1669.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140204" />
+  </DataNode>
+  <DataNode TextLabel="17-oxo-DHA " GraphId="a9cdf" Type="Metabolite" GroupRef="c58ce">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-9032322" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1689.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140238" />
+  </DataNode>
+  <DataNode TextLabel="7-oxo-DHA " GraphId="cd6f7" Type="Metabolite" GroupRef="c58ce">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-9032322" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1709.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140252" />
+  </DataNode>
+  <DataNode TextLabel="oxo-DPAn-3s" GraphId="c3de1" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="862.5" CenterY="572.0" Width="91.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-9032318" />
+  </DataNode>
+  <DataNode TextLabel="13-oxo-DPAn-3 " GraphId="da075" Type="Metabolite" GroupRef="f83e1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-9032318" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1769.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140205" />
+  </DataNode>
+  <DataNode TextLabel="17-oxo-DPAn-3 " GraphId="da98b" Type="Metabolite" GroupRef="f83e1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-9032318" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1789.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140239" />
+  </DataNode>
+  <DataNode TextLabel="7-oxo-DPAn-3 " GraphId="e5ee1" Type="Metabolite" GroupRef="f83e1">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-9032318" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1809.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140253" />
+  </DataNode>
+  <DataNode TextLabel="oxo-DPAn-3s" GraphId="b4317" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="1059.5" CenterY="570.0" Width="91.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-9032325" />
+  </DataNode>
+  <DataNode TextLabel="13-oxo-DPAn-3 " GraphId="c3eb2" Type="Metabolite" GroupRef="ccf9d">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-9032325" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1869.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140205" />
+  </DataNode>
+  <DataNode TextLabel="17-oxo-DPAn-3 " GraphId="ae795" Type="Metabolite" GroupRef="ccf9d">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-9032325" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1889.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140239" />
+  </DataNode>
+  <DataNode TextLabel="7-oxo-DPAn-3 " GraphId="d9f4c" Type="Metabolite" GroupRef="ccf9d">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-9032325" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1909.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140253" />
+  </DataNode>
+  <DataNode TextLabel="15d-PGJ3" GraphId="f1ff2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="1076.0" CenterY="1033.0" Width="76.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140223" />
+  </DataNode>
+  <DataNode TextLabel="5-oxo-EPA" GraphId="beacb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="1077.0" CenterY="922.0" Width="82.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:140244" />
+  </DataNode>
+  <DataNode TextLabel="DPAn-3" GraphId="e7164" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="83.5" CenterY="519.0" Width="63.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:77224" />
+  </DataNode>
+  <Interaction GraphId="c5335">
+    <Comment Source="Reactome">In the absence of aspirin, dimeric cyclooxygenase 2 (PTGS2 aka COX2) located on the ER membrane can mediate the oxidation of docosahexaenoic acid (DHA) to 13-hydroxy-docosahexaenoic acid (13-HDHA) in activated macrophages (Serhan et al. 2002, Groeger et al. 2010). PTGS2 is an inducible enzyme expressed at sites of inflammation, infection and cancer where it can generate prostanoids that drive disease pathogenesis. It is the therapeutic target for nonsteroidal antiinflammatory drugs (NSAIDs) such as aspirin. PTGS2 is also constitutively expressed in specific tissues, especially the kidney, gastrointestinal tract, brain and thymus. Constitutive PTGS2 expression is increasingly being recognised to play a major role in homeostatic function in those tissues and is therapeutically important because NSAIDs cause cardiovascular and renal side effects in otherwise healthy individuals (Kirkby et al. 2016).
+</Comment>
+    <BiopaxRef>f4e</BiopaxRef>
+    <BiopaxRef>c4e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="225.0" Y="126.0" />
+      <Point X="335.0" Y="126.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c02c9" />
+      <Anchor Position="0.99" Shape="None" GraphId="ba8b1" />
+      <Anchor Position="0.5" Shape="None" GraphId="b47ea" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027532" />
+  </Interaction>
+  <Interaction GraphId="dfc58">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="190.0" Y="154.0" GraphRef="e40e2" RelX="0.0" RelY="-1.0" />
+      <Point X="225.0" Y="126.0" GraphRef="c02c9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027532" />
+  </Interaction>
+  <Interaction GraphId="d2d52">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="122.0" Y="166.0" GraphRef="d4fc0" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="225.0" Y="126.0" GraphRef="c02c9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027532" />
+  </Interaction>
+  <Interaction GraphId="de586">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="335.0" Y="126.0" GraphRef="ba8b1" RelX="1.1000000000000227" RelY="0.0" />
+      <Point X="338.0" Y="126.0" GraphRef="b4451" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027532" />
+  </Interaction>
+  <Interaction GraphId="fa6e5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="249.0" Y="78.0" GraphRef="ee392" RelX="-1.0" RelY="-0.02857142857142857" />
+      <Point X="275.0" Y="126.0" GraphRef="b47ea" RelX="-5.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027532" />
+  </Interaction>
+  <Interaction GraphId="d2d59">
+    <Comment Source="Reactome">Normally, cyclooxygenases (COX) carry out stereospecific oxygenation of arachidonic acid to generate prostaglandins. When treated with aspirin (acetylsalicylic acid, ASA), dimeric cyclooxygenase 2 (COX2, PTGS2 dimer) can be acetylated. ASA covalently modifies PTGS2 by acetylating a serine residue at position 530 within the cyclooxygenase active site (Lucido et al. 2016). Acetylated PTGS2 dimer (Ac-PTGS2 dimer) changes the oxygenation stereospecificity towards its substrates, perhaps by steric shielding effects (Tosco 2013), producing a shift in lipid mediator production. Ac-PTGS2 dimer expressed in macrophages can be acetylated by ASA, which enables this form to mediate the biosynthesis of precursors of endogenous anti-inflammatory mediators. Ac-PTGS2 dimer is able to incorporate molecular oxygen into Ï‰-3 fatty acid docosahexaenoic acid (DHA), to form 17-hydroxy-docosahexaenoic acid (17-HDHA) (Serhan et al. 2002, Groeger et al. 2010).</Comment>
+    <BiopaxRef>f4e</BiopaxRef>
+    <BiopaxRef>c4e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="228.0" Y="220.0" />
+      <Point X="345.0" Y="220.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="caea4" />
+      <Anchor Position="0.99" Shape="None" GraphId="c9d3d" />
+      <Anchor Position="0.5" Shape="None" GraphId="ec447" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027627" />
+  </Interaction>
+  <Interaction GraphId="cbbf2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="190.0" Y="184.0" GraphRef="e40e2" RelX="0.0" RelY="1.0" />
+      <Point X="228.0" Y="220.0" GraphRef="caea4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027627" />
+  </Interaction>
+  <Interaction GraphId="b1745">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="122.0" Y="166.0" GraphRef="d4fc0" RelX="0.9534883720930233" RelY="0.0" />
+      <Point X="228.0" Y="220.0" GraphRef="caea4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027627" />
+  </Interaction>
+  <Interaction GraphId="ad129">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="220.0" GraphRef="c9d3d" RelX="1.170000000000016" RelY="0.0" />
+      <Point X="348.0" Y="220.0" GraphRef="a50d8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027627" />
+  </Interaction>
+  <Interaction GraphId="f4844">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="240.0" Y="180.0" GraphRef="f0558" RelX="-1.0" RelY="0.0" />
+      <Point X="275.0" Y="220.0" GraphRef="ec447" RelX="-11.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027627" />
+  </Interaction>
+  <Interaction GraphId="dcce4">
+    <Comment Source="Reactome">In human neutrophils, 5-lipoxygenase (ALOX5) can mediate the lipoxygenation of docosahexaenoic acid (DHA) to 7-hydroxy-docosahexaenoic acid (7-HDHA) (Cipollina et al. 2014). Neutrophils treated with an ALOX5 inhibitor completely suppressed the formation of 7-oxo-DHA and its hydroxy precursor 7-HDHA, demonstrating that ALOX5 mediates the first step in 5-oxo-DHA biosynthesis (Cipollina et al. 2014).</Comment>
+    <BiopaxRef>d8d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="191.0" Y="294.0" />
+      <Point X="347.0" Y="294.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ef4d9" />
+      <Anchor Position="0.99" Shape="None" GraphId="be9f9" />
+      <Anchor Position="0.5" Shape="None" GraphId="f834b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027624" />
+  </Interaction>
+  <Interaction GraphId="eeb56">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="190.0" Y="184.0" GraphRef="e40e2" RelX="0.0" RelY="1.0" />
+      <Point X="191.0" Y="294.0" GraphRef="ef4d9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027624" />
+  </Interaction>
+  <Interaction GraphId="da425">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="101.0" Y="181.0" GraphRef="d4fc0" RelX="-0.023255813953488372" RelY="1.0" />
+      <Point X="191.0" Y="294.0" GraphRef="ef4d9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027624" />
+  </Interaction>
+  <Interaction GraphId="bfad9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="347.0" Y="294.0" GraphRef="be9f9" RelX="1.5600000000000023" RelY="0.0" />
+      <Point X="350.0" Y="294.0" GraphRef="f5972" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027624" />
+  </Interaction>
+  <Interaction GraphId="d1471">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="254.0" Y="255.0" GraphRef="b66ff" RelX="-1.0" RelY="0.0" />
+      <Point X="278.0" Y="294.0" GraphRef="f834b" RelX="9.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027624" />
+  </Interaction>
+  <Interaction GraphId="d2578">
+    <Comment Source="Reactome">In activated macrophages, an unknown dehdyrogenase abstracts hydrogen from 13-hydroxy-docosahexaenoic acid to form the electrophilic oxo-derivative (EFOX) 13-oxo-DHA (Groeger et al. 2010). Potential candidates are cellular dehydrogenases such as 3Î±-hydroxysteroid dehydrogenases (3Î±-HSDs), which can convert 13- and 17-HDHA into their corresponding oxo-derivatives in the presence of NAD(P)+ &lt;i&gt;in vitro&lt;/i&gt; (supplementary data, Groeger et al. 2010) or 5- and 15-hydroxyeicosanoid dehydrogenases (5- and 15-HEDH), which convert LOX products to 5-and 15-oxoETE (Erlemann et al. 2007).  EFOXs can act as peroxisome proliferator-activated receptor-Î³ (PPARÎ³) agonists and inhibit pro-inflammatory cytokine and nitric oxide production, confirming their anti-inflammatory actions (Groeger et al. 2010).</Comment>
+    <BiopaxRef>c4e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="449.0" Y="126.0" />
+      <Point X="554.0" Y="127.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ca159" />
+      <Anchor Position="0.99" Shape="None" GraphId="bc521" />
+      <Anchor Position="0.5" Shape="None" GraphId="cf66a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027531" />
+  </Interaction>
+  <Interaction GraphId="d7566">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="441.0" Y="170.0" GraphRef="eb30e" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="449.0" Y="126.0" GraphRef="ca159" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027531" />
+  </Interaction>
+  <Interaction GraphId="a981a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="412.0" Y="126.0" GraphRef="b4451" RelX="1.0" RelY="0.0" />
+      <Point X="449.0" Y="126.0" GraphRef="ca159" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027531" />
+  </Interaction>
+  <Interaction GraphId="ee1cf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="554.0" Y="127.0" GraphRef="bc521" RelX="1.0499999999999545" RelY="0.010000000000005116" />
+      <Point X="570.0" Y="167.0" GraphRef="ed78e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027531" />
+  </Interaction>
+  <Interaction GraphId="ec7be">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="554.0" Y="127.0" GraphRef="bc521" RelX="1.0499999999999545" RelY="0.010000000000005116" />
+      <Point X="633.0" Y="127.0" GraphRef="a1d0f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027531" />
+  </Interaction>
+  <Interaction GraphId="e310f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="455.0" Y="169.0" GraphRef="db878" RelX="-1.0" RelY="0.0" />
+      <Point X="503.0" Y="126.0" GraphRef="cf66a" RelX="1.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027531" />
+  </Interaction>
+  <Interaction GraphId="cfdac">
+    <Comment Source="Reactome">When acetylated by aspirin, dimeric acetylated-cyclooxygenase 2 (Ac-PTGS2 dimer aka COX2) in macrophages is able to form 17-hydroxy-docosahexaenoic acid (17-HDHA). This intermediate is then dehydrogenated by an unknown dehydrogenase to form the electrophilic oxo (EFOX) product 17-oxo-docosahexaenoic acid (17-oxo-DHA) (Groeger et al. 2010). Potential candidate enzymes are cellular dehydrogenases such as 3Î±-hydroxysteroid dehydrogenases (3Î±-HSDs), which can convert 13- and 17-HDHA into corresponding EFOXs in the presence of NAD(P)+ &lt;i&gt;in vitro&lt;/i&gt;(supplementary data, Groeger et al. 2010) or 5- and 15-hydroxyeicosanoid dehydrogenases (5- and 15-HEDH), which convert LOX products to 5-and 15-oxoETE (Erlemann et al. 2007, Wendell et al. 2015). Anti-inflammatory actions of 17-oxo-DHA include acting as a peroxisome proliferator-activated receptor-Î³ (PPARÎ³) agonist to inhibit pro-inflammatory cytokine and nitric oxide production (Groeger et al. 2010, Cipollina et al. 2016). 17-oxo-DHA was also found to be a strong inducer of the anti-oxidant response, promoting Nrf2 nuclear accumulation, leading to the expression of heme oxygenase 1 and more than doubling glutathione levels (Cipollina et al. 2014).</Comment>
+    <BiopaxRef>c4e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="465.0" Y="220.0" />
+      <Point X="576.0" Y="219.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a3b20" />
+      <Anchor Position="0.99" Shape="None" GraphId="bd1f4" />
+      <Anchor Position="0.5" Shape="None" GraphId="dff2d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027562" />
+  </Interaction>
+  <Interaction GraphId="da6a3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="441.0" Y="170.0" GraphRef="eb30e" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="465.0" Y="220.0" GraphRef="a3b20" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027562" />
+  </Interaction>
+  <Interaction GraphId="dc711">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="422.0" Y="220.0" GraphRef="a50d8" RelX="1.0" RelY="0.0" />
+      <Point X="465.0" Y="220.0" GraphRef="a3b20" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027562" />
+  </Interaction>
+  <Interaction GraphId="b4dde">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="576.0" Y="219.0" GraphRef="bd1f4" RelX="1.1100000000000136" RelY="-0.009999999999990905" />
+      <Point X="636.0" Y="219.0" GraphRef="a8389" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027562" />
+  </Interaction>
+  <Interaction GraphId="a7a12">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="576.0" Y="219.0" GraphRef="bd1f4" RelX="1.1100000000000136" RelY="-0.009999999999990905" />
+      <Point X="599.0" Y="182.0" GraphRef="ed78e" RelX="-0.01694915254237288" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027562" />
+  </Interaction>
+  <Interaction GraphId="bbdb8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="455.0" Y="169.0" GraphRef="db878" RelX="-1.0" RelY="0.0" />
+      <Point X="505.0" Y="220.0" GraphRef="dff2d" RelX="-15.5" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027562" />
+  </Interaction>
+  <Interaction GraphId="aa05b">
+    <Comment Source="Reactome">In neutrophils, 5 hydroxyeicosanoid dehydrogenase (5-HEDH) activity is localised in the microsomal fraction and requires NADP+ as a cofactor to oxidise 7-hydroxy docosahexaenoic acid (7-HDHA) to 7-oxo-docosahexaenoic acid (7-oxo-DHA) (Patel et al. 2009, Cipollina et al. 2014). Although 5-HEDH activity has been evaluated in a wide range of intact cells and in crude microsome preparations, it has not yet been purified and its structure and gene remain unknown. Dietary EPA supplementation significantly increases the formation of 7-oxo-DHA that transduces anti inflammatory actions rather than suppressing production of pro inflammatory AA metabolites (Cipollina et al. 2014).</Comment>
+    <BiopaxRef>d8d</BiopaxRef>
+    <BiopaxRef>afb</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="461.0" Y="293.0" />
+      <Point X="567.0" Y="293.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c9908" />
+      <Anchor Position="0.99" Shape="None" GraphId="af312" />
+      <Anchor Position="0.5" Shape="None" GraphId="db774" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027631" />
+  </Interaction>
+  <Interaction GraphId="c151f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="412.0" Y="185.0" GraphRef="eb30e" RelX="-0.01694915254237288" RelY="1.0" />
+      <Point X="461.0" Y="293.0" GraphRef="c9908" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027631" />
+  </Interaction>
+  <Interaction GraphId="af424">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="416.0" Y="294.0" GraphRef="f5972" RelX="0.9701492537313433" RelY="0.0" />
+      <Point X="461.0" Y="293.0" GraphRef="c9908" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027631" />
+  </Interaction>
+  <Interaction GraphId="f23ac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="567.0" Y="293.0" GraphRef="af312" RelX="1.0599999999999454" RelY="0.0" />
+      <Point X="647.0" Y="294.0" GraphRef="c0fa8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027631" />
+  </Interaction>
+  <Interaction GraphId="a4a23">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="567.0" Y="293.0" GraphRef="af312" RelX="1.0599999999999454" RelY="0.0" />
+      <Point X="599.0" Y="182.0" GraphRef="ed78e" RelX="-0.01694915254237288" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027631" />
+  </Interaction>
+  <Interaction GraphId="cc063">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="567.0" Y="293.0" GraphRef="af312" RelX="1.0599999999999454" RelY="0.0" />
+      <Point X="605.0" Y="329.0" GraphRef="ce7bb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027631" />
+  </Interaction>
+  <Interaction GraphId="cb0ab">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="477.0" Y="248.0" GraphRef="df371" RelX="-1.0" RelY="0.0" />
+      <Point X="505.0" Y="293.0" GraphRef="db774" RelX="-9.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027631" />
+  </Interaction>
+  <Interaction GraphId="f91cc">
+    <Comment Source="Reactome">Normally, cyclooxygenases (COX) carry out stereospecific oxygenation of arachidonic acid to generate prostaglandins.Inflammation results in activated macrophages in which, when treated with aspirin (acetylsalicylic acid, ASA), dimeric cyclooxygenase 2 (COX2, PTGS2 dimer) can be acetylated. ASA covalently modifies PTGS2 by acetylating a serine residue at position 530 within the cyclooxygenase active site (Lucido et al. 2016). Ac-PTGS2 dimer changes the oxygenation stereospecificity towards its substrates, perhaps by steric shielding effects (Tosco 2013), producing a shift in lipid mediator production. Ac-PTGS2 dimer is able to incorporate molecular oxygen into Ï‰-3 fatty acid docosapentaenoic acid (DPAn-3) to form 17-hydroxy-docosapentaenoic acid (17-HDPAn-3) (Serhan et al. 2002, Groeger et al. 2010).
+
+
+</Comment>
+    <BiopaxRef>c4e</BiopaxRef>
+    <BiopaxRef>f4e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="176.0" Y="458.0" />
+      <Point X="327.0" Y="458.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c2307" />
+      <Anchor Position="0.99" Shape="None" GraphId="e9cda" />
+      <Anchor Position="0.5" Shape="None" GraphId="b6e6d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027607" />
+  </Interaction>
+  <Interaction GraphId="f54e0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="114.0" Y="519.0" GraphRef="e7164" RelX="0.9682539682539683" RelY="0.0" />
+      <Point X="176.0" Y="458.0" GraphRef="c2307" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027607" />
+  </Interaction>
+  <Interaction GraphId="d9b05">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="149.0" Y="505.0" GraphRef="afa22" RelX="0.0" RelY="-1.0" />
+      <Point X="176.0" Y="458.0" GraphRef="c2307" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027607" />
+  </Interaction>
+  <Interaction GraphId="f6d93">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="327.0" Y="458.0" GraphRef="e9cda" RelX="1.509999999999991" RelY="0.0" />
+      <Point X="330.0" Y="458.0" GraphRef="d7d6a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027607" />
+  </Interaction>
+  <Interaction GraphId="fdf72">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="201.0" Y="410.0" GraphRef="d572f" RelX="-1.0" RelY="-0.030303030303030304" />
+      <Point X="236.0" Y="458.0" GraphRef="b6e6d" RelX="-15.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027607" />
+  </Interaction>
+  <Interaction GraphId="dd6bf">
+    <Comment Source="Reactome">In human neutrophils, 5-lipoxygenase (ALOX5) can mediate the lipoxygenation of Ï‰-3 docosapentaenoic acid (DPAn-3) to 7-hydroxy-Ï‰-3-docosapentaenoic acid (7-HDPAn-3) (Cipollina et al. 2014). Neutrophils treated with an ALOX5 inhibitor completely suppressed the formation of 7-oxo-DPAn-3 and its hydroxy precursor 7-HDPAn-3, demonstrating that ALOX5 mediates the first step in 7-oxo-DPAn-3 biosynthesis (Cipollina et al. 2014).</Comment>
+    <BiopaxRef>d8d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="194.0" Y="576.0" />
+      <Point X="337.0" Y="576.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="baf7b" />
+      <Anchor Position="0.99" Shape="None" GraphId="e25fa" />
+      <Anchor Position="0.5" Shape="None" GraphId="f6da9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027633" />
+  </Interaction>
+  <Interaction GraphId="deb5a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="114.0" Y="519.0" GraphRef="e7164" RelX="0.9682539682539683" RelY="0.0" />
+      <Point X="194.0" Y="576.0" GraphRef="baf7b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027633" />
+  </Interaction>
+  <Interaction GraphId="e9151">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="149.0" Y="535.0" GraphRef="afa22" RelX="0.0" RelY="1.0" />
+      <Point X="194.0" Y="576.0" GraphRef="baf7b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027633" />
+  </Interaction>
+  <Interaction GraphId="aaa53">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="337.0" Y="576.0" GraphRef="e25fa" RelX="1.4300000000000068" RelY="0.0" />
+      <Point X="340.0" Y="576.0" GraphRef="b5b8c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027633" />
+  </Interaction>
+  <Interaction GraphId="f7209">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="228.0" Y="529.0" GraphRef="b3a11" RelX="-1.0" RelY="0.0" />
+      <Point X="252.0" Y="576.0" GraphRef="f6da9" RelX="-13.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027633" />
+  </Interaction>
+  <Interaction GraphId="ee72c">
+    <Comment Source="Reactome">In activated macrophages, an unknown dehdyrogenase abstracts hydrogen from 17-hydroxy-docosapentaenoic acid (17-HDPAn-3) to form the electrophilic oxo (EFOX) derivative 17-oxo-DPAn-3 (Groeger et al. 2010). Potential candidates are cellular dehydrogenases such as 3Î±-hydroxysteroid dehydrogenases (3Î±-HSDs), which can convert 13- and 17-HDHA into corresponding EFOXs in the presence of NAD(P)+ &lt;i&gt;in vitro&lt;/i&gt;(supplementary data, Groeger et al. 2010) or 5- and 15-hydroxyeicosanoid dehydrogenases (5- and 15-HEDH, Wendell et al. 2015), which convert LOX products to 5-and 15-oxoETE (Erlemann et al. 2007). 17-oxo-DPAn-3 can act as a peroxisome proliferator-activated receptor-Î³ (PPARÎ³) agonist and inhibit pro-inflammatory cytokine and nitric oxide production, confirming its anti-inflammatory actions (Groeger et al. 2010).</Comment>
+    <BiopaxRef>c4e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="488.0" Y="457.0" />
+      <Point X="575.0" Y="457.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f61c2" />
+      <Anchor Position="0.99" Shape="None" GraphId="ea399" />
+      <Anchor Position="0.5" Shape="None" GraphId="a786c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027600" />
+  </Interaction>
+  <Interaction GraphId="e061e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="424.0" Y="458.0" GraphRef="d7d6a" RelX="1.0" RelY="0.0" />
+      <Point X="488.0" Y="457.0" GraphRef="f61c2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027600" />
+  </Interaction>
+  <Interaction GraphId="dbf3e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="471.0" Y="511.0" GraphRef="ea945" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="488.0" Y="457.0" GraphRef="f61c2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027600" />
+  </Interaction>
+  <Interaction GraphId="d6db6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="575.0" Y="457.0" GraphRef="ea399" RelX="0.8700000000000045" RelY="0.0" />
+      <Point X="629.0" Y="455.0" GraphRef="ec8b3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027600" />
+  </Interaction>
+  <Interaction GraphId="b49c1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="575.0" Y="457.0" GraphRef="ea399" RelX="0.8700000000000045" RelY="0.0" />
+      <Point X="591.0" Y="509.0" GraphRef="d26de" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027600" />
+  </Interaction>
+  <Interaction GraphId="c01f4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="482.0" Y="417.0" GraphRef="d60dd" RelX="-1.0" RelY="0.0" />
+      <Point X="532.0" Y="457.0" GraphRef="a786c" RelX="0.5" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027600" />
+  </Interaction>
+  <Interaction GraphId="f42ac">
+    <Comment Source="Reactome">In activated macrophages, an unknown dehdyrogenase abstracts hydrogen from 13-hydroxy-docosapentaenoic acid (13(R)-HDPAn-3) to form the electrophilic oxo (EFOX)derivative 13-oxo-DPAn-3 (Groeger et al. 2010). Potential candidates are cellular dehydrogenases such as 3Î±-hydroxysteroid dehydrogenases (3Î±-HSDs), which can convert 13- and 17-HDHA into corresponding EFOXs in the presence of NAD(P)+ &lt;i&gt;in vitro&lt;/i&gt; (supplementary data, Groeger et al. 2010) or 5- and 15-hydroxyeicosanoid dehydrogenases (5- and 15-HEDH), which convert LOX products to 5-and 15-oxoETE (Erlemann et al. 2007). EFOXs can act as peroxisome proliferator-activated receptor-Î³ (PPARÎ³) agonists and inhibit pro-inflammatory cytokine and nitric oxide production, confirming their anti-inflammatory actions (Groeger et al. 2010).</Comment>
+    <BiopaxRef>c4e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="497.0" Y="751.0" />
+      <Point X="587.0" Y="750.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f09b7" />
+      <Anchor Position="0.99" Shape="None" GraphId="adf7d" />
+      <Anchor Position="0.5" Shape="None" GraphId="acc7b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027598" />
+  </Interaction>
+  <Interaction GraphId="bfd1c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="453.0" Y="754.0" GraphRef="c849d" RelX="0.981651376146789" RelY="0.0" />
+      <Point X="497.0" Y="751.0" GraphRef="f09b7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027598" />
+  </Interaction>
+  <Interaction GraphId="decef">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="492.0" Y="716.0" GraphRef="d4b49" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="497.0" Y="751.0" GraphRef="f09b7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027598" />
+  </Interaction>
+  <Interaction GraphId="b10b6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="587.0" Y="750.0" GraphRef="adf7d" RelX="0.8999999999999773" RelY="-0.009999999999990905" />
+      <Point X="652.0" Y="751.0" GraphRef="cd57f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027598" />
+  </Interaction>
+  <Interaction GraphId="c6c50">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="587.0" Y="750.0" GraphRef="adf7d" RelX="0.8999999999999773" RelY="-0.009999999999990905" />
+      <Point X="593.0" Y="716.0" GraphRef="d9d75" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027598" />
+  </Interaction>
+  <Interaction GraphId="e0056">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="536.0" Y="691.0" GraphRef="ed506" RelX="-0.010101010101010102" RelY="1.0" />
+      <Point X="536.0" Y="750.0" GraphRef="acc7b" RelX="-6.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027598" />
+  </Interaction>
+  <Interaction GraphId="c7db0">
+    <Comment Source="Reactome">In neutrophils, 5-hydroxyeicosanoid dehydrogenase (5-HEDH) activity is localised in the microsomal fraction and requires NADP+ as a cofactor to oxidise 7-hydroxy-Ï‰-3-docosapentaenoic acid (7-HDPAn-3) to 7-oxo-Ï‰-3-docosapentaenoic acid (7-oxo-DPAn-3) (Patel et al. 2009, Cipollina et al. 2014). Although 5-HEDH activity has been found in a wide range of intact cells and in crude microsome preparations, the enzyme has not yet been purified, its structure is unknown, and the gene that encodes it remains to be identified. Dietary EPA supplementation significantly increases the formation of 7-oxo-DPAn-3 that transduces anti-inflammatory actions rather than suppressing production of pro-inflammatory AA metabolites (Cipollina et al. 2014).</Comment>
+    <BiopaxRef>d8d</BiopaxRef>
+    <BiopaxRef>afb</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="464.0" Y="575.0" />
+      <Point X="604.0" Y="575.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fed9a" />
+      <Anchor Position="0.99" Shape="None" GraphId="f4ef5" />
+      <Anchor Position="0.5" Shape="None" GraphId="c86d1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027625" />
+  </Interaction>
+  <Interaction GraphId="a993f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="426.0" Y="576.0" GraphRef="b5b8c" RelX="1.0" RelY="0.0" />
+      <Point X="464.0" Y="575.0" GraphRef="fed9a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027625" />
+  </Interaction>
+  <Interaction GraphId="f9553">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="442.0" Y="526.0" GraphRef="ea945" RelX="-0.01694915254237288" RelY="1.0" />
+      <Point X="464.0" Y="575.0" GraphRef="fed9a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027625" />
+  </Interaction>
+  <Interaction GraphId="be9d6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="604.0" Y="575.0" GraphRef="f4ef5" RelX="1.3999999999999773" RelY="0.0" />
+      <Point X="653.0" Y="573.0" GraphRef="d4989" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027625" />
+  </Interaction>
+  <Interaction GraphId="e7139">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="604.0" Y="575.0" GraphRef="f4ef5" RelX="1.3999999999999773" RelY="0.0" />
+      <Point X="620.0" Y="524.0" GraphRef="d26de" RelX="-0.01694915254237288" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027625" />
+  </Interaction>
+  <Interaction GraphId="e23b6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="604.0" Y="575.0" GraphRef="f4ef5" RelX="1.3999999999999773" RelY="0.0" />
+      <Point X="627.0" Y="599.0" GraphRef="bef00" RelX="-0.02857142857142857" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027625" />
+  </Interaction>
+  <Interaction GraphId="e4017">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="508.0" Y="533.0" GraphRef="ab25b" RelX="-1.0" RelY="0.0" />
+      <Point X="537.0" Y="575.0" GraphRef="c86d1" RelX="3.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027625" />
+  </Interaction>
+  <Interaction GraphId="dd18e">
+    <Comment Source="Reactome">In human neutrophils, 5-lipoxygenase (ALOX5) can mediate the lipoxygenation of eicosapentaenoic acid (EPA) to 5-hydroxy-eicosapentaenoic acid (5-HEPE) (Cipollina et al. 2014, Powell et al. 1995). Neutrophils treated with an ALOX5 inhibitor completely suppressed the formation of 5-oxo-EPA and its hydroxy precursor 5-HEPE, demonstrating that ALOX5 mediates the first step in 5-oxo-EPA biosynthesis (Cipollina et al. 2014).</Comment>
+    <BiopaxRef>d8d</BiopaxRef>
+    <BiopaxRef>f27</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="166.0" Y="926.0" />
+      <Point X="326.0" Y="926.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b02ba" />
+      <Anchor Position="0.99" Shape="None" GraphId="ddcd2" />
+      <Anchor Position="0.5" Shape="None" GraphId="b5722" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027628" />
+  </Interaction>
+  <Interaction GraphId="c6adf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="79.0" Y="980.0" GraphRef="cfc75" RelX="1.0" RelY="0.0" />
+      <Point X="166.0" Y="926.0" GraphRef="b02ba" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027628" />
+  </Interaction>
+  <Interaction GraphId="d7027">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="132.0" Y="965.0" GraphRef="f66c5" RelX="0.0" RelY="-1.0" />
+      <Point X="166.0" Y="926.0" GraphRef="b02ba" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027628" />
+  </Interaction>
+  <Interaction GraphId="c39c0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="326.0" Y="926.0" GraphRef="ddcd2" RelX="1.6000000000000227" RelY="0.0" />
+      <Point X="329.0" Y="926.0" GraphRef="a47b7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027628" />
+  </Interaction>
+  <Interaction GraphId="d9520">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="207.0" Y="883.0" GraphRef="ac95f" RelX="-1.0" RelY="0.0" />
+      <Point X="231.0" Y="926.0" GraphRef="b5722" RelX="-15.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027628" />
+  </Interaction>
+  <Interaction GraphId="ad52f">
+    <Comment Source="Reactome">In neutrophils, 5-hydroxyeicosanoid dehydrogenase (5-HEDH) activity is localised in the microsomal fraction and requires NADP+ as a cofactor to oxidise 5-hydroxy-eicosapentaenoic acid (5-HEPE) to 5-oxo-eicosapentaenoic acid (5-oxo-EPA) (Powell et al. 1995, Patel et al. 2009). Although 5-HEDH activity has been found in a wide range of intact cells and in crude microsome preparations, the enzyme has not yet been purified, its structure is unknown, and the gene that encodes it remains to be identified. Dietary EPA supplementation significantly increases the formation of 5-oxo-EPA that transduces anti-inflammatory actions rather than suppressing production of pro-inflammatory AA metabolites (Cipollina et al. 2014).</Comment>
+    <BiopaxRef>f27</BiopaxRef>
+    <BiopaxRef>d8d</BiopaxRef>
+    <BiopaxRef>afb</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="443.0" Y="924.0" />
+      <Point X="569.0" Y="923.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d953d" />
+      <Anchor Position="0.99" Shape="None" GraphId="fdb4b" />
+      <Anchor Position="0.5" Shape="None" GraphId="acbd3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027632" />
+  </Interaction>
+  <Interaction GraphId="d971d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="389.0" Y="926.0" GraphRef="a47b7" RelX="1.0" RelY="0.0" />
+      <Point X="443.0" Y="924.0" GraphRef="d953d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027632" />
+  </Interaction>
+  <Interaction GraphId="d76ef">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="442.0" Y="887.0" GraphRef="e3bc2" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="443.0" Y="924.0" GraphRef="d953d" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027632" />
+  </Interaction>
+  <Interaction GraphId="a6cae">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="569.0" Y="923.0" GraphRef="fdb4b" RelX="1.259999999999991" RelY="-0.009999999999990905" />
+      <Point X="665.0" Y="922.0" GraphRef="aacb5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027632" />
+  </Interaction>
+  <Interaction GraphId="c2945">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="569.0" Y="923.0" GraphRef="fdb4b" RelX="1.259999999999991" RelY="-0.009999999999990905" />
+      <Point X="590.0" Y="882.0" GraphRef="be5ba" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027632" />
+  </Interaction>
+  <Interaction GraphId="a6023">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="569.0" Y="923.0" GraphRef="fdb4b" RelX="1.259999999999991" RelY="-0.009999999999990905" />
+      <Point X="597.0" Y="962.0" GraphRef="f65b8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027632" />
+  </Interaction>
+  <Interaction GraphId="d2c7a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="481.0" Y="868.0" GraphRef="a1128" RelX="-1.0" RelY="0.0" />
+      <Point X="508.0" Y="924.0" GraphRef="acbd3" RelX="2.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9027632" />
+  </Interaction>
+  <Interaction GraphId="c6640">
+    <Comment Source="Reactome">In the absence of aspirin, dimeric cyclooxygenase 2 (PTGS2 dimer aka COX2) located on the ER membrane can mediate the oxidation of eicosapentaenoic acid (EPA) to prostaglandin D3 (PGD3) in activated macrophages (Serhan et al. 2002, Groeger et al. 2010, Wada et al. 2007). It is likely that EPA-derived oxo-derivatives are formed in the same way as demonstrated by Fitzpatrick et al. (Fitzpatrick et al. 1983, Shibata et al. 2002). EPA supplementation to mice resulted in enhanced endogenous production of 15-deoxy-PGJ3 (15d-PGJ3), the final deoxy-product of EPA (Lefils-Lacourtablaise et al. 2013).</Comment>
+    <BiopaxRef>c4e</BiopaxRef>
+    <BiopaxRef>f4e</BiopaxRef>
+    <BiopaxRef>df6</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="157.0" Y="1041.0" />
+      <Point X="257.0" Y="1041.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c521c" />
+      <Anchor Position="0.99" Shape="None" GraphId="ddb8b" />
+      <Anchor Position="0.5" Shape="None" GraphId="c53bd" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028255" />
+  </Interaction>
+  <Interaction GraphId="b96fd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="79.0" Y="980.0" GraphRef="cfc75" RelX="1.0" RelY="0.0" />
+      <Point X="157.0" Y="1041.0" GraphRef="c521c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028255" />
+  </Interaction>
+  <Interaction GraphId="c65b4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="132.0" Y="995.0" GraphRef="f66c5" RelX="0.0" RelY="1.0" />
+      <Point X="157.0" Y="1041.0" GraphRef="c521c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028255" />
+  </Interaction>
+  <Interaction GraphId="dc644">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="257.0" Y="1041.0" GraphRef="ddb8b" RelX="1.0" RelY="0.0" />
+      <Point X="260.0" Y="1041.0" GraphRef="e21df" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028255" />
+  </Interaction>
+  <Interaction GraphId="db4d9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="197.0" Y="1005.0" GraphRef="f654f" RelX="0.0" RelY="0.9428571428571428" />
+      <Point X="198.0" Y="1041.0" GraphRef="c53bd" RelX="-9.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028255" />
+  </Interaction>
+  <Interaction GraphId="b986d">
+    <Comment Source="Reactome">It is proposed that EPA-derived prostaglandin H3 (PGH3) undergoes nonenzymatic dehydration to form prostaglandin J3 (PGJ3) (Fitzpatrick et al. 1983, Shibata et al. 2002). EPA supplementation to mice resulted in enhanced endogenous production of 15-deoxy-PGJ3 (15d-PGJ3), the final deoxy-product of EPA (Lefils-Lacourtablaise et al. 2013).</Comment>
+    <BiopaxRef>add</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="313.0" Y="1041.0" />
+      <Point X="376.0" Y="1041.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d8778" />
+      <Anchor Position="0.99" Shape="None" GraphId="d1a1b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028273" />
+  </Interaction>
+  <Interaction GraphId="a58e2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="310.0" Y="1041.0" GraphRef="e21df" RelX="1.0" RelY="0.0" />
+      <Point X="313.0" Y="1041.0" GraphRef="d8778" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028273" />
+  </Interaction>
+  <Interaction GraphId="d7b83">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="376.0" Y="1041.0" GraphRef="d1a1b" RelX="0.6299999999999955" RelY="0.0" />
+      <Point X="396.0" Y="1065.0" GraphRef="cc862" RelX="-0.023255813953488372" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028273" />
+  </Interaction>
+  <Interaction GraphId="a2c5a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="376.0" Y="1041.0" GraphRef="d1a1b" RelX="0.6299999999999955" RelY="0.0" />
+      <Point X="411.0" Y="1042.0" GraphRef="ea133" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028273" />
+  </Interaction>
+  <Interaction GraphId="e3d39">
+    <Comment Source="Reactome">It is proposed that prostaglandin J3 (PGJ3) isomerises to prostaglandin Î´12-PGJ3 (Î´12-PGJ3) (Fitzpatrick et al. 1983, Shibata et al. 2002). EPA supplementation to mice resulted in enhanced endogenous production of Î´12-PGJ3, which was found to possess chemoprotective activity against myleoid leukemia, ablating leukemia stem cells in mice (Hedge et al. 2011, Finch et al. 2015).</Comment>
+    <BiopaxRef>add</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="459.0" Y="1041.0" />
+      <Point X="522.0" Y="1041.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d7387" />
+      <Anchor Position="0.99" Shape="None" GraphId="ff4a1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028263" />
+  </Interaction>
+  <Interaction GraphId="b4152">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="455.0" Y="1042.0" GraphRef="ea133" RelX="0.9555555555555556" RelY="0.0" />
+      <Point X="459.0" Y="1041.0" GraphRef="d7387" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028263" />
+  </Interaction>
+  <Interaction GraphId="c72fe">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="522.0" Y="1041.0" GraphRef="ff4a1" RelX="0.6299999999999955" RelY="0.0" />
+      <Point X="525.0" Y="1043.0" GraphRef="e0b0e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028263" />
+  </Interaction>
+  <Interaction GraphId="f39f3">
+    <Comment Source="Reactome">It is proposed that Î´12-prostaglandin-J3 ( Î´12-PGJ3) undergoes a second dehydration to form 15-deoxy-prostaglandin J3 (15d-PGJ3) (Fitzpatrick et al. 1983, Shibata et al. 2002). Oxo-fatty acids, like 15d-PGJ3, can covalently bind and activate the peroxisome proliferator-activated receptor Î³ (PPARÎ³) and inhibit pro-inflammatory cytokine and nitric oxide production (Groeger et al. 2010, Waku et al. 2009, Shibata et al. 2002, Lefils-Lacourtablaise et al. 2013). In mice, oxo-prostaglandins such as 15d-PGJ3 may have a chemopreventative effect in myeloid leukemia (Finch et al. 2015, Hedge et al. 2011).</Comment>
+    <BiopaxRef>add</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="603.0" Y="1041.0" />
+      <Point X="671.0" Y="1041.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b7f1c" />
+      <Anchor Position="0.99" Shape="None" GraphId="bb5a7" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028260" />
+  </Interaction>
+  <Interaction GraphId="aab40">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="599.0" Y="1043.0" GraphRef="e0b0e" RelX="0.9733333333333334" RelY="0.0" />
+      <Point X="603.0" Y="1041.0" GraphRef="b7f1c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028260" />
+  </Interaction>
+  <Interaction GraphId="b3ef7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="671.0" Y="1041.0" GraphRef="bb5a7" RelX="0.6800000000000637" RelY="0.0" />
+      <Point X="707.0" Y="1042.0" GraphRef="b7c8c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028260" />
+  </Interaction>
+  <Interaction GraphId="b64e9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="671.0" Y="1041.0" GraphRef="bb5a7" RelX="0.6800000000000637" RelY="0.0" />
+      <Point X="689.0" Y="1066.0" GraphRef="c9627" RelX="-0.023255813953488372" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9028260" />
+  </Interaction>
+  <Interaction GraphId="bade6">
+    <Comment Source="Reactome">To produce their pro-resolving effects, oxo-DHAs (7-, 13- and 17-oxo-DHA) are released into the exudate of local inflammation sites (Cipollina 2015). The mechanism of translocation is unknown.</Comment>
+    <BiopaxRef>c38</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="866.0" Y="218.0" />
+      <Point X="1009.0" Y="218.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b44d2" />
+      <Anchor Position="0.99" Shape="None" GraphId="fc5fc" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032315" />
+  </Interaction>
+  <Interaction GraphId="d6c82">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="860.0" Y="219.0" GraphRef="d3ed5" RelX="1.0" RelY="0.0" />
+      <Point X="866.0" Y="218.0" GraphRef="b44d2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032315" />
+  </Interaction>
+  <Interaction GraphId="fbcf4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1009.0" Y="218.0" GraphRef="fc5fc" RelX="1.4300000000000637" RelY="0.0" />
+      <Point X="1015.0" Y="219.0" GraphRef="e943b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032315" />
+  </Interaction>
+  <Interaction GraphId="fc1b8">
+    <Comment Source="Reactome">To produce their pro-resolving effects, oxo-DPAn-3s (7-, 13- and 17-oxo-DPAn-3) are released into the exudate of local inflammation sites (Cipollina 2015). The mechanism of translocation is unknown.</Comment>
+    <BiopaxRef>c38</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="914.0" Y="570.0" />
+      <Point X="1008.0" Y="570.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ecb6f" />
+      <Anchor Position="0.99" Shape="None" GraphId="fb3c7" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032323" />
+  </Interaction>
+  <Interaction GraphId="bc29d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="907.0" Y="572.0" GraphRef="c3de1" RelX="0.978021978021978" RelY="0.0" />
+      <Point X="914.0" Y="570.0" GraphRef="ecb6f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032323" />
+  </Interaction>
+  <Interaction GraphId="f9828">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1008.0" Y="570.0" GraphRef="fb3c7" RelX="0.9400000000000546" RelY="0.0" />
+      <Point X="1014.0" Y="570.0" GraphRef="b4317" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032323" />
+  </Interaction>
+  <Interaction GraphId="a2e0f">
+    <Comment Source="Reactome">To produce their pro-resolving effects, 5-oxo-EPA and 15d-PGJ3 are released into the exudate of local inflammation sites (Cipollina 2015). The mechanism of translocation is unknown.</Comment>
+    <BiopaxRef>c38</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="855.0" Y="966.0" />
+      <Point X="990.0" Y="966.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c9c05" />
+      <Anchor Position="0.99" Shape="None" GraphId="f6370" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032327" />
+  </Interaction>
+  <Interaction GraphId="ee8fb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="783.0" Y="1042.0" GraphRef="b7c8c" RelX="1.0" RelY="0.0" />
+      <Point X="855.0" Y="966.0" GraphRef="c9c05" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032327" />
+  </Interaction>
+  <Interaction GraphId="f5032">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="747.0" Y="922.0" GraphRef="aacb5" RelX="1.0" RelY="0.0" />
+      <Point X="855.0" Y="966.0" GraphRef="c9c05" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032327" />
+  </Interaction>
+  <Interaction GraphId="b9853">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="990.0" Y="966.0" GraphRef="f6370" RelX="1.3500000000000227" RelY="0.0" />
+      <Point X="1038.0" Y="1033.0" GraphRef="f1ff2" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032327" />
+  </Interaction>
+  <Interaction GraphId="d0bd2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="990.0" Y="966.0" GraphRef="f6370" RelX="1.3500000000000227" RelY="0.0" />
+      <Point X="1036.0" Y="922.0" GraphRef="beacb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9032327" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="f2ca1" GroupRef="c9e89">
+    <Graphics CenterX="94.0" CenterY="64.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="dab66" GroupRef="c9e89">
+    <Graphics CenterX="485.0" CenterY="583.0" Width="936.0" Height="1116.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="d5bfd" GraphId="bfa3a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-140491" />
+  </Group>
+  <Group GroupId="a608a" GraphId="acd30" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2314687" />
+  </Group>
+  <Group GroupId="bbab0" GraphId="b33e1" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-2314687" />
+  </Group>
+  <Group GroupId="f7a78" GraphId="e5304" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-140491" />
+  </Group>
+  <Group GroupId="a292b" GraphId="b85fe">
+    <Attribute Key="complex_id" Value="R-ALL-9032319" />
+  </Group>
+  <Group GroupId="c58ce" GraphId="a8dd8">
+    <Attribute Key="complex_id" Value="R-ALL-9032322" />
+  </Group>
+  <Group GroupId="f83e1" GraphId="da72d">
+    <Attribute Key="complex_id" Value="R-ALL-9032318" />
+  </Group>
+  <Group GroupId="ccf9d" GraphId="b4607">
+    <Attribute Key="complex_id" Value="R-ALL-9032325" />
+  </Group>
+  <Group GroupId="c9e89" GraphId="c8110" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c38">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26339618</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endogenous Generation and Signaling Actions of Omega-3 Fatty Acid Electrophilic Derivatives.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cipollina C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c27">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21467029</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human cyclooxygenase-2 is a sequence homodimer that functions as a conformational heterodimer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dong L, Vecchio AJ, Sharma NP, Jurban BJ, Malkowski MG, Smith WL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8175750</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acetylation of human prostaglandin endoperoxide synthase-2 (cyclooxygenase-2) by aspirin.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lecomte M, Laneuville O, Ji C, DeWitt DL, Smith WL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12391014</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resolvins: a family of bioactive products of omega-3 fatty acid transformation circuits initiated by aspirin treatment that counter proinflammation signals.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serhan CN, Hong S, Gronert K, Colgan SP, Devchand PR, Mirick G, Moussignac RL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20436486</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclooxygenase-2 generates anti-inflammatory mediators from omega-3 fatty acids.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Groeger AL, Cipollina C, Cole MP, Woodcock SR, Bonacci G, Rudolph TK, Rudolph V, Freeman BA, Schopfer FJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24736647</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generation and dietary modulation of anti-inflammatory electrophilic omega-3 fatty acid derivatives.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cipollina C, Salvatore SR, Muldoon MF, Freeman BA, Schopfer FJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19164464</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substrate selectivity of 5-hydroxyeicosanoid dehydrogenase and its inhibition by 5-hydroxy-Delta6-long-chain fatty acids.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patel P, Cossette C, Anumolu JR, Erlemann KR, Grant GE, Rokach J, Powell WS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f27">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8847485</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formation of a 5-oxo metabolite of 5,8,11,14,17-eicosapentaenoic acid and its effects on human neutrophils and eosinophils.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Powell WS, Gravel S, Gravelle F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17519235</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enzymes and receptors of prostaglandin pathways with arachidonic acid-derived versus eicosapentaenoic acid-derived substrates and products.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wada M, DeLong CJ, Hong YH, Rieke CJ, Song I, Sidhu RS, Yuan C, Warnock M, Schmaier AH, Yokoyama C, Smyth EM, Wilson SJ, FitzGerald GA, Garavito RM, Sui de X, Regan JW, Smith WL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="add">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6578214</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albumin-catalyzed metabolism of prostaglandin D2. Identification of products formed in vitro.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fitzpatrick FA, Wynalda MA.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

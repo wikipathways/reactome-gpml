@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="DNA Double-Strand Break Repair" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Double-strand breaks (DSBs), one of the most deleterious types of DNA damage along with interstrand crosslinks, are caused by ionizing radiation or certain chemicals such as bleomycin. DSBs also occur physiologically, during the processes of DNA replication, meiotic exchange, and V(D)J recombination.&lt;p&gt;DSBs are sensed (detected) by the MRN complex. Binding of the MRN complex to the DSBs usually triggers ATM kinase activation, thus initiating the DNA double strand break response. ATM phosphorylates a number of proteins involved in DNA damage checkpoint signaling, as well as proteins directly involved in the repair of DNA DSBs. DSBs are repaired via homology directed repair (HDR) or via nonhomologous end-joining (NHEJ).&lt;p&gt;HDR requires resection of DNA DSB ends. Resection creates 3'-ssDNA overhangs which then anneal with a homologous DNA sequence. This homologous sequence can then be used as a template for DNA repair synthesis that bridges the DSB. HDR preferably occurs through the error-free homologous recombination repair (HRR), but can also occur through the error-prone single strand annealing (SSA), or the least accurate microhomology-mediated end joining (MMEJ). MMEJ takes place when DSB response cannot be initiated.&lt;p&gt;While HRR is limited to actively dividing cells with replicated DNA, error-prone NHEJ pathway functions at all stages of the cell cycle, playing the predominant role in both the G1 phase and in S-phase regions of DNA that have not yet replicated. During NHEJ, the Ku70:Ku80 heterodimer (also known as the Ku complex or XRCC5:XRCC6) binds DNA DSB ends, competing away the MRN complex and preventing MRN-mediated resection of DNA DSB ends. The catalytic subunit of the DNA-dependent protein kinase (DNA-PKcs, PRKDC) is then recruited to DNA-bound Ku to form the DNA-PK holoenzyme. Two DNA-PK complexes, one at each side of the break, bring DNA DSB ends together, joining them in a synaptic complex. DNA-PK complex recruits DCLRE1C (ARTEMIS) to DNA DSB ends, leading to trimming of 3'- and 5'-overhangs at the break site, followed by ligation. &lt;p&gt;For review of this topic, please refer to Ciccia and Elledge 2010.
+
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=5693532 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 5693532</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: Lees-Miller, S, Thompson, L</Comment>
+  <BiopaxRef>d42</BiopaxRef>
+  <BiopaxRef>cde</BiopaxRef>
+  <Attribute Key="reactome_id" Value="5693532" />
+  <Graphics BoardWidth="764.0" BoardHeight="354.0" />
+  <DataNode TextLabel="DNA Double Strand&#xA;Break Response" GraphId="e42f3" Type="Pathway">
+    <Comment Source="Reactome">DNA double-strand break (DSB) response involves sensing of DNA DSBs by the MRN complex which triggers ATM activation. ATM phosphorylates a number of proteins involved in DNA damage checkpoint signaling, as well as proteins directly involved in the repair of DNA DSBs. For a recent review, please refer to Ciccia and Elledge, 2010.</Comment>
+    <BiopaxRef>cde</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="414.0" CenterY="124.5" Width="326.0" Height="61.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5693606" />
+  </DataNode>
+  <DataNode TextLabel="Homology Directed&#xA;Repair" GraphId="b8b40" Type="Pathway">
+    <Comment Source="Reactome">Homology directed repair (HDR) of DNA double strand breaks (DSBs) requires resection of DNA DSB ends. Resection creates 3'-ssDNA overhangs which then anneal with a homologous DNA sequence. This homologous sequence can then be used as a template for DNA repair synthesis that bridges the DSB. HDR preferably occurs through the error-free homologous recombination repair (HRR), but can also occur through the error-prone single strand annealing (SSA), or the least accurate microhomology-mediated end joining (MMEJ).&lt;p&gt;HRR and SSA share the initial steps that involve ATM signaling, formation of the so-called ionizing radiation-induced foci (IRIF), extensive resection of DNA DSB ends and activation of ATR signaling. In homologous recombination, 3'-ssDNA overhangs anneal with complementary sister chromatid strands. In SSA, 3'-ssDNA overhangs anneal with each other through homologous direct repeats contained in each overhang, resulting in deletions of one of the repeats and the DNA sequence in between the repeats during DNA repair synthesis.&lt;p&gt;Contrary to HRR and SSA, which both involve annealing of long stretches of highly homologous DNA sequences, MMEJ entails annealing of short regions of two 3'-ssDNA overhangs (up to 20 nucleotides) and is therefore more promiscuous and more likely to join unrelated DNA molecules. The error rate of MMEJ is additionally increased by the low fidelity of the DNA polymerase theta (POLQ), which performs DNA repair synthesis in MMEJ.&lt;p&gt;For reviews of this topic, please refer to Khanna 2001, Thompson and Schild 2001, Thompson and Schild 2002, Thompson and Limoli 2003, Ciccia and Elledge 2010.</Comment>
+    <BiopaxRef>f06</BiopaxRef>
+    <BiopaxRef>f1a</BiopaxRef>
+    <BiopaxRef>f71</BiopaxRef>
+    <BiopaxRef>cde</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="216.0" CenterY="297.0" Width="310.0" Height="54.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5693538" />
+  </DataNode>
+  <DataNode TextLabel="Nonhomologous&#xA;End-Joining (NHEJ)" GraphId="ff2cd" Type="Pathway">
+    <Comment Source="Reactome">The nonhomologous end joining (NHEJ) pathway is initiated in response to the formation of DNA double-strand breaks (DSBs) induced by DNA-damaging agents, such as ionizing radiation. DNA DSBs are recognized by the MRN complex (MRE11A:RAD50:NBN), leading to ATM activation and ATM-dependent recruitment of a number of DNA damage checkpoint and repair proteins to DNA DSB sites (Lee and Paull 2005). The ATM phosphorylated MRN complex, MDC1 and H2AFX-containing nucleosomes (gamma-H2AX) serve as scaffolds for the formation of nuclear foci known as ionizing radiation induced foci (IRIF) (Gatei et al. 2000, Paull et al. 2000, Stewart et al. 2003, Stucki et al. 2005). Ultimately, both BRCA1:BARD1 heterodimers and TP53BP1 (53BP1) are recruited to IRIF (Wang et al. 2007, Pei et al. 2011, Mallette et al. 2012), which is necessary for ATM-mediated CHEK2 activation (Wang et al. 2002, Wilson et al. 2008). In G1 cells, TP53BP1 promotes NHEJ by recruiting RIF1 and PAX1IP, which displaces BRCA1:BARD1 and associated proteins from the DNA DSB site and prevents resection of DNA DSBs needed for homologous recombination repair (HRR) (Escribano-Diaz et al. 2013, Zimmermann et al. 2013, Callen et al. 2013). TP53BP1 also plays an important role in ATM-mediated phosphorylation of DCLRE1C (ARTEMIS) (Riballo et al. 2004, Wang et al. 2014). Ku70:Ku80 heterodimer (also known as the Ku complex or XRCC5:XRCC6) binds DNA DSB ends, competing away the MRN complex and preventing MRN-mediated resection of DNA DSB ends (Walker et al. 2001, Sun et al. 2012). The catalytic subunit of the DNA-dependent protein kinase (DNA-PKcs, PRKDC) is then recruited to DNA-bound Ku to form the DNA-PK holoenzyme. Two DNA-PK complexes, one at each side of the break, bring DNA DSB ends together, joining them in a synaptic complex (Gottlieb 1993, Yoo and Dynan 2000). DNA-PK complex recruits DCLRE1C (ARTEMIS) to DNA DSB ends (Ma et al. 2002). PRKDC-mediated phosphorylation of DCLRE1C, as well as PRKDC autophosphorylation, enables DCLRE1C to trim 3'- and 5'-overhangs at DNA DSBs, preparing them for ligation (Ma et al. 2002, Ma et al. 2005, Niewolik et al. 2006). The binding of inositol phosphate may additionally stimulate the catalytic activity of PRKDC (Hanakahi et al. 2000). Other factors, such as polynucleotide kinase (PNK), TDP1 or TDP2 may remove unligatable damaged nucleotides from 5'- and 3'-ends of the DSB, converting them to ligatable substrates (Inamdar et al. 2002, Gomez-Herreros et al. 2013). DNA ligase 4 (LIG4) in complex with XRCC4 (XRCC4:LIG4) is recruited to ligatable DNA DSB ends together with the XLF (NHEJ1) homodimer and DNA polymerases mu (POLM) and/or lambda (POLL) (McElhinny et al. 2000, Hsu et al. 2002, Malu et al. 2002, Ahnesorg et al. 2006, Mahajan et al. 2002, Lee et al. 2004, Fan and Wu 2004). After POLL and/or POLM fill 1- or 2-nucleotide long single strand gaps at aligned DNA DSB ends, XRCC4:LIG4 performs the ligation of broken DNA strands, thus completing NHEJ. The presence of NHEJ1 homodimer facilitates the ligation step, especially at mismatched DSB ends (Tsai et al. 2007). Depending on other types of DNA damage present at DNA DSBs, NHEJ can result in error-free products, produce dsDNA with microdeletions and/or mismatched bases, or result in translocations (reviewed by Povrik et al. 2012).</Comment>
+    <BiopaxRef>fc1</BiopaxRef>
+    <BiopaxRef>b33</BiopaxRef>
+    <BiopaxRef>d29</BiopaxRef>
+    <BiopaxRef>d9d</BiopaxRef>
+    <BiopaxRef>e5d</BiopaxRef>
+    <BiopaxRef>a57</BiopaxRef>
+    <BiopaxRef>b4e</BiopaxRef>
+    <BiopaxRef>fae</BiopaxRef>
+    <BiopaxRef>fd4</BiopaxRef>
+    <BiopaxRef>a7d</BiopaxRef>
+    <BiopaxRef>b1b</BiopaxRef>
+    <BiopaxRef>ad7</BiopaxRef>
+    <BiopaxRef>d98</BiopaxRef>
+    <BiopaxRef>ec8</BiopaxRef>
+    <BiopaxRef>c5c</BiopaxRef>
+    <BiopaxRef>db1</BiopaxRef>
+    <BiopaxRef>dd0</BiopaxRef>
+    <BiopaxRef>f23</BiopaxRef>
+    <BiopaxRef>e48</BiopaxRef>
+    <BiopaxRef>e40</BiopaxRef>
+    <BiopaxRef>fba</BiopaxRef>
+    <BiopaxRef>f5e</BiopaxRef>
+    <BiopaxRef>d7f</BiopaxRef>
+    <BiopaxRef>f45</BiopaxRef>
+    <BiopaxRef>c28</BiopaxRef>
+    <BiopaxRef>c4a</BiopaxRef>
+    <BiopaxRef>f22</BiopaxRef>
+    <BiopaxRef>da3</BiopaxRef>
+    <BiopaxRef>d49</BiopaxRef>
+    <BiopaxRef>d02</BiopaxRef>
+    <BiopaxRef>bc6</BiopaxRef>
+    <BiopaxRef>bb6</BiopaxRef>
+    <BiopaxRef>c9f</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="590.0" CenterY="296.0" Width="288.0" Height="52.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-5693571" />
+  </DataNode>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d42">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12897142</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathways of DNA double-strand break repair during the mammalian cell cycle.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rothkamm K, Krüger I, Thompson LH, Löbrich M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cde">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20965415</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The DNA damage response: making it safe to play with knives.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciccia A, Elledge SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f06">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11242102</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA double-strand breaks: signaling, repair and the cancer connection.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khanna KK, Jackson SP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f1a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11376695</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homologous recombinational repair of DNA ensures mammalian chromosome stability.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thompson LH, Schild D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f71">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12427531</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recombinational DNA repair and human disease.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thompson LH, Schild D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fc1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11030616</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Binding of inositol phosphate to DNA-PK and stimulation of double-strand break repair.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hanakahi LA, Bartlet-Jones M, Chappell C, Pappin D, West SC.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b33">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15790808</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATM activation by DNA double-strand breaks through the Mre11-Rad50-Nbs1 complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee JH, Paull TT.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d29">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10959836</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A critical role for histone H2AX in recruitment of repair factors to nuclear foci after DNA damage.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paull TT, Rogakou EP, Yamazaki V, Kirchgessner CU, Gellert M, Bonner WM.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10802669</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATM-dependent phosphorylation of nibrin in response to radiation exposure.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gatei M, Young D, Cerosaletti KM, Desai-Mehta A, Spring K, Kozlov S, Lavin MF, Gatti RA, Concannon P, Khanna K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16377563</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MDC1 directly binds phosphorylated histone H2AX to regulate cellular responses to DNA double-strand breaks.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stucki M, Clapperton JA, Mohammad D, Yaffe MB, Smerdon SJ, Jackson SP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a57">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12607005</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MDC1 is a mediator of the mammalian DNA damage checkpoint.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stewart GS, Wang B, Bignell CR, Taylor AM, Elledge SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b4e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22373579</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNF8- and RNF168-dependent degradation of KDM4A/JMJD2A triggers 53BP1 recruitment to DNA damage sites.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mallette FA, Mattiroli F, Cui G, Young LC, Hendzel MJ, Mer G, Sixma TK, Richard S.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21293379</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSET regulates histone H4K20 methylation and 53BP1 accumulation at DNA damage sites.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pei H, Zhang L, Luo K, Qin Y, Chesi M, Fei F, Bergsagel PL, Wang L, You Z, Lou Z.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17525340</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abraxas and RAP80 form a BRCA1 protein complex required for the DNA damage response.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang B, Matsuoka S, Ballif BA, Zhang D, Smogorzewska A, Gygi SP, Elledge SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a7d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12364621</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53BP1, a mediator of the DNA damage checkpoint.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang B, Matsuoka S, Carpenter PB, Elledge SJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b1b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19001859</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFBD1/MDC1, 53BP1 and BRCA1 have both redundant and unique roles in the ATM pathway.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wilson KA, Stern DF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23333306</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell cycle-dependent regulatory circuit composed of 53BP1-RIF1 and BRCA1-CtIP controls DNA repair pathway choice.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escribano-Díaz C, Orthwein A, Fradet-Turcotte A, Xing M, Young JT, Tkáč J, Cook MA, Rosebrock AP, Munro M, Canny MD, Xu D, Durocher D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d98">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23306437</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53BP1 regulates DSB repair using Rif1 to control 5' end resection.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zimmermann M, Lottersberger F, Buonomo SB, Sfeir A, de Lange T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ec8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23727112</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53BP1 mediates productive and mutagenic DNA repair through distinct phosphoprotein interactions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Callen E, Di Virgilio M, Kruhlak MJ, Nieto-Soler M, Wong N, Chen HT, Faryabi RB, Polato F, Santos M, Starnes LM, Wesemann DR, Lee JE, Tubbs A, Sleckman BP, Daniel JA, Ge K, Alt FW, Fernandez-Capetillo O, Nussenzweig MC, Nussenzweig A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c5c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15574327</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathway of double-strand break rejoining dependent upon ATM, Artemis, and proteins locating to gamma-H2AX foci.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riballo E, Kühne M, Rief N, Doherty A, Smith GC, Recio MJ, Reis C, Dahm K, Fricke A, Krempler A, Parker AR, Jackson SP, Gennery A, Jeggo PA, Löbrich M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25512557</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTIP associates with Artemis to dictate DNA repair pathway choice.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wang J, Aroumougame A, Lobrich M, Li Y, Chen D, Chen J, Gong Z.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11493912</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure of the Ku heterodimer bound to DNA and its implications for double-strand break repair.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walker JR, Corpina RA, Goldberg J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f23">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22179609</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Ku70/80 protein blocks exonuclease 1-mediated DNA resection in the presence of human Mre11 or Mre11/Rad50 protein complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sun J, Lee KJ, Davis AJ, Chen DJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e48">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8422676</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The DNA-dependent protein kinase: requirement for DNA ends and association with Ku antigen.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gottlieb TM, Jackson SP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e40">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10572166</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geometry of a complex formed by double strand break repair proteins at a single DNA end: recruitment of DNA-PKcs induces inward translocation of Ku protein.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoo S, Dynan WS.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fba">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11955432</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hairpin opening and overhang processing by an Artemis/DNA-dependent protein kinase complex in nonhomologous end joining and V(D)J recombination.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ma Y, Pannicke U, Schwarz K, Lieber MR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f5e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16093244</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The DNA-dependent protein kinase catalytic subunit phosphorylation sites in human Artemis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ma Y, Pannicke U, Lu H, Niewolik D, Schwarz K, Lieber MR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d7f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16914548</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA-PKcs dependence of Artemis endonucleolytic activity, differences between hairpins and 5' or 3' overhangs.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Niewolik D, Pannicke U, Lu H, Ma Y, Wang LC, Kulesza P, Zandi E, Lieber MR, Schwarz K.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f45">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12023295</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conversion of phosphoglycolate to phosphate termini on 3' overhangs of DNA double strand breaks by the human tyrosyl-DNA phosphodiesterase hTdp1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inamdar KV, Pouliot JJ, Zhou T, Lees-Miller SP, Rasouli-Nia A, Povirk LF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c28">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23505375</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TDP2-dependent non-homologous end-joining protects against topoisomerase II-induced DNA breaks and genome instability in cells and in vivo.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gómez-Herreros F, Romero-Granados R, Zeng Z, Alvarez-Quilón A, Quintero C, Ju L, Umans L, Vermeire L, Huylebroeck D, Caldecott KW, Cortés-Ledesma F.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10757784</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ku recruits the XRCC4-ligase IV complex to DNA ends.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nick McElhinny SA, Snowden CM, McCarville J, Ramsden DA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f22">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12509254</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Defining interactions between DNA-PK and ligase IV/XRCC4.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hsu HL, Yannone SM, Chen DJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="da3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22529269</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artemis C-terminal region facilitates V(D)J recombination through its interactions with DNA Ligase IV and DNA-PKcs.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malu S, De Ioannes P, Kozlov M, Greene M, Francis D, Hanna M, Pena J, Escalante CR, Kurosawa A, Erdjument-Bromage H, Tempst P, Adachi N, Vezzoni P, Villa A, Aggarwal AK, Cortes P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d49">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16439205</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XLF interacts with the XRCC4-DNA ligase IV complex to promote DNA nonhomologous end-joining.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahnesorg P, Smith P, Jackson SP.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d02">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17470781</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cernunnos/XLF promotes the ligation of mismatched and noncohesive DNA ends.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tsai CJ, Kim SA, Chu G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12077346</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Association of DNA polymerase mu (pol mu) with Ku and ligase IV: role for pol mu in end-joining double-strand break repair.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahajan KN, Nick McElhinny SA, Mitchell BS, Ramsden DA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bb6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14561766</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Implication of DNA polymerase lambda in alignment-based gap filling for nonhomologous DNA end joining in human nuclear extracts.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lee JW, Blanco L, Zhou T, Garcia-Diaz M, Bebenek K, Kunkel TA, Wang Z, Povirk LF.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c9f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15451442</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA polymerase lambda can elongate on DNA substrates mimicking non-homologous end joining and interact with XRCC4-ligase IV complex.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fan W, Wu X.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

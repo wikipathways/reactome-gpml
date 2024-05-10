@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Wax and plasmalogen biosynthesis" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Waxes are esters of long chain fatty acids and long chain fatty alcohols that play an important role in protecting the skin surface from drying and abrasion (Cheng &amp; Russell 2004a,b). Plasmalogens are an abundant subclass of phospholipids. While their functions are not well understood, defects in their metabolism are associated with serious human disease (de Vet et al. 1999; Nagan and Zoeller 2001). The biosynthesis of these two classes of molecules both start with the reduction of palmitoyl-CoA (PALM-CoA) to hexadecan-1-ol (HXOL) so it is convenient to group them here.
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=8848584 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 8848584</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: D'Eustachio, Peter</Comment>
+  <BiopaxRef>a56</BiopaxRef>
+  <BiopaxRef>fcb</BiopaxRef>
+  <BiopaxRef>faf</BiopaxRef>
+  <BiopaxRef>ee6</BiopaxRef>
+  <Attribute Key="reactome_id" Value="8848584" />
+  <Graphics BoardWidth="996.0" BoardHeight="825.0" />
+  <DataNode TextLabel="PALM-CoA" GraphId="b0723" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="116.0" CenterY="381.0" Width="80.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57379" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="b7e7e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="201.5" CenterY="474.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="f3282" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="108.5" CenterY="430.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="ef835" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="334.0" CenterY="464.0" Width="64.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57287" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="c6671" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="428.5" CenterY="431.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="HXOL" GraphId="ff4d7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="423.5" CenterY="375.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16125" />
+  </DataNode>
+  <DataNode TextLabel="FAR1" GraphId="d8428" Type="Protein">
+    <Attribute Key="cellular_location" Value="peroxisomal membrane" />
+    <Graphics CenterX="248.5" CenterY="324.0" Width="39.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8WVX9" />
+  </DataNode>
+  <DataNode TextLabel="FAR2" GraphId="e539a" Type="Protein">
+    <Attribute Key="cellular_location" Value="peroxisomal membrane" />
+    <Graphics CenterX="308.5" CenterY="324.0" Width="39.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96K12" />
+  </DataNode>
+  <DataNode TextLabel="HXOL" GraphId="fbdca" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="510.5" CenterY="282.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16125" />
+  </DataNode>
+  <DataNode TextLabel="ARACOH" GraphId="b8abb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="413.0" CenterY="638.0" Width="68.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:75627" />
+  </DataNode>
+  <DataNode TextLabel="Acyl-CoA" GraphId="acb60" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="413.5" CenterY="590.0" Width="73.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17984" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="aee90" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="710.0" CenterY="589.0" Width="64.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57287" />
+  </DataNode>
+  <DataNode TextLabel="arachidyl ester" GraphId="dd96c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="710.0" CenterY="638.0" Width="102.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:10036" />
+  </DataNode>
+  <DataNode TextLabel="AWAT1" GraphId="e19db" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="560.5" CenterY="554.0" Width="51.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q58HT5" />
+  </DataNode>
+  <DataNode TextLabel="PALM-PALM" GraphId="e33ab" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="793.0" CenterY="442.0" Width="88.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:75584" />
+  </DataNode>
+  <DataNode TextLabel="AWAT2" GraphId="d12b1" Type="Protein">
+    <BiopaxRef>fb6</BiopaxRef>
+    <BiopaxRef>fcb</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="641.5" CenterY="553.0" Width="51.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6E213" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="d2ce5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="770.0" CenterY="501.0" Width="64.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57287" />
+  </DataNode>
+  <DataNode TextLabel="PALM-CoA" GraphId="d89bf" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="525.0" CenterY="486.0" Width="80.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57379" />
+  </DataNode>
+  <DataNode TextLabel="atROL" GraphId="c75c3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="531.5" CenterY="400.0" Width="51.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17336" />
+  </DataNode>
+  <DataNode TextLabel="atR-PALM" GraphId="ce1f9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="762.0" CenterY="394.0" Width="74.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17616" />
+  </DataNode>
+  <DataNode TextLabel="DHAP" GraphId="b8e74" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="261.0" CenterY="128.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57642" />
+  </DataNode>
+  <DataNode TextLabel="PalmCoA" GraphId="f78d3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="265.5" CenterY="200.0" Width="69.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57379" />
+  </DataNode>
+  <DataNode TextLabel="1-Palmitoyl&#xA;dihydroxyacetone&#xA;phosphate" GraphId="ba85f" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="468.5" CenterY="213.0" Width="125.0" Height="58.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58303" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="afc93" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="452.0" CenterY="150.0" Width="64.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57287" />
+  </DataNode>
+  <DataNode TextLabel="GNPAT:AGPS complex" GraphId="c5564" Type="Complex">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="486.5" CenterY="76.0" Width="87.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-76165" />
+  </DataNode>
+  <DataNode TextLabel="GNPAT " GraphId="b2c8e" Type="Protein" GroupRef="eda5f">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-76165" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="733.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O15228" />
+  </DataNode>
+  <DataNode TextLabel="AGPS " GraphId="ec43d" Type="Protein" GroupRef="eda5f">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-76165" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="753.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O00116" />
+  </DataNode>
+  <DataNode TextLabel="FAD " GraphId="ab09d" Type="Metabolite" GroupRef="eda5f">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-76165" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="773.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57692" />
+  </DataNode>
+  <DataNode TextLabel="PALM" GraphId="b5a8c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="666.5" CenterY="283.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15756" />
+  </DataNode>
+  <DataNode TextLabel="GO3P" GraphId="e6ba3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="peroxisomal matrix" />
+    <Graphics CenterX="662.5" CenterY="146.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:73315" />
+  </DataNode>
+  <DataNode TextLabel="GO3P" GraphId="a2ec8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="793.5" CenterY="147.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:73315" />
+  </DataNode>
+  <DataNode TextLabel="HXDG3P" GraphId="d6309" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="793.5" CenterY="292.0" Width="65.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:63818" />
+  </DataNode>
+  <DataNode TextLabel="NADP+" GraphId="d32e2" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="871.5" CenterY="257.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58349" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="d0553" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="868.5" CenterY="193.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="NADPH" GraphId="b411d" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="863.5" CenterY="151.0" Width="59.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57783" />
+  </DataNode>
+  <DataNode TextLabel="DHRS7B" GraphId="be840" Type="Protein">
+    <Attribute Key="cellular_location" Value="peroxisomal membrane" />
+    <Graphics CenterX="719.5" CenterY="216.0" Width="55.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q6IAN0" />
+  </DataNode>
+  <Interaction GraphId="c7abd">
+    <Comment Source="Reactome">Peroxisomal fatty acyl-CoA reductase 1 (FAR1) catalyzes the reaction of palmitoyl-CoA (PalmCoA) and 2 NADPH + 2 H+ to form hexadecanol (HXOL), CoASH, and 2 NADP+. As judged from mRNA levels, FAR1 is widely expressed in the body (Cheng and Russell 2004).</Comment>
+    <BiopaxRef>a56</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="219.0" Y="384.0" />
+      <Point X="318.0" Y="385.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="eca2b" />
+      <Anchor Position="0.99" Shape="None" GraphId="f13e0" />
+      <Anchor Position="0.5" Shape="None" GraphId="fed8c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390425" />
+  </Interaction>
+  <Interaction GraphId="b77e5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="156.0" Y="381.0" GraphRef="b0723" RelX="1.0" RelY="0.0" />
+      <Point X="219.0" Y="384.0" GraphRef="eca2b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390425" />
+  </Interaction>
+  <Interaction GraphId="d398b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="201.0" Y="459.0" GraphRef="b7e7e" RelX="-0.02857142857142857" RelY="-1.0" />
+      <Point X="219.0" Y="384.0" GraphRef="eca2b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390425" />
+  </Interaction>
+  <Interaction GraphId="d3e78">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="137.0" Y="430.0" GraphRef="f3282" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="219.0" Y="384.0" GraphRef="eca2b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390425" />
+  </Interaction>
+  <Interaction GraphId="f8b04">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="318.0" Y="385.0" GraphRef="f13e0" RelX="0.9900000000000091" RelY="0.009999999999990905" />
+      <Point X="334.0" Y="449.0" GraphRef="ef835" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390425" />
+  </Interaction>
+  <Interaction GraphId="d6eda">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="318.0" Y="385.0" GraphRef="f13e0" RelX="0.9900000000000091" RelY="0.009999999999990905" />
+      <Point X="399.0" Y="431.0" GraphRef="c6671" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390425" />
+  </Interaction>
+  <Interaction GraphId="d9996">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="318.0" Y="385.0" GraphRef="f13e0" RelX="0.9900000000000091" RelY="0.009999999999990905" />
+      <Point X="399.0" Y="375.0" GraphRef="ff4d7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390425" />
+  </Interaction>
+  <Interaction GraphId="d3779">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="248.0" Y="335.0" GraphRef="d8428" RelX="-0.02564102564102564" RelY="1.0" />
+      <Point X="269.0" Y="383.0" GraphRef="fed8c" RelX="0.5" RelY="-1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390425" />
+  </Interaction>
+  <Interaction GraphId="c09c2">
+    <Comment Source="Reactome">Peroxisomal fatty acyl-CoA reductase 2 (FAR2) catalyzes the reaction of palmitoyl-CoA (PalmCoA) and 2 NADPH + 2 H+ to form hexadecanol (HXOL), CoASH, and 2 NADP+. As judged from mRNA levels, FAR2 is not widely expressed in the body but is abundant in brain (Cheng and Russell 2004).</Comment>
+    <BiopaxRef>a56</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="240.0" Y="412.0" />
+      <Point X="294.0" Y="411.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ca37c" />
+      <Anchor Position="0.99" Shape="None" GraphId="e7936" />
+      <Anchor Position="0.5" Shape="None" GraphId="f29a0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390438" />
+  </Interaction>
+  <Interaction GraphId="ec05e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="156.0" Y="381.0" GraphRef="b0723" RelX="1.0" RelY="0.0" />
+      <Point X="240.0" Y="412.0" GraphRef="ca37c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390438" />
+  </Interaction>
+  <Interaction GraphId="c2019">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="201.0" Y="459.0" GraphRef="b7e7e" RelX="-0.02857142857142857" RelY="-1.0" />
+      <Point X="240.0" Y="412.0" GraphRef="ca37c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390438" />
+  </Interaction>
+  <Interaction GraphId="b9a24">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="137.0" Y="430.0" GraphRef="f3282" RelX="0.9661016949152542" RelY="0.0" />
+      <Point X="240.0" Y="412.0" GraphRef="ca37c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390438" />
+  </Interaction>
+  <Interaction GraphId="ae6e6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="294.0" Y="411.0" GraphRef="e7936" RelX="0.5400000000000205" RelY="-0.009999999999990905" />
+      <Point X="302.0" Y="464.0" GraphRef="ef835" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390438" />
+  </Interaction>
+  <Interaction GraphId="e34f5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="294.0" Y="411.0" GraphRef="e7936" RelX="0.5400000000000205" RelY="-0.009999999999990905" />
+      <Point X="399.0" Y="431.0" GraphRef="c6671" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390438" />
+  </Interaction>
+  <Interaction GraphId="d14b4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="294.0" Y="411.0" GraphRef="e7936" RelX="0.5400000000000205" RelY="-0.009999999999990905" />
+      <Point X="399.0" Y="375.0" GraphRef="ff4d7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390438" />
+  </Interaction>
+  <Interaction GraphId="c216f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="289.0" Y="324.0" GraphRef="e539a" RelX="-1.0" RelY="0.0" />
+      <Point X="270.0" Y="411.0" GraphRef="f29a0" RelX="3.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390438" />
+  </Interaction>
+  <Interaction GraphId="aca1a">
+    <Comment Source="Reactome">The existence of a mechanism to transport HXOL (hexadecanol) between the cytosol and the peroxisomal matrix is inferred from studies of wax synthesis in cultured cells (Cheng &amp; Russell 2004). A transporter for HXOL has not been identified.</Comment>
+    <BiopaxRef>fcb</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="437.0" Y="357.0" />
+      <Point X="496.0" Y="300.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ad149" />
+      <Anchor Position="0.99" Shape="None" GraphId="a8c80" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848586" />
+  </Interaction>
+  <Interaction GraphId="a3994">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="423.0" Y="360.0" GraphRef="ff4d7" RelX="-0.02040816326530612" RelY="-1.0" />
+      <Point X="437.0" Y="357.0" GraphRef="ad149" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848586" />
+  </Interaction>
+  <Interaction GraphId="b1b5d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="496.0" Y="300.0" GraphRef="a8c80" RelX="0.5900000000000318" RelY="-0.5699999999999932" />
+      <Point X="510.0" Y="297.0" GraphRef="fbdca" RelX="-0.02040816326530612" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848586" />
+  </Interaction>
+  <Interaction GraphId="e3cd6">
+    <Comment Source="Reactome">Arachidyl alcohol (ARACOH) is straight-chain fatty alcohol of C20 length used as an emollient in cosmetics. Esterification of alcohols with fatty acids represents the formation of both storage and cytoprotective molecules in the body. Overproduction of these esters is associated with several disease pathologies, including atherosclerosis and obesity. The ER membrane-associated acyl-CoA wax alcohol acyltransferase 1 (AWAT1) mediates the esterification of its preferred substrate ARACOH (Turkish et al. 2005).</Comment>
+    <BiopaxRef>fb6</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="521.0" Y="614.0" />
+      <Point X="603.0" Y="616.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f39e4" />
+      <Anchor Position="0.99" Shape="None" GraphId="ac591" />
+      <Anchor Position="0.5" Shape="None" GraphId="f629f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696424" />
+  </Interaction>
+  <Interaction GraphId="becd7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="447.0" Y="638.0" GraphRef="b8abb" RelX="1.0" RelY="0.0" />
+      <Point X="521.0" Y="614.0" GraphRef="f39e4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696424" />
+  </Interaction>
+  <Interaction GraphId="fba40">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="449.0" Y="590.0" GraphRef="acb60" RelX="0.9726027397260274" RelY="0.0" />
+      <Point X="521.0" Y="614.0" GraphRef="f39e4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696424" />
+  </Interaction>
+  <Interaction GraphId="ccca0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="603.0" Y="616.0" GraphRef="ac591" RelX="0.8199999999999363" RelY="0.01999999999998181" />
+      <Point X="678.0" Y="589.0" GraphRef="aee90" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696424" />
+  </Interaction>
+  <Interaction GraphId="c414e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="603.0" Y="616.0" GraphRef="ac591" RelX="0.8199999999999363" RelY="0.01999999999998181" />
+      <Point X="659.0" Y="638.0" GraphRef="dd96c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696424" />
+  </Interaction>
+  <Interaction GraphId="bdbbb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="535.0" Y="554.0" GraphRef="e19db" RelX="-1.0" RelY="0.0" />
+      <Point X="566.0" Y="615.0" GraphRef="f629f" RelX="4.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-5696424" />
+  </Interaction>
+  <Interaction GraphId="b0a0f">
+    <Comment Source="Reactome">AWAT2 (Acyl-CoA wax alcohol acyltransferase 2, also known as MFAT and DC4) associated with the endoplasmic reticulum membrane catalyzes the reaction of HXOL (hexadecanol) and PALM-CoA (palmitoyl-CoA) to form the wax monoester palmityl palmitate. The enzyme also acts efficiently on other long-chain fatty alcohols and fatty acyl CoAs. It is abundant in skin and is thought to play a central role in the synthesis of wax molecules that protect the skin from drying (Cheng &amp; Russell 2004; Turkish et al. 2005; Yen et al. 2005).</Comment>
+    <BiopaxRef>fcb</BiopaxRef>
+    <BiopaxRef>fb6</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="595.0" Y="468.0" />
+      <Point X="696.0" Y="469.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ccfb6" />
+      <Anchor Position="0.99" Shape="None" GraphId="a9083" />
+      <Anchor Position="0.5" Shape="None" GraphId="c8a70" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848582" />
+  </Interaction>
+  <Interaction GraphId="e1c4d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="447.0" Y="375.0" GraphRef="ff4d7" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="595.0" Y="468.0" GraphRef="ccfb6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848582" />
+  </Interaction>
+  <Interaction GraphId="ea48a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="565.0" Y="486.0" GraphRef="d89bf" RelX="1.0" RelY="0.0" />
+      <Point X="595.0" Y="468.0" GraphRef="ccfb6" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848582" />
+  </Interaction>
+  <Interaction GraphId="ce44b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="696.0" Y="469.0" GraphRef="a9083" RelX="1.009999999999991" RelY="0.009999999999990905" />
+      <Point X="749.0" Y="442.0" GraphRef="e33ab" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848582" />
+  </Interaction>
+  <Interaction GraphId="c7945">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="696.0" Y="469.0" GraphRef="a9083" RelX="1.009999999999991" RelY="0.009999999999990905" />
+      <Point X="738.0" Y="501.0" GraphRef="d2ce5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848582" />
+  </Interaction>
+  <Interaction GraphId="afc4e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="641.0" Y="542.0" GraphRef="d12b1" RelX="-0.0196078431372549" RelY="-1.0" />
+      <Point X="648.0" Y="469.0" GraphRef="c8a70" RelX="2.5" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848582" />
+  </Interaction>
+  <Interaction GraphId="ac46d">
+    <Comment Source="Reactome">AWAT2 (Acyl-CoA wax alcohol acyltransferase 2, also known as MFAT and DC4) associated with the endoplasmic reticulum membrane catalyzes the reaction of atROL (all-trans retinol) and PALM-CoA (palmitoyl-CoA) to form the ester retinyl palmitate. This ester is thought to provide an inactive storage form of retinol and might play a role in protecting skin, where AWAT2 is most abundant from the effects of UV light (Arne et al. 2017; Yen et al. 2005).</Comment>
+    <BiopaxRef>ba2</BiopaxRef>
+    <BiopaxRef>fec</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="594.0" Y="444.0" />
+      <Point X="699.0" Y="444.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bf450" />
+      <Anchor Position="0.99" Shape="None" GraphId="e286a" />
+      <Anchor Position="0.5" Shape="None" GraphId="d50c1" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848585" />
+  </Interaction>
+  <Interaction GraphId="aca31">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="556.0" Y="400.0" GraphRef="c75c3" RelX="0.9607843137254902" RelY="0.0" />
+      <Point X="594.0" Y="444.0" GraphRef="bf450" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848585" />
+  </Interaction>
+  <Interaction GraphId="fb19a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="565.0" Y="486.0" GraphRef="d89bf" RelX="1.0" RelY="0.0" />
+      <Point X="594.0" Y="444.0" GraphRef="bf450" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848585" />
+  </Interaction>
+  <Interaction GraphId="a17e0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="699.0" Y="444.0" GraphRef="e286a" RelX="1.0499999999999545" RelY="0.0" />
+      <Point X="725.0" Y="394.0" GraphRef="ce1f9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848585" />
+  </Interaction>
+  <Interaction GraphId="ccbfd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="699.0" Y="444.0" GraphRef="e286a" RelX="1.0499999999999545" RelY="0.0" />
+      <Point X="738.0" Y="501.0" GraphRef="d2ce5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848585" />
+  </Interaction>
+  <Interaction GraphId="daf70">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="641.0" Y="542.0" GraphRef="d12b1" RelX="-0.0196078431372549" RelY="-1.0" />
+      <Point X="630.0" Y="446.0" GraphRef="d50c1" RelX="-16.5" RelY="2.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8848585" />
+  </Interaction>
+  <Interaction GraphId="abeac">
+    <Comment Source="Reactome">Peroxisomal glyceronephosphate O-acyltransferase (GNPAT) catalyzes the reaction of palmitoyl-CoA and DHAP to form 1-palmitoyl glycerone phosphate (1-palmitoyl dihydroxyacetone phosphate) and CoASH. The active form of the enzyme is one subunit of a heterotrimer with two molecules of the alkylglycerone phosphate synthase (AGPS) enzyme (Biermann et al. 1999). It was first purified and characterized biochemically by Ofman and Wanders (1994). Mutations in the GNPAT gene are associated with rhizomelic chondrodysplasia type 2 (Ofman et al. 1998, 2001).</Comment>
+    <BiopaxRef>de1</BiopaxRef>
+    <BiopaxRef>aef</BiopaxRef>
+    <BiopaxRef>f67</BiopaxRef>
+    <BiopaxRef>d9b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="315.0" Y="162.0" />
+      <Point X="374.0" Y="163.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e80d0" />
+      <Anchor Position="0.99" Shape="None" GraphId="e126c" />
+      <Anchor Position="0.5" Shape="None" GraphId="df569" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75879" />
+  </Interaction>
+  <Interaction GraphId="d4ff3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="286.0" Y="128.0" GraphRef="b8e74" RelX="1.0" RelY="0.0" />
+      <Point X="315.0" Y="162.0" GraphRef="e80d0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75879" />
+  </Interaction>
+  <Interaction GraphId="faced">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="299.0" Y="200.0" GraphRef="f78d3" RelX="0.9710144927536232" RelY="0.0" />
+      <Point X="315.0" Y="162.0" GraphRef="e80d0" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75879" />
+  </Interaction>
+  <Interaction GraphId="f7536">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="163.0" GraphRef="e126c" RelX="0.5900000000000318" RelY="0.009999999999990905" />
+      <Point X="406.0" Y="213.0" GraphRef="ba85f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75879" />
+  </Interaction>
+  <Interaction GraphId="c140c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="374.0" Y="163.0" GraphRef="e126c" RelX="0.5900000000000318" RelY="0.009999999999990905" />
+      <Point X="420.0" Y="150.0" GraphRef="afc93" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75879" />
+  </Interaction>
+  <Interaction GraphId="ea2cd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="443.0" Y="76.0" GraphRef="c5564" RelX="-1.0" RelY="0.0" />
+      <Point X="348.0" Y="163.0" GraphRef="df569" RelX="3.5" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75879" />
+  </Interaction>
+  <Interaction GraphId="ae43a">
+    <Comment Source="Reactome">Peroxisomal alkylglycerone phosphate synthase (AGPS) catalyzes the reaction of 1-palmitoylglycerone phosphate and hexadecanol to form O-hexadecylglycerone phosphate and palmitate. The active form of the enzyme is post-translationally cleaved to remove its 58 aminoterminal residues, has a molecule of FAD as a cofactor, and occurs in the peroxisome as a complex with glyceronephosphate O-acyltransferase (GNPAT) (Biermann et al. 1999; Bierman and van den Bosch 1999; de Vet et al. 2000).</Comment>
+    <BiopaxRef>de1</BiopaxRef>
+    <BiopaxRef>c64</BiopaxRef>
+    <BiopaxRef>f76</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="553.0" Y="264.0" />
+      <Point X="612.0" Y="263.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e9fd9" />
+      <Anchor Position="0.99" Shape="None" GraphId="a550a" />
+      <Anchor Position="0.5" Shape="None" GraphId="ab930" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390427" />
+  </Interaction>
+  <Interaction GraphId="c74ce">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="534.0" Y="282.0" GraphRef="fbdca" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="553.0" Y="264.0" GraphRef="e9fd9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390427" />
+  </Interaction>
+  <Interaction GraphId="aa773">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="530.0" Y="213.0" GraphRef="ba85f" RelX="0.984" RelY="0.0" />
+      <Point X="553.0" Y="264.0" GraphRef="e9fd9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390427" />
+  </Interaction>
+  <Interaction GraphId="bcefb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="612.0" Y="263.0" GraphRef="a550a" RelX="0.5900000000000318" RelY="-0.009999999999990905" />
+      <Point X="642.0" Y="283.0" GraphRef="b5a8c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390427" />
+  </Interaction>
+  <Interaction GraphId="ea6aa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="612.0" Y="263.0" GraphRef="a550a" RelX="0.5900000000000318" RelY="-0.009999999999990905" />
+      <Point X="662.0" Y="161.0" GraphRef="e6ba3" RelX="-0.02040816326530612" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390427" />
+  </Interaction>
+  <Interaction GraphId="d3501">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="486.0" Y="94.0" GraphRef="c5564" RelX="-0.011494252873563218" RelY="1.0" />
+      <Point X="580.0" Y="263.0" GraphRef="ab930" RelX="-2.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390427" />
+  </Interaction>
+  <Interaction GraphId="c172c">
+    <Comment Source="Reactome">O-hexadecylglycerone phosphate is synthesized in the peroxisomal matrix but its further metabolism takes place in the cytosol and endoplasmic reticulum. The mechanism by which it leaves the peroxisome is unknown (Nagan and Zoeller 2001).</Comment>
+    <BiopaxRef>ee6</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="690.0" Y="146.0" />
+      <Point X="766.0" Y="147.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cbb42" />
+      <Anchor Position="0.99" Shape="None" GraphId="ef125" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390402" />
+  </Interaction>
+  <Interaction GraphId="b6143">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="686.0" Y="146.0" GraphRef="e6ba3" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="690.0" Y="146.0" GraphRef="cbb42" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390402" />
+  </Interaction>
+  <Interaction GraphId="e0eac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="766.0" Y="147.0" GraphRef="ef125" RelX="0.7599999999999909" RelY="0.009999999999990905" />
+      <Point X="769.0" Y="147.0" GraphRef="a2ec8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-390402" />
+  </Interaction>
+  <Interaction GraphId="b66f1">
+    <Comment Source="Reactome">DHRS7B (Dehydrogenase/reductase SDR family member 7B) catalyzes the reaction of NADPH and GO3P (O-hexadecyldihydroxyacetone phosphate) to  form HXDG3P (1-hexadecyl glycerol-3-phosphate) and NADP+. The enzyme is associated with the outer face of the peroxisomal membrane; its substrates and products are thought to be cytosolic. The properties of the human enzyme are inferred from those of an activity purified from guinea pig liver (Datta et al. 1990). More recent studies of HXDG3P metabolism in cultured human cells in which DHRS7B activity was knocked down confirm the specificity of the human enzyme (Lodhi et al. 2012).</Comment>
+    <BiopaxRef>b67</BiopaxRef>
+    <BiopaxRef>e42</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="793.0" Y="194.0" />
+      <Point X="792.0" Y="242.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d8e6f" />
+      <Anchor Position="0.99" Shape="None" GraphId="bc3c9" />
+      <Anchor Position="0.5" Shape="None" GraphId="f2f73" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75883" />
+  </Interaction>
+  <Interaction GraphId="e92aa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="793.0" Y="162.0" GraphRef="a2ec8" RelX="-0.02040816326530612" RelY="1.0" />
+      <Point X="793.0" Y="194.0" GraphRef="d8e6f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75883" />
+  </Interaction>
+  <Interaction GraphId="b3703">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="851.0" Y="193.0" GraphRef="d0553" RelX="-1.0" RelY="0.0" />
+      <Point X="793.0" Y="194.0" GraphRef="d8e6f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75883" />
+  </Interaction>
+  <Interaction GraphId="ac3be">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="834.0" Y="151.0" GraphRef="b411d" RelX="-1.0" RelY="0.0" />
+      <Point X="793.0" Y="194.0" GraphRef="d8e6f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75883" />
+  </Interaction>
+  <Interaction GraphId="d6098">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="792.0" Y="242.0" GraphRef="bc3c9" RelX="-0.009999999999990905" RelY="0.4800000000000182" />
+      <Point X="793.0" Y="277.0" GraphRef="d6309" RelX="-0.015384615384615385" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75883" />
+  </Interaction>
+  <Interaction GraphId="e79fd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="792.0" Y="242.0" GraphRef="bc3c9" RelX="-0.009999999999990905" RelY="0.4800000000000182" />
+      <Point X="842.0" Y="257.0" GraphRef="d32e2" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75883" />
+  </Interaction>
+  <Interaction GraphId="dc9d4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="746.0" Y="216.0" GraphRef="be840" RelX="0.9636363636363636" RelY="0.0" />
+      <Point X="793.0" Y="215.0" GraphRef="f2f73" RelX="0.5" RelY="-3.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-75883" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="eeb07" GroupRef="b2e4c">
+    <Graphics CenterX="59.0" CenterY="675.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="endoplasmic reticulum lumen" GraphId="e9c0b" GroupRef="ab74f">
+    <Graphics CenterX="563.5" CenterY="656.5" Width="203.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="peroxisomal matrix" GraphId="fe120" GroupRef="b10c7">
+    <Graphics CenterX="269.5" CenterY="282.5" Width="137.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="ecac4" GroupRef="b2e4c">
+    <Graphics CenterX="483.0" CenterY="359.0" Width="950.0" Height="692.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="ab636" GroupRef="ab74f">
+    <Graphics CenterX="586.5" CenterY="616.5" Width="569.0" Height="137.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="ccf27" GroupRef="b10c7">
+    <Graphics CenterX="453.5" CenterY="180.5" Width="541.0" Height="303.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="eda5f" GraphId="fb11e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-76165" />
+  </Group>
+  <Group GroupId="b2e4c" GraphId="a38c5" Style="Group" />
+  <Group GroupId="ab74f" GraphId="fc66f" Style="Group" />
+  <Group GroupId="b10c7" GraphId="f0c75" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a56">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15220348</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian wax biosynthesis. I. Identification of two fatty acyl-Coenzyme A reductases with different substrate specificities and tissue distributions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheng JB, Russell DW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15220349</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian wax biosynthesis. II. Expression cloning of wax synthase cDNAs encoding a member of the acyltransferase enzyme family.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheng JB, Russell DW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="faf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10553003</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ether lipid biosynthesis: alkyl-dihydroxyacetonephosphate synthase protein deficiency leads to reduced dihydroxyacetonephosphate acyltransferase activities.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Vet EC, Ijlst L, Oostheim W, Dekker C, Moser HW, van Den Bosch H, Wanders RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ee6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11275267</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmalogens: biosynthesis and functions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nagan N, Zoeller RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15671038</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of two novel human acyl-CoA wax alcohol acyltransferases: members of the diacylglycerol acyltransferase 2 (DGAT2) gene superfamily.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish AR, Henneberry AL, Cromley D, Padamsee M, Oelkers P, Bazzi H, Christiano AM, Billheimer JT, Sturley SL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16106050</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A human skin multifunctional O-acyltransferase that catalyzes the synthesis of acylglycerols, waxes, and retinyl esters.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yen CL, Brown CH, Monetti M, Farese RV.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fec">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28096191</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allosteric modulation of the substrate specificity of acyl-CoA wax alcohol acyltransferase 2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arne JM, Widjaja-Adhi MAK, Hughes T, Huynh KW, Silvaroli JA, Chelstowska S, Moiseenkova-Bell VY, Golczak M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="de1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10215861</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alkyl-dihydroxyacetone phosphate synthase and dihydroxyacetone phosphate acyltransferase form a protein complex in peroxisomes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biermann J, Just WW, Wanders RJ, Van Den Bosch H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aef">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9536089</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acyl-CoA:dihydroxyacetonephosphate acyltransferase: cloning of the human cDNA and resolution of the molecular basis in rhizomelic chondrodysplasia punctata type 2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ofman R, Hettema EH, Hogenhout EM, Caruso U, Muijsers AO, Wanders RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f67">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11237722</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Etherphospholipid biosynthesis and dihydroxyactetone-phosphate acyltransferase: resolution of the genomic organization of the human gnpat gene and its use in the identification of novel mutations.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ofman R, Lajmir S, Wanders RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8186247</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purification of peroxisomal acyl-CoA: dihydroxyacetonephosphate acyltransferase from human placenta.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ofman R, Wanders RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c64">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10692424</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alkyl-dihydroxyacetonephosphate synthase. Presence and role of flavin adenine dinucleotide.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de Vet EC, Hilkes YH, Fraaije MW, van den Bosch H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f76">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10415121</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In vitro processing of the human alkyl-dihydroxyacetonephosphate synthase precursor.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biermann J, van den Bosch H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b67">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2335525</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purification and properties of acyl/alkyl dihydroxyacetone-phosphate reductase from guinea pig liver peroxisomes.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Datta SC, Ghosh MK, Hajra AK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e42">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22863804</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhibiting adipose tissue lipogenesis reprograms thermogenesis and PPARγ activation to decrease diet-induced obesity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lodhi IJ, Yin L, Jensen-Urstad AP, Funai K, Coleman T, Baird JH, El Ramahi MK, Razani B, Song H, Fu-Hsu F, Turk J, Semenkovich CF.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

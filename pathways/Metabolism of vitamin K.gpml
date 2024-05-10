@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Metabolism of vitamin K" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Vitamin K is a required co-factor in a single metabolic reaction, the gamma-carboxylation of glutamate residues of proteins catalyzed by GGCX (gamma-carboxyglutamyl carboxylase). Substrates of GGCX include blood clotting factors, osteocalcin (OCN), and growth arrest-specific protein 6 (GAS6) (Brenner et al. 1998). Vitamin K is derived from green leafy vegetables as phylloquinone and is synthesized by gut flora as menaquinone-7. These molecules are taken up by intestinal enterocytes with other lipids, packaged into chylomicrons, and delivered via the lymphatic and blood circulation to tissues of the body, notably hepatocytes and osteoblasts, via processes of lipoprotein trafficking (Shearer &amp; Newman 2014; Shearer et al. 2012) described elsewhere in Reactome.&lt;P&gt;In these tissues, menadiol (reduced vitamin K3) reacts with geranylgeranyl pyrophosphate to form MK4 (vitamin K hydroquinone), the form of the vitamin required as cofactor for gamma-carboxylation of protein glutamate residues (Hirota et al. 2013). The gamma-carboxylation reactions, annotated elsewhere in Reactome as a part of protein metabolism, convert MK4 to its epoxide form, which is inactive as a cofactor. Two related enzymes, VKORC1 and VKORCL1, can each catalyze the reduction of MK4 epoxide to active MK4. VKORC1 activity is essential for normal operation of the blood clotting cascade and for osteocalcin function (Ferron et al. 2015). A physiological function for VKORCL1 has not yet been definitively established (Hammed et al. 2013; Tie et al. 2014).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=6806664 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 6806664</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <Comment Source="Reactome Author">Reactome Author: D'Eustachio, Peter</Comment>
+  <BiopaxRef>f7e</BiopaxRef>
+  <BiopaxRef>fef</BiopaxRef>
+  <BiopaxRef>a19</BiopaxRef>
+  <BiopaxRef>f1a</BiopaxRef>
+  <BiopaxRef>fdb</BiopaxRef>
+  <BiopaxRef>fd4</BiopaxRef>
+  <BiopaxRef>b3b</BiopaxRef>
+  <Attribute Key="reactome_id" Value="6806664" />
+  <Graphics BoardWidth="740.0" BoardHeight="629.0" />
+  <DataNode TextLabel="GGPP" GraphId="bbcfe" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="116.5" CenterY="353.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57533" />
+  </DataNode>
+  <DataNode TextLabel="PPi" GraphId="c84c4" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="210.0" CenterY="186.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:33019" />
+  </DataNode>
+  <DataNode TextLabel="MK4" GraphId="cfbfb" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="315.0" CenterY="237.0" Width="44.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:78277" />
+  </DataNode>
+  <DataNode TextLabel="UBIAD1" GraphId="b7690" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="75.0" CenterY="303.0" Width="54.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y5Z9" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="f4796" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="458.0" CenterY="306.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="MK4 epoxide" GraphId="e36e7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="511.5" CenterY="370.0" Width="99.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:90152" />
+  </DataNode>
+  <DataNode TextLabel="VKORC1 dimer" GraphId="aa58e" Type="Complex">
+    <BiopaxRef>ffd</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="603.5" CenterY="209.0" Width="99.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-6806371" />
+  </DataNode>
+  <DataNode TextLabel="VKORC1 " GraphId="aa167" Type="Protein" GroupRef="c82e9">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-6806371" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="537.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BQB6" />
+  </DataNode>
+  <DataNode TextLabel="VKORC1L1" GraphId="db996" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="611.0" CenterY="263.0" Width="74.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N0U8" />
+  </DataNode>
+  <DataNode TextLabel="menadione" GraphId="e9a51" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="168.5" CenterY="386.0" Width="85.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28869" />
+  </DataNode>
+  <DataNode TextLabel="Gamma carboxylation,&#xA;hypusinylation,&#xA;hydroxylation, and&#xA;arylsulfatase&#xA;activation" GraphId="ab96e" Type="Pathway">
+    <Comment Source="Reactome">After translation, many newly formed proteins undergo further covalent modifications that alter their functional properties and that are essentially irreversible under physiological conditions in the body. These modifications include the vitamin K-dependent attachment of carboxyl groups to glutamate residues and the conversion of a lysine residue in eIF5A to hypusine, the conversion of a histidine residue in EEF to diphthamide, and the hydrxylation of various amino acid side chains.</Comment>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="318.5" CenterY="369.0" Width="111.0" Height="100.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-163841" />
+  </DataNode>
+  <DataNode TextLabel="VKORC1&#xA;inhibitors:VKORC1&#xA;dimer" GraphId="fb69d" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="404.5" CenterY="123.0" Width="119.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9035037" />
+  </DataNode>
+  <DataNode TextLabel="VKORC1 " GraphId="c41be" Type="Protein" GroupRef="b153d">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-9035037" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="577.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BQB6" />
+  </DataNode>
+  <DataNode TextLabel="dicumarol " GraphId="ab2dc" GroupRef="b153d">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9035037" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="VKORC1 inhibitors" GraphId="ad35f" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="593.5" CenterY="76.0" Width="115.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-9035082" />
+  </DataNode>
+  <DataNode TextLabel="dicumarol " GraphId="c7bfe" GroupRef="e15fd">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-9035082" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="0.0" CenterY="0.0" Width="0.0" Height="0.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GraphId="ac2aa">
+    <Comment Source="Reactome">UBIAD1 (UbiA prenyltransferase domain-containing protein 1) in the endoplasmic reticulum catalyzes the transfer of a geranylgeranyl group from GGPP (geranylgeranyl pyrophosphate)to menadione to form MK4 (vitamin K hydroquinone, menatetrenone) (Nakagawa et al. 2010; Hirota et al. 2013, 2015; Schumacher et al. 2015).</Comment>
+    <BiopaxRef>f1a</BiopaxRef>
+    <BiopaxRef>b61</BiopaxRef>
+    <BiopaxRef>c2e</BiopaxRef>
+    <BiopaxRef>d16</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="168.0" Y="327.0" />
+      <Point X="168.0" Y="236.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e794b" />
+      <Anchor Position="0.99" Shape="None" GraphId="fe470" />
+      <Anchor Position="0.5" Shape="None" GraphId="eee6c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806674" />
+  </Interaction>
+  <Interaction GraphId="d246c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="168.0" Y="371.0" GraphRef="e9a51" RelX="-0.011764705882352941" RelY="-1.0" />
+      <Point X="168.0" Y="327.0" GraphRef="e794b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806674" />
+  </Interaction>
+  <Interaction GraphId="a45b4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="140.0" Y="353.0" GraphRef="bbcfe" RelX="0.9591836734693877" RelY="0.0" />
+      <Point X="168.0" Y="327.0" GraphRef="e794b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806674" />
+  </Interaction>
+  <Interaction GraphId="e80f0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="168.0" Y="236.0" GraphRef="fe470" RelX="0.0" RelY="-0.9099999999999966" />
+      <Point X="210.0" Y="201.0" GraphRef="c84c4" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806674" />
+  </Interaction>
+  <Interaction GraphId="d34d3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="168.0" Y="236.0" GraphRef="fe470" RelX="0.0" RelY="-0.9099999999999966" />
+      <Point X="293.0" Y="237.0" GraphRef="cfbfb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806674" />
+  </Interaction>
+  <Interaction GraphId="e063b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="102.0" Y="303.0" GraphRef="b7690" RelX="1.0" RelY="0.0" />
+      <Point X="168.0" Y="304.0" GraphRef="eee6c" RelX="0.0" RelY="22.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806674" />
+  </Interaction>
+  <Interaction GraphId="e9034">
+    <Comment Source="Reactome">4-Hydroxycoumarins belong to a class of vitamin K antagonist anticoagulant drug molecules derived from coumarin, a bitter-tasting but sweet-smelling natural substance made by plants. It itself doesn't affect coagulation, but is transformed in mouldy feeds or silages by a number of fungi into active dicumarol, a substance that does have anticoagulant properties. Identified in 1940, dicumarol became the prototypical drug of the 4-hydroxycoumarin anticoagulant drug class but has been superceded by warfarin since the 1950's (Norn et al. 2014). Phenindione was introduced in the early 1950s and acts similarly to warfarin, but it has been associated with hypersensitivity reactions so is now rarely used (Naisbitt et al. 2005). Other coumarin-derivatives commonly prescribed in Europe and other regions are long-acting phenprocoumon (half-life 140 hours) and short-acting acenocoumarol (half-life 11 hours) (Gadisseur et al. 2002). Warfarin, the more potent form of dicumarol and initially used as rat poison, was introduced as an oral anticoagulant in the 1950s and is currently the most widely used oral anticoagulant. Although the working mechanism of the 4-Hydroxycoumarin drugs is similar, there are some important differences in pharmacokinetics between them (Verhoef et al. 2014).&lt;br&gt;&lt;br&gt;The reduction of vitamin K 2,3-epoxide (MK4 epoxide) by VKORC1 is essential to sustain gamma-carboxylation of vitamin K-dependent proteins such as the clotting factors II, VII, IX and X. The anticoagulant drug warfarin inhibits VKORC1 (Whitlon et al. 1978), thereby reducing clotting ability (Choonara et al. 1985, 1988), which is used as a treatment for thrombotic disorders such as deep vein thrombosis (DVT), pulmonary embolism and to prevent stroke (Ageno et al. 2012). A common side-effect of warfarin anticoagulation is bleeding which can be counteracted by vitamin K supplementation (Ageno et al. 2012). The exact mechanism by which warfarin inhibits VKORC1 remains elusive. Several recent mechanistic studies suggest competitive binding of a key residue in VKORC1 (Czogalla et al. 2017) or blockage of a dynamic electron-transfer process in VKORC1 (Shen et al. 2017). New oral anticoagulants (NOAC; rivaroxaban, dabigatran, apixaban) have become available as an alternative to warfarin anticoagulation. Unlike warfarin, they are fast-acting and don't require routine coagulation monitoring (Gomez-Outes et al. 2013).</Comment>
+    <BiopaxRef>c26</BiopaxRef>
+    <BiopaxRef>cfc</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="404.0" Y="280.0" />
+      <Point X="340.0" Y="236.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="bb93e" />
+      <Anchor Position="0.99" Shape="None" GraphId="f5754" />
+      <Anchor Position="0.5" Shape="None" GraphId="c8c1e" />
+      <Anchor Position="0.5" Shape="None" GraphId="e976a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-159790" />
+  </Interaction>
+  <Interaction GraphId="ebf3d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="440.0" Y="306.0" GraphRef="f4796" RelX="-1.0" RelY="0.0" />
+      <Point X="404.0" Y="280.0" GraphRef="bb93e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-159790" />
+  </Interaction>
+  <Interaction GraphId="c771a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="462.0" Y="370.0" GraphRef="e36e7" RelX="-1.0" RelY="0.0" />
+      <Point X="404.0" Y="280.0" GraphRef="bb93e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-159790" />
+  </Interaction>
+  <Interaction GraphId="c8381">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="340.0" Y="236.0" GraphRef="f5754" RelX="-0.6399999999999864" RelY="-0.4399999999999977" />
+      <Point X="337.0" Y="237.0" GraphRef="cfbfb" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-159790" />
+  </Interaction>
+  <Interaction GraphId="c10e8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="554.0" Y="209.0" GraphRef="aa58e" RelX="-1.0" RelY="0.0" />
+      <Point X="404.0" Y="236.0" GraphRef="c8c1e" RelX="32.0" RelY="-22.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-159790" />
+  </Interaction>
+  <Interaction GraphId="d0413">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="404.0" Y="141.0" GraphRef="fb69d" RelX="-0.008403361344537815" RelY="1.0" />
+      <Point X="404.0" Y="236.0" GraphRef="e976a" RelX="32.0" RelY="-22.0" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-159790" />
+  </Interaction>
+  <Interaction GraphId="eeb43">
+    <Comment Source="Reactome">VKORC1L1 (Vitamin K epoxide reductase complex subunit 1-like protein 1) in the endoplasmic reticulum catalyzes the reduction of MK4 epoxide to MK4, the active form of vitamin K. A physiological role for this reaction has not been established (Hammed et al. 2013; Tie et al. 2014; Westhofen et al. 2011).</Comment>
+    <BiopaxRef>a19</BiopaxRef>
+    <BiopaxRef>b3b</BiopaxRef>
+    <BiopaxRef>ff8</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="511.0" Y="310.0" />
+      <Point X="340.0" Y="239.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="af42e" />
+      <Anchor Position="0.99" Shape="None" GraphId="a81fb" />
+      <Anchor Position="0.5" Shape="None" GraphId="afb99" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806647" />
+  </Interaction>
+  <Interaction GraphId="a9fb2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="476.0" Y="306.0" GraphRef="f4796" RelX="1.0" RelY="0.0" />
+      <Point X="511.0" Y="310.0" GraphRef="af42e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806647" />
+  </Interaction>
+  <Interaction GraphId="f064a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="511.0" Y="355.0" GraphRef="e36e7" RelX="-0.010101010101010102" RelY="-1.0" />
+      <Point X="511.0" Y="310.0" GraphRef="af42e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806647" />
+  </Interaction>
+  <Interaction GraphId="f2ba2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="340.0" Y="239.0" GraphRef="a81fb" RelX="-1.7100000000000364" RelY="-0.710000000000008" />
+      <Point X="337.0" Y="237.0" GraphRef="cfbfb" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806647" />
+  </Interaction>
+  <Interaction GraphId="bbed1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="574.0" Y="263.0" GraphRef="db996" RelX="-1.0" RelY="0.0" />
+      <Point X="511.0" Y="263.0" GraphRef="afb99" RelX="85.5" RelY="-11.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-6806647" />
+  </Interaction>
+  <Interaction GraphId="f6a0b">
+    <Comment Source="Reactome">4-Hydroxycoumarins belong to a class of vitamin K antagonist anticoagulant drug molecules derived from coumarin, a bitter-tasting but sweet-smelling natural substance made by plants. It itself doesn't affect coagulation, but is transformed in mouldy feeds or silages by a number of fungi into active dicumarol, a substance that does have anticoagulant properties. Identified in 1940, dicumarol became the prototypical drug of the 4-hydroxycoumarin anticoagulant drug class but has been superceded by warfarin since the 1950's (Norn et al. 2014). Phenindione was introduced in the early 1950s and acts similarly to warfarin, but it has been associated with hypersensitivity reactions so is now rarely used (Naisbitt et al. 2005). Other coumarin-derivatives commonly prescribed in Europe and other regions are the long-acting phenprocoumon (half-life 140 hours) and short-acting acenocoumarol (half-life 11 hours) (Gadisseur et al. 2002). Warfarin, the more potent form of dicumarol and initially used as rat poison, was introduced as an oral anticoagulant in the 1950s and is currently the most widely used oral anticoagulant. Although the working mechanism of the 4-Hydroxycoumarin drugs is similar, there are some important differences in pharmacokinetics between them (Verhoef et al. 2014).&lt;br&gt;&lt;br&gt;The reduction of vitamin K 2,3-epoxide (MK4 epoxide) by VKORC1 is essential to sustain gamma-carboxylation of vitamin K-dependent proteins such as the clotting factors II, VII, IX and X. The anticoagulant drug warfarin inhibits VKORC1 (Whitlon et al. 1978), thereby reducing clotting ability (Choonara et al. 1985, 1988), which is used as a treatment for thrombotic disorders such as deep vein thrombosis (DVT), pulmonary embolism and to prevent stroke (Ageno et al. 2012). A common side-effect of warfarin anticoagulation is bleeding which can be counteracted by vitamin K supplementation (Ageno et al. 2012). The exact mechanism by which warfarin inhibits VKORC1 remains elusive. Several recent mechanistic studies suggest competitive binding of a key residue in VKORC1 (Czogalla et al. 2017) or blockage of a dynamic electron-transfer process in VKORC1 (Shen et al. 2017). New oral anticoagulants (NOAC; rivaroxaban, dabigatran, apixaban) have become available as an alternative to warfarin anticoagulation. Unlike warfarin, they are fast-acting and don't require routine coagulation monitoring (Gomez-Outes et al. 2013).</Comment>
+    <BiopaxRef>a1d</BiopaxRef>
+    <BiopaxRef>ca8</BiopaxRef>
+    <BiopaxRef>bfd</BiopaxRef>
+    <BiopaxRef>e47</BiopaxRef>
+    <BiopaxRef>e6b</BiopaxRef>
+    <BiopaxRef>c4f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="540.0" Y="122.0" />
+      <Point X="467.0" Y="122.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c6a49" />
+      <Anchor Position="0.99" Shape="None" GraphId="a1188" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9026967" />
+  </Interaction>
+  <Interaction GraphId="b8eda">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="554.0" Y="209.0" GraphRef="aa58e" RelX="-1.0" RelY="0.0" />
+      <Point X="540.0" Y="122.0" GraphRef="c6a49" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9026967" />
+  </Interaction>
+  <Interaction GraphId="ffaa6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="536.0" Y="76.0" GraphRef="ad35f" RelX="-1.0" RelY="0.0" />
+      <Point X="540.0" Y="122.0" GraphRef="c6a49" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9026967" />
+  </Interaction>
+  <Interaction GraphId="a0998">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="467.0" Y="122.0" GraphRef="a1188" RelX="-0.7300000000000182" RelY="0.0" />
+      <Point X="463.0" Y="123.0" GraphRef="fb69d" RelX="0.9831932773109243" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-9026967" />
+  </Interaction>
+  <Label TextLabel="endoplasmic reticulum lumen" GraphId="c8d32" GroupRef="c3c3c">
+    <Graphics CenterX="333.5" CenterY="446.5" Width="203.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="cytosol" GraphId="d19bc" GroupRef="b6581">
+    <Graphics CenterX="114.0" CenterY="62.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="fe741" GroupRef="c3c3c">
+    <Graphics CenterX="330.0" CenterY="295.0" Width="546.0" Height="364.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="d07c5" GroupRef="b6581">
+    <Graphics CenterX="356.0" CenterY="260.0" Width="692.0" Height="498.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="c82e9" GraphId="f9cd2" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-6806371" />
+  </Group>
+  <Group GroupId="b153d" GraphId="cf90e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-9035037" />
+  </Group>
+  <Group GroupId="e15fd" GraphId="b1a40">
+    <Attribute Key="complex_id" Value="R-HSA-9035082" />
+  </Group>
+  <Group GroupId="c3c3c" GraphId="a9a77" Style="Group" />
+  <Group GroupId="b6581" GraphId="a2031" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f7e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9845520</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A missense mutation in gamma-glutamyl carboxylase gene causes combined deficiency of all vitamin K-dependent blood coagulation factors.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brenner B, Sánchez-Vega B, Wu SM, Lanir N, Stafford DW, Solera J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fef">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25753038</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GGCX and VKORC1 inhibit osteocalcin endocrine functions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferron M, Lacombe J, Germain A, Oury F, Karsenty G.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a19">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23928358</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VKORC1L1, an enzyme rescuing the vitamin K 2,3-epoxide reductase activity in some extrahepatic tissues during anticoagulation therapy.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hammed A, Matagrin B, Spohn G, Prouillac C, Benoit E, Lattard V.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f1a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24085302</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menadione (vitamin K3) is a catabolic product of oral phylloquinone (vitamin K1) in the intestine and a circulating precursor of tissue menaquinone-4 (vitamin K2) in rats.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirota Y, Tsugawa N, Nakagawa K, Suhara Y, Tanaka K, Uchino Y, Takeuchi A, Sawada N, Kamao M, Wada A, Okitsu T, Okano T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fdb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24489112</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recent trends in the metabolism and cell biology of vitamin K with special reference to vitamin K cycling and MK-4 biosynthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shearer MJ, Newman P.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fd4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22516726</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin K nutrition, metabolism, and requirements: current concepts and future research.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shearer MJ, Fu X, Booth SL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24532791</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conserved loop cysteines of vitamin K epoxide reductase complex subunit 1-like 1 (VKORC1L1) are involved in its active site regeneration.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tie JK, Jin DY, Stafford DW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ffd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23918929</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vitamin K oxidoreductase is a multimer that efficiently reduces vitamin K epoxide to hydroquinone to allow vitamin K-dependent protein carboxylation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rishavy MA, Hallgren KW, Wilson LA, Usubalieva A, Runge KW, Berkner KL.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b61">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25874989</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional characterization of the vitamin K2 biosynthetic enzyme UBIAD1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirota Y, Nakagawa K, Sawada N, Okuda N, Suhara Y, Uchino Y, Kimoto T, Funahashi N, Kamao M, Tsugawa N, Okano T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c2e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20953171</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of UBIAD1 as a novel human menaquinone-4 biosynthetic enzyme.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nakagawa K, Hirota Y, Sawada N, Yuge N, Watanabe M, Uchino Y, Okuda N, Shimomura Y, Suhara Y, Okano T.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d16">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25742604</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The prenyltransferase UBIAD1 is the target of geranylgeraniol in degradation of HMG CoA reductase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schumacher MM, Elsabrouty R, Seemann J, Jo Y, DeBose-Boyd RA.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c26">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14765195</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identification of the gene for vitamin K epoxide reductase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li T, Chang CY, Jin DY, Lin PJ, Khvorova A, Stafford DW.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cfc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14765194</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutations in VKORC1 cause warfarin resistance and multiple coagulation factor deficiency type 2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rost S, Fregin A, Ivaskevicius V, Conzelmann E, Hörtnagel K, Pelz HJ, Lappegard K, Seifried E, Scharrer I, Tuddenham EG, Müller CR, Strom TM, Oldenburg J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ff8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21367861</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human vitamin K 2,3-epoxide reductase complex subunit 1-like 1 (VKORC1L1) mediates vitamin K-dependent intracellular antioxidant function.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Westhofen P, Watzka M, Marinova M, Hass M, Kirfel G, Müller J, Bevans CG, Müller CR, Oldenburg J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a1d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25639072</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[On the history of vitamin K, dicoumarol and warfarin].</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norn S, Permin H, Kruse E, Kruse PR.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ca8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15743920</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of the T-cell response in a patient with phenindione hypersensitivity.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naisbitt DJ, Farrell J, Chamberlain PJ, Hopkins JE, Berry NG, Pirmohamed M, Park BK.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bfd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23919835</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacogenetic-guided dosing of coumarin anticoagulants: algorithms for warfarin, acenocoumarol and phenprocoumon.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verhoef TI, Redekop WK, Daly AK, van Schie RM, de Boer A, Maitland-van der Zee AH.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e47">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27941861</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warfarin and vitamin K compete for binding to Phe55 in human VKOR.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Czogalla KJ, Biswas A, Höning K, Hornung V, Liphardt K, Watzka M, Oldenburg J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e6b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27918545</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warfarin traps human vitamin K epoxide reductase in an intermediate state during electron transfer.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shen G, Cui W, Zhang H, Zhou F, Huang W, Liu Q, Yang Y, Li S, Bowman GR, Sadler JE, Gross ML, Li W.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12060134</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutic quality control of oral anticoagulant therapy comparing the short-acting acenocoumarol and the long-acting phenprocoumon.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gadisseur AP, van der Meer FJ, Adriaansen HJ, Fihn SD, Rosendaal FR.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+

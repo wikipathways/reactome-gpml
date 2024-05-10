@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Carnitine synthesis" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Carnitine is required for the shuttling of fatty acids into the mitochondrial matrix and its deficiency is associated with metabolic diseases. It is abundant in a typical Western diet but can also be synthesized in four steps from trimethyllysine (generated in turn by the S-adenosyl-methionine-mediated methylation of lysine residues in proteins, followed by protein hydrolysis). The enzymes that catalyze the first three steps of carnitine synthesis, converting trimethyllysine to gamma-butyrobetaine, are widely distributed in human tissues. The enzyme that catalyzes the last reaction, converting gamma-butyrobetaine to carnitine, is found only in liver and kidney cells, and at very low levels in brain tissues. Other tissues that require carnitine, such as muscle, are dependent on transport systems that mediate its export from the liver and uptake by other tissues (Bremer 1983; Kerner &amp; Hoppel 1998; Rebouche &amp; Engel 1980; Vaz &amp; Wanders 2002).
+ View original pathway at [http://www.reactome.org/PathwayBrowser/#DIAGRAM=71262 Reactome].</Comment>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 71262</Comment>
+  <Comment Source="Reactome-version">Reactome version: 88</Comment>
+  <BiopaxRef>f4a</BiopaxRef>
+  <BiopaxRef>fba</BiopaxRef>
+  <BiopaxRef>a3f</BiopaxRef>
+  <BiopaxRef>c0c</BiopaxRef>
+  <Attribute Key="reactome_id" Value="71262" />
+  <Graphics BoardWidth="898.0" BoardHeight="1062.0" />
+  <DataNode TextLabel="O2" GraphId="ffa10" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="552.0" CenterY="159.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="TMLYS" GraphId="b7812" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="594.5" CenterY="120.0" Width="55.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58100" />
+  </DataNode>
+  <DataNode TextLabel="HTMLYS" GraphId="a0cbc" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="597.0" CenterY="288.0" Width="64.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:141499" />
+  </DataNode>
+  <DataNode TextLabel="SUCCA" GraphId="d0f90" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="663.0" CenterY="269.0" Width="56.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30031" />
+  </DataNode>
+  <DataNode TextLabel="TMLHE:AscH-:Fe2+&#xA;dimer" GraphId="aff6f" Type="Complex">
+    <BiopaxRef>fe2</BiopaxRef>
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="704.0" CenterY="204.0" Width="132.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-71098" />
+  </DataNode>
+  <DataNode TextLabel="AscH- " GraphId="bfac3" Type="Metabolite" GroupRef="b3cd3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71098" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="930.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:38290" />
+  </DataNode>
+  <DataNode TextLabel="TMLHE " GraphId="e3123" Type="Protein" GroupRef="b3cd3">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-71098" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="950.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NVH6" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="c123d" Type="Metabolite" GroupRef="b3cd3">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Attribute Key="complex_id" Value="R-HSA-71098" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="970.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="c6fb7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="553.5" CenterY="241.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="b84a8" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="677.0" CenterY="150.0" Width="44.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="HTMLYS" GraphId="dfc8e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="345.0" CenterY="287.0" Width="64.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:141499" />
+  </DataNode>
+  <DataNode TextLabel="Gly" GraphId="fce72" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="404.5" CenterY="392.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57305" />
+  </DataNode>
+  <DataNode TextLabel="TEABL" GraphId="f7ae3" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="345.0" CenterY="412.0" Width="54.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18020" />
+  </DataNode>
+  <DataNode TextLabel="SHMT1 tetramer" GraphId="da7f5" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="257.5" CenterY="343.0" Width="79.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-71243" />
+  </DataNode>
+  <DataNode TextLabel="PXLP-SHMT1 " GraphId="ae7ae" Type="Protein" GroupRef="fce2c">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71243" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="970.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P34896" />
+  </DataNode>
+  <DataNode TextLabel="TEABT" GraphId="d0d48" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="345.0" CenterY="627.0" Width="56.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16244" />
+  </DataNode>
+  <DataNode TextLabel="ALDH9A1 tetramer" GraphId="c5236" Type="Complex">
+    <BiopaxRef>be7</BiopaxRef>
+    <BiopaxRef>c89</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="432.0" CenterY="516.0" Width="82.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-71258" />
+  </DataNode>
+  <DataNode TextLabel="ALDH9A1 " GraphId="b4318" Type="Protein" GroupRef="ce16f">
+    <BiopaxRef>be7</BiopaxRef>
+    <BiopaxRef>c89</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71258" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="380.0" CenterY="970.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49189" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="bbf4a" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="416.5" CenterY="585.0" Width="53.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57945" />
+  </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="a596e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="398.0" CenterY="464.0" Width="54.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57540" />
+  </DataNode>
+  <DataNode TextLabel="CAR" GraphId="e3d2e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="345.5" CenterY="798.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17126" />
+  </DataNode>
+  <DataNode TextLabel="SUCCA" GraphId="bf53c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="296.0" CenterY="774.0" Width="56.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30031" />
+  </DataNode>
+  <DataNode TextLabel="BBOX1:AscH-:Fe2+&#xA;dimer" GraphId="bc7f1" Type="Complex">
+    <BiopaxRef>e37</BiopaxRef>
+    <BiopaxRef>cd3</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="452.5" CenterY="705.0" Width="131.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-71107" />
+  </DataNode>
+  <DataNode TextLabel="BBOX1 " GraphId="e1d74" Type="Protein" GroupRef="bfb09">
+    <BiopaxRef>e37</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71107" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="520.0" CenterY="970.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75936" />
+  </DataNode>
+  <DataNode TextLabel="Fe2+ " GraphId="bff31" Type="Metabolite" GroupRef="bfb09">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71107" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="520.0" CenterY="990.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29033" />
+  </DataNode>
+  <DataNode TextLabel="AscH- " GraphId="ad4f4" Type="Metabolite" GroupRef="bfb09">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-71107" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="520.0" CenterY="1010.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:38290" />
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="b0ea5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="416.5" CenterY="770.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16526" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="cafe4" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="296.0" CenterY="657.0" Width="44.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16810" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="b0641" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="400.0" CenterY="655.0" Width="34.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15379" />
+  </DataNode>
+  <DataNode TextLabel="H2O" GraphId="ea1a7" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="296.0" CenterY="465.0" Width="44.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15377" />
+  </DataNode>
+  <DataNode TextLabel="H+" GraphId="baa29" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="295.0" CenterY="578.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15378" />
+  </DataNode>
+  <DataNode TextLabel="CAR" GraphId="ffcb5" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="60.5" CenterY="797.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17126" />
+  </DataNode>
+  <DataNode TextLabel="carnitine exporter" GraphId="dd7b5">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="140.0" CenterY="848.0" Width="116.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-165022" />
+  </DataNode>
+  <Interaction GraphId="f5a96">
+    <Comment Source="Reactome">Trimethyllysine dioxygenase (TMLHE) dimer in the mitochondrial matrix catalyzes the reaction of oxygen, 2-oxoglutarate (2OG), and N6,N6,N6-trimethyl-L-lysine (TMLYS) to form CO2, 3-hydroxy-N6,N6,N6-trimethyl-L-lysine (HTMLYS), and succinate (SUCCA) (Monfregola et al. 2005; Vaz et al. 2001).</Comment>
+    <BiopaxRef>bc7</BiopaxRef>
+    <BiopaxRef>fe2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="595.0" Y="181.0" />
+      <Point X="595.0" Y="229.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cbd2e" />
+      <Anchor Position="0.99" Shape="None" GraphId="c9c97" />
+      <Anchor Position="0.5" Shape="None" GraphId="aec0e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71241" />
+  </Interaction>
+  <Interaction GraphId="c33e0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="569.0" Y="159.0" GraphRef="ffa10" RelX="1.0" RelY="0.0" />
+      <Point X="595.0" Y="181.0" GraphRef="cbd2e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71241" />
+  </Interaction>
+  <Interaction GraphId="f07dc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="594.0" Y="135.0" GraphRef="b7812" RelX="-0.01818181818181818" RelY="1.0" />
+      <Point X="595.0" Y="181.0" GraphRef="cbd2e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71241" />
+  </Interaction>
+  <Interaction GraphId="e21c3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="655.0" Y="150.0" GraphRef="b84a8" RelX="-1.0" RelY="0.0" />
+      <Point X="595.0" Y="181.0" GraphRef="cbd2e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71241" />
+  </Interaction>
+  <Interaction GraphId="f3bdd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="595.0" Y="229.0" GraphRef="c9c97" RelX="0.0" RelY="0.4800000000000182" />
+      <Point X="597.0" Y="273.0" GraphRef="a0cbc" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71241" />
+  </Interaction>
+  <Interaction GraphId="ec794">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="595.0" Y="229.0" GraphRef="c9c97" RelX="0.0" RelY="0.4800000000000182" />
+      <Point X="635.0" Y="269.0" GraphRef="d0f90" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71241" />
+  </Interaction>
+  <Interaction GraphId="c86fc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="595.0" Y="229.0" GraphRef="c9c97" RelX="0.0" RelY="0.4800000000000182" />
+      <Point X="574.0" Y="241.0" GraphRef="c6fb7" RelX="0.9534883720930233" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71241" />
+  </Interaction>
+  <Interaction GraphId="a7be6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="638.0" Y="204.0" GraphRef="aff6f" RelX="-1.0" RelY="0.0" />
+      <Point X="596.0" Y="205.0" GraphRef="aec0e" RelX="1.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71241" />
+  </Interaction>
+  <Interaction GraphId="fe561">
+    <Comment Source="Reactome">Cytosolic serine hydroxymethyltransferase tetramer (SHMT1) catalyzes the reaction of (3S)-3-hydroxy-N(6),N(6),N(6)-trimethyl-L-lysine(1+) (NTMLYS) to form glycine (Gly) and 4-trimethylammoniobutanal (TEABL). Ogata &amp; Fujioka (1981) and Masuda et al. (1987) purified a tetrameric cytosolic rat enzyme that in the presence of tetrahydrofolate catalyzes the conversion of serine to glycine but that in its absence catalyzes the cleavage of L-allothreonine to glycine and an aldehyde. Vaz &amp; Wanders (2002) inferred that this enzyme and its human ortholog mediate the cleavage of HTMLYS to yield TEABL and Gly in vivo. This inference has been confirmed by computational docking studies and assays of the activity of purified recombinant human enzyme in vitro (Percudani et al. 2023).</Comment>
+    <BiopaxRef>e3b</BiopaxRef>
+    <BiopaxRef>a3e</BiopaxRef>
+    <BiopaxRef>c0c</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="305.0" />
+      <Point X="345.0" Y="374.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a1828" />
+      <Anchor Position="0.99" Shape="None" GraphId="ef3b6" />
+      <Anchor Position="0.5" Shape="None" GraphId="d9a79" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71249" />
+  </Interaction>
+  <Interaction GraphId="a8710">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="302.0" GraphRef="dfc8e" RelX="0.0" RelY="1.0" />
+      <Point X="345.0" Y="305.0" GraphRef="a1828" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71249" />
+  </Interaction>
+  <Interaction GraphId="a181d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="374.0" GraphRef="ef3b6" RelX="0.0" RelY="0.6899999999999977" />
+      <Point X="387.0" Y="392.0" GraphRef="fce72" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71249" />
+  </Interaction>
+  <Interaction GraphId="a29f1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="374.0" GraphRef="ef3b6" RelX="0.0" RelY="0.6899999999999977" />
+      <Point X="345.0" Y="397.0" GraphRef="f7ae3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71249" />
+  </Interaction>
+  <Interaction GraphId="e6c92">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="296.0" Y="343.0" GraphRef="da7f5" RelX="0.9746835443037974" RelY="0.0" />
+      <Point X="345.0" Y="341.0" GraphRef="d9a79" RelX="0.0" RelY="1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71249" />
+  </Interaction>
+  <Interaction GraphId="d9d12">
+    <Comment Source="Reactome">Cytosolic 4-trimethylaminobutyraldehyde dehydrogenase (ALDH9A1) tetramer catalyzes the reaction of NAD+ and 4-trimethylammoniobutanal (TEABL) to form 4-trimethylammoniobutanoate (TEABT) and NADH + H+ (Koncitkova et al. 2019; Kurys et al. 1989; Vaz et al. 2000).</Comment>
+    <BiopaxRef>dbb</BiopaxRef>
+    <BiopaxRef>be7</BiopaxRef>
+    <BiopaxRef>c89</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="346.0" Y="478.0" />
+      <Point X="347.0" Y="552.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f2dbb" />
+      <Anchor Position="0.99" Shape="None" GraphId="d266d" />
+      <Anchor Position="0.5" Shape="None" GraphId="eb455" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71260" />
+  </Interaction>
+  <Interaction GraphId="d87f1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="427.0" GraphRef="f7ae3" RelX="0.0" RelY="1.0" />
+      <Point X="346.0" Y="478.0" GraphRef="f2dbb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71260" />
+  </Interaction>
+  <Interaction GraphId="df6c6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="371.0" Y="464.0" GraphRef="a596e" RelX="-1.0" RelY="0.0" />
+      <Point X="346.0" Y="478.0" GraphRef="f2dbb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71260" />
+  </Interaction>
+  <Interaction GraphId="f9e0d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="318.0" Y="465.0" GraphRef="ea1a7" RelX="1.0" RelY="0.0" />
+      <Point X="346.0" Y="478.0" GraphRef="f2dbb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71260" />
+  </Interaction>
+  <Interaction GraphId="b1d5c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="347.0" Y="552.0" GraphRef="d266d" RelX="0.009999999999990905" RelY="0.7400000000000091" />
+      <Point X="313.0" Y="578.0" GraphRef="baa29" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71260" />
+  </Interaction>
+  <Interaction GraphId="d8b4d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="347.0" Y="552.0" GraphRef="d266d" RelX="0.009999999999990905" RelY="0.7400000000000091" />
+      <Point X="345.0" Y="612.0" GraphRef="d0d48" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71260" />
+  </Interaction>
+  <Interaction GraphId="b7d3b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="347.0" Y="552.0" GraphRef="d266d" RelX="0.009999999999990905" RelY="0.7400000000000091" />
+      <Point X="390.0" Y="585.0" GraphRef="bbf4a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71260" />
+  </Interaction>
+  <Interaction GraphId="bd593">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="391.0" Y="516.0" GraphRef="c5236" RelX="-1.0" RelY="0.0" />
+      <Point X="346.0" Y="513.0" GraphRef="eb455" RelX="-0.5" RelY="-2.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71260" />
+  </Interaction>
+  <Interaction GraphId="ccc42">
+    <Comment Source="Reactome">Cytosolic gamma-butyrobetaine hydroxylase dimer (BBOX1), a dioxygenase, catalyzes the reaction of oxygen, 4-trimethylammoniobutanoate (TEABT), and 2-oxoglutarate (2OG)to form CO2, succinate (SUCCA), and carnitine (CAR) (Lindstedt and Nordin 1984; Tars et al. 2010; Vaz et al. 1998).</Comment>
+    <BiopaxRef>cd3</BiopaxRef>
+    <BiopaxRef>e11</BiopaxRef>
+    <BiopaxRef>e37</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="668.0" />
+      <Point X="345.0" Y="743.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c916f" />
+      <Anchor Position="0.99" Shape="None" GraphId="bb952" />
+      <Anchor Position="0.5" Shape="None" GraphId="feb25" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71261" />
+  </Interaction>
+  <Interaction GraphId="f9b1c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="642.0" GraphRef="d0d48" RelX="0.0" RelY="1.0" />
+      <Point X="345.0" Y="668.0" GraphRef="c916f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71261" />
+  </Interaction>
+  <Interaction GraphId="c423e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="383.0" Y="655.0" GraphRef="b0641" RelX="-1.0" RelY="0.0" />
+      <Point X="345.0" Y="668.0" GraphRef="c916f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71261" />
+  </Interaction>
+  <Interaction GraphId="d69c6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="318.0" Y="657.0" GraphRef="cafe4" RelX="1.0" RelY="0.0" />
+      <Point X="345.0" Y="668.0" GraphRef="c916f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71261" />
+  </Interaction>
+  <Interaction GraphId="cce02">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="743.0" GraphRef="bb952" RelX="0.0" RelY="0.75" />
+      <Point X="324.0" Y="774.0" GraphRef="bf53c" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71261" />
+  </Interaction>
+  <Interaction GraphId="b2901">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="743.0" GraphRef="bb952" RelX="0.0" RelY="0.75" />
+      <Point X="345.0" Y="783.0" GraphRef="e3d2e" RelX="-0.024390243902439025" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71261" />
+  </Interaction>
+  <Interaction GraphId="a5806">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="345.0" Y="743.0" GraphRef="bb952" RelX="0.0" RelY="0.75" />
+      <Point X="395.0" Y="770.0" GraphRef="b0ea5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71261" />
+  </Interaction>
+  <Interaction GraphId="cb258">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="387.0" Y="705.0" GraphRef="bc7f1" RelX="-1.0" RelY="0.0" />
+      <Point X="345.0" Y="704.0" GraphRef="feb25" RelX="0.0" RelY="-1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-71261" />
+  </Interaction>
+  <Interaction GraphId="ef6ee">
+    <Comment Source="Reactome">Studies of carnitine (CAR) export from intact rat liver indicate that this process is mediated by a specific, saturable transporter molecule (Sandor et al. 1985). The transporter that mediates this process in human tissues has not been identified, but its properties are distinct from those of SLC22A5 / OCTN2, the major transport protein responsible for carnitine uptake (Tamai et al. 1998; Wu et al. 1999). Indeed, as noted by Vaz &amp; Wanders (2002), export of carnitine and its metabolites is probably mediated by another transport system, or possibly by passive diffusion.</Comment>
+    <BiopaxRef>bf8</BiopaxRef>
+    <BiopaxRef>e3f</BiopaxRef>
+    <BiopaxRef>c0c</BiopaxRef>
+    <BiopaxRef>a70</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="322.0" Y="797.0" />
+      <Point X="84.0" Y="796.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a71ef" />
+      <Anchor Position="0.99" Shape="None" GraphId="ce143" />
+      <Anchor Position="0.5" Shape="None" GraphId="eedd5" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-164967" />
+  </Interaction>
+  <Interaction GraphId="b4081">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="325.0" Y="798.0" GraphRef="e3d2e" RelX="-1.0" RelY="0.0" />
+      <Point X="322.0" Y="797.0" GraphRef="a71ef" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-164967" />
+  </Interaction>
+  <Interaction GraphId="ac11f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="84.0" Y="796.0" GraphRef="ce143" RelX="-2.380000000000024" RelY="-0.009999999999990905" />
+      <Point X="80.0" Y="797.0" GraphRef="ffcb5" RelX="0.9512195121951219" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-164967" />
+  </Interaction>
+  <Interaction GraphId="a6884">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="198.0" Y="848.0" GraphRef="dd7b5" RelX="1.0" RelY="0.0" />
+      <Point X="140.0" Y="796.0" GraphRef="eedd5" RelX="-63.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-164967" />
+  </Interaction>
+  <Interaction GraphId="fd683">
+    <Comment Source="Reactome">HTMLYS (3-Hydroxy-N6,N6,N6-trimethyl-L-lysine) moves from the mitochondrial matrix to the cytosol (Longo et al. 2016). The molecular mechanism for this translocation is unknown.</Comment>
+    <BiopaxRef>d9f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="562.0" Y="287.0" />
+      <Point X="380.0" Y="286.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c5d3c" />
+      <Anchor Position="0.99" Shape="None" GraphId="ce6c9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8949413" />
+  </Interaction>
+  <Interaction GraphId="a31da">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="565.0" Y="288.0" GraphRef="a0cbc" RelX="-1.0" RelY="0.0" />
+      <Point X="562.0" Y="287.0" GraphRef="c5d3c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8949413" />
+  </Interaction>
+  <Interaction GraphId="a4088">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="380.0" Y="286.0" GraphRef="ce6c9" RelX="-1.8199999999999932" RelY="-0.009999999999990905" />
+      <Point X="377.0" Y="287.0" GraphRef="dfc8e" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8949413" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="f053b" GroupRef="b8b09">
+    <Graphics CenterX="813.0" CenterY="827.5" Width="64.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="mitochondrial matrix" GraphId="b920b" GroupRef="f2e59">
+    <Graphics CenterX="593.5" CenterY="335.5" Width="147.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="f745e" GroupRef="b8b09">
+    <Graphics CenterX="497.0" CenterY="469.5" Width="726.0" Height="865.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="af6d6" GroupRef="f2e59">
+    <Graphics CenterX="647.5" CenterY="230.0" Width="301.0" Height="320.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="b3cd3" GraphId="bc3bc" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-71098" />
+  </Group>
+  <Group GroupId="fce2c" GraphId="e25b3" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-71243" />
+  </Group>
+  <Group GroupId="ce16f" GraphId="ae079" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-71258" />
+  </Group>
+  <Group GroupId="bfb09" GraphId="cec83" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-71107" />
+  </Group>
+  <Group GroupId="b8b09" GraphId="f1566" Style="Group" />
+  <Group GroupId="f2e59" GraphId="e65ab" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6361812</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carnitine--metabolism and functions.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bremer J.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fba">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9706223</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic disorders of carnitine metabolism and their nutritional management.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kerner J, Hoppel C.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6770910</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue distribution of carnitine biosynthetic enzymes in man.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebouche CJ, Engel AG.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c0c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11802770</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carnitine biosynthesis in mammals.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaz FM, Wanders RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11431483</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular and Biochemical Characterization of Rat epsilon -N-Trimethyllysine Hydroxylase, the First Enzyme of Carnitine Biosynthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaz FM, Ofman R, Westinga K, Back JW, Wanders RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2925663</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human aldehyde dehydrogenase. Purification and characterization of a third isozyme with low Km for gamma-aminobutyraldehyde.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kurys G, Ambroziak W, Pietruszko R.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c89">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10702312</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular and biochemical characterization of rat gamma-trimethylaminobutyraldehyde dehydrogenase and evidence for the involvement of human aldehyde dehydrogenase 9 in carnitine biosynthesis.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaz FM, Fouchier SW, Ofman R, Sommer M, Wanders RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e37">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9753662</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carnitine biosynthesis: identification of the cDNA encoding human gamma-butyrobetaine hydroxylase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaz FM, van Gool S, Ofman R, Ijlst L, Wanders RJ.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6497835</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple forms of gamma-butyrobetaine hydroxylase (EC 1.14.11.1).</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lindstedt S, Nordin I.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bc7">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15754339</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional analysis of TMLH variants and definition of domains required for catalytic activity and mitochondrial targeting.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monfregola J, Cevenini A, Terracciano A, van Vlies N, Arbucci S, Wanders RJ, D'Urso M, Vaz FM, Ursini MV.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3110140</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Affinity purification and characterization of serine hydroxymethyltransferases from rat liver.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masuda T, Sakamoto M, Nishizaki I, Hayashi H, Yamamoto M, Wada H.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a3e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6795186</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purification and characterization of cytosolic and mitochondrial serine hydroxymethyltransferases from rat liver.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ogawa H, Fujioka M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30914451</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kinetic and structural analysis of human ALDH9A1.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Končitíková R, Vigouroux A, Kopečná M, Šebela M, Moréra S, Kopečný D.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e11">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20599753</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal structure of human gamma-butyrobetaine hydroxylase.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tars K, Rumnieks J, Zeltins A, Kazaks A, Kotelovica S, Leonciks A, Sharipo J, Viksna A, Kuka J, Liepinsh E, Dambrova M.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bf8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4005277</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Release of carnitine from the perfused rat liver.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sandor A, Kispal G, Melegh B, Alkonyi I.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e3f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9685390</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular and functional identification of sodium ion-dependent, high affinity human carnitine transporter OCTN2.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamai I, Ohashi R, Nezu J, Yabuuchi H, Oku A, Shimane M, Sai Y, Tsuji A.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a70">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10454528</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional characteristics and tissue distribution pattern of organic cation transporter 2 (OCTN2), an organic cation/carnitine transporter.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu X, Huang W, Prasad PD, Seth P, Rajan DP, Leibach FH, Chen J, Conway SJ, Ganapathy V.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d9f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26828774</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carnitine transport and fatty acid oxidation.</bp:TITLE>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Longo N, Frigeni M, Pasquali M.</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
+
