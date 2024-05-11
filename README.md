@@ -3,6 +3,7 @@
 Repository for GPML versions of Reactome pathways.
 
 Created with [reactome2gpml-mysql-docker](https://github.com/wikipathways/reactome2gpml-mysql-docker) and [reactome2gpml-converter](https://github.com/wikipathways/reactome2gpml-converter).
+The GPML files are in the `pathways` folder, while the WPRDF is in the `wp` folder.
 
 ## Literature
 
